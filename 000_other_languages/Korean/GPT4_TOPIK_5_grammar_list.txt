@@ -1,0 +1,118 @@
+~나마나 [namamana] (Because, since) |  | TOPIK II Level 5
+~남짓 [namjit] (About, or so) |  | TOPIK II Level 5
+~내내 [naenae] (Throughout, the whole time) |  | TOPIK II Level 5
+~네요 [neyo] (Expressing surprise) |  | TOPIK II Level 5
+~노릇이다 [noreusida] (Act as, function as) |  | TOPIK II Level 5
+~느라고 [neurago] (Because, in order to) |  | TOPIK II Level 5
+~는데다가 [neundedaga] (Moreover, furthermore) |  | TOPIK II Level 5
+~는측에서 [neuncheugeseo] (From the perspective of) |  | TOPIK II Level 5
+~다가도 [dagado] (Even if, even though) |  | TOPIK II Level 5
+~다니 [dani] (Expressing disbelief) |  | TOPIK II Level 5
+~답게 [dapge] (As befitting, like) |  | TOPIK II Level 5
+~대로 [daero] (As per, following) |  | TOPIK II Level 5
+~던데 [deonde] (Used to, before) |  | TOPIK II Level 5
+~도록 하다 [dorok hada] (Make sure that, ensure that) |  | TOPIK II Level 5
+~라든지 ~라든지 [radenji radenji] (Either or) |  | TOPIK II Level 5
+~려고 하다 [ryeogo hada] (Try to) |  | TOPIK II Level 5
+~만이 아니다 [mani anida] (Not only) |  | TOPIK II Level 5
+~마련이다 [maryeonida] (Bound to, tend to) |  | TOPIK II Level 5
+~면서 [myeonseo] (While) |  | TOPIK II Level 5
+~동안 [dongan] (During/While) |  | TOPIK II Level 5
+~부터는 [buteoneun] (From now on, since) |  | TOPIK II Level 5
+~서야 [seoya] (Only after) |  | TOPIK II Level 5
+~소문에는 [somuneneun] (I heard that) |  | TOPIK II Level 5
+~아/어 보이다 [a/eo boida] (To seem, appear) |  | TOPIK II Level 5
+~아/어야지 [a/eoyaji] (I should, I better) |  | TOPIK II Level 5
+~았/었다 치다 [at/eotda chida] (Let’s say, suppose) |  | TOPIK II Level 5
+~았/었던 것 같다 [at/eotdeon geot gatda] (It seemed that) |  | TOPIK II Level 5
+~았/었어야 했다 [at/eosseoya haetda] (Should have) |  | TOPIK II Level 5
+~어/아 가다 [eo/a gada] (While doing) |  | TOPIK II Level 5
+~어/아 갖다 [eo/a gatda] (To keep doing) |  | TOPIK II Level 5
+~어/아 달라다 [eo/a dallada] (To ask to do) |  | TOPIK II Level 5
+~어/아 다니다 [eo/a danida] (To keep doing) |  | TOPIK II Level 5
+~어/아 두다 [eo/a duda] (To stop doing) |  | TOPIK II Level 5
+~어/아 들다 [eo/a deulda] (Start to) |  | TOPIK II Level 5
+~어/아 버리다 [eo/a beorida] (To end up doing, regrettably) |  | TOPIK II Level 5
+~어/아 보다 [eo/a boda] (To try doing) |  | TOPIK II Level 5
+~어/아 서다 [eo/a seoda] (After doing) |  | TOPIK II Level 5
+~어/아 오다 [eo/a oda] (To come to do) |  | TOPIK II Level 5
+~어/아지다 [eo/ajida] (Become) |  | TOPIK II Level 5
+~었으면 좋겠다 [eosseumyeon jotgetda] (I wish it was/were) |  | TOPIK II Level 5
+~에 한하다 [e hanhada] (Limited to) |  | TOPIK II Level 5
+~에 한해서 [e hanhaeseo] (Only in, limited to) |  | TOPIK II Level 5
+~에 힘쓰다 [e himsseuda] (Put effort into) |  | TOPIK II Level 5
+~으나마나 [eunamana] (It's no use, to no avail) |  | TOPIK II Level 5
+~으니/니까 [euni/nikka] (So, since, because) |  | TOPIK II Level 5
+~을 바탕으로 [eul batangeuro] (Based on) |  | TOPIK II Level 5
+~을 빼다 [eul ppaeda] (Except for) |  | TOPIK II Level 5
+~을 사이 [eul sai] (Between) |  | TOPIK II Level 5
+~을 테니 [eul teni] (I assume/bet) |  | TOPIK II Level 5
+~을 통해 [eul tonghae] (Through, via) |  | TOPIK II Level 5
+~을/를 틈타 [eul/reul teumta] (Taking advantage of, during) |  | TOPIK II Level 5
+~이기는 한데 [igineun hande] (Although, but) |  | TOPIK II Level 5
+~이나 [ina] (Or something) |  | TOPIK II Level 5
+~이래 [irae] (Since then, like this) |  | TOPIK II Level 5
+~이러하다 [ireohada] (Like this, such) |  | TOPIK II Level 5
+~이리 [iri] (This way, like this) |  | TOPIK II Level 5
+~이미 [imi] (Already) |  | TOPIK II Level 5
+~인 바 [in ba] (Since, because it's the case that) |  | TOPIK II Level 5
+~인 이상 [in isang] (As long as, since) |  | TOPIK II Level 5
+~인즉슨 [injeuksseun] (Which means, in other words) |  | TOPIK II Level 5
+~일 리가 없다 [il riga eopda] (Cannot be, it's not possible that) |  | TOPIK II Level 5
+~일수록 [ilsulok] (The more ~, the more ~) |  | TOPIK II Level 5
+~지 않을테니 [ji anheulteni] (Won't, wouldn't) |  | TOPIK II Level 5
+~지만 [jimyeon] (But, although) |  | TOPIK II Level 5
+~지 않다/지 못하다 [ji anhda/ji mothada] (Not, don't, can't) |  | TOPIK II Level 5
+~지 얼마나 되다 [ji eolmana dweda] (How long has it been) |  | TOPIK II Level 5
+~지요/죠 [jiyo/jyo] (Isn't it, right) |  | TOPIK II Level 5
+~쯤 [jjeum] (About, around) |  | TOPIK II Level 5
+~처럼 [cheoreom] (Like, as) |  | TOPIK II Level 5
+~치고는 [chigoneun] (For, considering) |  | TOPIK II Level 5
+~테니라고 [tenirago] (Since, because) |  | TOPIK II Level 5
+~텐데 [tende] (Would, might) |  | TOPIK II Level 5
+~토록 [torok] (So ~ that, to the extent) |  | TOPIK II Level 5
+~하게 [hage] (Make, let) |  | TOPIK II Level 5
+~하고나서 [hagonaseo] (After doing) |  | TOPIK II Level 5
+~하고는 [hagoneun] (And then, after) |  | TOPIK II Level 5
+~하구나 [haguna] (Oh, so it's) |  | TOPIK II Level 5
+~하다가 [hadaga] (While doing, was doing) |  | TOPIK II Level 5
+~하다못해 [hadamothae] (To the extent that) |  | TOPIK II Level 5
+~하던 중에 [hadeon junge] (While I was doing) |  | TOPIK II Level 5
+~하기는 [hagineun] (Although, but) |  | TOPIK II Level 5
+~하기로 [hagiro] (Decide to) |  | TOPIK II Level 5
+~하기에 [hagie] (For) |  | TOPIK II Level 5
+~하려고 하다 [haryeogo hada] (Try to do) |  | TOPIK II Level 5
+~하마다 [hamada] (Every time) |  | TOPIK II Level 5
+~하면 할수록 [hamyeon halsurok] (The more ~, the more ~) |  | TOPIK II Level 5
+~하면서 [hamyeonseo] (While doing) |  | TOPIK II Level 5
+~하시겠습니까? [hasigesseubnikka?] (Would you?) |  | TOPIK II Level 5
+~하자 [haja] (Let's, as soon as) |  | TOPIK II Level 5
+~하여 [hayeo] (So, therefore) |  | TOPIK II Level 5
+~하여야 [hayeoya] (Have to, should) |  | TOPIK II Level 5
+~하자마자 [hajamaja] (As soon as) |  | TOPIK II Level 5
+~하여서는 안 되다 [hayeoseoneun an doeda] (Must not) |  | TOPIK II Level 5
+~하기보다 [hagiboda] (Rather than) |  | TOPIK II Level 5
+~하기까지 [hagikkaji] (Even) |  | TOPIK II Level 5
+~하기도 하다 [hagido hada] (Sometimes) |  | TOPIK II Level 5
+~하나 [hana] (But, however) |  | TOPIK II Level 5
+~하느라 [haneura] (Because, in order to) |  | TOPIK II Level 5
+~하는 한 [haneun han] (As long as) |  | TOPIK II Level 5
+~하는 김에 [haneun kime] (While at it) |  | TOPIK II Level 5
+~하는 편이다 [haneun pyeonida] (Tend to) |  | TOPIK II Level 5
+~하는 대로 [haneun daero] (As soon as) |  | TOPIK II Level 5
+~하다 보면 [hada bomyeon] (If you keep doing) |  | TOPIK II Level 5
+~하다 보니 [hada boni] (As I was doing) |  | TOPIK II Level 5
+~하려는 뜻이다 [haryeoneun tteushida] (Intend to) |  | TOPIK II Level 5
+~하면 ~하다 [hamyeon hada] (If ~ then) |  | TOPIK II Level 5
+~할 만하다 [hal manhada] (Worth to) |  | TOPIK II Level 5
+~할 바에 [hal bae] (Rather than) |  | TOPIK II Level 5
+~할 리가 없다 [hal riga eopda] (There's no way that) |  | TOPIK II Level 5
+~할 때마다 [hal ttaemada] (Every time when) |  | TOPIK II Level 5
+~할 힘이 없다 [hal himi eopda] (Don't have the strength/energy to) |  | TOPIK II Level 5
+~할 것 같다 [hal geot gatda] (Seems like, feels like) |  | TOPIK II Level 5
+~할 것이다 [hal geosida] (Will) |  | TOPIK II Level 5
+~할 줄 알다 [hal jul alda] (Know how to) |  | TOPIK II Level 5
+~할지라도 [haljirado] (Even if) |  | TOPIK II Level 5
+~할지언정 [haljieonjeong] (Regardless of whether) |  | TOPIK II Level 5
+~함에 있어 [hame isseo] (In terms of) |  | TOPIK II Level 5
+~해 보이다 [hae boida] (Look/seem to be) |  | TOPIK II Level 5

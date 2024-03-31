@@ -1,0 +1,38 @@
+we want the text to speech translator to be running system wide
+so we installed it with pip
+
+Installing collected packages: charset-normalizer, requests, gtts
+  WARNING: The script normalizer is installed in '/home/coil/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script gtts-cli is installed in '/home/coil/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed charset-normalizer-3.0.1 gtts-2.3.1 requests-2.28.2
+
+
+we need to run the binary with full path
+coil@coil-VM:~/Desktop$ ls 
+
+coil@coil-VM:~$ vim .bashrc
+coil@coil-VM:~$ source ~/.bashrc
+coil@coil-VM:~$ which gtts-cli
+/home/coil/.local/bin//gtts-cli
+coil@coil-VM:~$ 
+
+i have added this line:
+export PATH=$PATH:/home/coil/.local/bin/
+
+/home/coil/.local/bin/gtts-cli
+
+/home/coil/.local/bin/gtts-cli '僕たちは今年の夏を山中で過ごしたいと思っている' --lang ja --output out_ja_0.mp3
+
+
+process words:
+
+
+
+
+process sentences:
+coil@coil-VM:~/Desktop/zen_lingo_text_to_speech$ python3 app_sentences.py sentences.json
+
+
+

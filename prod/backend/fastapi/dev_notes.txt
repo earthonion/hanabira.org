@@ -1,0 +1,46 @@
+pip install fastapi
+pip install uvicorn
+pip install youtube-dl
+pip install asyncio
+pip install -U openai-whisper
+pip install setuptools-rust
+pip install watchgod # not a typo, watchgod manages SIGNIFICANTLY reduces CPU load during fastapi hot reloading
+pip install fastapi-cors
+
+
+how to start fastapi backend
+uvicorn app:app --reload --port 5000
+
+--- call endpoints like ---
+@app.post("/download")
+curl -X POST http://localhost:8000/download -H "Content-Type: application/json" -d '{"video_url": "https://www.youtube.com/watch?v=9N_A7KEiXhg"}'
+
+@app.get("/files")
+curl -X GET "http://localhost:8000/files"
+
+@app.post("/transcribe")
+curl -X POST "http://localhost:8000/transcribe" -H "Content-Type: application/json" -d '{"file_name": "01一生のお願い教科書にない日本語9N_A7KEiXhg.mp3"}'
+
+@app.get("/text_chunks/{file_name}")
+coil@coil-VM:~/Desktop$ curl "http://localhost:8000/text_chunks/$(echo "01一生のお願い教科書にない日本語9N_A7KEiXhg.mp3.txt" | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))")?chunk_num=0&chunk_size=30"
+{"total_chunks":2,"chunk_num":0,"chunk":"あ、ハンちゃん、ハンちゃん、ハンちゃん、ちょっと来た、ちょっと来て\n明日中国語の試験あるんだけどさ\nあー、そうなのか、かまってね\nうん、でもさ、ん?\n何?\nあんまり勉強してなくては?\nうん?\nそっか、まぁ、でも時間ないし、しばたかないよね\nそう、なんだけどさ、まぁ、かまって、じゃあね\nあー、順番で、順番で\nえ、何?\nハンちゃん、さ、中国語を照らせらだよね\nまぁ、中国語人だからね\nこの問題も、全部分かるよね\nまぁ、分かるよ\n明日、ひま?\nまぁ、ひまだけどね\n明日は、私と一緒に試験受けてくれない?\nえ、なんで?\nそれで、私の前の勢気に座って欲しい\nどういうこと?\n前の勢気に座って\n髪をちょっと右にずらすだけでいいからさ\nえ、キャンディングってこと?\nそういうこと\n旅に決まってるでしょ、バカじゃないの?\nもう行くよ?\nあ、待って待って\n本当にお願い?\n何?"}
+coil@coil-VM:~/Desktop$
+
+equivalent call without python on CLI
+coil@coil-VM:~/Desktop$ curl "http://localhost:8000/text_chunks/$(perl -MURI::Escape -e 'print uri_escape($ARGV[0]);' "01一生のお願い教科書にない日本語9N_A7KEiXhg.mp3.txt")?chunk_num=0&chunk_size=30"
+{"total_chunks":2,"chunk_num":0,"chunk":"あ、ハンちゃん、ハンちゃん、ハンちゃん、ちょっと来た、ちょっと来て\n明日中国語の試験あるんだけどさ\nあー、そうなのか、かまってね\nうん、でもさ、ん?\n何?\nあんまり勉強してなくては?\nうん?\nそっか、まぁ、でも時間ないし、しばたかないよね\nそう、なんだけどさ、まぁ、かまって、じゃあね\nあー、順番で、順番で\nえ、何?\nハンちゃん、さ、中国語を照らせらだよね\nまぁ、中国語人だからね\nこの問題も、全部分かるよね\nまぁ、分かるよ\n明日、ひま?\nまぁ、ひまだけどね\n明日は、私と一緒に試験受けてくれない?\nえ、なんで?\nそれで、私の前の勢気に座って欲しい\nどういうこと?\n前の勢気に座って\n髪をちょっと右にずらすだけでいいからさ\nえ、キャンディングってこと?\nそういうこと\n旅に決まってるでしょ、バカじゃないの?\nもう行くよ?\nあ、待って待って\n本当にお願い?\n何?"}
+coil@coil-VM:~/Desktop$ 
+
+
+gives full contents of a file
+@app.get("/textfiles/{filename}")
+coil@coil-VM:~/Desktop$ curl -X GET "http://localhost:8000/textfiles/dev_notes.txt"
+
+
+
+
+
+
+best is to run CLI version of whisper, should have nice output formatting
+whisper japanese.wav --language Japanese --model tiny
+

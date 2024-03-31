@@ -1,0 +1,240 @@
+CLI param:  浅い
+--- Response text: ---
+1. 浅い | Kanji: 浅い水で泳ぐ | Romaji: asai mizu de oyogu | Translation: Swim in shallow water |
+2. 浅い | Kanji: 浅い眠りにつく | Romaji: asai nemuri ni tsuku | Translation: Fall into a shallow sleep |
+3. 浅い | Kanji: 浅い思考で物事を考える | Romaji: asai shikou de monogoto o kangaeru | Translation: Think about things with a shallow thought process | 
+4. 浅い | Kanji: 浅い愛情で接する | Romaji: asai aijou de sessuru | Translation: Approach with shallow affection| 
+5. 浅い | Kanji: 浅い知識で語る | Romaji: asai chishiki de kataru| Translation: Speak with shallow knowledge|
+-----------------------------
+CLI param:  偉い
+--- Response text: ---
+1. 偉い | Kanji: 彼は本当に偉い | Romaji: Kare wa hontou ni erai | Translation: He is really great |
+2. 偉い | Kanji: 彼女は芸術的な偉いを持っている | Romaji: Kanojo wa geijutsu-tekina erai o motte iru | Translation: She has artistic greatness | 
+3. 偉い | Kanji: その新しい技術は偉大な可能性を秘めている | Romaji: Sono atarashii gijutsu wa idaina kanousei o himete iru | Translation: That new technology holds great potential | 
+4. 偉い | Kanji: 彼女の生き方は偉大な例である | Romaji: Kanojo no ikikata wa idaina rei de aru | Translation: Her way of life is a great example | 
+5. 偉い | Kanji: その男性は偉大な業績を上げた | Romaji: Sono dansei wa idaina gyouseki o ageta | Translation: That man achieved great results
+-----------------------------
+CLI param:  おかしい
+--- Response text: ---
+1. おかしい | Kanji: 不思議な | Romaji: Fushigi na | Translation: Strange | 
+2. おかしい | Kanji: 面白い | Romaji: Omoshiroi | Translation: Funny | 
+3. おかしい | Kanji: 奇妙な | Romaji: Kimyō na | Translation: Bizarre | 
+4. おかしい | Kanji: 変な | Romaji: Hen na | Translation: Weird | 
+5. おかしい | Kanji: 珍しい | Romaji: Mezurashii | Translation: Unusual|
+-----------------------------
+CLI param:  おかしい
+--- Response text: ---
+1. おかしい | Kanji: おかしいです | Romaji: okashii desu | Translation: That's strange |
+2. おかしい | Kanji: おかしなことを言っています | Romaji: okashina koto o itte imasu | Translation: He/She is saying something strange | 
+3. おかしい | Kanji: 私の言うことがおかしいと思われることがあります | Romaji: watashi no iu koto ga okashii to omowareru koto ga arimasu | Translation: Sometimes people think that what I say is strange |
+4. おかしい | Kanji: 彼女の行動がおかしいと感じています | Romaji: kanojo no koudou ga okashii to kanjite imasu | Translation: I feel that her behavior is strange | 
+5. おかしい | Kanji: 彼の話がおかしくて理解できなかった | Romaji: kare no hanashi ga okashikute rikai dekinakatta| Translation: His story was so strange that I couldn't understand it.
+-----------------------------
+CLI param:  恐ろしい
+--- Response text: ---
+1. 恐ろしい | Kanji: 恐ろしい思いをしている | Romaji: Osoroshii omoi o shiteiru | Translation: I'm feeling scared | 
+2. 恐ろしい | Kanji: 恐ろしい夢を見た | Romaji: Osoroshii yume o mita | Translation: I had a scary dream | 
+3. 恐ろしい | Kanji: 彼は恐ろしい笑い声を上げた | Romaji: Kare wa osoroshii waraigoe o ageta | Translation: He gave a terrifying laugh | 
+4. 恐ろしい | Kanji: その映画は恐ろしくて怖かった | Romaji: Sono eiga wa osoroshikute kowakatta | Translation: That movie was terribly frightening | 
+5. 恐ろしい | Kanji: 彼女の目は恐ろしく輝いていた| Romaji: Kanojo no me wa osoroshiku kagayaite ita| Translation: Her eyes were terribly bright
+-----------------------------
+CLI param:  おとなしい
+--- Response text: ---
+1. おとなしい | Kanji: 大人しい | Romaji: otonashii | Translation: Quiet | 
+2. おとなしい子供 | Kanji: 大人しい子供 | Romaji: otonashii kodomo | Translation: A well-behaved child | 
+3. おとなしい話し方 | Kanji: 大人しい話し方 | Romaji: otonashii hanashikata | Translation: A quiet way of speaking | 
+4. おとなしい顔をする | Kanji: 大人しい顔をする | Romaji: otonashii kao o suru | Translation: To make a quiet face | 
+5. おとなしい声で話す | Kanji: 大人しい声で話す| Romaji: otonashii koe de hanasu| Translation: To speak in a quiet voice|
+-----------------------------
+CLI param:  かゆい
+--- Response text: ---
+1. かゆい | Kanji: 痒い | Romaji: Kayui | Translation: Itchy | 
+2. かゆい | Kanji: 痒くて仕方がない | Romaji: Kayukute shikata ga nai | Translation: It's so itchy that there's nothing to be done about it | 
+3. かゆい | Kanji: 蚊に刺されてかゆくなった | Romaji: Kani ni sasarete kayuku natta | Translation: I got bitten by a mosquito and it became itchy | 
+4. かゆい | Kanji: 手がかゆくなってきた | Romaji: Te ga kayuku natte kita | Translation: My hands are starting to get itchy | 
+5. かゆい | Kanji: 少しかゆくなってきたので、クリームを塗りました | Romaji: Sukoshi kayuku natte kita node, kuriimu o nurimashita | Translation: It was getting a bit itchy so I applied some cream.
+-----------------------------
+CLI param:  きつい
+--- Response text: ---
+1. きつい | Kanji: 寒い | Romaji: Samui | Translation: It's cold | 
+2. きつい | Kanji: 厳しい | Romaji: Kibishii | Translation: It's strict | 
+3. きつい | Kanji: 激しい | Romaji: Hageshii | Translation: It's intense | 
+4. きつい | Kanji: 緊張した | Romaji: Kinchou shita | Translation: I'm tense | 
+5. きつい | Kanji: 強烈な | Romaji: Kyouryoku na| Translation: It's intense|
+-----------------------------
+CLI param:  厳しい
+--- Response text: ---
+1. 厳しい | Kanji: 彼はとても厳しいです | Romaji: Kare wa totemo kibishii desu | Translation: He is very strict | 
+2. 厳しい | Kanji: 彼女は厳しい規則を守っています | Romaji: Kanojo wa kibishii kisoku o mamotte imasu | Translation: She follows strict rules | 
+3. 厳しい | Kanji: 私たちは厳しい時間制限の中で働かなければなりません | Romaji: Watashitachi wa kibishii jikan seigen no naka de hatarakanakereba narimasen | Translation: We have to work under strict time limits | 
+4. 厳しい | Kanji: 私たちの父は厳しい管理人です | Romaji: Watashitachi no chichi wa kibishii kanrinin desu | Translation: Our father is a strict manager | 
+5. 厳しい | Kanji: 政府は厳しい取引管理を行っています | Romaji: Seifu wa kibishii torihiki kanri o okonatte imasu | Translation: The government is doing strict trade control
+-----------------------------
+CLI param:  臭い
+--- Response text: ---
+1. 臭い | Kanji: きもい臭い | Romaji: kimoi nioi | Translation: Smells bad |
+2. 臭い | Kanji: 彼は臭い汗をかいている | Romaji: Kare wa nioi ase o kaite iru | Translation: He is sweating a bad smell | 
+3. 臭い | Kanji: この部屋は臭いですね | Romaji: Kono heya wa nioi desu ne | Translation: This room smells bad, doesn't it? | 
+4. 臭い | Kanji: 彼女の足は臭かった | Romaji: Kanojo no ashi wa nioi katta | Translation: Her feet smelled bad | 
+5. 臭い | Kanji: 彼は臭くて嫌な匂いがする | Romaji: Kare wa nioi kute iya na nioi ga suru| Translation: He smells bad and has an unpleasant odor
+-----------------------------
+CLI param:  悔しい
+--- Response text: ---
+1. 悔しい | Kanji: 悔しい思いをしている | Romaji: Kuyashii omoi o shiteiru | Translation: I have a feeling of regret. |
+2. 悔しい | Kanji: 彼は悔しがっていた | Romaji: Kare wa kuyashigatteita | Translation: He was regretful. |
+3. 悔しい | Kanji: 彼女は悔し涙を流した | Romaji: Kanojo wa kuyashi namida o nagashita | Translation: She shed tears of regret. |
+4. 悔しい | Kanji: 私は悔しさで胸が痛んだ | Romaji: Watashi wa kuyashisa de mune ga itanda | Translation: I felt a pain in my chest from regret. |
+5. 悔しい | Kanji: 彼女は悔し果てて泣いた | Romaji: Kanojo wa kuyashi hate te naita| Translation: She cried out of sheer regret.
+-----------------------------
+CLI param:  苦しい
+--- Response text: ---
+1. 苦しい | Kanji: 苦しい日々を過ごしている | Romaji: kurushii hibi wo sugoshiteiru | Translation: I'm spending painful days |
+2. 苦しい | Kanji: 彼女は苦しみを隠そうとしていた | Romaji: kanojo wa kurushimi wo kakusou to shiteita | Translation: She was trying to hide her pain |
+3. 苦しい | Kanji: 痛みは苦しくて耐えられなかった | Romaji: itami wa kurushikute taerarenakatta | Translation: The pain was too much to bear |
+4. 苦しい | Kanji: 彼女は苦しみの中で涙を流した | Romaji: kanojo wa kurushimi no naka de namida wo nagashita | Translation: She shed tears in her pain |
+5. 苦しい | Kanji: 彼は苦しみに耐えきれなかった | Romaji: kare wa kurushimi ni taekirenakatta | Translation: He could not endure the pain
+-----------------------------
+CLI param:  詳しい
+--- Response text: ---
+1. 詳しい | Kanji: 詳しい情報を探しています | Romaji: kuwashii jouhou o sagashiteimasu | Translation: I am looking for detailed information | 
+2. 詳しい | Kanji: 彼女は詳しい知識を持っている | Romaji: kanojo wa kuwashii chishiki o motteiru | Translation: She has detailed knowledge | 
+3. 詳しい | Kanji: 私は彼の詳しいプロフィールを知っている | Romaji: watashi wa kare no kuwashii purofīru o shitteiru | Translation: I know his detailed profile | 
+4. 詳しい | Kanji: 彼は詳しい説明をした | Romaji: kare wa kuwashii setsumei o shita | Translation: He gave a detailed explanation | 
+5. 詳しい | Kanji: 私は詳しくその仕事について説明できますか？| Romaji: watashi wa kuwashiku sono shigoto ni tsuite setsumei dekimasu ka?| Translation: Can I explain the job in detail?
+-----------------------------
+CLI param:  濃い
+--- Response text: ---
+1. 濃い | Kanji: 濃いコーヒーが飲みたい | Romaji: Koi koohii ga nomitai | Translation: I want to drink a strong coffee |
+2. 濃い | Kanji: 彼女は濃いブラウンの瞳をしている | Romaji: Kanojo wa koi buraun no hitomi o shiteiru | Translation: She has deep brown eyes |
+3. 濃い | Kanji: 彼女の言葉は濃くて重い | Romaji: Kanojo no kotoba wa kokute omoi | Translation: Her words are heavy and deep  |
+4. 濃い | Kanji: 彼らの関係は濃くて特別なものだった | Romaji: Karera no kankei wa koku te tokubetsu na mono datta| Translation: Their relationship was deep and special  |
+5. 濃い | Kanji: 彼は濃い黒髪をしていた| Romaji: Kare wa koi kurokami o shiteita| Translation: He had dark black hair
+-----------------------------
+CLI param:  細かい
+--- Response text: ---
+1. 細かい | Kanji: 細かい作業をしている | Romaji: komakai sagyou o shite iru | Translation: Doing detailed work | 
+2. 細かい | Kanji: この細かい事情を考慮してください | Romaji: kono komakai jijou o kouryuu shite kudasai | Translation: Please take into account these small details | 
+3. 細かい | Kanji: 細かい手続きを行う必要があります | Romaji: komakai tetsuzuki o okonau hitsuyou ga arimasu | Translation: It is necessary to do the small procedures | 
+4. 細かい | Kanji: 彼は細かな仕事に非常に気を使っている | Romaji: kare wa komakana shigoto ni hijou ni ki o tsukatte iru | Translation: He is paying a lot of attention to the small details of his work | 
+5. 細かい | Kanji: 彼女は細かなことにも気がつく | Romaji: kanojo wa komakana koto ni mo ki ga tsuku | Translation: She notices even the smallest things
+-----------------------------
+CLI param:  塩辛い
+--- Response text: ---
+1. 塩辛い | Kanji: お塩辛い | Romaji: oshio karai | Translation: salty | 
+2. 塩辛い | Kanji: 塩辛さが強い | Romaji: shiokarasa ga tsuyoi | Translation: very salty | 
+3. 塩辛い | Kanji: この料理は塩辛いですね | Romaji: kono ryouri wa shiokarai desu ne | Translation: This dish is salty, isn't it? | 
+4. 塩辛い | Kanji: 海の塩辛さを感じる | Romaji: umi no shiokarasa wo kanjiru | Translation: Feel the saltiness of the sea.| 
+5. 塩辛い | Kanji: 塩辛くて食べきれないよ | Romaji: shiokaraku te tabekirenai yo| Translation: It's too salty, I can't eat it.
+-----------------------------
+CLI param:  四角い
+--- Response text: ---
+1. 四角い | Kanji: 彼は四角い顔をしていた | Romaji: Kare wa shikakui kao o shiteita | Translation: He had a square face. | 
+2. 四角い | Kanji: 部屋には四角い机があった | Romaji: Heya ni wa shikakui tsukue ga atta | Translation: There was a square desk in the room. | 
+3. 四角い | Kanji: テーブルの上に四角いプレートが置かれていた | Romaji: Teiburu no ue ni shikakui pureeto ga okarete ita | Translation: A square plate was placed on the table. | 
+4. 四角い | Kanji: 空が四角い形をしているように見えた | Romaji: Sora ga shikakui katachi o shiteiru you ni mieta | Translation: The sky seemed to be in a square shape. | 
+5. 四角い | Kanji: 彼女は四角い形のピアスをしていた | Romaji: Kanojo wa shikakui katachi no piasu o shiteita| Translation: She was wearing square shaped earrings. |
+-----------------------------
+CLI param:  しかた（が）ない
+--- Response text: ---
+1. しかたがない | Kanji: 仕方がない | Romaji: shikata ga nai | Translation: There's nothing to be done about it. |
+2. しかたない | Kanji: 仕方ない | Romaji: shikata nai | Translation: There's no way around it. |
+3. しかたがなくて | Kanji: 仕方がなくて | Romaji: shikata ga nakute | Translation: There's no way to do it. |
+4. しかたがありません | Kanji: 仕方がありません | Romaji: shikata ga arimasen | Translation: There is no way to do it.|
+5. しかたがないのです | Kanji: 仕方がないのです | Romaji: shikata ga nai no desu | Translation: There is no way to do it.
+-----------------------------
+CLI param:  酸っぱい
+--- Response text: ---
+1. 酸っぱい | Kanji: 酸っぱい味がする | Romaji: suppai aji ga suru | Translation: It has a sour taste | 
+2. 酸っぱい | Kanji: 酸っぱい顔をしている | Romaji: suppai kao o shite iru | Translation: He has a sour face | 
+3. 酸っぱい | Kanji: このジュースは酸っぱいです | Romaji: kono juusu wa suppai desu | Translation: This juice is sour | 
+4. 酸っぱい | Kanji: そのリンゴは酸っぱくて美味しかったです | Romaji: sono ringo wa suppaku te oishikatta desu | Translation: That apple was sour and delicious | 
+5. 酸っぱい | Kanji: 彼女は酸っぱいものが大好きです| Romaji: kanojo wa suppai mono ga daisuki desu| Translation: She loves sour things|
+-----------------------------
+CLI param:  つらい
+--- Response text: ---
+1. つらい | Kanji: 辛い | Romaji: tsurai | Translation: It's hard/painful. | 
+2. つらい | Kanji: つらい時間が過ぎていく | Romaji: tsurai jikan ga sugite iku | Translation: Time passes painfully. |
+3. つらい | Kanji: 心がつらくなる | Romaji: kokoro ga tsuraku naru | Translation: My heart feels heavy. |
+4. つらい | Kanji: 彼女はつらい思いをしていた | Romaji: kanojo wa tsurai omoi o shiteita | Translation: She was feeling a painful emotion.|
+5. つらい | Kanji: 彼はつらい状況にあった| Romaji: kare wa tsurai joukyou ni atta| Translation: He was in a difficult situation.
+-----------------------------
+CLI param:  懐かしい
+--- Response text: ---
+1. 懐かしい | Kanji: 昔ながらの懐かしい雰囲気 | Romaji: mukashi nagara no natsukashii fun'iki | Translation: A nostalgic atmosphere as it used to be | 
+2. 懐かしい | Kanji: 小さな懐かしい家 | Romaji: chiisana natsukashii ie | Translation: A small and nostalgic home | 
+3. 懐かしい | Kanji: 古い懐かしい車 | Romaji: furui natsukashii kuruma | Translation: An old and nostalgic car | 
+4. 懐かしい | Kanji: 心地よく懐かしい香り | Romaji: kokochiyoku natsukashii kaori | Translation: A comfortably nostalgic scent | 
+5. 懐かしい | Kanji: 幼少の頃の懐かしい思い出 | Romaji: yōshō no koro no natsukashii omoide | Translation: Nostalgic memories of my childhood days|
+-----------------------------
+CLI param:  ぬるい
+--- Response text: ---
+1. ぬるい | Kanji: 暖かい | Romaji: atatakai | Translation: Warm |
+2. ぬるい | Kanji: ぬるぬるした | Romaji: nurunuru shita | Translation: Slippery |
+3. ぬるい | Kanji: 水がぬるい | Romaji: mizu ga nurui | Translation: The water is lukewarm |
+4. ぬるい | Kanji: 彼女のキスはぬるい | Romaji: kanojo no kisu wa nurui | Translation: Her kiss was lukewarm |
+5. ぬるい | Kanji: 昔ながらの湯加減はぬるいものが好きだった | Romaji: mukashi nagara no yukagen wa nurui mono ga suki datta| Translation: He liked the lukewarm temperature of the old-fashioned hot springs
+-----------------------------
+CLI param:  ひどい
+--- Response text: ---
+1. ひどい | Kanji: 非常にひどい | Romaji: Hijō ni hidoi | Translation: Very bad | 
+2. ひどい | Kanji: 彼は本当にひどい人間です | Romaji: Kare wa hontō ni hidoi ningen desu | Translation: He is a really bad person | 
+3. ひどい | Kanji: 彼女はひどい怒りを見せた | Romaji: Kanojo wa hidoi ikari o miseta | Translation: She showed a terrible anger | 
+4. ひどい | Kanji: 彼女は本当にひどい態度を取った | Romaji: Kanojo wa hontō ni hidoi taido o totta | Translation: She took a really bad attitude| 
+5. ひどい | Kanji: この問題は非常にひどい状況です | Romaji: Kono mondai wa hijō ni hidoi jōkyō desu | Translation: This problem is in a very bad situation|
+-----------------------------
+CLI param:  細長い
+--- Response text: ---
+1. 細長い | Kanji: 細長い形をしている | Romaji: saichoui katachi wo shiteiru | Translation: It has a slender shape. | 
+2. 細長い | Kanji: 彼の声は細長いものであった | Romaji: kare no koe wa saichoui mono de atta | Translation: His voice was long and thin. | 
+3. 細長い | Kanji: 円柱は細長い形をしている | Romaji: enchuu wa saichoui katachi wo shiteiru | Translation: The cylinder is long and slender. | 
+4. 細長い | Kanji: 森の中を細長い道が続いている | Romaji: mori no naka wo saichoui michi ga tsuzuiteiru | Translation: A long, narrow path continues through the forest. | 
+5. 細長い | Kanji: 彼女は細長い脚を持っていた | Romaji: kanojo wa saichoui ashi wo motteita | Translation: She had long, slender legs. |
+-----------------------------
+CLI param:  貧しい
+--- Response text: ---
+1. 貧しい | Kanji: 彼は貧しい家庭から来た | Romaji: Kare wa mazushii katei kara kita | Translation: He came from a poor family | 
+2. 貧しい | Kanji: 彼女は貧しい家庭で育った | Romaji: Kanojo wa mazushii katei de sodatta | Translation: She was raised in a poor family | 
+3. 貧しい | Kanji: この地域では貧しい人々が多い | Romaji: Kono chiiki de wa mazushii hitobito ga ooi | Translation: There are many poor people in this area | 
+4. 貧しい | Kanji: 彼女は貧しくて新しい服を買えなかった | Romaji: Kanojo wa mazushikute atarashii fuku o kaenakatta | Translation: She was too poor to buy new clothes | 
+5. 貧しい | Kanji: 彼らはとても貧しく、食べ物を手に入れるのが難しかった | Romaji: Karera wa totemo mazushiku, tabemono o te ni ireru no ga muzukashikatta | Translation: They were very poor and it was difficult for them to get food
+-----------------------------
+CLI param:  蒸し暑い
+--- Response text: ---
+1. 蒸し暑い | Kanji: 蒸し暑い日が続いている | Romaji: Mushiatsui hi ga tsuzuite iru | Translation: The hot and humid days continue | 
+2. 蒸し暑い | Kanji: 今日は蒸し暑くて頭が痛くなった | Romaji: Kyou wa mushiatsui kute atama ga itaku natta | Translation: Today was so hot and humid that my head started to hurt | 
+3. 蒸し暑い | Kanji: 昨日は蒸し暑くて外に出る気が起きなかった | Romaji: Kinou wa mushiatsui kute soto ni deru ki ga okina katta | Translation: Yesterday was so hot and humid that I couldn't bring myself to go outside | 
+4. 蒸し暑い | Kanji: 気温が上昇して、蒸し暑さが増すばかりだ | Romaji: Kion ga joushou shite, mushiatsusa ga masu bakari da | Translation: As the temperature rises, the humidity is increasing too | 
+5. 蒸し暑い | Kanji: 湿度が高くて、蒸し暑くて耐えられない | Romaji: Shitsudo ga takakute, mushiatsuku te taerarenai| Translation: The humidity is high and it's so muggy that I can't bear it
+-----------------------------
+CLI param:  珍しい
+--- Response text: ---
+1. 珍しい | Kanji: 珍しい経験をした | Romaji: mezurashii keiken o shita | Translation: I had a rare experience | 
+2. 珍しい | Kanji: 珍しい言葉を知っている | Romaji: mezurashii kotoba o shitte iru | Translation: I know a rare word | 
+3. 珍しい | Kanji: 彼は珍しい存在だ | Romaji: kare wa mezurashii sonzai da | Translation: He is a rare existence | 
+4. 珍しい | Kanji: この町では珍しい景色だ | Romaji: kono machi de wa mezurashii keshiki da | Translation: This is a rare sight in this town | 
+5. 珍しい | Kanji: 彼女は珍しい才能を持っている| Romaji: kanojo wa mezurashii sainou o motte iru| Translation: She has a rare talent|
+-----------------------------
+CLI param:  申し訳ない
+--- Response text: ---
+1. 申し訳ない | Kanji: 申し訳ございません | Romaji: moushiwake gosai masen | Translation: I'm sorry | 
+2. 申し訳ない | Kanji: 申し訳ありませんでした | Romaji: moushiwake arimasen deshita | Translation: I'm sorry I couldn't do it | 
+3. 申し訳ない | Kanji: このような状況では申し訳ありませんが | Romaji: kono you na joukyou dewa moushiwake arimasen ga | Translation: I'm sorry for the situation like this | 
+4. 申し訳ない | Kanji: お客様には申し訳ありませんが | Romaji: okyakusama ni wa moushiwake arimasen ga | Translation: I'm sorry to our customers but...| 
+5. 申し訳ない | Kanji: この件に関しては申し訳ありませんが | Romaji: kono ken ni kan shite wa moushiwake arimasen ga| Translation: I'm sorry about this matter but...|
+-----------------------------
+CLI param:  もったいない
+--- Response text: ---
+1. もったいない | Kanji: 僕はもったいないと思う | Romaji: Boku wa mottainai to omou | Translation: I think it's a waste | 
+2. もったいない | Kanji: これを捨てるのはもったいない | Romaji: Kore o suteru no wa mottainai | Translation: It would be a waste to throw this away | 
+3. もったいない | Kanji: こんなに大切なものを無駄にするのはもったいない | Romaji: Konna ni taisetsu na mono o muda ni suru no wa mottainai | Translation: It would be a waste to waste such a precious thing | 
+4. もったいない | Kanji: こんなに美味しい料理を食べるのをやめるのはもったいない | Romaji: Konna ni oishii ryōri o taberu no o yameru no wa mottainai | Translation: It would be a waste to stop eating such delicious food | 
+5. もったいない | Kanji: 彼女の才能を活かさずにおくのはもったいない | Romaji: Kanojo no sainō o ikasazu ni oku no wa mottainai | Translation: It would be a waste to not use her talents
+-----------------------------
+CLI param:  ものすごい
+--- Response text: ---
+1. ものすごい | Kanji: 物凄い | Romaji: mono sugoi | Translation: Amazing! | 
+2. ものすごい | Kanji: 物凄く面白い | Romaji: mono sugoku omoshiroi | Translation: Very interesting! | 
+3. ものすごい | Kanji: 物凄く大きな声で叫んだ | Romaji: mono sugoku ookina koe de sakenda | Translation: He shouted in an incredibly loud voice! | 
+4. ものすごい | Kanji: 物凄く速く走った | Romaji: mono sugoku hayaku hashitta | Translation: He ran so incredibly fast!| 
+5. ものすごい | Kanji: 物凄く楽しかった | Romaji: mono sugoku tanoshikatta| Translation: It was incredibly fun!
+-----------------------------

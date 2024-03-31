@@ -1,0 +1,1268 @@
+You are teacher that teaches Chinese to students. What is the most popular internationally recognised Chinese language proficiency exam?
+ChatGPT
+The most popular internationally recognized Chinese language proficiency exam is the Hànyǔ Shuǐpíng Kǎoshì (HSK), which translates to the "Chinese Proficiency Test." Administered by the Hanban (Confucius Institute Headquarters), the HSK tests non-native speakers on their abilities in Mandarin Chinese, both in written and spoken forms.
+
+The HSK has multiple levels:
+
+HSK Level 1: For beginners who can understand and use some simple Chinese characters and sentences to communicate.
+HSK Level 2: For elementary learners who can use Chinese in a simple and direct manner, suitable for daily needs.
+HSK Level 3: For intermediate learners who can use Chinese to serve the demands of their personal lives, studies, and work.
+HSK Level 4: For intermediate Chinese learners who can discuss a wide range of topics in Chinese and are capable of studying in a Chinese-taught undergraduate program.
+HSK Level 5: For learners who can read Chinese newspapers and magazines, watch Chinese films, and deliver a full speech in Chinese.
+HSK Level 6: For learners who can easily comprehend written and spoken information in Chinese and can express themselves fluently in Chinese both spoken and written.
+In addition to the written tests, there are also HSK Speaking Tests, which are divided into HSK (Beginner), HSK (Intermediate), and HSK (Advanced).
+
+Students and professionals aiming to study or work in China, or who need to demonstrate Chinese proficiency for other reasons, often take the HSK exam.
+
+
+
+
+User
+lets assume that HSK Level 1 has 80 grammar points
+
+provide 20 Chinese Mandarin grammar points in following format:
+다가 (daga) - And then, but - TOPIK I Level 1
+but adapted for our Chinese Mandarin case
+let me know when we reach 80 grammar points
+ChatGPT
+Sure, I'll provide a list of 20 Chinese Mandarin grammar points as you've requested. Since the format you've provided is based on Korean grammar points and their corresponding TOPIK (Test of Proficiency in Korean) levels, I'll adjust it to fit the HSK Level 1 format for Mandarin Chinese. Note that the given grammar points are simplified to fit HSK Level 1 proficiency.
+
+的 (de) - Possessive/Descriptive particle - HSK Level 1
+是 (shì) - Is/Are - HSK Level 1
+吗 (ma) - Question particle for yes/no questions - HSK Level 1
+不 (bù) - Negation word for actions/states - HSK Level 1
+在 (zài) - At/In/On (location or action ongoing) - HSK Level 1
+了 (le) - Completed action marker - HSK Level 1
+和 (hé) - And (connecting nouns) - HSK Level 1
+有 (yǒu) - Have/Has - HSK Level 1
+要 (yào) - Want to/Need to - HSK Level 1
+也 (yě) - Also/Too - HSK Level 1
+很 (hěn) - Very (used before adjectives) - HSK Level 1
+可以 (kěyǐ) - Can/May (permission) - HSK Level 1
+去 (qù) - Go - HSK Level 1
+来 (lái) - Come - HSK Level 1
+人 (rén) - Person/People - HSK Level 1
+个 (gè) - General measure word - HSK Level 1
+多少 (duōshǎo) - How much/How many - HSK Level 1
+哪 (nǎ) - Which - HSK Level 1
+这 (zhè) - This - HSK Level 1
+那 (nà) - That - HSK Level 1
+Please let me know if you'd like to continue with the next set of grammar points to reach the total of 80.
+
+
+
+
+User
+lets assume HSK Level 1 has 80 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 1 :
+let me know when we reach 80 grammar points
+ChatGPT
+Certainly! Continuing from the previous list, here are the next 20 Chinese Mandarin grammar points suited for an assumed HSK Level 1 format:
+
+什么 (shénme) - What - HSK Level 1
+谁 (shéi) - Who - HSK Level 1
+哪儿 (nǎr) - Where - HSK Level 1
+为什么 (wèishénme) - Why - HSK Level 1
+怎么 (zěnme) - How - HSK Level 1
+不是 (bù shì) - Is not/Are not - HSK Level 1
+没 (méi) - Not (used before "have" to indicate the absence of an experience or possession) - HSK Level 1
+喜欢 (xǐhuān) - Like - HSK Level 1
+看 (kàn) - Look/See/Watch - HSK Level 1
+听 (tīng) - Listen - HSK Level 1
+会 (huì) - Can/Know how to (skill) - HSK Level 1
+东西 (dōngxi) - Thing/Things - HSK Level 1
+大家 (dàjiā) - Everyone - HSK Level 1
+时间 (shíjiān) - Time - HSK Level 1
+现在 (xiànzài) - Now - HSK Level 1
+天气 (tiānqì) - Weather - HSK Level 1
+一点儿 (yìdiǎnr) - A little/A bit - HSK Level 1
+还 (hái) - Still/Yet - HSK Level 1
+再 (zài) - Again - HSK Level 1
+都 (dōu) - All/Both - HSK Level 1
+That's the continuation to reach 40 grammar points for HSK Level 1. Let me know if you'd like to proceed with the next set to reach 80.
+
+
+
+
+User
+lets assume HSK Level 1 has 80 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 1 :
+let me know when we reach 80 grammar points
+ChatGPT
+Alright, continuing from our previous lists, here are the next 20 Chinese Mandarin grammar points suited for an assumed HSK Level 1 format:
+
+没有 (méiyǒu) - Don't have/There isn't - HSK Level 1
+多 (duō) - Many/Much - HSK Level 1
+少 (shǎo) - Few/Little - HSK Level 1
+一起 (yìqǐ) - Together - HSK Level 1
+能 (néng) - Can/Be able to (capability/possibility) - HSK Level 1
+学习 (xuéxí) - Learn/Study - HSK Level 1
+工作 (gōngzuò) - Work/Job - HSK Level 1
+喝 (hē) - Drink - HSK Level 1
+吃 (chī) - Eat - HSK Level 1
+住 (zhù) - Live/Stay - HSK Level 1
+打电话 (dǎ diànhuà) - Make a phone call - HSK Level 1
+做 (zuò) - Do/Make - HSK Level 1
+喂 (wèi/wéi) - Hello (on the phone) / Feed - HSK Level 1
+请 (qǐng) - Please/Invite - HSK Level 1
+谢谢 (xièxiè) - Thank you - HSK Level 1
+对不起 (duìbùqǐ) - Sorry - HSK Level 1
+知道 (zhīdào) - Know (a fact) - HSK Level 1
+买 (mǎi) - Buy - HSK Level 1
+卖 (mài) - Sell - HSK Level 1
+书 (shū) - Book - HSK Level 1
+This brings us to a total of 60 grammar points for HSK Level 1. Let me know if you'd like to proceed with the next set to reach 80.
+
+
+
+
+User
+lets assume HSK Level 1 has 80 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 1 :
+let me know when we reach 80 grammar points
+ChatGPT
+Sure, continuing from our previous lists, here are the next 20 Chinese Mandarin grammar points suited for an assumed HSK Level 1 format:
+
+朋友 (péngyǒu) - Friend - HSK Level 1
+家 (jiā) - Home/Family - HSK Level 1
+几 (jǐ) - How many (for numbers under 10) - HSK Level 1
+今天 (jīntiān) - Today - HSK Level 1
+明天 (míngtiān) - Tomorrow - HSK Level 1
+昨天 (zuótiān) - Yesterday - HSK Level 1
+大 (dà) - Big - HSK Level 1
+小 (xiǎo) - Small - HSK Level 1
+漂亮 (piàoliang) - Beautiful/Pretty - HSK Level 1
+好 (hǎo) - Good - HSK Level 1
+忙 (máng) - Busy - HSK Level 1
+时候 (shíhòu) - Time/Moment - HSK Level 1
+名字 (míngzi) - Name - HSK Level 1
+认识 (rènshì) - Know (a person)/Meet for the first time - HSK Level 1
+电视 (diànshì) - Television - HSK Level 1
+电脑 (diànnǎo) - Computer - HSK Level 1
+电影 (diànyǐng) - Movie - HSK Level 1
+车 (chē) - Vehicle/Car - HSK Level 1
+孩子 (háizi) - Child - HSK Level 1
+学校 (xuéxiào) - School - HSK Level 1
+With that, we have reached a total of 80 grammar points for the hypothetical HSK Level 1. Let me know if you need further information or assistance!
+
+
+
+
+User
+well, i do not think you are providing grammar points, you seem to just provide vocabulary, like television, computer, movie
+ChatGPT
+I apologize for the oversight. You are correct; many of the items provided in the latter part were vocabulary words instead of grammar points. Let's address this. Here's a revised list focusing on actual grammar points for Mandarin:
+
+太...了 (tài...le) - Too/Extremely - HSK Level 1
+...的时候 (...de shíhòu) - When... - HSK Level 1
+从...到... (cóng...dào...) - From... to... - HSK Level 1
+跟...一样 (gēn... yíyàng) - The same as... - HSK Level 1
+比 (bǐ) - Compare/Than (used in comparisons) - HSK Level 1
+还是 (háishì) - Or (in questions) - HSK Level 1
+因为...所以... (yīnwèi... suǒyǐ...) - Because... Therefore/So... - HSK Level 1
+不但...而且... (bùdàn... érqiě...) - Not only... but also... - HSK Level 1
+虽然...但是... (suīrán... dànshì...) - Although/Though... But... - HSK Level 1
+如果...的话 (rúguǒ... dehuà) - If... - HSK Level 1
+不过 (búguò) - However/But - HSK Level 1
+除了...以外 (chúle... yǐwài) - Apart from.../Besides... - HSK Level 1
+又...又... (yòu... yòu...) - Both... and... - HSK Level 1
+都 (dōu) - All/Both (emphasizes that action is done by all subjects mentioned) - HSK Level 1
+一边...一边... (yìbiān... yìbiān...) - Doing two actions simultaneously - HSK Level 1
+先...再... (xiān... zài...) - First... then... - HSK Level 1
+越...越... (yuè... yuè...) - The more... the more... - HSK Level 1
+完 (wán) - Finish (verb complement indicating completion) - HSK Level 1
+得 (de) - Structural particle indicating how an action is done (e.g., 说得好 - speak well) - HSK Level 1
+正在...呢 (zhèngzài... ne) - In the process of/Currently (action in progress) - HSK Level 1
+Thank you for pointing out the oversight, and I appreciate your patience.
+
+
+
+
+User
+this is much better
+ChatGPT
+Thank you for your understanding. I apologize for the oversight earlier. If you have any more questions or need further information on Chinese grammar or any other topic, feel free to ask!
+
+
+
+
+User
+lets assume HSK Level 2 has 100 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 2 :
+let me know when we reach 100 grammar points
+ChatGPT
+Alright, proceeding with the assumption that HSK Level 2 has 100 grammar points, let's delve into the next set of grammar points suitable for an HSK Level 2 format:
+
+把 (bǎ) - The "ba" construction (used to shift the object to before the verb) - HSK Level 2
+被 (bèi) - Passive marker - HSK Level 2
+一下 (yīxià) - A short or quick action; momentarily - HSK Level 2
+再说 (zàishuō) - Moreover, furthermore - HSK Level 2
+最 (zuì) - Most, -est (superlative marker) - HSK Level 2
+比如 (bǐrú) - For example - HSK Level 2
+可是 (kěshì) - But, however - HSK Level 2
+已经 (yǐjīng) - Already - HSK Level 2
+还 (hái) - Still, yet; in addition - HSK Level 2
+才 (cái) - Only just, not until - HSK Level 2
+就 (jiù) - Then, precisely, just - HSK Level 2
+一直 (yīzhí) - Continuously, all along - HSK Level 2
+一般 (yībān) - Generally, normally - HSK Level 2
+真的 (zhēnde) - Really, truly - HSK Level 2
+可能 (kěnéng) - Maybe, possibly - HSK Level 2
+一起 (yīqǐ) - Together (indicating joint action) - HSK Level 2
+根据 (gēnjù) - According to, based on - HSK Level 2
+除非 (chúfēi) - Unless - HSK Level 2
+以前 (yǐqián) - Before, previously - HSK Level 2
+之后 (zhīhòu) - Afterward, after - HSK Level 2
+This brings us to a total of 100 grammar points for the hypothetical HSK Level 2. Let me know if you'd like to proceed further or need assistance with another topic!
+
+
+
+
+User
+lets assume HSK Level 2 has 100 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 2 :
+let me know when we reach 100 grammar points
+ChatGPT
+Certainly! Continuing from the previous list, here are 20 more grammar points for an assumed HSK Level 2:
+
+刚刚 (gānggāng) - Just now/recently - HSK Level 2
+虽然…但是… (suīrán… dànshì…) - Although… but… - HSK Level 2
+不仅…还… (bùjǐn… hái…) - Not only... but also... - HSK Level 2
+既…又… (jì… yòu…) - Both... and... - HSK Level 2
+越…越… (yuè… yuè…) - The more... the more... - HSK Level 2
+不但…而且… (bùdàn… érqiě…) - Not only... but also... - HSK Level 2
+或者 (huòzhě) - Or (in statements) - HSK Level 2
+当…时候 (dāng… shíhòu) - When... - HSK Level 2
+只有…才… (zhǐyǒu… cái…) - Only if/when... then... - HSK Level 2
+为了 (wèile) - In order to, for the purpose of - HSK Level 2
+如果…的话 (rúguǒ… de huà) - If... - HSK Level 2
+因为…所以… (yīnwèi… suǒyǐ…) - Because... so... - HSK Level 2
+要是…就… (yàoshi… jiù…) - If... then... - HSK Level 2
+突然 (tūrán) - Suddenly - HSK Level 2
+又 (yòu) - Again (referring to a past action) - HSK Level 2
+总是 (zǒngshì) - Always - HSK Level 2
+曾经 (céngjīng) - Once, in the past - HSK Level 2
+开始 (kāishǐ) - Start, begin - HSK Level 2
+虽然 (suīrán) - Although - HSK Level 2
+要么…要么… (yàome... yàome...) - Either... or... - HSK Level 2
+This brings us to a total of 120 grammar points for the hypothetical HSK Level 2. If you'd like to continue or need assistance with another topic, please let me know!
+
+
+
+
+User
+currently we are at 40 HSK Level 2 grammar points
+
+lets assume HSK Level 2 has 100 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 2 :
+let me know when we reach 100 grammar points
+ChatGPT
+Understood. Let's continue from where we left off. Here are the next 20 grammar points for HSK Level 2:
+
+还没 (hái méi) - Still not/haven't yet - HSK Level 2
+有点儿 (yǒudiǎnr) - A little/bit - HSK Level 2
+别 (bié) - Don't (imperative negative command) - HSK Level 2
+先...然后 (xiān... ránhòu) - First...then... - HSK Level 2
+只 (zhǐ) - Only (limiting quantity) - HSK Level 2
+比如说 (bǐrú shuō) - For instance, such as - HSK Level 2
+还是 (háishi) - Had better, it's better to - HSK Level 2
+等 (děng) - Wait; and so on, etc. - HSK Level 2
+着 (zhe) - Particle indicating an ongoing action - HSK Level 2
+的时候 (de shíhòu) - When (referring to a specific time) - HSK Level 2
+一边...一边... (yìbiān... yìbiān...) - Do two things at the same time - HSK Level 2
+的话 (de huà) - Used at the end of a conditional clause - HSK Level 2
+再 (zài) - Again; then (in future actions) - HSK Level 2
+最后 (zuìhòu) - At last, finally - HSK Level 2
+除了...都 (chúle... dōu) - Except for..., all... - HSK Level 2
+对 (duì) - Correct, right; towards - HSK Level 2
+可能 (kěnéng) - Maybe, possible - HSK Level 2
+从来 (cónglái) - Always; at all times, never (when used with 不 or 没) - HSK Level 2
+向 (xiàng) - Towards; direction - HSK Level 2
+每 (měi) - Every; each - HSK Level 2
+We're now at 60 out of the hypothetical 100 grammar points for HSK Level 2. Let me know if you'd like to continue or need assistance with another topic!
+
+
+
+
+User
+lets assume HSK Level 2 has 100 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 2 :
+let me know when we reach 100 grammar points
+ChatGPT
+Alright, continuing from our count, let's proceed with the next set of grammar points for HSK Level 2:
+
+一样 (yíyàng) - The same as - HSK Level 2
+过 (guò) - Indicates a past experience - HSK Level 2
+后来 (hòulái) - Later on, afterwards - HSK Level 2
+突然 (tūrán) - Suddenly, unexpectedly - HSK Level 2
+对了 (duìle) - By the way; oh right - HSK Level 2
+最近 (zuìjìn) - Recently - HSK Level 2
+已经 (yǐjīng) - Already - HSK Level 2
+一直 (yīzhí) - Continuously, always, all the way - HSK Level 2
+除了...以外 (chúle...yǐwài) - Apart from.../Except for... - HSK Level 2
+所以 (suǒyǐ) - So, therefore - HSK Level 2
+为了 (wèile) - For, in order to, for the sake of - HSK Level 2
+虽然 (suīrán) - Although, though - HSK Level 2
+如果 (rúguǒ) - If, in case, in the event that - HSK Level 2
+只要 (zhǐyào) - As long as, only if - HSK Level 2
+但是 (dànshì) - But, however - HSK Level 2
+不但...而且 (bùdàn... érqiě) - Not only... but also... - HSK Level 2
+不过 (búguò) - However, but - HSK Level 2
+因为 (yīnwèi) - Because, owing to, on account of - HSK Level 2
+或者 (huòzhě) - Or (used in a statement) - HSK Level 2
+不仅...还... (bùjǐn... hái...) - Not only... but also... - HSK Level 2
+That's 80 out of the hypothetical 100 grammar points for HSK Level 2. Let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume HSK Level 2 has 100 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 2 :
+let me know when we reach 100 grammar points
+ChatGPT
+Certainly! Continuing from our previous count for the hypothetical HSK Level 2 grammar points:
+
+并且 (bìngqiě) - And, moreover, furthermore - HSK Level 2
+越来越 (yuè lái yuè) - More and more - HSK Level 2
+虽然...但是... (suīrán... dànshì...) - Although...but... - HSK Level 2
+先...再... (xiān... zài...) - First...then... - HSK Level 2
+也许 (yěxǔ) - Perhaps, maybe - HSK Level 2
+还好 (hái hǎo) - Fortunately, luckily - HSK Level 2
+一共 (yígòng) - In total, altogether - HSK Level 2
+根据 (gēnjù) - According to, based on - HSK Level 2
+甚至 (shènzhì) - Even (to the extent that) - HSK Level 2
+到底 (dàodǐ) - What on earth; what in the world (used in a question for emphasis) - HSK Level 2
+由于 (yóuyú) - Due to, because of - HSK Level 2
+只有...才... (zhǐyǒu... cái...) - Only if/when... then... - HSK Level 2
+否则 (fǒuzé) - Otherwise, or else - HSK Level 2
+而 (ér) - And, but, yet - HSK Level 2
+随便 (suíbiàn) - Casual, careless; as one wishes - HSK Level 2
+即使 (jíshǐ) - Even if, even though - HSK Level 2
+当然 (dāngrán) - Of course, certainly - HSK Level 2
+忽然 (hūrán) - Suddenly, all of a sudden - HSK Level 2
+其实 (qíshí) - Actually, in fact - HSK Level 2
+幸好 (xìnghǎo) - Fortunately, luckily - HSK Level 2
+That's 100 out of the hypothetical 100 grammar points for HSK Level 2. If you'd like to delve deeper or need assistance with another topic, please let me know!
+
+
+
+
+User
+
+2 / 2
+
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Of course! Let's begin with the first set of grammar points for the hypothetical HSK Level 3:
+
+把 (bǎ) - Used to shift the object to before the verb, which must be reduplicated or accompanied by another verb. - HSK Level 3
+被 (bèi) - Passive voice marker - HSK Level 3
+除非 (chúfēi) - Unless - HSK Level 3
+既然 (jìrán) - Since, now that - HSK Level 3
+一旦 (yídàn) - Once, in case - HSK Level 3
+只要...就... (zhǐyào... jiù...) - As long as...then... - HSK Level 3
+尽管 (jǐnguǎn) - Even though, despite - HSK Level 3
+不如 (bùrú) - Not as good as, inferior to - HSK Level 3
+无论...都... (wúlùn... dōu...) - Regardless of...always... - HSK Level 3
+正在 (zhèngzài) - In the process of (used with a verb to indicate an ongoing action) - HSK Level 3
+一般 (yìbān) - Generally, usually - HSK Level 3
+直到...才... (zhídào... cái...) - Not until...then... - HSK Level 3
+宁愿...也不... (nìngyuàn... yě bù...) - Would rather...than... - HSK Level 3
+无法 (wúfǎ) - Unable to, can't - HSK Level 3
+非...不可 (fēi...bùkě) - Must, have to - HSK Level 3
+竟然 (jìngrán) - Unexpectedly, to one's surprise - HSK Level 3
+除了...还/也... (chúle... hái/yě...) - Apart from...also... - HSK Level 3
+一直到 (yìzhídào) - All the way until - HSK Level 3
+不是...而是... (bùshì... érshì...) - It's not... but... - HSK Level 3
+原来 (yuánlái) - Originally, as it turns out - HSK Level 3
+We've covered the first 20 grammar points for the hypothetical HSK Level 3. Please let me know if you'd like to proceed or need information on another topic!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Alright, continuing with our count for the hypothetical HSK Level 3 grammar points:
+
+看来 (kànlái) - It seems, it appears - HSK Level 3
+照 (zhào) - According to, in accordance with - HSK Level 3
+尽量 (jǐnliàng) - As much as possible - HSK Level 3
+趁 (chèn) - To take advantage of - HSK Level 3
+难怪 (nánguài) - No wonder, so that's why - HSK Level 3
+虽然...却... (suīrán... què...) - Although... yet... - HSK Level 3
+从此 (cóngcǐ) - From now on, henceforth - HSK Level 3
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 3
+从来 (cónglái) - Always, at all times - HSK Level 3
+比如说 (bǐrú shuō) - For example - HSK Level 3
+光是...就... (guāng shì... jiù...) - Just...alone... - HSK Level 3
+根本 (gēnběn) - At all, simply (used in the negative) - HSK Level 3
+否定词 (fǒudìngcí) - Negative adverbs like 不 (bù) and 没 (méi) - HSK Level 3
+立刻 (lìkè) - Immediately, right away - HSK Level 3
+到处 (dàochù) - Everywhere - HSK Level 3
+以前 (yǐqián) - Before, in the past - HSK Level 3
+之后 (zhīhòu) - Afterward, after - HSK Level 3
+早已 (zǎoyǐ) - Long ago, for a long time - HSK Level 3
+一切 (yíqiè) - Everything, every - HSK Level 3
+只有 (zhǐyǒu) - Only, solely - HSK Level 3
+That brings our total to 40 grammar points out of the hypothetical 180 for HSK Level 3. Let me know if you'd like to continue or if there's another way I can assist you!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Certainly! Continuing from our previous count for the hypothetical HSK Level 3 grammar points:
+
+一边...一边... (yìbiān... yìbiān...) - Doing two actions simultaneously - HSK Level 3
+要是 (yàoshi) - If - HSK Level 3
+无所谓 (wúsuǒwèi) - Doesn't matter, indifferent - HSK Level 3
+正好 (zhènghǎo) - Just right, just in time - HSK Level 3
+除非 (chúfēi) - Unless - HSK Level 3
+其中 (qízhōng) - Among, within - HSK Level 3
+以为 (yǐwéi) - To believe, to think (mistakenly) - HSK Level 3
+以外 (yǐwài) - Beyond, except for - HSK Level 3
+根据 (gēnjù) - According to - HSK Level 3
+由 (yóu) - Because of, due to - HSK Level 3
+至于 (zhìyú) - As for, regarding - HSK Level 3
+为了 (wèile) - In order to, for the purpose of - HSK Level 3
+似的 (shìde) - Seems like, as if - HSK Level 3
+甚至于 (shènzhìyú) - Even to the extent that - HSK Level 3
+除...之外 (chú...zhīwài) - Apart from, besides - HSK Level 3
+反正 (fǎnzhèng) - Anyway, anyhow - HSK Level 3
+总是 (zǒngshì) - Always - HSK Level 3
+曾经 (céngjīng) - Once, previously - HSK Level 3
+好像 (hǎoxiàng) - Seem, be like - HSK Level 3
+实际上 (shíjìshàng) - In fact, actually - HSK Level 3
+We've covered 60 grammar points out of the hypothetical 180 for HSK Level 3. Would you like to proceed further or explore another topic?
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Absolutely! Continuing with the next set of grammar points for the hypothetical HSK Level 3:
+
+假如 (jiǎrú) - If, suppose - HSK Level 3
+再说 (zàishuō) - Moreover, besides - HSK Level 3
+不过 (búguò) - However, but - HSK Level 3
+而且 (érqiě) - Furthermore, and - HSK Level 3
+好在 (hǎozài) - Fortunately, luckily - HSK Level 3
+哪怕 (nǎpà) - Even if - HSK Level 3
+何况 (hékuàng) - Let alone, moreover - HSK Level 3
+即使 (jíshǐ) - Even if, even though - HSK Level 3
+其实 (qíshí) - Actually, in fact - HSK Level 3
+仍然 (réng rán) - Still, yet - HSK Level 3
+并且 (bìngqiě) - And, furthermore, moreover - HSK Level 3
+至少 (zhìshǎo) - At least - HSK Level 3
+不然 (bùrán) - Otherwise, or else - HSK Level 3
+虽说 (suīshuō) - Although, though - HSK Level 3
+难道 (nándào) - Used rhetorically to express surprise or disbelief - HSK Level 3
+反之 (fǎnzhī) - On the contrary - HSK Level 3
+否则 (fǒuzé) - Otherwise, if not - HSK Level 3
+或者 (huòzhě) - Or, perhaps - HSK Level 3
+于是 (yúshì) - Therefore, so - HSK Level 3
+偶尔 (ǒu'ěr) - Occasionally, once in a while - HSK Level 3
+Now we've covered 80 grammar points out of the hypothetical 180 for HSK Level 3. Let me know how you'd like to continue or if there's another topic of interest!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Sure thing! Let's continue with our list of hypothetical HSK Level 3 grammar points:
+
+尤其 (yóuqí) - Especially, particularly - HSK Level 3
+当然 (dāngrán) - Of course, naturally - HSK Level 3
+既然 (jìrán) - Since, now that - HSK Level 3
+正如 (zhèngrú) - Just as, as - HSK Level 3
+唯一 (wéiyī) - The only, sole - HSK Level 3
+越...越... (yuè...yuè...) - The more... the more... - HSK Level 3
+不但...而且... (búdàn...érqiě...) - Not only... but also... - HSK Level 3
+不仅...还... (bùjǐn...hái...) - Not only... but also... - HSK Level 3
+即便 (jíbiàn) - Even if, even though - HSK Level 3
+尽管 (jǐnguǎn) - Despite, although - HSK Level 3
+按照 (ànzhào) - According to, in accordance with - HSK Level 3
+一般 (yìbān) - Generally, usually - HSK Level 3
+相对 (xiāngduì) - Relative, comparatively - HSK Level 3
+连...都/也... (lián...dōu/yě...) - Even... - HSK Level 3
+不如 (bùrú) - Not as good as, inferior to - HSK Level 3
+无论 (wúlùn) - No matter, regardless of - HSK Level 3
+即 (jí) - Namely, that is - HSK Level 3
+既...又... (jì...yòu...) - Both... and... - HSK Level 3
+首先 (shǒuxiān) - First of all, firstly - HSK Level 3
+最后 (zuìhòu) - Finally, lastly - HSK Level 3
+This brings our total to 100 grammar points out of the hypothetical 180 for HSK Level 3. Please let me know if you'd like to proceed further or if there's anything else you're interested in.
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Of course! Continuing from where we left off with the hypothetical HSK Level 3 grammar points:
+
+只要...就... (zhǐyào...jiù...) - As long as... then... - HSK Level 3
+只有...才... (zhǐyǒu...cái...) - Only if... then... - HSK Level 3
+就算 (jiùsuàn) - Even if, granted that - HSK Level 3
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 3
+光是 (guāngshì) - Merely, just - HSK Level 3
+以便 (yǐbiàn) - So that, in order to - HSK Level 3
+除非...否则... (chúfēi...fǒuzé...) - Unless... otherwise... - HSK Level 3
+虽然...但是... (suīrán...dànshì...) - Although... but... - HSK Level 3
+与其...不如... (yǔqí...bùrú...) - Rather than... it's better to... - HSK Level 3
+不止 (bùzhǐ) - More than, not limited to - HSK Level 3
+并不 (bìngbù) - Not at all, not really - HSK Level 3
+甚至 (shènzhì) - Even, to the extent that - HSK Level 3
+与 (yǔ) - And, with - HSK Level 3
+早已 (zǎoyǐ) - Long ago, for a long time - HSK Level 3
+反过来 (fǎnguòlái) - Conversely, on the other hand - HSK Level 3
+以至于 (yǐzhìyú) - So that, to the extent that - HSK Level 3
+就此 (jiùcǐ) - Thus, henceforth - HSK Level 3
+并非 (bìngfēi) - Not, not really - HSK Level 3
+可是 (kěshì) - But, however - HSK Level 3
+趁 (chèn) - To take advantage of, while - HSK Level 3
+This brings our total to 120 grammar points out of the hypothetical 180 for HSK Level 3. Let me know if you'd like to proceed further or if there's another topic of interest!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Certainly! Continuing with the next set of grammar points for the hypothetical HSK Level 3:
+
+由于 (yóuyú) - Due to, because of - HSK Level 3
+至于 (zhìyú) - As for, regarding - HSK Level 3
+反正 (fǎnzhèng) - Anyway, in any case - HSK Level 3
+以前 (yǐqián) - Before, previously - HSK Level 3
+以后 (yǐhòu) - After, afterwards - HSK Level 3
+为了 (wèile) - For the sake of, in order to - HSK Level 3
+起来 (qǐlái) - Beginning or continuing an action (suffix) - HSK Level 3
+掉 (diào) - To fall, to drop (verb suffix) - HSK Level 3
+比如 (bǐrú) - For example, for instance - HSK Level 3
+不得不 (bùdébù) - Have to, can't help but - HSK Level 3
+除了...之外 (chúle...zhīwài) - Apart from, besides - HSK Level 3
+根据 (gēnjù) - According to, based on - HSK Level 3
+之前 (zhīqián) - Before, prior to - HSK Level 3
+之后 (zhīhòu) - After, afterwards - HSK Level 3
+似乎 (sìhū) - It seems, as if - HSK Level 3
+好像 (hǎoxiàng) - To seem like, as if - HSK Level 3
+总之 (zǒngzhī) - In short, in a word - HSK Level 3
+由 (yóu) - By, via - HSK Level 3
+要不然 (yàobùrán) - Otherwise, or else - HSK Level 3
+还是 (háishì) - Or (in questions), still - HSK Level 3
+That makes a total of 140 grammar points out of the hypothetical 180 for HSK Level 3. Let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Of course! Let's move forward with the next set of hypothetical HSK Level 3 grammar points:
+
+除非 (chúfēi) - Unless, only if - HSK Level 3
+为此 (wèicǐ) - For this reason, for this purpose - HSK Level 3
+不过 (búguò) - However, but - HSK Level 3
+即使 (jíshǐ) - Even if, even though - HSK Level 3
+到底 (dàodǐ) - At last, finally (used in questions to press for an answer) - HSK Level 3
+另外 (lìngwài) - In addition, furthermore - HSK Level 3
+一旦 (yīdàn) - Once, in case - HSK Level 3
+不如 (bùrú) - Not as good as, inferior to - HSK Level 3
+尽管如此 (jǐnguǎn rúcǐ) - Nevertheless, nonetheless - HSK Level 3
+为何 (wèihé) - Why, for what reason - HSK Level 3
+不止一次 (bù zhǐ yī cì) - More than once - HSK Level 3
+正好 (zhènghǎo) - Just in time, just right - HSK Level 3
+无论如何 (wúlùn rúhé) - No matter what, anyhow - HSK Level 3
+以至 (yǐzhì) - To the extent that - HSK Level 3
+突然 (tūrán) - Suddenly, unexpectedly - HSK Level 3
+倘若 (tǎngruò) - If, supposing - HSK Level 3
+何况 (hékùang) - Let alone, moreover - HSK Level 3
+再三 (zàisān) - Over and over again, repeatedly - HSK Level 3
+于是 (yúshì) - So, therefore - HSK Level 3
+尽量 (jǐnliàng) - As much as possible - HSK Level 3
+That takes our total to 160 grammar points out of the hypothetical 180 for HSK Level 3. If you'd like, I can continue with the next 20 or assist you with any other queries you may have!
+
+
+
+
+User
+lets assume HSK Level 3 has 180 grammar points.
+provide next 20 Chinese Mandarin grammar points for HSK Level 3:
+let me know when we reach 180 grammar points for HSK Level 3
+ChatGPT
+Alright! Let's continue with the next set of hypothetical HSK Level 3 grammar points:
+
+仍然 (réng rán) - Still, yet - HSK Level 3
+其实 (qí shí) - Actually, in fact - HSK Level 3
+相反 (xiāng fǎn) - On the contrary, opposite - HSK Level 3
+相当 (xiāng dāng) - Quite, rather - HSK Level 3
+不然 (bù rán) - Otherwise, or else - HSK Level 3
+一直 (yī zhí) - Straight, continuously - HSK Level 3
+并且 (bìng qiě) - And, moreover, furthermore - HSK Level 3
+原来 (yuán lái) - Originally, as it turns out - HSK Level 3
+不料 (bù liào) - Unexpectedly, to one's surprise - HSK Level 3
+一般 (yī bān) - Generally, ordinary - HSK Level 3
+当然 (dāng rán) - Of course, certainly - HSK Level 3
+忽然 (hū rán) - Suddenly, all of a sudden - HSK Level 3
+不久 (bù jiǔ) - Soon, before long - HSK Level 3
+不仅...而且... (bù jǐn... ér qiě...) - Not only... but also... - HSK Level 3
+尽管 (jǐn guǎn) - Although, even though - HSK Level 3
+因此 (yīn cǐ) - Therefore, so - HSK Level 3
+终于 (zhōng yú) - Finally, at last - HSK Level 3
+虽说 (suī shuō) - Although, though - HSK Level 3
+例如 (lì rú) - For instance, such as - HSK Level 3
+逐渐 (zhú jiàn) - Gradually, little by little - HSK Level 3
+With this set, we have now reached 180 grammar points for the hypothetical HSK Level 3. Let me know if you'd like to explore further topics or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Certainly! Let's delve into the first set of hypothetical HSK Level 4 grammar points:
+
+不得不 (bùdébù) - Have no choice but, cannot but - HSK Level 4
+只要...就... (zhǐyào... jiù...) - As long as... then... - HSK Level 4
+只有...才... (zhǐyǒu... cái...) - Only if/when... then... - HSK Level 4
+随着 (suízhe) - Along with, in the wake of - HSK Level 4
+不过 (búguò) - But, however - HSK Level 4
+除非 (chúfēi) - Unless - HSK Level 4
+以便 (yǐbiàn) - So that, in order to - HSK Level 4
+无论...都... (wúlùn... dōu...) - No matter how... always... - HSK Level 4
+既...又... (jì... yòu...) - Both... and... - HSK Level 4
+即使 (jíshǐ) - Even if - HSK Level 4
+甚至 (shènzhì) - Even, so much so that - HSK Level 4
+以免 (yǐmiǎn) - In order to avoid - HSK Level 4
+不然 (bùrán) - Otherwise - HSK Level 4
+正如 (zhèngrú) - Just as, as - HSK Level 4
+虽然...但是... (suīrán... dànshì...) - Although... but... - HSK Level 4
+根据 (gēnjù) - According to - HSK Level 4
+比如 (bǐrú) - For example - HSK Level 4
+假如 (jiǎrú) - If, suppose - HSK Level 4
+既然 (jìrán) - Since, now that - HSK Level 4
+无论 (wúlùn) - Regardless of, no matter - HSK Level 4
+We've now covered 20 grammar points for the hypothetical HSK Level 4. Let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Alright, let's continue with the next set of hypothetical HSK Level 4 grammar points:
+
+尽管...还... (jǐnguǎn... hái...) - Despite... still... - HSK Level 4
+即便 (jíbiàn) - Even if, even though - HSK Level 4
+至于 (zhìyú) - As for, regarding - HSK Level 4
+相比之下 (xiāngbǐ zhīxià) - In comparison, compared with - HSK Level 4
+幸亏 (xìngkuī) - Fortunately, luckily - HSK Level 4
+趁 (chèn) - Take advantage of, while - HSK Level 4
+为了 (wèile) - In order to, for the sake of - HSK Level 4
+假设 (jiǎshè) - Suppose, assuming - HSK Level 4
+反而 (fǎn'ér) - Instead, on the contrary - HSK Level 4
+与此同时 (yǔ cǐ tóngshí) - Meanwhile, at the same time - HSK Level 4
+不如 (bù rú) - Not as good as, rather than - HSK Level 4
+反之 (fǎnzhī) - Conversely, on the other hand - HSK Level 4
+由于 (yóuyú) - Due to, because of - HSK Level 4
+尽管如此 (jǐnguǎn rúcǐ) - Nevertheless, however - HSK Level 4
+若 (ruò) - If, in case - HSK Level 4
+鉴于 (jiànyú) - In light of, considering - HSK Level 4
+除了...以外 (chúle... yǐwài) - Except for, besides - HSK Level 4
+虽说 (suīshuō) - Although, though - HSK Level 4
+不管 (bùguǎn) - No matter (how, what, etc.) - HSK Level 4
+只要 (zhǐyào) - As long as - HSK Level 4
+With this set, we have covered 40 grammar points out of the hypothetical 120 for HSK Level 4. Let me know if you'd like to proceed or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Absolutely, let's proceed with the next 20 hypothetical HSK Level 4 grammar points:
+
+宁愿 (nìngyuàn) - Would rather, prefer to - HSK Level 4
+尤其 (yóuqí) - Especially, particularly - HSK Level 4
+一旦 (yīdàn) - Once, in case - HSK Level 4
+否则 (fǒuzé) - Otherwise - HSK Level 4
+偶尔 (ǒu'ěr) - Occasionally, now and then - HSK Level 4
+此外 (cǐwài) - In addition, moreover - HSK Level 4
+起初 (qǐchū) - At first, originally - HSK Level 4
+依然 (yīrán) - Still, as before - HSK Level 4
+毕竟 (bìjìng) - After all, all in all - HSK Level 4
+不同于 (bùtóngyú) - Different from - HSK Level 4
+除非 (chúfēi) - Unless - HSK Level 4
+反映 (fǎnyìng) - Reflect, mirror - HSK Level 4
+根据 (gēnjù) - Based on, according to - HSK Level 4
+对比 (duìbǐ) - Compare, contrast - HSK Level 4
+不如 (bùrú) - Inferior to, not as good as - HSK Level 4
+替代 (tìdài) - Replace, substitute - HSK Level 4
+好像 (hǎoxiàng) - Seem, be like - HSK Level 4
+接着 (jiēzhe) - Following, then - HSK Level 4
+好处 (hǎochù) - Advantage, benefit - HSK Level 4
+到底 (dàodǐ) - After all, in the end - HSK Level 4
+This set brings us to 60 grammar points out of the hypothetical 120 for HSK Level 4. Please let me know if you'd like to proceed or if there's any other assistance I can provide!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Alright, let's continue. Here's the next set of hypothetical HSK Level 4 grammar points:
+
+相当于 (xiāngdāngyú) - Equivalent to - HSK Level 4
+难怪 (nánguài) - No wonder, so that's why - HSK Level 4
+似乎 (sìhū) - It seems that, as if - HSK Level 4
+逐渐 (zhújiàn) - Gradually - HSK Level 4
+由此 (yóucǐ) - Hence, thus - HSK Level 4
+相对于 (xiāngduìyú) - Relative to, compared with - HSK Level 4
+关于 (guānyú) - About, regarding - HSK Level 4
+即便 (jíbiàn) - Even if, even though - HSK Level 4
+因此 (yīncǐ) - Therefore, so - HSK Level 4
+究竟 (jiūjìng) - After all, in the end - HSK Level 4
+除...之外 (chú...zhīwài) - Besides, in addition to - HSK Level 4
+宁可 (nìngkě) - Would rather, prefer to - HSK Level 4
+由于 (yóuyú) - Due to, because of - HSK Level 4
+假如 (jiǎrú) - If, suppose - HSK Level 4
+值得 (zhídé) - Worth, deserving - HSK Level 4
+其次 (qícì) - Secondly, next - HSK Level 4
+一方面...另一方面... (yī fāngmiàn... lìng yī fāngmiàn...) - On one hand... on the other hand... - HSK Level 4
+照 (zhào) - According to, in accordance with - HSK Level 4
+例如 (lìrú) - For instance, for example - HSK Level 4
+以为 (yǐwéi) - Assume, think (incorrectly) - HSK Level 4
+This brings our tally to 80 grammar points out of the hypothetical 120 for HSK Level 4. Please let me know if you'd like to proceed further or if there's anything else I can help with!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Certainly! Continuing with the next set of hypothetical HSK Level 4 grammar points:
+
+无论 (wúlùn) - Regardless of, no matter what/who/etc. - HSK Level 4
+只要 (zhǐyào) - As long as - HSK Level 4
+除非 (chúfēi) - Unless - HSK Level 4
+幸亏 (xìngkuī) - Fortunately, luckily - HSK Level 4
+只是 (zhǐshì) - Just, only, merely - HSK Level 4
+据说 (jùshuō) - It is said, reportedly - HSK Level 4
+既...又... (jì...yòu...) - Both... and... - HSK Level 4
+几乎 (jīhū) - Almost, nearly - HSK Level 4
+不得不 (bùdébù) - Have to, can't help but - HSK Level 4
+总的来说 (zǒng de lái shuō) - Generally speaking - HSK Level 4
+尽量 (jǐnliàng) - As much as possible, to the best of one’s ability - HSK Level 4
+为了 (wèile) - In order to, for the sake of - HSK Level 4
+既然 (jìrán) - Since, now that - HSK Level 4
+无法 (wúfǎ) - Unable to, can't - HSK Level 4
+由 (yóu) - By (indicating a passive voice) - HSK Level 4
+比如 (bǐrú) - Such as, for example - HSK Level 4
+即使 (jíshǐ) - Even if, even though - HSK Level 4
+只有...才... (zhǐyǒu...cái...) - Only if/when... then... - HSK Level 4
+甚至 (shènzhì) - Even, so much so that - HSK Level 4
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 4
+That brings our total to 100 grammar points out of the hypothetical 120 for HSK Level 4. Please let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 4 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 4:
+let me know when we reach 120 grammar points for HSK Level 4
+ChatGPT
+Certainly! Here's the next set of hypothetical HSK Level 4 grammar points:
+
+无论...都... (wúlùn...dōu...) - No matter what/who/etc., always... - HSK Level 4
+不过 (bùguò) - However, but - HSK Level 4
+正好 (zhènghǎo) - Just in time, just right - HSK Level 4
+正如 (zhèngrú) - Just as, as - HSK Level 4
+随着 (suízhe) - Along with, in pace with - HSK Level 4
+与其...不如... (yǔqí... bùrú...) - Rather than... it's better to... - HSK Level 4
+只不过 (zhǐ bùguò) - Merely, simply - HSK Level 4
+除了...还/也... (chúle... hái/yě...) - Apart from... also... - HSK Level 4
+至于 (zhìyú) - As for, regarding - HSK Level 4
+虽然...但是... (suīrán... dànshì...) - Although... but... - HSK Level 4
+无论如何 (wúlùn rúhé) - No matter what, anyhow - HSK Level 4
+到底 (dàodǐ) - At last, finally (used in questions for emphasis) - HSK Level 4
+反正 (fǎnzhèng) - Anyway, in any case - HSK Level 4
+不是...而是... (bùshì... érshì...) - It's not... but... - HSK Level 4
+原来 (yuánlái) - Originally, as it turns out - HSK Level 4
+一旦 (yīdàn) - Once, in case (something happens) - HSK Level 4
+不然 (bùrán) - Otherwise, or else - HSK Level 4
+并且 (bìngqiě) - And, moreover, furthermore - HSK Level 4
+若 (ruò) - If, in case - HSK Level 4
+以便 (yǐbiàn) - So that, in order to - HSK Level 4
+This brings us to a total of 120 grammar points for the hypothetical HSK Level 4 list. Let me know if you have any further questions or if there's anything else I can help with!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Certainly! Here are the first 20 hypothetical grammar points for HSK Level 5:
+
+除非...否则... (chúfēi...fǒuzé...) - Unless... otherwise... - HSK Level 5
+尽管 (jǐnguǎn) - Although, even though - HSK Level 5
+一切 (yīqiè) - All, every - HSK Level 5
+另外 (lìngwài) - Furthermore, in addition - HSK Level 5
+无疑 (wúyí) - Undoubtedly - HSK Level 5
+鉴于 (jiànyú) - In light of, considering - HSK Level 5
+毕竟 (bìjìng) - After all, in the end - HSK Level 5
+相对 (xiāngduì) - Relative, comparatively - HSK Level 5
+为此 (wèicǐ) - For this reason - HSK Level 5
+否定 (fǒudìng) - To deny, negate - HSK Level 5
+稍微 (shāowēi) - A bit, slightly - HSK Level 5
+难怪 (nánguài) - No wonder, so that's why - HSK Level 5
+要么...要么... (yàome... yàome...) - Either... or... - HSK Level 5
+于是 (yúshì) - Consequently, as a result - HSK Level 5
+绝不 (juébù) - Absolutely not, under no circumstances - HSK Level 5
+在于 (zàiyú) - Lies in, resides in - HSK Level 5
+至少 (zhìshǎo) - At least - HSK Level 5
+从此 (cóngcǐ) - Since then, from that time on - HSK Level 5
+避免 (bìmiǎn) - To avoid, prevent - HSK Level 5
+非但 (fēidàn) - Not only - HSK Level 5
+This set of 20 brings us to a total of 20 out of the hypothetical 120 grammar points for HSK Level 5. Let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Certainly! Here's the next set of hypothetical HSK Level 5 grammar points:
+
+其中 (qízhōng) - Among, amongst - HSK Level 5
+一方面...另一方面... (yī fāngmiàn... lìng yī fāngmiàn...) - On one hand... on the other hand... - HSK Level 5
+既然 (jìrán) - Since, given that - HSK Level 5
+即便 (jíbiàn) - Even if, even though - HSK Level 5
+既...又... (jì... yòu...) - Both... and... - HSK Level 5
+偶尔 (ǒu'ěr) - Occasionally, once in a while - HSK Level 5
+并非 (bìngfēi) - Not at all, is not - HSK Level 5
+似乎 (sìhū) - Seems, appears - HSK Level 5
+逐渐 (zhújiàn) - Gradually - HSK Level 5
+因此 (yīncǐ) - Therefore, thus - HSK Level 5
+只有...才... (zhǐyǒu... cái...) - Only if/when... then... - HSK Level 5
+何况 (hékuàng) - Let alone, moreover - HSK Level 5
+丝毫 (sīháo) - The slightest amount or degree, a bit - HSK Level 5
+根据 (gēnjù) - According to, on the basis of - HSK Level 5
+由于 (yóuyú) - Due to, because of - HSK Level 5
+尽量 (jǐnliàng) - As much as possible, to the best of one's ability - HSK Level 5
+正如 (zhèngrú) - Just like, as - HSK Level 5
+不仅...而且... (bùjǐn... érqiě...) - Not only... but also... - HSK Level 5
+尽早 (jǐnzǎo) - As soon as possible - HSK Level 5
+尽管如此 (jǐnguǎn rúcǐ) - Nevertheless, nonetheless - HSK Level 5
+This set brings us to a total of 40 out of the hypothetical 120 grammar points for HSK Level 5. Let me know if you'd like to continue or if there's anything else I can assist you with!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Of course! Continuing from where we left off, here's the next set of hypothetical HSK Level 5 grammar points:
+
+无论...都... (wúlùn... dōu...) - No matter... always... - HSK Level 5
+起初 (qǐchū) - At first, originally - HSK Level 5
+除了...以外...还/也... (chúle... yǐwài... hái/yě...) - Besides... also... - HSK Level 5
+虽然...但是... (suīrán... dànshì...) - Although... but... - HSK Level 5
+就算 (jiùsuàn) - Even if, granted that - HSK Level 5
+不管 (bùguǎn) - Regardless of, no matter how/what - HSK Level 5
+再三 (zàisān) - Again and again, repeatedly - HSK Level 5
+如今 (rújīn) - Nowadays, currently - HSK Level 5
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 5
+毫无 (háo wú) - Without any, not in the least - HSK Level 5
+反正 (fǎnzhèng) - Anyway, in any case - HSK Level 5
+即使 (jíshǐ) - Even if, even though - HSK Level 5
+一旦 (yīdàn) - Once, in case (something happens) - HSK Level 5
+不然 (bùrán) - Otherwise, if not - HSK Level 5
+总之 (zǒngzhī) - In short, in a word - HSK Level 5
+至于 (zhìyú) - As for, regarding - HSK Level 5
+以便 (yǐbiàn) - So that, in order to - HSK Level 5
+若是 (ruòshì) - If - HSK Level 5
+照 (zhào) - According to, in accordance with - HSK Level 5
+反映 (fǎnyìng) - Reflect, reflection (in a grammatical sense, not purely as a noun) - HSK Level 5
+This brings us to a total of 60 out of the hypothetical 120 grammar points for HSK Level 5. Let me know if you'd like to continue or if there's any other way I can assist you!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Absolutely, let's continue with the next set of hypothetical HSK Level 5 grammar points:
+
+不如 (bùrú) - Not as good as, inferior to - HSK Level 5
+至少 (zhìshǎo) - At least (in a grammatical context) - HSK Level 5
+另外 (lìngwài) - Additionally, furthermore - HSK Level 5
+为了 (wèile) - In order to, for the purpose of - HSK Level 5
+只要...就... (zhǐyào... jiù...) - As long as... then... - HSK Level 5
+即 (jí) - Namely, that is to say - HSK Level 5
+不见得 (bú jiàn de) - Not necessarily, not likely - HSK Level 5
+除非 (chúfēi) - Unless, only if - HSK Level 5
+于是 (yúshì) - So, therefore, as a result - HSK Level 5
+正当 (zhèngdāng) - Just as, right when - HSK Level 5
+甚至 (shènzhì) - Even, so much so that - HSK Level 5
+若 (ruò) - If, in case - HSK Level 5
+根本 (gēnběn) - At all, simply (as in "not at all") - HSK Level 5
+不料 (bùliào) - Unexpectedly - HSK Level 5
+似的 (shì de) - Seems like, as if - HSK Level 5
+顺便 (shùnbiàn) - By the way, while doing something else - HSK Level 5
+由此 (yóucǐ) - Thus, hence - HSK Level 5
+假如 (jiǎrú) - Suppose, if - HSK Level 5
+尤其 (yóuqí) - Especially, particularly - HSK Level 5
+倘若 (tǎngruò) - If, supposing - HSK Level 5
+This brings us to a cumulative total of 80 out of the hypothetical 120 grammar points for HSK Level 5. Let me know if you'd like to keep going or if there's anything else I can help with!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Absolutely, continuing with our list:
+
+否则 (fǒuzé) - Otherwise, or else - HSK Level 5
+一旦...就... (yīdàn... jiù...) - Once... then... - HSK Level 5
+正如 (zhèngrú) - Just as, as - HSK Level 5
+不禁 (bùjīn) - Can't help (doing something) - HSK Level 5
+既然 (jìrán) - Since, now that - HSK Level 5
+趁 (chèn) - Take advantage of, while - HSK Level 5
+其中 (qízhōng) - Among, of which - HSK Level 5
+就此 (jiùcǐ) - Thereupon, thus - HSK Level 5
+无非 (wúfēi) - Nothing but, no more than - HSK Level 5
+究竟 (jiūjìng) - After all, in the end (in a question context) - HSK Level 5
+竟然 (jìngrán) - Unexpectedly, to one's surprise - HSK Level 5
+只不过 (zhǐbùguò) - Merely, only - HSK Level 5
+早已 (zǎoyǐ) - Long ago, for a long time - HSK Level 5
+不光...还... (bù guāng... hái...) - Not only... but also... - HSK Level 5
+何况 (hékùang) - Let alone, much less - HSK Level 5
+难怪 (nánguài) - No wonder, so that's why - HSK Level 5
+既...又... (jì... yòu...) - Both... and... - HSK Level 5
+莫非 (mòfēi) - Could it be that, unless - HSK Level 5
+正好 (zhènghǎo) - Just in time, just right - HSK Level 5
+就算...也... (jiùsuàn... yě...) - Even if... still... - HSK Level 5
+This brings us to 100 out of the hypothetical 120 grammar points for HSK Level 5. If you'd like to proceed further or need any other assistance, please let me know!
+
+
+
+
+User
+lets assume that HSK Level 5 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 5:
+let me know when we reach 120 grammar points for HSK Level 5
+ChatGPT
+Of course, continuing from where we left off:
+
+何必 (hébì) - Why should, why bother - HSK Level 5
+一切 (yíqiè) - All, everything (in a grammatical context) - HSK Level 5
+除了...之外 (chúle... zhīwài) - Apart from, besides - HSK Level 5
+宁可 (nìngkě) - Would rather, preferably - HSK Level 5
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 5
+尽量 (jìnliàng) - As much as possible - HSK Level 5
+无论...都... (wúlùn... dōu...) - No matter... always... - HSK Level 5
+照 (zhào) - According to, in light of - HSK Level 5
+经过 (jīngguò) - After, through (in a process context) - HSK Level 5
+至于 (zhìyú) - As for, as to - HSK Level 5
+一方面...另一方面... (yī fāngmiàn... lìng yī fāngmiàn...) - On one hand... on the other hand... - HSK Level 5
+鉴于 (jiànyú) - In view of, considering - HSK Level 5
+反正 (fǎnzhèng) - Anyway, in any case - HSK Level 5
+尽管...但是... (jǐnguǎn... dànshì...) - Although... but... - HSK Level 5
+只有...才... (zhǐyǒu... cái...) - Only if... then... - HSK Level 5
+不过 (búguò) - However, but - HSK Level 5
+再三 (zàisān) - Repeatedly, over and over again - HSK Level 5
+偏偏 (piānpiān) - Against expectations, of all things - HSK Level 5
+更不用说 (gèng bùyòng shuō) - Not to mention, let alone - HSK Level 5
+由于 (yóuyú) - Due to, because of - HSK Level 5
+With this, we've covered a hypothetical set of 120 grammar points for HSK Level 5. Let me know if you'd like to explore further or need assistance with something else!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+Certainly, let's delve into a hypothetical set of grammar points for HSK Level 6:
+
+假如 (jiǎrú) - If, supposing - HSK Level 6
+非...不可 (fēi... bùkě) - Must, have to - HSK Level 6
+即便 (jíbiàn) - Even if, even though - HSK Level 6
+据说 (jùshuō) - It is said that, reportedly - HSK Level 6
+不是...而是... (bùshì... érshì...) - It's not... but... - HSK Level 6
+至多 (zhìduō) - At most - HSK Level 6
+毫无 (háo wú) - Without, not in the least - HSK Level 6
+则 (zé) - Then, thus - HSK Level 6
+而已 (éryǐ) - That's all, nothing more than - HSK Level 6
+难道 (nándào) - Could it be that, isn't it? - HSK Level 6
+不如 (bùrú) - Not as good as, inferior to - HSK Level 6
+无论如何 (wúlùn rúhé) - Anyhow, anyway, in any case - HSK Level 6
+不得不 (bùdébù) - Have to, can't but - HSK Level 6
+不然 (bùrán) - Otherwise, if not - HSK Level 6
+不管...都... (bùguǎn... dōu...) - Regardless of... always... - HSK Level 6
+唯有 (wéiyǒu) - Only, alone - HSK Level 6
+那般 (nà bān) - So, such - HSK Level 6
+以至于 (yǐzhìyú) - So... that... - HSK Level 6
+若非 (ruò fēi) - If not for, but for - HSK Level 6
+要么...要么... (yàome... yàome...) - Either... or... - HSK Level 6
+This is the starting set for HSK Level 6, based on our hypothetical list. Let me know if you'd like to proceed further or need any other information!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+Alright, continuing our hypothetical exploration of HSK Level 6 grammar points:
+
+不是...就是... (bùshì... jiùshì...) - Either... or... - HSK Level 6
+尽管...但是... (jǐnguǎn... dànshì...) - Although... but... - HSK Level 6
+除非...否则... (chúfēi... fǒuzé...) - Unless... otherwise... - HSK Level 6
+与其...不如... (yǔqí... bùrú...) - Rather than... it's better to... - HSK Level 6
+即使 (jíshǐ) - Even if, even though - HSK Level 6
+既...又... (jì... yòu...) - Both... and... - HSK Level 6
+由此可见 (yóucǐ kějiàn) - From this, one can see that... - HSK Level 6
+至于 (zhìyú) - As for, regarding - HSK Level 6
+毕竟 (bìjìng) - After all, when all is said and done - HSK Level 6
+反之 (fǎnzhī) - On the contrary, conversely - HSK Level 6
+除了...以外 (chúle... yǐwài) - Apart from, besides - HSK Level 6
+不仅...而且... (bùjǐn... érqiě...) - Not only... but also... - HSK Level 6
+何况 (hékuàng) - Let alone, not to mention - HSK Level 6
+假使 (jiǎshǐ) - Supposing, if - HSK Level 6
+倘若 (tǎngruò) - If, supposing - HSK Level 6
+正如 (zhèngrú) - Just as, as - HSK Level 6
+正因为...所以... (zhèng yīnwèi... suǒyǐ...) - Precisely because... therefore... - HSK Level 6
+而非 (érfēi) - Rather than - HSK Level 6
+若是 (ruòshì) - If, in case - HSK Level 6
+鉴于 (jiànyú) - In light of, considering - HSK Level 6
+Now we've covered 40 hypothetical grammar points for HSK Level 6. Let me know if you'd like to proceed further!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+Continuing with the hypothetical HSK Level 6 grammar points:
+
+尽可能 (jǐn kěnéng) - As much as possible - HSK Level 6
+并非 (bìngfēi) - Not at all, is not - HSK Level 6
+无论...都... (wúlùn... dōu...) - No matter... always... - HSK Level 6
+不然 (bùrán) - Otherwise, or else - HSK Level 6
+趁 (chèn) - While, take advantage of - HSK Level 6
+无非 (wúfēi) - Nothing but, only - HSK Level 6
+只要...就... (zhǐyào... jiù...) - As long as... then... - HSK Level 6
+除非 (chúfēi) - Only if, unless - HSK Level 6
+无论如何 (wúlùn rúhé) - No matter what, anyhow - HSK Level 6
+只怕 (zhǐpà) - I'm afraid that, perhaps - HSK Level 6
+尽管如此 (jǐnguǎn rúcǐ) - Even so, nonetheless - HSK Level 6
+难怪 (nánguài) - No wonder, so that's why - HSK Level 6
+尽早 (jǐnzǎo) - As early as possible - HSK Level 6
+一旦 (yīdàn) - Once, in case (something happens) - HSK Level 6
+虽说 (suī shuō) - Although, though - HSK Level 6
+不得不 (bùdébù) - Have to, can't avoid - HSK Level 6
+难道 (nándào) - Could it be that, isn't it the case? - HSK Level 6
+一直 (yīzhí) - All along, continuously - HSK Level 6
+终于 (zhōngyú) - Finally, at last - HSK Level 6
+早已 (zǎoyǐ) - Long ago, for a long time - HSK Level 6
+Now we've covered 60 hypothetical grammar points for HSK Level 6. Let me know if you'd like to continue!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+All right! Continuing from our hypothetical HSK Level 6 grammar points:
+
+何况 (hékuàng) - Let alone, not to mention - HSK Level 6
+哪怕 (nǎpà) - Even if, even though - HSK Level 6
+更不用说 (gèng bùyòng shuō) - Not to mention, let alone - HSK Level 6
+为难 (wéinán) - To make things difficult for, to feel embarrassed - HSK Level 6
+相反 (xiāngfǎn) - On the contrary, instead - HSK Level 6
+此外 (cǐwài) - Besides, in addition - HSK Level 6
+要么...要么... (yàome... yàome...) - Either... or... - HSK Level 6
+与其...不如... (yǔqí... bùrú...) - Rather than... it's better to... - HSK Level 6
+根据 (gēnjù) - According to, based on - HSK Level 6
+尽力 (jǐnlì) - To do one's best, to strive as much as possible - HSK Level 6
+除...之外 (chú... zhīwài) - Apart from, besides - HSK Level 6
+始终 (shǐzhōng) - From beginning to end, all along - HSK Level 6
+正如 (zhèngrú) - Just as, as - HSK Level 6
+正巧 (zhèngqiǎo) - Coincidentally, just in time - HSK Level 6
+若是 (ruòshì) - If, in case - HSK Level 6
+与其说...不如说... (yǔqí shuō... bùrú shuō...) - Rather than saying... it's better to say... - HSK Level 6
+凭 (píng) - Rely on, according to - HSK Level 6
+连...都/也... (lián... dōu/yě...) - Even... - HSK Level 6
+何必 (hébì) - Why should, why must - HSK Level 6
+除非...否则... (chúfēi... fǒuzé...) - Unless... otherwise... - HSK Level 6
+With this, we've now covered 80 hypothetical grammar points for HSK Level 6. Let me know how you'd like to proceed!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+Certainly! Continuing from our previous list for the hypothetical HSK Level 6 grammar points:
+
+只要...就... (zhǐyào... jiù...) - As long as... then... - HSK Level 6
+尽管...但是... (jǐnguǎn... dànshì...) - Although... but... - HSK Level 6
+不得不 (bùdébù) - Have to, can't help but - HSK Level 6
+既然 (jìrán) - Since, given that - HSK Level 6
+无论...都... (wúlùn... dōu...) - No matter... all... - HSK Level 6
+无非 (wúfēi) - Nothing but, merely - HSK Level 6
+难道 (nándào) - Could it be that, is it possible - HSK Level 6
+假如 (jiǎrú) - If, supposing - HSK Level 6
+即使...也... (jíshǐ... yě...) - Even if... still... - HSK Level 6
+唯有 (wéiyǒu) - Only have, only - HSK Level 6
+不如 (bùrú) - Not as good as, inferior to - HSK Level 6
+逐渐 (zhújiàn) - Gradually - HSK Level 6
+反而 (fǎn'ér) - On the contrary, instead - HSK Level 6
+避免 (bìmiǎn) - To avoid, to prevent - HSK Level 6
+尽管如此 (jǐnguǎn rúcǐ) - Even so, nevertheless - HSK Level 6
+为了 (wèile) - In order to, for the sake of - HSK Level 6
+反之 (fǎnzhī) - On the other hand, conversely - HSK Level 6
+例如 (lìrú) - For example - HSK Level 6
+尤其 (yóuqí) - Especially, particularly - HSK Level 6
+由于 (yóuyú) - Due to, because of - HSK Level 6
+That brings us to 100 hypothetical grammar points for HSK Level 6. Let me know if you'd like to continue further!
+
+
+
+
+User
+lets assume that HSK Level 6 has 120 grammar points.
+
+provide next 20 Chinese Mandarin grammar points for HSK Level 6:
+let me know when we reach 120 grammar points for HSK Level 6
+ChatGPT
+Alright, continuing our hypothetical HSK Level 6 grammar points:
+
+不管...都... (bùguǎn... dōu...) - No matter... always... - HSK Level 6
+非...不可 (fēi... bùkě) - Must, have to - HSK Level 6
+与其...不如... (yǔqí... bùrú...) - Rather than... it's better to... - HSK Level 6
+不是...而是... (bùshì... érshì...) - It's not... but... - HSK Level 6
+除非...否则... (chúfēi... fǒuzé...) - Unless... otherwise... - HSK Level 6
+以至于 (yǐzhìyú) - So that, to the extent that - HSK Level 6
+一旦...就... (yīdàn... jiù...) - Once... then... - HSK Level 6
+鉴于 (jiànyú) - In view of, considering - HSK Level 6
+就算...也... (jiùsuàn... yě...) - Even if... still... - HSK Level 6
+要么...要么... (yàome... yàome...) - Either... or... - HSK Level 6
+不禁 (bùjīn) - Can't help but, can't refrain from - HSK Level 6
+虽然...但是... (suīrán... dànshì...) - Although... but... - HSK Level 6
+不论...都... (bùlùn... dōu...) - Regardless of... all... - HSK Level 6
+为何 (wèihé) - Why, how come - HSK Level 6
+根据 (gēnjù) - According to, based on - HSK Level 6
+以便 (yǐbiàn) - In order to, so that - HSK Level 6
+因而 (yīn'ér) - Therefore, as a result - HSK Level 6
+若是 (ruòshì) - If, in case - HSK Level 6
+尽量 (jǐnliàng) - As much as possible - HSK Level 6
+要不然 (yào bùrán) - Otherwise, or else - HSK Level 6
+That brings us to the hypothetical 120 grammar points for HSK Level 6. If you'd like more information or further details on any points, please let me know!
+
+
+
+
+User
+are there any other grammar points students should know?
+ChatGPT
+Certainly, Chinese Mandarin is a rich language with numerous grammar points to explore. The HSK exams, while comprehensive, are not exhaustive of the language's depth. Beyond the HSK Level 6, there are still many advanced grammar points, idiomatic expressions, and structures that students might encounter, especially in literature, academic writing, formal communications, and more colloquial speech.
+
+Here are a few additional grammar points, expressions, and structures that intermediate to advanced students may find useful:
+
+替代 (tìdài) - Replace; On behalf of. - HSK Level 6
+尤其是 (yóuqíshì) - Especially, particularly. - HSK Level 6
+由此可见 (yóu cǐ kě jiàn) - From this, it can be seen... - HSK Level 6
+更不用说 (gèng bùyòng shuō) - Not to mention, let alone. - HSK Level 6
+何况 (hékuàng) - Let alone, much less. - HSK Level 6
+倒不如 (dào bù rú) - Might as well... - HSK Level 6
+不妨 (bùfáng) - Might as well... - HSK Level 6
+既然...就... (jìrán... jiù...) - Since... then... - HSK Level 6
+在...方面 (zài... fāngmiàn) - In terms of... - HSK Level 6
+不如 (bùrú) - Not as good as, inferior to. - HSK Level 6
+日益 (rìyì) - Increasingly, more and more. - HSK Level 6
+怎么办 (zěnme bàn) - What to do? (commonly used in everyday speech) - HSK Level 6
+无论如何 (wúlùn rúhé) - Anyway, anyhow, no matter what. - HSK Level 6
+只要...就... (zhǐyào... jiù...) - As long as... then... - HSK Level 6
+任何 (rènhé) - Any, whichever. - HSK Level 6
+无非 (wúfēi) - Nothing but, nothing more than. - HSK Level 6
+即便 (jíbiàn) - Even if, even though. - HSK Level 6
+按照 (ànzhào) - According to. - HSK Level 6
+一...就... (yī... jiù...) - As soon as... - HSK Level 6
+除...之外 (chú... zhīwài) - Apart from, besides. - HSK Level 6
+These are just a few selected grammar points beyond the foundational ones often introduced in structured programs like the HSK. As students continue to immerse themselves in the language, they'll encounter more nuanced grammar points, idiomatic expressions, and structures that bring richness to their communication skills.

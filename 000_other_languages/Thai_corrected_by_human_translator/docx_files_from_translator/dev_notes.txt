@@ -1,0 +1,9 @@
+the romaji is not fixed, translator just marked it with ***
+next to the sentence
+so I need to manually regenerate lots of thai romaji, best would be to learn
+thai alphabet as well, because it is lots of things to fix manually
+and i cannot rely on GPT obviously for that
+
+
+yeah, i definitely need to learn their alphabet, there is no other way
+I have to learn it very well, GPT is not good at romanization at all

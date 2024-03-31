@@ -1,0 +1,67 @@
+青白い|あおじろい|pale||
+怪しい|あやしい|suspicious, dubious||
+荒い|あらい|rough, wild||
+粗い|あらい|rough, coarse||
+ありがたい|ありがたい|grateful||
+慌ただしい|あわただしい|hurried||
+薄暗い|うすぐらい|dim||
+
+
+うらやましい|うらやましい|jealous||
+幼い|おさない|(very) young||
+惜しい|おしい|regrettable||
+おめでたい|おめでたい|good (news), joyous||
+重たい|おもたい|heavy||
+賢い|かしこい|smart, clever||
+かわいらしい|かわいらしい|pretty, cute||
+気味が悪い|きみがわるい|creepy, weird||
+
+
+くだらない|くだらない|worthless||
+煙い|けむい|smoky||
+険しい|けわしい|steep, severe||
+恋しい|こいしい|missed, beloved, dear||
+騒がしい|さわがしい|noisy||
+親しい|したしい|close, intimate||
+しつこい|しつこい|cloying, insistent||
+しょうがない|しょうがない|it cannot be helped||
+
+
+しょっぱい|しょっぱい|salty||
+ずうずうしい|ずうずうしい|insolent||
+すまない|すまない|sorry||
+ずるい|ずるい|sly||
+鋭い|するどい|sharp, acute||
+騒々しい|そうぞうしい|noisy||
+そそっかしい|そそっかしい|careless||
+頼もしい|たのもしい|reliable||
+
+
+たまらない|たまらない|unbearable||
+だらしない|だらしない|sloppy||
+力強い|ちからづよい|powerful||
+憎い|にくい|hateful||
+憎らしい|にくらしい|hateful||
+鈍い|にぶい|dull, blunt||
+のろい|のろい|slow, dull||
+ばからしい|ばからしい|foolish||
+
+激しい|はげしい|fierce, heavy||
+幅広い|はばひろい|wide, broad||
+等しい|ひとしい|equal||
+ふさわしい|ふさわしい|ideal, suitable||
+待ち遠しい|まちどおしい|look forward to||
+まぶしい|まぶしい|(uncomfortably) bright||
+醜い|みにくい|ugly||
+めでたい|めでたい|happy, joyous||
+
+めんどくさい|めんどくさい|bothersome||
+物足りない|ものたりない|inadequate||
+やかましい|やかましい|noisy, fastidious||
+緩い|ゆるい|loose, gentle||
+若々しい|わかわかしい|youthful||
+
+
+COMPLETED
+
+(い adj.)

@@ -1,0 +1,48 @@
+N3_tango_p_28-31.txt
+----------------------------------
+
+
+
+| 小麦  | こむぎ  | wheat  | In Japan they grow rice instead of wheat.  |　日本では、小麦の代わりに米を栽培しています。　|
+| コンクール  |   | contest  | Beauty contests are still popular.  |　ビューティーコンテストは今でも人気があります。　|
+| コンクリート  |   | concrete  | Concrete is common building material in Japan.  |　日本では、コンクリートが一般的な建築材料です。　|
+| サービス（する）  |   | a service, to service  | I gave the waiter a tip for his great service.  |　ウェイターには、素晴らしいサービスに対してチップを渡しました。　|
+| 最高  | さいこう  | highest  | To pass an entry exam, you will need to score among highest 10%.  |　入社試験に合格するためには、上位10％以内の得点が必要です。　|
+| 最大  | さいだい  | biggest  | This is our biggest project that we worked on so far.  |　これまで手掛けた中で最大のプロジェクトです。　|
+| 最低  | さいてい  | lowest  | This is one of the lowest scores that you can achieve in this game. |　これは、このゲームで達成できる最低得点の一つです。　|
+| 裁判  | さいばん  | trial  | ?????  |　　|
+|   |   |   |   |　　|
+| 材料  | ざいりょう  | ingredients, material  | My wife gave me a list of ingredients to buy at the grocery store.  |　 妻からスーパーで買うべき材料のリストを渡された。　|
+| サイレン  |   | siren  | In our town, they test emergency siren warning system every month.  |　私たちの住む町では、毎月、非常用サイレン警報装置のテストを行っています。　|
+| サイン （する） |   | sign, signature  | These documents were signed with falsified signature.  |　これらの文書には、偽造されたサインが書かれていた。　|
+| 作業（する） | さぎょう（する） | work, operation  | He did a lot of work on this project.  |　このプロジェクトでは、多くのことをやってのけた。　|
+| 作品  | さくひん  | work of art, production  | He is buying works of art as protection against inflation.  |　彼はインフレに対する防御として美術品を買っているのだ。　|
+| 撮影（する）  | さつえい（する）  | filming, shooting  | Movie director is the main person responsible for filming the movie.  |　映画監督は、映画の撮影を担当する中心的な人物です。　|
+| 騒ぎ  | さわぎ  | commotion, disturbance  | I heard a disturbance while walking on a dark street and got scared.  |　暗い道を歩いていたら騒ぎ声がして、怖くなった。　|
+| 参加（する）  | さんか（する）  | participation  | He participated in a sports event.  |　スポーツ大会に参加した。　|
+|   |   |   |   |　　|
+| 産業  | さんぎょう  | industry  | In Germany car manufacturing industry is very important.  |　ドイツでは、自動車産業が非常に重要な位置を占めています。　|
+| 残業（する）  | ざんぎょう（する）  | overtime  | At my job I have typically 5 hours of overtime every week.  |　私の仕事では、通常、毎週5時間の残業があります。　|
+| 参考  | さんこう  | reference, consultation  | For more information about this topic, please refer to these books.  |　このテーマについては、以下の書籍をご参照ください。　|
+| 賛成（する）  | さんせい（する）  | approval, agreement  | We have agreed about the final decision regarding this project.  |　このプロジェクトに関する最終的な決定については合意しています。　|
+| 産地  | さんち  | producing area  | Producing area of these fruits is located near the river.  |　これらの果物の産地は、川の近くにある。　|
+| 資源  | しげん  | natural resource(s)  | Africa is rich in natural resources.  |　アフリカは天然資源が豊富です。　|
+| 事件  | じけん  | incident, happening, case  | It has been 2 years since that incident.  |　あの事件から2年が経ちました。　|
+| 指示（する）  | しじ（する） | instruction, direction  | I have followed instructions in the manual.  |　マニュアルの指示に従いました。　|
+|   |   |   |   |　　|
+| 事実  | じじつ  | truth, facts  | She is not telling the truth most of the time.  |　彼女はほとんどの場合、真実を語ってはいない。　|
+| 事情  | じじょう  | circumstances, conditions  | Under these conditions, we cannot continue.  |　このような状況では、継続することはできません。　|
+| 自信  | じしん  | confidence  | He has natural self confidence.  |　彼は自然に自分に自信を持っている。　|
+| 時速  | じそく  | speed per hour  | My average speed while riding a bike is 15 kilometers per hour.  |　自転車に乗るときの平均速度は時速15kmです。　|
+| 支度（する）  | したく（する）  | preparation  | We need to make preparations for the coming festival.  |　来るべき祭りの準備をしなければならない。　|
+| 失業（する） | しつぎょう（する）  | unemployment  | My wife is currently recieving unemployment benefits from the government.  |　私の妻は現在、政府から失業手当を受け取っています。　|
+| 実際  | じっさい  | reality, actual situation  | In reality it was not as hard as I thought.  |　実際は、思ったほど大変ではなかったです。　|
+| 実力  | じつりょく  | (real) ability  | During interview we have tested real abilities of the applicants.  |　面接では、応募者の本当の実力を試しています。　|
+|   |   |   |   |　　|
+
+
+
+
+
+
+COMPLETED

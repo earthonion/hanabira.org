@@ -1,0 +1,46 @@
+N3_tango_p_24-27.txt
+----------------------------------
+
+| 建設 （する） | けんせつ （する） | construction, to construct  | Our company has started construction of the new prototype.  |　当社では、新しいプロトタイプの建設を開始しました。　｜
+| 建築 （する） | けんちく （する） | architecture  | I always had an interest in design and architecture.  |　もともとデザインや建築に興味があったんです。　｜
+| 憲法  | けんぽう  | constitution  | Our freedom is granted by our laws and contitution.  |　私たちの自由は、法律と憲法によって認められています。　｜
+| 権利  | けんり  | right  | People have their rights and obligations.  |　人には権利と義務があります。　｜
+| 原料  | げんりょう  | raw material, basic ingredient  | Basic ingredient of whiskey is barley.  |　ウイスキーの基本原料は大麦である。　｜
+| 講演 （する） | こうえん  | a lecture, to lecture  | I tend to get sleepy during lectures.  |　講義中に眠くなることが多いのです。　｜
+| 効果  | こうか  | good effect  | The health effects of proper diet are considerable.   |　適切な食事がもたらす健康効果は相当なものです。　｜
+| 交換 （する） | こうかん  | an exchange, to exchange  | Both countries have exchanged their prisoners.  |　両国は捕虜を交換した。　｜
+|   |   |   |   |　　｜
+| 工業  | こうぎょう  | industry  | This industry is in decline due to economical crisis.  |　この業界は、経済危機の影響で衰退しています。　｜
+| 航空便  | こうくうびん  | airmail  | I sent the letter by airmail.  |　手紙は航空便で送りました。　｜
+| 合計 （する） | ごうけい （する） | total  | All the items I ordered will be in total 10000 yen.  |　注文した商品は全部で10000円になります。　｜
+| 広告 （する） | こうこく （する） | advertisement  | Watching advertisements on the TV is a waste of time.  |　テレビで広告を見るのは時間の無駄です。　｜
+| 交際 （する） | こうさい （する） | companionship, association  | I have been associated with this company for several years.  |　この会社とは数年前からお付き合いさせていただいています。　｜
+| 工事 （する） | こうじ （する） | construction work  | Construction work in our building should finish in August.  |　ビルの工事は8月中に終わる予定です。　｜
+| 行動 （する） | こうどう （する） | action, behavior  | Do not listen to what he says but watch what are his actions.  |　彼の言うことに耳を傾けるのではなく、彼の行動を見よ。　｜
+| 公立  | こうりつ  | public  | Where can I find public toilets?  |　公衆トイレはどこにありますか？　｜
+|   |   |   |   |　　｜
+| 交流 （する） | こうりゅう （する） | interchange, interaction  | I find it hard to interact with other teams at work.  |　職場で他のチームと交流するのは難しいと感じています。　｜
+| コース  |   | course  | When sailing it is important to maintain proper course.  |　セーリングでは、正しいコースを維持することが重要です。　｜
+| コーナー  |   | corner, area  | ?????  |　　｜
+| ゴール （する） |   | goal, finish line  | The football player scored a goal.  |　サッカー選手がゴールを決めた。　｜
+|  |   |   | After an hour of running the race I have finally reached the finish line.  |　走り始めて1時間後、ようやくゴールにたどり着きました。　｜
+|   |   |   | I have completed all goals that I set for this year at work.  |　仕事では、今年立てた目標をすべてクリアしました。　｜
+| 誤解 （する）  | ごかい （する） | misunderstanding, mistake  | The project failed due to constand misunderstandings between colleagues.  |　プロジェクトが失敗したのは、同僚との間に誤解があったためだ。　｜
+| 小型  | こがた  | small-size  | Do you have this item in small size as well?  |　この商品には小型サイズもあるのでしょうか？　｜
+| 国産  | こくさん  | domestically made, home-grown  | This company makes cars domestically. |　国内で自動車を製造している会社です。　｜
+| 国立  | こくりつ  | national  | My kids are attending national school.  |　私の子供は国立に通っています。　｜
+|   |   |   |   |　　｜
+| 心  | こころ  | heart, mind  | He is kind person and has a pure heart.  |　優しいし、純粋な心を持っている。　｜
+| 故障 （する） | こしょう （する） | breakdown, to break down  | Our flight was delayed because the plane engine broke down.  |　飛行機のエンジンが故障したため、飛行機が遅れてしまったのです。　｜
+| 国会  | こっかい  | the Diet, national assembly  | ????  |　　｜
+| こずつみ ？？ | こずつみ ？？ | a package  | A package arrived via air mail from China.  |　中国から航空便で荷物が届きました。　｜
+| 粉  | こな  | powder, flour  | I ran out of flour in the kitchen and had to buy it.  |　キッチンの小麦粉が足りなくなり、購入することに。　｜
+| ごぶさた （する） |   | not keeping in touch  | long time no see ???  |　　｜
+| コミュニケーション  |   | communication  | Communication within our team does not work well.  |　チーム内のコミュニケーションがうまくいっていない。　｜
+| ゴム  |   | rubber, elastic  | I used rubber band to keep things together.  |　輪ゴムを使ってまとめました。　｜
+|   |   |   |   |　　｜
+|   |   |   |   |　　｜
+
+
+
+COMPLETED

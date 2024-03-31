@@ -1,0 +1,130 @@
+愛する| あいする | to love |  |  |  |
+諦める| あきらめる | to give up, to abandon |  |  |  |
+飽きる|あきる  | to lose interest, to tire of |  |  |  |
+預かる| あずかる | to keep, to look after |  |  |  |
+預ける| あずける | to deposit, to entrust |  |  |  |
+暖める| あたためる | to warm, to heat |  |  |  |
+温める| あたためる | to warm, to heat |  |  |  |
+当たる| あたる | to hit, to strike |  |  |  |
+余る|あまる  | to be left over |  |  |  |
+編む| あむ | to knit |  |  |  |
+現れる| あらわれる | to appear |  |  |  |
+合わせる| あわせる | to combine, to sum up |  |  |  |
+慌てる| あわてる | to be in a flurry |  |  |  |
+生かす| いかす | to make good use of |  |  |  |
+いじめる|  | to bully |  |  |  |
+いためる|  | to stir-fry |  |  |  |
+祈る| いのる | to pray |  |  |  |
+嫌がる|いやがる  | to hate |  |  |  |
+いらいらする|  | to be irritated |  |  |  |
+祝う| いわう | to celebrate |  |  |  |
+植える|うえる  | to plant |  |  |  |
+受かる|うかる  | to pass (an examination) |  |  |  |
+浮く| うく | to float |  |  |  |
+受け付ける| うけつける | to accept |  |  |  |
+受け取る| うけとる | to receive |  |  |  |
+動かす| うごかす | to move |  |  |  |
+移す| うつす | to move (location), to transfer |  |  |  |
+写る| うつる | to be in a picture |  |  |  |
+裏返す| うらがえす | to turn over |  |  |  |
+売り切れる| うりきれる | to sell out |  |  |  |
+売れる| うれる | to sell |  |  |  |
+選ぶ| えらぶ | to choose|  |  |  |
+追い掛ける| おいかける | to chase, to run after |  |  |  |
+追い越す| おいこす | to overtake |  |  |  |
+追い付く| おいつく | to catch up |  |  |  |
+追う| おう | to run after, to chase |  |  |  |
+贈る|おくる  | to present |  |  |  |
+行う|おこなう  | to carry out, to hold  |  |  |  |
+押さえる| おさえる | to hold (down), to press |  |  |  |
+落ち着く| おちつく | to be calm |  |  |  |
+溺れる|おぼれる  | to (almost/nearly) drown |  |  |  |
+思い付く| おもいつく | to hit upon an idea |  |  |  |
+折れる| おれる | to break |  |  |  |
+下ろす| おろす | to take down, to unload |  |  |  |
+飼う| かう | to keep/to have (animals) |  |  |  |
+返る| かえる | to return, to be returned |  |  |  |
+輝く| かがやく | to shine, to glitter |  |  |  |
+かかる|  | to fall ill, to catch (illness) |  |  |  |
+汗をかく| あせをかく | to sweat |  |  |  |
+かく|  |to scratch  |  |  |  |
+かぐ|  | to smell |  |  |  |
+隠す| かくす | to hide |  |  |  |
+囲む| かこむ | to surround |  |  |  |
+重ねる| かさねる | to pile up, to stack |  |  |  |
+数える| かぞえる | to count |  |  |  |
+固まる| かたまる | to harden, to solidify |  |  |  |
+傾く| かたむく | to lean, to tilt |  |  |  |
+がっかりする|  | to be disappointed |  |  |  |
+かむ|  | to chew |  |  |  |
+通う| かよう | to go to and from, to commute |  |  |  |
+枯れる| かれる | to wither and die |  |  |  |
+かわいがる|  | to make a fuss of, to treat with affection |  |  |  |
+乾かす| かわかす | to dry |  |  |  |
+代わる/換わる/替わる|かわる  | to replace, to substitute |  |  |  |
+感じる|かんじる  | to feel |  |  |  |
+効く| きく | to be effective |  |  |  |
+着せる|きせる  | to dress, to put on, to clothe |  |  |  |
+気付く| ？？？ | to notice, to realise |  |  |  |
+気に入る| きにいる | to like |  |  |  |
+切れる|きれる  | to break |  |  |  |
+気を付ける| きをつける | to be careful, to take care |  |  |  |
+腐る| くさる | to rot, to go bad |  |  |  |
+崩れる|くずれる  | to collapse, to give way |  |  |  |
+配る|くばる  | to hand out |  |  |  |
+暮らす|くらす  | to live |  |  |  |
+比べる|くらべる  | to compare |  |  |  |
+繰り返す|くりかえす  | to repeat |  |  |  |
+苦しむ| くるしむ | to suffer |  |  |  |
+暮れる| くれる | to get dark |  |  |  |
+加える| くわえる | to add |  |  |  |
+削る| けずる | to sharpen, to shave |  |  |  |
+蹴る| ける | to kick |  |  |  |
+越える| こえる | to go over, to pass through |  |  |  |
+凍る| こおる | to freeze, to become frozen |  |  |  |
+こぐ|  | to row, to pedal |  |  |  |
+焦げる| こげる | to burn |  |  |  |
+腰掛ける| こしかける | to sit down |  |  |  |
+超す/越す| こす | to pass, to exceed |  |  |  |
+断る|ことわる  | to decline, to refuse |  |  |  |
+こぼれる|  | to spill |  |  |  |
+混む/込む| こむ | to be crowded |  |  |  |
+転がる| ころがる | to roll over/around |  |  |  |
+殺す|ころす  | to kill |  |  |  |
+転ぶ|ころぶ  | to fall down/over |  |  |  |
+探す/捜す| さがす | to look for |  |  |  |
+叫ぶ|さけぶ  | to shout, to cry out |  |  |  |
+刺す|さす  | to stab |  |  |  |
+指す|さす  | to point |  |  |  |
+差す| さす | to put in |  |  |  |
+誘う| さそう | to invite |  |  |  |
+さっぱりする|  | to feel refreshed/relieved |  |  |  |
+覚める| さめる | to wake up |  |  |  |
+冷める| さめる | to get cold |  |  |  |
+敷く|しく  | to spread, to lay |  |  |  |
+沈む|しずむ  | to sink |  |  |  |
+支払う| しはらう |to pay  |  |  |  |
+縛る|しばる  | to tie, to bind |  |  |  |
+しまう|  | to put away |  |  |  |
+しゃべる|  | to talk, to chat |  |  |  |
+信じる| しんじる | to believe |  |  |  |
+過ぎる|すぎる  | to pass |  |  |  |
+過ごす|すごす  | to spend |  |  |  |
+進む|すすむ  | to forward, to advance |  |  |  |
+勧める|すすめる  | to advise, to suggest, to recommend |  |  |  |
+滑る|すべる  | to slip, to be slippery |  |  |  |
+済む|すむ  | to be over/done |  |  |  |
+育てる|そだてる  | to bring up, to raise |  |  |  |
+備える|そなえる  | to prepare |  |  |  |
+染める|そめる  | to dye |  |  |  |
+そる|  | to shave |  |  |  |
+そろえる|  | to arrange, to put in order |  |  |  |
+倒す|たおす  | to knock down, to pull down |  |  |  |
+炊く| たく | to cook |  |  |  |
+抱く|だく  | to hold, to hug |  |  |  |
+確かめる| たしかめる | to confirm, to make sure |  |  |  |
+足す| たす  | to add |  |  |  |
+助ける| たすける  | to rescue, to help |  |  |  |
+訪ねる| たずねる | to visit |  |  |  |
+尋ねる| たずねる | to ask |  |  |  |
+戦う| たたかう | to fight |  |  |  |

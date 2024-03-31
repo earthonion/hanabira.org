@@ -1,0 +1,446 @@
+
+PHẦN HAI: GRAMMAR (PART TWO: GRAMMAR) |  |
+Interrogative sentences (subject + 'có' + predicate + 'không?') |  |
+Equative verb 'là' |  |
+Demonstrative adverb 'đây' |  |
+Demonstrative adverb 'đấy' |  |
+Demonstrative adverb 'đó' |  |
+Demonstrative adverb 'kia' |  |
+Interrogative 'ai' |  |
+Interrogative 'chào' |  | 
+Interrogative 'xin lỗi' |  |
+Interrogative 'cám ơn' |  |
+Interrogative '(cái) gì' |  |
+Interrogative 'nào' |  |
+Interrogative expression 'phải không' |  |
+Interrogative word 'à' |  |
+Interrogative adverb 'ở đâu' |  |
+Classifier 'cái' |  | 
+Classifier 'chiếc' |  | 
+Classifier 'cây' |  | 
+Classifier 'quả' |  | 
+Classifier 'con' |  | 
+Classifier 'quyển' |  | 
+Classifier 'cuốn' |  | 
+Classifier 'tờ' |  | 
+Classifier 'toà' |  | 
+Classifier 'ngôi' |  | 
+Demonstrative pronoun 'này' |  | 
+Demonstrative pronoun 'kia' |  | 
+Demonstrative pronoun 'ấy' |  | 
+Demonstrative pronoun 'đó' |  | 
+'ở' as a verb |  | 
+'ở' as a preposition |  | 
+Expression 'Ít' |  | 
+Expression 'nhiều' |  | 
+Plural marker 'các' |  | 
+Plural marker 'những' |  | 
+Adverb of degree 'rất' |  | 
+Adverb of degree 'lắm' |  | 
+Adverb of degree 'quá' |  | 
+'hay' meaning 'or' |  | 
+Interrogative '(như) thế nào' |  | 
+'Cũng' meaning 'also, too' |  | 
+English 'and' in Vietnamese 'và, còn' |  | 
+Interrogative 'bao nhiêu' |  | 
+Interrogative 'mấy' |  | 
+Personal pronoun 'tôi' |  | 
+Personal pronoun 'mình' |  | 
+Personal pronoun 'chúng tôi' |  | 
+Personal pronoun 'chúng ta' |  | 
+Personal pronoun 'chúng mình' |  | 
+Personal pronoun 'nó' |  | 
+Personal pronoun 'họ' |  | 
+Personal pronoun 'chúng nó' |  | 
+Final particle 'ạ' |  | 
+Initial particle 'thưa' |  | 
+'Bận' meaning 'to be busy' |  | 
+Time expression 'năm ngoái' |  | 
+Time expression 'năm nay' |  | 
+Time expression 'sang năm' |  | 
+Time expression 'tháng này' |  | 
+Time expression 'tháng trước' |  | 
+Time expression 'hôm qua' |  | 
+Time expression 'ngày kia' |  | 
+Interrogative 'bao giờ' |  | 
+Interrogative 'khi nào' |  | 
+Interrogative 'ngày nào' |  | 
+Interrogative 'thứ mấy' |  | 
+Interrogative 'hôm nào' |  | 
+The word 'có' in the sense of yes |  | 
+Initial particle 'ừ' |  | 
+Clock time 'mấy giờ?' |  | 
+Clock time 'Giờ, rưỡi' |  | 
+Temporal preposition 'từ' |  | 
+Temporal preposition 'đến' |  | 
+Temporal preposition 'vào' |  | 
+Temporal preposition 'lúc' |  | 
+Temporal preposition 'vào lúc' |  | 
+Interrogative 'bao lâu' |  | 
+Frame construction 'có … không' used with an adjective |  | 
+The word 'hay' meaning 'often' |  | 
+Different meanings of the word 'giờ' |  | 
+Verb 'chờ' |  | 
+Verb 'đợi' |  | 
+Set expressions used with 'đồng hồ' |  | 
+Tense marker 'đã'  |  | 
+Tense marker 'vừa/mới/vừa mới' |  | 
+Tense marker 'đang' |  | 
+Tense marker 'sẽ' |  | 
+Tense marker 'sắp' |  | 
+Tense marker 'chưa' |  | 
+Tense marker 'vẫn/còn/vẫn còn' |  | 
+Final particle 'đấy' |  | 
+Final particle 'thế' |  | 
+Usage of 'quen' |  | 
+Usage of 'làm quen' |  | 
+Usage of 'giới thiệu' |  | 
+Expression 'tốt nghiệp' |  | 
+Usage of 'trai' |  | 
+Usage of 'gái' |  | 
+Expression 'lấy chồng' |  | 
+Expression 'lấy vợ' |  | 
+Expression 'lập gia đình' |  | 
+The verb 'sinh' |  |     
+Preposition 'của' |  | 
+Expression 'hãy' |  | 
+Expression 'cứ' |  | 
+Expression 'đi' |  | 
+Expression 'nhé' |  | 
+Expression 'mời' |  | 
+Expression 'đừng' |  | 
+Word 'xong' indicating a completed action |  | 
+Verb indicating movement direction 'ra' |  | 
+Verb indicating movement direction 'vào' |  | 
+Verb indicating movement direction 'lên' |  | 
+Verb indicating movement direction 'xuống' |  | 
+Verb indicating movement direction 'đến/tới' |  | 
+Verb indicating movement direction 'về' |  | 
+Verb indicating movement direction 'sang' |  | 
+Verb indicating movement direction 'qua' |  | 
+Comparisons with 'như' |  | 
+Comparisons with 'bằng' |  | 
+Comparisons with 'hơn' |  | 
+Comparisons with 'nhất' |  | 
+Comparisons with 'hơn cả' |  | 
+'Vừa … vừa …' in the sense of 'both, and', 'at the same time' |  |  
+'Rồi' meaning 'then', 'and then' |  | 
+Preposition 'tại' |  | 
+'Hoặc' meaning 'or' |  | 
+Conjunction 'mà' |  | 
+Interrogative 'đâu' |  | 
+Emphatic negation with 'cả' |  | 
+Time expression 'trước' |  | 
+Time expression 'trong' |  | 
+Time expression 'sau' |  | 
+Time expression 'trước khi' |  | 
+Time expression 'trong khi' |  | 
+Time expression 'sau khi' |  | 
+Time expression 'khi' |  | 
+Conjunction 'có... không' |  | 
+Modal verb 'muốn' |  | 
+Modal verb 'có thể' |  | 
+Modal verb 'cần' |  | 
+Modal verb 'phải' |  | 
+Modal verb 'nên' |  | 
+Final particle 'đấy' |  | 
+Adverb of degree 'hơi' |  | 
+Adverb of degree 'khá' |  | 
+Adverb of degree 'thế' |  | 
+Expression 'thời gian' |  | 
+Expression 'thì giờ' |  | 
+Adjective 'xa' |  | 
+Adjective 'gần' |  | 
+Location term 'trên' |  | 
+Location term 'dưới' |  | 
+Location term 'trong' |  | 
+Location term 'ngoài' |  | 
+Location term 'giữa' |  | 
+Location term 'trước' |  | 
+Location term 'sau' |  | 
+Verb 'cách' |  | 
+Verb 'mất' |  | 
+Interrogative 'bao xa' |  | 
+Clause of reason 'vì' |  | 
+Clause of reason 'nên/cho nên' |  | 
+Construction 'còn … nữa' |  | 
+Clause of purpose 'để' |  | 
+Restrictive construction 'chỉ … thôi' |  | 
+Particle 'ơi' |  | 
+Interrogative particle 'hở' |  | 
+'Hết' used after a verb |  | 
+Emphatic 'cũng' used with interrogative words |  | 
+Construction 'còn … thì …' |  | 
+Construction 'thêm … nữa' |  | 
+Preposition 'bằng' |  | 
+'Lại' in the sense of 'moveover, in addition' |  | 
+Verb 'gọi' |  | 
+Verb 'coi' |  | 
+Preposition 'ngoài … ra' |  | 
+Conjunction 'kẻo' |  | 
+'Làm' ơn denoting a request |  | 
+'Không dám' as reply |  | 
+'không có gì' as reply |  | 
+Preposition 'đầu' |  | 
+Preposition 'cuối' |  | 
+Expression 'Kia kìa' |  | 
+Verb 'thử' |  | 
+Compounding: 'quần áo' |  | 
+Compounding: 'nhà ăn' |  | 
+Compounding: 'bàn ghế' |  | 
+Compounding: 'tốt đẹp' |  | 
+Passive voice 'được' |  | 
+Passive voice 'bị' |  | 
+Passive voice 'do' |  | 
+Classifier 'con' |  | 
+Classifier 'cuộc' |  | 
+Preposition 'khỏi' |  | 
+Preposition 'bằng' |  | 
+Final particle 'chứ' |  | 
+'Mời' denoting a suggestion |  | 
+Preposition 'cho' |  | 
+Particle 'đâu' placed at the end of a negative sentence |  | 
+Personal pronoun 'người ta' |  | 
+'Thôi' as a separate sentence |  | 
+Preposition 'về' |  | 
+Verb 'mặc' |  | 
+Verb 'đeo' |  | 
+Verb 'đôi' |  | 
+Verb 'mang/đi' |  | 
+'Được không' as an interrogative word and 'được' as a reply |  | 
+Price expression: 'giá bao nhiêu' |  | 
+Price expression: 'bán thế nào' |  | 
+Price expression: 'lấy' |  | 
+Affixation 'nhà thơ' |  | 
+Affixation 'nhà văn' |  | 
+Affixation 'sự thay đổi' |  | 
+Affixation 'việc kiểm tra' |  | 
+Affixation 'cuộc họp' |  | 
+Affixation 'cuộc nói chuyện' |  | 
+Affixation 'cuộc sống' |  | 
+Affixation 'hội viên' |  | 
+Affixation 'đảng viên' |  | 
+Reciprocal pronoun 'nhau' |  | 
+'Lại' placed after some verbs |  | 
+'Ngay' in the sense of 'just, right' |  | 
+Emphatic 'có' |  | 
+Classifier 'nền' |  | 
+Verb 'quen' |  | 
+Verbs 'được' |  | 
+Verb 'bị' |  | 
+'Cũng' denoting reluctant agreement |  | 
+'Hết' used before a verb |  | 
+'Nữa' used with time expressions |  | 
+'Mỗi' meaning 'each' |  | 
+feelings of illness with 'bị' |  | 
+Clothing related expression 'cởi ra' |  | 
+Clothing related expression 'mặc vào' |  | 
+Clothing related expression 'cởi áo ra' |  | 
+Clothing related expression 'mặc áo vào' |  |  
+Verb 'khuyên' used with modal verb 'nên' |  | 
+'Xem' at the end of a statement |  | 
+Reduplication 'sáng sáng' |  | 
+Reduplication 'chim chóc' |  | 
+Reduplication 'vội vàng' |  | 
+Reduplication 'đen đủi' |  | 
+Temporal preposition 'từ' |  | 
+Emphatic 'cả' meaning 'even' |  | 
+Final particle 'chứ' in a question |  | 
+Use of the word 'đều' |  | 
+Use of 'tự … lấy' |  | 
+Expression 'Nửa' |  | 
+Expression 'rưỡi' |  | 
+Expression 'rưởi' |  | 
+Use of 'cả' |  | 
+Use of 'tất cả' |  | 
+Use of 'mọi' |  | 
+Use of 'từng' |  | 
+Emphatic '… này … này' |  | 
+Noun clauses with 'là' |  | 
+Noun clauses with 'rằng' |  | 
+Preposition 'của' used with the verbs of borrowing |  | 
+Initial particle 'à' |  | 
+Kinship term 'chú' as a personal pronoun |  | 
+Use of 'một ít' |  | 
+Difference between 'lúa', 'thóc', 'gạo', 'cơm', denoting rice |  | 
+'Trăm' in the sense of 'trăm nghìn' |  | 
+Borrowing: 'cách mạng' |  | 
+Borrowing: 'cảnh sát' |  | 
+Borrowing: 'đại sứ quán' |  | 
+Borrowing: 'độc lập' |  | 
+Clause of concession: 'mặc dù' |  | 
+Clause of concession: 'tuy' |  | 
+Clause of concession: 'nhưng' |  | 
+Clause of concession: 'vẫn' |  | 
+Clause of concession: 'cũng' |  | 
+Negatives: 'không/không phải … mà …' |  | 
+Negatives: 'chứ không' |  | 
+'(Càng) ngày càng' in the sense of gradual increase |  | 
+'mỗi lúc một' in the sense of gradual increase |  | 
+Restrictive 'mới' |  | 
+Different functions of 'mà' |  | 
+Causative verb 'làm/làm cho' |  | 
+Emphatic 'chỉ … là …' |  | 
+'Để' with the meaning 'let someone do something' |  | 
+Use of the verb 'trở nên' 
+Use of the verb 'trở thành' |  | 
+Indefinite pronouns and adverbs with 'đấy' and 'đó' |  | 
+Use of the word 'thật/thật là' |  | 
+Combinations of the words 'đông', 'tây', 'nam', 'bắc' |  | 
+Use of the verb 'kịp' |  | 
+Use of 'được cái' |  | 
+Verb 'nghe' |  | 
+Verb 'nghe nói' |  | 
+Verb 'thấy nói' |  | 
+Verb 'nghe thấy nói' |  | 
+Use of 'chưa ăn thua gì' |  | 
+Use of 'làm gì có' |  | 
+Preposition and conjunction 'do' |  | 
+Classifier 'cơn' |  | 
+Construction 'superlative + là + subject' |  | 
+Emphatic 'chính' |  | 
+Preposition 'đối với' |  | 
+Use of 'ảnh hưởng' |  | 
+Difference between 'khác' and 'khác nhau' |  | 
+Difference between 'băng' and 'đá' |  | 
+Use of 'trung bình' |  | 
+The copula 'là' |  | 
+The question word 'gì' |  | 
+Personal pronoun 'ông' |  | 
+Personal pronoun 'bà' |  | 
+Personal pronoun 'anh' |  | 
+Personal pronoun 'chị' |  | 
+Personal pronoun 'cô' |  | 
+Personal pronoun 'thầy' |  | 
+Personal pronoun 'em' |  | 
+The construction 'có … không' |  | 
+The polite word 'dạ' |  | 
+The tag question phrase 'phải không' |  | 
+Personal pronoun: 'ông ấy' |  | 
+Personal pronoun: 'bà ấy' |  | 
+Personal pronoun: 'anh ấy' |  | 
+Personal pronoun: 'chị ấy' |  | 
+Personal pronoun: 'cô ấy' |  | 
+Personal pronoun: 'các ông' |  | 
+Personal pronoun: 'bà' |  | 
+Personal pronoun: 'anh' |  | 
+Personal pronoun: 'chị' |  | 
+Personal pronoun: 'ông ấy' |  | 
+Personal pronoun: 'bà ấy' |  | 
+Personal pronoun: 'anh ấy' |  | 
+Conjunction 'còn' |  | 
+Demonstrative pronoun: 'đây' |  |  
+Demonstrative pronoun: 'đó/đấy' |  | 
+Demonstrative pronoun: 'kia' |  | 
+Final particle 'đấy' |  | 
+Verb 'làm' |  | 
+Verb 'ở' |  | 
+Adverb 'đang' |  | 
+Polite particle 'ạ' |  | 
+Adverb 'đã' |  | 
+Verb 'được' |  | 
+Quantity word 'mấy' |  | 
+Polite word 'xin' |  | 
+Repetition adverb 'thường' |  | 
+Quantity question word 'bao nhiêu' |  | 
+Level adverb 'rất' |  | 
+Ask-for-more-information particle 'à' |  | 
+Quantity question word 'mấy' |  | 
+Quantity question word 'bao nhiêu' |  | 
+Level-of-feeling adverb 'quá'
+Level-of-feeling adverb 'rất' |  | 
+Location question word 'đâu' |  |
+Time adverb 'sắp' |  |
+Time adverb 'sẽ' |  |
+Imperative adverb 'để' |  |
+Interrogative word 'bao lâu' |  |
+Time question word 'bao lâu rồi' |  |
+Interrogative time question word 'bao giờ' |  |
+Time adverb 'mới' |  |
+Level-of-quality adverb 'lắm' |  |
+Structure 'không … đâu' |  |
+Imperative/suggestion adverb 'đi' |  |
+Polite particle 'ạ' |  |
+Clarification particle 'hả' |  |
+Selection interrogative pronoun 'nào' |  |
+Clarification question particle 'vậy' |  |
+Emphasizing-the-limit particle 'thôi' |  |
+Structure 'nếu … thì …' |  |
+Interrogative structure 'đã … chưa' |  |
+Similarity structure 'nào … cũng' |  |
+Sameness/similarity adverb 'cùng' |  |
+Continuation adverb 'còn' |  |
+Personal pronoun 'chúng tôi' |  |
+Personal pronoun 'chúng ta' |  |
+Absolute negative construction 'không … gì…' |  |
+Indefinite-number construction 'gì … cũng …' |  |
+Exclamatory word 'thôi' |  |
+The expressing-the-hope final particle 'nhé' |  |
+The future words 'sắp' and 'sẽ' |  |
+Similarity structure: 'nào … cũng …' |  |
+Similarity structure: '... nào cũng …' |  |
+Indefinite-number structure 'gì … cũng …' |  |
+Quantity question expression 'bao nhiêu' |  |
+Amount-of-time question word 'bao lâu' |  |
+Point-of-time question word 'bao giờ' |  |
+Rejecting structure 'không … đâu' |  |
+Absolute-negative structure 'không … gì' |  |
+Relative adverb 'nơi' |  |
+Relative adverb 'khi' |  |
+'Có gì' + adjective + 'đâu' |  |
+Use of the verb 'nói' |  |
+Emphatic particle 'ấy' |  |
+Expression 'Không dám' |  |
+Expression 'chưa dám' |  |
+Verbs 'nghe' + adjective |  |
+Verbs 'trông' + adjective |  |
+Expressions 'Tất nhiên' and 'dĩ nhiên' |  |
+Plural marker 'những' + question word 'ai' |  |
+Plural marker 'những' + question word 'đâu' |  |
+Plural marker 'những' + question word 'gì' |  |
+Expression 'Khỏi phải' |  |
+Expressions 'Từng ấy' and 'từng này' |  |
+Verb 'nằm' |  |
+Verb with preposition 'làm' or 'thành' |  |
+Verb 'chạy' |  |
+Verb 'chiếm' |  |
+Preposition 'về mặt' |  |
+Adjective + ordinal number + 'sau' |  |
+Adverb of degree 'hết sức' |  |
+Adjective + 'hơn cả' |  |
+Use of 'khắp' |  |
+Verbs 'to wash': 'rửa', 'giặt' |  |
+Use of 'bận' |  |
+Verb 'gửi' |  |
+Use of the noun 'tiền' |  |
+Expression 'Càng … càng' |  |
+'Là' linking two verb phrases |  |
+Use of 'liệu' |  |
+Verb 'diễn ra' |  |
+Verb xẩy, xảy ra |  |
+Vietnamese 'mít tinh' and English 'meeting' |  |
+Verbs 'biến thành', 'biến … thành', |  |
+Verbs 'trở nên' and 'trở thành' |  |
+Classifier 'vị' |  |
+Verbs 'đổi', 'thay' and 'thay đổi' |  |
+Different meanings and functions of 'lại' |  |
+Verbs 'quyết định' and 'giải quyết' |  |
+Use of 'tổng' |  |
+Expression 'Không chỉ … mà cả' |  |
+Expression 'không chỉ/không những … mà còn' |  |
+Emphatic particle 'rồi' |  |
+Phrase 'thì chị/anh … bảo' |  |
+Emphatic particle 'nữa cơ' |  |
+Sentence + subject + 'mới' + verb |  |
+Sentence + 'nhỉ' |  |
+Reduplicative 'chầm chậm' |  |
+Reduplicative 'nhè nhẹ' |  |
+Expression 'Đại khái như' |  |
+Expression 'đại khái là' |  |
+Expression 'Quốc gia' |  |
+Expression 'nhà nước' |  |
+Expression 'nước' |  |
+'Giáo sư' as second personal pronoun |  |
+'tiến sĩ' as second personal pronoun |  |
+'bác sĩ' as second personal pronoun |  |
+Expression 'Mới … thôi' |  |

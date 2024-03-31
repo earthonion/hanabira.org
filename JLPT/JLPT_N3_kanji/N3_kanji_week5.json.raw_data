@@ -1,0 +1,195 @@
+CLI param:  礼
+--- Response text: ---
+{"kanji": "礼","kanji_simplified": "レイ","kanji_romaji": "rei","kanji_meaning": "thanks, gratitude, salute","mnemonics": "A person bowing down to show respect and gratitude (REI)","sentence_japanese": "私は彼に感謝の礼をしました。","sentence_romaji": "Watashi wa kare ni kansha no rei o shimashita.","sentence_translation": "I thanked him for his kindness.","kanji_origin": "The kanji 礼 is derived from the Chinese characters “人” (person) and “示” (to show), and originally meant “to show respect to a person”.","kanji_meaning": "The kanji 礼 means “thanks, gratitude, salute”.","kanji_info": "The kanji 礼 is used in many words related to manners and politeness, such as 礼儀 (reigi, manners), 礼拝 (reihai, worship), 礼賛 (reisan, praise), and 礼金 (reikin, gratitude money).","compound_words": [{"word": "礼儀", "romaji": "reigi", "tranlation": "manners"},{"word": "礼拝", "romaji": "reihai", "translation": "worship"},{"word": "礼賛", "romaji": "reisan", "translation": "praise"}],"kanji_examples":[ {"expression":"敬礼", 	"romaji":"keirei", 	"translation":"salute"}, {"expression":"感謝の礼", 	"romaji":"kansha no rei", 	"translation":"thanks"}, {"expression":"お礼を申し上げる", 	"romaji":"orei o moushiageru", 	"translation":"to express one's thanks"}]}
+-----------------------------
+CLI param:  伺う
+--- Response text: ---
+{"kanji": "伺う","kanji_simplified": "うかがう","kanji_romaji": "ukagau","kanji_meaning": "to ask, to visit, to hear","mnemonics": "Picture a person (会) asking (う) someone (かが) something.","sentence_japanese": "彼女に伺いました。","sentence_romaji": "Kanojo ni ukagaimashita.","sentence_translation": "I asked her.","kanji_origin": "The kanji 伺 is composed of the radical 亻 (person) and the phonetic 会, which suggests the meaning of 'meeting and asking',","kanji_meaning": "The kanji 伺う means 'to ask, to visit, to hear',","kanji_info": "The verb 伺う is used when one wants to ask something from someone or when one visits someone for a certain purpose.","compound_words": [{"word": "伺問", "romaji": "shimon", "translation": "to question"},{"word": "伺い知る", "romaji": "ukai shiru", "translation": "to find out by asking"},{"word": "伺い入れる", "romaji": "ukai ireru", "translation": "to invite"}],
+"kanji_examples":[{"expression":"伺います","romaji":"ukagaimasu","translation":"to ask"},{"expression":"伺ってみる","romaji":"ukagatte miru","translation":"to try asking"},{"expression":"伺いを受ける","romaji":"ukai o ukeru","translation":"to receive an inquiry"}]}
+-----------------------------
+CLI param:  失
+--- Response text: ---
+{"kanji": "失","kanji_simplified": "シツ","kanji_romaji": "shitsu","kanji_meaning": "lose, miss","mnemonics": "Picture a person missing out on something by not paying attention.","sentence_japanese": "彼は失敗しました。","sentence_romaji": "Kare wa shippai shimashita.","sentence_translation": "He failed.","kanji_origin": "The kanji 失 is composed of the radical 大 (big) and the character 艮 (to stop),","kanji_meaning": "The kanji 失 means to lose or miss something.","kanji_info": "In Japanese, the kanji 失 is often used to refer to failure or mistakes.","compound_words": [{"word": "失敗", "romaji": "shippai", "tranlation": "failure"},{"word": "失礼", "romaji": "shitsurei", "translation": "rude, impolite"},{"word": "失望", "romaji": "shitsubou", "translation": "disappointment"}],"kanji_examples": [{"expression": "失恋", "romaji": "shitsuren", "translation": "heartbreak"},{"expression": "失礼な", 
+"romaji":"shitsurei na", 
+"translation":"rude, impolite"},{"expression":"失敗した", 
+"romaji":"shippai shita", 
+"translation":"failed"}]}
+-----------------------------
+CLI param:  汗
+--- Response text: ---
+{"kanji": "汗","kanji_simplified": "カン","kanji_romaji": "kan","kanji_meaning": "sweat, perspiration","mnemonics": "Picture a person KANning (sweating) from doing too much work.","sentence_japanese": "彼は汗をかいています。","sentence_romaji": "Kare wa ase o kaite imasu.","sentence_translation": "He is sweating.","kanji_origin": "This kanji is composed of the radicals 犬 (inu, meaning 'dog') and 氵 (mizu, meaning 'water').","kanji_meaning": "The kanji 汗 literally means 'perspiration' or 'sweat'.","kanji_info": "The kanji 汗 is used to refer to sweat in a physical sense, but can also be used to refer to figurative sweat, such as the effort one puts into something.","compound_words": [{"word": "汗水", "romaji": "kansui", "translation": "sweat and tears"},{"word": "汗物", "romaji": "kandamono", "translation": "sweaty clothes"},{"word": "汗止め", "romaji": "aseyome", "translation":"antiperspirant"}],"kanji_examples":[{"expression":"汗かきながら", 
+"romaji":"asekakinagara", 
+"translation":"while sweating"},{"expression":"汗ばむ", 
+"romaji":"asebamu", 
+"translation":"to break out in a sweat"},{"expression":"汗びっしょり", 
+"romaji":"asebisshori", 
+"translation":"soaking wet with sweat"}]}
+-----------------------------
+CLI param:  念
+--- Response text: ---
+{"kanji": "念","kanji_simplified": "ネン","kanji_romaji": "nen","kanji_meaning": "thought, feeling, desire","mnemonics": "The kanji 念 looks like a person with their hands clasped together in prayer, indicating a desire or thought.","sentence_japanese": "私は彼女に会う念があります。","sentence_romaji": "Watashi wa kanojo ni au nen ga arimasu.","sentence_translation": "I have a desire to meet her.","kanji_origin": "The kanji 念 is derived from the Chinese character 耳 which means 'ear'. This is because in ancient China, people believed that thoughts were whispered into the ear by gods.","kanji_meaning": "The kanji 念 can mean thought, feeling, or desire.","kanji_info": "The kanji 念 can also be used to mean 'memory' or 'mindfulness'.","compound_words": [{"word": "念頭", "romaji": "nentou", "translation": "thought"},{"word": "念入り", "romaji": "nen'iri", "translation": "careful"},{"word": "念力", "romaji": "nenryoku", "translation":"mental power"}],"kanji_examples":[ {"expression":"念頭に置く", 
+"romaji":"nentou ni oku", 
+"translation":"to keep in mind"},
+{"expression":"念入りに仕上げる", 
+"romaji":"nen'iri ni shiage ru", 
+"translation":"to finish carefully"},
+{"expression":"念力で勝つ", 
+"romaji":"nenryoku de katsu", 
+"translation":"to win with mental power"}]}
+-----------------------------
+CLI param:  涙
+--- Response text: ---
+{"kanji": "涙","kanji_simplified": "ルイ","kanji_romaji": "rui","kanji_meaning": "tears","mnemonics": "Imagine a person with a tear running down their cheek, or think of the phrase 'tears of joy' to help remember the kanji.","sentence_japanese": "彼女は涙を流していた。","sentence_romaji": "Kanojo wa namida o nagashite ita.","sentence_translation": "She was shedding tears.","kanji_origin": "The kanji 涙 is composed of two parts: 氵 (water) and 礻 (altar). It is thought to represent a person crying at an altar.","kanji_meaning": "The kanji 涙 means 'tears.'","kanji_info": "This kanji is used to represent the physical act of crying, as well as the emotion behind it. It can also be used to express sorrow or grief.","compound_words": [{"word": "涙腺", "romaji": "ruisen", "translation": "lacrimal gland"},{"word": "涙目", "romaji": "ruime", "translation": "tearful eyes"},{"word": "涙声", "romaji": "ruisei", "translation": "sobbing voice"}],"kanji_examples": [{"expression":"涙が出る", 	"romaji":"namida ga deru", 	"translation":"to shed tears"}, {"expression":"涙を飲む", 	"romaji":"namida o nomu", 	"translation":"to swallow one's tears"}, {"expression":"涙にくれる", 	"romaji":"namida ni kureru", 	"translation":"to be moved to tears"}]}
+-----------------------------
+CLI param:  査
+--- Response text: ---
+{"kanji": "査","kanji_simplified": "サ","kanji_romaji": "sa","kanji_meaning": "to investigate, to examine, to inspect","mnemonics": "Imagine a detective (探) investigating (査) a crime scene.","sentence_japanese": "彼女は新しい仕事を査定した。","sentence_romaji": "Kanojo wa atarashii shigoto o satei shita.","sentence_translation": "She assessed the new job.","kanji_origin": "This kanji is composed of two parts: 日 (sun) and 柳 (willow). It originally meant “to observe the sun” and has come to mean “to investigate” or “to examine”.","kanji_meaning": "The kanji 査 means “to investigate,” “to examine,” or “to inspect.”","kanji_info": "This kanji is used in words such as 査定 (satei, assessment), 検査 (kensa, inspection), and 調査 (chousa, investigation).","compound_words": [{"word": "検査", "romaji": "kensa", "translation": "inspection"},{"word": "調査", "romaji": "chousa", "translation": "investigation"},{"word": "査定", "romaji": "satei", "translation":"assessment"}],"kanji_examples":[ {"expression":"検査する", 
+"romaji":"kensa suru", 
+"translation":"to inspect"}, 
+{"expression":"調査する", 
+"romaji":"chousa suru", 
+"translation":"to investigate"}, 
+{"expression":"査定する", 
+"romaji":"satei suru", 
+"translation":"to assess"}]}
+-----------------------------
+CLI param:  簡
+--- Response text: ---
+{"kanji": "簡", "kanji_simplified": "カン", "kanji_romaji": "kan", "kanji_meaning": "simplicity, brevity, concise", "mnemonics": "The kanji 簡 looks like a person (人) with a single line (一) on their back, representing simplicity and brevity.", "sentence_japanese": "彼は簡単な説明をしました。", "sentence_romaji": "Kare wa kantan na setsumei o shimashita.", "sentence_translation": "He gave a simple explanation.", 
+"kanji_origin": "The kanji 簡 is composed of the characters 竹 (bamboo) and 斤 (axe). It is believed to represent the idea of cutting away the unnecessary with an axe for simplicity.", 
+"kanji_info": "The kanji 簡 is also used in words such as 簡潔 (kanketsu; succinct) and 簡易 (kani; simple).", 
+"compound_words": [{"word": "簡単", "romaji": "kantan", "translation": "simple"},{"word": "簡潔", "romaji": "kanketsu", "translation": "succinct"},{"word": "簡易", 
+"romaji": "kani", 
+"translation": 
+"simple"}], 
+"kanji_examples":[{"expression":"簡単な話","romaji":"kantan na hanashi","translation":"a simple story"},{"expression":"簡潔な文章","romaji":"kanketsu na bunsho","translation":"a succinct sentence"},{"expression":"簡易な方法","romaji":"kani na houhou","translation":"a simple method"}]}
+-----------------------------
+CLI param:  単
+--- Response text: ---
+{"kanji": "単","kanji_simplified": "タン","kanji_romaji": "tan","kanji_meaning": "single, simple, sole","mnemonics": "The kanji 単 looks like a single person standing alone.","sentence_japanese": "彼は単身で旅行しました。","sentence_romaji": "Kare wa tanshin de ryokou shimashita.","sentence_translation": "He traveled alone.","kanji_origin": "The kanji 単 is believed to be derived from the ancient Chinese character 單 which means 'one' or 'single.'","kanji_meaning": "The kanji 単 means 'single,' 'simple,' or 'sole.' It can also be used to describe something that is unique or distinct.","kanji_info": "The kanji 単 is often used in combination with other characters to form words that express concepts such as 'solitary' (孤単, kotan) and 'uniqueness' (獨占, dokuten).","compound_words": [{"word": "単語", "romaji": "tango", "translation": "word"},{"word": "単純", "romaji": "tanjun", "translation":"simple"},{"word": "単独", "romaji": "tandoku", "translation":"solitary"}],"kanji_examples":[{"expression":"単純化", 	"romaji":"tanjunka", 	"translation":"simplification"},{"expression":"単一", 	"romaji":"tan'itsu", 	"translation":"unitary"},{"expression":"単独行動", 	"romaji":"tandokukoudou", 	"translation":"solo action"}]}
+-----------------------------
+CLI param:  感じる
+--- Response text: ---
+{"kanji": "感じる", "kanji_simplified": "カンジル", "kanji_romaji": "kanjiru", "kanji_meaning": "to feel, to sense, to experience", "mnemonics": "Picture a person feeling (Kan) their heart (Ji) for emotions.", "sentence_japanese": "彼女は自分の失敗を感じていました。", "sentence_romaji": "Kanojo wa jibun no shippai o kanjite imashita.", "sentence_translation": "She felt her own failure.", 
+"kanji_origin": "This kanji is composed of the radical 感 (kan, feeling) and the character 至 (ji, arrive).", 
+"kanji_meaning": "This kanji means to feel or sense something, usually emotionally or physically.", 
+"kanji_info": "The verb 感じる (kanjiru) is used to express that you are feeling something. It is a transitive verb and can be used in both positive and negative contexts.", 
+"compound_words": [{"word": "感情", "romaji": "kanjou", "translation": "emotion"}, {"word": "感覚", 
+"romaji": "kankaku", 
+"translation": 
+"sense"}, {"word": "感動", 
+"romaji": 
+"kandou", 
+"translation": 
+"deep emotion"}], 
+"kanji_examples": [{"expression":"感じ取る","romaji":"kanjitoru","translation":"to sense, to perceive"},{"expression":"感じる","romaji":"kanjiru","translation":"to feel"},{"expression":"感じやすい","romaji":"kanjiyasui","translation":"sensitive"}]}
+-----------------------------
+CLI param:  想
+--- Response text: ---
+{"kanji": "想","kanji_simplified": "ソウ","kanji_romaji": "sou","kanji_meaning": "think, idea","mnemonics": "The kanji 想 looks like a person with their hands on their chin, thinking about something.","sentence_japanese": "私は彼女について想像しています。","sentence_romaji": "Watashi wa kanojo ni tsuite souzou shite imasu.","sentence_translation": "I'm imagining her.","kanji_origin": "The kanji 想 is composed of the radical 氵 (water) and the character 心 (heart). It is believed to have originated from the ancient Chinese pictograph of a person with their hands on their chin, thinking about something.","kanji_meaning": "The kanji 想 means “think” or “idea.”","kanji_info": "The kanji 想 can also be used in combination with other kanji to form words such as 想像 (souzou – imagination) and 想定 (soutei – assumption),","compound_words": [{"word": "想像", "romaji": "souzou", "tranlation": "imagination"},{"word": "想定", "romaji": "soutei", "translation": "assumption"},{"word": "想像力", "romaji": "souzouryoku", "translation":"imagination"}],"kanji_examples": [{"expression": "思想", "romaji": "shisou", "translation":"thought"},{"expression":"空想",  "romaji":"kuusou",  "translation":"fantasy"},{"expression":"臆想",  "romaji":"okusou",  "translation":"guess"}]}
+-----------------------------
+CLI param:  練
+--- Response text: ---
+{"kanji": "練", "kanji_simplified": "レン", "kanji_romaji": "ren", "kanji_meaning": "to practice, to refine, to train", "mnemonics": "Think of the kanji as a person 'REN'ing a skill (practicing, refining, training)", "sentence_japanese": "私は毎日日本語の練習をしています。", "sentence_romaji": "Watashi wa mainichi nihongo no renshuu o shite imasu.", "sentence_translation": "I practice Japanese every day.", 
+"kanji_origin": "The kanji 練 is composed of two elements: 糸 (ito, thread) and 廉 (ren, cheap). It was originally used to mean “cheap thread”, but later came to represent the idea of “refining” or “practicing” something.", 
+"kanji_meaning": "The kanji 練 represents the idea of refining or practicing something.", 
+"kanji_info": "The kanji 練 is used in many words related to practice and refinement, such as 練習 (renshuu, practice), 練習する (renshuu suru, to practice), and 練磨する (renma suru, to refine).", 
+"compound_words": [{"word": "練習", "romaji": "renshuu", "translation": "practice"},{"word": "練磨", "romaji": "renma", 
+"translation": "refinement"},{"word": "練習帳", 
+"romaji":"renshuuchou","translation":"exercise book"}], 
+"kanji_examples":[{"expression":"練習曲","romaji":"renshukyoku","translation":"practice piece"},{"expression":"練り歩く","romaji":"neriaruku","translation":"to walk slowly"},{"expression":"練習問題","romaji":"renshuumondai","translation":"practice problem"}]}
+-----------------------------
+CLI param:  適
+--- Response text: ---
+{"kanji": "適","kanji_simplified": "テキ","kanji_romaji": "teki","kanji_meaning": "appropriate, suitable","mnemonics": "Picture a TEA Kettle with a handle that is just the right size for you to pick up and pour out the hot tea.","sentence_japanese": "今日は適度な暑さです。","sentence_romaji": "Kyou wa tekido na atsusa desu.","sentence_translation": "Today is a moderate heat.","kanji_origin": "The kanji 適 is composed of two parts. The left side (彳) is an ancient form of the character 当 (atara-u) meaning “to hit” or “to be appropriate”. The right side (口) means “mouth” and together they form the meaning “appropriate, suitable”.","kanji_meaning": "The kanji 適 means “appropriate, suitable”. It can also mean “fit, proper, adequate” and is often used in combination with other characters to form words such as 適切 (tekisetsu) meaning “appropriate, suitable” and 適応 (tekiou) meaning “adaptation, adjustment”.","kanji_info": "The kanji 適 is commonly used in everyday Japanese conversations and can be found in many different contexts. It is also used in many compound words such as 適当 (tekidou) meaning “casual, careless” and 適材適所 (tekizai tekisho) meaning “the right person in the right place.”","compound_words": [{"word": "適切", "romaji": "tekisetsu", "tranlation": "appropriate, suitable"},{"word": "適応", "romaji": "tekiou", "translation": "adaptation, adjustment"},{"word": "適当", "romaji": "tekidou", "translation": "casual, careless"}],"kanji_examples": [{"expression": "適度", "romaji": "tekido", 
+"translation":"moderate"},{"expression":"適正", 
+"romaji":"teisei", 
+"translation":"proper"},{"expression":"適用", 
+"romaji":"tekiyou", 
+"translation":"application"}]}
+-----------------------------
+CLI param:  違う
+--- Response text: ---
+{"kanji": "違う","kanji_simplified": "チガウ","kanji_romaji": "chigau","kanji_meaning": "to differ, to be different","mnemonics": "Imagine a 'CHIcken' and a 'GAUcho' who are different from each other.","sentence_japanese": "私たちの考えは違います。","sentence_romaji": "Watashitachi no kangae wa chigaimasu.","sentence_translation": "Our thoughts are different.","kanji_origin": "The kanji 違 is composed of two parts: the left side is 田 (rice field) and the right side is 同 (same). Together, they form the concept of “different” or “not the same.”","kanji_meaning": "The kanji 違 means “to differ,” “to be different,” or “not the same.”","kanji_info": "The kanji 違 can also be read as “hazureru,” which means “to be wrong” or “to be incorrect.”","compound_words": [{"word": "違反", "romaji": "ihan", "translation": "violation"},{"word": "違和感", "romaji": "iwa kan", "translation": "a feeling of discomfort"},{"word": "違法", "romaji":"ihou",  "translation":"illegal"}],"kanji_examples":[{"expression":"異なる",  "romaji":"kotonaru",  "translation":"different"},{"expression":"違いがある",  "romaji":"chigai ga aru",  "translation":"there is a difference"},{"expression":"異議を唱える",  "romaji":"igi o tonaeru",  "translation":"to raise an objection"}]}
+-----------------------------
+CLI param:  復
+--- Response text: ---
+{"kanji": "復","kanji_simplified": "フク","kanji_romaji": "fuku","kanji_meaning": "return, restore, regain","mnemonics": "Imagine a person with a 'FUKU' (clothing) that returns to its original shape after being stretched.","sentence_japanese": "彼は病気から復活した。","sentence_romaji": "Kare wa byouki kara fukkatsu shita.","sentence_translation": "He recovered from his illness.","kanji_origin": "The kanji 復 is composed of the radical 彳 (“footsteps”) and the character 戻 (“return”),","kanji_meaning": "The meaning of 復 is “return”, “restore” or “regain.”","kanji_info": "The kanji 復 is used in many words related to returning or restoring something.","compound_words": [{"word": "復活", "romaji": "fukkatsu", "translation": "revival"},{"word": "復興", "romaji": "fukkou", "translation": "revival, renaissance"},{"word": "復旧", "romaji": "fukkyuu", "translation": "restoration"}],"kanji_examples": [{"expression":"復讐", "romaji":"fukushuu", 
+"translation":"revenge"},{"expression":"復活劇", 
+"romaji":"fukkatsugeki", 
+"translation":"resurrection drama"},{"expression":"復権", 
+"romaji":"fukken", 
+"translation":"restoration of power"}]}
+-----------------------------
+CLI param:  昨
+--- Response text: ---
+{"kanji": "昨","kanji_simplified": "サク","kanji_romaji": "saku","kanji_meaning": "yesterday","mnemonics": "The kanji '昨' looks like a person looking back at the past, reminding you of the word 'yesterday',"sentence_japanese": "昨日はとても楽しかったです。","sentence_romaji": "Kinou wa totemo tanoshikatta desu.","sentence_translation": "Yesterday was very fun.","kanji_origin": "The kanji '昨' is composed of two parts: '日' (sun) and '丿' (slanted line). This kanji originally meant 'the sun of yesterday',"kanji_meaning": "The kanji '昨' means 'yesterday',"kanji_info": "This kanji is also used as a prefix to indicate something that happened in the past, such as 昨年 (sakunen - last year),"compound_words": [{"word": "昨日", "romaji": "kinou", "translation": "yesterday"},{"word": "昨夜", "romaji": "kyouya", "translation": "last night"},{"word": "昨年", "romaji": "sakunen", "translation": "last year"}],"kanji_examples": [{"expression":"昨晩", 	"romaji":"sakuban", 	"translation":"last night"}, {"expression":"昨日話", 	"romaji":"kinouhanashi", 	"translation":"a story about yesterday"}, {"expression":"昨年度", 	"romaji":"sakunendou", 	"translation":"last year"}]}
+-----------------------------
+CLI param:  婚
+--- Response text: ---
+{"kanji": "婚","kanji_simplified": "コン","kanji_romaji": "kon","kanji_meaning": "marriage, wed","mnemonics": "Picture a bride and groom standing in front of a church, the bride in a white dress and the groom in a black suit, the kanji 婚 looks like two people standing together.","sentence_japanese": "彼女は今年の秋に婚約しました。","sentence_romaji": "Kanojo wa kotoshi no aki ni kon'yaku shimashita.","sentence_translation": "She got engaged this fall.","kanji_origin": "The kanji 婚 is composed of two parts: 示 (to show) and 女 (woman). Together they form the word 婚 which means marriage.","kanji_meaning": "The kanji 婚 means marriage or wed.","kanji_info": "The kanji 婚 is often used in combination with other characters to form words related to marriage such as 結婚 (marriage), 再婚 (remarriage), and 離婚 (divorce).","compound_words": [{"word": "結婚", "romaji": "kekkon", "tranlation": "marriage"},{"word": "再婚", "romaji": "saikon", "translation": "remarriage"},{"word": "離婚", "romaji": "rikon", "translation": "divorce"}],"kanji_examples": [{"expression": "婚食", "romaji": "konshoku", 	"translation":"wedding reception"},{"expression":"婚電", 	"romaji":"konden", 	"translation":"wedding announcement"},{"expression":"結婚式", 	"romaji":"kekkonshiki", 	"translation":"wedding ceremony"}]}
+-----------------------------
+CLI param:  奥
+--- Response text: ---
+{"kanji": "奥","kanji_simplified": "オウ","kanji_romaji": "ou","kanji_meaning": "interior, depth","mnemonics": "Picture a person looking into a deep cave and saying 'oh!' in surprise at how deep it is.","sentence_japanese": "彼女は家の奥にいました。","sentence_romaji": "Kanojo wa ie no oku ni imashita.","sentence_translation": "She was in the interior of the house.","kanji_origin": "The kanji 奥 is derived from the original pictograph of a cave entrance.","kanji_meaning": "The kanji 奥 has the meaning of interior, depth, or back part of something.","kanji_info": "The kanji 奥 can be used to refer to the innermost part of something, such as the 'back' or 'inner' part of a house or other structure.","compound_words": [{"word": "奥深い", "romaji": "okubukai", "translation": "deep"},{"word":"奥歯", "romaji":"okuba", "translation":"back tooth"},{"word":"奥行き", "romaji":"okugoki", "translation":"depth"}],"kanji_examples": [{"expression": "奥義", 
+"romaji":"okyō", 
+"translation":"secret principle"},{"expression": "奥様", 
+"romaji":"okusama", 
+"translation":"lady of the house"},{"expression": "奥さん", 
+"romaji":"okusan", 
+"translation":"wife"}]}
+-----------------------------
+CLI param:  寝る
+--- Response text: ---
+{"kanji": "寝る","kanji_simplified": "ネル","kanji_romaji": "neru","kanji_meaning": "to sleep","mnemonics": "The kanji looks like a person laying down in bed, with the two strokes on the right side representing the arms and legs.","sentence_japanese": "私は今日は早く寝ます。","sentence_romaji": "Watashi wa kyou wa hayaku nemasu.","sentence_translation": "I will sleep early today.","kanji_origin": "The kanji 寝 is made up of two parts: 宀 (mi) which means roof, and 睡 (sui) which means sleep.","kanji_meaning": "The kanji 寝る means to sleep.","kanji_info": "This kanji is often used in combination with other kanji to form new words, such as 寝具 (negu - bedding) and 寝室 (neshitsu - bedroom).","compound_words": [{"word": "寝室", "romaji": "neshitsu", "translation": "bedroom"},{"word": "寝具", "romaji": "negu", "translation": "bedding"},{"word": "寝台", "romaji": "nedai", "translation": "bed"}],
+"kanji_examples":[{"expression":"寝不足", 
+"romaji":"nebusoku", 
+"translation":"lack of sleep"},{"expression":"寝言", 
+"romaji":"negoto", 
+"translation":"sleep talking"},{"expression":"寝坊する", 
+"romaji":"nebousuru", 
+"translation":"to oversleep"}]}
+-----------------------------
+CLI param:  虫
+--- Response text: ---
+{"kanji": "虫","kanji_simplified": "虫","kanji_romaji": "mushi","kanji_meaning": "insect, bug","mnemonics": "Picture a 'Mushroom' with a 'U' in the middle - MUSHU","sentence_japanese": "私は虫が大好きです。","sentence_romaji": "Watashi wa mushi ga daisuki desu.","sentence_translation": "I love bugs.","kanji_origin": "The kanji 虫 is composed of the characters 虍 (tiger) and 勿 (not). The tiger symbolizes strength, while the symbol for not implies that the insect is small and weak.","kanji_meaning": "The kanji 虫 means insect or bug.","kanji_info": "The kanji 虫 is used in many compound words such as 蟻 (ants), 蚊 (mosquitoes), and 蛾 (moths).","compound_words": [{"word": "蟻", "romaji": "ari", "translation": "ants"},{"word": "蚊", "romaji": "ka", "translation": "mosquitoes"},{"word": "蛾", "romaji": "ga", "translation":"moths"}],"kanji_examples":[{"expression":"虫歯", 	"romaji":"mushiba", 	"translation":"cavity"},{"expression":"虫類", 	"romaji":"mushirui", 	"translation":"insects"},{"expression":"虫眼鏡", 	"romaji":"mushimegane", 	"translation":"magnifying glass"}]}
+-----------------------------
+CLI param:  他
+--- Response text: ---
+{"kanji": "他","kanji_simplified": "タ","kanji_romaji": "ta","kanji_meaning": "other, another","mnemonics": "Picture a person pointing to the other person in the room and saying 'ta' (other)","sentence_japanese": "彼は他の人と一緒に行きます。","sentence_romaji": "Kare wa hoka no hito to issho ni ikimasu.","sentence_translation": "He is going with someone else.","kanji_origin": "The kanji 他 is composed of two parts: the radical 亻 (person) on the left and the phonetic 己 (self) on the right. Together they form the meaning 'other person',","kanji_meaning": "The kanji 他 means 'other', 'another', or 'someone else'. It is used to refer to someone or something that is different from the speaker or subject.","kanji_info": "The kanji 他 can also be used as a suffix to indicate 'other than' or 'in addition to'. For example, 他社 (tasha) means 'another company' and 他人 (tanin) means 'other people',","compound_words": [{"word": "他意", "romaji": "taii", "tranlation": "ulterior motive"},{"word": "他力", "romaji": "taryoku", "translation": "help from others"},{"word": "他者", "romaji": "tasha", "translation": "another person"}],"kanji_examples": [{"expression": "他意", "romaji": "taii", "translation":"ulterior motive"},{"expression":"他力", "romaji":"taryoku", 	"translation":"help from others"},{"expression":"他者",	"romaji":"tasha",	"translation":"another person"}]}
+-----------------------------
+CLI param:  疲れる
+--- Response text: ---
+{"kanji": "疲れる","kanji_simplified": "ヒレる","kanji_romaji": "hireru","kanji_meaning": "to get tired, to be exhausted","mnemonics": "Think of 'Hi' and 'Reru' as in 'Hi, I'm so tired, I need to re-energize!'","sentence_japanese": "今日は疲れてしまった。","sentence_romaji": "Kyou wa tsukarete shimatta.","sentence_translation": "I got tired today.","kanji_origin": "The kanji 疲 is a combination of the characters for “person” and “tired”. The character れる is used to indicate the verb form of the word.","kanji_meaning": "The kanji 疲れる means “to get tired” or “to be exhausted.”","kanji_info": "The kanji 疲れる is often used in Japanese to describe physical or mental exhaustion.","compound_words": [{"word": "疲労", "romaji": "hirou", "translation": "fatigue"},{"word": "疲弊", "romaji": "hihi", "translation": "decline"},{"word": "疲労感", "romaji": "hiroukan", "translation": "feeling of fatigue"}],"kanji_examples":[ {"expression":"疲れ果てる", 	"romaji":"tsukarehateteru", 	"translation":"to be completely exhausted"}, {"expression":"疲れ切る", 	"romaji":"tsukarekiru", 	"translation":"to be worn out"}, {"expression":"疲れ果てた", 	"romaji":"tsukarehateta", 	"translation":"exhausted"}]}
+-----------------------------
+CLI param:  息
+--- Response text: ---
+{"kanji": "息","kanji_simplified": "イク","kanji_romaji": "iku","kanji_meaning": "breath, respiration","mnemonics": "The kanji 息 looks like two people blowing out their breath, with the top part representing the mouth and the bottom part representing the breath.","sentence_japanese": "彼は長い息を吐いた。","sentence_romaji": "Kare wa nagai iku o haita.","sentence_translation": "He took a deep breath.","kanji_origin": "The kanji 息 is composed of two parts: 'breath' (攵) and 'person' (亻). Together, they form the meaning 'breath of a person' or 'respiration.'","kanji_meaning": "The kanji 息 means 'breath' or 'respiration.' It is used to refer to the act of inhaling and exhaling air.","kanji_info": "The kanji 息 is used in many words related to breathing, such as 呼吸 (kokyuu, breathing), 吸気 (kyuuki, inhalation), and 息切れ (ikigire, shortness of breath).","compound_words": [{"word": "息子", "romaji": "musuko", "translation": "son"},{"word": "息吹", "romaji": "ibuki", "translation":"breath"},{"word":"息止める", "romaji":"ikitomeru", 
+"translation":"to stop breathing"}],"kanji_examples":[{"expression":"息をする", 
+"romaji":"iki o suru", 
+"translation":"to take a breath"},{"expression":"息を吸う", 
+"romaji":"iki o suu", 
+"translation":"to inhale"},{"expression":"息が詰まる", 
+"romaji":"iki ga tsumaru", 
+"translation":"to be short of breath"}]}
+-----------------------------
+CLI param:  厚い
+--- Response text: ---
+{"kanji": "厚い","kanji_simplified": "あつい","kanji_romaji": "atsui","kanji_meaning": "thick, deep, rich","mnemonics": "Imagine a thick layer of cream on top of your ice cream.","sentence_japanese": "彼女は厚い友情を持っています。","sentence_romaji": "Kanojo wa atsui yuujou wo motte imasu.","sentence_translation": "She has a deep friendship.","kanji_origin": "The kanji 厚 is composed of two parts: 田 which means 'rice field' and 心 which means 'heart'. Together they mean 'rich heart'.","kanji_meaning": "The kanji 厚 means 'thick', 'deep', or 'rich'.","kanji_info": "The kanji 厚 can also be used in the sense of 'generous' or 'kind'.","compound_words": [{"word": "厚かましい", "romaji": "atsukamashii", "translation": "shameless"},{"word": "厚意", "romaji": "atui", "translation": "kindness"},{"word": "厚情", "romaji": "atujou", "translation": "deep emotion"}],"kanji_examples":[ {"expression":"厚かましい", 	"romaji":"atsukamashii", 	"translation":"shameless"}, {"expression":"厚愛", 	"romaji":"atua", 	"translation":"deep love"}, {"expression":"厚手", 	"romaji":"atsute", 	"translation":"thick cloth"}]}
+-----------------------------
+CLI param:  泣く
+--- Response text: ---
+{"kanji": "泣く","kanji_simplified": "ナク","kanji_romaji": "naku","kanji_meaning": "to cry","mnemonics": "Picture a person with a 'Nose' that is 'Aching' and 'KU' (crying) from the pain.","sentence_japanese": "彼女は泣きながら歩いていました。","sentence_romaji": "Kanojo wa nakinagara aruite imashita.","sentence_translation": "She was walking while crying.","kanji_origin": "The kanji 泣 is composed of two elements: the radical 氵 (water) and the character 口 (mouth). Together, they represent the idea of tears flowing from the eyes.","kanji_meaning": "The kanji 泣 means to cry or weep.","kanji_info": "This kanji is often used in words related to sadness or sorrow, such as 悲しい (kanashii, sad) and 泣き声 (nakigoe, crying voice).","compound_words": [{"word": "泣き声", "romaji": "nakigoe", "translation": "crying voice"},{"word": "泣き笑い", "romaji": "nakiwarai", "translation":"mixed feelings of sorrow and joy"},{"word": "泣き濡れる", 
+"romaji":"nakinureru", 
+"translation":"to be drenched in tears"}],
+"kanji_examples":[
+{"expression":"泣き叫ぶ", 
+"romaji":"nakisakebu", 
+"translation":"to scream and cry"},
+{"expression":"泣き出す", 
+"romaji":"nakidasu", 
+"translation":"to burst into tears"},
+{"expression":"泣き虫", 
+"romaji":"nakimushi", 
+"translation":"crybaby"}]}
+-----------------------------

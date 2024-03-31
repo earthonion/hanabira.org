@@ -1,0 +1,28 @@
+[
+    {
+        "title": "～か～まいか (〜ka 〜maika)",
+        "short_explanation": "Used to express a dilemma or indecision between two options or actions",
+        "long_explanation": "The ～か～まいか grammar point .",
+        "formation": "Verb-ますform + か",
+        "examples": [
+            {
+                "jp": "このプロジェクトを引き受けるか引き受けないまいか、まだ決めていない。",
+                "romaji": "Kono purojekuto wo hikiukeru ka hikiukenai maika, mada kimeteinai.",
+                "en": "I haven't decided whether to take on this project or not."
+            }
+        ]
+    },
+    {
+        "title": "～からこそ (〜kara koso)",
+        "short_explanation": "Express the emphasis on the reason; 'precisely because', 'it is precisely because'.",
+        "long_explanation": "The ～からこそ grammar point.",
+        "formation": "Verb-casual + からこそ",
+        "examples": [
+            {
+                "jp": "失敗したからこそ、成功の意味がわかる。",
+                "romaji": "Shippai shita kara koso, seikou no imi ga wakaru.",
+                "en": "It is precisely because I failed that I understand the meaning of success."
+            }
+        ]
+    }
+]

@@ -1,0 +1,819 @@
+이/가 [i/ga] (Subject markers) |  | TOPIK I Level 1
+은/는 [eun/neun] (Topic markers) |  | TOPIK I Level 1
+을/를 [eul/reul] (Object markers) |  | TOPIK I Level 1
+아니다 [anida] (To not be) |  | TOPIK I Level 1
+예요/이에요 [yeyo/ieyo] (Descriptive verb ending in present tense) |  | TOPIK I Level 1
+아요/어요/여요 [ayo/eoyo/yeoyo] (Verb ending in present tense) |  | TOPIK I Level 1
+고 [go] (And) |  | TOPIK I Level 1
+하고 [hago] (And, with) |  | TOPIK I Level 1
+(으)세요 [(eu)seyo] (Imperative form) |  | TOPIK I Level 1
+(으)ㄹ 수 있다 [(eu)l su itda] (Can do) |  | TOPIK I Level 1
+(으)려고 [(eu)ryeogo] (Intention to do) |  | TOPIK I Level 1
+(으)ㄴ/는다 [(eu)n/neunda] (Informal statement endings) |  | TOPIK I Level 1
+도 [do] (Too, also) |  | TOPIK I Level 1
+만 [man] (Only) |  | TOPIK I Level 1
+와/과 [wa/gwa] (And, with – for nouns) |  | TOPIK I Level 1
+에 [time/place)] (At, on, in | e | 
+에서 [location/source)] (In, at | eseo | 
+부터 [buteo] (From) |  | TOPIK I Level 1
+까지 [kkaji] (Until, up to) |  | TOPIK I Level 1
+아/어/여서 [a/eo/yeoseo] (Because, since) |  | TOPIK I Level 1
+(으)면 [(eu)myeon] (If, when) |  | TOPIK I Level 1
+너무 [neomu] (Too, very) |  | TOPIK I Level 1
+많이 [manhi] (A lot) |  | TOPIK I Level 1
+조금 [jogeum] (A little) |  | TOPIK I Level 1
+다 [da] (All, entirely) |  | TOPIK I Level 1
+(으)ㄴ/는데 [(eu)n/neunde] (But, however) |  | TOPIK I Level 1
+아/어야 해요 [a/eoya haeyo] (Have to do) |  | TOPIK I Level 1
+안 [an] (Negation before verb/adjective) |  | TOPIK I Level 1
+못 [mot] (Can't, not able to) |  | TOPIK I Level 1
+아/어/여 보다 [a/eo/yeo boda] (Try doing) |  | TOPIK I Level 1
+지금 [jigeum] (Now) |  | TOPIK I Level 1
+이미 [imi] (Already) |  | TOPIK I Level 1
+아직 [ajik] (Yet, still) |  | TOPIK I Level 1
+때 [ttae] (When, time) |  | TOPIK I Level 1
+(으)려고 하다 [(eu)ryeogo hada] (Intend to do) |  | TOPIK I Level 1
+처럼 [cheoreom] (Like, as) |  | TOPIK I Level 1
+같이 [gachi] (Together) |  | TOPIK I Level 1
+(이)랑 [(i)rang] (With) |  | TOPIK I Level 1
+그런데 [geureonde] (However, but) |  | TOPIK I Level 1
+그래서 [geuraeseo] (So, therefore) |  | TOPIK I Level 1
+그리고 [geurigo] (And then) |  | TOPIK I Level 1
+아/어/여 주다 [a/eo/yeo juda] (To do for someone) |  | TOPIK I Level 1
+아/어/여 하다 [a/eo/yeo hada] (Do something) |  | TOPIK I Level 1
+의 [ui] (Possessive marker) |  | TOPIK I Level 1
+(으)로 [(eu)ro] (To, toward; as a tool/method) |  | TOPIK I Level 1
+한테/에게 [hante/ege] (To someone) |  | TOPIK I Level 1
+한테서/에서 [hanteseo/eseo] (From someone) |  | TOPIK I Level 1
+보다 [boda] (More than) |  | TOPIK I Level 1
+가장 [gajang] (The most) |  | TOPIK I Level 1
+도 [do] (Even) |  | TOPIK I Level 1
+이/그/저 [i/geu/jeo] (This, that, that over there) |  | TOPIK I Level 1
+(이)나 [(i)na] (Or) |  | TOPIK I Level 1
+밖에 [bakke] (Only, except) |  | TOPIK I Level 1
+뿐 [ppun] (Only) |  | TOPIK I Level 1
+는/은 것 [neun/eun geot] (The thing that, nominalizing) |  | TOPIK I Level 1
+(으)ㄴ/는 것 같다 [(eu)n/neun geot gatda] (It seems like) |  | TOPIK I Level 1
+(으)러 가다/오다 [(eu)reo gada/oda] (Go/come to do something) |  | TOPIK I Level 1
+아/어/여도 [a/eo/yeodo] (Even if) |  | TOPIK I Level 1
+계속 [gyesok] (Continue to) |  | TOPIK I Level 1
+항상 [hangsang] (Always) |  | TOPIK I Level 1
+(으)ㄹ 때 [(eu)l ttae] (When) |  | TOPIK I Level 1
+아/어/여야 되다 [a/eo/yeoya doeda] (Must, have to) |  | TOPIK I Level 1
+(으)면서 [(eu)myeonseo] (While, and) |  | TOPIK I Level 1
+다가 [daga] (And then, but) |  | TOPIK I Level 1
+아/어/여 보이다 [a/eo/yeo boida] (Looks, seems) |  | TOPIK I Level 1
+아/어/여 버리다 [a/eo/yeo beorida] (Completely, regretfully) |  | TOPIK I Level 1
+아/어/여 놓다 [a/eo/yeo nohda] (Leave something as is) |  | TOPIK I Level 1
+아/어/여 지다 [a/eo/yeo jida] (Become) |  | TOPIK I Level 1
+아/어/여 가지다 [a/eo/yeo gajida] (Have, possess) |  | TOPIK I Level 1
+(으)ㄴ/는 편이다 [(eu)n/neun pyeonida] (Tend to) |  | TOPIK I Level 1
+는/은 데 [neun/eun de] (Situation or condition) |  | TOPIK I Level 1
+아/어/여야겠다 [a/eo/yeoya getda] (Should, must) |  | TOPIK I Level 1
+아/어/여서는 안 되다 [a/eo/yeoseoneun an doeda] (Must not, shouldn't) |  | TOPIK I Level 1
+아/어/여 주세요 [a/eo/yeo juseyo] (Please give/do for me) |  | TOPIK I Level 1
+아/어/여 드리다 [a/eo/yeo deurida] (To give – honorific) |  | TOPIK I Level 1
+다니다 [danida] (To attend, go regularly) |  | TOPIK I Level 1
+아/어/여 가다 [a/eo/yeo gada] (Be going to do) |  | TOPIK I Level 1
+아/어/여 오다 [a/eo/yeo oda] (Come to do) |  | TOPIK I Level 1
+아/어/여 있다 [a/eo/yeo itda] (To be doing) |  | TOPIK I Level 1
+아/어/여 보다 [a/eo/yeo boda] (Try to do) |  | TOPIK I Level 1
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+~게 되다 [ge doeda] (End up doing) |  | TOPIK I Level 2
+~게 하다 [ge hada] (Make/let someone do) |  | TOPIK I Level 2
+~고 싶다 [go sipda] (Want to do) |  | TOPIK I Level 2
+~기 전에 [gi jeone] (Before doing) |  | TOPIK I Level 2
+~기 때문에 [gi ttaemune] (Because of doing) |  | TOPIK I Level 2
+~기로 하다 [giro hada] (Decide to do) |  | TOPIK I Level 2
+~기 시작하다 [gi sijakhada] (Start to do) |  | TOPIK I Level 2
+~기는 하다 [gineun hada] (Do something as a habit) |  | TOPIK I Level 2
+~는 대로 [neun daero] (As it is) |  | TOPIK I Level 2
+~는 바람에 [neun barame] (Because of) |  | TOPIK I Level 2
+~는 데 [neun de] (But) |  | TOPIK I Level 2
+~는지 모르다 [neunji moreuda] (Don't know if) |  | TOPIK I Level 2
+~는지 알다 [neunji alda] (Know if) |  | TOPIK I Level 2
+~마다 [mada] (Every) |  | TOPIK I Level 2
+~부터 ~까지 [buteo ~ kkaji] (From ~ to ~) |  | TOPIK I Level 2
+~아/어/여 보이다 [a/eo/yeo boida] (Seems, looks like) |  | TOPIK I Level 2
+~아/어/여 주다 [a/eo/yeo juda] (Do for someone) |  | TOPIK I Level 2
+~아/어/여야만 하다 [a/eo/yeoyaman hada] (Have to do) |  | TOPIK I Level 2
+~아/어/여도 되다 [a/eo/yeodo doeda] (Is it okay to) |  | TOPIK I Level 2
+~아/어/여서는 안 되다 [a/eo/yeoseoneun an doeda] (Must not) |  | TOPIK I Level 2
+~아/어서 [a/eoseo] (Because, so) |  | TOPIK I Level 2
+~았/었으면 좋겠다 [at/eosseumyeon joketda] (I wish/hope) |  | TOPIK I Level 2
+~어/아야 하다 [eo/ayahada] (Have to, should) |  | TOPIK I Level 2
+~어/아도 [eo/ado] (Even if) |  | TOPIK I Level 2
+~어/아 버리다 [eo/a beorida] (Regretfully, completely) |  | TOPIK I Level 2
+~으면/면 [eumyeon/myeon] (If, when) |  | TOPIK I Level 2
+~을/를 빼다 [eul/reul ppaeda] (Except for) |  | TOPIK I Level 2
+~을/를 수 있다 [eul/reul su itda] (Can, possible) |  | TOPIK I Level 2
+~을/를 통해 [eul/reul tonghae] (Through, via) |  | TOPIK I Level 2
+~을까 [eulkka] (Shall we?) |  | TOPIK I Level 2
+~을래 [eullae] (Want to) |  | TOPIK I Level 2
+~을지라도 [euljirado] (Even if) |  | TOPIK I Level 2
+~을지언정 [euljieonjeong] (Whether... or...) |  | TOPIK I Level 2
+~이 되다 [i doeda] (Become) |  | TOPIK I Level 2
+~이나 ~ [ina] (Either, or) |  | TOPIK I Level 2
+~이라도 [irado] (At least) |  | TOPIK I Level 2
+~이랑 [irang] (And, with) |  | TOPIK I Level 2
+~이래 [irae] (Since) |  | TOPIK I Level 2
+~이므로 [imyeo] (Because, so) |  | TOPIK I Level 2
+~이어서 [ieoseo] (And then, so) |  | TOPIK I Level 2
+~이지만 [ijiman] (But, however) |  | TOPIK I Level 2
+~인/는데 [in/neunde] (But, so) |  | TOPIK I Level 2
+~자 [ja] (Let’s) |  | TOPIK I Level 2
+~자마자 [jamaja] (As soon as) |  | TOPIK I Level 2
+~처럼 [cheoreom] (Like, as) |  | TOPIK I Level 2
+~쯤 [jjeum] (Around, about) |  | TOPIK I Level 2
+~지 않다 [ji anta] (Not) |  | TOPIK I Level 2
+~지만 [jiman] (But) |  | TOPIK I Level 2
+~지요/~죠 [jiyo/jyo] (Isn’t it?, right?) |  | TOPIK I Level 2
+~채 [(Still, yet)] (로) | chae | (ro)
+~하고 [hago] (And, with) |  | TOPIK I Level 2
+~하기로 [hagiro] (Decide to) |  | TOPIK I Level 2
+~하기는 [hagineun] (But) |  | TOPIK I Level 2
+~하기보다 [hagiboda] (Rather than) |  | TOPIK I Level 2
+~하나 [hana] (Questioning oneself) |  | TOPIK I Level 2
+~하다가 [hadaga] (Doing and then) |  | TOPIK I Level 2
+~하다가 말다 [hadaga malda] (Stop doing something) |  | TOPIK I Level 2
+~하더라 [hadeora] (I observed, I remember) |  | TOPIK I Level 2
+~하려고 [haryeogo] (In order to) |  | TOPIK I Level 2
+~하여/해서 [hayeo/haeseo] (So, therefore) |  | TOPIK I Level 2
+~한테/한테서 [hante/hanteseo] (To/From someone) |  | TOPIK I Level 2
+~할 거예요 [hal geoyeyo] (Going to do) |  | TOPIK I Level 2
+~할 만하다 [hal manhada] (Worth doing) |  | TOPIK I Level 2
+~할 수록 [hal surok] (The more...) |  | TOPIK I Level 2
+~할 줄 알다 [hal jul alda] (Know how to) |  | TOPIK I Level 2
+~할지라도 [haljirado] (Even if) |  | TOPIK I Level 2
+~할 텐데 [hal tende] (I thought/would have thought that..) |  | TOPIK I Level 2
+~해야지 [haeyaji] (Decide to) |  | TOPIK I Level 2
+~해도/해봐도 [haedo/haebwado] (Even if) |  | TOPIK I Level 2
+~해보다 [haeboda] (Try to) |  | TOPIK I Level 2
+~해주다 [haejuda] (Do for someone) |  | TOPIK I Level 2
+~했더니 [haetdeoni] (When, and then) |  | TOPIK I Level 2
+~했었다 [haesseotda] (Had done) |  | TOPIK I Level 2
+~했으면 [haesseumyeon] (If it were) |  | TOPIK I Level 2
+~했을 때 [haesseul ttae] (When someone did) |  | TOPIK I Level 2
+~했을 텐데 [haesseul tende] (I think I did) |  | TOPIK I Level 2
+~했지만 [haetjiman] (But, however) |  | TOPIK I Level 2
+~혀/어/여 [hyeo/eo/yeo] (Because, so) |  | TOPIK I Level 2
+~혀/어/여야 [hyeo/eo/yeoya] (Have to) |  | TOPIK I Level 2
+~후에 [hue] (After) |  | TOPIK I Level 2
+~(으)나 [(eu)na] (But, however) |  | TOPIK I Level 2
+~(으)ㄹ까요? [(eu)lkka yo?] (Shall we?) |  | TOPIK I Level 2
+~(으)ㄹ래요 [(eu)llae yo] (I will) |  | TOPIK I Level 2
+~(으)면서 [(eu)myeonseo] (While) |  | TOPIK I Level 2
+~(으)로 [(eu)ro] (Towards, by means of) |  | TOPIK I Level 2
+~(으)로서 [(eu)roseo] (As) |  | TOPIK I Level 2
+~(으)로써 [(eu)rosseo] (By, as) |  | TOPIK I Level 2
+~(으)려고 하다 [(eu)ryeogo hada] (To try to) |  | TOPIK I Level 2
+~(으)리라 [(eu)rira] (Probably) |  | TOPIK I Level 2
+~(으)실 거예요 [(eu)sil geoyeyo] (You will probably) |  | TOPIK I Level 2
+~(으)면 좋겠다 [(eu)myeon jokgetda] (It would be good if) |  | TOPIK I Level 2
+~(으)면서도 [(eu)myeonseodo] (While, although) |  | TOPIK I Level 2
+~(으)니까 [(eu)nikka] (Because, since) |  | TOPIK I Level 2
+~(으)다 보니 [(eu)da boni] (Seeing that, as) |  | TOPIK I Level 2
+~(으)다가 [(eu)daga] (And then, but) |  | TOPIK I Level 2
+~(으)던 [(eu)deon] (Who used to) |  | TOPIK I Level 2
+~(으)려면 [(eu)ryeomyeon] (In order to) |  | TOPIK I Level 2
+~(으)ㄹ 수록 [(eu)l surok] (The more) |  | TOPIK I Level 2
+~(으)ㄴ/는 중 [(eu)n/neun jung] (In the middle of) |  | TOPIK I Level 2
+~(으)ㄴ/는 탓에 [(eu)n/neun tase] (Because of) |  | TOPIK I Level 2
+~(으)ㄴ/는데다가 [(eu)n/neundedaga] (Moreover, additionally) |  | TOPIK I Level 2
+~(으)ㄴ/는데도 불구하고 [(eu)n/neundedo bulguhago] (Despite, in spite of) |  | TOPIK I Level 2
+~(으)ㄴ/는 바람에 [(eu)n/neun baram] (Because of, due to) | e | 
+~(으)ㄴ/는지 모르겠다 [(eu)n/neunji moreugessda] (I'm not sure if) |  | TOPIK I Level 2
+~(으)려는 참이다 [(eu)ryeoneun chamida] (I really want to) |  | TOPIK I Level 2
+~(으)ㄹ 것 같다 [(eu)l geot gatda] (It seems like) |  | TOPIK I Level 2
+~(으)ㄹ 것이다 [(eu)l geosida] (Will likely) |  | TOPIK I Level 2
+~(으)ㄹ 뿐만 아니라 [(eu)l ppunman anira] (Not only, but also) |  | TOPIK I Level 2
+~(으)ㄹ 뿐이다 [(eu)l ppunida] (Only, just) |  | TOPIK I Level 2
+~(으)ㄹ게요 [(eu)lgeyo] (I will, in the future) |  | TOPIK I Level 2
+~(으)ㄹ게 [(eu)lge] (I will, in the future) |  | TOPIK I Level 2
+~(으)ㄹ래 [(eu)llae] (I want to) |  | TOPIK I Level 2
+~(으)ㄹ라고 [(eu)llago] (Intend to) |  | TOPIK I Level 2
+~(으)ㄹ 테니까 [(eu)l tenikka] (Since I assume) |  | TOPIK I Level 2
+~(으)ㄹ지라도 [(eu)ljirado] (Even if) |  | TOPIK I Level 2
+~(으)면서도 [(eu)myeonseodo] (While, although) |  | TOPIK I Level 2
+~(으)시면 [(eu)simyeon] (If you) |  | TOPIK I Level 2
+~(으)시겠어요 [(eu)sigesseoyo] (You will probably) |  | TOPIK I Level 2
+~(으)시다 [(eu)sida] (Let's) |  | TOPIK I Level 2
+~(으)십시오 [(eu)sipsio] (Please) |  | TOPIK I Level 2
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+~(으)나마 [(eu)namah] (At least, even if only) |  | TOPIK II Level 3
+~(으)니깐 [(eu)nikkan] (Because, so) |  | TOPIK II Level 3
+~(으)려다가 [(eu)ryeodaga] (Was about to, tried to) |  | TOPIK II Level 3
+~(으)리니 [(eu)rini] (Of course, as one would expect) |  | TOPIK II Level 3
+~(으)면 할수록 [(eu)myeon halsurok] (The more... the more...) |  | TOPIK II Level 3
+~(으)면서는 [(eu)myeonseoneun] (While, whereas) |  | TOPIK II Level 3
+~(으)시거나 [(eu)sigeona] (Either... or... [honorific]) |  | TOPIK II Level 3
+~(으)시든지 [(eu)sideunji] (Whether... or... [honorific]) |  | TOPIK II Level 3
+~(으)않을까 [(eu)anh] (Maybe, perhaps) | eul | kka
+~(으)ㄴ/는 바에 [(eu)n/neun ba] (While, when) | e | 
+~(으)ㄹ 데가 없다 [(eu)l dega eopda] (There's no way to...) |  | TOPIK II Level 3
+~(으)ㄹ 수밖에 없다 [(eu)l subakke eopda] (Have no choice but to) |  | TOPIK II Level 3
+~(으)ㄹ지라도 [(eu)ljirado] (Even if) |  | TOPIK II Level 3
+~(으)ㄹ 턱이 없다 [(eu)l teog] (It's impossible to) | i eopda | 
+~(으)려나 [(eu)ryeona] (I wonder if...) |  | TOPIK II Level 3
+~겠지만 [gesjiman] (I think, but) |  | TOPIK II Level 3
+~게 되다 [ge dweda] (End up, come to) |  | TOPIK II Level 3
+~게 하다 [ge hada] (Make/cause someone to do) |  | TOPIK II Level 3
+~고 말다 [go malda] (End up) |  | TOPIK II Level 3
+~고 말하다 [go malhada] (Say that...) |  | TOPIK II Level 3
+~고 보면 [go bomyeon] (When you see/consider, upon closer look) |  | TOPIK II Level 3
+~고서 [goseo] (After doing) |  | TOPIK II Level 3
+~고자 [goja] (In order to) |  | TOPIK II Level 3
+~기는 하다 [gineun hada] (Do something but...) |  | TOPIK II Level 3
+~기로 하다 [giro hada] (Decide to) |  | TOPIK II Level 3
+~기로 되다 [giro dweda] (It is decided/settled) |  | TOPIK II Level 3
+~기 시작하다 [gi sijakhada] (Begin to) |  | TOPIK II Level 3
+~기 전에 [gi jeone] (Before) |  | TOPIK II Level 3
+~기 힘들다 [gi himdeulda] (It's hard to) |  | TOPIK II Level 3
+~기를 [gireul] (In order to) |  | TOPIK II Level 3
+~기만 하다 [giman hada] (Just) |  | TOPIK II Level 3
+~기에는 [gieneun] (For, in order to) |  | TOPIK II Level 3
+~나 보다 [na boda] (It seems, looks like) |  | TOPIK II Level 3
+~나요? [nayo?] (Isn't it?, right?) |  | TOPIK II Level 3
+~남짓 [namjit] (About, around) |  | TOPIK II Level 3
+~는 김에 [neun gim] (While at it, since) | e | 
+~는 대로 [neun daero] (As is, the way it is) |  | TOPIK II Level 3
+~는 데요 [softener)] (But, however | neun deyo | 
+~는 바와 같이 [neun bawa gachi] (Just like, as if) |  | TOPIK II Level 3
+~는 편이다 [neun pyeonida] (Tend to) |  | TOPIK II Level 3
+~는다는 것 [neundaneun geot] (The fact that) |  | TOPIK II Level 3
+~는데 [neunde] (But, and, so) |  | TOPIK II Level 3
+~는지 알다/모르다 [neunji alda/moreuda] (Know/don't know whether) |  | TOPIK II Level 3
+~는지라 [neunjira] (Because, since) |  | TOPIK II Level 3
+~니까요 [softener)] (Because, so | nikka | yo
+~다가 [daga] (While doing, was doing but) |  | TOPIK II Level 3
+~다가는 [daganeun] (If continue doing) |  | TOPIK II Level 3
+~다가도 [dagado] (Even though was doing) |  | TOPIK II Level 3
+~다니 [dani] (Exclamation, surprise) |  | TOPIK II Level 3
+~다면 [damyeon] (If it is the case that) |  | TOPIK II Level 3
+~더라도 [deorado] (Even if) |  | TOPIK II Level 3
+~더라구요 [deoraguyo] (It seemed, I noticed) |  | TOPIK II Level 3
+~던 [deon] (That used to) |  | TOPIK II Level 3
+~도록 [dorok] (So that, in order to) |  | TOPIK II Level 3
+~도록 하다 [dorok hada] (Make sure, see to it that) |  | TOPIK II Level 3
+~라든지 [radeunji] (Or, either) |  | TOPIK II Level 3
+~라도 [rado] (Even if, at least) |  | TOPIK II Level 3
+~라서 [raseo] (Because, so) |  | TOPIK II Level 3
+~라야 하다 [rayahada] (Must, have to) |  | TOPIK II Level 3
+~려고 [ryeogo] (Intending to, planning to) |  | TOPIK II Level 3
+~려고 하다 [ryeogo hada] (Try to, plan to) |  | TOPIK II Level 3
+~려는데 [ryeoneunde] (Trying to, want to, but) |  | TOPIK II Level 3
+~리가 없다 [riga eopda] (There’s no way that) |  | TOPIK II Level 3
+~리요 [riyo] (Likely, probably) |  | TOPIK II Level 3
+~마다 [mada] (Every) |  | TOPIK II Level 3
+~만 [man] (Only, just) |  | TOPIK II Level 3
+~만 하다 [man hada] (Only, just) |  | TOPIK II Level 3
+~만은 아니다 [man] (Not just) | eun anida | 
+~만큼 [mankeum] (As much as, as many as) |  | TOPIK II Level 3
+~며/면서 [myeo/myeonseo] (While) |  | TOPIK II Level 3
+~면 [myeon] (If) |  | TOPIK II Level 3
+~면 어때 [myeon eottae] (How about if) |  | TOPIK II Level 3
+~면서도 [myeonseodo] (Even though, while) |  | TOPIK II Level 3
+~밖에 [bakke] (Only, nothing but) |  | TOPIK II Level 3
+~부터 [buteo] (From) |  | TOPIK II Level 3
+~부터 ~까지 [buteo ~ kkaji] (From ~ to) |  | TOPIK II Level 3
+~사이 [sai] (Between) |  | TOPIK II Level 3
+~세요 [seyo] (Please do, let’s do) |  | TOPIK II Level 3
+~아/어 보다 [a/eo boda] (Try) |  | TOPIK II Level 3
+~아/어 버리다 [a/eo beorida] (Regrettably, completely) |  | TOPIK II Level 3
+~아/어 다니다 [a/eo danida] (Keep doing, repeatedly do) |  | TOPIK II Level 3
+~아/어 두다 [a/eo duda] (Leave something in a state) |  | TOPIK II Level 3
+~아/어 놓다 [a/eo nohda] (Do in advance, set something up) |  | TOPIK II Level 3
+~아/어야 되다/하다 [a/eoya dweda/hada] (Have to, must) |  | TOPIK II Level 3
+~아/어지다 [a/eojida] (Become, get) |  | TOPIK II Level 3
+~아서/어서 [aseo/eoseo] (So, because, and) |  | TOPIK II Level 3
+~았/었다가 [at/eotdagga] (Did something and then another situation occurred) |  | TOPIK II Level 3
+~았/었던 [at/eotdeon] (That used to be) |  | TOPIK II Level 3
+~았/었으면 좋겠다 [at/eosseumyeon johgetda] (I hope, wish) |  | TOPIK II Level 3
+~았/었지만 [at/eotjiman] (But, however, even though) |  | TOPIK II Level 3
+~았/었지요 [at/eotjiyo] (Explanatory, as you know) |  | TOPIK II Level 3
+~어야지 [eoyaji] (Intention, resolution) |  | TOPIK II Level 3
+~었더라면 [eotdeoramyeon] (If it had been the case that) |  | TOPIK II Level 3
+~에 [e] (At, on, in, to) |  | TOPIK II Level 3
+~에 따라 [e ddara] (According to, depends on) |  | TOPIK II Level 3
+~에 따르다 [e ddareuda] (To be attributed to, according to) |  | TOPIK II Level 3
+~에 비해 [e bihae] (Compared to) |  | TOPIK II Level 3
+~에게 [ege] (To someone, for someone) |  | TOPIK II Level 3
+~에서 [eseo] (At, in) |  | TOPIK II Level 3
+~에서부터 ~까지 [eseobuteo ~ kkaji] (From ~ to) |  | TOPIK II Level 3
+~와/과 [wa/gwa] (And, with) |  | TOPIK II Level 3
+~와/과 같다 [wa/gwa gatda] (Be the same as, like) |  | TOPIK II Level 3
+~와/과 달리 [wa/gwa dalli] (Unlike, different from) |  | TOPIK II Level 3
+~외에 [oe] (Besides, except for) | e | 
+~을/를 통해 [eul/reul tonghae] (Through, by means of) |  | TOPIK II Level 3
+~이/가 되다 [i/ga dweda] (Become) |  | TOPIK II Level 3
+~이/가 아니다 [i/ga anida] (Is not, are not) |  | TOPIK II Level 3
+~이라도 [irado] (Even if, at least) |  | TOPIK II Level 3
+~이래 [irae] (Since then) |  | TOPIK II Level 3
+~이랑 [irang] (And, with) |  | TOPIK II Level 3
+~이렇게 [ireohge] (Like this, in this way) |  | TOPIK II Level 3
+~이므로 [imyeo] (Therefore, because) |  | TOPIK II Level 3
+~이어서 [ieoseo] (And then, and so) |  | TOPIK II Level 3
+~이었다 [ieotda] (Was, were) |  | TOPIK II Level 3
+~이에요/예요 [ie] (Is, am, are) | yo/ye | yo
+~이지만 [ijiman] (But, however) |  | TOPIK II Level 3
+~인데 [inde] (But, and, so) |  | TOPIK II Level 3
+~인데다 [indeda] (Moreover, besides) |  | TOPIK II Level 3
+~인지 [inji] (Whether) |  | TOPIK II Level 3
+~일 때 [il ttae] (When, while) |  | TOPIK II Level 3
+~자 [ja] (Let's) |  | TOPIK II Level 3
+~자마자 [jamaja] (As soon as) |  | TOPIK II Level 3
+~장 [jang] (Counting unit for items) |  | TOPIK II Level 3
+~저 [jeo] (That kind of) |  | TOPIK II Level 3
+~전 [jeon] (Before) |  | TOPIK II Level 3
+~적 [jeok] (Time, instance) |  | TOPIK II Level 3
+~죠 [jyo] (~Isn't it?) |  | TOPIK II Level 3
+~지 않다 [ji anta] (Negative form) |  | TOPIK II Level 3
+~지 않아도 되다 [ji anado dweda] (Don't have to) |  | TOPIK II Level 3
+지만 [jiman] ( but) |  | TOPIK II Level 3
+~지요 [jiyo] (Isn't it? Right?) |  | TOPIK II Level 3
+~진 않지만 [jin antjiman] (Not exactly, but) |  | TOPIK II Level 3
+~쯤 [jjeum] (About, around) |  | TOPIK II Level 3
+~처럼 [cheoreom] (Like, as) |  | TOPIK II Level 3
+~층 [cheung] (Floor count) |  | TOPIK II Level 3
+~카지 [kaji] (Perhaps, maybe) |  | TOPIK II Level 3
+~켤 [kkeol] (Every, each) |  | TOPIK II Level 3
+~테니까 [tenikka] (So, therefore) |  | TOPIK II Level 3
+~편이다 [pyeonida] (It is preferable) |  | TOPIK II Level 3
+~하다가 [hadaga] (Was doing something and then...) |  | TOPIK II Level 3
+~하면 [hamyeon] (If, when) |  | TOPIK II Level 3
+~하면서 [hamyeonseo] (While doing) |  | TOPIK II Level 3
+~하기는 [hakineun] (Though, although) |  | TOPIK II Level 3
+~하기로 하다 [hakiro hada] (Decide to) |  | TOPIK II Level 3
+~하기보다 [hakiboda] (Rather than) |  | TOPIK II Level 3
+~하기에 [hakie] (For, considering) |  | TOPIK II Level 3
+~하기만 하면 [hakiman hamyeon] (As long as) |  | TOPIK II Level 3
+~하는 것 같다 [haneun geot gatda] (It seems like) |  | TOPIK II Level 3
+~하는 데 [haneun de] (In doing) |  | TOPIK II Level 3
+~하는 편이다 [haneun pyeonida] (Tend to do) |  | TOPIK II Level 3
+~하는 한 [haneun han] (As long as) |  | TOPIK II Level 3
+~하는데 [haneunde] (But, and so) |  | TOPIK II Level 3
+~하다 보면 [hada bomyeon] (If one keeps doing) |  | TOPIK II Level 3
+~하다가는 [hadaganeun] (If continue doing) |  | TOPIK II Level 3
+~하여 [hayeo] (~ing, and) |  | TOPIK II Level 3
+~하여야 [hayeoya] (Must) |  | TOPIK II Level 3
+~하였다 [hayeotda] (Past formal) |  | TOPIK II Level 3
+~하자 [haja] (Upon doing, as soon as) |  | TOPIK II Level 3
+~할 것이다 [hal geotida] (Will, shall) |  | TOPIK II Level 3
+~할 때마다 [hal ttaemada] (Every time when) |  | TOPIK II Level 3
+~할 만하다 [hal manhada] (Worth doing) |  | TOPIK II Level 3
+~할 수 있다 [hal su itda] (Can do) |  | TOPIK II Level 3
+~할 수 없다 [hal su eopda] (Cannot do) |  | TOPIK II Level 3
+~할 줄 알다 [hal jul alda] (Know how to) |  | TOPIK II Level 3
+~할지라도 [haljirado] (Even if) |  | TOPIK II Level 3
+~할지언정 [haljieonjeong] (Whether ... or) |  | TOPIK II Level 3
+~할 텐데 [hal tende] (Probably will) |  | TOPIK II Level 3
+~함께 [hamkke] (Together with) |  | TOPIK II Level 3
+~해 보다 [hae boda] (Try to do) |  | TOPIK II Level 3
+~해 주다 [hae juda] (Do for someone) |  | TOPIK II Level 3
+~해야겠다 [haeyagetda] (Should do) |  | TOPIK II Level 3
+~해서는 안 되다 [haeseoneun an dweda] (Must not do) |  | TOPIK II Level 3
+~해야 하다 [haeya hada] (Have to do) |  | TOPIK II Level 3
+~했더니 [haetdeoni] (After doing) |  | TOPIK II Level 3
+~했었다 [haesseotda] (Had done) |  | TOPIK II Level 3
+~했으면 좋겠다 [haesseumyeon jotgetda] (I wish, I hope) |  | TOPIK II Level 3
+~했을 때 [haesseul ttae] (When someone did) |  | TOPIK II Level 3
+~했을 텐데 [haesseul tende] (Would have) |  | TOPIK II Level 3
+~했지만 [haetjiman] (Did, but) |  | TOPIK II Level 3
+~했다 [haetda] (Did, past tense) |  | TOPIK II Level 3
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+~거든요 [geondeunyo] (You see; Explaining) |  | TOPIK II Level 4
+~게 되다 [ge dweda] (End up doing) |  | TOPIK II Level 4
+~게 하다 [ge hada] (Make/let someone do) |  | TOPIK II Level 4
+~게 해서는 안 되다 [ge haeseoneun an dweda] (Shouldn't make/let someone do) |  | TOPIK II Level 4
+겠다 [getda] (will, guess, hope, wish) |  | TOPIK II Level 4
+~고 말다 [go malda] (Ended up doing) |  | TOPIK II Level 4
+~고 보니 [go boni] (After doing, I noticed) |  | TOPIK II Level 4
+~고 싶다 [go sipda] (Want to) |  | TOPIK II Level 4
+~고 있다 [go itda] (In the process of doing) |  | TOPIK II Level 4
+~고자 하다 [goja hada] (In order to) |  | TOPIK II Level 4
+~곤 하다 [gon hada] (Often do) |  | TOPIK II Level 4
+~기도 하다 [gido hada] (Sometimes do) |  | TOPIK II Level 4
+~기로 [giro] (Decided to) |  | TOPIK II Level 4
+~기로 되다 [giro dweda] (It's decided to) |  | TOPIK II Level 4
+~기로 하다 [giro hada] (Decide to) |  | TOPIK II Level 4
+~기 시작하다 [gi sijakhada] (Begin to) |  | TOPIK II Level 4
+~기 위해서 [gi wihaeseo] (In order to) |  | TOPIK II Level 4
+~기는 [gineun] (But) |  | TOPIK II Level 4
+~기에는 [gieneun] (For doing) |  | TOPIK II Level 4
+~기 전에 [gi jeone] (Before doing) |  | TOPIK II Level 4
+~나 보다 [na boda] (Seems like, guess) |  | TOPIK II Level 4
+~나다 [nada] (End up doing, come to do) |  | TOPIK II Level 4
+~나요? [nayo?] (Isn't it?) |  | TOPIK II Level 4
+~는 대로 [neun daero] (As it is) |  | TOPIK II Level 4
+~는 도중에 [neun dojunge] (While doing) |  | TOPIK II Level 4
+~는 바람에 [neun baram] (Because of, due to) | e | 
+~는 방향으로 [neun banghyangeuro] (Toward) |  | TOPIK II Level 4
+~는 법이다 [neun beopida] (Usually, always) |  | TOPIK II Level 4
+~는데다 [neundedda] (Furthermore, and) |  | TOPIK II Level 4
+~는데도 [neundedo] (Even though, but still) |  | TOPIK II Level 4
+~는데요 [softener)] (But, however | neundeyo | 
+~는지 [neunji] (Whether or not) |  | TOPIK II Level 4
+~는지 모르겠다 [neunji moreugessda] (I'm not sure if) |  | TOPIK II Level 4
+~는지라 [neunjira] (Because, since) |  | TOPIK II Level 4
+~느라 [(Doing, and thus not doing)] (고) | neura | (go)
+~다가 [daga] (While, and then) |  | TOPIK II Level 4
+~다가는 [daganeun] (If keep doing) |  | TOPIK II Level 4
+~다가도 [dagado] (Even though was doing) |  | TOPIK II Level 4
+~다는 것 [daneun geot] (The fact that) |  | TOPIK II Level 4
+~다며 [damyeo] (Saying that) |  | TOPIK II Level 4
+~대로 [daero] (According to, as) |  | TOPIK II Level 4
+~대로 하다 [daero hada] (Do as instructed/said) |  | TOPIK II Level 4
+~대로이면 [daeroimyeon] (If it's as ... said) |  | TOPIK II Level 4
+~도록 [dorok] (So that) |  | TOPIK II Level 4
+~도록 하다 [dorok hada] (Make/ensure that) |  | TOPIK II Level 4
+~도록이면 [dorogimyeon] (If possible) |  | TOPIK II Level 4
+~든지 [deunji] (Whether ... or) |  | TOPIK II Level 4
+~든지 ~든지 [deunji deunji] (Either ... or) |  | TOPIK II Level 4
+~라도 [rado] (At least, even if) |  | TOPIK II Level 4
+~라든지 [radeunji] (Or something) |  | TOPIK II Level 4
+~라면 [ramyeon] (If it's the case that) |  | TOPIK II Level 4
+~라면서 [ramyeonseo] (While saying that) |  | TOPIK II Level 4
+~려고 [ryeogo] (In order to) |  | TOPIK II Level 4
+~려고 하다 [ryeogo hada] (Try to) |  | TOPIK II Level 4
+~려는데 [ryeonde] (I'm planning to, I want to) |  | TOPIK II Level 4
+~마다 [mada] (Every) |  | TOPIK II Level 4
+~만큼 [mankeum] (As much as) |  | TOPIK II Level 4
+~면 [myeon] (If, when) |  | TOPIK II Level 4
+~면서 [myeonseo] (While) |  | TOPIK II Level 4
+~밖에 [bakke] (Nothing but, only) |  | TOPIK II Level 4
+~보다 [boda] (More than) |  | TOPIK II Level 4
+~부터 [buteo] (From, starting from) |  | TOPIK II Level 4
+~서는 [seoneun] (But in) |  | TOPIK II Level 4
+~아/어 보이다 [a/eo boida] (Looks/seems like) |  | TOPIK II Level 4
+~아/어 버리다 [a/eo beorida] (Completely do, unfortunately do) |  | TOPIK II Level 4
+~아/어 두다 [a/eo duda] (Keep, leave) |  | TOPIK II Level 4
+~아/어 가다 [a/eo gada] (Go on doing) |  | TOPIK II Level 4
+~아/어 오다 [a/eo oda] (Come to do) |  | TOPIK II Level 4
+~아/어야 하다 [a/eoya hada] (Have to, must) |  | TOPIK II Level 4
+~아/어야지 [a/eoyaji] (I'm going to) |  | TOPIK II Level 4
+~아/어도 [a/eodo] (Even if) |  | TOPIK II Level 4
+~아/어서 [a/eoseo] (Because, so) |  | TOPIK II Level 4
+~았/었던 [ass/eossdeon] (Was) |  | TOPIK II Level 4
+~았/었어야 했다 [ass/eosseoya haessda] (Should have done) |  | TOPIK II Level 4
+~았/었으면 [ass/eosseumyeon] (I wish it were) |  | TOPIK II Level 4
+~았/었을 텐데 [ass/eosseul tende] (I assume it must have been) |  | TOPIK II Level 4
+~았/었다가 [ass/eossdaga] (Was and then) |  | TOPIK II Level 4
+~았/었다면 [ass/eossdamyeon] (If it had been) |  | TOPIK II Level 4
+~으면 좋겠다 [eumyeon joketda] (I hope, it would be good if) |  | TOPIK II Level 4
+~으면서도 [eumyeonseodo] (While, but still) |  | TOPIK II Level 4
+~을/ㄹ 거예요 [eul/l geoyeyo] (Going to, will) |  | TOPIK II Level 4
+~을/ㄹ게요 [eul/l geyo] (I will) |  | TOPIK II Level 4
+~을/ㄹ게요 [eul/l geyo] (In order to) |  | TOPIK II Level 4
+~을/ㄹ까요? [eul/l kkayo?] (Shall we?) |  | TOPIK II Level 4
+~을/ㄹ 때 [eul/l ttae] (When) |  | TOPIK II Level 4
+~을/ㄹ 듯하다 [eul/l deushada] (Seems like) |  | TOPIK II Level 4
+~을/ㄹ 만하다 [eul/l manhada] (Worth doing) |  | TOPIK II Level 4
+~을/ㄹ 수록 [eul/l surok] (The more) |  | TOPIK II Level 4
+~을/ㄹ 줄 알다 [eul/l jul alda] (Know how to) |  | TOPIK II Level 4
+~을/ㄹ지 [eul/lji] (Whether or not) |  | TOPIK II Level 4
+~을/ㄹ지도 모르다 [eul/ljido moreuda] (Might) |  | TOPIK II Level 4
+~을/ㄹ지라도 [eul/ljirado] (Even if) |  | TOPIK II Level 4
+~을/ㄹ지 몰라 [eul/lji molla] (Maybe) |  | TOPIK II Level 4
+~을래요 [eullaeyo] (Want to) |  | TOPIK II Level 4
+~을리가 없다 [eulliga eopda] (It's unlikely that) |  | TOPIK II Level 4
+~을수록 [eulsurok] (The more) |  | TOPIK II Level 4
+~을지언정 [euljieonjeong] (Even though) |  | TOPIK II Level 4
+~이나 [ina] (Or, whether) |  | TOPIK II Level 4
+~이든 [ideun] (Either or) |  | TOPIK II Level 4
+~이라도 [irado] (At least, even if) |  | TOPIK II Level 4
+~이라는 것 [iraneun geot] (The thing called) |  | TOPIK II Level 4
+~이라면 [iramyeon] (If it's the case that) |  | TOPIK II Level 4
+~이래 [irae] (Like this, in this manner) |  | TOPIK II Level 4
+~이랑 [irang] (And, with) |  | TOPIK II Level 4
+~이러하다 [ireohada] (Like this) |  | TOPIK II Level 4
+~이런/그런/저런 [ireon/geureon/jeoreon] (This kind of/that kind of/that kind over there) |  | TOPIK II Level 4
+~이므로 [imuro] (Because, since) |  | TOPIK II Level 4
+~이야 [iya] (Is, informal declaration) |  | TOPIK II Level 4
+~이외에 [iwoe] (Other than) | e | 
+~이지만 [ijiman] (But, although) |  | TOPIK II Level 4
+~이후 [ihu] (After, since) |  | TOPIK II Level 4
+~인즉 [injeuk] (In other words, that is to say) |  | TOPIK II Level 4
+~자 [ja] (Let's) |  | TOPIK II Level 4
+~자마자 [jamaja] (As soon as) |  | TOPIK II Level 4
+~전에 [jeonn] (Before) | e | 
+~전에/전까지 [jeone/jeonkkaji] (Before/by the time of) |  | TOPIK II Level 4
+~정도 [jeongdo] (About, approximately) |  | TOPIK II Level 4
+~제 [je] (Although, even if) |  | TOPIK II Level 4
+~조차 [jocha] (Even) |  | TOPIK II Level 4
+~존재하다 [jonjaehada] (To exist) |  | TOPIK II Level 4
+~줄 알다 [jul alda] (Thought that) |  | TOPIK II Level 4
+~즉시 [jeukshi] (Immediately, at once) |  | TOPIK II Level 4
+~지 않다 [ji anta] (Negative form) |  | TOPIK II Level 4
+~지 않아도 되다 [ji anado dweda] (Do not have to) |  | TOPIK II Level 4
+~지 않을까 [ji anheulkka] (Perhaps) |  | TOPIK II Level 4
+~지만 [jimyeon] (But, however) |  | TOPIK II Level 4
+~지요 [jiyo] (~right?, isn't it?) |  | TOPIK II Level 4
+~진 않다 [jin anta] (Not really) |  | TOPIK II Level 4
+~처럼 [cheoreom] (Like, as if) |  | TOPIK II Level 4
+~쳐서 [chyeoseo] (So) |  | TOPIK II Level 4
+~카이다 [kaida] (Seems like) |  | TOPIK II Level 4
+~커녕 [keonyeong] (Let alone, far from) |  | TOPIK II Level 4
+~케 되다 [ke dweda] (Become) |  | TOPIK II Level 4
+~케 하다 [ke hada] (Make) |  | TOPIK II Level 4
+~케하다 [kehada] (To make so that) |  | TOPIK II Level 4
+~키가 크다/작다 [kiga keuda/jakda] (To be tall/short) |  | TOPIK II Level 4
+~키로 [kiro] (By means of, with) |  | TOPIK II Level 4
+~타다 [tada] (To take, ride) |  | TOPIK II Level 4
+~테니까 [tenikka] (Because) |  | TOPIK II Level 4
+~토록 [torok] (So that, to the extent that) |  | TOPIK II Level 4
+~하게 되다 [hage dweda] (End up doing) |  | TOPIK II Level 4
+~하고 있다 [hago itda] (Is doing) |  | TOPIK II Level 4
+~하고 나서 [hago naseo] (After doing) |  | TOPIK II Level 4
+~하고 싶다 [hago sipda] (Want to do) |  | TOPIK II Level 4
+~하기로 하다 [hakiro hada] (Decide to do) |  | TOPIK II Level 4
+~하기는 하다 [hakineun hada] (Do to some extent) |  | TOPIK II Level 4
+~하기도 하다 [hakido hada] (Do sometimes) |  | TOPIK II Level 4
+~하기보다 [hakiboda] (Rather than doing) |  | TOPIK II Level 4
+~하나 [hana] (But, however) |  | TOPIK II Level 4
+~하면 할수록 [hamyeon halsurok] (The more... the more) |  | TOPIK II Level 4
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+~나마나 [namamana] (Because, since) |  | TOPIK II Level 5
+~남짓 [namjit] (About, or so) |  | TOPIK II Level 5
+~내내 [naenae] (Throughout, the whole time) |  | TOPIK II Level 5
+~네요 [neyo] (Expressing surprise) |  | TOPIK II Level 5
+~노릇이다 [noreusida] (Act as, function as) |  | TOPIK II Level 5
+~느라고 [neurago] (Because, in order to) |  | TOPIK II Level 5
+~는 바람에 [neun baram] (Because, as a result of) | e | 
+~는데다가 [neundedaga] (Moreover, furthermore) |  | TOPIK II Level 5
+~는측에서 [neuncheugeseo] (From the perspective of) |  | TOPIK II Level 5
+~다가도 [dagado] (Even if, even though) |  | TOPIK II Level 5
+~다니 [dani] (Expressing disbelief) |  | TOPIK II Level 5
+~답게 [dapge] (As befitting, like) |  | TOPIK II Level 5
+~대로 [daero] (As per, following) |  | TOPIK II Level 5
+~던데 [deonde] (Used to, before) |  | TOPIK II Level 5
+~도록 하다 [dorok hada] (Make sure that, ensure that) |  | TOPIK II Level 5
+~라든지 ~라든지 [radenji radenji] (Either or) |  | TOPIK II Level 5
+~려고 하다 [ryeogo hada] (Try to) |  | TOPIK II Level 5
+~만이 아니다 [mani anida] (Not only) |  | TOPIK II Level 5
+~마련이다 [maryeonida] (Bound to, tend to) |  | TOPIK II Level 5
+~면서 [myeonseo] (While) |  | TOPIK II Level 5
+~동안 [dongan] (During/While) |  | TOPIK II Level 5
+~보아하니/보아서는 [boa] (Judging by, it seems that) | hani/boa | seoneun
+~부터는 [buteoneun] (From now on, since) |  | TOPIK II Level 5
+~서야 [seoya] (Only after) |  | TOPIK II Level 5
+~소문에는 [somuneneun] (I heard that) |  | TOPIK II Level 5
+~아/어 보이다 [a/eo boida] (To seem, appear) |  | TOPIK II Level 5
+~아/어야지 [a/eoyaji] (I should, I better) |  | TOPIK II Level 5
+~았/었다 치다 [at/eotda chida] (Let’s say, suppose) |  | TOPIK II Level 5
+~았/었던 것 같다 [at/eotdeon geot gatda] (It seemed that) |  | TOPIK II Level 5
+~았/었어야 했다 [at/eosseoya haetda] (Should have) |  | TOPIK II Level 5
+~어/아 가다 [eo/a gada] (While doing) |  | TOPIK II Level 5
+~어/아 갖다 [eo/a gatda] (To keep doing) |  | TOPIK II Level 5
+~어/아 달라다 [eo/a dallada] (To ask to do) |  | TOPIK II Level 5
+~어/아 다니다 [eo/a danida] (To keep doing) |  | TOPIK II Level 5
+~어/아 두다 [eo/a duda] (To stop doing) |  | TOPIK II Level 5
+~어/아 들다 [eo/a deulda] (Start to) |  | TOPIK II Level 5
+~어/아 버리다 [eo/a beorida] (To end up doing, regrettably) |  | TOPIK II Level 5
+~어/아 보다 [eo/a boda] (To try doing) |  | TOPIK II Level 5
+~어/아 서다 [eo/a seoda] (After doing) |  | TOPIK II Level 5
+~어/아 오다 [eo/a oda] (To come to do) |  | TOPIK II Level 5
+~어/아지다 [eo/ajida] (Become) |  | TOPIK II Level 5
+~었으면 좋겠다 [eosseumyeon jotgetda] (I wish it was/were) |  | TOPIK II Level 5
+~에 비해 [(Compared to)] (서) | e bihae | (seo)
+~에 따라 [(Depending on, according to)] (서) | e ddara | (seo)
+~에 한하다 [e hanhada] (Limited to) |  | TOPIK II Level 5
+~에 한해서 [e hanhaeseo] (Only in, limited to) |  | TOPIK II Level 5
+~에 힘쓰다 [e himsseuda] (Put effort into) |  | TOPIK II Level 5
+~에서나 말고는 [eseo] (Except for, other than) | na malgoneun | 
+~으나마나 [eunamana] (It's no use, to no avail) |  | TOPIK II Level 5
+~으니/니까 [euni/nikka] (So, since, because) |  | TOPIK II Level 5
+~으니까요 [eunikka] (Because, so) | yo | 
+~을 바탕으로 [eul batangeuro] (Based on) |  | TOPIK II Level 5
+~을 빼다 [eul ppaeda] (Except for) |  | TOPIK II Level 5
+~을 사이 [eul sai] (Between) |  | TOPIK II Level 5
+~을 테니 [eul teni] (I assume/bet) |  | TOPIK II Level 5
+~을 통해 [eul tonghae] (Through, via) |  | TOPIK II Level 5
+~을/를 계기로 [eul/reul gye] (Triggered by, starting from) | giro | 
+~을/를 틈타 [eul/reul teumta] (Taking advantage of, during) |  | TOPIK II Level 5
+~이기는 한데 [igineun hande] (Although, but) |  | TOPIK II Level 5
+~이나 [ina] (Or something) |  | TOPIK II Level 5
+~이란 [called)] (Called, so | iran | 
+~이래 [irae] (Since then, like this) |  | TOPIK II Level 5
+~이러하다 [ireohada] (Like this, such) |  | TOPIK II Level 5
+~이리 [iri] (This way, like this) |  | TOPIK II Level 5
+~이미 [imi] (Already) |  | TOPIK II Level 5
+~인 바 [in ba] (Since, because it's the case that) |  | TOPIK II Level 5
+~인 이상 [in isang] (As long as, since) |  | TOPIK II Level 5
+~인/은/를 터이다 [in/eun/reul teo] (As it's the case that) | ida | 
+~인즉슨 [injeuksseun] (Which means, in other words) |  | TOPIK II Level 5
+~일 리가 없다 [il riga eopda] (Cannot be, it's not possible that) |  | TOPIK II Level 5
+~일수록 [ilsulok] (The more ~, the more ~) |  | TOPIK II Level 5
+~자마자 [ja] (As soon as) | maja | 
+~잖아 [(You know, isn't it)] (요) | janha | (yo)
+~지 않을까 싶다 [ji anheul] (I think, perhaps) | kka sipda | 
+~지 않을테니 [ji anheulteni] (Won't, wouldn't) |  | TOPIK II Level 5
+~지만 [jimyeon] (But, although) |  | TOPIK II Level 5
+~지 않다/지 못하다 [ji anhda/ji mothada] (Not, don't, can't) |  | TOPIK II Level 5
+~지 얼마나 되다 [ji eolmana dweda] (How long has it been) |  | TOPIK II Level 5
+~지요/죠 [jiyo/jyo] (Isn't it, right) |  | TOPIK II Level 5
+~쯤 [jjeum] (About, around) |  | TOPIK II Level 5
+~처럼 [cheoreom] (Like, as) |  | TOPIK II Level 5
+~측에서 [cheok] (From the standpoint of) | eseo | 
+~치고는 [chigoneun] (For, considering) |  | TOPIK II Level 5
+~테니라고 [tenirago] (Since, because) |  | TOPIK II Level 5
+~텐데 [tende] (Would, might) |  | TOPIK II Level 5
+~토록 [torok] (So ~ that, to the extent) |  | TOPIK II Level 5
+~하게 [hage] (Make, let) |  | TOPIK II Level 5
+~하고나서 [hagonaseo] (After doing) |  | TOPIK II Level 5
+~하고는 [hagoneun] (And then, after) |  | TOPIK II Level 5
+~하구나 [haguna] (Oh, so it's) |  | TOPIK II Level 5
+~하다가 [hadaga] (While doing, was doing) |  | TOPIK II Level 5
+~하다못해 [hadamothae] (To the extent that) |  | TOPIK II Level 5
+~하던 중에 [hadeon junge] (While I was doing) |  | TOPIK II Level 5
+~하기는 [hagineun] (Although, but) |  | TOPIK II Level 5
+~하기로 [hagiro] (Decide to) |  | TOPIK II Level 5
+~하기에 [hagie] (For) |  | TOPIK II Level 5
+~하려고 하다 [haryeogo hada] (Try to do) |  | TOPIK II Level 5
+~하마다 [hamada] (Every time) |  | TOPIK II Level 5
+~하면 할수록 [hamyeon halsurok] (The more ~, the more ~) |  | TOPIK II Level 5
+~하면서 [hamyeonseo] (While doing) |  | TOPIK II Level 5
+~하시겠습니까? [hasigesseubnikka?] (Would you?) |  | TOPIK II Level 5
+~하자 [haja] (Let's, as soon as) |  | TOPIK II Level 5
+~하여 [hayeo] (So, therefore) |  | TOPIK II Level 5
+~하여야 [hayeoya] (Have to, should) |  | TOPIK II Level 5
+~하자마자 [hajamaja] (As soon as) |  | TOPIK II Level 5
+~하여서는 안 되다 [hayeoseoneun an doeda] (Must not) |  | TOPIK II Level 5
+~하기보다 [hagiboda] (Rather than) |  | TOPIK II Level 5
+~하기까지 [hagikkaji] (Even) |  | TOPIK II Level 5
+~하기도 하다 [hagido hada] (Sometimes) |  | TOPIK II Level 5
+~하나 [hana] (But, however) |  | TOPIK II Level 5
+~하느라 [haneura] (Because, in order to) |  | TOPIK II Level 5
+~하는 한 [haneun han] (As long as) |  | TOPIK II Level 5
+~하는 김에 [haneun kime] (While at it) |  | TOPIK II Level 5
+~하는 편이다 [haneun pyeonida] (Tend to) |  | TOPIK II Level 5
+~하는 대로 [haneun daero] (As soon as) |  | TOPIK II Level 5
+~하다 보면 [hada bomyeon] (If you keep doing) |  | TOPIK II Level 5
+~하다 보니 [hada boni] (As I was doing) |  | TOPIK II Level 5
+~하려는 뜻이다 [haryeoneun tteushida] (Intend to) |  | TOPIK II Level 5
+~하면 ~하다 [hamyeon hada] (If ~ then) |  | TOPIK II Level 5
+~할 만하다 [hal manhada] (Worth to) |  | TOPIK II Level 5
+~할 바에 [hal bae] (Rather than) |  | TOPIK II Level 5
+~할 리가 없다 [hal riga eopda] (There's no way that) |  | TOPIK II Level 5
+~할 때마다 [hal ttaemada] (Every time when) |  | TOPIK II Level 5
+~할 힘이 없다 [hal himi eopda] (Don't have the strength/energy to) |  | TOPIK II Level 5
+~할 것 같다 [hal geot gatda] (Seems like, feels like) |  | TOPIK II Level 5
+~할 것이다 [hal geosida] (Will) |  | TOPIK II Level 5
+~할 줄 알다 [hal jul alda] (Know how to) |  | TOPIK II Level 5
+~할지라도 [haljirado] (Even if) |  | TOPIK II Level 5
+~할지언정 [haljieonjeong] (Regardless of whether) |  | TOPIK II Level 5
+~함에 있어 [hame isseo] (In terms of) |  | TOPIK II Level 5
+~해 보이다 [hae boida] (Look/seem to be) |  | TOPIK II Level 5
+ [] |  | 
+ [] |  | 
+ [] |  | 
+ [] |  | 
+~게다가 [gedaga] (Moreover, besides) |  | TOPIK II Level 6
+~거니와 [geoniwa] (And, besides) |  | TOPIK II Level 6
+~것 마는 [geot maneun] (But) |  | TOPIK II Level 6
+~과/와 같이 [gwa/wa gachi] (Like, as if) |  | TOPIK II Level 6
+~나마저 [namajeo] (Even) |  | TOPIK II Level 6
+~뿐만 아니라 [ppunman anira] (Not only... but also) |  | TOPIK II Level 6
+~더니만 [deoniman] (After, and then) |  | TOPIK II Level 6
+~이든지 ~든지 [ideunji deunji] (Whether... or) |  | TOPIK II Level 6
+~임에 틀림없다 [ime tteollimeopda] (Without a doubt) |  | TOPIK II Level 6
+~쩌면 [jjeomyeon] (Maybe, perhaps) |  | TOPIK II Level 6
+~치고는 [chigoneun] (For, considering) |  | TOPIK II Level 6
+~커녕 [keonyeong] (Far from, let alone) |  | TOPIK II Level 6
+~판에 [pane] (In the midst of) |  | TOPIK II Level 6
+~하건마는 [hageonmaneun] (But, however) |  | TOPIK II Level 6
+~하더라도 [hadeorado] (Even if) |  | TOPIK II Level 6
+~하든지 말든지 [hadeunji maldeunji] (Whether... or not) |  | TOPIK II Level 6
+~하려니와 [haryeoniwa] (Trying to, but) |  | TOPIK II Level 6
+~하여간 [hayaegane] (Anyway, anyhow) |  | TOPIK II Level 6
+~하여야만 [hayeoyaman] (Only when) |  | TOPIK II Level 6
+~해야겠다 [haeyagetda] (Should, ought to) |  | TOPIK II Level 6
+~했던가 [haetdeon] (Or, either) | ga | 
+~에 근거하여 [e geungeohayeo] (Based on) |  | TOPIK II Level 6
+~에 비추어 볼 때 [e bichueo bol ttae] (In comparison to) |  | TOPIK II Level 6
+~이다 보니 [ida boni] (Since, as) |  | TOPIK II Level 6
+~이라면 그것은 [iramyeon geugeoseun] (If it’s called) |  | TOPIK II Level 6
+~이래 [irae] (Since then, after) |  | TOPIK II Level 6
+~이야말로 [iyamallo] (Truly, really) |  | TOPIK II Level 6
+~인 까닭에 [in kkadake] (Because, the reason why) |  | TOPIK II Level 6
+~인 즉 [in jeuk] (In other words) |  | TOPIK II Level 6
+~임에도 불구하고 [ime] (Despite the fact that) | do bulguhago | 
+~처럼 하다 [cheoreom hada] (To act as if, pretend to) |  | TOPIK II Level 6
+~커지다 [keojida] (Become bigger, more important) |  | TOPIK II Level 6
+~키로 하다 [kiro hada] (Intend to, plan to) |  | TOPIK II Level 6
+~하기에는 [hagineun] (Considering) |  | TOPIK II Level 6
+~하기로 되다 [hagi] (Be decided to) | ro dweda | 
+~하기로 하다 [hagi] (Decide to) | ro hada | 
+~하기는 하다 [hagineun hada] (Do it somehow) |  | TOPIK II Level 6
+~하기야 [hagiya] (Indeed, truly) |  | TOPIK II Level 6
+~하기만 하면 [hakiman hamyeon] (As soon as) |  | TOPIK II Level 6
+~하기보다는 [hagi] (Rather than) | bodaneun | 
+~하면서도 [hamyeonseodo] (While, although) |  | TOPIK II Level 6
+~하면 할수록 [hamyeon halsurok] (The more... the more) |  | TOPIK II Level 6
+~하자마자 [hajamaja] (As soon as) |  | TOPIK II Level 6
+~하여 그런지 [hayeo geureonji] (Perhaps because) |  | TOPIK II Level 6
+~하여서는 안 되다 [hayeoseoneun an dweda] (Must not) |  | TOPIK II Level 6
+~한테는 [hanteneun] (To, for someone) |  | TOPIK II Level 6
+~할 바에 [hal bae] (Rather than) | e | 
+~할 만하다 [hal manhada] (Worth doing) |  | TOPIK II Level 6
+~할 수밖에 없다 [hal subakke eopda] (Have no choice but to) |  | TOPIK II Level 6
+~할 힘이 없다 [hal him] (To not have the energy/strength to) | i eopda | 
+~함에 따라 [ham] (According to) | e ttara | 
+~해 갈수록 [hae galsurok] (Increasingly, as time goes on) |  | TOPIK II Level 6
+~해 보아야 [hae boaya] (Should try and see) |  | TOPIK II Level 6
+~해오다 [haeoda] (Continue doing something until now) |  | TOPIK II Level 6
+~했건만 [haetgeonman] (But, however) |  | TOPIK II Level 6
+~했기 때문에 [haetgi ttaemune] (Because) |  | TOPIK II Level 6
+~했기에 [haetgie] (Because) |  | TOPIK II Level 6
+~했더니 [haetdeoni] (And then) |  | TOPIK II Level 6
+~했어야 했다 [haesseoya haetda] (Had to) |  | TOPIK II Level 6
+~혹은 [hogeun] (Or) |  | TOPIK II Level 6
+~후에야 [hueya] (Only after) |  | TOPIK II Level 6
+~흔히 [heunhi] (Commonly, often) |  | TOPIK II Level 6
+~이/히다 [i/hida] (To become) |  | TOPIK II Level 6
+~잖다 [janda] (You know, isn't it) |  | TOPIK II Level 6
+~져/지다 [jyeo/jida] (Become) |  | TOPIK II Level 6
+~졌다가 [jyeotdaga] (Was once, but) |  | TOPIK II Level 6
+~즉 [jeuk] (That is to say, namely) |  | TOPIK II Level 6
+~지 않을까 싶다 [ji anheulkka sipda] (I think perhaps) |  | TOPIK II Level 6
+~지 않을까 하다 [ji anheulkka hada] (I guess, I suspect) |  | TOPIK II Level 6
+~지 않을래 [ji anheullae] (I don't want to) |  | TOPIK II Level 6
+~지요 [jyo] (~지, right?) |  | TOPIK II Level 6
+~진행하다 [jinhaenghada] (To proceed) |  | TOPIK II Level 6
+~쯤이야 [jjeum] (About, approximately) | iya | 
+~쯤이면 [jjeum] (By the time, around when) | imyeon | 
+~차라리 [charari] (Rather, instead) |  | TOPIK II Level 6
+~처럼만 [cheoreomman] (Just like, as if) |  | TOPIK II Level 6
+~케 하다 [ke hada] (To make) |  | TOPIK II Level 6
+~타다 [tada] (To take, ride) |  | TOPIK II Level 6
+~하게 하다 [hage hada] (Make someone do) |  | TOPIK II Level 6
+~하여야만 [hayeoyaman] (Only by doing) |  | TOPIK II Level 6
+~해서는 안 되다 [haeseoneun an dwae] (Must not, shouldn't) |  | TOPIK II Level 6
+~해서야 [haeseoya] (In order to) |  | TOPIK II Level 6
+~해야겠다 [haeyagetta] (Should, must, have to) |  | TOPIK II Level 6
+~해야지 [haeyaji] (I should) |  | TOPIK II Level 6
+~했더니 [haetdeoni] (After doing something, result) |  | TOPIK II Level 6
+~했었는데 [haesseotneunde] (Had done but) |  | TOPIK II Level 6
+~했을 텐데 [haesseultende] (Would have done but) |  | TOPIK II Level 6
+~혹시 [hoksi] (By any chance) |  | TOPIK II Level 6
+~힘들다 [himdeulda] (It's hard to) |  | TOPIK II Level 6
+~간이다 [ganida] (Used to express that someone does something while doing another action) |  | TOPIK II Level 6
+~나다 [nada] (Come out, start to) |  | TOPIK II Level 6
+~남다 [namda] (To remain, be left over) |  | TOPIK II Level 6
+~네요 [neyo] (Express surprise) |  | TOPIK II Level 6
+~다고 [dago] (Saying that) |  | TOPIK II Level 6
+~다는 [daneun] (The fact that) |  | TOPIK II Level 6
+~다면서요 [damyeonseyo] (Said that) |  | TOPIK II Level 6
+~던데 [deonde] (Used to) |  | TOPIK II Level 6
+~던지 [deonji] (Whether) |  | TOPIK II Level 6
+~도록 하다 [dorok hada] (To try to, to make sure to) |  | TOPIK II Level 6
+~든지 [deunji] (Whether or) |  | TOPIK II Level 6
+~라는 것이다 [raneun geosida] (It means that) |  | TOPIK II Level 6
+~라도 [rado] (At least, even if) |  | TOPIK II Level 6
+~러 [reo] (In order to) |  | TOPIK II Level 6
+~려고 하다 [ryeogo hada] (Try to) |  | TOPIK II Level 6
+~려는 [ryeoneun] (Intending to) |  | TOPIK II Level 6
+~로써 [rossyeo] (By means of) |  | TOPIK II Level 6
+~를 바탕으로 [reul batageuro] (Based on) |  | TOPIK II Level 6
+~를 통해 [reul tonghae] (Through, by means of) |  | TOPIK II Level 6
+~만큼 [mankeum] (As much as) |  | TOPIK II Level 6
+~마저 [majeo] (Even) |  | TOPIK II Level 6
+~못하다 [mothada] (Cannot) |  | TOPIK II Level 6
+~바라다 [barada] (Hope to) |  | TOPIK II Level 6
+~밖에 [bakke] (Only, nothing but) |  | TOPIK II Level 6
+~본 [bon] (Having experienced) |  | TOPIK II Level 6
+~부터가 [buteoga] (Starting from) |  | TOPIK II Level 6
+~뿐이다 [ppunida] (Only, just) |  | TOPIK II Level 6
+~사이에서 [saieseo] (Between) |  | TOPIK II Level 6
+~서야 [seoya] (Only after) |  | TOPIK II Level 6
+~소서 [soseo] (Polite way to apologize for an action) |  | TOPIK II Level 6
+~않게 [anhge] (So as not to) |  | TOPIK II Level 6
+~아/어 버리다 [a/eo beorida] (To completely) |  | TOPIK II Level 6
+~아/어 놓다 [a/eo notda] (To have done something in advance) |  | TOPIK II Level 6
+~아/어 달라다 [a/eo dallada] (To ask for) |  | TOPIK II Level 6
+~아/어 대다 [a/eo daeda] (To do aimlessly) |  | TOPIK II Level 6
+~아/어 보이다 [a/eo boida] (To seem, appear) |  | TOPIK II Level 6
+~아/어 서는 [a/eo seoneun] (Although) |  | TOPIK II Level 6
+~아/어야만 [a/eoyaman] (Only if/when) |  | TOPIK II Level 6
+~아/어지다 [a/eojida] (To become) |  | TOPIK II Level 6
+~았/었 던 [at/eot deon] (Past descriptive) |  | TOPIK II Level 6
+~았/었으면 좋겠다 [at/eosseumyeon jokgetda] (Wish something had happened) |  | TOPIK II Level 6

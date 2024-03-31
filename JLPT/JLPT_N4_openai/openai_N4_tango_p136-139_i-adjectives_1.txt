@@ -1,0 +1,38 @@
+うれしい|うれしい|happy (い adj.)||||
+悲しい|かなしい|sad (い adj.)||||
+おかしい|おかしい|funny (い adj.)||||
+怖い|こわい|scared (い adj.)||||
+寂しい|さびしい|lonely (い adj.)||||
+恥ずかしい|はずかしい|embarassed (い adj.)||||
+うまい|うまい|good (い adj.)||||
+
+まずい|まずい|bad-tasting (い adj.)||||
+苦い|にがい|bitter (い adj.)||||
+ぬるい|ぬるい|lukewarm (い adj.)||||
+眠い|ねむい|sleepy (い adj.)||||
+気分が悪い|きぶんがわるい|feeling sick (い adj.)||||
+浅い|あさい|shallow (い adj.)||||
+深い|ふかい|deep (い adj.)||||
+堅い|かたい|hard (い adj.)||||
+固い|かたい|hard (い adj.)||||
+硬い|かたい|hard (い adj.)||||
+
+柔らかい|やわらかい|soft (い adj.)||||
+軟らかい|やわらかい|soft (い adj.)||||
+細かい|こまかい|fine (い adj.)||||
+美しい|うつくしい|beautiful (い adj.)||||
+かっこいい|かっこいい|cool (い adj.)||||
+素晴らしい|すばらしい|wonderful (い adj.)||||
+正しい|ただしい|correct (い adj.)||||
+優しい|やさしい|kind (い adj.)||||
+
+よろしい|よろしい|good (い adj.)||||
+汚い|きたない|dirty (い adj.)||||
+ひどい|ひどい|terrible (い adj.)||||
+厳しい|きびしい|severe (い adj.)||||
+すごい|すごい|amazing, terrible (い adj.)||||
+珍しい|めずらしい|rare (い adj.)||||
+
+COMPLETED
+
+(い adj.)

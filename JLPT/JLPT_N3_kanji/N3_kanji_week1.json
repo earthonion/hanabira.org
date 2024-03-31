@@ -1,0 +1,146 @@
+Here I'm picking JLPT N3 level Kanji that have only one reading needed for this level. This doesn't mean that Kanjis do not have other reading that is more rare. But for JLPT N3 are these readings sufficient.
+
+**Source:**
+Nihongo So Matome JLPT N3 Kanji book.
+--------------------------------------------
+This is supposed to be used for japanese language learning application. What additional information can we add so it is easier for students to learn the kanji?
+
+Mnemonic Devices: A memory aid, such as a phrase or rhyme, to help students remember the meaning of the kanji.
+
+Example Sentences: A list of example sentences that use the kanji in context, to help students understand how to use it in a sentence.
+
+Related Vocabulary: A list of related vocabulary words and expressions, including synonyms, antonyms, and related words, to help students expand their vocabulary.
+
+Radicals: A list of the radical components of the kanji, along with information about their meanings and origins, to help students understand the structure of the kanji.
+
+Stroke Order: A diagram showing the correct stroke order for writing the kanji, along with a brief explanation of why the stroke order is important.
+
+Onyomi and Kunyomi Readings: A list of the onyomi and kunyomi readings of the kanji, along with example words and expressions that use each reading.
+
+Common Compounds: A list of common compounds that contain the kanji, along with their meanings and translations.
+
+Contextual Examples: A list of contextually relevant examples, including idioms and proverbs, that use the kanji in different situations.
+
+Related Kanji: A list of related kanji characters, including those that have similar meanings, components, or shapes, to help students see how the kanji is related to others.
+
+Writing Practice: A set of writing practice exercises, including tracing, fill-in-the-blank, and sentence writing, to help students practice their writing skills.
+
+
+--------------------------------------------
+
+Write example japanese sentence containing following word
+満（マン）
+add romaji and english translation
+
+Explain origin of following japanese kanji:
+満（マン）
+
+Explain meaning of following japanese kanji:
+満（マン）
+
+Add additional information about following japanese kanji:
+満（マン）
+
+Add example japanese words containing this kanji.
+
+Write the output in JSON format, include the original word.
+Example words and sentence should be on JLPT N3 level.
+
+Write the JSON output in following format. 
+This is just an example so we have structure of the JSON payload.
+{
+    "kanji": "満",
+    "kanji_simplified": "マン",
+    "kanji_romaji": "man",
+    "kanji_meaning": "full, satisfied, sufficient",
+    "sentence_japanese": "彼は食べ物が満足しています。",
+    "sentence_romaji": "Kare wa tabemono ga manzoku shite imasu.",
+    "sentence_translation": "He is satisfied with the food.",
+    "kanji_origin": "describe origin of given kanji",
+    "kanji_meaning": "describe meaning given kanji",
+    "kanji_info": "describe additional information about given kanji",
+    "compound_words": [
+    { "word": "満足", "romaji": "manzoku", "tranlation": "satisfaction" },
+    { "word": "満月", "romaji": "mangetsu", "translation": "full moon" },
+    { "word": "満員", "romaji": "manin", "translation": "full capacity" }
+    ],
+    "kanji_examples": [
+    { "expression": "満足感", "romaji": "manzokukan", "translation": "a feeling of contentment" },
+    { "expression": "満たされない", "romaji": "mitasarenai", "translation": "not fulfilled, not content" },
+    { "expression": "満ち足りた", "romaji": "michita tarita", "translation": "having had enough, content" }
+    ]
+    }
+
+manually, we can then inject the primary_vocab_jap, primary_vocab_simpl, primary_vocab_trans  
+信用（しんよう）　    | trust|
+add as
+"primary_vocab": {"word":"信用","simplified":"（しんよう）","translation":"trust"}
+this primary vocab comes from sou matome and is surely on JLPT N3 level, so we should have it there
+
+when we put the specific reading in the GPT prompt, GPT gets confused and starts to force the reading to wrong places
+it is because "JLPT N3 kanji with one reading" can have multiple readings on higher levels
+we might need to inject the correct reading as primary JLPT N3 reading
+plus of course we will need to inject some other metadata, like JLPT level and coder 25 for example
+
+
+
+the GPT generated examples can be toggled on/off in the frontend
+
+Use together with browser plugin called Yomichan so you get the audio pronounciation as well.
+
+| Kanji | example word | translation
+| :---------   | :--------------     | :----------- |
+| 駐（チュウ）  | 駐車（ちゅうしゃ）    | parking |
+| 満（マン）　  | 満車（まんしゃ）    　| full of cars|
+| 禁（キン）　  | 禁止（きんし）      　| prohibition|
+| 関（カン）    | 関心（カンシン）　    | interest|
+| 式（シキ）　  | 数式（すうしき）      | numerical formula|
+| 信（シン）　  | 信用（しんよう）　    | trust|
+| 号（ゴウ）　  | 信号（シンゴウ）　    | a signal, a traffic light|
+| 非（ヒ）　    | 非常に（ひじょうに）　| extremely|
+| 常（ジョウ）　| 正常（せいじょう）（な）| normal|
+| 階（カイ）　  | ～階（かい）　        | floor|
+| 段(ダン)      | 階段（かいだん）　    | stairs|
+| 箱（はこ）　  |                      | a box   |
+| 険（ケン）　  | 危険（きけん）（な）   | danger|
+| 捨てる（すてる）　|    　             | to throw away |
+| 線（セン）     | ～番線（ばんせん）    | line (platform) number ...
+| 面（メン）     | 画面（がめん）        | a screen
+| 普（フ）    | 普通（ふつう）（の）     | ordinary
+| 各（カク）    | 各駅（かくえき）        | every station |
+| 快（カイ）    | 快速（かいそく）        | high speed
+| 鉄（テツ）    | 鉄道（てつどう）        | a railway |
+| 定（テイ）    | 安定（あんてい）        | stability       |
+| 席（セキ）     | 出席（しゅっせき）     | attendance       |
+| 由（ユウ）     | 理由（りゆう）         | a reason          |
+| 番（バン）     | 番号（ばんごう）       | a number        |
+| 窓（まど）     |                       | a window          |
+| 側（かわ）     | 窓側（まどがわ）       | the window side          |
+| 路（ロ）     | 道路（どうろ）           | a road          |
+| 停（テイ）     | 停車（ていしゃ）       | stopping of a vehicle  |
+| 整（セイ）     | 整理（せいり）         | arrangement          |
+| 券（ケン）     | 乗車券（じょうしゃけん）     | a (boarding) ticket |
+| 両（リョウ）     | 両親（りょうしん）         | parents          |
+| 替える （かえる）    | 取り替える（とりかえる）| exchange (one thing for another) |
+| 未（ミ）      | 未定（みてい）         | undecided         |
+| 末（マツ）     | 週末（しゅうまつ）     | the weekend         |
+| 若い（わかい）     |                   | young         |
+| 晩（バン）     | 毎晩（まいばん）       | every night          |
+| 皿（さら）     | 灰皿（はいざら）       | an ashtray          |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

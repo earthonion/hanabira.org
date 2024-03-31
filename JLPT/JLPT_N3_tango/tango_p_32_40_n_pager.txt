@@ -1,0 +1,63 @@
+N3_tango_p_32-40.txt
+----------------------------------
+
+
+| 支店  | してん  | branch (store or office)  | I work in a branch office of an international company.  |　私は国際的な企業の支店に勤務しています。　|
+| 指導（する）  | しどう（する）  | guidance, leadership  | Our team is doing well under his leadership.  |彼の指導のもと、私たちのチームはうまくいっています。　　|
+| 事務 | じむ  | office work  | My job consists mostly from office work.  |　私の仕事は、主にオフィスワークです。　|
+| 締め切り  | しめきり  | deadline  | This project's deadline is in 2 weeks.  |　このプロジェクトの締め切りは2週間後です。　|
+| じゃま（する）  |   | obstacle, hindrance  | You are standing in my way./Do not stand in my way.  |　あなたは私の道に立っている。/私の道に立ってはいけない。　|
+| じゃんけん（する）  |   | the game of "stone, paper, scissors"  | Kids like to play a game of "stone, paper, scissors".  |子供たちが好きなのは、じゃんけんゲームです。　　|
+| 集会（する）  | しゅうかい（する）  | meeting, gathering  | She joined a gathering of local political party.  |地元の政党の集まりに参加した。　　|
+| 宗教  | しゅうきょう  | religion  | Christianity belongs to one of the most wide spread religions.  |キリスト教は最も広く普及している宗教の1つである。　　|
+|   |   |   |   |　　|
+| 集合（する）  | しゅうごう（する）  | gathering  | Our tourist group will gather here at 11 o'clock.  |観光客は11時にここに集合する。　　|
+| 就職（する）  | しゅうしょく（する）  | getting a job  | After I finish my studies I plan to travel for a year nad then to get a job.  |学業を終えたら、1年間旅行をして、その後、就職する予定です。　　|
+| 集中（する）  | しゅうちゅう（する）  | concentration  | It is hard for me to concentrate when I do not get enough sleep.  |睡眠不足になると、集中力が低下するんです。　　|
+|   |   |   | Paint fumes are dangerous for your health in higher concentration.  |　塗料ヒュームは高濃度になると健康に害を及ぼします。　|
+| 充電（する）  | じゅうでん（する）  | charging (electricity)  | My laptop is running out of battery and needs to be charged.  |　ノートパソコンのバッテリーが切れたので、充電してほしい。　|
+| 修理（する）  | しゅうり（する）  | repair  | The engine in my car is broken and needs repairing.  |車のエンジンが壊れたので修理してほしい。　　|
+| 主義  | しゅぎ  | principle, doctrine  | The defensive doctrine of this state is not to use nuclear weapons unless attacked.  |　この国の防衛ドクトリンは、攻撃されない限り核兵器を使用しないことである。　|
+| 縮小（する）  | しゅくしょう（する）  | reduction, decrease  | Due to economic recession our yearly bonuses have been decreased.  |　不況のため、年間のボーナスが減少しています。　|
+| 受信（する）  | じゅしん（する）  | reception, receiving  | I have been receiving a lot of spam lately.  | 最近、スパムがよく届くんです。　　|
+|   |   |   |   |　　|
+| 出勤（する）  | しゅっきん（する）  | attendance (at work)  | He goes to work only 2 times a week.  |　週に2回しか出勤していない。　|
+| 出場（する）  | しゅつじょう（する）  | participation (in game, competition, ...)  | He participated in online game tournament.  |　オンラインゲームの大会に参加。　|
+| 出張（する）  | しゅっちょう（する）  | business trip  | My boss asked me to go abroad for a business trip.  |上司から海外出張を頼まれた。　　|
+| 種類  | しゅるい  | kind, type, variety  | Our company sells several types of products.  |　当社では、数種類の製品を販売しています。　|
+| 順序  | じゅんじょ  | order, sequence  | For the machine to work properly these buttons need to be pressed in correct order.  |本機を正しく動作させるためには、これらのボタンを正しい順序で押す必要があります。　　|
+| 順番  | じゅんばん  | turn, order  | ????  |　　|
+| 使用（する）  | しよう（する）  | use, employment  | Please flush the toilet after every use.  |トイレを使用した後は、必ず水を流してください。　　|
+| 商業  | しょうぎょう  | commerce, trade  | Naval port in our town serves as trading hub for this area.  |私たちの町の軍港は、この地域の貿易拠点としての役割を担っています。　　|
+|   |   |   |   |　　|
+| 条件  | じょうけん  | condition, terms  | There are several contitions to be met before we can close the business deal.  |商談を成立させるためには、いくつかの条件をクリアする必要があります。　　|
+| 常識  | じょうしき  | common sense  | Dressing in warm clothes during cold winter is just common sense.  |寒い冬に暖かい服装をすることは、まさに常識です。　　|
+| 招待（する）  | しょうたい（する）  | an invitation, to invite  | I have been invited to a business presentation.  |　ビジネスプレゼンテーションに招待されました。　|
+| 状態  | じょうたい  | condition, state  | Condition of my car is bad and it is not safe to drive.  |　車の状態が悪く、運転に支障がある。　|
+| 冗談  | じょうだん  | a joke  | I sad this only as a joke, but she took it literally and got angry at me.  |　　|
+| 承知（する）  | しょうち（する）  | consent, agreement  | I did not give consent to store my personal data by this website.  |　　|
+| 商品  | しょうひん  | merchandise, goods  | Our company created additional revenue stream by selling merchandise with our logo.  |　　|
+| 情報  | じょうほう  | information  | Now I have all the information needed to start the new project.  |　私は冗談のつもりで言ったのですが、彼女はそれを真に受けて怒ってしまいました。　|
+|   |   |   |   |　　|
+| 証明書  | しょうめいしょ  | certificate, diploma, transcript  | I provided copy of my diplomas to the new employer.  |新しい雇用主には、卒業証書のコピーを提出しました。　　|
+| 正面  | しょうめん  | the front  | ?????  |　　|
+| 職場  | しょくば  | workplace  | My workplace is situated in modern office building.  |私の職場は、近代的なオフィスビルの中にあります。　　|
+| ショック  |   | shock  | I was shocked when I received the news.  |　知らせを受けたときはショックでした。　|
+| 署名（する）  | しょめい（する） | sign, signature  | The business deal was finalized when we signed the documents.  |　書類にサインをした時点で商談は成立していた。　|
+| 書類  | しょるい  | document  | We have all the documents that our client requested.  |　 クライアントから依頼された資料はすべて揃っています。　|
+| 私立  | しりつ/わたくしりつ | private  | My kids are attending private school.  |子供が私立の学校に通っています。　　|
+| 資料  | しりょう  | materials, data  | We have prepared all the materials for the client.  |クライアントのために、すべての資料を用意しました。　　|
+|   |   |   |   |　　|
+| 印  | しるし  | a mark | They marked an area in the neighbourhood that will undergo a reconstruction.  |近隣の再建予定地に印をつけた。　　|
+| シングル  |   | single  | ???  |　　|
+| 人生  | じんせい  | life  | Struggle and difficulties are natural part of life.  |　人生には苦労や困難がつきものです。　|
+| 進歩（する）  | しんぽ（する）  | progress  | His illness is progressing quickly.  |　彼の病気は急速に進行しています。　|
+| 信用（する）  | しんよう（する）  | trust, confidence  | We are not sure if we can trust her.  |信用できるかどうかわからない。　　|
+| 心理  | しんり | mental/psychological state  | After the divorce her mental state is not so good but will hopefully get better over time.  |　離婚後、彼女の精神状態はあまりよくありませんが、時間をかけてよくなっていくことを期待しています。　|
+|   |   |   |   |　　|
+|   |   |   |   |　　|
+
+
+
+
+COMPLETED
