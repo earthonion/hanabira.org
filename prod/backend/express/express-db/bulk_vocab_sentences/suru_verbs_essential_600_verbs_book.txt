@@ -1,0 +1,295 @@
+愛用する|あいようする|to use regularly, to patronize|  |  |  |
+アクセスする|アクセスする|to access (IT related)|  |  |  |
+案内する|あんないする|to guide, to lead|  |  |  |
+安心する|あんしんする|to be relieved, to feel secure|  |  |  |
+安定する|あんていする|to be steady, to be stable|  |  |  |
+アップする|アップする|to upload (IT related)|  |  |  |
+アレンジする|アレンジする|to arrange|  |  |  |
+爆発する|ばくはつする|to explode, to burst, to blow up|  |  |  |
+弁護する|べんごする|to defend, to testify for|  |  |  |
+勉強する|べんきょうする|to study, to give a discount|  |  |  |
+弁償する|べんしょうする|to compensate, to repay for loss|  |  |  |
+防止する|ぼうしする|to prevent, to keep in check|  |  |  |
+募集する|ぼしゅうする|to recruit, to collect|  |  |  |
+分析する|ぶんせきする|to analyze, to break down|  |  |  |
+チャレンジする|チャレンジする|to challenge|  |  |  |
+遅刻する|ちこくする|to be late, to be tardy|  |  |  |
+貯金する|ちょきんする| to save money|  |  |  |
+調査する|ちょうさする| to investigate, to inquire into, to examine|  |  |  |
+調整する|ちょうせいする|to regulate, to adjust|  |  |  |
+ちゅうちょする|ちゅうちょする|to hesitate, to waver|  |  |  |
+注意する|ちゅういする|to be careful of, to pay attention to|  |  |  |
+中継する|ちゅうけいする|to relay (a broadcast)|  |  |  |
+忠告する|ちゅうこくする|to warn|  |  |  |
+注目する|ちゅうもくする| to observe, to take notice of|  |  |  |
+注文する|ちゅうもんする|to order (goods, food)|  |  |  |
+中止する|ちゅうしする|to stop, to discontinue, to call off|  |  |  |
+ダウンロードする|ダウンロードする|to download (IT term)|  |  |  |
+妥協する|だきょうする|to compromise|  |  |  |
+ダンスする|ダンスする|to dance|  |  |  |
+電話する|でんわする|to make a telephone call|  |  |  |
+独立する|どくりつする|to become independent|  |  |  |
+同意する|どういする|to agree, to approve|  |  |  |
+導入する|どうにゅうする|to bring in, to introduce|  |  |  |
+ドラッグする|ドラッグする|to drag with a (computer) mouse|  |  |  |
+努力する|どりょくする|to make an effort, to work hard|  |  |  |
+営業する|えいぎょうする|to do business, to be open|  |  |  |
+影響する|えいきょうする|to influence, to affect|  |  |  |
+延長する|えんちょうする|to extend, to lengthen|  |  |  |
+演技する|えんぎする|to act, to perform|  |  |  |
+援助する|えんじょする|to assist, to help, to support, to aid|  |  |  |
+延期する|えんきする|to postpone, to put off|  |  |  |
+遠慮する|えんりょする|to refrain, to hold back|  |  |  |
+ファックスする|ファックスする|to fax|  |  |  |
+フォローする|フォローする|to follow online (IT term)|  |  |  |
+復活する|ふっかつする|to revive, to restore|  |  |  |
+復習する|ふくしゅうする|to review, to go over|  |  |  |
+復讐する|ふくしゅうする|to revenge|  |  |  |
+普及する|ふきゅうする|to spread, to diffuse|  |  |  |
+赴任する|ふにんする|to leave for one's new post|  |  |  |
+不足する|ふそくする|to be short of, to be lacking|  |  |  |
+負担する|ふたんする|to bear the weight of|  |  |  |
+我慢する|がまんする|to be patient, to endure|  |  |  |
+減少する|げんしょうする|to decrease|  |  |  |
+限定する|げんていする|to limit, to restrict|  |  |  |
+議論する|ぎろんする|to argue, to discuss, to debate|  |  |  |
+誤解する|ごかいする|to misunderstand|  |  |  |
+合格する|ごうかくする|to pass an examination|  |  |  |
+合計する|ごうけいする|to add up, to total|  |  |  |
+ハグする|ハグする|to hug|  |  |  |
+廃止する|はいしする|to abolish, to do away with, to repeal|  |  |  |
+配達する|はいたつする|to deliver|  |  |  |
+破壊する|はかいする|to destroy, to break, to ruin|  |  |  |
+発行する|はっこうする|to publish, to issue, to bring out|  |  |  |
+反映する|はんえいする|to reflect|  |  |  |
+繫栄する|はんえいする| to prosper, to flourish |  |  |  |
+判断する|はんだんする| to judge, to conclude |  |  |  |
+反省する|はんせいする| to reflect on oneself, to reconsider |  |  |  |
+反対する|はんたいする| to be against, to be opposed |  |  |  |
+発売する|はつばいする| to begin selling, to put on the market |  |  |  |
+発明する|はつめいする| to invent |  |  |  |
+発展する|はってんする| to develop, to expand |  |  |  |
+平均する|へいきんする| to average, to balance |  |  |  |
+変化する|へんかする| to change, to alter, to be transformed |  |  |  |
+編集する|へんしゅうする| to edit, to compile |  |  |  |
+批判する|ひはんする| to criticize |  |  |  |
+否定する|ひていする| to deny, to negate |  |  |  |
+翻訳する|ほにゃくする| to translate |  |  |  |
+報告する|ほうこくする| to report, to inform |  |  |  |
+訪問する|ほうもんする| to visit, to call on, to pay a visit |  |  |  |
+保証する|ほしょうする| to guarantee, to warrant |  |  |  |
+補償する|ほしょうする| to compensate, to make up for |  |  |  |
+評価する|ひょうかする| to appraise, to value |  |  |  |
+違反する|いはんする| to violate  |  |  |  |
+維持する|いじする| to maintain, to support, to keep |  |  |  |
+引退する|いんたいする| to retire, to give up one's position |  |  |  |
+依頼する|いらいする| to request, to ask |  |  |  |
+一致する|いっちする|to agree with, to be in unison  |  |  | PAGE 344 |
+意図する|いとする|to intend to do, to make a goal  |  |  |  |
+ジャンプする|ジャンプする|to jump  |  |  |  |
+実験する|じっけんする|to experiment  |  |  |  |
+実行する|じっこうする|to carry out, to execute  |  |  |  |
+自慢する|じまんする|to be proud, to boast of, to take pride in  |  |  |  |
+自立する|じりつする|to become independent  |  |  |  |
+辞職する|じしょくする|to resign  |  |  |  |
+実現する|じつげんする|to be realized, to come true  |  |  |  |
+ジョギングする|ジョギングする|to jog  |  |  |  |
+上映する|じょうえいする|to show a film  |  |  |  |
+譲歩する|じょうほする|to concede, to give way to  |  |  |  |
+上昇する|じょうしょうする|to go up, to rise, to ascend  |  |  |  |
+準備する|じゅんびする|to prepare  |  |  |  |
+回復する|かいふくする|to restore, to recuperate  |  |  |  |
+開発する|かいはつする|to develop, to exploit  |  |  |  |
+開放する|かいほうする|to open a place to the public  |  |  |  |
+解放する|かいほうする|to release, to set a prisoner free  |  |  |  |
+改革する|かいかくする|to reform, to improve  |  |  |  |
+解決する|かいけつする|to settle, to resolve  |  |  |  |
+開催する|かいさいする|to hold (an event)  |  |  |  |
+改正する|かいせいする|to revise, to amend, to improve  |  |  |  |
+解釈する|かいしゃくする|to interpret, to explain  |  |  |  |
+開拓する|かいたくする|to reclaim, to exploit, to develop  |  |  |  |
+下降する|かこうする|to come down, to descent, to drop  |  |  |  |
+加工する|かこうする|to process, to manufacture  |  |  |  |
+拡大する|かくだいする|to magnify, to enlarge, to expand  |  |  |  |
+確認する|かくにんする|to confirm, to ascertain  |  |  |  |
+関係する|かんけいする|to be related, to have a relationship  |  |  |  |
+管理する|かんりする|to manage, to control, to administer  |  |  |  |
+観察する|かんさつする|to observe, to watch closely  |  |  |  |
+完成する|かんせいする|to finish, to complete  |  |  |  |
+感心する|かんしんする|to admire, to be impressed  |  |  |  |
+観賞する|かんしょうする|to appreciate  |  |  |  |
+仮定する|かていする|to assume, to suppose  |  |  |  |
+活動する|かつどうする|to be active  |  |  |  |
+活躍する|かつやくする|to be active in, to take an active part  |  |  |  |
+カットする|カットする|to cut  |  |  |  |
+経営する|けいえいする|to manage, to conduct, to run (a business)  |  |  |  |
+経過する|けいかする|to pass, total elapse, to expire  |  |  |  |
+計画する|けいかくする|to plan  |  |  |  |
+経験する|けいけんする|to experience, to undergo  |  |  |  |
+計算する|けいさんする|to count, to calculate, to sum up  |  |  |  |
+契約する|けいやくする|to contract, to make a contract with  |  |  |  |
+結婚する|けっこんする|to marry  |  |  |  |
+見物する|けんぶつする|to go sightseeing  |  |  |  |
+けんかする|けんかする|to quarrel, to fight  |  |  |  |
+研究する|けんきゅうする|to study, to research  |  |  |  |
+研修する|けんしゅうする|to study, to train, to intern  |  |  |  |
+検討する|けんとうする|to examine, to investigate, to think over  |  |  |  |
+欠席する|けっせきする|to be absent  |  |  |  |
+決心する|けっしんする|to decide, to make up one's mind  |  |  |  |
+決定する|けっていする|to decide, to determine  |  |  |  |
+キープする|キープする|to keep  |  |  |  |
+キックする|キックする|to kick  |  |  |  |
+緊張する|きんちょうする|to be tense, to be nervous  |  |  |  |
+記念する|きねんする|to commemorate  |  |  |  |
+記録する|きろくする|to record, to write down  |  |  |  |
+キスする|キスする|to kiss  |  |  |  |
+期待する|きたいする|to expect, to hope  |  |  |  |
+攻撃する|こうげきする|to attack, to charge, to criticize  |  |  |  |
+工事する|こうじする|to construct  |  |  |  |
+後悔する|こうかいする|to regret, to repent, to be sorry  |  |  |  |
+交換する|こうかんする|to exchange  |  |  |  |
+混乱する|こんらんする|to be confused, to be in disorder  |  |  |  |
+コントロールする|コントロールする|to control  |  |  |  |
+コピーする|コピーする|to make a copy  |  |  |  |
+考慮する|こうりょする|to consider, to think over  |  |  |  |
+交流する|こうりゅうする|to exchange (ideas, culture)  |  |  |  |
+故障する|こしょうする|to break down  |  |  |  |
+交渉する|こうしょうする|to negotiate  |  |  |  |
+交代する|こうたいする|to take turns, to take a person's place  |  |  |  |
+クリックする|クリックする|to click with a mouse  |  |  |  |
+キャンセルする|キャンセルする|to cancel  |  |  |  |
+拒否する|きょひする|to refuse, to reject, to deny  |  |  |  |
+教育する|きょういくする|to educate  |  |  |  |
+許可する|きょかする|to permit  |  |  |  |
+供給する|きょうきゅうする|to supply, to furnish, to provide  |  |  |  |
+強制する|きょうせいする|to compel, to force a person to do  |  |  |  |
+競争する|きょうそうする|to compete  |  |  |  |
+救助する|きゅうじょする|to rescue, to help  |  |  |  |
+休憩する|きゅうけいする|to rest, to take a break  |  |  |  |
+吸収する|きゅうしゅうする|to absorb  |  |  |  |
+メールする|メールする|to send an email  |  |  |  |
+迷惑する|めいわくする|to be troubled, to be annoyed  |  |  |  |
+面接する|めんせつする|to interview  |  |  |  |
+ミックスする|ミックスする|to mix  |  |  |  |
+ミスする|ミスする|to make a mistake, to miss  |  |  |  |
+黙認する|もくにんする|to permit or approve tacitly  |  |  |  |
+矛盾する|むじゅんする|to be contradictory, to conflict  |  |  |  |
+無視する|むしする|to ignore, to disregard  |  |  |  |
+納得する|なっとくする|to be convinced  |  |  |  |
+認識する|にんしきする|to recognize, to realize, to understand  |  |  |  |
+入学する|にゅうがくする|to enter a school  |  |  |  |
+入院する|にゅういんする|to be hospitalized  |  |  |  |
+応援する|おうえんする|to aid, to support, to encourage, to cheer  |  |  |  |
+往復する|おうふくする|to go and return  |  |  |  |
+応用する|おうようする|to apply, to put into practice  |  |  |  |
+パスする|パスする|to pass (mainly used in sports)  |  |  |  | PAGE 346
+落第する|らくだいする|to fail an exam, to be rejected  |  |  |  |
+落選する|らくせんする|to be defeated in an election  |  |  |  |
+連絡する|れんらくする|to contact, to get in touch  |  |  |  |
+練習する|れんしゅうする|to practice, to excercise  |  |  |  |
+リードする|リードする|to lead  |  |  |  |
+理解する|りかいする|to understand, to comprehend  |  |  |  |
+離婚する|りこんする|to divorce  |  |  |  |
+利用する|りようする|to make use of  |  |  |  |
+ロックする|ロックする|to lock  |  |  |  |
+録音する|ろくおんする|to record (sound)  |  |  |  |
+浪費する|ろうひする|to waste (money or time), to throw away  |  |  |  |
+旅行する|りょこうする|to travel  |  |  |  |
+料理する|りょうりする|to cook  |  |  |  |
+留学する|りゅうがくする|to study abroad  |  |  |  |
+裁判する|さいばんする|to hold a trial  |  |  |  |
+採用する|さいようする|to employ, to adopt (measures)  |  |  |  |
+参加する|さんかする|to join, to take part in  |  |  |  |
+散歩する|さんぽする|to take a walk  |  |  |  |
+賛成する|さんせいする|to agree, to approve  |  |  |  |
+生活する|せいかつする|to make a living, to support oneself  |  |  |  |
+成功する|せいこうする|to succeed  |  |  |  |
+生産する|せいさんする|to produce, to manufacture  |  |  |  |
+専攻する|せんこうする|to specialize, to major in  |  |  |  |
+選挙する|せんきょする|to elect  |  |  |  |
+戦争する|せんそうする|to make war  |  |  |  |
+選択する|せんたくする|to choose, to select  |  |  |  |
+洗濯する|せんたくする|to wash (clothes)  |  |  |  |
+説明する|せつめいする|to explain  |  |  |  |
+節約する|せつやくする|to economize, to skimp, to save  |  |  |  |
+セットする|セットする|to set  |  |  |  |
+説得する|せっとくする|to persuade  |  |  |  |
+世話する|せわする|to take care of, to look after (someone)  |  |  |  |
+指導する|しどうする|to lead, to guide  |  |  |  |
+刺激する|しげきする|to stimulate, to irritate, to excite  |  |  |  |
+支配する|しはいする|to control, to dominate  |  |  |  |
+指示する|しじする|to instruct  |  |  |  |
+指名する|しめいする|to nominate, to designate  |  |  |  |
+心配する|しんぱいする|to be anxious, to feel uneasy  |  |  |  |
+進歩する|しんぽする|to make progress, to advance  |  |  |  |
+侵略する|しんりゃくする|to invade  |  |  |  |
+申請する|しんせいする|to make out an application  |  |  |  |
+信用する|しにょうする|to trust, to believe, to place confidence in  |  |  |  |
+失敗する|しっぱいする|to fail  |  |  |  |
+支出する|ししゅつする|to spend (expenditures)  |  |  |  |
+指摘する|してきする|to point out  |  |  |  |
+質問する|しつもんする|to ask a question  |  |  |  |
+使用する|しようする|to use, to employ  |  |  |  |
+食事する|しょくじする|to take a meal  |  |  |  |
+消費する|しょうひする|to consume, to extend  |  |  |  |
+紹介する|しょうかいする|to introduce, to present  |  |  |  |
+証明する|しょうめいする|to prove, to testify, to certify  |  |  |  |
+昇進する|しょうしんする|to be promoted  |  |  |  |
+招待する|しょうたいする|to invite  |  |  |  |
+所有する|しょゆうする|to own, to posess  |  |  |  |
+所属する|しょぞくする|to belong to  |  |  |  |
+主張する|しゅちょうする|to insist on, to assert, to emphasise  |  |  |  |
+集中する|しゅうちゅうする|to concentrate, to centralize  |  |  |  |
+縮小する|しゅくしょうする|to reduce, to cut, to curtail  |  |  |  |
+出版する|しゅっぱんする|to publish, to issue  |  |  |  |
+出発する|しゅっぱつする|to leave for, to depart  |  |  |  |
+修理する|しゅうりする|to repair, to mend, to fix  |  |  |  |
+就職する|しゅうしょくする|to find employment  |  |  |  |
+出席する|しゅっせきする|to attend  |  |  |  |
+出張する|しゅっちょうする|to go on a business trip  |  |  |  |
+相談する|そうだんする|to consult, to discuss  |  |  |  |
+掃除する|そうじする|to clean  |  |  |  |
+存在する|そんざいする|to exist  |  |  |  |
+操作する|そうさする|to operate, to handle  |  |  |  |
+組織する|そしきする|to organize, to form  |  |  |  |
+卒業する|そつぎょうする|to graduate from  |  |  |  |
+想像する|そうぞうする|to imagine, to guess  |  |  |  |
+推薦する|すいせんする|to recommend  |  |  |  |
+スタートする|スタートする|to start  |  |  |  |
+逮捕する|たいほする|to arrest, to apprehend  |  |  |  |
+退院する|たいいんする|to be released from a hospital  |  |  |  |
+対立する|たいりつする|to be opposed  |  |  |  |
+探検する|たんけんする|to explore  |  |  |  |
+担当する|たんとうする|to take charge of  |  |  |  |
+達成する|たっせいする|to achieve, to attain, to accomplish  |  |  |  |
+タッチする|タッチする|to touch  |  |  |  |
+提案する|ていあんする|to propose, to suggest  |  |  |  |
+提出する|ていしゅつする|to submit, to present  |  |  |  |
+徹夜する|てつやする|to work all night  |  |  |  |
+到着する|とうちゃくする|to arrive  |  |  |  |
+投票する|とうひょうする|to vote, to cast a ballot  |  |  |  |
+統一する|とういつする|to unify, to unite  |  |  |  |
+取引する|とりひきする|to have dealings with  |  |  |  |
+当選する|当せんする|to be elected  |  |  |  |
+投資する|とうしする|to invest  |  |  |  |
+通知する|つうちする|to inform, to give notice  |  |  |  |
+追加する|ついかする|to supplement, to add  |  |  |  |
+通過する|通化する|to pass, to go through without stopping  |  |  |  |
+運営する|うんえいする|to manage, to run, to administer  |  |  |  |
+運転する|うんてんする|to drive, to manage (money)  |  |  |  |
+和解する|わかいする|to be reconciled with  |  |  |  |
+約束する|やくそくする|to promise  |  |  |  |
+予防する|よぼうする|to prevent, to protect  |  |  |  |
+要求する|ようきゅうする|to demand, to claim  |  |  |  |
+養成する|ようせいする|to train, to develop (a person)  |  |  |  |
+予習する|よしゅうする|to study beforehand  |  |  |  |
+予想する|よそうする|to predict, to anticipate  |  |  |  |
+予約する|よやくする|to reserve, to book  |  |  |  |
+誘拐する|ゆうかいする|to kidnap  |  |  |  |
+輸入する|ゆにゅうする|to import  |  |  |  |
+優勝する|ゆうしょうする|to win a contest or championship  |  |  |  |
+輸出する|ゆしゅつする|to export  |  |  |  |
+郵送する|ゆうそうする|to send by mail  |  |  |  |
+誘惑する|ゆうわくする|to tempt, to lure, to entice  |  |  |  |
+絶望する|ぜつぼうする|to have no hope, to be in despair  |  |  |  |
+増加する|ぞうかする|to increase, to grow, to augment  |  |  |  |

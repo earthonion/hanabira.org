@@ -1,0 +1,50 @@
+[
+ {
+    "title": "Absolute negative construction 'không … gì…'",
+    "short_explanation": "Used to assert that something does not exist or is not the case.",
+    "long_explanation": "The Vietnamese absolute negative construction 'không … gì…' is used to express the absolute absence of something or to deny the existence or occurrence of something to any degree, equivalent to 'no ... at all' in English. It reinforces the negative meaning of the sentence.",
+    "formation": "'Không' + noun/verb + 'gì'",
+    "examples": [
+      {
+        "vn": "Tôi không có gì ngoài bút và sách.",
+        "en": "I have nothing but a pen and a book."
+      },
+      {
+        "vn": "Anh ấy không biết gì về vấn đề này.",
+        "en": "He knows nothing about this issue."
+      },
+      {
+        "vn": "Chúng tôi không thảo luận gì hết.",
+        "en": "We didn't discuss anything at all."
+      },
+      {
+        "vn": "Cô ấy không hề hài lòng về bất cứ thứ gì với công việc mới của mình.",
+        "en": "She's not happy about anything at all in her new job."
+      }
+    ]
+}, 
+{
+    "title": "Absolute-negative structure 'không … gì'",
+    "short_explanation": "Used to express the complete absence of something.",
+    "long_explanation": "The Vietnamese structure 'không … gì' is used to denote the utter absence or non-existence of something. In English, it is equivalent to 'nothing' or 'not any'. It implies a definite negation, hence, it is called an absolute-negative structure. It is often used when you want to express that there is nothing of a particular category or type, or that something does not exist at all.",
+    "formation": "không + (noun/verb) + gì",
+    "examples": [
+      {
+        "vn": "Anh không có gì để mặc.",
+        "en": "He has nothing to wear."
+      },
+      {
+        "vn": "Chúng tôi không thể thấy gì trong bóng tối.",
+        "en": "We can't see anything in the dark."
+      },
+      {
+        "vn": "Tôi không biết gì về vấn đề này.",
+        "en": "I don't know anything about this matter."
+      },
+      {
+        "vn": "Anh ấy không nói gì với tôi.",
+        "en": "He didn't say anything to me."
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+# hanabira.org shuts down all firewall ports upon reboot
+# huh, these 2 work together for vocab fine
+#coil@coil-VM:~/Desktop/zen-lingo-website/prod/frontend-next$ docker run -it -p 3000:3000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:frontend-next
+# docker run -it -p 7000:8000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:express-db
+# but when in docker compose we have lots of duplicities in vocab ??????? huh ??????
+
+version: "3"
+
+services:
+  frontend:
+    image: coil/zen-lingo:frontend-next
+    ports:
+      - "3000:3000"
+    depends_on:
+      #- backend_fastapi
+      - express_db
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+    environment:
+      - REACT_APP_HOST_IP=192.168.0.104
+
+
+  express_db:
+    image: coil/zen-lingo:express-db
+    ports:
+      - "7000:8000"
+    #depends_on:
+    #  - mongo_seeded
+    #command: npm run start:prod
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7000"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+
+
+  # frontend:
+  #   image: coil/zen-lingo:frontend
+  #   ports:
+  #     - "3000:3000"
+  #   depends_on:
+  #     - backend_fastapi
+  #     - express_db
+  #   restart: always
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:3000"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+
+  # backend_fastapi:
+  #   image: coil/zen-lingo:backend-fastapi
+  #   ports:
+  #     - "8000:8000"
+  #   restart: always
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:8000"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+  #   depends_on:
+  #     - mongo_seeded
+
+#  mongo_seeded:
+#    image: coil/zen-lingo:mongodb-seeded
+#    ports:
+#      - "27018:27017"
+#    restart: always
+#    healthcheck:
+#      test: ["CMD", "mongo", "localhost:27017", "--eval", "db.runCommand({ping: 1})"]
+#      interval: 30s
+#      timeout: 10s
+#      retries: 3

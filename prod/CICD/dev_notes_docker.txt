@@ -1,0 +1,224 @@
+ACCESS TOKEN DESCRIPTION
+token for zenbook laptop VM
+ACCESS PERMISSIONS
+Read, Write, Delete
+To use the access token from your Docker CLI client:
+
+1. Run docker login -u coil
+
+2. At the password prompt, enter the personal access token.
+
+when you modify IPTABLES rules, you then need to restart docker daemon, 
+otherwise docker compose cannot create default docker network
+
+------------------------------------------------------
+
+on the zen-lingo server
+docker compose pull 
+to get newest image version
+
+
+cleanup stuff
+docker image prune -a --filter "until=24h"
+docker container prune --filter "until=24h"
+
+
+
+
+my private dockerhub repo
+docker push coil/zen-lingo:tagname
+
+
+we have followed this source and all worked:
+https://jsramblings.com/dockerizing-a-react-app/
+
+other tutorials that look nice
+https://www.knowledgehut.com/blog/web-development/how-to-dockerize-react-app
+https://dev.to/karanpratapsingh/dockerize-your-react-app-4j2e
+https://www.geeksforgeeks.org/how-to-dockerize-a-reactjs-app/
+https://docs.docker.com/docker-hub/repos/
+
+
+
+
+------------------------------------------------------
+
+Pushing a Docker container image to Docker Hub
+To push an image to Docker Hub, you must first name your local image using your Docker Hub username and the repository name that you created through Docker Hub on the web.
+
+You can add multiple images to a repository by adding a specific :<tag> to them (for example docs/base:testing). If it’s not specified, the tag defaults to latest.
+
+Name your local images using one of these methods:
+
+When you build them, using docker build -t <hub-user>/<repo-name>[:<tag>]
+By re-tagging an existing local image docker tag <existing-image> <hub-user>/<repo-name>[:<tag>]
+By using docker commit <existing-container> <hub-user>/<repo-name>[:<tag>] to commit changes
+Now you can push this repository to the registry designated by its name or tag.
+
+
+ docker push <hub-user>/<repo-name>:<tag>
+
+
+
+HOW TO RUN locally without compose:
+ docker run -it -p 3000:3000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:frontend-next
+ docker run -it -p 7000:8000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:express-db
+
+HOW TO RUN ON SERVER
+
+docker run -d \
+  -p 3000:3000 \
+  -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') \
+  --restart=unless-stopped \
+  coil/zen-lingo:frontend-next
+
+docker run -d \
+  -p 7000:8000 \
+  -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') \
+  --restart=unless-stopped \
+  coil/zen-lingo:express-db
+
+
+
+
+------------------------------------------------------
+
+NGINX
+nginx is installed locally for now 
+on dev VM go to localhost:8080 and it will redirect to https 
+and will link to containers on ports 3000 and 8000
+
+
+FRONTEND-REACT
+
+building and pushing the actual image to dockerhub
+docker build . -t coil/zen-lingo:frontend
+docker push coil/zen-lingo:frontend
+(port 3000 exposed internally)
+docker run -p 3000:3000 coil/zen-lingo:frontend
+docker run -it -p 3000:3000 coil/zen-lingo:frontend
+
+FRONTEND-NEXT
+docker build . -t coil/zen-lingo:frontend-next
+docker push coil/zen-lingo:frontend-next
+(port 3000 exposed internally)
+docker run -p 3000:3000 coil/zen-lingo:frontend-next
+docker run -it -p 3000:3000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:frontend-next   
+
+
+BACKEND FASTAPI
+docker build . -t coil/zen-lingo:backend-fastapi
+docker push coil/zen-lingo:backend-fastapi
+(port 8000 exposed internally)
+docker run -p 8000:8000 coil/zen-lingo:backend-fastapi
+
+
+on hanabira server:
+docker run -d   -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:express-db
+docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:frontend-next
+
+STATIC BACKEND EXPRESS+DB (seeds db, creates relationships and starts actual API server that responds to GET requests)
+docker build . -t coil/zen-lingo:express-db
+docker push coil/zen-lingo:express-db
+(port 8000 exposed internally)
+docker run -it -p 8000:8000 coil/zen-lingo:express-db
+
+curl -X GET http://localhost:8000/api/v1/words
+curl -X GET 'http://localhost:8000/api/v1/words?p_tag=JLPT_N3&s_tag=100'     //must use quotes
+
+our mongo content will be api reachable via port 8000
+curl -X GET http://localhost:8000/api/v1/words
+curl -X GET 'http://localhost:8000/api/v1/words?p_tag=JLPT_N3&s_tag=100'     //must use quotes
+
+our mongo content will be api reachable via port 8000
+curl -X GET http://localhost:8000/api/v1/words
+curl -X GET 'http://localhost:8000/api/v1/words?p_tag=essential_600_verbs&s_tag=verbs-1'     //must use quotes
+
+our mongo content will be api reachable via port 8000
+curl -X GET http://localhost:8000/api/v1/words
+curl -X GET 'http://localhost:8000/api/v1/words?p_tag=suru_essential_600_verbs&s_tag=verbs-1'     //must use quotes
+
+
+
+
+
+TODO - add correct info
+DYNAMIC BACKEND FLASK+DB (handles user specific data)
+docker build . -t coil/zen-lingo:express-db
+docker push coil/zen-lingo:express-db
+(port 8000 exposed internally)
+docker run -it -p 8000:8000 coil/zen-lingo:express-db
+
+
+
+
+
+
+
+
+
+
+
+MONGODB SEEDED CONTAINER (standalone mongo seeded db)
+docker build . -t coil/zen-lingo:mongodb-seeded
+docker run -it --rm -p 27018:27017 coil/zen-lingo:mongodb-seeded
+(port 27017 exposed internally)    
+# we run it on port 27018 for now since we have also regular mongo running locally
+# we also modified our 'my_server.js' to connect on port 27018 to container for now
+docker push coil/zen-lingo:mongodb-seeded
+
+
+HANABIRA frontend
+docker build . -t coil/zen-lingo:hanabira-fe
+docker run -it --rm -p 3001:3000 coil/zen-lingo:hanabira-fe
+docker run -it --rm -p 80:3000 coil/zen-lingo:hanabira-fe    # on hanabira server
+(port 3000 exposed internally)
+docker push coil/zen-lingo:hanabira-fe
+
+
+
+
+
+To keep a Docker container running even after disconnecting from the server, you can use the detach option (-d or --detach) when running the container. This option allows the container to run in the background as a daemon.
+
+Here's an updated version of your Docker run command to keep the container running:
+
+shell
+Copy code
+docker run -d --rm -p 80:3000 coil/zen-lingo:hanabira-fe
+With the -d option, the container will run in the background, and you can disconnect from the server without stopping the container. The --rm option ensures that the container is automatically removed when it stops, while the -p option maps port 80 on the host to port 3000 inside the container.
+
+Remember to replace coil/zen-lingo:hanabira-fe with the appropriate image name and tag for your container.
+
+By running the container in detached mode, it will continue to run even after you disconnect from the server. You can use the docker ps command to check the running containers on the server, and the container will be listed there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------
+remove all local docker containers and images if needed
+
+coil@coil-VM:~$ docker rm -vf $(docker ps -aq)
+bc91dc19c79b
+dbc719e79666
+coil@coil-VM:~$ docker rmi -f $(docker images -aq)
+Untagged: coil/zen-lingo:backend-fastapi
+Deleted: sha256:62a80bd41ea0f0a9358ecc348d7db5af8bba5c649ffec9602c7c5944754c60c7
+
+alternatively, prune all 
+docker system prune -a

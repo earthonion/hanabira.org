@@ -1,0 +1,78 @@
+이/가 [i/ga] (Subject markers) |  | TOPIK I Level 1
+은/는 [eun/neun] (Topic markers) |  | TOPIK I Level 1
+을/를 [eul/reul] (Object markers) |  | TOPIK I Level 1
+아니다 [anida] (To not be) |  | TOPIK I Level 1
+예요/이에요 [yeyo/ieyo] (Descriptive verb ending in present tense) |  | TOPIK I Level 1
+아요/어요/여요 [ayo/eoyo/yeoyo] (Verb ending in present tense) |  | TOPIK I Level 1
+고 [go] (And) |  | TOPIK I Level 1
+하고 [hago] (And, with) |  | TOPIK I Level 1
+(으)세요 [(eu)seyo] (Imperative form) |  | TOPIK I Level 1
+(으)ㄹ 수 있다 [(eu)l su itda] (Can do) |  | TOPIK I Level 1
+(으)려고 [(eu)ryeogo] (Intention to do) |  | TOPIK I Level 1
+(으)ㄴ/는다 [(eu)n/neunda] (Informal statement endings) |  | TOPIK I Level 1
+도 [do] (Too, also) |  | TOPIK I Level 1
+만 [man] (Only) |  | TOPIK I Level 1
+와/과 [wa/gwa] (And, with – for nouns) |  | TOPIK I Level 1
+부터 [buteo] (From) |  | TOPIK I Level 1
+까지 [kkaji] (Until, up to) |  | TOPIK I Level 1
+아/어/여서 [a/eo/yeoseo] (Because, since) |  | TOPIK I Level 1
+(으)면 [(eu)myeon] (If, when) |  | TOPIK I Level 1
+너무 [neomu] (Too, very) |  | TOPIK I Level 1
+많이 [manhi] (A lot) |  | TOPIK I Level 1
+조금 [jogeum] (A little) |  | TOPIK I Level 1
+다 [da] (All, entirely) |  | TOPIK I Level 1
+(으)ㄴ/는데 [(eu)n/neunde] (But, however) |  | TOPIK I Level 1
+아/어야 해요 [a/eoya haeyo] (Have to do) |  | TOPIK I Level 1
+안 [an] (Negation before verb/adjective) |  | TOPIK I Level 1
+못 [mot] (Can't, not able to) |  | TOPIK I Level 1
+아/어/여 보다 [a/eo/yeo boda] (Try doing) |  | TOPIK I Level 1
+지금 [jigeum] (Now) |  | TOPIK I Level 1
+이미 [imi] (Already) |  | TOPIK I Level 1
+아직 [ajik] (Yet, still) |  | TOPIK I Level 1
+때 [ttae] (When, time) |  | TOPIK I Level 1
+(으)려고 하다 [(eu)ryeogo hada] (Intend to do) |  | TOPIK I Level 1
+처럼 [cheoreom] (Like, as) |  | TOPIK I Level 1
+같이 [gachi] (Together) |  | TOPIK I Level 1
+(이)랑 [(i)rang] (With) |  | TOPIK I Level 1
+그런데 [geureonde] (However, but) |  | TOPIK I Level 1
+그래서 [geuraeseo] (So, therefore) |  | TOPIK I Level 1
+그리고 [geurigo] (And then) |  | TOPIK I Level 1
+아/어/여 주다 [a/eo/yeo juda] (To do for someone) |  | TOPIK I Level 1
+아/어/여 하다 [a/eo/yeo hada] (Do something) |  | TOPIK I Level 1
+의 [ui] (Possessive marker) |  | TOPIK I Level 1
+(으)로 [(eu)ro] (To, toward; as a tool/method) |  | TOPIK I Level 1
+한테/에게 [hante/ege] (To someone) |  | TOPIK I Level 1
+한테서/에서 [hanteseo/eseo] (From someone) |  | TOPIK I Level 1
+보다 [boda] (More than) |  | TOPIK I Level 1
+가장 [gajang] (The most) |  | TOPIK I Level 1
+도 [do] (Even) |  | TOPIK I Level 1
+이/그/저 [i/geu/jeo] (This, that, that over there) |  | TOPIK I Level 1
+(이)나 [(i)na] (Or) |  | TOPIK I Level 1
+밖에 [bakke] (Only, except) |  | TOPIK I Level 1
+뿐 [ppun] (Only) |  | TOPIK I Level 1
+는/은 것 [neun/eun geot] (The thing that, nominalizing) |  | TOPIK I Level 1
+(으)ㄴ/는 것 같다 [(eu)n/neun geot gatda] (It seems like) |  | TOPIK I Level 1
+(으)러 가다/오다 [(eu)reo gada/oda] (Go/come to do something) |  | TOPIK I Level 1
+아/어/여도 [a/eo/yeodo] (Even if) |  | TOPIK I Level 1
+계속 [gyesok] (Continue to) |  | TOPIK I Level 1
+항상 [hangsang] (Always) |  | TOPIK I Level 1
+(으)ㄹ 때 [(eu)l ttae] (When) |  | TOPIK I Level 1
+아/어/여야 되다 [a/eo/yeoya doeda] (Must, have to) |  | TOPIK I Level 1
+(으)면서 [(eu)myeonseo] (While, and) |  | TOPIK I Level 1
+다가 [daga] (And then, but) |  | TOPIK I Level 1
+아/어/여 보이다 [a/eo/yeo boida] (Looks, seems) |  | TOPIK I Level 1
+아/어/여 버리다 [a/eo/yeo beorida] (Completely, regretfully) |  | TOPIK I Level 1
+아/어/여 놓다 [a/eo/yeo nohda] (Leave something as is) |  | TOPIK I Level 1
+아/어/여 지다 [a/eo/yeo jida] (Become) |  | TOPIK I Level 1
+아/어/여 가지다 [a/eo/yeo gajida] (Have, possess) |  | TOPIK I Level 1
+(으)ㄴ/는 편이다 [(eu)n/neun pyeonida] (Tend to) |  | TOPIK I Level 1
+는/은 데 [neun/eun de] (Situation or condition) |  | TOPIK I Level 1
+아/어/여야겠다 [a/eo/yeoya getda] (Should, must) |  | TOPIK I Level 1
+아/어/여서는 안 되다 [a/eo/yeoseoneun an doeda] (Must not, shouldn't) |  | TOPIK I Level 1
+아/어/여 주세요 [a/eo/yeo juseyo] (Please give/do for me) |  | TOPIK I Level 1
+아/어/여 드리다 [a/eo/yeo deurida] (To give – honorific) |  | TOPIK I Level 1
+다니다 [danida] (To attend, go regularly) |  | TOPIK I Level 1
+아/어/여 가다 [a/eo/yeo gada] (Be going to do) |  | TOPIK I Level 1
+아/어/여 오다 [a/eo/yeo oda] (Come to do) |  | TOPIK I Level 1
+아/어/여 있다 [a/eo/yeo itda] (To be doing) |  | TOPIK I Level 1
+아/어/여 보다 [a/eo/yeo boda] (Try to do) |  | TOPIK I Level 1

@@ -1,0 +1,51 @@
+ジャンプする|ジャンプする|to jump  |  |  |  |
+交渉する|こうしょうする|to negotiate  |  |  |  |
+投資する|とうしする|to invest  |  |  |  |
+工事する|こうじする|to construct  |  |  |  |
+誘惑する|ゆうわくする|to tempt, to lure, to entice  |  |  |  |
+落選する|らくせんする|to be defeated in an election  |  |  |  |
+メールする|メールする|to send an email  |  |  |  |
+ミスする|ミスする|to make a mistake, to miss  |  |  |  |
+連絡する|れんらくする|to contact, to get in touch  |  |  |  |
+チャレンジする|チャレンジする|to challenge|  |  |  |
+落第する|らくだいする|to fail an exam, to be rejected  |  |  |  |
+タッチする|タッチする|to touch  |  |  |  |
+散歩する|さんぽする|to take a walk  |  |  |  |
+募集する|ぼしゅうする|to recruit, to collect|  |  |  |
+通知する|つうちする|to inform, to give notice  |  |  |  |
+クリックする|クリックする|to click with a mouse  |  |  |  |
+アップする|アップする|to upload (IT related)|  |  |  |
+リードする|リードする|to lead  |  |  |  |
+郵送する|ゆうそうする|to send by mail  |  |  |  |
+参加する|さんかする|to join, to take part in  |  |  |  |
+無視する|むしする|to ignore, to disregard  |  |  |  |
+依頼する|いらいする| to request, to ask |  |  |  |
+就職する|しゅうしょくする|to find employment  |  |  |  |
+供給する|きょうきゅうする|to supply, to furnish, to provide  |  |  |  |
+防止する|ぼうしする|to prevent, to keep in check|  |  |  |
+コピーする|コピーする|to make a copy  |  |  |  |
+ロックする|ロックする|to lock  |  |  |  |
+活躍する|かつやくする|to be active in, to take an active part  |  |  |  |
+指導する|しどうする|to lead, to guide  |  |  |  |
+入院する|にゅういんする|to be hospitalized  |  |  |  |
+編集する|へんしゅうする| to edit, to compile |  |  |  |
+報告する|ほうこくする| to report, to inform |  |  |  |
+研究する|けんきゅうする|to study, to research  |  |  |  |
+批判する|ひはんする| to criticize |  |  |  |
+養成する|ようせいする|to train, to develop (a person)  |  |  |  |
+優勝する|ゆうしょうする|to win a contest or championship  |  |  |  |
+矛盾する|むじゅんする|to be contradictory, to conflict  |  |  |  |
+選挙する|せんきょする|to elect  |  |  |  |
+教育する|きょういくする|to educate  |  |  |  |
+中止する|ちゅうしする|to stop, to discontinue, to call off|  |  |  |
+故障する|こしょうする|to break down  |  |  |  |
+交流する|こうりゅうする|to exchange (ideas, culture)  |  |  |  |
+負担する|ふたんする|to bear the weight of|  |  |  |
+自慢する|じまんする|to be proud, to boast of, to take pride in  |  |  |  |
+解釈する|かいしゃくする|to interpret, to explain  |  |  |  |
+独立する|どくりつする|to become independent|  |  |  |
+経験する|けいけんする|to experience, to undergo  |  |  |  |
+通過する|通化する|to pass, to go through without stopping  |  |  |  |
+遅刻する|ちこくする|to be late, to be tardy|  |  |  |
+辞職する|じしょくする|to resign  |  |  |  |
+出発する|しゅっぱつする|to leave for, to depart  |  |  |  |

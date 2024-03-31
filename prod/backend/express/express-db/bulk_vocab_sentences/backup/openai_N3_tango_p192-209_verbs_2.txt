@@ -1,0 +1,124 @@
+たたく|  | to hit, to tap |  |  |  |
+畳む| たたむ | to fold |  |  |  |
+立ち上がる| たちあがる | to stand up |  |  |  |
+立ち止まる | たちどまる | to stop, to stand still |  |  |  |
+楽しむ| たのしむ | to enjoy |  |  |  |
+黙る| だまる | to fall silent, to stop talking |  |  |  |
+ためる|  | to save |  |  |  |
+足りる| たりる | to be enough |  |  |  |
+近づく| ちかづく | to approach, to get near |  |  |  |
+近寄る| ちかよる | to approach |  |  |  |
+散らかる| ちらかる | to be in a mess |  |  |  |
+散る|ちる  | to fall, to scatter |  |  |  |
+通じる| つうじる | to get through to, to be connected |  |  |  |
+捕まる| つかまる | to be caught |  |  |  |
+つかむ|  | to grab |  |  |  |
+付き合う| つきあう |to associate with, to go out/steady with  |  |  |  |
+付く| つく | to have, to get (something on something) |  |  |  |
+着ける| つける | to wear, to put on |  |  |  |
+伝わる| つたわる |to be introduced  |  |  |  |
+潰れる| つぶれる | to be crushed, to be smashed |  |  |  |
+積む| つむ | to pile up, to stack |  |  |  |
+詰める|つめる  | to fill, to pack |  |  |  |
+積もる| つもる |to pile up, to be covered with  |  |  |  |
+出会う| であう | to meet |  |  |  |
+でき上る| できあがる |to be completed  |  |  |  |
+照る|てる  |to shine  |  |  |  |
+溶く| とく |to mix (with liquid)  |  |  |  |
+どく|  | to get out of the way |  |  |  |
+溶ける|とける  | to melt |  |  |  |
+どける|  | to move out of the way |  |  |  |
+閉じる| とじる | to close |  |  |  |
+飛び込む| とびこむ | to dive/jump in |  |  |  |
+飛び出す| とびだす | to dash/fly out |  |  |  |
+取り上げる/採り上げる| とりあげる | to take up |  |  |  |
+取り消す| とりけす | to cancel |  |  |  |
+取り出す|とりだす  | to take out |  |  |  |
+捕る| とる | to catch |  |  |  |
+取れる|とれる  | to come off |  |  |  |
+流れる| ながれる | to flow |  |  |  |
+殴る|なぐる  | to hit |  |  |  |
+悩む| なやむ | to be worried/troubled |  |  |  |
+なる|  | to grow, to bear (fruit) |  |  |  |
+似合う| にあう | to suit |  |  |  |
+握る|にぎる  | to hold, to grasp |  |  |  |
+煮る| にる | to boil, to cook |  |  |  |
+縫う|ぬう  | to sew, to stitch |  |  |  |
+抜く|ぬく  | pull out |  |  |  |
+ぬれる|  | to get wet |  |  |  |
+願う| ねがう | to hope |  |  |  |
+残す| のこす | to leave |  |  |  |
+載せる| のせる |to carry, to load  |  |  |  |
+伸びる| のびる |to become longer, to grow  |  |  |  |
+延びる| のびる | to be extended |  |  |  |
+昇る| のぼる | to ascend |  |  |  |
+乗り越す|のりこす  | to go past one's stop |  |  |  |
+生える| はえる |to grow, to come out  |  |  |  |
+測る/量る/計る| はかる |to measure  |  |  |  |
+掃く| はく |to sweep  |  |  |  |
+吐く| はく |to throw up, to spit  |  |  |  |
+挟む|はさむ  |to insert, to put something between  |  |  |  |
+外す|はずす  |to take off, to unfasten, to undo  |  |  |  |
+外れる|はずれる  | to come off/out, to be out of place |  |  |  |
+話し合う| はなしあう | to talk, to discuss |  |  |  |
+話し掛ける| はなしかける | to speak, to talk to |  |  |  |
+離れる| はなれる | to be apart, to move away |  |  |  |
+はめる|  | to insert, to put in |  |  |  |
+はやる|  | to go around, to be in fashion |  |  |  |
+払戻す|はらいもどす  | to give a refund |  |  |  |
+腫れる|はれる  | to swell, to become swollen |  |  |  |
+引き受ける|ひきうける  | to take on, to undertake |  |  |  |
+引き出す| ひきだす | to withdraw |  |  |  |
+引く| ひく | to draw (a line) |  |  |  |
+引っ繰り返す|ひっくりかえす  | to turn something over |  |  |  |
+引っ張る| ひっぱる | to pull, to drag |  |  |  |
+冷やす|ひやす | to cool, to chill |  |  |  |
+広げる|ひろげる  | to widen, to enlarge |  |  |  |
+広める| ひろめる | to spread, to disseminate |  |  |  |
+拭く| ふく | to wipe |  |  |  |
+膨らむ| ふくらむ | Tango swell, to expand |  |  |  |
+防ぐ|ふせぐ  | to prevent, to guard against |  |  |  |
+ぶつかる|  | to bump, to collide with |  |  |  |
+増やす|ふやす  | to increase |  |  |  |
+振り向く| ふりむく | to turn around, to look back |  |  |  |
+振る| ふる | to shake to wave |  |  |  |
+震える|ふるえる  | to shiver, to tremble |  |  |  |
+減る|へる  | to decrease |  |  |  |
+ほえる|  | to bark |  |  |  |
+干す|ほす  | to dry |  |  |  |
+掘る| ほる | to dig |  |  |  |
+曲げる| まげる | to bend |  |  |  |
+混ぜる|まぜる  | to mix, to blend |  |  |  |
+待ち合わせる|まちあわせる  | to arrange to meet |  |  |  |
+間違う|まちがう  | to be wrong, to mistake |  |  |  |
+まとめる|  | to collect, to bring together |  |  |  |
+学ぶ|まなぶ | to study, to learn |  |  |  |
+守る| まもる | to protect, to defend |  |  |  |
+回す| まわす | to turn |  |  |  |
+見送る|みおくる  | to see a person off |  |  |  |
+見直す|みなおす  | to look again, to re-examine |  |  |  |
+診る| みる |  |to examine (medically)  |  |  |
+向かう| むかう | to head toward |  |  |  |
+向く|むく  | to face, to turn toward |  |  |  |
+むく|  | to peel |  |  |  |
+蒸す| むす | to steam |  |  |  |
+結ぶ|むすぶ  | to tie |  |  |  |
+目指す|めざす  | to aim at, to have an eye on |  |  |  |
+目立つ|めだつ  | to stand out, to be distinctive |  |  |  |
+申し込む|もうしこむ  | to apply, to ask for |  |  |  |
+戻す| もどす | to return |  |  |  |
+燃やす|もやす  |to burn  |  |  |  |
+訳す| やくす |to translate  |  |  |  |
+役に立つ| やくにたつ |to be useful, to be of help  |  |  |  |
+休める|やすめる  | to rest, to have a rest |  |  |  |
+雇う| やとう | to employ |  |  |  |
+破れる|やぶれる  | to be torn/ripped |  |  |  |
+譲る| ゆずる | to give, to transfer |  |  |  |
+ゆでる|  | to boil |  |  |  |
+許す|ゆるす  | to forgive |  |  |  |
+ゆれる|  | to shake, to sway |  |  |  |
+酔う|よう  | to get drunk |  |  |  |
+汚す| よごす | to make something dirty |  |  |  |
+弱まる| よわまる | to grow weak, to weaken |  |  |  |
+分ける|わける  | to divide, to share |  |  |  |
+割る|わる  | to divide, to break |  |  |  |

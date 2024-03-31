@@ -1,0 +1,250 @@
+CLI param:  準
+--- Response text: ---
+{"kanji": "準","kanji_simplified": "ジュン","kanji_romaji": "jun","kanji_meaning": "standard, conform to","mnemonics": "Imagine a judge with a gavel (槌) pointing to a standard (標)","sentence_japanese": "彼は準備ができています。","sentence_romaji": "Kare wa junbi ga dekite imasu.","sentence_translation": "He is ready.","kanji_origin": "This kanji is composed of two parts. The left side is 標 which means “standard”, and the right side is 殿 which means “lord” or “palace”.","kanji_meaning": "The meaning of this kanji is “standard” or “conform to”.","kanji_info": "This kanji can also be read as jun in some contexts, such as in the word 準備 (junbi) which means “preparation.”","compound_words": [{"word": "準備", "romaji": "junbi", "translation": "preparation"},{"word": "準急", "romaji": "junkyuu", "translation": "semi-express"},{"word":"準確",  "romaji":"junkaku",  "translation":"accuracy"}],"kanji_examples":[ {"expression":"準じる",  "romaji":"junjiru",  "translation":"to conform to"}, {"expression":"準ずる",  "romaji":"junzuru",  "translation":"to correspond to"}, {"expression":"準備万端",  "romaji":"junbi bantan",  "translation":"fully prepared"}]}
+-----------------------------
+CLI param:  営
+--- Response text: ---
+{"kanji": "営","kanji_simplified": "エイ","kanji_romaji": "ei","kanji_meaning": "to manage, to run, to operate","mnemonics": "The top part of the kanji looks like a roof, which is associated with managing a business or running an operation.","sentence_japanese": "彼らは営む事業を計画しています。","sentence_romaji": "Karera wa eimu kigyou o keikaku shite imasu.","sentence_translation": "They are planning to run a business.","kanji_origin": "The kanji 営 is composed of two parts: 田 (rice field) and 映 (reflect). Together they indicate a field reflecting light, which is associated with a business.","kanji_info": "The kanji 営 is used in words related to business, such as 営業 (eigyou, business operations) and 企業 (kigyou, company).","compound_words": [{"word": "営業", "romaji": "eigyou", "translation": "business operations"},{"word": "営済", "romaji": "eizumi", "translation": "completion of business"},{"word": "営利", "romaji": "eiri", "translation": "profit-making"}],
+"kanji_examples":[{"expression":"営業活動", 
+"romaji":"eigyou katsudou", 
+"translation":"business activities"},{"expression":"営繕い", 
+"romaji":"eizukuri", 
+"translation":"maintenance"},{"expression":"営利目的", 
+"romaji":"eirimekiteki", 
+"translation":"profit-making purpose"}]}
+-----------------------------
+CLI param:  案
+--- Response text: ---
+{"kanji": "案","kanji_simplified": "アン","kanji_romaji": "an","kanji_meaning": "plan, proposal","mnemonics": "Picture a man with an ANgry face, because he has to plan something.","sentence_japanese": "私たちは今、新しい案を検討しています。","sentence_romaji": "Watashitachi wa ima, atarashii an o kentō shite imasu.","sentence_translation": "We are now considering a new proposal.","kanji_origin": "This kanji is composed of two parts: 扌 (hand radical) and 豈 (question radical). Together they mean 'to plan or propose.'","kanji_meaning": "The kanji 案 means 'plan' or 'proposal' and is typically used in the context of suggesting a plan or idea.","kanji_info": "This kanji is often used in combination with other characters to form words such as 案内 (annai - guidance), 案外 (angai - unexpectedly), and 案の定 (anno tei - as expected).","compound_words": [{"word": "案内", "romaji": "annai", "translation": "guidance"},{"word": "案外", "romaji": "angai", "translation": "unexpectedly"},{"word": "案の定", "romaji": "anno tei", "translation": "as expected"}],"kanji_examples": [{"expression": "案を出す", "romaji":"an o dasu", 
+"translation":"to propose a plan"},{"expression":"案内所", 
+"romaji":"annaisho", 
+"translation":"information center"},{"expression":"案外大きい", 
+"romaji":"angai ooki i", 
+"translation":"surprisingly big"}]}
+-----------------------------
+CLI param:  予
+--- Response text: ---
+{"kanji": "予", "kanji_simplified": "ヨ", "kanji_romaji": "yo", "kanji_meaning": "before, ahead of time", "mnemonics": "Picture a 'Y' shape in the sky, looking ahead to the future.", "sentence_japanese": "私は今日の会議について予想しています。", "sentence_romaji": "Watashi wa kyou no kaigi ni tsuite yosou shite imasu.", "sentence_translation": "I am predicting about today's meeting.", "kanji_origin": "The kanji 予 is composed of two parts: 二 (ni) meaning 'two' and 兆 (chou) meaning 'sign, omen'. Together they form the meaning of 'foretell, predict'.", 
+"kanji_meaning": "The kanji 予 means 'before, ahead of time', and is used to express the idea of predicting or foretelling something in advance.", 
+"kanji_info": "The kanji 予 is often used in combination with other kanji to form words such as 予想 (yosou) meaning 'prediction', 予定 (yotei) meaning 'plan', and 予習 (yoshuu) meaning 'preparation for a test'.", 
+"mnemonics": "Picture a 'Y' shape in the sky, looking ahead to the future.", 
+"compound_words": [{"word": "予想", "romaji": "yosou", "translation": "prediction"}, {"word": "予定", "romaji": "yotei", "translation": "plan"}, {"word": "予習", "romaji": "yoshuu", "translation": "preparation for a test"}],
+"kanji_examples": [{"expression":"予測不可能","romaji":"yosoku fukanou","translation":"unpredictable"},{"expression":"予防接種","romaji":"yobou sesshu","translation":"vaccination"},{"expression":"予言者","romaji":"yogensha","translation":"prophet"}]}
+-----------------------------
+CLI param:  約
+--- Response text: ---
+{"kanji": "約","kanji_simplified": "ヤク","kanji_romaji": "yaku","kanji_meaning": "agreement, promise, contract","mnemonics": "Think of a YAKUza making a promise to someone.","sentence_japanese": "彼女と私は約束をしました。","sentence_romaji": "Kanojo to watashi wa yakusoku o shimashita.","sentence_translation": "She and I made a promise.","kanji_origin": "The kanji 約 is composed of two parts: 糸 (ito), which means “thread” and 勺 (shaku), which means “spoon.” Together, they represent the idea of “tying” or “binding” something together, like a contract.","kanji_meaning": "The kanji 約 has the meaning of “agreement” or “promise” in Japanese. It can also refer to a contract or an arrangement between two parties.","kanji_info": "The kanji 約 can also be used as a verb, meaning “to promise” or “to arrange.”","compound_words": [{"word": "約束", "romaji": "yakusoku", "tranlation": "promise"},{"word": "約定", "romaji": "yakutei", "translation": "agreement"},{"word": "約款", "romaji": "yakukan", "translation": "clause"}],"kanji_examples": [{"expression": "約束する", "romaji": "yakusoku suru", "translation": "to promise"},{"expression": "約束を守る", 
+"romaji":"yakusoku o mamoru", 
+"translation":"to keep a promise"},{"expression":"約束を破る", 
+"romaji":"yakusoku o yaburu", 
+"translation":"to break a promise"}]}
+-----------------------------
+CLI param:  全
+--- Response text: ---
+{"kanji": "全","kanji_simplified": "ゼン","kanji_romaji": "zen","kanji_meaning": "whole, all, complete","mnemonics": "Imagine a Zen garden - it is complete and whole.","sentence_japanese": "私は全部を完了しました。","sentence_romaji": "Watashi wa zenbu o kanryou shimashita.","sentence_translation": "I completed everything.","kanji_origin": "The kanji is composed of two parts: '十' (ten) and '口' (mouth). It originally meant 'all ten mouths', referring to the ten fingers, which were used to represent all people in ancient times.","kanji_meaning": "The kanji 全 means 'whole', 'all', or 'complete'. It is often used to refer to a group of people or things.","kanji_info": "This kanji is used in many words related to completeness, such as '全体' (zentai - whole), '全部' (zenbu - all), and '完全' (kanzen - perfect). It can also be used in words related to quantity, such as '全量' (zenryou - full amount) and '全額' (zengaku - full amount).","compound_words": [{"word": "全体", "romaji": "zentai", "translation": "whole"},{"word": "全部", "romaji": "zenbu", "translation": "all"},{"word": "完全", "romaji": "kanzen", "translation":"perfect"}],"kanji_examples":[{"expression":"全力", 	"romaji":"zenryoku", 	"translation":"full power"},{"expression":"完璧", 	"romaji":"kanpeki", 	"translation":"perfection"},{"expression":"全面的", 	"romaji":"zenmenteki", 	"translation":"comprehensive"}]}
+-----------------------------
+CLI param:  客
+--- Response text: ---
+{"kanji": "客","kanji_simplified": "キャク","kanji_romaji": "kyaku","kanji_meaning": "guest, visitor","mnemonics": "Imagine a guest (客) knocking on your door with a key (キ) in their hand.","sentence_japanese": "今日は客が多いですね。","sentence_romaji": "Kyou wa kyaku ga ooi desu ne.","sentence_translation": "There are a lot of guests today, aren't there?","kanji_origin": "The kanji 客 is composed of the radical 宀 (mi) meaning “roof” and the character 亻 (jin) meaning “person.”","kanji_meaning": "The kanji 客 means “guest” or “visitor” and can also refer to customers in a business.","kanji_info": "The kanji 客 can also be used in the context of travel, such as when referring to a passenger on a bus or train.","compound_words": [{"word": "客室", "romaji": "kyakushitsu", "translation": "guest room"},{"word": "客車", "romaji": "kyakusha", "translation": "passenger car"},{"word": "客員", "romaji": "kyakuin", "translation": "guest member"}],"kanji_examples": [{"expression": "客間", "romaji": "kyakuma", 
+"translation":"guest room"},{"expression":"客観的", 
+"romaji":"kyakkanteki", 
+"translation":"objective"},{"expression":"客先", 
+"romaji":"kyakusaki", 
+"translation":"client"}]}
+-----------------------------
+CLI param:  解
+--- Response text: ---
+{"kanji": "解", "kanji_simplified": "カイ", "kanji_romaji": "kai", "kanji_meaning": "untie, loosen, explain, understand", "mnemonics": "Imagine a key (鍵) unlocking a knot (結) to untie it.", "sentence_japanese": "彼女はその疑問を解決した。", "sentence_romaji": "Kanojo wa sono gimon o kaiketsu shita.", "sentence_translation": "She solved the question.", "kanji_origin": "This kanji is made up of two components: 糸 (ito; thread) and 解 (kai; untie). It suggests the idea of undoing a knot in a thread.", "kanji_meaning": "The kanji 解 means “untie, loosen, explain, understand”.", 
+"kanji_info": "The kanji 解 is used in many Japanese words and expressions related to understanding and solving problems, such as 解決 (kaiketsu; solution), 解釈 (kaishaku; explanation), and 解説 (kaisetsu; commentary).", 
+"compound_words": [{"word": "解決", "romaji": "kaiketsu", "translation": "solution"},{"word": "解釈", 
+"romaji": "kaishaku", 
+"translation": 
+"explanation"},{"word":"解説","romaji":"kaisetsu","translation":"commentary"}], 
+"kanji_examples":[{"expression":"解雇","romaji":"kaiko","translation":"dismissal"},{"expression":"解答","romaji":"kaitou","translation":"answer"},{"expression":"解散","romaji":"kaisan","translation":"dissolution"}]}
+-----------------------------
+CLI param:  協
+--- Response text: ---
+{"kanji": "協","kanji_simplified": "キョウ","kanji_romaji": "kyou","kanji_meaning": "cooperation, association","mnemonics": "Picture a key (キ) and a hand (ョ) working together in cooperation (協).","sentence_japanese": "彼らは協力して仕事をしました。","sentence_romaji": "Karera wa kyouryoku shite shigoto o shimashita.","sentence_translation": "They worked together in cooperation.","kanji_origin": "The kanji 協 is composed of the radical 卩, which means 'person', and 立, which means 'stand up'. Together, it can be interpreted as 'people standing together'.","kanji_meaning": "The kanji 協 means 'cooperation, association'.","kanji_info": "The kanji 協 is used in words such as 協力 (kyouryoku - cooperation), 協定 (kyoutei - agreement), and 協会 (kyoukai - association).","compound_words": [{"word": "協調", "romaji": "kyouchou", "tranlation": "harmony"},{"word": "協議", "romaji": "kyougai", "translation": "discussion"},{"word": "協会", "romaji": "kyoukai", "translation": "association"}],"kanji_examples": [{"expression": "協力する", "romaji": "kyouryoku suru", "translation": "(to) cooperate"},{"expression":"協定する", 	"romaji":"kyoutei suru", 	"translation":"(to) agree"},{"expression":"協会員", 	"romaji":"kyoukaiin", 	"translation":"member of an association"}]}
+-----------------------------
+CLI param:  願う
+--- Response text: ---
+{"kanji": "願う","kanji_simplified": "ガン","kanji_romaji": "gan","kanji_meaning": "to wish, to desire","mnemonics": "Picture a person GANgling their arms in the air, wishing for something.","sentence_japanese": "私は彼女の幸せを願っています。","sentence_romaji": "Watashi wa kanojo no shiawase o negatte imasu.","sentence_translation": "I wish her happiness.","kanji_origin": "The kanji 願 is composed of two elements: 頁 (page) and 心 (heart). The page symbolizes a written request, while the heart symbolizes the feelings behind the request.","kanji_meaning": "The kanji 願 means “to wish” or “to desire.” It can also refer to a written request or petition.","kanji_info": "The kanji 願 is often used in combination with other kanji to form words related to wishing or desiring. For example, 願望 (ganbou) means “desire” or “ambition,” and 願書 (gansho) means “application.”","compound_words": [{"word": "願書", "romaji": "gansho", "translation": "application"},{"word": "願望", "romaji": "ganbou", "translation": "desire"},{"word": "願い事", "romaji": "negai-goto", 
+"translation":"wish"}],
+"kanji_examples":[{"expression":"願いを叶える", 
+"romaji":"negai o kanaeru", 
+"translation":"grant a wish"},{"expression":"願いが叶う", 
+"romaji":"negai ga kanau", 
+"translation":"a wish comes true"},{"expression":"願いを込める", 
+"romaji":"negai o komeru", 
+"translation":"put one's wishes into it"}]}
+-----------------------------
+CLI param:  観
+--- Response text: ---
+{"kanji": "観","kanji_simplified": "カン","kanji_romaji": "kan","kanji_meaning": "to look, to watch, to observe","mnemonics": "Picture a person looking up at the sky with their eyes wide open, trying to take in all the beauty of the night sky - KAN!","sentence_japanese": "私は映画を観に行きました。","sentence_romaji": "Watashi wa eiga o mi ni ikimashita.","sentence_translation": "I went to watch a movie.","kanji_origin": "The kanji 観 is composed of two parts. The left part is the kanji 目 (me), which means “eye”. The right part is the kanji 見 (mi) which means “to see” or “to look”.","kanji_meaning": "The kanji 観 means “to look” or “to watch” and can also mean “to observe” or “to inspect”.","kanji_info": "The kanji 観 can be used in many different contexts such as looking at a painting, watching a movie, observing an experiment, or inspecting something.","compound_words": [{"word": "観光", "romaji": "kankou", "translation": "sightseeing"},{"word": "観察", "romaji": "kansatsu", "translation": "observation"},{"word": "観衆", "romaji": "kanshuu", "translation": "audience"}],
+"kanji_examples":[ {"expression":"観戦する", 
+"romaji":"kansen suru", 
+"translation":"to watch a game"}, 
+{"expression":"観客", 
+"romaji":"kankyaku", 
+"translation":"spectator"}, 
+{"expression":"観測する", 
+"romaji":"kansoku suru", 
+"translation":"to observe"}]}
+-----------------------------
+CLI param:  園
+--- Response text: ---
+{"kanji": "園","kanji_simplified": "エン","kanji_romaji": "en","kanji_meaning": "garden, park","mnemonics": "Picture a garden with a large ENtrance (EN),","sentence_japanese": "私は公園で遊んでいます。","sentence_romaji": "Watashi wa kouen de asonde imasu.","sentence_translation": "I am playing in the park.","kanji_origin": "The kanji 園 is composed of two parts: 囗 (enclosure) and 木 (tree). Together, they form the character for “garden” or “park”.","kanji_meaning": "The kanji 園 means “garden” or “park”.","kanji_info": "The kanji 園 is often used in combination with other characters to form words related to gardens and parks, such as 公園 (kouen, public park) and 植物園 (shokubutsuen, botanical garden).","compound_words": [{"word": "公園", "romaji": "kouen", "translation": "public park"},{"word": "植物園", "romaji": "shokubutsuen", "translation": "botanical garden"},{"word": "動物園", "romaji": "doubutsuen", "translation": "zoo"}],"kanji_examples": [{"expression": "公園で遊ぶ", "romaji": "kouen de asobu", 
+"translation": 
+"play in the park"},{"expression":"植物園を見学する", 
+"romaji":"shokubutsuen o kengaku suru", 
+"translation":"visit a botanical garden"},{"expression":"動物園に行く", 
+"romaji":"doubutsuen ni iku", 
+"translation":"go to the zoo"}]}
+-----------------------------
+CLI param:  術
+--- Response text: ---
+{"kanji": "術","kanji_simplified": "ジュツ","kanji_romaji": "jutsu","kanji_meaning": "technique, art, skill","mnemonics": "Imagine a person performing a 'jutsu' or skillful technique with their hands.","sentence_japanese": "彼は技術を使った術を学んだ。","sentence_romaji": "Kare wa gijutsu o tsukat ta jutsu o mananda.","sentence_translation": "He learned technique using technology.","kanji_origin": "The kanji 術 is composed of the characters for “hand” and “skill”, indicating a skill that is performed by hand.","kanji_meaning": "The kanji 術 means “technique” or “art” and is used to refer to any skill or method used to accomplish something.","kanji_info": "The kanji 術 can also be used to refer to martial arts techniques, magical spells, and other types of techniques.","compound_words": [{"word": "術策", "romaji": "jutsusaku", "tranlation": "strategy"},{"word": "術語", "romaji": "jutsugo", "translation": "technical terminology"},{"word": "術式", "romaji": "jutsushiki", "translation": "formula"}],"kanji_examples": [{"expression": "技術術", "romaji": "gijutsujutsu", 
+"translation": 
+"technology"},{"expression":"料理術", 
+"romaji":"ryōrijutsu", 
+"translation":"cooking techniques"},{"expression":"魔法術", 
+"romaji":"mahōjutsu", 
+"translation":"magic spell"}]}
+-----------------------------
+CLI param:  役
+--- Response text: ---
+{"kanji": "役", "kanji_simplified": "ヤク", "kanji_romaji": "yaku", "kanji_meaning": "role, duty, task", "mnemonics": "Picture a yakuza (Japanese gangster) taking on a role in a movie.", "sentence_japanese": "彼女は学校の役員になった。", "sentence_romaji": "Kanojo wa gakkou no yakunin ni natta.", "sentence_translation": "She became a school officer.", "kanji_origin": "The kanji 役 is made up of two parts: 彳 (footsteps) and 也 (a particle indicating affirmation). Together, they mean to “affirm one’s footsteps” or “take action.”", "kanji_meaning": "The kanji 役 means “role” or “duty” and is used to refer to a task or responsibility that someone has. It can also be used to refer to a job or position.", 
+"kanji_info": "The kanji 役 is often used in combination with other kanji to form words related to roles and duties. For example, the word 役割 (yakuwari) means “role” or “duty” and the word 役員 (yakuin) means “officer” or “board member.”", 
+"compound_words": [{"word": "役割", "romaji": "yakuwari", "translation": "role, duty"},{"word": "役員", 
+"romaji": "yakuin", 
+"translation": 
+"officer, board member"}], 
+"kanji_examples": [{"expression": "役立つ", 
+"romaji": 
+"yakutatsu", 
+"translation": 
+"useful"}, {"expression": 
+"役人", 
+"romaji":"yakunin", 
+"translation":"official"}, {"expression":"役目","romaji":"yakume","translation":"duty"}]}
+-----------------------------
+CLI param:  郵
+--- Response text: ---
+{"kanji": "郵","kanji_simplified": "ユウ","kanji_romaji": "yū","kanji_meaning": "post, mail","mnemonics": "Picture a postman (郵便屋) carrying a mailbag (郵袋) to deliver mail (郵便) to your house.","sentence_japanese": "私は毎日郵便物を受け取っています。","sentence_romaji": "Watashi wa mainichi yūbinkyoku o uketotte imasu.","sentence_translation": "I receive mail every day.","kanji_origin": "This kanji is composed of the radical 阝 (“mound”) and the character 由 (“reason”). Together, they suggest the idea of something being sent for a reason.","kanji_meaning": "The kanji 郵 means “post, mail” and is used in words related to postal services.","kanji_info": "This kanji is used in many words related to postal services, such as 郵便 (yūbin, “mail”), 郵便局 (yūbinkyoku, “post office”), 郵袋 (yūdai, “mailbag”), and 郵送 (yūsō, “mail delivery”).","compound_words": [{"word": "郵便", "romaji": "yūbin", "translation": "mail"},{"word": "郵便局", "romaji":"yūbinkyoku", "translation":"post office"},{"word": "郵袋", "romaji":"yūdai", "translation":"mailbag"}],"kanji_examples": [{"expression": "郵送", "romaji":"yūsō", "translation":"mail delivery"},{"expression": "郵便番号", "romaji":"yūbinbangō", 
+"translation":"postal code"},{"expression": 
+"郵便物", 
+"romaji":"yūbinkyoku", 
+"translation":"mail"}]}
+-----------------------------
+CLI param:  局
+--- Response text: ---
+{"kanji": "局","kanji_simplified": "キョク","kanji_romaji": "kyoku","kanji_meaning": "bureau, office, section","mnemonics": "Imagine a room (屋) full of people (九) working in an office.","sentence_japanese": "彼は新しい仕事の局で働いています。","sentence_romaji": "Kare wa atarashii shigoto no kyoku de hataraite imasu.","sentence_translation": "He is working in a new job bureau.","kanji_origin": "The kanji 局 is composed of the radicals 尸 (corpse) and 九 (nine), which together mean “nine corpses” or “nine people”. This is thought to represent a group of people working together in an office.","kanji_meaning": "The kanji 局 means “bureau” or “office”, and it can also refer to a department or section within an organization.","kanji_info": "The kanji 局 can also be used to refer to a specific area or region, such as a prefecture or city. It can also be used to refer to a specific period of time, such as an era or age.","compound_words": [{"word": "局長", "romaji": "kyokuchou", "tranlation": "head of an office"},{"word": "局地", "romaji": "kyokuchi", "translation": "local area"},{"word": "局所", "romaji": "kyokusho", "translation": "place"}],"kanji_examples": [{"expression": "局面", "romaji": "kyokumen", 
+"translation": "(current) situation"},{"expression":"局限的な", 
+"romaji":"kyokugenteki na", 
+"translation":"limited, restricted"},{"expression":"局所的な", 
+"romaji":"kyokushoteki na", 
+"translation":"localized"}]}
+-----------------------------
+CLI param:  交
+--- Response text: ---
+{"kanji": "交","kanji_simplified": "コウ","kanji_romaji": "kou","kanji_meaning": "interaction, exchange, mutual","mnemonics": "Picture a person 'Kou' (Kō) exchanging something with another person","sentence_japanese": "彼女と交わした約束を守るつもりです。","sentence_romaji": "Kanojo to kawashita yakusoku o mamoru tsumori desu.","sentence_translation": "I intend to keep the promise I made with her.","kanji_origin": "The kanji 交 is composed of two elements: 二 (two) and 交 (meet). Together they form the idea of two people meeting or interacting.","kanji_meaning": "The kanji 交 means interaction, exchange, or mutual. It is used to describe any kind of interaction between two entities, whether it be physical, verbal, or emotional.","kanji_info": "The kanji 交 can also be used in words such as 交換 (kōkan - exchange), 交流 (kōryū - interaction), and 交差点 (kōsaten - intersection),","compound_words": [{"word": "交換", "romaji": "koukan", "translation": "exchange"},{"word": "交流", "romaji": "kouryuu", "translation": "interaction"},{"word": "交差点", "romaji": "kousaten", "translation":"intersection"}],"kanji_examples":[{"expression":"友情の交わり", "romaji":"yuujou no kawari", "translation":"exchange of friendship"},{"expression":"議論の交わり", "romaji":"giron no kawari", "translation":"exchange of argument"},{"expression":"意見の交換",  "romaji":"iken no koukan",  "translation":"exchange of opinions"}]}
+-----------------------------
+CLI param:  点
+--- Response text: ---
+{"kanji": "点","kanji_simplified": "テン","kanji_romaji": "ten","kanji_meaning": "point, spot, mark, dot","mnemonics": "Picture a dot on a piece of paper","sentence_japanese": "彼は新しい点を提案しました。","sentence_romaji": "Kare wa atarashii ten o teian shimashita.","sentence_translation": "He proposed a new point.","kanji_origin": "The kanji 点 is derived from the Chinese character '点', which is composed of two parts: '火' (fire) and '田' (field). The original meaning of the character was 'to ignite a fire in a field.'","kanji_meaning": "The kanji 点 has the meaning of 'point', 'spot', 'mark' or 'dot'.","kanji_info": "The kanji 点 is used in many words related to points, spots, marks and dots. It is also used in words related to counting, such as 一点 (one point) and 二点 (two points).","compound_words": [{"word": "点数", "romaji": "tensuu", "translation": "points"},{"word": "点線", "romaji": "tensen", "translation": "dotted line"},{"word": "点在", "romaji": "tenzai", "translation": "located at"}],"kanji_examples": [{"expression": "点検", "romaji": "tenken", "translation": "inspection"},{"expression": "点在する", 
+"romaji":"tenzai suru", 
+"translation":"to be located at"},
+{"expression":"点々と", 
+"romaji":"ten ten to", 
+"translation":"here and there"}]}
+-----------------------------
+CLI param:  公
+--- Response text: ---
+{"kanji": "公","kanji_simplified": "コウ","kanji_romaji": "kou","kanji_meaning": "public, official, prince","mnemonics": "Picture a king (公) sitting on his throne in public (公),","sentence_japanese": "公園で子供たちが遊んでいます。","sentence_romaji": "Kouen de kodomo-tachi ga asonde imasu.","sentence_translation": "The children are playing in the park.","kanji_origin": "The kanji 公 is composed of two radicals: 亠 (a lid or cover) and 八 (eight). It is believed to be derived from the ancient Chinese character 共, which means “together” or “common,” and was used to refer to the public.","kanji_meaning": "The kanji 公 refers to something that is public or official. It can also refer to a prince or nobleman.","kanji_info": "The kanji 公 can also be used as a suffix in words such as 公衆 (public) and 公開 (publicly released). It is also commonly used in Japanese surnames such as 田中公 (Tanaka Kou) and 高橋公 (Takahashi Kou).","compound_words": [{"word": "公園", "romaji": "kouen", "tranlation": "park"},{"word": "公式", "romaji": "koushiki", "translation": "official"},{"word": "公務員", "romaji": "koumuin", "translation": "civil servant"}],"kanji_examples": [{"expression": "公衆", "romaji": "koushu", 
+"translation": "the public"},{"expression": "公正な", 
+"romaji":"kousei na", 
+"translation":"fair, impartial"},{"expression":"公平な", 
+"romaji":"kouhei na", 
+"translation":"just, equitable"}]}
+-----------------------------
+CLI param:  科
+--- Response text: ---
+{"kanji": "科","kanji_simplified": "カ","kanji_romaji": "ka","kanji_meaning": "department, course, section","mnemonics": "Picture a 'K' shaped hallway with classrooms and offices on either side, representing the different departments of a company or school.","sentence_japanese": "彼は新しい科学を学んでいます。","sentence_romaji": "Kare wa atarashii kagaku o manande imasu.","sentence_translation": "He is studying a new science.","kanji_origin": "The kanji 科 is composed of two parts: 禾 (he, grain) and 果 (ka, fruit). Together they form the meaning 'fruit of the grain' which is an ancient metaphor for knowledge.","kanji_info": "The kanji 科 can be used to mean 'department', 'course', or 'section'. It is also used to refer to scientific fields such as biology or chemistry.","compound_words": [{"word": "科学", "romaji": "kagaku", "translation": "science"},{"word":"科目", "romaji":"kamoku", "translation":"subject"},{"word":"科学者", "romaji":"kagakusha", "translation":"scientist"}],"kanji_examples": [{"expression": "科学的", "romaji":"kagakuteki", "translation":"scientific"},{"expression": "科学技術", 
+"romaji":"kagaku gijutsu", 
+"translation":"science and technology"},{"expression": 
+"科学者", 
+"romaji":"kagakusha", 
+"translation":"scientist"}]}
+-----------------------------
+CLI param:  婦
+--- Response text: ---
+{"kanji": "婦","kanji_simplified": "フ","kanji_romaji": "fu","kanji_meaning": "woman, wife, lady","mnemonics": "The kanji 婦 looks like a woman wearing a dress and holding an umbrella.","sentence_japanese": "彼女は婦人用の服を買っています。","sentence_romaji": "Kanojo wa fujin-yō no fuku o katte imasu.","sentence_translation": "She is buying clothes for women.","kanji_origin": "The kanji 婦 is derived from the characters 女 (woman) and 伏 (to bow down).","kanji_meaning": "The kanji 婦 means 'woman' or 'wife'.","kanji_info": "The kanji 婦 can also be used to refer to a lady or female professional.","compound_words": [{"word": "婦人", "romaji": "fujin", "tranlation": "woman"},{"word": "婦長", "romaji": "fuchō", "translation": "female manager"},{"word": "婦警", "romaji": "fukei", "translation": "female police officer"}],"kanji_examples": [{"expression": "婦人服", "romaji": "fujin-fuku", 	"translation":"women's clothing"},{"expression":"婦人科学者", 	"romaji":"fujinkagakusha", 	"translation":"female scientist"},{"expression":"婦人会", 	"romaji":"fujinkai", 	"translation":"women's association"}]}
+-----------------------------
+CLI param:  困る
+--- Response text: ---
+{"kanji": "困る","kanji_simplified": "コン","kanji_romaji": "kon","kanji_meaning": "to be troubled, to be worried","mnemonics": "Picture a person in a 'Kon' (corner) with their head in their hands, feeling troubled.","sentence_japanese": "今日は仕事が多くて困っています。","sentence_romaji": "Kyou wa shigoto ga ooku te komatte imasu.","sentence_translation": "Today I'm troubled because there's a lot of work.","kanji_origin": "The kanji 困 is composed of two parts: 囗 (enclosure) and 昏 (dark). Together, they create the meaning of “being in a dark and enclosed place.”","kanji_meaning": "The kanji 困 means 'to be troubled' or 'to be worried.'","kanji_info": "The kanji 困 can also be used to express feelings of distress or hardship.","compound_words": [{"word": "困難", "romaji": "konnan", "translation": "difficulty"},{"word": "困惑", "romaji": "konwaku", "translation": "confusion"},{"word": "困窮", "romaji": "konkyuu", "translation": "poverty"}],"kanji_examples": [{"expression": "困難な", 	"romaji": 	"konnannna", 	"translation":"difficult"},{"expression":"困った", 	"romaji":"komatta", 	"translation":"troubled"},{"expression":"困惑した", 	"romaji":"konwakushita", 	"translation":"confused"}]}
+-----------------------------
+CLI param:  警
+--- Response text: ---
+{"kanji": "警", "kanji_simplified": "ケイ", "kanji_romaji": "kei", "kanji_meaning": "warning, caution, admonish", "mnemonics": "Picture a police officer with a 'K' on their uniform and a megaphone in their hand, yelling 'Kei!' (Warning!) to the public.", "sentence_japanese": "警察は犯罪を防ぐために努力しています。", "sentence_romaji": "Keisatsu wa hanzai o fukuguu tame ni doryoku shite imasu.", "sentence_translation": "The police are trying hard to prevent crime.", "kanji_origin": "The kanji 警 is derived from combining the characters for 'person' (人) and 'words' (言). It originally meant 'to admonish people with words'.", "kanji_info": "The kanji 警 is used in many words related to warnings, cautions, and admonishments, such as 警告 (keikoku; warning), 警戒 (keikai; caution), and 警視 (keishi; surveillance).", "compound_words": [{"word": "警察", "romaji": "keisatsu", "translation": "police"},{"word": "警報", 	"romaji": 	"keihou", 	"translation": 	"warning"},{"word": 	"警戒", 	"romaji": 	"keikai", 	"translation": 	"caution"}],
+"kanji_examples":[
+{"expression":"警戒する","romaji":"keikai suru","translation":"to be on guard"},
+{"expression":"警告する","romaji":"keikoku suru","translation":"to warn"},
+{"expression":"警視庁","romaji":"keishichou","translation":"Metropolitan Police Department"}]
+}
+-----------------------------
+CLI param:  察
+--- Response text: ---
+{"kanji": "察","kanji_simplified": "サツ","kanji_romaji": "satsu","kanji_meaning": "to guess, to infer","mnemonics": "Picture a detective (察) using his powers of observation (サツ) to make an inference.","sentence_japanese": "彼女は彼の用意したプレゼントを察しました。","sentence_romaji": "Kanojo wa kare no youi shita purezento o satsumashita.","sentence_translation": "She guessed the present he had prepared.","kanji_origin": "The kanji 察 is composed of the radicals 宀 (roof) and 虫 (insect). It is believed to be derived from an ancient pictogram of a roof with an insect on it, suggesting the idea of ‘observing’ or ‘noticing’ something.","kanji_meaning": "The kanji 察 means ‘to guess’ or ‘to infer’. It can also mean ‘to observe’ or ‘to notice’ something.","kanji_info": "The kanji 察 is used in many words related to observation, such as 状況察 (joukyou-satsu, observation of a situation), 推察 (suisatsu, conjecture), and 目察 (mokusatsu, inspection).","compound_words": [{"word": "推察", "romaji": "suisatsu", "translation": "conjecture"},{"word": "状況察", "romaji": "joukyou-satsu", "translation": "observation of a situation"},{"word": "目察", "romaji":"mokusatsu", 
+"translation":"inspection"}],
+"kanji_examples":[{"expression":"状況を察する", 
+"romaji":"joukyou o satsuru", 
+"translation":"to observe the situation"},{"expression":"推察する", 
+"romaji":"suisatsu suru", 
+"translation":"to conjecture"},{"expression":"目察する", 
+"romaji":"mokusatsu suru", 
+"translation":"to inspect"}]}
+-----------------------------
+CLI param:  故
+--- Response text: ---
+{"kanji": "故","kanji_simplified": "コ","kanji_romaji": "ko","kanji_meaning": "because of, due to","mnemonics": "The kanji 故 looks like a person holding a 'ko' (child) in their arms, indicating that something happened because of the child.","sentence_japanese": "彼は故郷に帰ってきた。","sentence_romaji": "Kare wa kokyō ni kaette kita.","sentence_translation": "He returned to his hometown.","kanji_origin": "This kanji is derived from the ancient Chinese character 古, which originally meant “old” but came to mean “because of” or “due to” in Japanese.","kanji_meaning": "The kanji 故 means “because of” or “due to” in Japanese.","kanji_info": "This kanji is used in many expressions such as 故障 (koshō, breakdown) and 故意 (goyo, intentional).","compound_words": [{"word": "故郷", "romaji": "kokyō", "translation": "hometown"},{"word": "故障", "romaji": "koshō", "translation": "breakdown"},{"word": "故意", "romaji": "goyo", "translation": "intentional"}],"kanji_examples":[{"expression":"故意に","romaji":"goyoni","translation":"intentionally"},{"expression":"故郷へ","romaji":"kokyōe","translation":"to one's hometown"},{"expression":"故障した","romaji":"koshōshita","translation":"broke down"}]}
+-----------------------------
+CLI param:  黄
+--- Response text: ---
+{"kanji": "黄","kanji_simplified": "キョウ","kanji_romaji": "kyou","kanji_meaning": "yellow","mnemonics": "picture a bright yellow sun in the sky","sentence_japanese": "彼女は黄色いワンピースを着ていました。","sentence_romaji": "Kanojo wa kiiroi wanpiisu o kite imashita.","sentence_translation": "She was wearing a yellow dress.","kanji_origin": "The kanji 黄 is derived from the Chinese character 黃, which is composed of 隹 (bird) and 皿 (dish). The bird is thought to represent the sun, while the dish represents the color yellow.","kanji_meaning": "The kanji 黄 means “yellow” in Japanese.","kanji_info": "The kanji 黄 can also be read as “ki” or “ou” in some cases.","compound_words": [{"word": "黄金", "romaji": "ougon", "translation": "gold"},{"word": "黄昏", "romaji": "tasogare", "translation": "dusk"},{"word": "黄色", "romaji": "kiiro", "translation":"yellow"}],"kanji_examples":[{"expression":"黄色い", 	"romaji":"kiiroi", 	"translation":"yellow"},{"expression":"黄金色", 	"romaji":"ougoniro", 	"translation":"golden color"},{"expression":"黄昏になる", 	"romaji":"tasogare ni naru", 	"translation":"become dusk"}]}
+-----------------------------
+CLI param:  授
+--- Response text: ---
+{"kanji": "授","kanji_simplified": "ジュ","kanji_romaji": "ju","kanji_meaning": "to grant, to give, to teach","mnemonics": "Picture a teacher (先生) giving (授) knowledge to students.","sentence_japanese": "彼は私に英語を授けてくれました。","sentence_romaji": "Kare wa watashi ni eigo o sazukete kuremashita.","sentence_translation": "He taught me English.","kanji_origin": "The kanji is composed of the radicals 手 (hand) and 寸 (measure),","kanji_meaning": "The kanji 授 means 'to grant, to give, to teach',","kanji_info": "The kanji 授 is often used in words related to education and teaching, such as 授業 (jyugyo - lesson), 教授 (kyoju - professor), and 専攻 (senko - major),","compound_words": [{"word": "授かる", "romaji": "sazukaru", "translation": "to grant"},{"word": "授ける", "romaji": "sazukeru", "translation": "to give"},{"word": "教授", 
+"romaji": 
+"kyoju", 
+"translation": 
+"professor"}],
+"kanji_examples":[ {"expression":"授賞式", 
+"romaji":"juushoushiki", 
+"translation":"award ceremony"}, 
+{"expression":"授与する", 
+"romaji":"juuyo suru", 
+"translation":"to grant"}, 
+{"expression":"教授法", 
+"romaji":"kyojuhou", 
+"translation":"teaching method"}]}
+-----------------------------
+CLI param:  渡す
+--- Response text: ---
+{"kanji": "渡す","kanji_simplified": "ワタス","kanji_romaji": "watasu","kanji_meaning": "to cross, to pass, to ferry","mnemonics": "Imagine a ferry boat 'WATer ASsisting' people to cross a river.","sentence_japanese": "彼は私に本を渡しました。","sentence_romaji": "Kare wa watashi ni hon o watashimashita.","sentence_translation": "He passed me the book.","kanji_origin": "The kanji 渡 is composed of the characters for 'water' (水) and 'stop' (止), indicating that one is crossing a body of water.","kanji_meaning": "The kanji 渡 has the meaning of 'to cross, to pass, to ferry.'","kanji_info": "The kanji 渡 can also be used in the form 渡り, which means 'to pass through' or 'to go through.'","compound_words": [{"word": "渡航", "romaji": "tokou", "translation": "voyage"},{"word": "渡り鳥", "romaji": "tadoridori", "translation": "migratory bird"},{"word": "渡り廊下", "romaji":"tadorirouka",  "translation":"corridor"}],"kanji_examples":[ {"expression":"渡航許可",  "romaji":"toukoukyoka",  "translation":"permission to travel"}, {"expression":"渡り歩く",  "romaji":"tadoriaru",  "translation":"to walk across"}, {"expression":"渡る世間を知らず",  "romaji":"wataru seken o shirazu",  "translation":"ignorant of the ways of the world"}]}
+-----------------------------
+CLI param:  渡る
+--- Response text: ---
+{"kanji": "渡る","kanji_simplified": "ワタル","kanji_romaji": "wataru","kanji_meaning": "to cross, to traverse","mnemonics": "Picture a person walking across a bridge (桥) to the other side of the river (川).","sentence_japanese": "彼女は橋を渡って街を出ました。","sentence_romaji": "Kanojo wa hashi o watatte machi o demashita.","sentence_translation": "She crossed the bridge and left the town.","kanji_origin": "The kanji 渡 is composed of two parts, 氵 meaning 'water' and 者 meaning 'person.' Together, they represent a person crossing water.","kanji_meaning": "The kanji 渡 means 'to cross, to traverse.' It can be used to describe someone crossing a bridge, river, or any other body of water.","kanji_info": "The kanji 渡 can also be used in words such as 渡船 (tosen) meaning 'ferry' and 渡航 (tokou) meaning 'navigation.'","compound_words": [{"word": "渡り鳥", "romaji": "wataridori", "translation": "migratory bird"},{"word": "渡航", "romaji":"tokou", "translation":"navigation"},{"word": "渡辺", "romaji":"watanabe", "translation":"shore, riverside"}],"kanji_examples": [{"expression": "渡り廊下", "romaji":"wari rouka", 
+"translation":"corridor"},{"expression": "渡り鳥", 
+"romaji":"wataridori", 
+"translation":"migratory bird"},{"expression": 
+"渡船", 
+"romaji":"tosen", 
+"translation":"ferry"}]}
+-----------------------------
+CLI param:  昔
+--- Response text: ---
+{"kanji": "昔","kanji_simplified": "セキ","kanji_romaji": "seki","kanji_meaning": "past, olden days","mnemonics": "The kanji 昔 looks like a person looking back at the past.","sentence_japanese": "昔は小さな村だった。","sentence_romaji": "Mukashi wa chiisana mura datta.","sentence_translation": "The village was small in the past.","kanji_origin": "The kanji 昔 is derived from the characters 日 (sun) and 月 (moon), representing the passing of time.","kanji_meaning": "The kanji 昔 means 'past' or 'olden days'. It can also be used to refer to something that happened a long time ago.","kanji_info": "The kanji 昔 is usually used in combination with other characters such as 今 (now) or 将来 (future).","compound_words": [{"word": "昔日", "romaji": "sekijitsu", "translation": "olden days"},{"word": "昔話", "romaji": "mukashibanashi", "translation": "folktale"},{"word": "昔々", "romaji": "mukashi-mukashi", "translation":"long, long ago"}],"kanji_examples":[{"expression":"昔話", 	"romaji":"mukashibanashi", 	"translation":"folktale"},{"expression":"昔懐かしい", 	"romaji":"mukashi-natsukashii", 	"translation":"nostalgic"},{"expression":"昔々", 	"romaji":"mukashi-mukashi", 	"translation":"long, long ago"}]}
+-----------------------------

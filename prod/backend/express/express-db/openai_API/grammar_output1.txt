@@ -1,0 +1,682 @@
+keyword: もし～たなら
+PROMPT: Generate grammar explanation for following grammar point もし～たなら
+RESPONSE: {
+    "title": "もし～たなら (moshi ~ ta nara)",
+    "short_explanation": "Express a hypothetical situation; 'if', 'in case'",
+    "long_explanation": "The もし～たなら (moshi ~ ta nara) grammar point is used to express a hypothetical situation or assumption. It can be translated as 'if' or 'in case' in English. The formation is as follows: もし + past tense verb + たら/なら.",
+    "formation": "もし + past tense verb + たら/なら",
+    "examples": [
+        {
+            "jp": "もし明日雨が降ったなら、ピクニックは中止になる。",
+            "romaji": "Moshi ashita ame ga futta nara, pikunikku wa chuushi ni naru.",
+            "en": "If it rains tomorrow, the picnic will be canceled.",
+        },
+        {
+            "jp": "もし宝くじが当たったなら、旅行に行こう。",
+            "romaji": "Moshi takarakuji ga atatta nara, ryokou ni ikou.",
+            "en": "If I win the lottery, I will go on a trip.",
+        },
+        {
+            "jp": "もし彼女が来なかったなら、一人で映画を見ます。",
+            "romaji": "Moshi kanojo ga konakatta nara, hitoride eiga wo mimasu.",
+            "en": "If she doesn't come, I will watch the movie alone.",
+        },
+        {
+            "jp": "もし明日忙しくなかったら、遊びに行きましょう。",
+            "romaji": "Moshi ashita isogashikunakatta nara, asobi ni ikimashou.",
+            "en": "If I'm not busy tomorrow, let's go out.",
+        }
+    ]
+}
+-----------------------------
+keyword: もし～としても
+PROMPT: Generate grammar explanation for following grammar point もし～としても
+RESPONSE: {
+    "title": "もし～としても (moshi ~ to shite mo)",
+    "short_explanation": "Express a hypothetical situation; 'even if', 'no matter if'",
+    "long_explanation": "The grammar pattern もし～としても (moshi ~ to shite mo) is used to express a hypothetical situation or make a hypothetical statement in Japanese. It suggests the idea of 'even if' or 'no matter if' in English and follows the same pattern as ～としたら (to shitara). This pattern is used when the speaker wants to express a scenario that may be contrary to reality or even impossible.",
+    "formation": "もし + Verb-casual/な-adjective + としても, もし + い-adjective + く/かった + としても, もし + Noun + である/だった + としても",
+    "examples": [
+        {
+            "jp": "もし彼が昨日来なかったとしても、私たちはそのことを気にしない。",
+            "romaji": "Moshi kare ga kinou konakatta to shitemo, watashitachi wa sono koto wo ki ni shinai.",
+            "en": "Even if he didn't come yesterday, we wouldn't care about it."
+        },
+        {
+            "jp": "もし試験に合格しなかったとしても、諦めずに次に頑張りましょう。",
+            "romaji": "Moshi shiken ni goukaku shinakatta to shitemo, akiramezu ni tsugi ni ganbarimashou.",
+            "en": "Even if you don't pass the exam, let's keep trying without giving up."
+        },
+        {
+            "jp": "もし明日忙しくなかったとしても、家にいるつもりです。",
+            "romaji": "Moshi ashita isogashikunakatta to shitemo, ie ni iru tsumori desu.",
+            "en": "Even if I'm not busy tomorrow, I plan to stay home."
+        },
+        {
+            "jp": "もし彼女が日本に来たとしても、私は彼女に会うつもりはありません。",
+            "romaji": "Moshi kanojo ga nihon ni kita to shitemo, watashi wa kanojo ni au tsumori wa arimasen.",
+            "en": "Even if she comes to Japan, I have no intention of meeting her."
+        }
+    ]
+}
+-----------------------------
+keyword: もしも～なら
+PROMPT: Generate grammar explanation for following grammar point もしも～なら
+RESPONSE: {
+    "title": "もしも～なら (moshimo ~ nara)",
+    "short_explanation": "Express a hypothetical condition; 'if', 'in case', 'suppose that'.",
+    "long_explanation": "The もしも～なら (moshimo ~ nara) grammar point is used to express a hypothetical condition or assumption. It can be translated as 'if', 'in case', or 'suppose that' in English. The formation is commonly used when the condition is likely, but not guaranteed to happen.",
+    "formation": "もしも + Verb-casual, い-adjective, な-adjective, Noun + だったら/なら",
+    "examples": [
+        {
+            "jp": "もしも明日雨が降ったら、出かけるのはやめよう。",
+            "romaji": "Moshimo ashita ame ga futtara, dekakeru no wa yameyou.",
+            "en": "In case it rains tomorrow, let's cancel our plans to go out."
+        },
+        {
+            "jp": "もしも会社が倒産したら、別の仕事を探すしかない。",
+            "romaji": "Moshimo kaisha ga tousan shitara, betsuno shigoto wo sagasu shikanai.",
+            "en": "If the company goes bankrupt, we have no choice but to look for another job."
+        },
+        {
+            "jp": "もしも私が彼女だったら、そんなことは絶対にしない。",
+            "romaji": "Moshimo watashi ga kanojo dattara, sonna koto wa zettai ni shinai.",
+            "en": "If I were her, I would never do such a thing."
+        },
+        {
+            "jp": "もしもこの問題が解決できなかったら、上司に相談しなければならない。",
+            "romaji": "Moshimo kono mondai ga kaiketsu dekinakattara, joushi ni soudan shinakereba naranai.",
+            "en": "If we can't solve this problem, we have to talk to our boss about it."
+        }
+    ]
+}
+-----------------------------
+keyword: ～ことになっている
+PROMPT: Generate grammar explanation for following grammar point ～ことになっている
+RESPONSE: {
+    "title": "～ことになっている (〜koto ni natte iru)",
+    "short_explanation": "Express an established/decided situation or rule; 'it has been decided that'.",
+    "long_explanation": "The ～ことになっている grammar point is used to express an established or decided situation or rule. It can be translated as 'it has been decided that', 'it is the rule that', or 'it is established that' in English. The formation of this grammar point is very simple and it can be used with both verbs and nouns.",
+    "formation": "Verb-casual/noun + ことになっている",
+    "examples": [
+        {
+            "jp": "来週の会議は10時から始まることになっている。",
+            "romaji": "Raishuu no kaigi wa juuji kara hajimaru koto ni natte iru.",
+            "en": "It has been decided that the meeting next week will start at 10 am."
+        },
+        {
+            "jp": "この駅では、ホームで走ったり飛び跳ねたりすることになっている。",
+            "romaji": "Kono eki de wa, ho-mu de hashittari tobihanetari suru koto ni natte iru.",
+            "en": "It is the rule at this station that running and jumping on the platforms is allowed."
+        },
+        {
+            "jp": "私たちは、毎月20日までにレポートを提出することになっている。",
+            "romaji": "Watashitachi wa, maitsuki hatsuka made ni rep-to wo teishutsu suru koto ni natte iru.",
+            "en": "It has been established that we must submit our reports by the 20th of each month."
+        },
+        {
+            "jp": "この会社では、残業をする場合は上司に報告することになっている。",
+            "romaji": "Kono kaisha de wa, zangyou wo suru baai wa joushi ni houkoku suru koto ni natte iru.",
+            "en": "It is the rule in this company that if you work overtime, you must report it to your superior."
+        }
+    ]
+}
+-----------------------------
+keyword: ～ことにしている
+PROMPT: Generate grammar explanation for following grammar point ～ことにしている
+RESPONSE: {
+    "title": "～ことにしている (〜koto ni shiteiru)",
+    "short_explanation": "Expresses habitual actions or customs; 'have a policy of', 'make it a rule to', 'have a habit of'.",
+    "long_explanation": "The ～ことにしている grammar point is used to describe actions or customs that one has habitually adopted or made a rule or policy of. It can be translated as 'have a policy of', 'make it a rule to', 'have a habit of', or other similar expressions in English. It is formed by taking the present plain form of the verb or adjective, and adding ことにしている.",
+    "formation": "Verb (Present plain form) + ことにしている, い-Adjective + ことにしている, な-Adjective + にしている",
+    "examples": [
+        {
+            "jp": "毎日ジョギングすることにしています。",
+            "romaji": "Mainichi jogingu suru koto ni shiteimasu.",
+            "en": "I make it a rule to jog every day."
+        },
+        {
+            "jp": "このレストランでは、予約することにしています。",
+            "romaji": "Kono resutoran de wa, yoyaku suru koto ni shiteimasu.",
+            "en": "We have a policy of making reservations at this restaurant."
+        },
+        {
+            "jp": "必ずメールに返信することにしています。",
+            "romaji": "Kanarazu meeru ni henshin suru koto ni shiteimasu.",
+            "en": "I have a habit of always replying to emails."
+        },
+        {
+            "jp": "彼女は、毎日の読書を習慣にしています。",
+            "romaji": "Kanojo wa, mainichi no dokusho wo shuukan ni shiteimasu.",
+            "en": "She has a habit of reading every day."
+        }
+    ]
+}
+-----------------------------
+keyword: ～ことは～が。。。
+PROMPT: Generate grammar explanation for following grammar point ～ことは～が。。。
+RESPONSE: {
+    "title": "～ことは～が (～koto wa ~ga)",
+    "short_explanation": "Emphasizes the contrast between two things or ideas; 'while', 'although', 'even though', 'despite'",
+    "long_explanation": "The ～ことは～が grammar point is used to emphasize the contrast between two things or ideas. It is often used to express a point of view that contradicts previously mentioned information or expectations. The phrase before ことは is the primary focus, the phrase after が is the contrasting element.",
+    "formation": "Phrase A + ことは + Phrase B + が",
+    "examples": [
+        {
+            "jp": "高いことは高いが、そのカバンは本当に丈夫だ。",
+            "romaji": "Takai koto wa takai ga, sono kaban wa hontou ni jyuubu da.",
+            "en": "Although it's expensive, that bag is really durable."
+        },
+        {
+            "jp": "簡単なことは簡単だが、時間がかかる。",
+            "romaji": "Kantan na koto wa kantan da ga, jikan ga kakaru.",
+            "en": "Although it's easy, it takes time."
+        },
+        {
+            "jp": "病気ことは病気だが、元気になるために治療を頑張っている。",
+            "romaji": "Byouki koto wa byouki da ga, genki ni naru tame ni chiryou wo ganbatte iru.",
+            "en": "Even though I'm sick, I'm putting in effort for my treatment in order to recover."
+        },
+        {
+            "jp": "彼女は美人ことは美人だが、性格が悪い。",
+            "romaji": "Kanojo wa bijin koto wa bijin da ga, seikaku ga warui.",
+            "en": "Although she is beautiful, her personality is bad."
+        }
+    ]
+}
+-----------------------------
+keyword: ～ないことはない
+PROMPT: Generate grammar explanation for following grammar point ～ないことはない
+RESPONSE: {
+    "title": "～ないことはない (nai koto wa nai)",
+    "short_explanation": "Indicate that something is possible or that there is no harm in doing something.",
+    "long_explanation": "The grammar point ～ないことはない expresses that something is possible or that there is no harm in doing something. It can be translated as 'there is no harm in doing', 'it's possible to', or 'there's nothing wrong with'. The formation is straightforward; simply attach ～ないことはない to the verb stem.",
+    "formation": "[Verb stem]-ないことはない",
+    "examples": [
+        {
+            "jp": "この店のラーメンは美味しくないことはない。",
+            "romaji": "Kono mise no raamen wa oishikunai koto wa nai.",
+            "en": "There's nothing wrong with the ramen at this restaurant."
+        },
+        {
+            "jp": "彼女と別れる必要はないけど、関係を修復する必要もある。",
+            "romaji": "Kanojo to wakareru hitsuyou wa nai kedo, kankei wo shuufuku suru hitsuyou mo aru.",
+            "en": "There's no need to break up with her, but there's a need to repair the relationship."
+        },
+        {
+            "jp": "彼に相談すれば解決することはないことはない。",
+            "romaji": "Kare ni soudan sureba kaiketsu suru koto wa nai koto wa nai.",
+            "en": "It's possible to solve it if you consult with him."
+        },
+        {
+            "jp": "ポケモンに勝つのは簡単じゃないけど、不可能なことはない。",
+            "romaji": "Pokemon ni katsu no wa kantan janai kedo, fukanou na koto wa nai.",
+            "en": "It's not easy to win against Pokemons, but it's not impossible."
+        }
+    ]
+}
+-----------------------------
+keyword: ～たところ
+PROMPT: Generate grammar explanation for following grammar point ～たところ
+RESPONSE: {
+    "title": "～たところ (ta tokoro)",
+    "short_explanation": "Indicates an action has just been completed or experienced.",
+    "long_explanation": "The grammar point ～たところ indicates that an action has just been completed or experienced. It is similar in meaning to 'just finished' or 'just now' in English. It is used with verbs in the past tense form.",
+    "formation": "Verb (past) + ところ",
+    "examples": [
+        {
+            "jp": "先生に会ったところです。",
+            "romaji": "Sensei ni atta tokoro desu.",
+            "en": "I have just met the teacher."
+        },
+        {
+            "jp": "駅に着いたところです。",
+            "romaji": "Eki ni tsuita tokoro desu.",
+            "en": "I have just arrived at the station."
+        },
+        {
+            "jp": "食べたところです。",
+            "romaji": "Tabeta tokoro desu.",
+            "en": "I have just finished eating."
+        },
+        {
+            "jp": "映画を見たところです。",
+            "romaji": "Eiga wo mita tokoro desu.",
+            "en": "I have just watched a movie."
+        }
+    ]
+}
+-----------------------------
+keyword: ～ところだった
+PROMPT: Generate grammar explanation for following grammar point ～ところだった
+RESPONSE: {
+    "title": "～ところだった (〜tokoro datta)",
+    "short_explanation": "To describe a situation that almost happened but didn't; 'was just about to', 'almost did', 'nearly happened'.",
+    "long_explanation": "The ～ところだった grammar point is used to describe a situation that almost happened but didn't. It can be translated as 'was just about to', 'almost did', or 'nearly happened' in English. The verb tense in ～ところだった is past tense, indicating that the situation was in the past.",
+    "formation": "Verb-た + ところだった, い-Adjective + ところだった, な-Adjective + だった + ところだった, Noun + だった + ところだった",
+    "examples": [
+        {
+            "jp": "駅についたところだったけど、電話が鳴って遅くなってしまった。",
+            "romaji": "Eki ni tsuita tokoro datta kedo, denwa ga natte osoku natte shimatta.",
+            "en": "I had just arrived at the station, but my phone rang and I ended up being late."
+        },
+        {
+            "jp": "試験に間に合うところだったが、車が故障してしまって遅れてしまった。",
+            "romaji": "Shiken ni ma ni au tokoro datta ga, kuruma ga koshou shite shimatte okurete shimatta.",
+            "en": "I was just about to make it to the exam, but my car broke down and I ended up being late."
+        },
+        {
+            "jp": "病院に行くところだったけど、風邪が治ったのでキャンセルした。",
+            "romaji": "Byouin ni iku tokoro datta kedo, kaze ga naotta node kyanseru shita.",
+            "en": "I was just about to go to the hospital, but I cancelled because my cold got better."
+        },
+        {
+            "jp": "ピザを注文するところだったけど、お金が足りなくてやめた。",
+            "romaji": "Piza wo chuumon suru tokoro datta kedo, okane ga tarinakute yameta.",
+            "en": "I was just about to order pizza, but I stopped because I didn't have enough money."
+        }
+    ]
+}
+-----------------------------
+keyword: ～てはじめて
+PROMPT: Generate grammar explanation for following grammar point ～てはじめて
+RESPONSE: {
+    "title": "～てはじめて ( ~te hajimete)",
+    "short_explanation": "Express that an action must be completed before something else can happen.",
+    "long_explanation": "The grammar point ～てはじめて is used to express that an action must be completed before something else can happen. It is often translated to 'only after doing...' or 'not until...', and is followed by the action that must take place before the main action can occur.",
+    "formation": "Verb-てform + はじめて",
+    "examples": [
+        {
+            "jp": "試験の勉強をしてはじめて合格できる。",
+            "romaji": "Shiken no benkyou wo shite hajimete goukaku dekiru.",
+            "en": "Only after studying for the exam can I pass it."
+        },
+        {
+            "jp": "彼女の気持ちを聞いてはじめて理解できた。",
+            "romaji": "Kanojo no kimochi wo kiite hajimete rikai dekita.",
+            "en": "Not until I heard her feelings could I understand."
+        },
+        {
+            "jp": "日本語を勉強してはじめてアニメが理解できるようになった。",
+            "romaji": "Nihongo wo benkyou shite hajimete anime ga rikai dekiru you ni natta.",
+            "en": "Only after studying Japanese could I understand anime."
+        },
+        {
+            "jp": "この本は漢字が読めてはじめて楽しめる。",
+            "romaji": "Kono hon wa kanji ga yomete hajimete tanoshimeru.",
+            "en": "I can only enjoy this book once I can read kanji."
+        }
+    ]
+}
+-----------------------------
+keyword: ～うちに
+PROMPT: Generate grammar explanation for following grammar point ～うちに
+RESPONSE: {
+    "title": "～うちに (~uchi ni)",
+    "short_explanation": "Express that an action should be done before a certain time or situation changes.",
+    "long_explanation": "The ～うちに grammar point is used to express that an action should be done before a certain time or situation changes. It is used to indicate that an action should be completed within a certain period of time, while a particular situation or state is still valid. It is often translated as 'before', 'while', or 'as long as' in English.",
+    "formation": "Verb-casual + うちに, Noun + の + うちに, い-Adjective + うちに, な-Adjective + な + うちに",
+    "examples": [
+        {
+            "jp": "家を出るうちに、鍵をかけて。",
+            "romaji": "Ie wo deru uchi ni, kagi wo kakete.",
+            "en": "Lock the door before leaving home."
+        },
+        {
+            "jp": "友達がいるうちに、遊びに行こう。",
+            "romaji": "Tomodachi ga iru uchi ni, asobi ni ikou.",
+            "en": "Let's go out and have fun while we still have friends around."
+        },
+        {
+            "jp": "太陽が出ているうちに、海に行こう。",
+            "romaji": "Taiyou ga dete iru uchi ni, umi ni ikou.",
+            "en": "Let's go to the beach while the sun is still shining."
+        },
+        {
+            "jp": "彼女がまだ怒っていないうちに、謝りに行こう。",
+            "romaji": "Kanojo ga mada okotte inai uchi ni, ayamari ni ikou.",
+            "en": "Let's go apologize to her before she gets angry."
+        }
+    ]
+}
+-----------------------------
+keyword: ～わけだ
+PROMPT: Generate grammar explanation for following grammar point ～わけだ
+RESPONSE: {
+    "title": "～わけだ (～wake da)",
+    "short_explanation": "Express a natural consequence; 'that means', 'so', 'therefore'.",
+    "long_explanation": "The ～わけだ grammar point is used to express a natural consequence based on given reason or situation. It conveys the meaning of 'that means', 'so', 'therefore' in English. This grammar point is used in casual conversation to show one's emotions, reasoning, and conclusion with confidence.",
+    "formation": "Verb-casual + わけだ, い-Adjective + わけだ, な-Adjective + なわけだ, Noun + なわけだ",
+    "examples": [
+        {
+            "jp": "時間に遅れたんだ。わけで、先に行っておいて。",
+            "romaji": "Jikan ni okuretan da. Wake de, saki ni itte oite.",
+            "en": "I was late for the appointment, so please go ahead of me."
+        },
+        {
+            "jp": "彼女が嫌なら、今度から誘わないわけだ。",
+            "romaji": "Kanojo ga iya nara, kondo kara sasowanai wake da.",
+            "en": "If she doesn't like it, I won't invite her again."
+        },
+        {
+            "jp": "今日は休日だったわけだから、ゆっくり寝られた。",
+            "romaji": "Kyou wa kyuujitsu datta wake dakara, yukkuri nerareta.",
+            "en": "Since it was a holiday today, I was able to sleep in."
+        },
+        {
+            "jp": "このレストランの人気は、美味しい料理が理由なわけだ。",
+            "romaji": "Kono resutoran no ninki wa, oishii ryouri ga riyuu na wake da.",
+            "en": "The reason for this restaurant's popularity is its delicious food."
+        }
+    ]
+}
+-----------------------------
+keyword: ～わけでわない
+PROMPT: Generate grammar explanation for following grammar point ～わけでわない
+RESPONSE: {
+    "title": "～わけではない (～wake dewa nai)",
+    "short_explanation": "Denies a previous assumption or statement; 'it's not really that...', 'it doesn't mean that...'",
+    "long_explanation": "The grammar point ～わけではない is used to deny a previous assumption or statement, often correcting a misunderstanding or misinterpretation. It can be translated as 'it's not really that...', 'it doesn't mean that...', or 'it's not the case that...' in English.",
+    "formation": "Noun + の + わけではない, い-Adjective + わけではない, な-Adjective + な + わけではない, Verb-plain negative form + わけではない",
+    "examples": [
+        {
+            "jp": "彼女が遅れたと言っても、怒るわけではない。",
+            "romaji": "Kanojo ga okureta to ittemo, okoru wake dewa nai.",
+            "en": "Just because she said she would be late, it doesn't mean I'm angry."
+        },
+        {
+            "jp": "今日休んだわけではない。",
+            "romaji": "Kyou yasunda wake dewa nai.",
+            "en": "It's not like I took the day off today."
+        },
+        {
+            "jp": "この本は読まなければならないわけではないが、おすすめです。",
+            "romaji": "Kono hon wa yomanakereba naranai wake dewa nai ga, osusume desu.",
+            "en": "It's not necessary to read this book, but I recommend it."
+        },
+        {
+            "jp": "彼が悪いわけではない。ただ、事情があるだけだ。",
+            "romaji": "Kare ga warui wake dewa nai. Tada, jijou ga aru dake da.",
+            "en": "It's not that he's bad. It's just that he has some circumstances."
+        }
+    ]
+}
+-----------------------------
+keyword: ～わけがない
+PROMPT: Generate grammar explanation for following grammar point ～わけがない
+RESPONSE: {
+    "title": "～わけがない (～wake ga nai)",
+    "short_explanation": "Express a firm denial or impossibility; 'there's no way', 'it's impossible that'.",
+    "long_explanation": "The ～わけがない grammar point is used to express a firm denial or impossibility. It can be translated as 'there's no way', 'it's impossible that', or 'it can't be true' in English. The construction usually takes the form of a verb in the plain negative form + わけがない.",
+    "formation": "Verb (negative) + わけがない",
+    "examples": [
+        {
+            "jp": "あの人が犯人ではわけがない。",
+            "romaji": "Ano hito ga hannin de wa wake ga nai.",
+            "en": "There's no way that person is the criminal."
+        },
+        {
+            "jp": "こんな高い店に行くわけがない。",
+            "romaji": "Konna takai mise ni iku wake ga nai.",
+            "en": "There's no way I'm going to a store that's this expensive."
+        },
+        {
+            "jp": "彼女が私のことを嫌いだというわけがない。",
+            "romaji": "Kanojo ga watashi no koto wo kirai da to iu wake ga nai.",
+            "en": "It's impossible that she hates me."
+        },
+        {
+            "jp": "こんな簡単な問題が解けないわけがない。",
+            "romaji": "Konna kantan na mondai ga tokenai wake ga nai.",
+            "en": "There's no way I can't solve such an easy problem."
+        }
+    ]
+}
+-----------------------------
+keyword: ～わけにわいかない
+PROMPT: Generate grammar explanation for following grammar point ～わけにわいかない
+RESPONSE: {
+    "title": "～わけにはいかない (～wake ni wa ikanai)",
+    "short_explanation": "Expresses that there is no option but to do something or not do something due to circumstances or obligations.",
+    "long_explanation": "The grammar point ～わけにはいかない is used to express a situation in which there is no option but to do something or not do something due to circumstances or obligations. It is often translated as 'cannot afford to', 'cannot possibly', 'cannot easily', or 'have to'. It is often used to explain why one cannot or must do something due to external circumstances or personal obligations.",
+    "formation": "Verb-casual + わけにはいかない\nい-Adjective + わけにはいかない\nな-Adjective + な + わけにはいかない\nNoun + である/だ + わけにはいかない",
+    "examples": [
+        {
+            "jp": "今日は会社で大事な会議があるから、遅刻するわけにはいかない。",
+            "romaji": "Kyou wa kaisha de daiji na kaigi ga aru kara, chikoku suru wake niwa ikanai.",
+            "en": "There is a crucial meeting at work today, so I cannot afford to be late."
+        },
+        {
+            "jp": "明日はテストだから、遊びに行くわけにはいかない。",
+            "romaji": "Ashita wa tesuto dakara, asobi ni iku wake niwa ikanai.",
+            "en": "I cannot go out and have fun tomorrow since there's a test."
+        },
+        {
+            "jp": "外は寒いし、風邪をひかないように、マスクをするわけにはいかない。",
+            "romaji": "Soto wa samui shi, kaze wo hikanai you ni, masuku wo suru wake niwa ikanai.",
+            "en": "It's cold outside and to avoid catching a cold, I have to wear a mask."
+        },
+        {
+            "jp": "学生時代に借りたお金を返せないわけにはいかない。",
+            "romaji": "Gakusei jidai ni karita okane wo kaesenai wake niwa ikanai.",
+            "en": "I cannot afford not to pay back the money I borrowed during my student days."
+        }
+    ]
+}
+-----------------------------
+keyword: 決して～ない
+PROMPT: Generate grammar explanation for following grammar point 決して～ない
+RESPONSE: {
+    "title": "決して～ない (kesshite~nai)",
+    "short_explanation": "Means 'never', emphasizes the negative meaning of a sentence.",
+    "long_explanation": "\"決して～ない\" (kesshite~nai) is a Japanese grammar point that is used to emphasize the negative meaning of a sentence. It can be translated as 'never' or 'by no means' and is often used to convey a strong sense of denial. The word \"決して\" (kesshite) itself means \"by no means\", \"never\" or \"absolutely not\". This grammar is used to strongly express the speaker's denial or negation of an action.",
+    "formation": "決して + Verb-negative",
+    "examples": [
+        {
+            "jp": "あの人とは決して結婚したくない。",
+            "romaji": "Ano hito to wa kesshite kekkon shitakunai.",
+            "en": "I never want to marry that person."
+        },
+        {
+            "jp": "私は決して彼のようにはなりたくない。",
+            "romaji": "Watashi wa kesshite kare no you ni wa naritakunai.",
+            "en": "I never want to become like him."
+        },
+        {
+            "jp": "彼は決して嘘をつかない。",
+            "romaji": "Kare wa kesshite uso wo tsukanai.",
+            "en": "He never tells a lie."
+        },
+        {
+            "jp": "彼女は決してあきらめないで成功するだろう。",
+            "romaji": "Kanojo wa kesshite akiramenai de seikou suru darou.",
+            "en": "She will never give up and succeed."
+        }
+    ]
+}
+-----------------------------
+keyword: まったく～ない
+PROMPT: Generate grammar explanation for following grammar point まったく～ない
+RESPONSE: {
+    "title": "まったく～ない (mattaku~nai)",
+    "short_explanation": "Means 'not at all', 'completely not'.",
+    "long_explanation": "The まったく～ない (mattaku~nai) grammar point is used to express that something is completely not in a certain state or condition. It can be translated to 'not at all' or 'completely not' in English. This grammar point is formed by adding まったく (mattaku) meaning 'completely' to the negative form of the verb or adjective.",
+    "formation": "[Negative verb/adj. stem] + まったく + ない",
+    "examples": [
+        {
+            "jp": "彼女はまったくその映画を知らない。",
+            "romaji": "Kanojo wa mattaku sono eiga wo shiranai.",
+            "en": "She does not know the movie at all."
+        },
+        {
+            "jp": "私はまったく日本語が話せません。",
+            "romaji": "Watashi wa mattaku nihongo ga hanasemasen.",
+            "en": "I cannot speak Japanese at all."
+        },
+        {
+            "jp": "彼の話はまったく面白くなかった。",
+            "romaji": "Kare no hanashi wa mattaku omoshirokunakatta.",
+            "en": "His story was not interesting at all."
+        },
+        {
+            "jp": "あの店のラーメンはまったくおいしくなかった。",
+            "romaji": "Ano mise no raamen wa mattaku oishikunakatta.",
+            "en": "The ramen at that shop was not delicious at all."
+        }
+    ]
+}
+-----------------------------
+keyword: めったにない
+PROMPT: Generate grammar explanation for following grammar point めったにない
+RESPONSE: {
+    "title": "めったにない (metta ni nai)",
+    "short_explanation": "means 'rarely' or 'seldom', indicates an event that happens very rarely or almost never.",
+    "long_explanation": "The grammar point めったにない (metta ni nai) is used to indicate an event that happens very rarely or almost never. It's similar to the English words 'rarely' or 'seldom'. It can be used with both verbs and adjectives.",
+    "formation": "Verb/い-Adjective stem + めったにない",
+    "examples": [
+        {
+            "jp": "私はめったにコーヒーを飲まない。",
+            "romaji": "Watashi wa metta ni kouhii wo nomanai.",
+            "en": "I seldom drink coffee."
+        },
+        {
+            "jp": "彼はめったに遅刻しない。",
+            "romaji": "Kare wa metta ni chikoku shinai.",
+            "en": "He rarely comes late."
+        },
+        {
+            "jp": "この辺りではめったに雪が降らない。",
+            "romaji": "Kono atari de wa metta ni yuki ga furanai.",
+            "en": "It seldom snows around here."
+        },
+        {
+            "jp": "彼女はめったに怒らない。",
+            "romaji": "Kanojo wa metta ni okoranai.",
+            "en": "She rarely gets angry."
+        }
+    ]
+}
+-----------------------------
+keyword: すこしも～ない
+PROMPT: Generate grammar explanation for following grammar point すこしも～ない
+RESPONSE: {
+    "title": "すこしも～ない (sukoshi mo ~nai)",
+    "short_explanation": "Means 'not at all' or 'not even a little bit'.",
+    "long_explanation": "'すこしも～ない' is a Japanese JLPT N3 grammar point that means 'not at all' or 'not even a little bit'. It is used to emphasize the degree of negation. The basic structure of this grammar point is to add the negative ない form of a verb or adjective after 'すこしも'.",
+    "formation": "すこしも + Verb-ない form / い-Adjective-くない / な-Adjective-ではない",
+    "examples": [
+        {
+            "jp": "私はすこしも怒っていない。",
+            "romaji": "Watashi wa sukoshimo okotte inai.",
+            "en": "I am not even a little bit angry."
+        },
+        {
+            "jp": "このスープはすこしも美味しくない。",
+            "romaji": "Kono suupu wa sukoshimo oishikunai.",
+            "en": "This soup is not delicious at all."
+        },
+        {
+            "jp": "サッカーはすこしも面白くない。",
+            "romaji": "Sakkaa wa sukoshimo omoshirokunai.",
+            "en": "Soccer is not even a little bit interesting."
+        },
+        {
+            "jp": "彼女はすこしも疲れていない。",
+            "romaji": "Kanojo wa sukoshimo tsukarete inai.",
+            "en": "She is not tired at all."
+        }
+    ]
+}
+-----------------------------
+keyword: ～それと～
+PROMPT: Generate grammar explanation for following grammar point ～それと～
+RESPONSE: {
+    "title": "～それと～ (soreto)",
+    "short_explanation": "Express a separate action or item to be added to a list of actions/items.",
+    "long_explanation": "The ～それと～ grammar point is used to express a separate action or item to be added to a list of actions or items that have already been mentioned or are implied. It can be translated as 'and also' or 'in addition'. The second action or item is usually of equal importance to the previous ones, and the two are often related in some way.",
+    "formation": "Noun/Verb-ます stem + それと",
+    "examples": [
+        {
+            "jp": "私は昨日、買い物に行って、それと図書館にも行きました。",
+            "romaji": "Watashi wa kinou, kaimono ni itte, soreto toshokan ni mo ikimashita.",
+            "en": "Yesterday, I went shopping, and I also went to the library."
+        },
+        {
+            "jp": "今晩は、映画を見て、それと夕食も作ります。",
+            "romaji": "Konban wa, eiga wo mite, soreto yuushoku mo tsukurimasu.",
+            "en": "Tonight, we will watch a movie, and also make dinner."
+        },
+        {
+            "jp": "あの人は、英語が上手で、それとフランス語も話せます。",
+            "romaji": "Ano hito wa, eigo ga jouzu de, soreto furansugo mo hanasemasu.",
+            "en": "That person is good at English, and also speaks French."
+        },
+        {
+            "jp": "私はこの本について、話すことができます。それと、この作家の他の作品も知っています。",
+            "romaji": "Watashi wa kono hon ni tsuite, hanasu koto ga dekimasu. Soreto, kono sakka no hoka no sakuhin mo shitteimasu.",
+            "en": "I can talk about this book, and I also know the other works of this author."
+        }
+    ]
+}
+-----------------------------
+keyword: ～？それとも～？
+PROMPT: Generate grammar explanation for following grammar point ～？それとも～？
+RESPONSE: {
+    "title": "～？それとも～？(～? Soretomo ～?)",
+    "short_explanation": "Expresses a choice between two options, 'or' in English.",
+    "long_explanation": "'～？それとも～？' is a Japanese grammar pattern that is used to express a choice between two options or alternatives. It is similar to the English conjunction 'or'. The question particle 'か' is not used in this pattern.",
+    "formation": "Phrase 1 + ？ それとも + Phrase 2",
+    "examples": [
+        {
+            "jp": "あなたは野菜が好きですか？それとも肉が好きですか？",
+            "romaji": "Anata wa yasai ga suki desu ka? Soretomo niku ga suki desu ka?",
+            "en": "Do you like vegetables or meat?",
+        },
+        {
+            "jp": "私たちはビーチで泳ぐことができますか？それともプールで泳ぐことができますか？",
+            "romaji":"Watashitachi wa biichi de oyogu koto ga dekimasu ka? Soretomo puuru de oyogu koto ga dekimasu ka?",
+            "en":"Can we swim on the beach or in the pool?",
+        },
+        {
+           "jp": "明日は早起きして勉強しようか？それともゆっくり寝てしまおうか？",
+           "romaji": "Ashita wa hayaoki shite benkyou shiyou ka? Soretomo yukkuri nete shimaou ka?",
+           "en": "Should I wake up early and study tomorrow or sleep in?",
+        },
+        {
+            "jp": "明日は雨が降るかもしれません。それとも傘を持って行かないほうがいいですか？",
+            "romaji": "Ashita wa ame ga furu kamoshiremasen. Soretomo kasa wo motte ikanai hou ga ii desu ka?",
+            "en": "It may rain tomorrow. Should I still bring an umbrella or is it better not to?",
+        }
+    ]
+}
+-----------------------------
+keyword: Aその上 B
+PROMPT: Generate grammar explanation for following grammar point Aその上 B
+RESPONSE: {
+    "title": "Aその上B (A sono ue B)",
+    "short_explanation": "Aその上B expresses the idea of 'To make matters worse' or 'On top of that'.",
+    "long_explanation": "Aその上B is a conjunction used to express one event or situation that occurs on top of another. It is often used to convey the idea of 'To make matters worse' or 'On top of that' in English",
+    "formation": "A (phrase/sentence) + その上 + B (phrase/sentence)",
+    "examples": [
+        {
+            "jp": "今日は試験がある。その上、風邪を引いた。",
+            "romaji": "Kyou wa shiken ga aru. Sono ue, kaze wo hiita.",
+            "en": "I have an exam today. On top of that, I caught a cold."
+        },
+        {
+            "jp": "道が渋滞していた。その上、車が壊れてしまった。",
+            "romaji": "Michi ga juutai shite ita. Sono ue, kuruma ga kowarete shimatta.",
+            "en": "The road was jammed. On top of that, the car broke down."
+        },
+        {
+            "jp": "雨が降っている。その上、風も強い。",
+            "romaji": "Ame ga futte iru. Sono ue, kaze mo tsuyoi.",
+            "en": "It's raining. On top of that, it's windy."
+        },
+        {
+            "jp": "彼は忙しい。その上、家族のことも心配している。",
+            "romaji": "Kare wa isogashii. Sono ue, kazoku no koto mo shinpai shite iru.",
+            "en": "He is busy. On top of that, he is also worried about his family."
+        }
+    ]
+}
+-----------------------------

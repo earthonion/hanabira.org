@@ -1,0 +1,314 @@
+CLI param:  駐
+--- Response text: ---
+{"kanji": "駐", "kanji_simplified": "チュウ", "kanji_romaji": "chuu", "kanji_meaning": "stop, station, remain", "mnemonics": "Picture a person CHUcking a ball to stop it in its tracks.", "sentence_japanese": "彼は軍隊に駐留しています。", "sentence_romaji": "Kare wa guntai ni chuuryuu shite imasu.", "sentence_translation": "He is stationed in the military.", "kanji_origin": "The kanji 駐 is composed of the characters 馬 (uma, “horse”) and 止 (to, “stop”).", 
+"kanji_meaning": "The kanji 駐 means “stop” or “station”.", 
+"kanji_info": "The kanji 駐 can also be used to refer to a foreign embassy or consulate in Japan.", 
+"compound_words": [{"word": "駐車場", "romaji": "chuushajou", "translation": "parking lot"},{"word": "駐在", "romaji": "chuuzai", 
+"translation": 
+"stationed"},{"word": 
+"駐留", 
+"romaji": 
+"chuuryuu", 
+"translation": 
+"stationing"}], 
+"kanji_examples": [{"expression":"駐車場","romaji":"chuushajou","translation":"parking lot"},{"expression":"駐在","romaji":"chuuzai","translation":"stationed"},{"expression":"駐留","romaji":"chuuryuu","translation":"stationing"}]}
+-----------------------------
+CLI param:  満
+--- Response text: ---
+{"kanji": "満","kanji_simplified": "マン","kanji_romaji": "man","kanji_meaning": "full, satisfied, sufficient","mnemonics": "The kanji 満 is composed of two parts: 水 (mizu, water) and 半 (han, half). The image of a cup of water that is full to the brim can help you remember the meaning of this kanji.","sentence_japanese": "彼は食べ物が満足しています。","sentence_romaji": "Kare wa tabemono ga manzoku shite imasu.","sentence_translation": "He is satisfied with the food.","kanji_origin": "The origin of this kanji is from a pictograph of a full cup or bowl of water.","kanji_meaning": "This kanji means “full” or “satisfied” in Japanese.","kanji_info": "This kanji is also used to express the idea of “sufficient” or “enough.”","compound_words": [{"word": "満足", "romaji": "manzoku", "tranlation": "satisfaction"},{"word": "満月", "romaji": "mangetsu", "translation": "full moon"},{"word": "満員", "romaji": "manin", "translation": "full capacity"}],"kanji_examples": [{"expression": "満足感", "romaji": "manzokukan", "translation": "a feeling of contentment"},{"expression": "満たされない", "romaji":
+-----------------------------
+CLI param:  禁
+--- Response text: ---
+{"kanji": "禁","kanji_simplified": "キン","kanji_romaji": "kin","kanji_meaning": "prohibition, forbidden","mnemonics": "A picture of a key inside a circle, to represent the idea of something being locked away and forbidden.","sentence_japanese": "彼女は禁止されたことをしています。","sentence_romaji": "Kanojo wa kinshi sareta koto o shite imasu.","sentence_translation": "She is doing something that is forbidden.","kanji_origin": "The kanji 禁 is composed of two parts: 示, which means “to show”, and 京, which means “capital”. Together they form the meaning of “to show prohibition” or “to forbid”.","kanji_meaning": "The kanji 禁 means “prohibition” or “forbidden”. It is used to express the idea of something being off-limits or not allowed.","kanji_info": "The kanji 禁 is commonly seen in words such as 禁止 (kinshi) meaning “prohibition” and 禁制 (kinsei) meaning “restriction”.","compound_words": [{"word": "禁止", "romaji": "kinshi", "tranlation": "prohibition"},{"word": "禁制", "romaji": "kinsei", "translation": "restriction"},{"word": "禁断", "romaji": "kindan", "translation":"forbidden"}],"kanji_examples": [{"expression": "禁じる", "romaji": "kinjiru", 
+"translation":"to prohibit"},{"expression":"禁句", 
+"romaji":"kinku","translation":"taboo word"},{"expression":"禁ずる", 
+"romaji":"kinzuru","translation":"to forbid"}]}
+-----------------------------
+CLI param:  関
+--- Response text: ---
+{"kanji": "関","kanji_simplified": "カン","kanji_romaji": "kan","kanji_meaning": "relation, connection, barrier","mnemonics": "Picture a 'Kan'dle in between two people to represent the connection between them.","sentence_japanese": "彼は関係者にメールを送りました。","sentence_romaji": "Kare wa kankeisha ni meeru o okurimashita.","sentence_translation": "He sent an email to the relevant parties.","kanji_origin": "The kanji is made up of two parts: 'door' and 'connect'. It originally referred to a door or gate connecting two places.","kanji_meaning": "The kanji 関 means relation, connection, or barrier. It can also refer to a person who is in charge of a certain area of responsibility.","kanji_info": "This kanji is used in many words related to relationships and connections. It is also used in words related to government and politics.","compound_words": [{"word": "関係", "romaji": "kankei", "translation": "relationship"},{"word": "関心", "romaji": "kanshin", "translation": "interest"},{"word": "関税", "romaji": "kanshuu", "translation":"tax"}],"kanji_examples": [{"expression": "関係者", 	"romaji":"kankeisha", 	"translation":"relevant parties"},{"expression":"関わる", 	"romaji":"kawaru", 	"translation":"to be involved"},{"expression":"関心事", 	"romaji":"kanshinchi", 	"translation":"concern"}]}
+-----------------------------
+CLI param:  式
+--- Response text: ---
+{"kanji": "式","kanji_simplified": "シキ","kanji_romaji": "shiki","kanji_meaning": "ceremony, style, form, rule","mnemonics": "The kanji 式 looks like a person bowing in a ceremony, suggesting the meaning 'ceremony' or 'formal occasion.'","sentence_japanese": "結婚式を開催しました。","sentence_romaji": "Kekkonshiki o kaisa shimashita.","sentence_translation": "We held a wedding ceremony.","kanji_origin": "The kanji 式 is believed to have originated from a pictograph of a person in a formal bow.","kanji_meaning": "The kanji 式 can mean 'ceremony', 'style', 'form', or 'rule'.","kanji_info": "The kanji 式 is often used in combination with other kanji to form words related to ceremonies and rules.","compound_words": [{"word": "式典", "romaji": "shikiten", "translation": "ceremony"},{"word": "式場", "romaji": "shikijou", "translation": "ceremony hall"},{"word": "正式", "romaji": "seishiki", "translation": "formal"}],
+"kanji_examples": [{"expression":"挨拶式", 
+"romaji":"aisatsushiki", 
+"translation":"greeting ceremony"}, 
+{"expression":"定式", 
+"romaji":"teishiki", 
+"translation":"fixed form"}, 
+{"expression":"法式", 
+"romaji":"houshiki", 
+"translation":"law, rule"}]}
+-----------------------------
+CLI param:  信
+--- Response text: ---
+{"kanji": "信","kanji_simplified": "シン","kanji_romaji": "shin","kanji_meaning": "belief, faith, trust","mnemonics": "The kanji '信' looks like a person with their arms outstretched, as if to say 'I believe in you.'","sentence_japanese": "私は彼の話を信じています。","sentence_romaji": "Watashi wa kare no hanashi o shinjite imasu.","sentence_translation": "I believe his story.","kanji_origin": "The kanji '信' is made up of two parts: '人' (person) and '言' (speech). Together, they represent the idea of trusting someone's words.","kanji_meaning": "The kanji '信' means 'belief', 'faith', or 'trust'. It is used to express the idea of believing in someone or something.","kanji_info": "The kanji '信' is a common character in Japanese. It is also used in Chinese and Korean.","compound_words": [{"word": "信頼", "romaji": "shinrai", "translation": "trust"},{"word": "信念", "romaji": "shinnen", "translation": "belief"},{"word": "信用", "romaji": "shin'you", "translation":"credit"}],
+"kanji_examples":[{"expression":"信じる", 
+"romaji":"shinjiru", 
+"translation":"to believe"}, 
+{"expression":"信頼する", 
+"romaji":"shinrai suru", 
+"translation":"to trust"}, 
+{"expression":"不信任", 
+"romaji":"fushin'nin", 
+"translation":"distrust"}]}
+-----------------------------
+CLI param:  号
+--- Response text: ---
+{"kanji": "号","kanji_simplified": "ゴウ","kanji_romaji": "gou","kanji_meaning": "number, edition, model, name, title","mnemonics": "Imagine a number written in a circle - the circle is 口 and the number is 号","sentence_japanese": "彼は新しい車の号を買った。","sentence_romaji": "Kare wa atarashii kuruma no gou o katta.","sentence_translation": "He bought a new car model.","kanji_origin": "The kanji 号 is composed of two components. The left component, 口 (kuchi), means “mouth” and the right component, 十 (juu), means “ten”. Together they form the meaning “to designate by number” or “number”.","kanji_meaning": "The kanji 号 means “number” or “edition” and can be used to refer to a specific model of something or a specific name or title.","kanji_info": "The kanji 号 can be used in many contexts such as referring to a specific edition of a book or magazine, a specific model of car, or even a specific name or title.","compound_words": [{"word": "号外", "romaji": "gougai", "tranlation": "extra edition"},{"word": "号室", "romaji": "goushitsu", "translation": "waiting room"},{"word": "号令", "romaji": "gouryou", "translation": "order"}],
+"kanji_examples":[ {"expression":"号碼", 
+"romaji":"gouma", 
+"translation":"number"}, 
+{"expression":"号泣", 
+"romaji":"goukyuu", 
+"translation":"weeping loudly"}, 
+{"expression":"号令", 
+"romaji":"gouryou", 
+"translation":"order"}]}
+-----------------------------
+CLI param:  非
+--- Response text: ---
+{"kanji": "非","kanji_simplified": "フィ","kanji_romaji": "fi","kanji_meaning": "not, un-","mnemonics": "The kanji 非 looks like a person with their arms crossed in an 'X' shape, which can be used to represent 'not' or 'un-","sentence_japanese": "彼は非常に忙しいです。","sentence_romaji": "Kare wa hijou ni isogashii desu.","sentence_translation": "He is very busy.","kanji_origin": "The kanji 非 is derived from the Chinese character 非, which was originally composed of two radicals: “person” and “not”. The “person” radical was later replaced by the “mouth” radical, giving the character its current form.","kanji_meaning": "The kanji 非 is used to express negation or prohibition.","kanji_info": "The kanji 非 is also used as a prefix for words such as 非常 (hijou) meaning ‘unusual’ or ‘emergency’ and 非難 (hinan) meaning ‘criticism’.","mnemonics": "Think of a person with their arms crossed in an 'X' shape to represent 'not' or 'un-' when you see the kanji 非.","compound_words": [{"word": "非常", "romaji": "hijou", "translation": "unusual"},{"word": "非難", "romaji": "hinan", "translation": "criticism"},{"word": "非公開", "romaji": "hikoukai", "translation":"non-disclosure"}],
+"kanji_examples":[{"expression":"非常識", 
+"romaji":"hijoushiki", 
+"translation":"common sense"},{"expression":"非難する", 
+"romaji":"hinan suru", 
+"translation":"to criticize"},{"expression":"非公開です", 
+"romaji":"hikoukai desu", 
+"translation":"It's not public"}]}
+-----------------------------
+CLI param:  常
+--- Response text: ---
+{"kanji": "常","kanji_simplified": "ジョウ","kanji_romaji": "jou","kanji_meaning": "constant, regular, usual","mnemonics": "The kanji 常 looks like a person walking in a regular pattern.","sentence_japanese": "彼は毎日常に運動しています。","sentence_romaji": "Kare wa mainichi jou ni undou shite imasu.","sentence_translation": "He exercises regularly every day.","kanji_origin": "The kanji 常 is composed of the characters for 'person' and 'walk.'","kanji_info": "The kanji 常 can be used to indicate something that is done regularly or something that is always the same.","compound_words": [{"word": "常識", "romaji": "joushiki", "translation": "common sense"},{"word": "常識的", "romaji": "joushikiteki", "translation": "common sense"},{"word": "常に", "romaji": "tsune ni", 
+"translation":"always"}],"kanji_examples":[{"expression":"常識的", 
+"romaji":"joushikiteki", 
+"translation":"common sense"},{"expression":"常に考える", 
+"romaji":"tsune ni kangaeru", 
+"translation":"to always think about it"},{"expression":"常識外れの", 
+"romaji":"joushiki hazure no", 
+"translation":"out of the ordinary"}]}
+-----------------------------
+CLI param:  階
+--- Response text: ---
+{"kanji": "階","kanji_simplified": "カイ","kanji_romaji": "kai","kanji_meaning": "floor, storey, rank","mnemonics": "Picture a staircase with many 'KAI's (floors)","sentence_japanese": "彼女は１０階の部屋に住んでいます。","sentence_romaji": "Kanojo wa juu-kai no heya ni sunde imasu.","sentence_translation": "She lives in a room on the 10th floor.","kanji_origin": "The kanji 階 is composed of two parts; the upper part is a pictograph of a staircase and the lower part is an ideograph of a person standing on the stairs.","kanji_info": "The kanji 階 can also be used to mean rank or position in society or in an organization.","compound_words": [{"word": "階段", "romaji": "kaidan", "translation": "stairs"},{"word": "階級", "romaji": "kaikyuu", "translation": "class, rank"},{"word": "階層", "romaji": "kaisou", "translation":"hierarchy"}],"kanji_examples":[{"expression":"階下", 
+"romaji":"kaika", 
+"translation":"downstairs"},
+{"expression":"３階", 
+"romaji":"san-kai", 
+"translation":"third floor"},
+{"expression":"上階", 
+"romaji":"joukai", 
+"translation":"upper floor"}]}
+-----------------------------
+CLI param:  段
+--- Response text: ---
+{"kanji": "段","kanji_simplified": "ダン","kanji_romaji": "dan","kanji_meaning": "step, grade, rank","mnemonics": "Imagine a staircase with many steps (段) to reach the top.","sentence_japanese": "彼は試験で高い段位を取った。","sentence_romaji": "Kare wa shiken de takai dan'i o totta.","sentence_translation": "He got a high rank in the exam.","kanji_origin": "The kanji 段 is composed of the radical 一 (one) and the character 立 (stand). Together, they form the meaning “to stand in a row” or “rank.”","kanji_meaning": "The kanji 段 means “step” or “grade.” It can also refer to a “rank” or “level.”","kanji_info": "The kanji 段 is used in words such as 段階 (dankai – step, stage), 段取り (dandori – plan, arrangement), and 段落 (danraku – paragraph).","compound_words": [{"word": "段階", "romaji": "dankai", "translation": "stage, step"},{"word": "段取り", "romaji": "dandori", "translation": "plan, arrangement"},{"word": "段落", "romaji": "danraku", "translation": "paragraph"}],"kanji_examples":[{"expression":"等級段", 
+"romaji":"toukyuu dan", 
+"translation":"grade level"},{"expression":"段階的", 
+"romaji":"dankaiteki", 
+"translation":"gradual"},{"expression":"段々と", 
+"romaji":"dandan to", 
+"translation":"gradually"}]}
+-----------------------------
+CLI param:  箱
+--- Response text: ---
+{"kanji": "箱","kanji_simplified": "ハコ","kanji_romaji": "hako","kanji_meaning": "box, chest, container","mnemonics": "Imagine a box with a handle (糸) on top and two sides (亠) that open up.","sentence_japanese": "彼女は箱を開けた。","sentence_romaji": "Kanojo wa hako o aketa.","sentence_translation": "She opened the box.","kanji_origin": "The kanji 箱 is composed of the characters 糸 (ito, thread) and 亠 (kō, lid). It is thought to represent an open box with a handle on top.","kanji_meaning": "The kanji 箱 means “box” or “container” and is used to refer to any kind of box or container.","kanji_info": "The kanji 箱 is also used in words such as 箱入り (hakoiri, boxed), 箱根 (Hakone, a town in Japan), and 箱庭 (hakoniwa, a miniature garden).","compound_words": [{"word": "箱入り", "romaji": "hakoiri", "translation": "boxed"},{"word": "箱根", "romaji": "Hakone", "translation": "a town in Japan"},{"word": "箱庭", "romaji": "hakoniwa", "translation": "a miniature garden"}],"kanji_examples":[{"expression":"箱を開ける","romaji":"hako o akeru","translation":"to open a box"},{"expression":"箱庭を作る","romaji":"hakoniwa o tsukuru","translation":"to make a miniature garden"},{"expression":"箱の中身を見る","romaji":"hako no nakami o miru","translation":"to look inside the box"}]}
+-----------------------------
+CLI param:  険
+--- Response text: ---
+{"kanji": "険","kanji_simplified": "ケン","kanji_romaji": "ken","kanji_meaning": "steep, precipitous","mnemonics": "Imagine a steep mountain with a sharp peak (険) at the top.","sentence_japanese": "その山は険しいです。","sentence_romaji": "Sono yama wa ken shii desu.","sentence_translation": "That mountain is steep.","kanji_origin": "The kanji 険 is composed of the characters for 'mountain' (山) and 'blade' (刃), suggesting a sharp peak on a mountain.","kanji_meaning": "The kanji 険 means 'steep' or 'precipitous'.","kanji_info": "The kanji 険 is used in words such as 険しい (ken shii, steep) and 険悪 (kenaku, severe).","compound_words": [{"word": "険峻", "romaji": "kenshun", "tranlation": "steep and rugged"},{"word": "険悪", "romaji": "kenaku", "translation": "severe"},{"word": "険然", "romaji": "kenzen", "translation":"severely"}],"kanji_examples":[{"expression":"険しい山", 	"romaji":"kenshii yama", 	"translation":"a steep mountain"},{"expression":"険しい道", 	"romaji":"kenshii michi", 	"translation":"a steep road"},{"expression":"険しい表情", 	"romaji":"kenshii hyoujou", 	"translation":"a stern expression"}]}
+-----------------------------
+CLI param:  捨てる
+--- Response text: ---
+{"kanji": "捨てる","kanji_simplified": "ステル","kanji_romaji": "suteru","kanji_meaning": "to discard, to throw away","mnemonics": "The kanji 捨 looks like a person throwing something away with their hands.","sentence_japanese": "私は古い服を捨てました。","sentence_romaji": "Watashi wa furui fuku o sutemashita.","sentence_translation": "I threw away the old clothes.","kanji_origin": "The kanji 捨 is composed of the radicals 手 (hand) and 寸 (measurement). It literally means “to measure out with the hands.”","kanji_meaning": "The kanji 捨 means “to discard, to throw away”.","kanji_info": "This kanji is often used in combination with other characters to form words such as “to abandon” (捨てる) or “to give up” (捨て台).","compound_words": [{"word": "捨て去る", "romaji": "sutesaru", "translation": "to discard, to throw away"},{"word": "捨象得難", "romaji": "setsugotogan", "translation": "hard to decide"},{"word": "捨身", "romaji": "seshin", "translation":"self-sacrifice"}],"kanji_examples":[{"expression":"捨てるな", 	"romaji":"suteruna", 	"translation":"don't throw it away"},{"expression":"捨てられない", 	"romaji":"suterarenai", 	"translation":"can't be thrown away"},{"expression":"捨て入れる", 	"romaji":"suteireru", 	"translation":"to discard"}]}
+-----------------------------
+CLI param:  線
+--- Response text: ---
+{"kanji": "線", "kanji_simplified": "セン", "kanji_romaji": "sen", "kanji_meaning": "line, wire, beam", "mnemonics": "Imagine a line drawn between two points, like a wire connecting two places.", "sentence_japanese": "彼女は鉛筆で直線を描いた。", "sentence_romaji": "Kanojo wa enpitsu de chokusen o egaita.", "sentence_translation": "She drew a straight line with a pencil.", "kanji_origin": "The kanji 線 is derived from the Chinese characters 糸 (thread) and 申 (extend).", 
+"kanji_meaning": "The kanji 線 means 'line' or 'wire'. It can also refer to a beam of light or an electrical connection.", 
+"kanji_info": "The kanji 線 is used in many compound words such as 折れ線 (oresen, broken line), 平行線 (heikousen, parallel lines), and 直線 (chokusen, straight line).", 
+"mnemonics": "Think of a line drawn between two points like a wire connecting two places.", 
+"compound_words": [{"word": "折れ線", "romaji": "oresen", "translation": "broken line"}, {"word": "平行線", 
+"romaji": "heikousen", 
+"translation": "parallel lines"}, {"word": "直線", 
+"romaji": "chokusen", 
+"translation": "straight line"}], 
+"kanji_examples": [{"expression":"電車の軌道線","romaji":"densha no kidousen","translation":"the train's track"}, {"expression":"赤い縁取り線","romaji":"akai enjirisen","translation":"red border lines"}, {"expression":"音声伝送線","romaji":"onsei dentsonsen","translation":"sound transmission line"}]}
+-----------------------------
+CLI param:  面
+--- Response text: ---
+{"kanji": "面","kanji_simplified": "メン","kanji_romaji": "men","kanji_meaning": "face, surface, mask","mnemonics": "Picture a face with two eyes and a mouth (面)","sentence_japanese": "彼女は美しい面をしています。","sentence_romaji": "Kanojo wa utsukushii men o shite imasu.","sentence_translation": "She has a beautiful face.","kanji_origin": "The kanji 面 is believed to have originated from a pictograph of a face.","kanji_meaning": "The kanji 面 can mean “face”, “surface”, or “mask”.","kanji_info": "The kanji 面 is used in many words and expressions related to the face, such as 顔面 (kamen) which means “face”, 表面 (hyomen) which means “surface”, and 仮面 (kamen) which means “mask.”","compound_words": [{"word": "表面", "romaji": "hyomen", "translation": "surface"},{"word": "仮面", "romaji": "kamen", "translation":"mask"},{"word": "顔面", "romaji":"kamen",  "translation":"face"}],"kanji_examples":[{"expression":"素顔",  "romaji":"sugao",  "translation":"true face"},{"expression":"表情",  "romaji":"hyoujou",  "translation":"expression"},{"expression":"顔色",  "romaji":"kaoiro",  "translation":"complexion"}]}
+-----------------------------
+CLI param:  普
+--- Response text: ---
+{"kanji": "普","kanji_simplified": "フ","kanji_romaji": "fu","kanji_meaning": "general, universal","mnemonics": "Think of 'F' as in 'Frequent' and 'U' as in 'Universal' - 'Frequent Universal',"sentence_japanese": "普通の話はよく聞かれます。","sentence_romaji": "Futsuu no hanashi wa yoku kikaremasu.","sentence_translation": "Ordinary conversations are often heard.","kanji_origin": "This kanji is made up of two parts: 日 (sun, day) and 不 (not, negative). It originally meant “not on a particular day”, but evolved to mean “general” or “universal”.","kanji_meaning": "The kanji 普 means “general” or “universal”.","kanji_info": "The kanji 普 is often used in words related to the idea of something being widespread or common. It is also used in words related to the idea of something being done regularly or frequently.","mnemonics": "Think of 'Frequent Universal' when you see this kanji.","compound_words": [{"word": "普通", "romaji": "futsuu", "translation": "common, ordinary"},{"word": "普及", "romaji": "fukyuu", "translation": "spread, diffusion"},{"word": "普段", "romaji":"fudan", 	"translation":"usual, everyday"}],"kanji_examples":[{"expression":"普遍的な", 	"romaji":"fuben-tekina", 	"translation":"universal"},{"expression":"普及率", 	"romaji":"fukyuu-ritsu", 	"translation":"rate of diffusion"},{"expression":"普段着", 	"romaji":"fudangi", 	"translation":"everyday clothes"}]}
+-----------------------------
+CLI param:  各
+--- Response text: ---
+{"kanji": "各","kanji_simplified": "カク","kanji_romaji": "kaku","kanji_meaning": "each, every","mnemonics": "Picture a kangaroo hopping around with each of its feet touching the ground one at a time.","sentence_japanese": "各自、自分の仕事をしてください。","sentence_romaji": "Kakuji, jibun no shigoto o shite kudasai.","sentence_translation": "Everyone, please do your own work.","kanji_origin": "The kanji is composed of two parts: 'person' and 'mouth'. Together they mean 'everyone's mouth' or 'everyone's opinion.'","kanji_meaning": "The kanji 各 means 'each' or 'every'. It is used to refer to all members of a group.","kanji_info": "The kanji 各 is used in many words such as 各自 (kakuji; each individual), 各国 (kakukoku; each country), and 各種 (kakushu; each kind).","compound_words": [{"word": "各国", "romaji": "kakukoku", "translation": "each country"},{"word": "各種", "romaji": "kakushu", "translation": "each kind"},{"word": "各位", "romaji": "kakui", "translation":"everyone"}],
+"kanji_examples":[{"expression":"各地", 
+"romaji":"kakuchi", 
+"translation":"everywhere"},{"expression":"各社", 
+"romaji":"kakusha", 
+"translation":"each company"},{"expression":"各自", 
+"romaji":"kakuji", 
+"translation":"each individual"}]}
+-----------------------------
+CLI param:  快
+--- Response text: ---
+{"kanji": "快","kanji_simplified": "カイ","kanji_romaji": "kai","kanji_meaning": "pleasure, joy, comfort","mnemonics": "The kanji 快 looks like a smiling face, so it can help you remember that it means 'pleasure and joy'","sentence_japanese": "彼女はとても快く接してくれました。","sentence_romaji": "Kanojo wa totemo kai ni sesshite kuremashita.","sentence_translation": "She was very kind to me.","kanji_origin": "The kanji 快 is made up of two parts: the left side is 'heart' and the right side is 'mouth'. Together they mean 'to be happy with one's heart',","kanji_info": "The kanji 快 is used to express a feeling of pleasure, joy, or comfort. It can also be used to describe someone who is kind or pleasant.","compound_words": [{"word": "快活", "romaji": "kaikatsu", "tranlation": "cheerful"},{"word": "快適", "romaji": "kaiteki", "translation": "comfortable"},{"word": "快感", "romaji": "kaikan", "translation": "pleasure"}],"kanji_examples": [{"expression": "快楽", "romaji": "kairaku", "translation": "pleasure"},{"expression": "快速", 
+"romaji":"kaisoku", 
+"translation":"fast"},{"expression":"快晴","romaji":"kaisei","translation":"fine weather"}]}
+-----------------------------
+CLI param:  鉄
+--- Response text: ---
+{"kanji": "鉄","kanji_simplified": "てつ","kanji_romaji": "tetsu","kanji_meaning": "iron","mnemonics": "The kanji 鉄 looks like a person holding a hammer and an iron bar.","sentence_japanese": "私は鉄を使って作業をしました。","sentence_romaji": "Watashi wa tetsu o tsukatte sagyou o shimashita.","sentence_translation": "I worked using iron.","kanji_origin": "The kanji 鉄 is derived from the Chinese character 鐵, which is composed of two parts: the left part is a pictograph of an axe and the right part is a pictograph of a cowhide.","kanji_meaning": "The kanji 鉄 means “iron” in Japanese.","kanji_info": "The kanji 鉄 is used to refer to iron in many contexts, such as in words related to construction, machinery, and tools.","compound_words": [{"word": "鉄道", "romaji": "tetsudou", "tranlation": "railway"},{"word": "鉄器", "romaji": "tekki", "translation": "ironware"},{"word": "鉄筋", "romaji": "tekkin", "translation": "reinforcement bar"}],"kanji_examples": [{"expression": "鉄棒", 
+"romaji":"teppou", 
+"translation":"iron bar"},
+{"expression":"鉄砲", 
+"romaji":"teppou", 
+"translation":"gun"},
+{"expression":"鉄板", 
+"romaji":"teppan", 
+"translation":"grill plate"}]}
+-----------------------------
+CLI param:  定
+--- Response text: ---
+{"kanji": "定","kanji_simplified": "テイ","kanji_romaji": "tei","kanji_meaning": "fixed, settled, definite","mnemonics": "Picture a TEEpee to remember the kanji 定 (TEE)","sentence_japanese": "今日は定刻に着きました。","sentence_romaji": "Kyou wa teikoku ni tsukimashita.","sentence_translation": "I arrived at the appointed time today.","kanji_origin": "The kanji 定 is composed of two elements. The left side is the radical 宀 (mi), which means “roof” or “house” and the right side is the character 田 (ta), which means “field” or “rice paddy”. Together, they form a pictograph of a house with a field in front of it, representing the idea of settling down in one place.","kanji_meaning": "The kanji 定 can mean “fixed”, “settled”, or “definite”.","kanji_info": "The kanji 定 is used in many words related to time and place, such as 定期 (teiki: regular/periodic), 定番 (teiban: standard/regular item), and 定位 (tei'i: position/status).","compound_words": [{"word": "定価", "romaji": "teika", "tranlation": "fixed price"},{"word": "定員", "romaji": "teiin", "translation": "fixed number of people"},{"word": "定食", "romaji": "teishoku", "translation": "set meal"}],"kanji_examples": [{"expression": "定期券", "romaji": "teikiken", 
+"translation": 
+"commuter pass"},{"expression":"定型文", 
+"romaji":"teikeibun", 
+"translation":"standard phrase"},{"expression":"定食屋", 
+"romaji":"teishokuyya", 
+"translation":"cafeteria"}]}
+-----------------------------
+CLI param:  席
+--- Response text: ---
+{"kanji": "席","kanji_simplified": "セキ","kanji_romaji": "seki","kanji_meaning": "seat, place","mnemonics": "Imagine a seat with a 'se' at the start and a 'ki' at the end.","sentence_japanese": "私はテーブルの席に座っています。","sentence_romaji": "Watashi wa tēburu no seki ni suwatte imasu.","sentence_translation": "I am sitting at the table.","kanji_origin": "The kanji '席' is derived from the Chinese character '卩', which is composed of two parts: '卩' on the left, which means 'knot', and '口' on the right, which means 'mouth'. Together, they form the image of a person kneeling and tying a knot in a rope to make a seat.","kanji_info": "The kanji '席' is used to represent seats or places in general. It can also be used to refer to an official position or rank.","compound_words": [{"word": "席替え", "romaji": "sekigae", "translation": "changing seats"},{"word": "席上", "romaji": "sekijō", "translation": "on the seat"},{"word": "座席", "romaji": "zaseki", "translation": "seat"}],
+"kanji_examples": [{"expression":"座席表", "romaji":"zasekibyō", 
+"translation":"seat map"}, {"expression":"招待席", 
+"romaji":"shōtaiseki", 
+"translation":"invited seat"}, {"expression":"最前列の席", 
+"romaji":"saizenretsu no seki", 
+"translation":"front row seat"}]}
+-----------------------------
+CLI param:  由
+--- Response text: ---
+{"kanji": "由","kanji_simplified": "ユ","kanji_romaji": "yu","kanji_meaning": "reason, cause, from","mnemonics": "Picture a 'Y' (for 'you') pointing to the 'U' (for 'us') to remind you that the reason for something comes from us.","sentence_japanese": "由来が不明なので、研究をしています。","sentence_romaji": "Yurai ga fumei nano de, kenkyuu o shite imasu.","sentence_translation": "We are researching because the origin is unknown.","kanji_origin": "This kanji is derived from the ancient Chinese characters 用 (yō) and 攸 (yū),","kanji_meaning": "The kanji 由 means “reason” or “cause” and can be used to express the idea of something coming from somewhere or someone.","kanji_info": "The kanji 由 is used in many common Japanese words such as 理由 (riyuu – reason), 由来 (yurai – origin) and 由緒 (yushi – history).","compound_words": [{"word": "由緒", "romaji": "yushi", "tranlation": "history"},{"word": "由来", "romaji": "yurai", "translation": "origin"},{"word": "理由", "romaji": "riyuu", "translation": "reason"}],"kanji_examples":[{"expression":"由々しき事態", 	"romaji":"yuyuushiki jitai", 	"translation":"inevitable situation"},{"expression":"由々しき結果", 	"romaji":"yuyuushiki kekka", 	"translation":"inevitable result"},{"expression":"由緒正しい", 	"romaji":"yushi tadashii", 	"translation":"respectable"}]}
+-----------------------------
+CLI param:  番
+--- Response text: ---
+{"kanji": "番","kanji_simplified": "バン","kanji_romaji": "ban","kanji_meaning": "turn, number, watch, guard","mnemonics": "Imagine a guard (番) watching over a line of people waiting to take their turn (番) in a queue.","sentence_japanese": "私の番が来たら、私が出て行きます。","sentence_romaji": "Watashi no ban ga kitara, watashi ga dete ikimasu.","sentence_translation": "When my turn comes, I will go out.","kanji_origin": "This kanji is composed of two parts: 田 (rice field) and 反 (against). It is thought to represent the idea of alternating between two fields.","kanji_meaning": "The kanji 番 means 'turn', 'number', 'watch' or 'guard'. It can also be used to mean 'in succession' or 'in rotation'.","kanji_info": "This kanji is used in many words related to counting or taking turns. It can also be used in terms related to guarding or watching over something.","compound_words": [{"word": "番号", "romaji": "bangou", "translation": "number"},{"word":"番人", "romaji":"bannin", "translation":"guard"},{"word":"番組", "romaji":"banshu", "translation":"program"}],
+"kanji_examples": [{"expression": "番号順", "romaji": "bangou jun", 
+"translation": "in order of number"},{"expression":"番外編", 
+"romaji":"bangaihen", 
+"translation":"extra episode"},{"expression":"番目の", 
+"romaji":"banme no", 
+"translation":"the nth"}]}
+-----------------------------
+CLI param:  窓
+--- Response text: ---
+{"kanji": "窓","kanji_simplified": "マド","kanji_romaji": "mado","kanji_meaning": "window","mnemonics": "The kanji 窓 looks like a window with two panes of glass.","sentence_japanese": "私は窓から外を見ています。","sentence_romaji": "Watashi wa mado kara soto o mite imasu.","sentence_translation": "I am looking out the window.","kanji_origin": "The kanji 窓 is a combination of the characters 穴 (ana, hole) and 戸 (to, door),","kanji_meaning": "The kanji 窓 means “window” and is used to refer to any kind of opening in a wall or roof.","kanji_info": "The kanji 窓 is used in many compound words such as 窓口 (madoguchi, window counter) and 窓際 (madogiwa, window side),","compound_words": [{"word": "窓口", "romaji": "madoguchi", "tranlation": "window counter"},{"word": "窓際", "romaji": "madogiwa", "translation": "window side"},{"word": "窓辺", "romaji": "madobe", "translation": "window side"}],"kanji_examples":[{"expression":"窓から", 
+"romaji":"mado kara", 
+"translation":"from the window"},{"expression":"窓枠", 
+"romaji":"madowaku", 
+"translation":"window frame"},{"expression":"窓ガラス", 
+"romaji":"mado garasu", 
+"translation":"window glass"}]}
+-----------------------------
+CLI param:  側
+--- Response text: ---
+{"kanji": "側","kanji_simplified": "ソク","kanji_romaji": "soku","kanji_meaning": "side, vicinity","mnemonics": "Picture a person standing in the 'soku' (side) of a room.","sentence_japanese": "私は彼女の側にいます。","sentence_romaji": "Watashi wa kanojo no soku ni imasu.","sentence_translation": "I am by her side.","kanji_origin": "The kanji 側 is composed of the radical 儿 (child) and the character 辶 (walk). Together, they signify “to walk by the side of someone,” or “beside.”","kanji_info": "The kanji 側 can also be read as gawa or soba, depending on the context.","kanji_examples": [{"expression": "側面", "romaji": "sokumen", "translation": "side"},{"expression": "側近", "romaji": "sokkin", "translation": "close associate"},{"expression": "側線", "romaji": "sokusen", "translation": "sideline"}]}
+-----------------------------
+CLI param:  路
+--- Response text: ---
+{"kanji": "路","kanji_simplified": "ロ","kanji_romaji": "ro","kanji_meaning": "road, path","mnemonics": "The kanji 路 looks like a road with two lines going down the middle.","sentence_japanese": "彼女は路を歩いていました。","sentence_romaji": "Kanojo wa michi o aruite imashita.","sentence_translation": "She was walking on the road.","kanji_origin": "The kanji 路 is made up of the kanji for 'person' and 'walk' combined together.","kanji_meaning": "The kanji 路 means 'road' or 'path'.","kanji_info": "The kanji 路 can also be used to refer to a journey or a way of life.","compound_words": [{"word": "路地", "romaji": "roji", "translation": "alley"},{"word": "路線", "romaji": "rosen", "translation": "route"},{"word":"路面", 	"romaji":"romen", 	"translation":"road surface"}],"kanji_examples": [{"expression":"路上", 	"romaji":"rojou", 	"translation":"on the street"},{"expression":"路傍", 	"romaji":"robou", 	"translation":"by the roadside"},{"expression":"路線図", 	"romaji":"rosenzu", 	"translation":"map"}]}
+-----------------------------
+CLI param:  停
+--- Response text: ---
+{"kanji": "停","kanji_simplified": "テイ","kanji_romaji": "tei","kanji_meaning": "stop, halt","mnemonics": "Picture a TEI (tree) with its branches stopping the wind from blowing.","sentence_japanese": "電車が停まりました。","sentence_romaji": "Densha ga tomari mashita.","sentence_translation": "The train stopped.","kanji_origin": "The kanji 停 is composed of two parts: the left side (廴) represents a road, and the right side (止) represents a stop sign.","kanji_meaning": "The kanji 停 means 'to stop' or 'to halt.'","kanji_info": "The kanji 停 is often used in words related to transportation such as 電車停留所 (denshatenryūsho; train station) and バス停 (basutei; bus stop).","compound_words": [{"word": "停止", "romaji": "teishi", "tranlation": "stop, halt"},{"word": "停電", "romaji": "teiden", "translation": "power failure"},{"word": "停留所", "romaji": "teiryūsho", "translation": "station, stop"}],"kanji_examples": [{"expression": "停滞", "romaji": "teitai", "translation": "stagnation"},{"expression": "停滞する", 
+"romaji":"teitaisuru", 
+"translation":"to stagnate"},{"expression":"停戦", 
+"romaji":"teisen", 
+"translation":"ceasefire"}]}
+-----------------------------
+CLI param:  整
+--- Response text: ---
+{"kanji": "整", "kanji_simplified": "セイ", "kanji_romaji": "sei", "kanji_meaning": "order, organize, arrange", "mnemonics": "Imagine a person SEIting up their house in perfect order and organization", "sentence_japanese": "彼女は部屋を整理した。", "sentence_romaji": "Kanojo wa heya o seiri shita.", "sentence_translation": "She organized her room.", "kanji_origin": "The kanji 整 is composed of two parts: 攴 (pō) meaning “to hit” and 卩 (tsu) meaning “seal”. Together, these two parts form the concept of “hitting the seal” or “putting in order”.", 
+"kanji_meaning": "The kanji 整 means “order, organize, arrange”.", 
+"kanji_info": "The kanji 整 is used in many words related to organization and arranging such as 整理 (seiri – organize), 整備 (seibi – maintenance), and 整形 (seikei – plastic surgery).", 
+"mnemonics": "Imagine a person SEIting up their house in perfect order and organization.", 
+"compound_words": [{"word": "整理", "romaji": "seiri", "translation": "organize"},{"word": "整備", "romaji": "seibi", 
+"translation": "maintenance"},{"word": "整形", 
+"romaji":"seikei","translation":"plastic surgery"}], 
+"kanji_examples":[{"expression":"整える","romaji":"tosoeru","translation":"to arrange"},{"expression":"整頓","romaji":"seiton","translation":"arrangement"},{"expression":"整然と","romaji":"seizen to","translation":"neatly"}]}
+-----------------------------
+CLI param:  券
+--- Response text: ---
+{"kanji": "券","kanji_simplified": "ケン","kanji_romaji": "ken","kanji_meaning": "ticket, coupon, certificate","mnemonics": "Picture a ticket with the kanji 券 written on it.","sentence_japanese": "彼は映画の券を買った。","sentence_romaji": "Kare wa eiga no ken o katta.","sentence_translation": "He bought a movie ticket.","kanji_origin": "The kanji 券 is composed of two parts: '刀' (knife) and '月' (moon). It is believed that the original meaning was 'cutting out a piece of paper as a ticket',","kanji_meaning": "The kanji 券 means 'ticket', 'coupon', or 'certificate',","kanji_info": "The kanji 券 is used in many words related to tickets and coupons, such as 入場券 (nyuujouken, admission ticket) and クーポン (kuupon, coupon),","compound_words": [{"word": "入場券", "romaji": "nyuujouken", "translation": "admission ticket"},{"word": "クーポン", "romaji": "kuupon", "translation":"coupon"},{"word":"交通券", "romaji":"koutsuuken", "translation":"transportation ticket"}],
+"kanji_examples":[{"expression":"入場券", "romaji":"nyuujouken", 
+"translation":"admission ticket"},{"expression":"定期券", 
+"romaji":"teikiken", 
+"translation":"season ticket"},{"expression":"割引券", 
+"romaji":"waribikiken", 
+"translation":"discount coupon"}]}
+-----------------------------
+CLI param:  両
+--- Response text: ---
+{"kanji": "両","kanji_simplified": "りょう","kanji_romaji": "ryou","kanji_meaning": "both, two","mnemonics": "The kanji 両 looks like two people standing side by side, representing both or two.","sentence_japanese": "彼らは両親を持っています。","sentence_romaji": "Karera wa ryoushin o motte imasu.","sentence_translation": "They have both parents.","kanji_origin": "The kanji 両 originates from the ancient Chinese character for 'two' (二),","kanji_meaning": "The kanji 両 means 'both' or 'two',","kanji_info": "The kanji 両 is used in many words related to numbers, such as 二人 (ふたり, futari, two people) and 二十 (はたち, hatachi, twenty),","compound_words": [{"word": "両側", "romaji": "ryougawa", "tranlation": "both sides"},{"word": "両手", "romaji": "ryoute", "translation": "both hands"},{"word": "両替", "romaji": "ryougae", "translation": "exchange"}],"kanji_examples": [{"expression": "両親", "romaji": "ryoushin", "translation":"both parents"},{"expression":"両方",  "romaji":"ryouhou",  "translation":"both sides"},{"expression":"二人両方",  "romaji":"futariryouhou",  "translation":"both of us"}]}
+-----------------------------
+CLI param:  替える
+--- Response text: ---
+{"kanji": "替える","kanji_simplified": "かえる","kanji_romaji": "kaeru","kanji_meaning": "to replace, to change","mnemonics": "Picture a KA(E)RU (frog) hopping from one lily pad to another, replacing one with the other.","sentence_japanese": "彼女は昼ご飯を替えた。","sentence_romaji": "Kanojo wa hirugohan o kaeta.","sentence_translation": "She changed her lunch.","kanji_origin": "The kanji 替 is composed of two parts: 日 (sun) and 代 (change). Together, they mean 'change of the sun' or 'time change.'","kanji_meaning": "The kanji 替える means 'to replace' or 'to change.'","kanji_info": "The verb 替える is often used in the form 替えることができる, which means 'can be replaced.' It can also be used in the form 替えない, which means 'cannot be replaced.'","compound_words": [{"word": "替わる", "romaji": "kawaru", "translation": "to change"}, {"word": "替え玉", "romaji": "kaedama", "translation": "extra portion"}, {"word": "替え歌", "romaji": "kaegaki", 
+"translation":"parody"}],
+"kanji_examples":[{"expression":"替え歌を歌う", 
+"romaji":"kaegaki o utau", 
+"translation":"sing a parody"}, 
+{"expression":"替わり映えする", 
+"romaji":"kawarihae suru", 
+"translation":"look fresh and new"}, 
+{"expression":"替わり者", 
+"romaji":"kawarimono", 
+"translation":"substitute"}]}
+-----------------------------
+CLI param:  未
+--- Response text: ---
+{"kanji": "未","kanji_simplified": "ミ","kanji_romaji": "mi","kanji_meaning": "not yet, before, still","mnemonics": "The kanji 未 looks like a person with their arms crossed, representing not yet or still.","sentence_japanese": "彼はまだ未だ宿題を終わらせていない。","sentence_romaji": "Kare wa mada mi da shukudai o owara sete inai.","sentence_translation": "He has not yet finished his homework.","kanji_origin": "The kanji 未 is composed of the kanji 火 (fire) and 月 (moon), signifying 'not yet' or 'before'.","kanji_meaning": "The kanji 未 signifies 'not yet', 'before', or 'still'.","kanji_info": "The kanji 未 is often used as a prefix to signify something that has not yet happened or is still ongoing.","compound_words": [{"word": "未来", "romaji": "mirai", "translation": "future"},{"word": "未完成", "romaji": "mikansei", "translation":"incomplete"},{"word": "未熟", "romaji": "mijuku", "translation":"inexperienced"}],"kanji_examples": [{"expression": 	"未熟な", 	"romaji":"mijukuna", 	"translation":"inexperienced"},{"expression":"未来志向", 	"romaji":"mirai shikou", 	"translation":"future-oriented"},{"expression":"未完成作品", 	"romaji":"mikansei sakuhin", 	"translation":"unfinished work"}]}
+-----------------------------
+CLI param:  末
+--- Response text: ---
+{"kanji": "末","kanji_simplified": "マツ","kanji_romaji": "matsu","kanji_meaning": "end, close, tip","mnemonics": "Imagine a MAT in the SUmmit of a mountain, representing the end of something.","sentence_japanese": "学校の末にテストがあります。","sentence_romaji": "Gakkou no matsu ni tesuto ga arimasu.","sentence_translation": "There is a test at the end of school.","kanji_origin": "The kanji 末 is composed of two characters: 糸 (ito), meaning 'thread', and 未 (mi), meaning 'not yet'. Together, they form the idea of 'the end of something', as a thread has an end.","kanji_meaning": "The kanji 末 means 'end' or 'close'. It can also refer to the tip or final part of something.","kanji_info": "The kanji 末 is used in many words related to the end or conclusion of something, such as 満月 (full moon) and 栄え末 (the end of one's life). It can also be used to describe the last part or tip of something, such as 末端 (tip or edge).","compound_words": [{"word": "末尾", "romaji": "matsuo", "translation":"end, tail"},{"word": "末日", "romaji": "matsuri", "translation":"last day"},{"word": "末端", "romaji": "matubu", "translation":"tip, edge"}],"kanji_examples": [{"expression": "末梢",  "romaji":  "matsusou",  "translation":"tip, end"},{"expression":  "末路",  "romaji":  "matsuro",  "translation":"end of the road"},{"expression":  "末代",  "romaji":  "matsudai",  "translation":"last generation"}]}
+-----------------------------
+CLI param:  若い
+--- Response text: ---
+{"kanji": "若い","kanji_simplified": "ワカイ","kanji_romaji": "wakai","kanji_meaning": "young","mnemonics": "Picture a young person with a WAKy smile!","sentence_japanese": "彼女は若いです。","sentence_romaji": "Kanojo wa wakai desu.","sentence_translation": "She is young.","kanji_origin": "The kanji 若 is composed of two components: the right side, which is the kanji for “person”, and the left side, which is the kanji for “young”.","kanji_meaning": "The kanji 若 means “young” or “youthful”.","kanji_info": "The kanji 若 can also be used in other contexts to mean “inexperienced” or “immature”.","compound_words": [{"word": "若者", "romaji": "wakamono", "translation": "youth"},{"word": "若年", "romaji": "wakanen", "translation": "youthful age"},{"word": "若手", "romaji": "wakate", "translation": "young people"}],"kanji_examples":[{"expression":"若さ", 	"romaji":"wakasa", 	"translation":"youthfulness"}, {"expression":"若返り", 	"romaji":"waka gaeri", 	"translation":"rejuvenation"}, {"expression":"若々しい", 	"romaji":"wakawakashii", 	"translation":"youthful"}]}
+-----------------------------
+CLI param:  晩
+--- Response text: ---
+{"kanji": "晩","kanji_simplified": "バン","kanji_romaji": "ban","kanji_meaning": "evening, night","mnemonics": "Picture a banana (バナナ) in the evening (晩),","sentence_japanese": "今晩は家でテレビを見るつもりです。","sentence_romaji": "Konban wa ie de terebi o miru tsumori desu.","sentence_translation": "I plan to watch TV at home tonight.","kanji_origin": "The kanji 晩 is composed of two parts: 日, which means 'sun' or 'day', and 夕, which means 'evening' or 'night',","kanji_meaning": "The kanji 晩 means “evening” or “night”.","kanji_info": "The kanji 晩 is used to refer to the time of day when the sun has set and the night has begun.","compound_words": [{"word": "晩飯", "romaji": "banhan", "tranlation": "dinner"},{"word": "晩餐", "romaji": "bansan", "translation": "supper"},{"word": "晩年", "romaji": "bannen", "translation": "one's later years"}],"kanji_examples":[{"expression":"晩秋","romaji":"banshuu","translation":"late autumn"},{"expression":"晩酌","romaji":"banshaku","translation":"evening drinking party"},{"expression":"晩成","romaji":"bannsei","translation":"maturity"}]}
+-----------------------------
+CLI param:  皿
+--- Response text: ---
+{
+    "kanji": "皿",
+    "kanji_simplified": "皿",
+    "kanji_romaji": "sara",
+    "kanji_meaning": "plate, dish",
+    "sentence_japanese": "この皿は大きいです。",
+    "sentence_romaji": "Kono sara wa ookii desu.",
+    "sentence_translation": "This plate is big.",
+    "kanji_origin": "This kanji originated from the image of a flat and shallow dish used for serving food.",
+    "kanji_info": "In Japanese, the word 皿 (sara) refers to a flat and shallow dish used for serving food. It is also used as a component in a number of words related to food and dining.",
+    "compound_words": [
+    { "word": "食器", "romaji": "shokki", "translation": "tableware" },
+    { "word": "皿洗い", "romaji": "saraarai", "translation": "dishwashing" },
+    { "word": "皿容器", "romaji": "sarayōki", "translation": "plate container" }
+    ],
+    "kanji_examples": [
+    { "expression": "大皿", "romaji": "ōsara", "translation": "large plate" },
+    { "expression": "小皿", "romaji": "kosara", "translation": "small plate" },
+    { "expression": "お皿", "romaji": "osara", "translation": "dish, plate (polite form)" }
+    ]
+    }
+-----------------------------

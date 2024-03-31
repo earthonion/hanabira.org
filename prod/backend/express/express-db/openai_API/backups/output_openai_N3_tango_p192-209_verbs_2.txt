@@ -1,0 +1,986 @@
+CLI param:  たたく
+--- Response text: ---
+1. たたく | Kanji: 打つ | Romaji: tataku | Translation: to hit | 
+2. たたく | Kanji: 叩く | Romaji: tataku | Translation: to knock | 
+3. たたく | Kanji: 集めて打つ | Romaji: atsumete tataku | Translation: to gather and hit | 
+4. たたく | Kanji: 積極的に叩く | Romaji: sekkyokuteki ni tataku | Translation: to actively knock | 
+5. たたく | Kanji: 心を打つ言葉を探す | Romaji: kokoro o tatsu kotoba o sagasu | Translation: to search for words that strike the heart|
+-----------------------------
+CLI param:  畳む
+--- Response text: ---
+1. 畳む | Kanji: 寝室の床を畳んでいる | Romaji: Neshitsu no yuka o tatamundeiru | Translation: I am laying out the floor of the bedroom |
+2. 畳む | Kanji: 新しい畳を買ってきた | Romaji: Atarashii tatami o katte kita | Translation: I bought a new tatami mat |
+3. 畳む | Kanji: 家庭で畳を組んでいる | Romaji: Katei de tatami o kundeiru | Translation: I'm assembling tatami mats at home|
+4. 畳む | Kanji: 日本の伝統的な畳を見せてくれた | Romaji: Nihon no dentō-tekina tatami o misete kureta | Translation: He showed me a traditional Japanese tatami mat|
+5. 畳む | Kanji: 古い畳を取り外して新しいものに入れ替えた | Romaji: Furui tatami o torihazushite atarashii mono ni irekaeta | Translation: I removed the old tatami and replaced it with a new one|
+-----------------------------
+CLI param:  立ち上がる
+--- Response text: ---
+1. 立ち上がる | Kanji: 立ち上がって仕事を始めよう | Romaji: Tachiagatte shigoto o hajimeyou | Translation: Let's start work by standing up |
+2. 立ち上がる | Kanji: 彼は立ち上がって話しかけた | Romaji: Kare wa tachiagatte hanashikaketa | Translation: He stood up and talked to me |
+3. 立ち上がる | Kanji: 彼女は立ち上がって部屋を出た | Romaji: Kanojo wa tachiagatte heya o deta | Translation: She stood up and left the room |
+4. 立ち上がる | Kanji: 彼らは立ち上がって礼をした | Romaji: Karera wa tachiagatte rei o shita | Translation: They stood up and bowed |
+5. 立ち上がる | Kanji: 僕は立ち上がって参加者を挨拶した | Romaji: Boku wa tachiagatte sanka-sha o aisatsu shita| Translation: I stood up and greeted the participants
+-----------------------------
+CLI param:  立ち止まる 
+--- Response text: ---
+1. 立ち止まる | Kanji: 彼は立ち止まって、深呼吸をした | Romaji: Kare wa tachidomatte, shinkokyuu o shita | Translation: He stopped and took a deep breath | 
+2. 立ち止まる | Kanji: 道を歩いているときに、彼女は立ち止まって足を休めた | Romaji: Michi o aruiteiru toki ni, kanojo wa tachidomatte ashi o yasumeta | Translation: When she was walking down the street, she stopped and rested her feet | 
+3. 立ち止まる | Kanji: 彼女は立ち止まって、驚いた表情で彼を見つめた | Romaji: Kanojo wa tachidomatte, odoroita hyoujou de kare o mitsumeta | Translation: She stopped and looked at him with a surprised expression | 
+4. 立ち止まる | Kanji: 彼は立ち止まって、時間を確認した | Romaji: Kare wa tachidomatte, jikan o kakunin shita | Translation: He stopped and checked the time | 
+5. 立ち止まる | Kanji: 彼女は立ち止まって、思案した表情で前を見た | Romaji: Kanojo wa tachidomatte, shian shita hyoujou de mae o mita | Translation: She stopped and looked ahead with a thoughtful expression
+-----------------------------
+CLI param:  楽しむ
+--- Response text: ---
+1. 楽しむ | Kanji: 楽しんでみましょう | Romaji: tanoshin de mimashou | Translation: Let's try to enjoy it | 
+2. 楽しむ | Kanji: 楽しみながら学びましょう | Romaji: tanoshimi nagara manabimashou | Translation: Let's learn while having fun | 
+3. 楽しむ | Kanji: 誰もが楽しい時間を過ごすことができるようになりました | Romaji: daremo ga tanoshii jikan o sugosu koto ga dekiru you ni narimashita | Translation: Everyone was able to spend a pleasant time | 
+4. 楽しむ | Kanji: 私たちは有意義な時間を楽しんで過ごすことができます | Romaji: watashitachi wa yuuiigi na jikan o tanoshinde sugosu koto ga dekimasu | Translation: We can spend meaningful time enjoying ourselves| 
+5. 楽しむ | Kanji: 全員が楽しい気持ちになることを願っています | Romaji: zen'in ga tanoshii kimochi ni naru koto o negatte imasu | Translation: We hope that everyone will have a pleasant feeling|
+-----------------------------
+CLI param:  黙る
+--- Response text: ---
+1. 黙る | Kanji: 黙っている | Romaji: damatte iru | Translation: He/she is silent. | 
+2. 黙る | Kanji: 彼は黙り込んだ | Romaji: kare wa damarikonda | Translation: He fell silent. | 
+3. 黙る | Kanji: 彼女は黙っていた | Romaji: kanojo wa damatte ita | Translation: She was silent. | 
+4. 黙る | Kanji: 彼らは黙り込んだままだった | Romaji: karera wa damarikonda mama datta | Translation: They remained silent. | 
+5. 黙る | Kanji: 彼らは黙っていたが、突然口を開いた | Romaji: karera wa damatte ita ga, totsuzen kuchi o aita| Translation: They were silent but suddenly opened their mouths.
+-----------------------------
+CLI param:  ためる
+--- Response text: ---
+1. ためる | Kanji: 手前る | Romaji: temaeru | Translation: to act as if one is better than others |
+2. ためる | Kanji: 手間をかけてためる | Romaji: tema o kakete tameru | Translation: to take the time and effort to do something properly| 
+3. ためる | Kanji: 時間をためる | Romaji: jikan o tameru | Translation: to save time| 
+4. ためる | Kanji: 努力をためる | Romaji: doryoku o tameru | Translation: to save up effort| 
+5. ためる | Kanji: 力をためる | Romaji: chikara o tameru | Translation: to conserve one's strength|
+-----------------------------
+CLI param:  足りる
+--- Response text: ---
+1. 足りる | Kanji: 必要な量が足りる | Romaji: Hitsuyou na ryou ga tariru | Translation: Enough quantity is available | 
+2. 足りる | Kanji: 時間が足りない | Romaji: Jikan ga tarinai | Translation: There is not enough time | 
+3. 足りる | Kanji: 努力が足りない | Romaji: Doryoku ga tarinai | Translation: There is not enough effort | 
+4. 足りる | Kanji: 経験が足りない | Romaji: Keiken ga tarinai | Translation: There is not enough experience | 
+5. 足りる | Kanji: 力が足りない | Romaji: Chikara ga tarinai | Translation: There is not enough strength|
+-----------------------------
+CLI param:  近づく
+--- Response text: ---
+1. 近づく | Kanji: 彼は近づいてきた | Romaji: Kare wa chikazuite kita | Translation: He came closer | 
+2. 近づく | Kanji: その日は近づいていった | Romaji: Sono hi wa chikazuiteitta | Translation: That day was getting closer | 
+3. 近づく | Kanji: 彼女は彼に近づいてきた | Romaji: Kanojo wa kare ni chikazuite kita | Translation: She came closer to him | 
+4. 近づく | Kanji: 宇宙船は火星に近づいていった | Romaji: Uchūsen wa kasei ni chikazuite itta | Translation: The spaceship was approaching Mars | 
+5. 近づく | Kanji: 彼らは最終目標に近づいてきた | Romaji: Karera wa saishū mokuhyō ni chikazuite kita | Translation: They were getting closer to their final goal
+-----------------------------
+CLI param:  近寄る
+--- Response text: ---
+1. 近寄る | Kanji: 彼は近寄ってきた | Romaji: Kare wa chikayotte kita | Translation: He came closer. | 
+2. 近寄る | Kanji: 私たちは近寄り合うことを楽しんだ | Romaji: Watashitachi wa chikayori au koto o tanoshinda | Translation: We enjoyed getting close to each other. | 
+3. 近寄る | Kanji: 彼らは近づきながら話をした | Romaji: Karera wa chikazuki nagara hanashi o shita | Translation: They talked while getting closer. | 
+4. 近寄る | Kanji: 彼女は私に近づいてくれた | Romaji: Kanojo wa watashi ni chikazuite kureta | Translation: She came closer to me. | 
+5. 近寄る | Kanji: 私たちは近づいて歩いた | Romaji: Watashitachi wa chikazuite aruita | Translation: We walked closer together.
+-----------------------------
+CLI param:  散らかる
+--- Response text: ---
+1. 散らかる | Kanji: テーブルの上が散らかっていた | Romaji: teeburu no ue ga chirakatte ita | Translation: The table was cluttered. 
+2. 散らかる | Kanji: 彼女の部屋は散らかっていた | Romaji: kanojo no heya wa chirakatte ita | Translation: Her room was cluttered. 
+3. 散らかる | Kanji: 私たちの仕事が散らかってしまった | Romaji: watashitachi no shigoto ga chirakatte shimatta | Translation: Our work got cluttered. 
+4. 散らかる | Kanji: 彼女は部屋を散らかしないように注意した | Romaji: kanojo wa heya o chirakashi nai you ni chuui shita | Translation: She warned to not make the room cluttered. 
+5. 散らかる | Kanji: 彼は机の上を散らかしてしまった | Romaji: kare wa tsukue no ue o chirakashite shimatta | Translation: He made the desk cluttered.
+-----------------------------
+CLI param:  散る
+--- Response text: ---
+1. 桜の花が散る | Kanji: 桜の花が散る | Romaji: Sakura no hana ga chiru | Translation: The cherry blossoms are falling |
+2. 彼は怒りを散らす | Kanji: 彼は怒りを散らす | Romaji: Kare wa ikari o chirasu | Translation: He is spreading his anger |
+3. 雨が激しく降り散る | Kanji: 雨が激しく降り散る | Romaji: Ame ga hageshiku furi chiru | Translation: The rain is pouring heavily | 
+4. 光が室内に散らばる | Kanji: 光が室内に散らばる | Romaji: Hikari ga shitsunai ni chirabaru | Translation: The light is scattered in the room | 
+5. 私たちは涙を散らすことなく去った | Kanji: 私たちは涙を散らすことなく去った| Romaji: Watashitachi wa namida o chirasu koto naku satta| Translation: We left without shedding a tear
+-----------------------------
+CLI param:  通じる
+--- Response text: ---
+1. 通じる | Kanji: 彼と話すときは、彼の意見が通じる | Romaji: Kare to hanasu toki wa, kare no iken ga tsuujiru | Translation: When I talk to him, his opinion is understood |
+2. 通じる | Kanji: 彼女は英語を話しているが、私の英語が彼女には通じない | Romaji: Kanojo wa eigo o hanashite iru ga, watashi no eigo ga kanojo ni wa tsuujinai | Translation: She speaks English, but my English doesn't get through to her |
+3. 通じる | Kanji: 私たちは言語の壁を乗り越えて、互いの感情を通じ合った | Romaji: Watashitachi wa gengo no kabe o norikoete, tagai no kanjou o tsuujiaetta | Translation: We overcame the language barrier and communicated our feelings to each other |
+4. 通じる | Kanji: 私たちは両方の文化を理解して、互いの価値観を通じ合うことができた | Romaji: Watashitachi wa obo hou no bunka o rikai shite, tagai no kachikan o tsuujiau koto ga dekita | Translation: We understood both cultures and were able to communicate our values to each other|
+5. 通じる | Kanji: 彼らは外国人でも、日本人と同様に感情を通じ合うことができた | Romaji: Karera wa gaikokujin demo, nihonjin to douyou ni kanjou o tsuujiau koto ga dekita| Translation: Even though they are foreigners, they were able to communicate their feelings like Japanese people do
+-----------------------------
+CLI param:  捕まる
+--- Response text: ---
+1. 捕まる | Kanji: 彼は悪いことをしたので、捕まってしまった | Romaji: Kare wa warui koto o shita node, tsukamatte shimatta | Translation: He did something bad, so he got caught | 
+2. 捕まる | Kanji: 警察に捕まった犯人は、刑務所に収容された | Romaji: Keisatsu ni tsukamatta hannin wa, keimusho ni shuuyou sareta | Translation: The criminal who was arrested by the police was detained in prison | 
+3. 捕まる | Kanji: 犯罪者は、警察に捕まる前に国外に逃げ出してしまった | Romaji: Hanzaisha wa, keisatsu ni tsukamaru mae ni kokugai ni nigedashite shimatta | Translation: The criminal escaped abroad before being arrested by the police | 
+4. 捕まる | Kanji: 彼女は詐欺師を見つけ出し、警察に捕まらせた | Romaji: Kanojo wa sagishishi o mitsukedashi, keisatsu ni tsukaraseta | Translation: She found the fraudster and got him arrested by the police | 
+5. 捕まる | Kanji: 犯人は警察に捕まり、裁判で有罪となった  | Romaji: Hannin wa keisatsu ni tsukari, saiban de yuuzai to natta  | Translation: The criminal was arrested by the police and found guilty in court
+-----------------------------
+CLI param:  つかむ
+--- Response text: ---
+1. つかむ | Kanji: 掴む | Romaji: Tsukamu | Translation: To grasp | 
+2. つかむ | Kanji: 掴み取る | Romaji: Tsukami toru | Translation: To seize | 
+3. つかむ | Kanji: 掴み取りに行く | Romaji: Tsukami tori ni iku | Translation: To go and take hold of it | 
+4. つかむ | Kanji: 掴みとって持ち上げる | Romaji: Tsukami totte mochiageru | Translation: To take hold and lift up | 
+5. つかむ | Kanji: 掴んで抱きしめる | Romaji: Tsukande dakishimeru | Translation: To embrace tightly in one’s arms|
+-----------------------------
+CLI param:  付き合う
+--- Response text: ---
+1. 付き合う | Kanji: 彼と付き合うことにした | Romaji: Kare to tsukiatou koto ni shita | Translation: I decided to go out with him | 
+2. 付き合う | Kanji: 彼女と付き合っている | Romaji: Kanojo to tsukiatte iru | Translation: I'm going out with her | 
+3. 付き合う | Kanji: 友達と付き合うのが好きだ | Romaji: Tomodachi to tsukiatou no ga suki da | Translation: I like hanging out with my friends | 
+4. 付き合う | Kanji: 彼女の友達とも付き合ってみたい | Romaji: Kanojo no tomodachi to mo tsukiatte mitai| Translation: I want to hang out with her friends too | 
+5. 付き合う | Kanji: 毎日彼と付き合っているから疲れている | Romaji: Mainichi kare to tsukiatte iru kara tsukarete iru| Translation: I'm tired because I'm hanging out with him every day
+-----------------------------
+CLI param:  付く
+--- Response text: ---
+1. keyword | Kanji: 日が付く | Romaji: Hi ga tsuku | Translation: The sun rises |
+2. keyword | Kanji: 気が付く | Romaji: Ki ga tsuku | Translation: To realize something |
+3. keyword | Kanji: 名前が付く | Romaji: Namae ga tsuku | Translation: To be named after something |
+4. keyword | Kanji: 影が付く | Romaji: Kage ga tsuku | Translation: To be followed by a shadow | 
+5. keyword | Kanji: 痛みが付く | Romaji: Itami ga tsuku | Translation: To feel pain or discomfort|
+-----------------------------
+CLI param:  着ける
+--- Response text: ---
+1. 着ける | Kanji: 彼女は新しい指輪を着ける | Romaji: Kanojo wa atarashii yubiwa o kakeru | Translation: She wears a new ring | 
+2. 着ける | Kanji: 僕は今日のために新しいネクタイを着ける | Romaji: Boku wa kyou no tame ni atarashii nekutai o kakeru | Translation: I'm wearing a new tie for today | 
+3. 着ける | Kanji: 彼女は毎日小さなピアスを着ける | Romaji: Kanojo wa mainichi chiisana piasu o kakeru | Translation: She wears small earrings every day | 
+4. 着ける | Kanji: 僕は今日用意した新しい靴を着ける | Romaji: Boku wa kyou yōi shita atarashii kutsu o kakeru | Translation: I'm wearing the new shoes I prepared for today| 
+5. 着ける | Kanji: 彼女は毎日新しいネックレスを着ける| Romaji: Kanojo wa mainichi atarashii nekkuresu o kakeru | Translation: She wears a new necklace every day
+-----------------------------
+CLI param:  伝わる
+--- Response text: ---
+1. 伝わる | Kanji: 情報が正しく伝わった | Romaji: Jōhō ga tadashiku tsutawatta | Translation: The information was conveyed correctly. | 
+2. 伝わる | Kanji: 彼女の気持ちがうまく伝わってきた | Romaji: Kanojo no kimochi ga umaku tsutawatte kita | Translation: Her feelings were conveyed well. | 
+3. 伝わる | Kanji: 子供たちは私の意図が伝わらなかった | Romaji: Kodomo-tachi wa watashi no ito ga tsutawaranakatta | Translation: The children didn't understand my intention. | 
+4. 伝わる | Kanji: 彼は話し方が上手で、熱意が伝わってきた | Romaji: Kare wa hanashi kata ga jōzu de, netsu-i ga tsutawatte kita| Translation: He was good at talking and his enthusiasm was conveyed. | 
+5. 伝わる | Kanji: 私の言葉が彼にはうまく伝わらなかった | Romaji: Watashi no kotoba ga kare ni wa umaku tsutawaranakatta| Translation: My words didn't get through to him.
+-----------------------------
+CLI param:  潰れる
+--- Response text: ---
+1. 潰れる | Kanji: 彼女は悲しそうに潰れてしまった | Romaji: Kanojo wa kanashisou ni tsuburete shimatta | Translation: She sadly crumbled away | 
+2. 潰れる | Kanji: 私たちは時間のない中で潰れてしまった | Romaji: Watashitachi wa jikan no nai naka de tsuburete shimatta | Translation: We crumbled away in the lack of time | 
+3. 潰れる | Kanji: 壁は重い荷物を乗せて潰れてしまった | Romaji: Kabe wa omoi nimotsu o nosete tsuburete shimatta | Translation: The wall crumbled away when a heavy load was placed on it | 
+4. 潰れる | Kanji: 土台が揺らいだので、建物が潰れてしまった | Romaji: Daidai ga yuraide node, tatemono ga tsuburete shimatta | Translation: The building collapsed when the foundation shook | 
+5. 潰れる | Kanji: 強風が吹いて、彼女の心が潰れてしまった | Romaji: Tsuyokaze ga fuite, kanojo no kokoro ga tsuburete shimatta | Translation: A strong wind blew and her heart was broken apart
+-----------------------------
+CLI param:  積む
+--- Response text: ---
+1. 積む | Kanji: 私は本を積む | Romaji: Watashi wa hon o tsumu | Translation: I stack books | 
+2. 積む | Kanji: 彼は積み上げた山の頂上に立った | Romaji: Kare wa tsumiageta yama no choujou ni tatta | Translation: He stood on the top of the piled up mountain | 
+3. 積む | Kanji: 彼女は積んだ野菜を買いに行った | Romaji: Kanojo wa tsunda yasai o kai ni itta | Translation: She went to buy the stacked vegetables | 
+4. 積む | Kanji: 彼らは大きな箱を積んで車に運んだ | Romaji: Karera wa ookina hako o tsunde kuruma ni hakonda | Translation: They loaded a big box onto the car and transported it| 
+5. 積む | Kanji: 彼らは金塊を積み上げて塔を作った| Romaji: Karera wa kinkaidou o tsumiagete tou o tsukutta| Translation: They piled up gold nuggets to build a tower|
+-----------------------------
+CLI param:  詰める
+--- Response text: ---
+1. 詰める | Kanji: 詰めることで、私たちは最高の結果を得ることができます | Romaji: Tsumeru koto de, watashitachi wa saikō no kekka o eru koto ga dekimasu | Translation: By packing, we can get the best results. 
+2. 詰める | Kanji: 彼は詰めるのが上手で、毎日の仕事をすばやくこなしています | Romaji: Kare wa tsumeru no ga jōzu de, mainichi no shigoto o subayaku konashi te imasu | Translation: He is good at packing and quickly gets his daily work done. 
+3. 詰める | Kanji: 彼女は詰めるのに時間をかけていましたが、最終的にはうまくいきました | Romaji: Kanojo wa tsumeru no ni jikan o kakete imashita ga, saishūteki ni wa umaku iki mashita | Translation: She took her time to pack but it worked out in the end. 
+4. 詰める | Kanji: 新しい家具を詰めるのに大変な労力がかかりました | Romaji: Atarashii kagu o tsumeru no ni taihen na rōryoku ga kakarimashita | Translation: It took a lot of effort to pack the new furniture. 
+5. 詰める | Kanji: 彼らは荷物を詰めるのに一日中かかりました | Romaji: Karera wa nimotsu o tsumeru no ni ichinichijū kakarimashita | Translation: It took them all day to pack their luggage.
+-----------------------------
+CLI param:  積もる
+--- Response text: ---
+1. 積もる | Kanji: 雪が積もり始めた | Romaji: Yuki ga tsumori hajimeta | Translation: The snow started to accumulate | 
+2. 積もる | Kanji: 山の上に積もった雪 | Romaji: Yama no ue ni tsumotta yuki | Translation: The snow accumulated on top of the mountain | 
+3. 積もる | Kanji: 貯金を積み上げていく | Romaji: Chokin o tsumamiagete iku | Translation: I am gradually accumulating savings | 
+4. 積もる | Kanji: 時間を無駄に積もらないように | Romaji: Jikan o muda ni tsumorana yō ni | Translation: So as not to waste time piling up | 
+5. 積もる | Kanji: 土砂が積もっていくのを見守った | Romaji: Doshaburi ga tsumotte iku no o mimamotta| Translation: I watched the dirt pile up
+-----------------------------
+CLI param:  出会う
+--- Response text: ---
+1. 出会う | Kanji: 彼と出会ったのは高校の時でした | Romaji: Kare to deatta no wa koukou no toki deshita | Translation: I met him in high school | 
+2. 出会う | Kanji: 彼女と出会ったのは、私が仕事を探しているときでした | Romaji: Kanojo to deatta no wa, watashi ga shigoto o sagashiteiru toki deshita | Translation: I met her when I was looking for a job | 
+3. 出会う | Kanji: 今日は、新しい友達と出会えたので、嬉しかったです | Romaji: Kyou wa, atarashii tomodachi to deaeta node, ureshikatta desu | Translation: I was happy to meet a new friend today | 
+4. 出会う | Kanji: 私が大学に入ってから、多くの素晴らしい友達を出会えました | Romaji: Watashi ga daigaku ni haitte kara, ooku no subarashii tomodachi o deaemashita | Translation: Since I entered university, I have met many wonderful friends | 
+5. 出会う | Kanji: 昨日は、私の将来の夢を叶える人と出会えました | Romaji: Kinou wa, watashi no shourai no yume o kanaeru hito to deaemashita| Translation: Yesterday I met someone who could fulfill my future dreams
+-----------------------------
+CLI param:  でき上る
+--- Response text: ---
+1. でき上る | Kanji: 出来上がる | Romaji: dekiagaru | Translation: To be completed | 
+2. でき上ること | Kanji: 出来上がること | Romaji: dekiagaru koto | Translation: To be able to do something | 
+3. でき上るようになる | Kanji: 出来上がるようになる | Romaji: dekiagaru you ni naru | Translation: To be able to do something (become able to do something) | 
+4. でき上るまでに | Kanji: 出来上がるまでに | Romaji: dekiagaru made ni | Translation: Until it is completed/finished/done | 
+5. でき上るまで努力する | Kanji: 出来上がるまで努力する | Romaji: dekiagaru made doryoku suru | Translation: To make an effort until it is completed/finished/done |
+-----------------------------
+CLI param:  照る
+--- Response text: ---
+1. 照る | Kanji: 日差しを浴びて空を照らす | Romaji: Hizashi o abite sora o terasu | Translation: The sun shines and illuminates the sky |
+2. 照る | Kanji: 彼女は鏡を見て自分を照らした | Romaji: Kanojo wa kagami o mite jibun o terashita | Translation: She looked at the mirror and illuminated herself |
+3. 照る | Kanji: 灯りが部屋を照らした | Romaji: Akari ga heya o terashita | Translation: The light illuminated the room |
+4. 照る | Kanji: マンションの前には大きなライトが照らされていた | Romaji: Manshon no mae ni wa ookina raito ga terasarete ita | Translation: A big light was illuminating in front of the mansion|
+5. 照る | Kanji: 彼女は太陽の光を浴びて笑顔を照らした| Romaji: Kanojo wa taiyou no hikari o abite egao o terashita| Translation: She smiled and illuminated her face with the sunlight
+-----------------------------
+CLI param:  溶く
+--- Response text: ---
+1. 溶く | Kanji: 水に溶かす | Romaji: Mizu ni tokasu | Translation: Dissolve in water | 
+2. 溶く | Kanji: 塩を溶かして食べる | Romaji: Shio o tokashite taberu | Translation: Eat by dissolving salt | 
+3. 溶く | Kanji: 雪が溶けていく | Romaji: Yuki ga tokete iku | Translation: The snow is melting away | 
+4. 溶く | Kanji: 冷たい水で溶かした砂糖を飲む | Romaji: Tsumetai mizu de tokashita satou o nomu | Translation: Drink the sugar dissolved in cold water|
+5. 溶く | Kanji: 冷たい牛乳でチョコレートを溶かす | Romaji: Tsumetai gyuunyuu de chokoreeto o tokasau| Translation: Melt the chocolate in cold milk|
+-----------------------------
+CLI param:  どく
+--- Response text: ---
+1. どく | Kanji: 毒がある | Romaji: Doku ga aru | Translation: There is poison | 
+2. どく | Kanji: 毒を飲んだ | Romaji: Doku o nonda | Translation: He drank the poison | 
+3. どく | Kanji: 毒を持っていた | Romaji: Doku o motte ita | Translation: He had the poison with him | 
+4. どく | Kanji: 毒のある果物を食べないでください | Romaji: Doku no aru kudamono o tabenai de kudasai | Translation: Please don't eat the fruit with poison in it| 
+5. どく | Kanji: 毒を入れないでください | Romaji: Doku o irenaide kudasai | Translation: Please don't put in the poison|
+-----------------------------
+CLI param:  溶ける
+--- Response text: ---
+1. 溶ける | Kanji: 氷が溶けてしまう | Romaji: Koori ga tokete shimau | Translation: The ice melts | 
+2. 溶ける | Kanji: 彼女の心は溶けてしまった | Romaji: Kanojo no kokoro wa tokete shimatta | Translation: Her heart melted away | 
+3. 溶ける | Kanji: 雪が暖かい風で溶けていった | Romaji: Yuki ga atatakai kaze de tokete itta | Translation: The snow melted away in the warm wind | 
+4. 溶ける | Kanji: 雨が濡れた街を溶かしていく | Romaji: Ame ga nureta machi o tokashite iku | Translation: The rain melts away the wet city | 
+5. 溶ける | Kanji: 彼女の熱い視線が彼を溶かした | Romaji: Kanojo no atsui shisen ga kare o tokashita| Translation: Her hot gaze melted him away
+-----------------------------
+CLI param:  どける
+--- Response text: ---
+1. どける | Kanji: 手伝ってどける | Romaji: tetsudatte dokeru | Translation: Help and get it done |
+2. どける | Kanji: 助けてどける | Romaji: tasukete dokeru | Translation: Help and get it done |
+3. どける | Kanji: 努力してどける | Romaji: doryoku shite dokeru | Translation: Work hard and get it done |
+4. どける | Kanji: 相談してどける | Romaji: soudan shite dokeru | Translation: Consult and get it done |
+5. どける | Kanji: 一緒になってどける | Romaji: issho ni natte dokeru | Translation: Work together and get it done|
+-----------------------------
+CLI param:  閉じる
+--- Response text: ---
+1. 閉じる | Kanji: 部屋を閉じる | Romaji: Heya o tojiru | Translation: Close the room | 
+2. 閉じる | Kanji: 窓を閉じる | Romaji: Mado o tojiru | Translation: Close the window | 
+3. 閉じる | Kanji: 口を閉じる | Romaji: Kuchi o tojiru | Translation: Close the mouth | 
+4. 閉じる | Kanji: テキストを閉じる | Romaji: Tekisuto o tojiru | Translation: Close the text | 
+5. 閉じる | Kanji: 書類を閉じる | Romaji: Shorui o tojiru | Translation: Close the documents|
+-----------------------------
+CLI param:  飛び込む
+--- Response text: ---
+1. 飛び込む | Kanji: 彼は急いで池に飛び込んだ | Romaji: Kare wa isoide ike ni tobikonda | Translation: He quickly jumped into the pond | 
+2. 飛び込む | Kanji: 水の中へと飛び込んでしまう | Romaji: Mizu no naka e to tobikonde shimau | Translation: He plunged into the water | 
+3. 飛び込む | Kanji: 彼女は怖がりながらも洞窟に飛び込んだ | Romaji: Kanojo wa kowagari nagara mo doukutsu ni tobikonda | Translation: She jumped into the cave despite being scared | 
+4. 飛び込む | Kanji: 彼は激しく波に飛び込んだ | Romaji: Kare wa hageshiku nami ni tobikonda | Translation: He jumped into the waves fiercely | 
+5. 飛び込む | Kanji: 若者たちは大きなジャンプから飛び込んだ | Romaji: Wakamonotachi wa ooki na janpu kara tobikonda| Translation: The young people jumped from a big jump
+-----------------------------
+CLI param:  飛び出す
+--- Response text: ---
+1. 飛び出す | Kanji: 彼は飛び出して部屋を出た | Romaji: Kare wa tobidashite heya o deta | Translation: He jumped out and left the room | 
+2. 飛び出す | Kanji: 水面から魚が飛び出した | Romaji: Minamo kara sakana ga tobidashita | Translation: Fish jumped out of the water surface | 
+3. 飛び出す | Kanji: 運転手は急いで車から飛び出した | Romaji: Untenshu wa isoide kuruma kara tobidashita | Translation: The driver quickly jumped out of the car | 
+4. 飛び出す | Kanji: 彼女は叫んで飛び出した | Romaji: Kanojo wa sakende tobidashita | Translation: She screamed and jumped out | 
+5. 飛び出す | Kanji: 突然、熊が樹から飛び出してきた | Romaji: Totsuzen, kuma ga ki kara tobidashite kita | Translation: Suddenly, a bear jumped out from the tree
+-----------------------------
+CLI param:  取り上げる/採り上げる
+--- Response text: ---
+1. 取り上げる | Kanji: 彼は取り上げるについての話をした | Romaji: Kare wa toriageru ni tsuite no hanashi o shita | Translation: He talked about taking it up. 
+2. 採り上げる | Kanji: 私たちは彼の功績を採り上げる必要がある | Romaji: Watashitachi wa kare no kouseki o toriageru hitsuyou ga aru | Translation: We need to take up his achievements. 
+3. 取り上げる | Kanji: 彼女は取り上げる話題を避けた | Romaji: Kanojo wa toriageru taidou o saketa | Translation: She avoided the topic of taking it up. 
+4. 採り上げる | Kanji: 私たちは彼の言葉を採り上げて考慮する必要がある | Romaji: Watashitachi wa kare no kotoba o toriagete kouryuu suru hitsuyou ga aru | Translation: We need to take up his words and consider them. 
+5. 取り上げる | Kanji: 彼らは取り上げる問題に関して協力し合った | Romaji: Karera wa toriageru mondai ni kan shite kyouryoku shiatta | Translation: They cooperated on the issue of taking it up.
+-----------------------------
+CLI param:  取り消す
+--- Response text: ---
+1. 取り消す | Kanji: 取り消しをします | Romaji: torikesi o shimasu | Translation: I will cancel it | 
+2. 取り消す | Kanji: 予約を取り消しました | Romaji: yoyaku o torikesimashita | Translation: I cancelled the reservation | 
+3. 取り消す | Kanji: 注文を取り消したいのですが | Romaji: chuumon o torikesitai no desu ga | Translation: I would like to cancel my order | 
+4. 取り消す | Kanji: 受験を取り消しましたか？ | Romaji: juken o torikesimashita ka? | Translation: Did you cancel the exam? | 
+5. 取り消す | Kanji: 私は会議を取り消しました | Romaji: watashi wa kaigi o torikesimashita | Translation: I cancelled the meeting.
+-----------------------------
+CLI param:  取り出す
+--- Response text: ---
+1. 取り出す | Kanji: 収納庫の中から取り出す | Romaji: Shūnōko no naka kara toridasu | Translation: Take out from the storage | 
+2. 取り出す | Kanji: 宝箱を開けて取り出す | Romaji: Takarabako o akete toridasu | Translation: Open the treasure chest and take out | 
+3. 取り出す | Kanji: 本棚から本を取り出す | Romaji: Hondana kara hon o toridasu | Translation: Take out a book from the bookshelf | 
+4. 取り出す | Kanji: 箱の中から道具を取り出す | Romaji: Hako no naka kara dōgu o toridasu | Translation: Take out tools from the box | 
+5. 取り出す | Kanji: 財布の中から小銭を取り出す | Romaji: Saifu no naka kara kogane o toridasu | Translation: Take out small change from the wallet
+-----------------------------
+CLI param:  捕る
+--- Response text: ---
+1. 捕る | Kanji: 犬が鳥を捕る | Romaji: Inu ga tori wo toru | Translation: The dog catches a bird |
+2. 捕る | Kanji: 彼は犯人を捕ることに成功した | Romaji: Kare wa hannin wo toru koto ni seikou shita | Translation: He succeeded in catching the criminal |
+3. 捕る | Kanji: 私は野生の動物を捕るのが大好きです | Romaji: Watashi wa yasei no doubutsu wo toru no ga daisuki desu | Translation: I love catching wild animals |
+4. 捕る | Kanji: 彼女はその虫を網で捕った | Romaji: Kanojo wa sono mushi wo ami de totta | Translation: She caught the bug with a net|
+5. 捕る | Kanji: そのサメは魚を捕った | Romaji: Sono same wa sakana wo totta | Translation: The shark caught the fish|
+-----------------------------
+CLI param:  取れる
+--- Response text: ---
+1. 取れる | Kanji: 彼は試験に合格して取れる点数を取った | Romaji: Kare wa shiken ni goukaku shite toreru ten suu o totta | Translation: He passed the exam and got the score he needed to get. 
+2. 取れる | Kanji: 日本語を学ぶのに取れる時間がない | Romaji: Nihongo o manabu no ni toreru jikan ga nai | Translation: I don't have time to learn Japanese. 
+3. 取れる | Kanji: 手続きをすべて完了して取れる証明書をもらった | Romaji: Tesuzuki o subete kanryou shite toreru shoumeisho o moratta | Translation: I completed all the procedures and got the certificate. 
+4. 取れる | Kanji: 毎日練習して取れる成績を出した | Romaji: Mainichi renshuu shite toreru seiseki o dashita | Translation: I practiced every day and got the results I wanted. 
+5. 取れる | Kanji: 貯金をして取れる利子がありますか？| Romaji: Chokin o shite toreru rishiki ga arimasu ka? | Translation: Is there any interest if I save money?
+-----------------------------
+CLI param:  流れる
+--- Response text: ---
+1. 流れる | Kanji: 水が流れる | Romaji: Mizu ga nagareru | Translation: The water flows | 
+2. 流れる | Kanji: 血が流れる | Romaji: Chi ga nagareru | Translation: The blood flows | 
+3. 流れる | Kanji: 時間が流れる | Romaji: Jikan ga nagareru | Translation: Time passes by | 
+4. 流れる | Kanji: 情報が流れる | Romaji: Jouhou ga nagareru | Translation: Information flows| 
+5. 流れる | Kanji: 年月が流れる | Romaji: Toshi tsuki ga nagareru| Translation: Years and months pass by|
+-----------------------------
+CLI param:  殴る
+--- Response text: ---
+1. 殴る | Kanji: 彼は私を殴った | Romaji: Kare wa watashi o nagutta | Translation: He hit me | 
+2. 殴る | Kanji: 彼女は息子を殴りつけた | Romaji: Kanojo wa musuko o naguritsuketa | Translation: She hit her son | 
+3. 殴る | Kanji: 彼らは口々に殴り合った | Romaji: Karera wa kuchiguchi ni naguriatta | Translation: They fought each other verbally | 
+4. 殴る | Kanji: 彼らは互いに殴りあった | Romaji: Karera wa tagai ni naguriatta | Translation: They fought each other physically| 
+5. 殴る | Kanji: 犯人は警官を殴り散らした| Romaji: Hannin wa keikan o naguri chirashita| Translation: The criminal scattered the police by hitting them|
+-----------------------------
+CLI param:  悩む
+--- Response text: ---
+1. 悩む | Kanji: 彼は悩んでいる | Romaji: Kare wa nayande iru | Translation: He is troubled. |
+2. 悩む | Kanji: 彼女は悩みを抱えている | Romaji: Kanojo wa nayami wo kakaete iru | Translation: She is carrying worries. |
+3. 悩む | Kanji: 私は未来を悩んでいる | Romaji: Watashi wa mirai wo nayande iru | Translation: I am worried about the future. | 
+4. 悩む | Kanji: 彼女は自分の人生に悩んでいた | Romaji: Kanojo wa jibun no jinsei ni nayande ita | Translation: She was troubled about her life. | 
+5. 悩む | Kanji: 彼は仕事のことで悩んでいる | Romaji: Kare wa shigoto no koto de nayande iru | Translation: He is troubled about his work.
+-----------------------------
+CLI param:  なる
+--- Response text: ---
+1. なる | Kanji: 彼は英語が話せるようになる | Romaji: Kare wa eigo ga hanaseru you ni naru | Translation: He will be able to speak English | 
+2. なる | Kanji: 彼女は今日、新しい仕事に就くことになる | Romaji: Kanojo wa kyou, atarashii shigoto ni tsuku koto ni naru | Translation: She will take a new job today | 
+3. なる | Kanji: 彼らは今年、大学を卒業することになる | Romaji: Karera wa kotoshi, daigaku o sotsugyou suru koto ni naru | Translation: They will graduate from university this year | 
+4. なる | Kanji: 明日、彼らは友達となるだろう | Romaji: Ashita, karera wa tomodachi to naru darou | Translation: They will become friends tomorrow | 
+5. なる | Kanji: 私たちは今夜、一緒になるだろう | Romaji: Watashitachi wa kon'ya, issho ni naru darou | Translation: We will be together tonight
+-----------------------------
+CLI param:  似合う
+--- Response text: ---
+1. 似合う | Kanji: 彼女の服は彼に似合っていた | Romaji: Kanojo no fuku wa kare ni niautteita | Translation: Her clothes suited him well | 
+2. 似合う | Kanji: 彼女は私のお気に入りのドレスに似合っていた | Romaji: Kanojo wa watashi no okiniiri no doresu ni niautteita | Translation: She looked great in my favorite dress | 
+3. 似合う | Kanji: 彼女は黒い革ジャケットにとても似合っていた | Romaji: Kanojo wa kuroi kawa jaketto ni totemo niautteita | Translation: She looked great in the black leather jacket | 
+4. 似合う | Kanji: 彼女はその小さな帽子がとても似合っていた | Romaji: Kanojo wa sono chiisana boushi ga totemo niautteita | Translation: She looked great in that small hat | 
+5. 似合う | Kanji: 彼女の新しい服装は彼女にとても似合っていた | Romaji: Kanojo no atarashii fukusou wa kanojo ni totemo niautteita| Translation: Her new outfit suited her very well|
+-----------------------------
+CLI param:  握る
+--- Response text: ---
+1. 握る | Kanji: 手を握る | Romaji: Te o nigiru | Translation: To shake hands | 
+2. 握る | Kanji: 心を握る | Romaji: Kokoro o nigiru | Translation: To grasp one's heart | 
+3. 握る | Kanji: 力を握る | Romaji: Chikara o nigiru | Translation: To grip with strength | 
+4. 握る | Kanji: この機会を握って勝つ | Romaji: Kono kikai o nigitte katsu| Translation: To seize this opportunity and win| 
+5. 握る | Kanji: 運命を握っている | Romaji: Unmei o nigitte iru| Translation: To hold one's destiny in their hands|
+-----------------------------
+CLI param:  煮る
+--- Response text: ---
+1. 煮る | Kanji: 煮物を煮る | Romaji: nimono o niru | Translation: Boil the dish | 
+2. 煮る | Kanji: 野菜を煮る | Romaji: yasai o niru | Translation: Boil the vegetables | 
+3. 煮る | Kanji: 水を煮る | Romaji: mizu o niru | Translation: Boil the water | 
+4. 煮る | Kanji: 卵を煮る | Romaji: tamago o niru | Translation: Boil the eggs | 
+5. 煮る | Kanji: お茶を煮る | Romaji: ocha o niru| Translation: Boil the tea|
+-----------------------------
+CLI param:  縫う
+--- Response text: ---
+1. 縫う | Kanji: 私は彼女のドレスを縫った | Romaji: Watashi wa kanojo no doresu o nuitta | Translation: I sewed her dress | 
+2. 縫う | Kanji: 彼は穴を縫って補修した | Romaji: Kare wa ana o nuite hoshuu shita | Translation: He repaired the hole by sewing it | 
+3. 縫う | Kanji: 彼女は自分で衣服を縫った | Romaji: Kanojo wa jibun de ifuku o nuitta | Translation: She sewed her own clothes | 
+4. 縫う | Kanji: 彼らは布地を縫い合わせた | Romaji: Karera wa nuno-ji o nuiawase ta | Translation: They sewed the fabric together | 
+5. 縫う | Kanji: 彼らは毛皮を縫い付けた | Romaji: Karera wa kegawa o nuitsuke ta | Translation: They attached the fur by sewing it|
+-----------------------------
+CLI param:  抜く
+--- Response text: ---
+1. 抜く | Kanji: 彼は抜き取った金塊を隠した | Romaji: Kare wa nukitotta kinkō o kakushita | Translation: He hid the gold ingot that he had extracted | 
+2. 抜く | Kanji: 彼女は穴から抜いた石を見つけた | Romaji: Kanojo wa ana kara nuita ishi o mitsuketa | Translation: She found a stone that she had pulled out of the hole | 
+3. 抜く | Kanji: 彼は木から抜いた釘を使って固定した | Romaji: Kare wa ki kara nuite tsubu o tsukatte kotei shita | Translation: He used the nail he pulled out of the tree to fix it in place| 
+4. 抜く | Kanji: 彼女は抜いた髪の毛を整えた | Romaji: Kanojo wa nuite kami no ke o totonoeta| Translation: She arranged the hair she had pulled out| 
+5. 抜く | Kanji: 彼は抜いた歯を確認した| Romaji: Kare wa nuite ha o kakunin shita| Translation: He checked the tooth he had pulled out|
+-----------------------------
+CLI param:  ぬれる
+--- Response text: ---
+1. ぬれる | Kanji: 濡れる | Romaji: nureru | Translation: to get wet | 
+2. ぬれた | Kanji: 濡れた | Romaji: nureta | Translation: got wet | 
+3. ぬれさせる | Kanji: 濡れさせる | Romaji: nuresaseru | Translation: to make someone/something wet | 
+4. ぬれた服を着る | Kanji: 濡れた服を着る | Romaji: nureta fuku o kiru | Translation: to wear wet clothes | 
+5. 降っていた雨で地面がぬれていた | Kanji: 降っていた雨で地面が濡れていた | Romaji: futteita ame de jimen ga nureteita | Translation: The ground was wet from the rain that had been falling.
+-----------------------------
+CLI param:  願う
+--- Response text: ---
+1. 願う | Kanji: 私は彼女が幸せな未来を願う | Romaji: Watashi wa kanojo ga shiawase na mirai o negau | Translation: I wish her a happy future | 
+2. 願う | Kanji: 私は彼の成功を心から願っている | Romaji: Watashi wa kare no seikou o kokoro kara negatte iru | Translation: I sincerely wish for his success | 
+3. 願う | Kanji: 私は世界平和を強く願っている | Romaji: Watashi wa sekai heiwa o tsuyoku negatte iru | Translation: I strongly wish for world peace | 
+4. 願う | Kanji: 彼女は子供たちが健やかな未来を願っている | Romaji: Kanojo wa kodomo-tachi ga ken'yaka na mirai o negatte iru | Translation: She wishes the children a healthy future | 
+5. 願う | Kanji: 彼らは変化を望んでいるだけでなく、それを強く願っている | Romaji: Karera wa henka o nozonde iru dake de naku, sore o tsuyoku negatte iru | Translation: They not only desire change, but also strongly wish for it.
+-----------------------------
+CLI param:  残す
+--- Response text: ---
+1. 残す | Kanji: 彼はその場所を残した | Romaji: Kare wa sono basho o nokoshita | Translation: He left that place behind. | 
+2. 残す | Kanji: 彼女は彼に良い思い出を残した | Romaji: Kanojo wa kare ni yoi omoide o nokoshita | Translation: She left him with good memories. | 
+3. 残す | Kanji: 彼らはその場所に何かを残した | Romaji: Karera wa sono basho ni nanika o nokoshita | Translation: They left something behind in that place. | 
+4. 残す | Kanji: 彼らは彼女に多くの負債を残した | Romaji: Karera wa kanojo ni ooku no fusai o nokoshita | Translation: They left her with a lot of debt. | 
+5. 残す | Kanji: 私たちは未来の世代に何かを残したいと思っている | Romaji: Watashitachi wa mirai no sedai ni nanika o nokoshitai to omotte iru | Translation: We want to leave something for future generations.
+-----------------------------
+CLI param:  載せる
+--- Response text: ---
+1. 載せる | Kanji: 彼は新しい写真をインスタグラムに載せた | Romaji: Kare wa atarashii shashin o insutaguramu ni noseta | Translation: He posted a new photo on Instagram | 
+2. 載せる | Kanji: 彼女は旅行の記録をブログに載せた | Romaji: Kanojo wa ryokou no kiroku o burogu ni noseta | Translation: She posted her travel records on her blog | 
+3. 載せる | Kanji: 私は新しい情報をウェブサイトに載せました | Romaji: Watashi wa atarashii jouhou o uebusaito ni nosemashita | Translation: I posted new information on the website | 
+4. 載せる | Kanji: 私は今月の結果をFacebookに載せました | Romaji: Watashi wa kongetsu no kekka o feisubukku ni nosemashita | Translation: I posted this month's results on Facebook | 
+5. 載せる | Kanji: 彼は最新のニュースをTwitterに載せた | Romaji: Kare wa saishin no nyuusu o tsuutaa ni noseta | Translation: He posted the latest news on Twitter
+-----------------------------
+CLI param:  伸びる
+--- Response text: ---
+1. 伸びる | Kanji: 彼は積極的に自分の能力を伸ばしている | Romaji: Kare wa sekkyokuteki ni jibun no noryoku o nobashite iru | Translation: He is actively expanding his own abilities | 
+2. 伸びる | Kanji: 話題は次々と伸びていった | Romaji: Wadai wa tsugitsugi to nobite itta | Translation: The topic kept growing and growing | 
+3. 伸びる | Kanji: 友達関係が日々伸びている | Romaji: Tomodachi kankei ga hibi nobite iru | Translation: My friendships are growing day by day | 
+4. 伸びる | Kanji: 彼女の趣味は年々伸びている | Romaji: Kanojo no shumi wa nen nen nobite iru | Translation: Her interests are expanding year by year | 
+5. 伸びる | Kanji: 私たちの仕事量は急激に伸びていく | Romaji: Watashitachi no shigoto ryou wa kyuukyoku ni nobite iku | Translation: Our workload is rapidly increasing
+-----------------------------
+CLI param:  延びる
+--- Response text: ---
+1. 延びる | Kanji: 彼が病気を治すのにかなりの時間がかかり、入院期間が延びた | Romaji: Kare ga byouki o naoru no ni kanari no jikan ga kakari, nyuuin kikan ga nobita | Translation: It took quite a long time for him to get better and his hospital stay was extended | 
+2. 延びる | Kanji: 彼女は今日の締め切りを延びることにした | Romaji: Kanojo wa kyou no shimekiri o nobiru koto ni shita | Translation: She decided to extend the deadline for today | 
+3. 延びる | Kanji: 私たちは今回のプロジェクトの期限を延びることにした | Romaji: Watashitachi wa konkai no purojekuto no kigen o nobiru koto ni shita | Translation: We decided to extend the deadline for this project | 
+4. 延びる | Kanji: 政府は国民の福祉を延ばすことを誓った | Romaji: Seifu wa kokumin no fukushi o nobasu koto o chikatta | Translation: The government vowed to extend the welfare of the people | 
+5. 延びる | Kanji: 私たちは今回の試験の受験期間を延ばすことにしました | Romaji: Watashitachi wa konkai no shiken no juken kikan o nobasu koto ni shimashita | Translation: We decided to extend the examination period for this test
+-----------------------------
+CLI param:  昇る
+--- Response text: ---
+1. 昇る | Kanji: 空から太陽が昇った | Romaji: Sora kara taiyou ga nobotta | Translation: The sun rose from the sky | 
+2. 昇る | Kanji: 気温が急激に昇った | Romaji: Kion ga kyuu geki ni nobotta | Translation: The temperature rose sharply | 
+3. 昇る | Kanji: 彼女の評価は急速に昇っていった | Romaji: Kanojo no hyouka wa kyuu soku ni nobotte itta | Translation: Her evaluation quickly rose up | 
+4. 昇る | Kanji: 彼は昇進して新しい役職についた | Romaji: Kare wa shoushin shite atarashii yaku shoku ni tsuita | Translation: He was promoted and got a new position | 
+5. 昇る | Kanji: 彼女の能力は日々昇り続けている | Romaji: Kanojo no nouryoku wa hibi nobori tsudzukete iru| Translation: Her ability is rising day by day
+-----------------------------
+CLI param:  乗り越す
+--- Response text: ---
+1. 乗り越す | Kanji: 山を越えて河を乗り越す | Romaji: Yama o koete kawa o norikosu | Translation: Cross the mountain and cross the river | 
+2. 乗り越す | Kanji: 私はこの困難を乗り越えてきた | Romaji: Watashi wa kono konnan o norikoete kita | Translation: I have overcome this difficulty | 
+3. 乗り越す | Kanji: 彼女は高い壁を乗り越えた | Romaji: Kanojo wa takai kabe o norikoeta | Translation: She overcame the high wall | 
+4. 乗り越す | Kanji: 彼らは大きな問題を乗り越えた | Romaji: Karera wa ookina mondai o norikoeta | Translation: They overcame a big problem | 
+5. 乗り越す | Kanji: 私たちはこの困難を乗り越えようとしている | Romaji: Watashitachi wa kono konnan o norikoeyou to shiteiru| Translation: We are trying to overcome this difficulty|
+-----------------------------
+CLI param:  生える
+--- Response text: ---
+1. 私は髪が生えるのが待ち遠しい | Kanji: 私は髪が生えるのが待ち遠しい | Romaji: Watashi wa kami ga haeru no ga machidooshii | Translation: I'm eagerly waiting for my hair to grow | 
+2. 植物は日光を浴びると芽が生える | Kanji: 植物は日光を浴びると芽が生える | Romaji: Shokubutsu wa nikkou o abiru to me ga haeru | Translation: Plants sprout when they are exposed to sunlight | 
+3. 小さな苗木が夏になると大きく生えていく | Kanji: 小さな苗木が夏になると大きく生えていく | Romaji: Chiisana naemoki ga natsu ni naru to ookiku haeteiku | Translation: The small saplings grow bigger when summer comes | 
+4. 新しい植物を種を植えるとすぐに葉っぱが生えてきた | Kanji: 新しい植物を種を植えるとすぐに葉っぱが生えてきた | Romaji: Atarashii shokubutsu o tane o ueru to sugu ni happa ga haete kita | Translation: When I planted the new plant, its leaves grew quickly | 
+5. 冬の終わりになると、新しい芽が少しずつ生えてきた | Kanji: 冬の終わりになると、新しい芽が少しずつ生えてきた | Romaji: Fuyu no owari ni naru to, atarashii me ga sukoshi zutsu haete kita | Translation: At the end of winter, new buds began to grow little by little
+-----------------------------
+CLI param:  測る/量る/計る
+--- Response text: ---
+1. 測る | Kanji: 気温を測る | Romaji: Kion o hakaru | Translation: Measure the temperature | 
+2. 量る | Kanji: 水の量を量る | Romaji: Mizu no ryou o hakaru | Translation: Measure the amount of water | 
+3. 計る | Kanji: 時間を正確に計る | Romaji: Jikan o seikaku ni hakaru | Translation: Measure the time accurately | 
+4. 測る | Kanji: 地形を測る | Romaji: Chikei o hakaru | Translation: Measure the terrain | 
+5. 計る | Kanji: 年齢を計る | Romaji: Nenrei o hakaru | Translation: Measure the age
+-----------------------------
+CLI param:  掃く
+--- Response text: ---
+1. 掃く | Kanji: 床を掃く | Romaji: Yuka o haku | Translation: Sweep the floor | 
+2. 掃く | Kanji: 街を掃除して掃く | Romaji: Machi o sōji shite haku | Translation: Clean the city and sweep it | 
+3. 掃く | Kanji: 道路を掃いて歩く | Romaji: Dōro o hai te aruku | Translation: Sweep the road and walk on it | 
+4. 掃く | Kanji: 土を掃き出して耕す | Romaji: Tsuchi o haki dashi te tōsu | Translation: Sweep out the soil and plow it | 
+5. 掃く | Kanji: 日差しを掃いて涼む | Romaji: Hizashi o hai te suzumu| Translation: Sweep away the sunlight and cool down|
+-----------------------------
+CLI param:  吐く
+--- Response text: ---
+1. 吐く | Kanji: 彼は怒っているので、怒鳴りつけるよりも言葉を吐くのがいい | Romaji: Kare wa okotte iru node, donaritsukeru yori mo kotoba o tsuku no ga ii | Translation: Since he is angry, it is better to express his words than to yell at him. 
+2. 吐く | Kanji: 彼女は毎日、何かを吐き出すために書くことを好んでいる | Romaji: Kanojo wa mainichi, nanika o hakidashu tame ni kaku koto o konomuide iru | Translation: She likes to write every day in order to express something. 
+3. 吐く | Kanji: 私は朝食を食べた後、口から悪臭を吐いた | Romaji: Watashi wa choushoku o tabeta ato, kuchi kara akushuu o haita | Translation: After I ate breakfast, I belched an unpleasant smell from my mouth. 
+4. 吐く | Kanji: 犬は不快な気分になると唾を吐くことがある | Romaji: Inu wa fukai na kimochi ni naru to tsuba o tsuku koto ga aru | Translation: When a dog is in an unpleasant mood, it sometimes spits out saliva. 
+5. 吐く | Kanji: 私は驚いて息を呑んだ後、笑い声を吐き出した | Romaji: Watashi wa odorokete iki o nonda ato, waraigoe o hakidashita | Translation: After I was surprised and held my breath, I burst out laughing.
+-----------------------------
+CLI param:  挟む
+--- Response text: ---
+1. 挟む | Kanji: 彼女はその言葉を口に挟んだ | Romaji: Kanojo wa sono kotoba o kuchi ni hasamu | Translation: She put those words in her mouth. 
+2. 挟む | Kanji: 彼女は自分の考えを心に挟んだ | Romaji: Kanojo wa jibun no kangae o kokoro ni hasamu | Translation: She tucked her thoughts away in her heart. 
+3. 挟む | Kanji: 彼は彼女の腕を抱きしめて挟んだ | Romaji: Kare wa kanojo no ude o dakishimete hasamu | Translation: He hugged her arm and tucked it in. 
+4. 挟む | Kanji: 彼は彼女の手を握り締めて挟んだ | Romaji: Kare wa kanojo no te o nigirishimete hasamu | Translation: He held her hand tightly and tucked it in. 
+5. 挟む | Kanji: 彼女はその紙を本に挟んだ | Romaji: Kanojo wa sono kami o hon ni hasamu | Translation: She tucked the paper into the book.
+-----------------------------
+CLI param:  外す
+--- Response text: ---
+1. 外す | Kanji: 彼女は指輪を外した | Romaji: Kanojo wa yubiwa o hazushita | Translation: She took off her ring |
+2. 外す | Kanji: 私は靴を外した | Romaji: Watashi wa kutsu o hazushita | Translation: I took off my shoes |
+3. 外す | Kanji: 彼はベルトを外した | Romaji: Kare wa beruto o hazushita | Translation: He took off his belt |
+4. 外す | Kanji: 私たちは病気を外すことができなかった | Romaji: Watashitachi wa byouki o hazusu koto ga dekinakatta | Translation: We couldn't get rid of the disease | 
+5. 外す | Kanji: 彼女は悪い習慣を外した | Romaji: Kanojo wa warui shuukan o hazushita | Translation: She got rid of her bad habit|
+-----------------------------
+CLI param:  外れる
+--- Response text: ---
+1. 外れる | Kanji: 彼女は指輪を外れた | Romaji: Kanojo wa yubiwa o hazureta | Translation: She took off her ring | 
+2. 外れる | Kanji: 彼は突然立ち去って外れた | Romaji: Kare wa totsuzen tachisatte hazureta | Translation: He suddenly left and disappeared | 
+3. 外れる | Kanji: 彼女が靴を外して外れた | Romaji: Kanojo ga kutsu o hazushite hazureta | Translation: She took off her shoes and left | 
+4. 外れる | Kanji: 私は彼の言うことに外れなかった | Romaji: Watashi wa kare no iu koto ni hazurenakatta | Translation: I didn't disagree with what he said | 
+5. 外れる | Kanji: 彼は本当の話というのを外してしまったようだ | Romaji: Kare wa hontou no hanashi to iu no o hazushite shimatta you da| Translation: It seems like he avoided talking about the truth|
+-----------------------------
+CLI param:  話し合う
+--- Response text: ---
+1. 話し合う | Kanji: 彼らは話し合うことで意見を共有した | Romaji: Karera wa hanashiau koto de iken o kyōyū shita | Translation: They shared their opinions by talking together. 
+2. 話し合う | Kanji: 彼らは話し合って解決策を検討した | Romaji: Karera wa hanashiatte kaiketsusaku o kentō shita | Translation: They discussed and considered a solution. 
+3. 話し合う | Kanji: 私たちは話し合って問題の解決に取り組んだ | Romaji: Watashitachi wa hanashiatte mondai no kaiketsu ni torikundan | Translation: We worked together to solve the problem by talking. 
+4. 話し合う | Kanji: 彼らは話し合っているうちに協力関係を築いた | Romaji: Karera wa hanashiatte iru uchi ni kyōryoku kankei o kizuita | Translation: While they were talking, they built a cooperative relationship. 
+5. 話し合う | Kanji: 彼らは話し合いを通じて仲直りを果たした | Romaji: Karera wa hanashiai o tsuujite nakanaori o hatashita | Translation: Through talking, they reconciled with each other.
+-----------------------------
+CLI param:  話し掛ける
+--- Response text: ---
+1. 話し掛ける | Kanji: 彼女に話し掛けたいのですが、何て言えばいいでしょうか？ | Romaji: Kanojo ni hanashikaketai no desu ga, nante ieba ii deshou ka? | Translation: I want to talk to her, but what should I say? 
+2. 話し掛ける | Kanji: 彼と話し掛けるのがとても緊張します。 | Romaji: Kare to hanashikakeru no ga totemo kinchou shimasu. | Translation: I'm very nervous talking to him. 
+3. 話し掛ける | Kanji: 新しい友達を作るために、周りの人に話し掛けてみましょう。| Romaji: Atarashii tomodachi o tsukuru tame ni, mawari no hito ni hanashikakete mimashou. | Translation: Let's try talking to people around us to make new friends. 
+4. 話し掛ける | Kanji: 初対面の人には、礼儀正しく話し掛けます。| Romaji: Hatsutaimei no hito ni wa, reigi tadashiku hanashikakemasu. | Translation: When talking to someone for the first time, be polite and courteous. 
+5. 話し掛ける | Kanji: 友達と話し掛けるときは、笑顔を忘れないでください。| Romaji: Tomodachi to hanashikakeru toki wa, egao o wasurenai de kudasai. | Translation: When talking to friends, don't forget to smile.
+-----------------------------
+CLI param:  離れる
+--- Response text: ---
+1. 離れる | Kanji: 彼女は彼から離れることを決めた | Romaji: Kanojo wa kare kara hanareru koto o kimeta | Translation: She decided to leave him | 
+2. 離れる | Kanji: 私たちはお互いを離れなければならない | Romaji: Watashitachi wa otagai o hanarenakereba naranai | Translation: We have to part from each other |
+3. 離れる | Kanji: この部屋から離れてください | Romaji: Kono heya kara hanarete kudasai | Translation: Please leave this room | 
+4. 離れる | Kanji: 彼女は家族から離れて住んでいる | Romaji: Kanojo wa kazoku kara hanarete sunde iru | Translation: She lives away from her family | 
+5. 離れる | Kanji: 彼らは首都から数キロ離れた場所に住んでいる | Romaji: Karera wa shuto kara suu ki-ro hanareta basho ni sunde iru | Translation: They live in a place several kilometers away from the capital city|
+-----------------------------
+CLI param:  はめる
+--- Response text: ---
+1. パソコンにはめる | Kanji: パソコンにはめる | Romaji: pasokon ni hameru | Translation: Insert into the computer | 
+2. 彼女は腕時計をはめた | Kanji: 彼女は腕時計をはめた | Romaji: kanojo wa udedokei o hameta | Translation: She put on her wristwatch | 
+3. 友達と一緒に洞窟にはめる旅行をしたい | Kanji: 友達と一緒に洞窟にはめる旅行をしたい | Romaji: tomodachi to issho ni doukutsu ni hameru ryokou o shitai | Translation: I want to take a trip with my friends to a cave | 
+4. 私たちはその仮説を実験ではめてみた | Kanji: 私たちはその仮説を実験ではめてみた | Romaji: watashitachi wa sono kasetsu o jikken de hamete mita | Translation: We tried putting the hypothesis to the test | 
+5. 私の口の中に砂糖をはめて食べた | Kanji: 私の口の中に砂糖をはめて食べた| Romaji: watashi no kuchi no naka ni satou o hamete tabeta| Translation: I put sugar in my mouth and ate it
+-----------------------------
+CLI param:  はやる
+--- Response text: ---
+1. わたしはやる気がありません | Kanji: 私はやる気がありません | Romaji: Watashi wa yaruki ga arimasen | Translation: I don't have any motivation | 
+2. 彼はやることをすぐにやってしまう | Kanji: 彼はやることをすぐにやってしまう | Romaji: Kare wa yaru koto o sugu ni yatte shimau | Translation: He immediately does whatever he has to do | 
+3. この仕事は難しいですが、私はやります | Kanji: この仕事は難しいですが、私はやります | Romaji: Kono shigoto wa muzukashii desu ga, watashi wa yarimasu | Translation: This job is difficult but I will do it | 
+4. これから先も私たちは頑張ってやるべきだ | Kanji: これから先も私たちは頑張ってやるべきだ | Romaji: Kore kara saki mo watashitachi wa ganbattete yarubeki da | Translation: We should keep working hard from now on as well | 
+5. 子供たちにも良いことを教えてあげてやるのが親の役目だ | Kanji: 子供たちにも良いことを教えてあげてやるのが親の役目だ| Romaji: Kodomo-tachi ni mo yoi koto o oshiete agete yaru no ga oya no yakume da| Translation: It is a parent's role to teach their children good things
+-----------------------------
+CLI param:  払戻す
+--- Response text: ---
+1. keyword | Kanji: 口座に払戻します | Romaji: Kōza ni haraimodoshi masu | Translation: I will return it to the account | 
+2. keyword | Kanji: 払戻し額を確認しました | Romaji: Haraimodoshi gaku o kakunin shimashita | Translation: I confirmed the amount to be returned | 
+3. keyword | Kanji: 払戻し金額を支払います | Romaji: Haraimodoshi kingaku o shiharai masu | Translation: I will pay the amount to be returned | 
+4. keyword | Kanji: 払戻しを行いますか？| Romaji: Haraimodoshi o okonaimasu ka?| Translation: Will you do the return?| 
+5. keyword | Kanji: 払戻しを完了します| Romaji: Haraimodoshi o kanryō shimasu| Translation: I will complete the return|
+-----------------------------
+CLI param:  腫れる
+--- Response text: ---
+1. 腫れる | Kanji: 腫れた足を治療しなければならない | Romaji: Yabureta ashi o chiryou shinakereba naranai | Translation: I have to treat my swollen leg |
+2. 腫れる | Kanji: 彼は右腕が腫れていた | Romaji: Kare wa migiude ga yabureteita | Translation: His right arm was swollen | 
+3. 腫れる | Kanji: 彼女は口の中が腫れていた | Romaji: Kanojo wa kuchi no naka ga yabureteita | Translation: Her mouth was swollen | 
+4. 腫れる | Kanji: この症状は、顔が腫れてくることもあります | Romaji: Kono shoujou wa, kao ga yaburete kuru koto mo arimasu | Translation: This symptom can also cause swelling of the face| 
+5. 腫れる | Kanji: 痛みが強くなったら、体のあちこちが腫れてきます | Romaji: Itami ga tsuyoku nattara, karada no achikochi ga yaburete kimasu| Translation: If the pain gets stronger, parts of the body will swell up|
+-----------------------------
+CLI param:  引き受ける
+--- Response text: ---
+1. 引き受ける | Kanji: 彼は彼女のプロジェクトを引き受けることに決めた | Romaji: Kare wa kanojo no purojekuto o hikiukeru koto ni kimeta | Translation: He decided to take on her project | 
+2. 引き受ける | Kanji: 私はあなたのリクエストを引き受けることができますか？ | Romaji: Watashi wa anata no rikuesuto o hikiukeru koto ga dekimasu ka? | Translation: Can I take on your request? | 
+3. 引き受ける | Kanji: 彼女は今日から新しい仕事を引き受けることに決めた | Romaji: Kanojo wa kyou kara atarashii shigoto o hikiukeru koto ni kimeta | Translation: She decided to take on a new job from today | 
+4. 引き受ける | Kanji: 私は彼の試験を引き受けることにした | Romaji: Watashi wa kare no shiken o hikiukeru koto ni shita | Translation: I decided to take on his test | 
+5. 引き受ける | Kanji: 私たちはこのプロジェクトを引き受けることに同意した | Romaji: Watashitachi wa kono purojekuto o hikiukeru koto ni doui shita | Translation: We agreed to take on this project
+-----------------------------
+CLI param:  引き出す
+--- Response text: ---
+1. 引き出す | Kanji: 私は引き出しから本を引き出しました | Romaji: Watashi wa hikidashi kara hon o hikidashimashita | Translation: I pulled a book out of the drawer | 
+2. 引き出す | Kanji: 彼女は古い宝箱からお金を引き出した | Romaji: Kanojo wa furui takarabako kara okane o hikidashita | Translation: She pulled money out of the old treasure chest | 
+3. 引き出す | Kanji: 私たちは検索して答えを引き出しました | Romaji: Watashitachi wa kensaku shite kotae o hikidashimashita | Translation: We searched and pulled out the answer | 
+4. 引き出す | Kanji: 父は古い押入れから宝物を引き出した | Romaji: Chichi wa furui oshiire kara takaramono o hikidashita | Translation: My father pulled out a treasure from the old closet | 
+5. 引き出す | Kanji: 彼女は古いアルバムから写真を引き出した | Romaji: Kanojo wa furui arubamu kara shashin o hikidashita | Translation: She pulled out photos from the old album
+-----------------------------
+CLI param:  引く
+--- Response text: ---
+1. 引く | Kanji: 彼は紙を引いた | Romaji: Kare wa kami o hiita | Translation: He drew a paper | 
+2. 引く | Kanji: 私は引き出しを開けた | Romaji: Watashi wa hikidashi o aketa | Translation: I opened the drawer | 
+3. 引く | Kanji: 彼女は椅子を引いて座った | Romaji: Kanojo wa isu o hiite suwatta | Translation: She pulled a chair and sat down | 
+4. 引く | Kanji: 私はカーテンを引いた | Romaji: Watashi wa kaaten o hiita| Translation: I pulled the curtain| 
+5. 引く | Kanji: 犬が糸を引いている | Romaji: Inu ga ito o hiite iru| Translation: The dog is pulling the thread|
+-----------------------------
+CLI param:  引っ繰り返す
+--- Response text: ---
+1. 引っ繰り返す | Kanji: 同じことを引っ繰り返している | Romaji: Onaji koto o hikkuri kaeshite iru | Translation: Repeating the same thing | 
+2. 引っ繰り返す | Kanji: 毎日引っ繰り返している仕事 | Romaji: Mainichi hikkuri kaeshite iru shigoto | Translation: A job that I do every day repeatedly | 
+3. 引っ繰り返す | Kanji: もう引っ繰り返すのはやめた方がいい | Romaji: Mou hikkuri kaesu no wa yameta hou ga ii | Translation: It's better to stop repeating it already | 
+4. 引っ繰り返す | Kanji: 誤りを引っ繰り返さないようにしてください | Romaji: Ayamari o hikkuri kaesanai you ni shite kudasai | Translation: Please make sure not to repeat mistakes| 
+5. 引っ繰り返す | Kanji: 日々引っ繰り返している生活に飽きた | Romaji: Hibi hikkuri kaeshite iru seikatsu ni akita| Translation: I got tired of the daily repetitive life
+-----------------------------
+CLI param:  引っ張る
+--- Response text: ---
+1. 引っ張る | Kanji: 引っ張ってもらえますか？ | Romaji: hippatte moraemasu ka? | Translation: Can you pull it for me? | 
+2. 引っ張る | Kanji: 私は引っ張るのが苦手なので、助けてください。 | Romaji: watashi wa hipparu no ga nigate na node, tasukete kudasai. | Translation: I'm not good at pulling, so please help me. | 
+3. 引っ張る | Kanji: 彼は紐を引っ張りながら歩いていた。 | Romaji: kare wa himo o hippari nagara aruite ita. | Translation: He was walking while pulling the rope. | 
+4. 引っ張る | Kanji: この糸を引っ張ると、何かが起こるようだ。| Romaji: kono ito o hipparu to, nanika ga okoru you da. | Translation: It seems something will happen if I pull this thread.| 
+5. 引っ張る | Kanji: 私は彼を助けるために彼の腕を引っ張り上げた。| Romaji: watashi wa kare o tasukeru tame ni kare no ude o hippari ageta.| Translation: I pulled his arm up to help him.
+-----------------------------
+CLI param:  冷やす
+--- Response text: ---
+1. 冷やす | Kanji: 冷やして食べる | Romaji: hiyashite taberu | Translation: Eat it cold | 
+2. 冷やす | Kanji: 冷やした水を飲む | Romaji: hiyashita mizu o nomu | Translation: Drink cold water | 
+3. 冷やす | Kanji: 手を冷やしてみる | Romaji: te o hiyashite miru | Translation: Try to cool your hands down | 
+4. 冷やす | Kanji: 部屋を冷やすためにエアコンをつける | Romaji: heya o hiyasu tame ni eakon o tsukeru | Translation: Turn on the air conditioner to cool the room down| 
+5. 冷やす | Kanji: 気温を冷やすために風鈴を回す | Romaji: kion o hiyasu tame ni fuurin o mawasu | Translation: Turn the wind chime to cool down the temperature|
+-----------------------------
+CLI param:  広げる
+--- Response text: ---
+1. 広げる | Kanji: 彼は自分のビジネスを広げるために時間をかけた | Romaji: Kare wa jibun no bijinesu o hirogeru tame ni jikan o kaketa | Translation: He spent time to expand his business | 
+2. 広げる | Kanji: 私は友人とのネットワークを広げている | Romaji: Watashi wa yuujin to no nettowaaku o hirogete iru | Translation: I am expanding my network of friends | 
+3. 広げる | Kanji: 会社は新しい市場を広げている | Romaji: Kaisha wa atarashii shijou o hirogete iru | Translation: The company is expanding into new markets | 
+4. 広げる | Kanji: マーケティングチームは顧客層を広げている | Romaji: Maaketingu chiimu wa kokyaku soutou o hirogete iru | Translation: The marketing team is expanding their customer base | 
+5. 広げる | Kanji: 私は知識の幅を広げている | Romaji: Watashi wa chishiki no haba o hirogete iru | Translation: I am expanding my knowledge base.
+-----------------------------
+CLI param:  広める
+--- Response text: ---
+1. 広める | Kanji: 話題を広める | Romaji: wadai o hiromeru | Translation: Spread the topic | 
+2. 広める | Kanji: 彼女の話を広める | Romaji: kanojo no hanashi o hiromeru | Translation: Spread her story | 
+3. 広める | Kanji: 新しいアイデアを広める | Romaji: atarashii aidea o hiromeru | Translation: Spread new ideas | 
+4. 広める | Kanji: 日本文化を世界に広める | Romaji: nihon bunka o sekai ni hiromeru | Translation: Spread Japanese culture to the world | 
+5. 広める | Kanji: 日本語を海外に広める | Romaji: nihongo o kaigai ni hiromeru | Translation: Spread Japanese overseas|
+-----------------------------
+CLI param:  拭く
+--- Response text: ---
+1. 拭く | Kanji: 汗を拭いてください | Romaji: Ase o nuguite kudasai | Translation: Please wipe off the sweat |
+2. 拭く | Kanji: 鏡を拭いてください | Romaji: Kagami o nuguite kudasai | Translation: Please wipe the mirror |
+3. 拭く | Kanji: オイルを拭き取りましょう | Romaji: Oiru o nugikitorimashou | Translation: Let's wipe off the oil |
+4. 拭く | Kanji: 目を拭きましょう | Romaji: Me o nugimashou | Translation: Let's wipe our eyes|
+5. 拭く | Kanji: 雨水を拭き取って下さい | Romaji: Ame mizu o nugikitte kudasai| Translation: Please wipe off the rain water|
+-----------------------------
+CLI param:  膨らむ
+--- Response text: ---
+1. 膨らむ | Kanji: 胸が膨らんできた | Romaji: Mune ga fukurande kita | Translation: My chest has swollen | 
+2. 膨らむ | Kanji: 彼女の力が膨らんでいった | Romaji: Kanojo no chikara ga fukurande itta | Translation: Her power grew exponentially| 
+3. 膨らむ | Kanji: 彼の自信が膨らみ始めた | Romaji: Kare no jishin ga fukurami hajimeta | Translation: His confidence began to swell| 
+4. 膨らむ | Kanji: 支持率が急速に膨らんだ | Romaji: Shijiryoku ga kyusoku ni fukuranda| Translation: Support rate rapidly increased| 
+5. 膨らむ | Kanji: 彼女の愛が膨らみ続けた | Romaji: Kanojo no ai ga fukurami tsuzuketa | Translation: Her love kept growing|
+-----------------------------
+CLI param:  防ぐ
+--- Response text: ---
+1. 防ぐ | Kanji: 危険を防ぐ | Romaji: Kiken o fuku | Translation: Prevent danger | 
+2. 防ぐ | Kanji: 病気を防ぐ | Romaji: Byouki o fuku | Translation: Prevent sickness | 
+3. 防ぐ | Kanji: 災害を防ぐために準備をしている | Romaji: Saigai o fukugutameni junbi o shiteiru | Translation: We are preparing to prevent disasters | 
+4. 防ぐ | Kanji: 悪い影響を防ぐために注意する | Romaji: Warui eikyou o fukugutameni chuui suru | Translation: Be careful to prevent bad influence | 
+5. 防ぐ | Kanji: 詐欺から自分を防ぐために、細心の注意が必要だ | Romaji: Sagi kara jibun o fukugutameni, saishin no chuui ga hitsuyou da| Translation: To protect yourself from fraud, you need to be careful and vigilant|
+-----------------------------
+CLI param:  ぶつかる
+--- Response text: ---
+1. ぶつかる | Kanji: 彼らは頭をぶつかった | Romaji: Karera wa atama o butsukatta | Translation: They bumped heads |
+2. ぶつかる | Kanji: 彼女は壁にぶつかった | Romaji: Kanojo wa kabe ni butsukatta | Translation: She bumped into the wall | 
+3. ぶつかる | Kanji: 彼らは馬車が互いにぶつかったのを見た | Romaji: Karera wa basha ga tagai ni butsukatta no o mita | Translation: They saw the carriages bumping into each other | 
+4. ぶつかる | Kanji: 彼らは車が衝突してぶつかったのを聞いた | Romaji: Karera wa kuruma ga shōtotsu shite butsukatta no o kiita | Translation: They heard the cars colliding and bumping into each other | 
+5. ぶつかる | Kanji: 彼らは山で岩とぶつかった | Romaji: Karera wa yama de iwa to butsukatta | Translation: They bumped into a rock in the mountain
+-----------------------------
+CLI param:  増やす
+--- Response text: ---
+1. 増やす | Kanji: 会社の資産を増やす | Romaji: Kaisha no shisan o fuyasu | Translation: Increase the company's assets |
+2. 増やす | Kanji: 生産性を増やす | Romaji: Seisansei o fuyasu | Translation: Increase productivity |
+3. 増やす | Kanji: 学習時間を増やす | Romaji: Gakushuu jikan o fuyasu | Translation: Increase study time |
+4. 増やす | Kanji: 投資を増やす | Romaji: Touzi o fuyasu | Translation: Increase investment |
+5. 増やす | Kanji: 輸出量を増やす | Romaji: Yushutsu ryou o fuyasu | Translation: Increase exports volume|
+-----------------------------
+CLI param:  振り向く
+--- Response text: ---
+1. 振り向く | Kanji: 彼は振り向いて、私を見つめた | Romaji: Kare wa furimuite, watashi o mitsumeta | Translation: He turned around and looked at me | 
+2. 振り向く | Kanji: 彼女は振り向いて、彼を嘲笑った | Romaji: Kanojo wa furimuite, kare o azawaratta | Translation: She turned around and laughed at him | 
+3. 振り向く | Kanji: 彼らは振り向いて、警官に気づいた | Romaji: Karera wa furimuite, keikan ni kizuita | Translation: They turned around and noticed the police officer | 
+4. 振り向く | Kanji: 犬が振り向いて、私を見つめた | Romaji: Inu ga furimuite, watashi o mitsumeta | Translation: The dog turned around and looked at me | 
+5. 振り向く | Kanji: 彼女は振り向いて、叫んだ| Romaji: Kanojo wa furimuite, sakenda| Translation: She turned around and screamed|
+-----------------------------
+CLI param:  振る
+--- Response text: ---
+1. 振る | Kanji: 彼は手を振って私を挨拶した | Romaji: Kare wa te o furu te watashi o aisatsu shita | Translation: He waved his hand and greeted me |
+2. 振る | Kanji: 私は彼に肩を振った | Romaji: Watashi wa kare ni kata o furu ta | Translation: I shrugged at him |
+3. 振る | Kanji: 彼女は首を振って笑った | Romaji: Kanojo wa kubi o furu te waratta | Translation: She shook her head and laughed |
+4. 振る | Kanji: 彼は頭を振って否定した | Romaji: Kare wa atama o furu te hitei shita | Translation: He shook his head and denied it| 
+5. 振る | Kanji: 私は腕を振って叫んだ | Romaji: Watashi wa ude o furu te saken da| Translation: I waved my arms and shouted
+-----------------------------
+CLI param:  震える
+--- Response text: ---
+1. 震える | Kanji: 彼は体を震えながら歩いていた | Romaji: Kare wa karada o furuenagara aruiteita | Translation: He was walking, trembling with his body |
+2. 震える | Kanji: 彼女は震える声で話した | Romaji: Kanojo wa furueru koe de hanashita | Translation: She spoke in a trembling voice |
+3. 震える | Kanji: 犬は震えながら泣いていた | Romaji: Inu wa furuenagara naiteita | Translation: The dog was crying, trembling |
+4. 震える | Kanji: 彼女は震えながら息を呑んだ | Romaji: Kanojo wa furuenagara iki o nonda | Translation: She gasped, trembling with fear |
+5. 震える | Kanji: 私は震えながら唸った | Romaji: Watashi wa furuenagara unatta | Translation: I groaned, trembling with fear|
+-----------------------------
+CLI param:  減る
+--- Response text: ---
+1. 減る | Kanji: 日々の暮らしの費用が減る | Romaji: Hibi no kurashi no hiyou ga heru | Translation: The daily living expenses are decreasing. | 
+2. 減る | Kanji: 学校の評判が減る | Romaji: Gakkou no hyouban ga heru | Translation: The reputation of the school is decreasing. | 
+3. 減る | Kanji: 食べ物の品質が減る | Romaji: Tabemono no hinshitsu ga heru | Translation: The quality of food is decreasing. | 
+4. 減る | Kanji: 生産性が減る | Romaji: Seisanshitsu ga heru | Translation: Productivity is decreasing. | 
+5. 減る | Kanji: 賃金が減る | Romaji: Chingin ga heru | Translation: Wages are decreasing.
+-----------------------------
+CLI param:  ほえる
+--- Response text: ---
+1. ほえる | Kanji: 吠える | Romaji: hoeru | Translation: to bark | 
+2. ほえる音が聞こえた | Kanji: 吠える音が聞こえた | Romaji: hoeru oto ga kikoeta | Translation: I heard a barking sound | 
+3. 犬が大きな声でほえている | Kanji: 犬が大きな声で吠えている | Romaji: inu ga ookina koe de hoeteiru | Translation: The dog is barking loudly | 
+4. 犬が近くでほえているのを聞くと不安になった | Kanji: 犬が近くで吠えているのを聞くと不安になった | Romaji: inu ga chikaku de hoeteiru no wo kiku to fuan ni natta | Translation: I felt anxious when I heard a dog barking nearby | 
+5. 彼は犬を抱きしめて、低い声でほえさせた | Kanji: 彼は犬を抱きしめて、低い声で吠えさせた | Romaji: kare wa inu wo dakishimete, hikui koe de hoesa seta | Translation: He hugged the dog and made it bark with a low voice
+-----------------------------
+CLI param:  干す
+-----------------------------
+CLI param:  掘る
+--- Response text: ---
+1. 掘る | Kanji: 彼は庭で掘っている | Romaji: Kare wa niwa de horutte iru | Translation: He is digging in the garden | 
+2. 掘る | Kanji: 彼女は芝生の中を掘っていた | Romaji: Kanojo wa shibafu no naka o horutte ita | Translation: She was digging in the lawn | 
+3. 掘る | Kanji: 彼らは坑道を掘っていた | Romaji: Karera wa koudou o horutte ita | Translation: They were digging a tunnel | 
+4. 掘る | Kanji: 僕らは金を掘っていた | Romaji: Bokura wa kin o horutte ita | Translation: We were digging for gold | 
+5. 掘る | Kanji: 私たちは地下室を掘っていた | Romaji: Watashitachi wa chikashitsu o horutte ita| Translation: We were digging a basement|
+-----------------------------
+CLI param:  曲げる
+--- Response text: ---
+1. 曲げる | Kanji: 曲がる | Romaji: Magaru | Translation: To bend | 
+2. 曲げる | Kanji: 曲げて置く | Romaji: Magete oku | Translation: To put after bending | 
+3. 曲げる | Kanji: 腕を曲げて叩く | Romaji: Ude o magete tataku | Translation: To hit with the arm bent | 
+4. 曲げる | Kanji: 細い棒を曲げる | Romaji: Hosoibou o mageru | Translation: To bend a thin rod| 
+5. 曲げる | Kanji: 小さな金属を曲げる | Romaji: Chiisana kinzoku o mageru| Translation: To bend a small metal|
+-----------------------------
+CLI param:  混ぜる
+--- Response text: ---
+1. 混ぜる | Kanji: 生地を混ぜる | Romaji: nidome o mazeru | Translation: Mix the dough |
+2. 混ぜる | Kanji: テーブルの上で混ぜる | Romaji: teeburu no ue de mazeru | Translation: Mix it on the table |
+3. 混ぜる | Kanji: 小麦粉と水を混ぜる | Romaji: komugiko to mizu o mazeru | Translation: Mix the wheat flour and water together|
+4. 混ぜる | Kanji: 色々な材料を混ぜる | Romaji: iroiro na zairyou o mazeru | Translation: Mix various ingredients together|
+5. 混ぜる | Kanji: 塩と砂糖を混ぜる | Romaji: shio to satou o mazeru | Translation: Mix salt and sugar together|
+-----------------------------
+CLI param:  待ち合わせる
+--- Response text: ---
+1. 待ち合わせる | Kanji: 待ち合わせる場所を決めてください | Romaji: Machiawaseru basho o kimete kudasai | Translation: Please decide the meeting place | 
+2. 待ち合わせる | Kanji: 彼と待ち合わせるために、早く家を出ないといけません | Romaji: Kare to machiawaseru tame ni, hayaku ie o denai to ikemasen | Translation: I have to leave home early in order to meet him | 
+3. 待ち合わせる | Kanji: 私たちは今夜、待ち合わせる場所で会う予定です | Romaji: Watashitachi wa kon'ya, machiawaseru basho de au yotei desu | Translation: We are scheduled to meet at the meeting place tonight | 
+4. 待ち合わせる | Kanji: 彼女と待ち合わせる時間が、十分前になっていますか？ | Romaji: Kanojo to machiawaseru jikan ga, juubun mae ni natte imasu ka? | Translation: Is the time to meet her enough before? | 
+5. 待ち合わせる | Kanji: 明日、彼女と待ち合わせることになりました | Romaji: Ashita, kanojo to machiawaseru koto ni narimashita | Translation: I have an appointment to meet her tomorrow
+-----------------------------
+CLI param:  間違う
+--- Response text: ---
+1. 間違う | Kanji: 間違ってはいけません | Romaji: Machigatte wa ikemasen | Translation: Don't make a mistake | 
+2. 間違う | Kanji: 私は間違いをしないように気を付けています | Romaji: Watashi wa machigai o shinai you ni ki o tsukete imasu | Translation: I am careful not to make mistakes | 
+3. 間違う | Kanji: 私は間違いをしたくないので、慎重に行動しています | Romaji: Watashi wa machigai o shitakunai node, shinchou ni koudou shite imasu | Translation: I am acting carefully so as not to make a mistake | 
+4. 間違う | Kanji: 彼女は間違っても決して諦めなかった | Romaji: Kanojo wa machigatte mo kesshite akiramenakatta | Translation: She never gave up even if she made a mistake | 
+5. 間違う | Kanji: 彼は間違ったときに謝罪した | Romaji: Kare wa machigatta toki ni shazai shita | Translation: He apologized when he made a mistake
+-----------------------------
+CLI param:  まとめる
+--- Response text: ---
+1. まとめる | Kanji: 全てをまとめる | Romaji: Subete o matomeru | Translation: To summarize everything | 
+2. まとめる | Kanji: 情報をまとめる | Romaji: Jouhou o matomeru | Translation: To compile information | 
+3. まとめる | Kanji: 今日の会議で話し合った内容をまとめる | Romaji: Kyou no kaigi de hanashiatteita naiyou o matomeru | Translation: To summarize the contents discussed in today's meeting | 
+4. まとめる | Kanji: 各部門の活動をまとめる | Romaji: Kakubumon no katsudou o matomeru | Translation: To summarize the activities of each department | 
+5. まとめる | Kanji: 結果をまとめる | Romaji: Kekka o matomeru | Translation: To summarize the results|
+-----------------------------
+CLI param:  学ぶ
+--- Response text: ---
+1. 学ぶ | Kanji: 学ぶことは大切なことです | Romaji: manabu koto wa taisetsu na koto desu | Translation: Learning is an important thing | 
+2. 学ぶ | Kanji: 毎日勉強して学びを深めましょう | Romaji: mainichi benkyou shite manabi o fukamemashou | Translation: Let's study every day and deepen our knowledge | 
+3. 学ぶ | Kanji: 私は英語を学びたいです | Romaji: watashi wa eigo o manabitaidesu | Translation: I want to learn English | 
+4. 学ぶ | Kanji: 日本語を学ぶのは難しいですが、楽しいです | Romaji: nihongo o manabu no wa muzukashii desu ga, tanoshii desu | Translation: Learning Japanese is difficult but fun | 
+5. 学ぶ | Kanji: 新しいことを学びたいですか？| Romaji: atarashii koto o manabitaidesuka?| Translation: Do you want to learn something new?
+-----------------------------
+CLI param:  守る
+--- Response text: ---
+1. 守る | Kanji: 守ることは私たちの義務だ | Romaji: Mamoru koto wa watashitachi no gimu da | Translation: It is our duty to protect. 
+2. 守る | Kanji: 彼女は守るべきものを守っている | Romaji: Kanojo wa mamoru beki mono o mamotte iru | Translation: She is protecting what she should protect. 
+3. 守る | Kanji: 私は守るべき約束を守った | Romaji: Watashi wa mamoru beki yakusoku o mamotta | Translation: I kept the promise I should keep. 
+4. 守る | Kanji: 私たちは信念を守らなければならない | Romaji: Watashitachi wa shinnen o mamoranakereba naranai | Translation: We must keep our beliefs. 
+5. 守る | Kanji: 政府は国民の安全を守らなければならない | Romaji: Seifu wa kokumin no anzen o mamoranakereba naranai | Translation: The government must protect the safety of its citizens.
+-----------------------------
+CLI param:  回す
+--- Response text: ---
+1. 回す | Kanji: 瓶を回す | Romaji: bin o mawasu | Translation: To spin the bottle | 
+2. 回す | Kanji: 円を回す | Romaji: maru o mawasu | Translation: To spin the circle | 
+3. 回す | Kanji: 車輪を回す | Romaji: sharin o mawasu | Translation: To spin the wheel | 
+4. 回す | Kanji: 時計の針を回す | Romaji: tokei no hari o mawasu | Translation: To wind up the clock hands| 
+5. 回す | Kanji: 機械を回す | Romaji: kikai o mawasu| Translation: To turn on the machine|
+-----------------------------
+CLI param:  見送る
+--- Response text: ---
+1. 見送る | Kanji: 見送ります | Romaji: miokuri masu | Translation: I will see you off | 
+2. 見送る | Kanji: 学校を見送ってあげましょう | Romaji: gakkou o miokutte agemashou | Translation: Let's see you off to school | 
+3. 見送る | Kanji: 彼を見送ってから帰りましょう | Romaji: kare o miokutte kara kaerimashou | Translation: Let's go home after seeing him off | 
+4. 見送る | Kanji: 私が友達を見送ります | Romaji: watashi ga tomodachi o miokurimasu | Translation: I will see my friend off | 
+5. 見送る | Kanji: 明日は叔母を見送りに行きます| Romaji: ashita wa obaasan o miokuri ni ikimasu| Translation: Tomorrow I will go to see my aunt off
+-----------------------------
+CLI param:  見直す
+--- Response text: ---
+1. 見直す | Kanji: 気持ちを見直してみる | Romaji: Kimochi o minaoshite miru | Translation: Try to reconsider your feelings | 
+2. 見直す | Kanji: 状況を見直して決断を下す | Romaji: Jōkyō o minaoshite ketsudan o kudasu | Translation: Reexamine the situation and make a decision | 
+3. 見直す | Kanji: 問題点を見直して解決する | Romaji: Mondai-ten o minaoshite kaiketsu suru | Translation: Reexamine the problem and solve it | 
+4. 見直す | Kanji: 意見を見直して新しいアイデアを出す | Romaji: Iken o minaoshite atarashii aidea o dasu | Translation: Rethink your opinion and come up with a new idea| 
+5. 見直す | Kanji: 前回の結果を見直して学ぶ | Romaji: Zenkai no kekka o minaoshite manabu| Translation: Review the results of last time and learn from them|
+-----------------------------
+CLI param:  診る
+--- Response text: ---
+1. 診る | Kanji: 医者が病気を診る | Romaji: Isha ga byouki o miru | Translation: The doctor examines the illness | 
+2. 診る | Kanji: 彼女は自分の心を診る | Romaji: Kanojo wa jibun no kokoro o miru | Translation: She examines her own heart | 
+3. 診る | Kanji: 彼らは患者を検査して診る | Romaji: Karera wa kanja o kensa shite miru | Translation: They examine the patient by examination | 
+4. 診る | Kanji: 状況を慎重に見てから診る | Romaji: Joukyou o shinchou ni mite kara miru | Translation: Examine carefully after looking at the situation | 
+5. 診る | Kanji: 私たちは病院で病気を診ることができます | Romaji: Watashitachi wa byouin de byouki o miru koto ga dekimasu | Translation: We can examine the illness at the hospital|
+-----------------------------
+CLI param:  向かう
+--- Response text: ---
+1. 向かう | Kanji: 彼は彼女の家に向かった | Romaji: Kare wa kanojo no ie ni mukatta | Translation: He headed to her house | 
+2. 向かう | Kanji: 私たちは東京駅に向かった | Romaji: Watashitachi wa Toukyou eki ni mukatta | Translation: We headed towards Tokyo station | 
+3. 向かう | Kanji: 私は家族と一緒に海辺に向かった | Romaji: Watashi wa kazoku to issho ni umibe ni mukatta | Translation: I headed towards the beach with my family | 
+4. 向かう | Kanji: 彼らは今、山の中へ向かっている | Romaji: Karera wa ima, yama no naka e mukatte iru | Translation: They are now heading towards the mountains | 
+5. 向かう | Kanji: 私たちは湖へ向かって歩いた | Romaji: Watashitachi wa mizuumi e mukatte aruita| Translation: We walked towards the lake
+-----------------------------
+CLI param:  向く
+--- Response text: ---
+1. 向く | Kanji: 風が向く方へ行く | Romaji: Kaze ga muku hou e iku | Translation: Go in the direction the wind blows |
+2. 向く | Kanji: 犬は主人を向いて待っていた | Romaji: Inu wa shujin o mukai te matte ita | Translation: The dog was waiting facing its master |
+3. 向く | Kanji: 彼女は私を向いて笑った | Romaji: Kanojo wa watashi o muite waratta | Translation: She smiled at me |
+4. 向く | Kanji: 私は彼女の言葉に耳を向けた | Romaji: Watashi wa kanojo no kotoba ni mimi o muketa | Translation: I listened to her words with my ears |
+5. 向く | Kanji: 私は太陽に自分を向けた | Romaji: Watashi wa taiyou ni jibun o muketa | Translation: I faced the sun towards myself
+-----------------------------
+CLI param:  むく
+--- Response text: ---
+1. むく | Kanji: 無垢な | Romaji: muku na | Translation: innocent | 
+2. むく | Kanji: 無垢な心を持つ | Romaji: muku na kokoro o motsu | Translation: to have an innocent heart | 
+3. むく | Kanji: 無垢な純真さを大切にする | Romaji: muku na junshin-sa o taisetsu ni suru | Translation: to cherish innocence and purity | 
+4. むく | Kanji: 無垢な魂を守る | Romaji: muku na tamashii o mamoru | Translation: to protect an innocent soul | 
+5. むく | Kanji: 無垢な精神を育てる | Romaji: muku na seishin o sodateru | Translation: to nurture an innocent spirit
+-----------------------------
+CLI param:  蒸す
+--- Response text: ---
+1. 蒸す | Kanji: 豚肉を蒸してみましょう | Romaji: Butaniku o musu te mi masho u | Translation: Let's try steaming pork | 
+2. 蒸す | Kanji: 魚を蒸し器で蒸します | Romaji: Sakana o musu ki de musu masu | Translation: We steam the fish in a steamer | 
+3. 蒸す | Kanji: 豆腐を蒸して食べましょう | Romaji: Toufu o musu te tabe ma sho u | Translation: Let's eat steamed tofu | 
+4. 蒸す | Kanji: 小麦粉で作ったパンを蒸します | Romaji: Komugiko n de tsukutta pan o musu masu | Translation: We steam the bread made with wheat flour | 
+5. 蒸す | Kanji: ピーマンを蒸してサラダにしましょう | Romaji: Pi-man o musu te sarada ni shi ma sho u| Translation: Let's steam the peppers and make a salad out of it
+-----------------------------
+CLI param:  結ぶ
+--- Response text: ---
+1. 結ぶ | Kanji: 結ぶことで友情を深める | Romaji: musubu koto de yuujou o fukameru | Translation: Deepening friendship by tying it together | 
+2. 結ぶ | Kanji: 二人の絆を結ぶ | Romaji: futari no kizuna o musubu | Translation: Tying the bond between two people | 
+3. 結ぶ | Kanji: 幸福な関係を結ぶ | Romaji: koufuku na kankei o musubu | Translation: Forming a happy relationship | 
+4. 結ぶ | Kanji: 新しい友情を結ぶ | Romaji: atarashii yuujou o musubu | Translation: Forming a new friendship | 
+5. 結ぶ | Kanji: 強い絆を結ぶ | Romaji: tsuyoi kizuna o musubu | Translation: Forming a strong bond|
+-----------------------------
+CLI param:  目指す
+--- Response text: ---
+1. 目指す | Kanji: 私は自分の夢を目指して努力しています | Romaji: Watashi wa jibun no yume o mezashite doryoku shite imasu | Translation: I am striving to reach my dreams | 
+2. 目指す | Kanji: 彼女は今、大学での成功を目指して勉強している | Romaji: Kanojo wa ima, daigaku de no seikou o mezashite benkyou shite iru | Translation: She is studying now to achieve success in university | 
+3. 目指す | Kanji: 僕は将来、世界一の科学者になることを目指している | Romaji: Boku wa shourai, sekai ichi no kagakusha ni naru koto o mezashite iru | Translation: I am aiming to become the world's best scientist in the future | 
+4. 目指す | Kanji: 彼は英語をマスターすることを目指して勉強している | Romaji: Kare wa eigo o masutaa suru koto o mezashite benkyou shite iru | Translation: He is studying to master English | 
+5. 目指す | Kanji: 私たちは今、高い成功を目指して努力しています | Romaji: Watashitachi wa ima, takai seikou o mezashite doryoku shite imasu| Translation: We are striving for great success now.
+-----------------------------
+CLI param:  目立つ
+--- Response text: ---
+1. 目立つ | Kanji: 彼はその会議で目立った | Romaji: Kare wa sono kaigi de medatsu | Translation: He stood out in that meeting | 
+2. 目立つ | Kanji: 彼女の服装は会場で目立った | Romaji: Kanojo no fukusou wa kaisho de medatsu | Translation: Her outfit stood out in the venue | 
+3. 目立つ | Kanji: 彼女の美しさは他の女性と比べても目立った | Romaji: Kanojo no utsukushisa wa hoka no josei to kurabete mo medatsu | Translation: Her beauty stood out even when compared to other women | 
+4. 目立つ | Kanji: 彼の話し方は他の人と比べても目立った | Romaji: Kare no hanashikata wa hoka no hito to kurabete mo medatsu | Translation: His way of speaking stood out even when compared to other people | 
+5. 目立つ | Kanji: 彼女の発言は会議で目立った | Romaji: Kanojo no hatsugen wa kaigi de medatsu | Translation: Her statement stood out in the meeting |
+-----------------------------
+CLI param:  申し込む
+--- Response text: ---
+1. 申し込む | Kanji: 申し込みをすることにしました | Romaji: moushikomi o suru koto ni shimashita | Translation: I have decided to apply | 
+2. 申し込む | Kanji: 就職申し込みを書いて送りました | Romaji: shuushoku moushikomi o kaite okurimashita | Translation: I wrote and sent in my job application | 
+3. 申し込む | Kanji: 参加申し込みを急いで行った | Romaji: sanka moushikomi o isoi de itta | Translation: I hurriedly applied to participate | 
+4. 申し込む | Kanji: 早く申し込みを終えないといけない | Romaji: hayaku moushikomi o oenai to ikenai | Translation: I have to finish the application quickly | 
+5. 申し込む | Kanji: 当選者の発表前に申し込みが締め切られます。| Romaji: tou-sen-sha no happyou mae ni moushikomi ga shimekiraremasu.| Translation: The application will be closed before announcing the winners.
+-----------------------------
+CLI param:  戻す
+--- Response text: ---
+1. 戻す | Kanji: 元に戻します | Romaji: Moto ni modoshimasu | Translation: Return to the original state | 
+2. 戻す | Kanji: 時間を戻しましょう | Romaji: Jikan o modoshimashou | Translation: Let's turn back time | 
+3. 戻す | Kanji: 元の状態に戻してください | Romaji: Moto no joutai ni modoshite kudasai | Translation: Please return to the original state | 
+4. 戻す | Kanji: これを元に戻しましょう | Romaji: Kore o moto ni modoshimashou | Translation: Let's return this to its original state| 
+5. 戻す | Kanji: それを元に戻そうとしているんですか？| Romaji: Sore o moto ni modosou to shite irun desu ka?| Translation: Are you trying to return it to its original state?
+-----------------------------
+CLI param:  燃やす
+--- Response text: ---
+1. 燃やす | Kanji: 火を燃やします | Romaji: hi o moyashimasu | Translation: I will burn the fire | 
+2. 燃やす | Kanji: 私は火を燃やしました | Romaji: watashi wa hi o moyashimashita | Translation: I burned the fire | 
+3. 燃やす | Kanji: 彼女はキャンドルを燃やした | Romaji: kanojo wa kyandoru o moyashita | Translation: She burned the candle | 
+4. 燃やす | Kanji: 彼らは薪を燃やした | Romaji: karera wa maki o moyashita | Translation: They burned the firewood | 
+5. 燃やす | Kanji: 彼らは夜に花火を燃やした | Romaji: karera wa yoru ni hanabi o moyashita | Translation: They burned fireworks at night |
+-----------------------------
+CLI param:  訳す
+--- Response text: ---
+1. 訳す | Kanji: 訳してください | Romaji: yaku shite kudasai | Translation: Please translate it | 
+2. 訳す | Kanji: この文章を訳しましょう | Romaji: kono bunshou o yaku shimashou | Translation: Let's translate this sentence | 
+3. 訳す | Kanji: 彼は英語を日本語に訳した | Romaji: kare wa eigo o nihongo ni yaku shita | Translation: He translated English into Japanese | 
+4. 訳す | Kanji: 私はこの本を英語に訳した | Romaji: watashi wa kono hon o eigo ni yaku shita | Translation: I translated this book into English | 
+5. 訳す | Kanji: 日本語の文章を英語に訳しなさい | Romaji: nihongo no bunshou o eigo ni yaku shinasai | Translation: Translate the Japanese sentence into English |
+-----------------------------
+CLI param:  役に立つ
+--- Response text: ---
+1. 役に立つ | Kanji: 役に立つことは、とても大切なことです | Romaji: Yakunitatsu koto wa, totemo taisetsu na koto desu | Translation: Being useful is very important. 
+2. 役に立つ | Kanji: 役に立つことを心がけることで、良い結果を得ることができます | Romaji: Yakunitatsu koto o kokorogakeru koto de, ii kekka o eru koto ga dekimasu | Translation: By striving to be useful, you can achieve good results. 
+3. 役に立つ | Kanji: 自分の仕事が他人の役に立つかを考えることは重要です | Romaji: Jibun no shigoto ga tanin no yakunitatsu ka o kangaeru koto wa juuyou desu | Translation: It is important to consider whether your work is useful to others. 
+4. 役に立つ | Kanji: あなたのアイデアが役に立ったのなら、うれしいですよ | Romaji: Anata no aidea ga yakunitatta no nara, ureshii desu yo | Translation: I'm glad if your idea was useful. 
+5. 役に立つ | Kanji: 私たちは、自分の行動が他人の役に立つかを常に考慮しなくてはなりません | Romaji: Watashitachi wa, jibun no koudou ga tanin no yakunitatsu ka o tsune ni kouryo shinakute wa narimasen| Translation: We must always consider whether our actions are useful to others.
+-----------------------------
+CLI param:  休める
+--- Response text: ---
+1. 休める | Kanji: 休めることができるなら、今日は休みましょう | Romaji: Yasumeru koto ga dekiru nara, kyou wa yasumi mashou | Translation: If we can take a break, let's take a break today. 
+2. 休める | Kanji: 忙しい日々の中で、自分を少し休める時間を取りましょう | Romaji: Isogashii hibi no naka de, jibun wo sukoshi yasumeru jikan wo torimashou | Translation: Let's take some time to rest in the midst of busy days. 
+3. 休める | Kanji: そんなに頑張らなくても、時には自分を休めてもいいんだよ | Romaji: Sonna ni ganbaranakute mo, toki ni wa jibun wo yasumete mo iin da yo | Translation: You don't have to try so hard, it's okay to take a break sometimes. 
+4. 休める | Kanji: 働き方を変えて、自分の体を大切に休める生活を心がけましょう | Romaji: Hataraki kata wo kaete, jibun no karada wo taisetsu ni yasumeru seikatsu wo kokorogakemashou | Translation: Let's change the way we work and take care of our bodies by taking breaks in our lives. 
+5. 休める | Kanji: 疲れた時は、身体と心を休めてリフレッシュすることが大切だと思います | Romaji: Tsukareta toki wa, karada to kokoro wo yasumete rifuresshu suru koto ga taisetsu da to omoimasu | Translation: I think it is important to take a break and refresh your body and mind when you are tired.
+-----------------------------
+CLI param:  雇う
+--- Response text: ---
+1. 雇う | Kanji: 彼は新しい秘書を雇った | Romaji: Kare wa atarashii hisho o yatotta | Translation: He hired a new secretary. | 
+2. 雇う | Kanji: 彼女は若い建築家を雇った | Romaji: Kanojo wa wakai kenchikuka o yatotta | Translation: She hired a young architect. | 
+3. 雇う | Kanji: 彼らは新しいコンサルタントを雇った | Romaji: Karera wa atarashii konsarutanto o yatotta | Translation: They hired a new consultant. | 
+4. 雇う | Kanji: 彼らはプロのプログラマーを雇った | Romaji: Karera wa puro no puroguramaa o yatotta | Translation: They hired a professional programmer. | 
+5. 雇う | Kanji: 彼女は有名な写真家を雇った | Romaji: Kanojo wa yuumeina shashinka o yatotta | Translation: She hired a famous photographer. |
+-----------------------------
+CLI param:  破れる
+--- Response text: ---
+1. 破れる | Kanji: 私のジーンズが破れてしまった | Romaji: Watashi no jiinzu ga yaburete shimatta | Translation: My jeans got torn. 
+2. 破れる | Kanji: 彼女は涙を流しながら壁を破れた | Romaji: Kanojo wa namida o nagashinagara kabe o yabureta | Translation: She broke down the wall while crying. 
+3. 破れる | Kanji: 彼は拳で空気を破れた | Romaji: Kare wa kobushi de kuuki o yabureta | Translation: He punched the air. 
+4. 破れる | Kanji: 彼らは友情を破れた | Romaji: Karera wa yuujou o yabureta | Translation: They broke their friendship. 
+5. 破れる | Kanji: 彼女は静かな声で笑いを破れた | Romaji: Kanojo wa shizuka na koe de warai o yabureta | Translation: She broke the silence with a soft laugh.
+-----------------------------
+CLI param:  譲る
+--- Response text: ---
+1. 譲る | Kanji: 彼は彼女にその本を譲ることにした | Romaji: Kare wa kanojo ni sono hon o yuzuru koto ni shita | Translation: He decided to give her that book. 
+2. 譲る | Kanji: 彼女は私に彼のジャケットを譲ってくれた | Romaji: Kanojo wa watashi ni kare no jaketto o yuzutte kureta | Translation: She gave me his jacket. 
+3. 譲る | Kanji: 私は彼女に私のバイクを譲り渡した | Romaji: Watashi wa kanojo ni watashi no baiku o yuzuriwatashita | Translation: I gave her my bike. 
+4. 譲る | Kanji: 彼らは自分の土地を譲渡した | Romaji: Karera wa jibun no tochi o yuzuwatashita | Translation: They gave away their land. 
+5. 譲る | Kanji: 彼らは他人に自分の権利を譲渡しなかった | Romaji: Karera wa tanin ni jibun no kenri o yuzuwatashinakatta | Translation: They didn't give away their rights to others.
+-----------------------------
+CLI param:  ゆでる
+--- Response text: ---
+1. ゆでる | Kanji: 湯で沸かす | Romaji: yu de wakasu | Translation: Boil in water | 
+2. ゆでる | Kanji: 茹で上げる | Romaji: yu de ageru | Translation: Boil and lift up |
+3. ゆでる | Kanji: 水に浸す | Romaji: mizu ni tsukusu | Translation: Soak in water |
+4. ゆでる | Kanji: 熱湯に漬け込む | Romaji: netsu yu ni tsukekomu | Translation: Immerse in hot water | 
+5. ゆでる | Kanji: 水に入れて火を通す | Romaji: mizu ni irete hi o toosu| Translation: Put in water and pass the fire through it|
+-----------------------------
+CLI param:  許す
+--- Response text: ---
+1. 許す | Kanji: 彼は私の要求を許すことを拒んだ | Romaji: Kare wa watashi no youkyuu o yurusu koto o kobanda | Translation: He refused to grant my request | 
+2. 許す | Kanji: 私は彼女に試験を受けることを許した | Romaji: Watashi wa kanojo ni shiken o ukeru koto o yurushita | Translation: I allowed her to take the exam | 
+3. 許す | Kanji: 彼女は私に彼と一緒に行くことを許さなかった | Romaji: Kanojo wa watashi ni kare to issho ni iku koto o yurusanakatta | Translation: She didn't allow me to go with him | 
+4. 許す | Kanji: 私は彼のリクエストを許した | Romaji: Watashi wa kare no rikuesuto o yurushita | Translation: I granted his request | 
+5. 許す | Kanji: 私は彼の申し出を断ることを許さなかった| Romaji: Watashi wa kare no moushidesu o kotowaru koto o yurusanakatta| Translation: I didn't allow him to refuse his offer|
+-----------------------------
+CLI param:  ゆれる
+--- Response text: ---
+1. ゆれる | Kanji: 揺れる | Romaji: yureru | Translation: to sway/shake | 
+2. ゆれる | Kanji: 揺さぶられる | Romaji: yusaburareru | Translation: to be shaken/tossed around | 
+3. ゆれる | Kanji: 動揺する | Romaji: douyou suru | Translation: to be moved/disturbed | 
+4. ゆれる | Kanji: 波風立つ | Romaji: namikaze tatsu | Translation: to cause a stir/agitation | 
+5. ゆれる | Kanji: 激しく揺れ動く | Romaji: hageshiku yuredouku | Translation: to shake violently/fiercely |
+-----------------------------
+CLI param:  酔う
+--- Response text: ---
+1. 酔う | Kanji: 酔っている | Romaji: Yotteiru | Translation: He is drunk | 
+2. 酔う | Kanji: 彼女は酔っ払っていた | Romaji: Kanojo wa yopparatteru ita | Translation: She was drunk | 
+3. 酔う | Kanji: 彼は酒を飲んで酔ってしまった | Romaji: Kare wa sake o nonde yotte shimatta | Translation: He drank the sake and got drunk | 
+4. 酔う | Kanji: 彼らは昨夜酔いつぶれた | Romaji: Karera wa sakuya yoitsubureta | Translation: They got drunk last night and passed out| 
+5. 酔う | Kanji: 彼らは酒を飲みすぎて酔いが回った | Romaji: Karera wa sake o nomisugite yoigakawatta| Translation: They drank too much and got drunk|
+-----------------------------
+CLI param:  汚す
+--- Response text: ---
+1. 汚す | Kanji: 彼女の評判を汚すようなことはしない | Romaji: Kanojo no hyouban o kegasu you na koto wa shinai | Translation: I won't do anything to tarnish her reputation. 
+2. 汚す | Kanji: 運動場を汚すのはやめてください | Romaji: Undoujou o kegasu no wa yamete kudasai | Translation: Please stop defiling the playground. 
+3. 汚す | Kanji: 私たちが汚すことなく環境を保つことができる | Romaji: Watashitachi ga kegasu koto naku kankyou o tamotsu koto ga dekiru | Translation: We can preserve the environment without polluting it. 
+4. 汚す | Kanji: 彼は言葉で私を汚すつもりだった | Romaji: Kare wa kotoba de watashi o kegasu tsumori datta | Translation: He intended to defame me with his words. 
+5. 汚す | Kanji: この仕事は私の名誉を汚すものだ | Romaji: Kono shigoto wa watashi no meiyo o kegasu mono da | Translation: This job will sully my honor.
+-----------------------------
+CLI param:  弱まる
+--- Response text: ---
+1. 弱まる | Kanji: 彼女の力が弱まっている | Romaji: Kanojo no chikara ga yowamatteiru | Translation: Her strength is weakening | 
+2. 弱まる | Kanji: 反対意見が弱まってきた | Romaji: Hantai iken ga yowamatte kita | Translation: Opposition opinions have been weakening | 
+3. 弱まる | Kanji: 病気で体力が弱まっている | Romaji: Byouki de tairyoku ga yowamatte iru | Translation: My physical strength is weakening due to illness | 
+4. 弱まる | Kanji: 私の意志力が弱まってしまう | Romaji: Watashi no ishirikiryoku ga yowamatte shimau| Translation: My willpower is weakening | 
+5. 弱まる | Kanji: 支持率が急激に弱まった | Romaji: Shijiritsu ga kyuujitsu ni yowamatta| Translation: The approval rating has suddenly weakened drastically|
+-----------------------------
+CLI param:  分ける
+--- Response text: ---
+1. 分ける | Kanji: 僕たちはケーキを分ける | Romaji: Boku-tachi wa keeki o wakeru | Translation: We will share the cake | 
+2. 分ける | Kanji: 私たちは費用を分ける | Romaji: Watashi-tachi wa hiyou o wakeru | Translation: We will split the costs | 
+3. 分ける | Kanji: 私たちはタスクを分ける | Romaji: Watashi-tachi wa tasuku o wakeru | Translation: We will divide the tasks | 
+4. 分ける | Kanji: 彼らは賞金を分ける | Romaji: Karera wa shoukin o wakeru | Translation: They will split the prize money| 
+5. 分ける | Kanji: 私たちはチーズケーキを分ける | Romaji: Watashi-tachi wa chiizukeeki o wakeru | Translation: We will share the cheesecake|
+-----------------------------
+CLI param:  割る
+--- Response text: ---
+1. 卵を割る | Kanji: 卵を割る | Romaji: Tamago o waru | Translation: To break an egg |
+2. 果物を割る | Kanji: 果物を割る | Romaji: Kudamono o waru | Translation: To cut the fruit |
+3. 値段を割る | Kanji: 値段を割る | Romaji: Nedan o waru | Translation: To reduce the price |
+4. 調和を割る | Kanji: 調和を割る | Romaji: Chōwa o waru | Translation: To disrupt the harmony | 
+5. 胸を割る | Kanji: 胸を割る| Romaji: Mune o waru| Translation: To pierce one's heart|
+-----------------------------

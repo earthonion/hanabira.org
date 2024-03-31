@@ -1,0 +1,11 @@
+INFO:root:Sentences processed: 7, Sentences failed: 0
+INFO:root:Sentences processed: 7, Sentences failed: 0
+INFO:root:Sentences processed: 640, Sentences failed: 0
+INFO:root:Sentences processed: 150, Sentences failed: 0
+INFO:root:Sentences processed: 290, Sentences failed: 0
+ERROR:root:Error decoding JSON file: Expecting ',' delimiter: line 736 column 218 (char 273337)
+INFO:root:Sentences processed: 1270, Sentences failed: 0
+INFO:root:Sentences processed: 1470, Sentences failed: 0
+INFO:root:Sentences processed: 2030, Sentences failed: 0
+INFO:root:Sentences processed: 2030, Sentences failed: 0
+INFO:root:Sentences processed: 1470, Sentences failed: 0

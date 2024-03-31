@@ -1,0 +1,888 @@
+
+// for URL encoding of grammar titles with spaces
+// curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N5&type=encoded'
+// curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N4&type=encoded'
+// curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N3&type=encoded'
+// curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N2&type=encoded'
+// curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N1&type=encoded'
+
+
+"http://localhost:3000//grammarpoint/～から～にかけて (〜kara 〜ni kakete)",
+
+---------------------------------------------------------------------------------------
+
+
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N5&type=encoded'
+{"titles":[
+"https://hanabira.org/japanese/grammarpoint/A が いちばん～ (A ga ichiban～)",                        x
+"https://hanabira.org/japanese/grammarpoint/A。けれども、～B。(A. Keredomo,~ B.)",                    x
+"https://hanabira.org/japanese/grammarpoint/A。しかし、～B。 (A. Shikashi, ~B.)",                     x
+"https://hanabira.org/japanese/grammarpoint/A。じゃ、～B。(A. Ja, ~B.)",                              x
+"https://hanabira.org/japanese/grammarpoint/A。それじゃ、～B。(A. Soreja,~B.)",                       x
+"https://hanabira.org/japanese/grammarpoint/A。それでは、～B。(A. Soredewa,~B.)",                     x
+"https://hanabira.org/japanese/grammarpoint/A。 では、～B。 (A. Dewa, ~B)",                           x
+"https://hanabira.org/japanese/grammarpoint/A。でも、～B。(A. Demo, ~B)",                             x
+"https://hanabira.org/japanese/grammarpoint/Aと Bと どちら～ (A to B to dochira~)",                   x
+"https://hanabira.org/japanese/grammarpoint/AとBと どっち〜 (A to B to docchi〜)",                    x
+"https://hanabira.org/japanese/grammarpoint/A は B が〜 (A wa B ga〜)",                              x
+"https://hanabira.org/japanese/grammarpoint/A は B より～ (A wa B yori～)",                          x
+"https://hanabira.org/japanese/grammarpoint/A より B のほうが～ (A yori B no hou ga ～)",                x 
+"https://hanabira.org/japanese/grammarpoint/い-Adjective く + Verb (i-Adjective + ku + Verb)",           x
+"https://hanabira.org/japanese/grammarpoint/い-Adjective く します (i-Adjective ku shimasu)",             x
+"https://hanabira.org/japanese/grammarpoint/い-Adjective く ないます (i-Adjective ku naimasu)",           x
+"https://hanabira.org/japanese/grammarpoint/い-Adjective て (i-Adjective + te~)",                          x
+"https://hanabira.org/japanese/grammarpoint/な-Adjective く Verb (na-Adjective + ku + Verb)",              x
+"https://hanabira.org/japanese/grammarpoint/な-Adjective で～ (na-Adjective de~)",                         x
+"https://hanabira.org/japanese/grammarpoint/な-Adjective に します (na-Adjective ni shimasu)",             x
+"https://hanabira.org/japanese/grammarpoint/な-Adjective に なります (na-Adjective ni narimasu)",           x
+"https://hanabira.org/japanese/grammarpoint/Noun か Noun か～ (Noun ka Noun ka～)",                         x
+"https://hanabira.org/japanese/grammarpoint/Noun が できます (Noun ga dekimasu)",                           x
+"https://hanabira.org/japanese/grammarpoint/Noun がほしいです (〜ga hoshii desu)",                           x 
+"https://hanabira.org/japanese/grammarpoint/Noun から Noun まで (Noun kara Noun made)",                     x
+"https://hanabira.org/japanese/grammarpoint/Noun くらい～ (Noun kurai～)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun ぐらい～ (Noun gurai～)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun ごろ～ (Noun + goro～)",                                   x
+"https://hanabira.org/japanese/grammarpoint/Noun だけ〜 (〜dake)",                                          x
+"https://hanabira.org/japanese/grammarpoint/Nounで～ (Noun de ~)",                                          x
+"https://hanabira.org/japanese/grammarpoint/Noun と～ (Noun to～)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun に～ (Noun ni～)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun に かえります (Noun ni kaerimasu)",                        x
+"https://hanabira.org/japanese/grammarpoint/Noun に します (Noun ni shimasu)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun に なります (Noun ni narimasu)",                           x 
+"https://hanabira.org/japanese/grammarpoint/Noun に 来ます (ni kimasu)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Noun に 行きます (Noun ni ikimasu)",                             x
+"https://hanabira.org/japanese/grammarpoint/Noun の あとで (Noun no atode)",                                x
+"https://hanabira.org/japanese/grammarpoint/Noun の 前に (Noun no mae ni)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Noun は～ (Noun wa〜)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun も〜 (Noun mo~)",                                          x
+"https://hanabira.org/japanese/grammarpoint/Noun や Noun など～ (Noun ya Noun nado)",                       x
+"https://hanabira.org/japanese/grammarpoint/Noun を〜 (Noun wo〜)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb た あとで (ta ato de)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb たいです (taidesu)",                                       x  
+"https://hanabira.org/japanese/grammarpoint/Verb て～ (Verb + te～)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Verb て います (Verb te imasu)",                                x
+"https://hanabira.org/japanese/grammarpoint/Verb てから～ (〜te kara)",                                     x
+"https://hanabira.org/japanese/grammarpoint/Verb て ください (Verb-te kudasai)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verb ないで ください (〜naide kudasai)",                         x
+"https://hanabira.org/japanese/grammarpoint/Verb に かえります (〜ni kaerimasu)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verb に 来ます (Verb ni kimasu)",                               x
+"https://hanabira.org/japanese/grammarpoint/Verb に 行きます (Verb ni ikimasu)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verb ましょう (mashou)",                                        x
+"https://hanabira.org/japanese/grammarpoint/Verb ましょうか。 (〜mashou ka.)",                               x
+"https://hanabira.org/japanese/grammarpoint/Verb ませんか。 (Verb-masenka)",                                x
+"https://hanabira.org/japanese/grammarpoint/Verb ること～ (〜ru koto)",                                     x 
+"https://hanabira.org/japanese/grammarpoint/Verb る こと が できます (ru koto ga dekimasu)",                 x
+"https://hanabira.org/japanese/grammarpoint/Verb る こと ができる (ru koto ga dekiru)",                      x
+"https://hanabira.org/japanese/grammarpoint/Verb る の～ (Verb + ru + no~)",                                x
+"https://hanabira.org/japanese/grammarpoint/Verb る 前に (ru mae ni)",                                      x
+"https://hanabira.org/japanese/grammarpoint/あまり～ありません (amari ~ arimasen)",                          x
+"https://hanabira.org/japanese/grammarpoint/あまり～ないです (amari ~ nai desu)",                            x
+"https://hanabira.org/japanese/grammarpoint/～あります (〜arimasu)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～いかがですか。 (〜ikaga desu ka.)",                            x
+"https://hanabira.org/japanese/grammarpoint/いくつ～ (ikutsu~",                                             x
+"https://hanabira.org/japanese/grammarpoint/いつか～ (itsuka～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/いつでも～ (itsudemo～)",                                        x
+"https://hanabira.org/japanese/grammarpoint/いつも～ (itsumo～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～います (〜imasu)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～が (〜ga)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/～が、～ (〜ga, 〜)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～から、～ (〜kara、～)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～からです (〜kara desu)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～から もらいます (〜kara moraimasu)",                           x
+"https://hanabira.org/japanese/grammarpoint/～が 私に くれます (〜ga watashi ni kuremasu)",                  x
+"https://hanabira.org/japanese/grammarpoint/～けど、～ (〜kedo、～)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～けれど、～ (〜keredo、～)",                                    x
+"https://hanabira.org/japanese/grammarpoint/こちら～ (kochira～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/さっき～ (sakki～)",                                             x
+"https://hanabira.org/japanese/grammarpoint/すぐに～ (sugu ni～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/ぜんぜん～ (zenzen～)",                                          x
+"https://hanabira.org/japanese/grammarpoint/そして、～ (soshite、～)",                                       x
+"https://hanabira.org/japanese/grammarpoint/そちら～ (sochira～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/それから、～ (sorekara、～)",                                    x
+"https://hanabira.org/japanese/grammarpoint/だいたい〜 (daitai〜)",                                         x
+"https://hanabira.org/japanese/grammarpoint/たいてい～ (taitei～)",                                         x
+"https://hanabira.org/japanese/grammarpoint/だから、～ (dakara、～)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～たり、～たり します (〜tari, 〜tari shimasu)",                  x 
+"https://hanabira.org/japanese/grammarpoint/だれ～ (dare～)",                                                 x
+"https://hanabira.org/japanese/grammarpoint/だれか〜 (dareka〜)",                                            x
+"https://hanabira.org/japanese/grammarpoint/だれでも～ (dare demo～)",                                        x
+"https://hanabira.org/japanese/grammarpoint/だれも～ないです (dare mo ~ nai desu)",                           x
+"https://hanabira.org/japanese/grammarpoint/だれも～ません (daremo ~masen)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～どう しますか。 (～dou shimasu ka.)",                             x
+"https://hanabira.org/japanese/grammarpoint/～どうですか。 (〜dou desu ka.)",                                  x
+"https://hanabira.org/japanese/grammarpoint/どうやって～ (douyatte～)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～どう 言いますか。 (〜dou iimasu ka.)",                           x
+"https://hanabira.org/japanese/grammarpoint/～とき (〜toki)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/ときどき～ (tokidoki～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/どこ～ (doko～)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/どこか～ (dokoka～)",                                               x
+"https://hanabira.org/japanese/grammarpoint/どこでも～ (dokodemo～)",                                           x
+"https://hanabira.org/japanese/grammarpoint/どこにも + Verb + ないです (doko ni mo + Verb + nai desu)",         x
+"https://hanabira.org/japanese/grammarpoint/どこにも + Verb + ません (doko ni mo + Verb + masen)",              x
+"https://hanabira.org/japanese/grammarpoint/どこへも Verb ないです (doko e mo + Verb + nai desu)",              x
+"https://hanabira.org/japanese/grammarpoint/どこへも Verb ません (doko e mo + Verb + masen)",                   x
+"https://hanabira.org/japanese/grammarpoint/どこも Verb ないです (dokomo + Verb + naidesu)",                    x
+"https://hanabira.org/japanese/grammarpoint/どこも Verb ません (dokomo + Verb + masen)",                        x
+"https://hanabira.org/japanese/grammarpoint/どちら～ (dochira～)",                                              x
+"https://hanabira.org/japanese/grammarpoint/どなた～ (donata～)",                                               x
+"https://hanabira.org/japanese/grammarpoint/どの Noun (dono Noun)",                                             x
+"https://hanabira.org/japanese/grammarpoint/どれでも～ (dore demo～)",                                          x
+"https://hanabira.org/japanese/grammarpoint/どんな Noun (donna)",                                              x
+"https://hanabira.org/japanese/grammarpoint/なに～ (nani~)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/なにか～ (nanika～)",                                              x
+"https://hanabira.org/japanese/grammarpoint/なにも～ないです (nani mo~nai desu)",                               x
+"https://hanabira.org/japanese/grammarpoint/なにも～ません (nanimo~masen)",                                     x
+"https://hanabira.org/japanese/grammarpoint/なん～ (nan~)",                                                     x
+"https://hanabira.org/japanese/grammarpoint/なんで～ (nande～)",                                                x
+"https://hanabira.org/japanese/grammarpoint/なんでも～ (nandemo～)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～なんと 言いますか。 (〜nan to iimasu ka.)",                        x
+"https://hanabira.org/japanese/grammarpoint/～に あげます (〜 ni agemasu)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～に もらいます (〜ni moraimasu)",                                  x
+"https://hanabira.org/japanese/grammarpoint/～の (〜no)",                                                      x
+"https://hanabira.org/japanese/grammarpoint/～はたいへんです (〜wa taihen desu)",                               x
+"https://hanabira.org/japanese/grammarpoint/ほとんど〜 (hotondo〜)",                                            x
+"https://hanabira.org/japanese/grammarpoint/まあまあ～ (maa maa～)",                                            x
+"https://hanabira.org/japanese/grammarpoint/まだ〜 (mada〜)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/まだ〜ないです (mada 〜 nai desu)",                                  x
+"https://hanabira.org/japanese/grammarpoint/まだ～ません (mada ~masen)",                                        x
+"https://hanabira.org/japanese/grammarpoint/もう～ (mou～)",                                                    x
+"https://hanabira.org/japanese/grammarpoint/もうすぐ〜 (mou sugu~)",                                            x 
+"https://hanabira.org/japanese/grammarpoint/もっと〜 (motto〜)",                                                x
+"https://hanabira.org/japanese/grammarpoint/よく～ (yoku ~)",                                                   x
+"https://hanabira.org/japanese/grammarpoint/～（場所）に～があります (〜basho ni 〜 ga arimasu)"                  x
+]}coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$
+
+ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N4&type=encoded'
+{"titles":[
+
+"https://hanabira.org/japanese/grammarpoint/A とか B とか",                                                    x
+"https://hanabira.org/japanese/grammarpoint/A は B ほど～ありません (A wa B hodo ～ arimasen)",                 x
+"https://hanabira.org/japanese/grammarpoint/A は B ほど～ない (A wa B hodo ~ nai)",                            x
+"https://hanabira.org/japanese/grammarpoint/A より B のほうが〜 (A yori B no hou ga 〜)",                       x
+"https://hanabira.org/japanese/grammarpoint/い-Adjective く する/なる (i-Adjective kusuru/naru)",               x   slash issue
+"https://hanabira.org/japanese/grammarpoint/な-adjective に する/なる",                                         x    slash issue
+"https://hanabira.org/japanese/grammarpoint/Noun しか～ない (Noun shika~nai)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun に する (Noun ni suru)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Noun に なる (Noun ni naru)",                                       x
+"https://hanabira.org/japanese/grammarpoint/のために (no tame ni)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Noun の 間に (〜no aida ni)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Noun ばかり (〜bakari)",                                            x
+"https://hanabira.org/japanese/grammarpoint/Noun を あげる (Noun wo ageru)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Nounをいただく (Noun wo itadaku)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Nounをくださる",                                                    x
+"https://hanabira.org/japanese/grammarpoint/Noun を くれる (Noun wo kureru)",                                   x
+"https://hanabira.org/japanese/grammarpoint/Noun を さしあげる (Noun wo sashiageru)",                            x
+"https://hanabira.org/japanese/grammarpoint/Noun もらう (Noun wo morau)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Noun + 中 (Noun + ちゅう)",                                          x
+"https://hanabira.org/japanese/grammarpoint/Verb させられる (Verb-saserareru)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Verb させる (Verb-saseru)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb た ことがある (Verb ta koto ga aru)",                           x
+"https://hanabira.org/japanese/grammarpoint/Verb た ときに (Verb た ときに)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb た ところ (Verb ta tokoro)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb たほうがいい (〜ta hou ga ii)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verb ために (tame ni)",                                              x
+"https://hanabira.org/japanese/grammarpoint/Verb つもり (〜tsumori)",                                            x
+"https://hanabira.org/japanese/grammarpoint/Verb てあげる (Verb te ageru)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Verb て ある (Verb-te aru)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb て いく (Verb-te iku)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb ていただきたい (te itadakitai)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verb ていただく (〜te itadaku)",                                      x 
+"https://hanabira.org/japanese/grammarpoint/Verb て いただけませんか (Verb te itadakemasen ka)",                   x
+"https://hanabira.org/japanese/grammarpoint/Verb て いる (Verb-te iru)",                                          x
+"https://hanabira.org/japanese/grammarpoint/Verb て いる ところ (Verb te iru tokoro)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verb ている間に (te iru aida ni)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb ておく (〜te oku)",                                              x
+"https://hanabira.org/japanese/grammarpoint/Verb て くださいませんか (Verb-te kudasaimasen ka)",                   x
+"https://hanabira.org/japanese/grammarpoint/Verb て くださる (Verb-te kudasaru)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verb て くる (Verb te kuru)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb てくれませんか (〜te kuremasen ka)",                             x
+"https://hanabira.org/japanese/grammarpoint/Verb て くれる (Verb-te kureru)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb て + さしあげる (Verb TE sashiageru)",                           x
+"https://hanabira.org/japanese/grammarpoint/Verb てしまう (〜te shimau)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb て ほしい (Verb-te hoshii)",                                     x
+"https://hanabira.org/japanese/grammarpoint/Verb てみる (〜te miru)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Verb てもらいたい (～te moraitai)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Verb て もらう (Verb-te morau)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Verb てもらえませんか (～te moraemasen ka)",                           x
+"https://hanabira.org/japanese/grammarpoint/Verb ない ことがある (Verb-nai koto ga aru)",                         x
+"https://hanabira.org/japanese/grammarpoint/Verb ない + ことにする (Verb nai koto ni suru)",                      x
+"https://hanabira.org/japanese/grammarpoint/Verb ない ことになる (Verb nai koto ni naru)",                        x
+"https://hanabira.org/japanese/grammarpoint/Verb ないほうがいい (Verb nai hou ga ii)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verb ながら (〜nagara)",                                             x 
+"https://hanabira.org/japanese/grammarpoint/Verb なさい (〜nasai)",                                x
+"https://hanabira.org/japanese/grammarpoint/Verb にくい (〜nikui)",                                already indexed
+"https://hanabira.org/japanese/grammarpoint/Verb やすい (〜yasui)",                                x
+"https://hanabira.org/japanese/grammarpoint/Verb ようと思う (Verb-you to omou)",                   x
+"https://hanabira.org/japanese/grammarpoint/Verb ように (〜you ni)",                               x
+"https://hanabira.org/japanese/grammarpoint/Verb ようにする (Verb ~you ni suru)",                  x
+"https://hanabira.org/japanese/grammarpoint/Verb ようになる (〜you ni naru)",                      x
+"https://hanabira.org/japanese/grammarpoint/Verb ように言う (Verb-you ni iu)",                     x
+"https://hanabira.org/japanese/grammarpoint/Verb られる (〜rareru)",                               x
+"https://hanabira.org/japanese/grammarpoint/Verb る ことがある (〜ru koto ga aru)",                 x
+"https://hanabira.org/japanese/grammarpoint/Verb ることができる (〜ru koto ga dekiru)",             x
+"https://hanabira.org/japanese/grammarpoint/Verb ることにする (〜ru koto ni suru)",                 x  
+"https://hanabira.org/japanese/grammarpoint/Verb る ことになる (〜ru koto ni naru)",                x
+"https://hanabira.org/japanese/grammarpoint/Verb るときに (〜ru toki ni)",                          x
+"https://hanabira.org/japanese/grammarpoint/Verb る ところ (Verb-ru to koro)",                      x
+"https://hanabira.org/japanese/grammarpoint/Verb 出す (~dasu)",                                     x
+"https://hanabira.org/japanese/grammarpoint/Verb 方 (〜hou)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Verb 終わる (〜owaru)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verb + 続ける (つづける, tsuzukeru)",                    x
+"https://hanabira.org/japanese/grammarpoint/～かしら (〜kashira)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～かどうか (〜ka dou ka)",                                x
+"https://hanabira.org/japanese/grammarpoint/～かなあ (〜kanaa)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～かもしれない (〜kamoshirenai)",                         x
+"https://hanabira.org/japanese/grammarpoint/～から (〜kara)",                                        x   
+"https://hanabira.org/japanese/grammarpoint/～けれど (〜keredo)",                                    x
+"https://hanabira.org/japanese/grammarpoint/～させてください (〜sasete kudasai)",                     x
+"https://hanabira.org/japanese/grammarpoint/～し、～し、～ (〜shi, 〜shi, 〜)",                       x
+"https://hanabira.org/japanese/grammarpoint/～すぎる (〜sugiru)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～ずつ (〜zutsu)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～そうだ (〜sou da)",                                     x
+"https://hanabira.org/japanese/grammarpoint/そんな (sonna) + Noun",                                  x
+"https://hanabira.org/japanese/grammarpoint/そんなに～ (sonna ni〜)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～たらいい (〜tara ii)",                                  x
+"https://hanabira.org/japanese/grammarpoint/～たら いかがですか (〜tara ikaga desu ka)",               x
+"https://hanabira.org/japanese/grammarpoint/～たら どうですか (〜tara doudesuka)",                     x
+"https://hanabira.org/japanese/grammarpoint/～たり～たり (〜tari 〜tari)",                             x
+"https://hanabira.org/japanese/grammarpoint/～だろう (〜darou)",                                      x
+"https://hanabira.org/japanese/grammarpoint/～っていう (〜tte iu)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～で (〜de)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～でしょう (〜deshou)",                                  x
+"https://hanabira.org/japanese/grammarpoint/～てはいけない (〜te wa ikenai)",                        x
+"https://hanabira.org/japanese/grammarpoint/～てもいい (〜temo ii)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～ても/でも (〜te mo/demo)",                             slash
+"https://hanabira.org/japanese/grammarpoint/～といい (〜to ii)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～という (〜to iu) Noun",                                x
+"https://hanabira.org/japanese/grammarpoint/どういう Noun (dou iu Noun)",                            already indexed
+"https://hanabira.org/japanese/grammarpoint/～と思う (〜to omou)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～という (〜to iu)",                                     indexed
+"https://hanabira.org/japanese/grammarpoint/～ないといけない (〜nai to ikenai)",                      x
+"https://hanabira.org/japanese/grammarpoint/～なきゃいけない (〜nakya ikenai)",                       x
+"https://hanabira.org/japanese/grammarpoint/～なくちゃいけない (〜naku cha ikenai)",                  x
+"https://hanabira.org/japanese/grammarpoint/～なくてはいけない (〜nakute wa ikenai)",                 x
+"https://hanabira.org/japanese/grammarpoint/～なくてもいい (〜nakutemo ii)",                          x
+"https://hanabira.org/japanese/grammarpoint/～なければ ならない (〜nakereba naranai)",                x
+"https://hanabira.org/japanese/grammarpoint/～に (〜ni)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～ので (〜node)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～のです (〜no desu)",                                    x
+"https://hanabira.org/japanese/grammarpoint/～のに (〜no ni)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～ばいい (〜ba ii)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～まで (〜made)",                                        done
+"https://hanabira.org/japanese/grammarpoint/～までに (〜made ni)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～まま (〜mama)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～みたいだ (〜mitai da)",                                x
+"https://hanabira.org/japanese/grammarpoint/～も (〜mo)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～ようだ (〜you da)",                                    x
+"https://hanabira.org/japanese/grammarpoint/～んです (〜n desu)",                                    x
+"https://hanabira.org/japanese/grammarpoint/文A。そのうえ 文B。",                                    x
+"https://hanabira.org/japanese/grammarpoint/文A。それで 文B (Bun A. Sorede Bun B)",                  x
+"https://hanabira.org/japanese/grammarpoint/文A。それに 文B (Bun A. Soreni Bun B)",                  x
+"https://hanabira.org/japanese/grammarpoint/文A。だから 文B (Bun A. Dakara Bun B)"                   x
+
+]}coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N3&type=encoded'
+{"titles":[
+
+"https://zen-lingo.com/japanese/grammarpoint/A その上 B (A sono ue B)",                      x
+"https://zen-lingo.com/japanese/grammarpoint/～うちに (〜uchi ni)",                          x
+"https://zen-lingo.com/japanese/grammarpoint/～うとした (〜uto shita)",                      x
+"https://zen-lingo.com/japanese/grammarpoint/～おかげで (〜okagede)",                        x
+"https://zen-lingo.com/japanese/grammarpoint/～かけ (〜kake)",                               x
+"https://zen-lingo.com/japanese/grammarpoint/～かなあ (〜kanaa)",                            x
+"https://zen-lingo.com/japanese/grammarpoint/～がらないで (〜ga ranai de)",                  x    
+"https://zen-lingo.com/japanese/grammarpoint/～から～にかけて (〜kara 〜ni kakete)",         x
+"https://zen-lingo.com/japanese/grammarpoint/～かわりに (〜kawari ni)",                     x
+"https://zen-lingo.com/japanese/grammarpoint/～きり (〜kiri)",                                x
+"https://zen-lingo.com/japanese/grammarpoint/～くせに (〜kuse ni)",                          x
+"https://zen-lingo.com/japanese/grammarpoint/～くらい (〜kurai)",                              x
+"https://zen-lingo.com/japanese/grammarpoint/～くらい～は～ない (〜kurai 〜wa 〜nai)",          x         
+"https://zen-lingo.com/japanese/grammarpoint/～こそ (〜koso)",                                x
+"https://zen-lingo.com/japanese/grammarpoint/～こと (〜koto)",                                x
+"https://zen-lingo.com/japanese/grammarpoint/～ことだ (〜koto da)",                           x
+"https://zen-lingo.com/japanese/grammarpoint/～ことにしている (〜koto ni shite iru)",            x
+"https://zen-lingo.com/japanese/grammarpoint/～ことになっている (〜koto ni natte iru)",          x
+"https://zen-lingo.com/japanese/grammarpoint/～ことは…が (～koto wa... ga)",                     x
+"https://zen-lingo.com/japanese/grammarpoint/～ことはない (〜koto wa nai)",                       x
+"https://zen-lingo.com/japanese/grammarpoint/～さ～ (〜sa〜)",                                   x
+"https://zen-lingo.com/japanese/grammarpoint/～さえ (～sae)",                                    x
+"https://zen-lingo.com/japanese/grammarpoint/～しかない (〜shika nai)",                             x
+"https://zen-lingo.com/japanese/grammarpoint/すこしも〜ない (sukoshimo~nai)",                     x
+"https://zen-lingo.com/japanese/grammarpoint/～ずに (〜zu ni)",                                    x
+"https://zen-lingo.com/japanese/grammarpoint/～せいで (〜sei de)",                                  x
+"https://zen-lingo.com/japanese/grammarpoint/～せてください (〜sete kudasai)",                      x
+"https://zen-lingo.com/japanese/grammarpoint/～そのために (〜sono tame ni)",                       x
+"https://zen-lingo.com/japanese/grammarpoint/～その結果 (〜sono kekka)",                           x
+"https://zen-lingo.com/japanese/grammarpoint/～それと～ (〜sore to〜)",                            x   
+"https://zen-lingo.com/japanese/grammarpoint/～？それとも～？ (～? sore tomo ～?)",                likely problem with question marks
+"https://zen-lingo.com/japanese/grammarpoint/～だけしか (～dake shika)",                           x
+"https://zen-lingo.com/japanese/grammarpoint/だけど (dakedo)",                                    x
+"https://zen-lingo.com/japanese/grammarpoint/～たて (～tate)",                                     x
+"https://zen-lingo.com/japanese/grammarpoint/～たとえ～ても (〜tatoe〜temo)",                       x
+"https://zen-lingo.com/japanese/grammarpoint/～たところ (〜ta tokoro)",                            x
+"https://zen-lingo.com/japanese/grammarpoint/～たとたん (〜ta totan)",                             x
+"https://zen-lingo.com/japanese/grammarpoint/～たびに (〜tabi ni)",                                x
+"https://zen-lingo.com/japanese/grammarpoint/～だものだ (〜da mono da)",                           x
+"https://zen-lingo.com/japanese/grammarpoint/～ちゃった (〜chatta)",                               x
+"https://zen-lingo.com/japanese/grammarpoint/～ついでに (〜tsuide ni)",                            x
+"https://hanabira.org/japanese/grammarpoint/～っけ？ (〜kke?)",                                   x   question mark issues
+"https://hanabira.org/japanese/grammarpoint/～っぱい (〜ppai)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～っぱなし (〜ppanashi)",                             x
+"https://hanabira.org/japanese/grammarpoint/～つまり (〜tsumari)",                                x
+"https://hanabira.org/japanese/grammarpoint/～つもりでした (〜tsumori deshita)",                   x
+"https://hanabira.org/japanese/grammarpoint/～てくれと (〜te kureto)",                            x
+"https://hanabira.org/japanese/grammarpoint/～てごらん (〜te goran)",                             x
+"https://hanabira.org/japanese/grammarpoint/ですから～ (desu kara)",                             x
+"https://hanabira.org/japanese/grammarpoint/～てはじめて (〜te hajimete)",                       x
+"https://hanabira.org/japanese/grammarpoint/～てほしい (〜te hoshii)",                             x
+"https://hanabira.org/japanese/grammarpoint/～ても (〜temo)",                                    x
+"https://hanabira.org/japanese/grammarpoint/～といいなあ (〜to ii naa)",                         x
+"https://hanabira.org/japanese/grammarpoint/～という (〜to iu)",                                 x      
+"https://hanabira.org/japanese/grammarpoint/～ということだ (〜to iu koto da)",                    x
+"https://hanabira.org/japanese/grammarpoint/～というと (〜to iu to)",                            x
+"https://hanabira.org/japanese/grammarpoint/～というの～ (〜to iu no〜)",                          x
+"https://hanabira.org/japanese/grammarpoint/～というのは (〜to iu no wa)",                        x
+"https://hanabira.org/japanese/grammarpoint/～というより (〜to iu yori)",                         x
+"https://hanabira.org/japanese/grammarpoint/～といっても (〜to ittemo)",                          x
+"https://hanabira.org/japanese/grammarpoint/～とおり (〜toori)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～とく (〜toku)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～ところが (〜tokoro ga)",                            x
+"https://hanabira.org/japanese/grammarpoint/～ところだった (〜tokoro datta)",                     x    
+"https://hanabira.org/japanese/grammarpoint/ところで (tokorode)",                               x
+"https://hanabira.org/japanese/grammarpoint/～としたら (〜to shitara)",                         x
+"https://hanabira.org/japanese/grammarpoint/～として (〜to shite)",                             x
+"https://hanabira.org/japanese/grammarpoint/～どんなに～ことか (〜donna ni〜koto ka)",             x
+"https://hanabira.org/japanese/grammarpoint/どんなに～ても (donna ni ~ temo)",                    x
+"https://hanabira.org/japanese/grammarpoint/～ないことはない (〜nai koto wa nai)",                x
+"https://hanabira.org/japanese/grammarpoint/～ないと (〜nai to)",                                x
+"https://hanabira.org/japanese/grammarpoint/～なぜなら (〜nazenara)",                            x
+"https://hanabira.org/japanese/grammarpoint/～など (〜nado)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～なんか (〜nanka)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～において (〜ni oite)",                              x
+"https://hanabira.org/japanese/grammarpoint/～にかわって (〜ni kawatte)",                          x
+"https://hanabira.org/japanese/grammarpoint/～にしては (〜ni shite wa)",                          x
+"https://hanabira.org/japanese/grammarpoint/～にしても (〜ni shitemo)",                            x
+"https://hanabira.org/japanese/grammarpoint/～について (〜ni tsuite)",                           google declined
+"https://hanabira.org/japanese/grammarpoint/～にとって (〜ni totte)",                              x
+"https://hanabira.org/japanese/grammarpoint/～によって (〜ni yotte)",                               x
+"https://hanabira.org/japanese/grammarpoint/～によれば (〜ni yoreba)",                             x
+"https://hanabira.org/japanese/grammarpoint/～に対して (～ni taishite)",                           x
+"https://hanabira.org/japanese/grammarpoint/～に比べて (〜ni kurabete)",                           x
+"https://hanabira.org/japanese/grammarpoint/～に関して (〜ni kanshite)",                           x
+"https://hanabira.org/japanese/grammarpoint/～の～ (〜no 〜)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～ばかり (〜bakari)",                                  x
+"https://hanabira.org/japanese/grammarpoint/～ばかりか (〜bakarika) ～も (mo)",                     x
+"https://hanabira.org/japanese/grammarpoint/～はずだ (〜hazu da)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～ば～のに (〜ba 〜noni)",                             x
+"https://hanabira.org/japanese/grammarpoint/～ば～ほど (〜ba 〜hodo)",                             x
+"https://hanabira.org/japanese/grammarpoint/～はもちろん～も (〜wa mochiron 〜mo)",                    x
+"https://hanabira.org/japanese/grammarpoint/～ばよかった (〜ba yokatta)",                          x
+"https://hanabira.org/japanese/grammarpoint/～ふりをする (〜furi wo suru)",                        x
+"https://hanabira.org/japanese/grammarpoint/～べきだ (〜beki da)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～ほど～ (〜hodo〜)",                                  x
+"https://hanabira.org/japanese/grammarpoint/～ますように (〜masu you ni)",                         x
+"https://hanabira.org/japanese/grammarpoint/まったく～ない (mattaku ~nai)",                        x   
+"https://hanabira.org/japanese/grammarpoint/～まで (〜made)",                                      x
+"https://hanabira.org/japanese/grammarpoint/～まま (〜mama)",                                      x
+"https://hanabira.org/japanese/grammarpoint/まるで～よう (maru de ~ you)",                         x
+"https://hanabira.org/japanese/grammarpoint/～み (～mi)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～みたいだ (〜mitai da)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～めったに～ない (〜metta ni 〜nai)",                             x
+"https://hanabira.org/japanese/grammarpoint/～めったにない (〜metta ni nai)",                                 x
+"https://hanabira.org/japanese/grammarpoint/もしかすると〜かもしれない (moshikasuru to 〜kamoshirenai)",       x
+"https://hanabira.org/japanese/grammarpoint/もし～たなら (moshi ~ tanara)",                                  x
+"https://hanabira.org/japanese/grammarpoint/もし～としても (moshi ～ to shitemo)",                           x
+"https://hanabira.org/japanese/grammarpoint/もしも～なら (moshimo ~ nara)",                                  x   
+"https://hanabira.org/japanese/grammarpoint/～ようとしない (〜you to shinai)",                               x
+"https://hanabira.org/japanese/grammarpoint/～ようと思う (〜you to omou)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～ように (〜you ni)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～ようにしましょう (〜you ni shimashou)",                         x
+"https://hanabira.org/japanese/grammarpoint/～ようになった (〜you ni natta)",                                x
+"https://hanabira.org/japanese/grammarpoint/～ように言う (〜you ni iu)",                                     x
+"https://hanabira.org/japanese/grammarpoint/～らしい (〜rashii)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～られた (〜rareta)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～れている (〜rete iru)",                                        x
+"https://hanabira.org/japanese/grammarpoint/～わけがない (〜wake ga nai)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～わけだ (〜wake da)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～わけではない (〜wake dewa nai)",                                x
+"https://hanabira.org/japanese/grammarpoint/～わけにはいかない (〜wake ni wa ikanai)",                       x
+"https://hanabira.org/japanese/grammarpoint/～わりには (〜wari ni wa)",                                      x
+"https://hanabira.org/japanese/grammarpoint/～んだって (〜n datte)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～んだもん (〜nda mon)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～上げる (〜ageru)",                                            x
+"https://hanabira.org/japanese/grammarpoint/～切れない (～kirenai)",                                        x
+"https://hanabira.org/japanese/grammarpoint/必ずしも～とは限らない (kanarazushimo ～ towa kagiranai)",       x 
+"https://hanabira.org/japanese/grammarpoint/～最中に (～saichuu ni)",                                       x
+"https://hanabira.org/japanese/grammarpoint/決して～ない (kesshite ~ nai)"                                  LIMIT
+]}coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N2&type=encoded'
+{"titles":[
+"https://zen-lingo.com/grammarpoint/A あるいは B (A aruiwa B)",                                     x
+"https://zen-lingo.com/grammarpoint/A。おまけに B。(~omake ni)",                                    x
+"https://zen-lingo.com/grammarpoint/A。さて B。(A. Sate B.)",                                      x
+"https://zen-lingo.com/grammarpoint/A。しかも B。(A. Shikamo B.)",                                  x
+"https://zen-lingo.com/grammarpoint/A。したがって B。(A. Shitagatte B.)",                           x
+"https://zen-lingo.com/grammarpoint/A すなわち B。 (A sunawachi B)",                                x
+"https://zen-lingo.com/grammarpoint/A。すると B。(~suruto)",                                        x
+"https://zen-lingo.com/grammarpoint/A。そういえば B。(~souieba)",                                   x
+"https://zen-lingo.com/grammarpoint/A。そこで B。(~sokode)",                                        x
+"https://zen-lingo.com/grammarpoint/A。それがB。(~sorega)",                                         x
+"https://zen-lingo.com/grammarpoint/A。それで B。 (~sore de)",                                      x
+"https://zen-lingo.com/grammarpoint/A。それでも B。(~sore demo)",                                   x
+"https://zen-lingo.com/grammarpoint/A。それなのに B。(~sorenanoni)",                                x
+"https://zen-lingo.com/grammarpoint/A。それなら B。(A. Sore nara B.)",                              x
+"https://zen-lingo.com/grammarpoint/A それはそうと B。 (A Sore wa sou to B)",                       x
+"https://zen-lingo.com/grammarpoint/A。だが B。(~daga)",                                            x
+"https://zen-lingo.com/grammarpoint/A。ただB。(~tada)",                                             x
+"https://zen-lingo.com/grammarpoint/A。ただしB。 (A. Tadashi B)",                                   x
+"https://zen-lingo.com/grammarpoint/A。だって B。(Datte~)",                                         x  
+"https://zen-lingo.com/grammarpoint/A。ちなみに B。(A. Chinamini B.)",                              x
+"https://zen-lingo.com/grammarpoint/A。ということは B。 (A. To iu koto wa B.)",                     x
+"https://zen-lingo.com/grammarpoint/A。というのは B。(Toiu no wa~)",                                x
+"https://zen-lingo.com/grammarpoint/A。なおB。(A. Nao B.)",                                        x
+"https://zen-lingo.com/grammarpoint/A。もっとも B。(Motto mo ~)",                                   x
+"https://zen-lingo.com/grammarpoint/A。要するに B。(A. Yousuru ni B.)",                             x
+"https://zen-lingo.com/grammarpoint/Noun につき (〜ni tsuki)",                                      x
+"https://zen-lingo.com/grammarpoint/Noun にて (Noun nite)",                                         x
+"https://zen-lingo.com/grammarpoint/Noun の ことだから (Noun no koto dakara)",                      x
+"https://zen-lingo.com/grammarpoint/Noun を はじめ (Noun wo hajime)",                               x
+"https://zen-lingo.com/grammarpoint/Noun を はじめとして (Noun wo hajimete shite)",                  x         
+"https://zen-lingo.com/grammarpoint/Noun を はじめとする Noun (Noun wo hajimete suru Noun)",         x
+"https://zen-lingo.com/grammarpoint/Noun を めぐって (Noun wo megutte)",                             x
+"https://zen-lingo.com/grammarpoint/Noun を めぐる Noun (Noun wo meguru Noun)",                      x
+"https://zen-lingo.com/grammarpoint/Noun を もとに (Noun o moto ni)",                                x
+"https://zen-lingo.com/grammarpoint/Noun を もとにして (Noun wo moto ni shite)",                     x
+"https://zen-lingo.com/grammarpoint/Verb ことなく (~kotonaku)",                                      x
+"https://zen-lingo.com/grammarpoint/Verb ないことには Verb ない (~nai koto ni wa ~ nai)",             x
+"https://zen-lingo.com/grammarpoint/～あげく (~ageku)",                                              x
+"https://zen-lingo.com/grammarpoint/～あまり (〜amari)",                                             x
+"https://zen-lingo.com/grammarpoint/～うちに (〜uchi ni)",                                           x
+"https://zen-lingo.com/grammarpoint/～がい (〜gai)",                                                 x
+"https://zen-lingo.com/grammarpoint/～かいがあって (〜kaiga atte)",                                   x
+"https://zen-lingo.com/grammarpoint/～かいもなく (〜kai mo naku)",                                    x
+"https://zen-lingo.com/grammarpoint/～かける (〜kakeru)",                                            x
+"https://zen-lingo.com/grammarpoint/～がち (〜gachi)",                                              x
+"https://zen-lingo.com/grammarpoint/～か～ないかのうちに (〜ka〜naika no uchi ni)",                   x
+"https://zen-lingo.com/grammarpoint/～かねない (〜kane nai)",                                         x
+"https://zen-lingo.com/grammarpoint/～かねる (〜kaneru)",                                            x
+"https://zen-lingo.com/grammarpoint/～かのようだ (〜ka no you da)",                                   x
+"https://zen-lingo.com/grammarpoint/～か～まいか (〜ka 〜maika)",                                     x
+"https://zen-lingo.com/grammarpoint/～からこそ (〜kara koso)",                                        x
+"https://zen-lingo.com/grammarpoint/〜からして (〜kara shite)",                                       x
+"https://zen-lingo.com/grammarpoint/～からすると (〜kara suru to)",                                   x
+"https://zen-lingo.com/grammarpoint/～からといって (〜kara to itte)",                                 x 
+"https://zen-lingo.com/grammarpoint/～から～にかけて (〜kara 〜ni kakete)",     x
+"https://zen-lingo.com/grammarpoint/～からには (〜kara niwa)",    x
+"https://zen-lingo.com/grammarpoint/～から見ると (〜kara miru to)",    x
+"https://zen-lingo.com/grammarpoint/～から言うと (〜kara iuto)",   x
+"https://zen-lingo.com/grammarpoint/～くせして (〜kuse shite)",    x
+"https://zen-lingo.com/grammarpoint/～ことから (〜koto kara)",     x
+"https://zen-lingo.com/grammarpoint/～ことに (〜koto ni)",         x
+"https://zen-lingo.com/grammarpoint/～ことになっている (〜koto ni natte iru)",   x
+"https://zen-lingo.com/grammarpoint/～さえ～ば (〜sae 〜ba)",          x
+"https://zen-lingo.com/grammarpoint/～ざるを得ない (〜zaru wo enai)",    x
+"https://zen-lingo.com/grammarpoint/～ずにはいられない (〜zu ni wa irarenai)",     x 
+"https://zen-lingo.com/grammarpoint/～そうにない (〜sou ni nai)",                 x
+"https://zen-lingo.com/grammarpoint/～たかと思ったら (〜ta ka to omottara)",     x
+"https://zen-lingo.com/grammarpoint/～たきり (〜takiri)",                       x
+"https://zen-lingo.com/grammarpoint/～だけあって (〜dake atte)",                x
+"https://zen-lingo.com/grammarpoint/～だけましだ (〜dake mashi da)",            x
+"https://zen-lingo.com/grammarpoint/～たところ (〜ta tokoro)",                    x
+"https://zen-lingo.com/grammarpoint/～たとたん (〜ta totan)",                   x
+"https://zen-lingo.com/grammarpoint/～だらけ (〜darake)",                      x
+"https://zen-lingo.com/grammarpoint/～っこない (〜kkonai)",                     x
+"https://zen-lingo.com/grammarpoint/～つつ (〜tsutsu)",                      x
+"https://zen-lingo.com/grammarpoint/～つつある (〜tsutsu aru)",              x 
+"https://zen-lingo.com/grammarpoint/～っぱなし (〜ppanashi)",                x
+"https://zen-lingo.com/grammarpoint/～っぽい (〜ppoi)",                      x
+"https://zen-lingo.com/grammarpoint/～ていられない (〜te irarenai)",          x
+"https://zen-lingo.com/grammarpoint/～てかなわない (〜te kanawanai)",          x
+"https://zen-lingo.com/grammarpoint/～てからでないと (〜te kara denai to)",    x
+"https://zen-lingo.com/grammarpoint/～てこそ (〜te koso)",                       x
+"https://zen-lingo.com/grammarpoint/～でしょうがない (〜deshou ga nai)",            x
+"https://zen-lingo.com/grammarpoint/～でたまらない (〜de tamaranai)",               x
+"https://zen-lingo.com/grammarpoint/～でならない (〜de naranai)",                    x
+"https://zen-lingo.com/grammarpoint/～でばかりはいられない (〜de bakari wa irarenai)",    x
+"https://zen-lingo.com/grammarpoint/～ではないか (〜de wa nai ka)",                      x
+"https://zen-lingo.com/grammarpoint/～てはならない (〜te wa naranai)",                   x
+"https://zen-lingo.com/grammarpoint/～てまで (〜te made)",                              x
+"https://zen-lingo.com/grammarpoint/～て当然だ (〜te touzen da)",                       x
+"https://zen-lingo.com/grammarpoint/～というものだ (〜to iu mono da)",                    x
+"https://zen-lingo.com/grammarpoint/どうにか～ないものか (dou ni ka ~ nai mono ka)",       x
+"https://zen-lingo.com/grammarpoint/～とおり (〜toori)",                                 x
+"https://zen-lingo.com/grammarpoint/～とか (〜to ka)",                                  x
+"https://zen-lingo.com/grammarpoint/～ところ (〜tokoro)",                                 x
+"https://zen-lingo.com/grammarpoint/～どころか (〜dokoroka)",                            x
+"https://zen-lingo.com/grammarpoint/～どころではない (〜Dokoro de wa nai)",             x 
+"https://zen-lingo.com/grammarpoint/～としたら (〜to shitara)",                      x
+"https://zen-lingo.com/grammarpoint/～としても (〜to shite mo)",                      x
+"https://zen-lingo.com/grammarpoint/～と～ともに (〜to 〜tomoni)",                    x
+"https://zen-lingo.com/grammarpoint/～とは限らない (〜to wa kagiranai)",              x
+"https://zen-lingo.com/grammarpoint/～ないことはない (〜nai koto wa nai)",            x
+"https://zen-lingo.com/grammarpoint/～ないこともない (〜nai koto mo nai)",            x
+"https://zen-lingo.com/grammarpoint/～ないではいられない (〜nai de wa irarenai)",     x
+"https://zen-lingo.com/grammarpoint/～ながら (〜nagara)",                            x
+"https://zen-lingo.com/grammarpoint/～にあたり (〜ni atari)",                        x
+"https://zen-lingo.com/grammarpoint/～において (〜ni oite)",                         x
+"https://zen-lingo.com/grammarpoint/～にかかわらず (〜ni kakawarazu)",                x 
+"https://zen-lingo.com/grammarpoint/～にかけては (〜ni kakete wa)",                  x
+"https://zen-lingo.com/grammarpoint/～にしたがって (〜ni shitagatte)",               x
+"https://zen-lingo.com/grammarpoint/～にしたら (〜ni shitara)",                     x
+"https://zen-lingo.com/grammarpoint/～にしろ～にしろ (〜ni shiro 〜ni shiro)",      x
+"https://zen-lingo.com/grammarpoint/～につけ～につけ (〜ni tsuke 〜ni tsuke)",       x
+"https://zen-lingo.com/grammarpoint/～につれて (〜ni tsurete)",                     x
+"https://zen-lingo.com/grammarpoint/～にともなって (〜ni tomonatte)",                x
+"https://zen-lingo.com/grammarpoint/～にほかならない (〜ni hoka naranai)",             x
+"https://zen-lingo.com/grammarpoint/～にもかかわらず (〜ni mo kakawarazu)",            x
+"https://zen-lingo.com/grammarpoint/～により (〜ni yori)",                            x
+"https://zen-lingo.com/grammarpoint/～にわたって (〜ni watatte)",                     x
+"https://zen-lingo.com/grammarpoint/～に先立ち (〜ni sakidachi)",                     x 
+"https://zen-lingo.com/grammarpoint/～に反して (〜ni hanshite)",                      x
+"https://zen-lingo.com/grammarpoint/～に基づいて (〜ni motozuite)",                   x
+"https://zen-lingo.com/grammarpoint/～に対して (〜ni taishite)",                      x
+"https://zen-lingo.com/grammarpoint/～に応えて (〜ni kotaete)",                       x
+"https://zen-lingo.com/grammarpoint/～に応じて (〜ni oujite)",                        x
+"https://zen-lingo.com/grammarpoint/～に決まっている (〜ni kimatte iru)",              x
+"https://zen-lingo.com/grammarpoint/～に沿って (〜ni sotte)",                          x
+"https://zen-lingo.com/grammarpoint/～に過ぎない (〜ni suginai)",                      x
+"https://zen-lingo.com/grammarpoint/～に関わって (〜ni kakawatte)",                    x
+"https://zen-lingo.com/grammarpoint/～に限り (〜ni kagiri)",                           x
+"https://zen-lingo.com/grammarpoint/～に際して (〜ni saishite)",                       x
+"https://zen-lingo.com/grammarpoint/～ねばならない (〜neba naranai)",                  x
+"https://zen-lingo.com/grammarpoint/～のみならず～も (〜nomi narazu 〜mo)",            x
+"https://zen-lingo.com/grammarpoint/～のももっともだ (〜no mo mottomo da)",            x
+"https://zen-lingo.com/grammarpoint/〜の上では (〜no ue de wa)",                      x
+"https://zen-lingo.com/grammarpoint/～の下で (〜no shita de)",                        x
+"https://zen-lingo.com/grammarpoint/～ばかりか〜も (〜bakari ka 〜 mo)",               x
+"https://zen-lingo.com/grammarpoint/～ばかりだ (〜bakari da)",                        x
+"https://zen-lingo.com/grammarpoint/～ばかりに (〜bakari ni)",                        x
+"https://zen-lingo.com/grammarpoint/～ば～というものでもない (〜ba 〜to iu mono demo nai)",   x
+"https://zen-lingo.com/grammarpoint/～はともかく～は (〜wa tomokaku 〜wa)",               x
+"https://zen-lingo.com/grammarpoint/～はまだしも (〜wa mada shimo)",                   x
+"https://zen-lingo.com/grammarpoint/～はもとより (〜wa moto yori〜mo)",                x
+"https://zen-lingo.com/grammarpoint/～は抜きにして (〜wa nuki ni shite)",              x
+"https://zen-lingo.com/grammarpoint/～べきではない (〜beki dewa nai)",                 x
+"https://zen-lingo.com/grammarpoint/～まい (〜mai)",                                  x
+"https://zen-lingo.com/grammarpoint/～まで～て (〜made 〜te)",                        x
+"https://zen-lingo.com/grammarpoint/～ままに (〜mama ni)",                            x
+"https://zen-lingo.com/grammarpoint/～もかまわず (〜mo kamawazu)",                    x
+"https://zen-lingo.com/grammarpoint/～ものか (〜mono ka)",                             x
+"https://zen-lingo.com/grammarpoint/～ものがある (〜mono ga aru)",                     x
+"https://zen-lingo.com/grammarpoint/～ものだ (〜mono da)",                             x
+"https://zen-lingo.com/grammarpoint/～ものだから (〜mono dakara)",                     x
+"https://zen-lingo.com/grammarpoint/～ものではない (〜mono dewa nai)",                  x
+"https://zen-lingo.com/grammarpoint/～ものなら (〜mono nara)",                         x
+"https://zen-lingo.com/grammarpoint/～ものの、～ (〜mono no、～)",                      x
+"https://zen-lingo.com/grammarpoint/～も～ば～も～ (〜mo〜ba〜mo〜)",                   x
+"https://zen-lingo.com/grammarpoint/～も同然だ (〜mo douzen da)",                      x
+"https://zen-lingo.com/grammarpoint/～やら～やら (〜yara〜yara)",                      x
+"https://zen-lingo.com/grammarpoint/～ようがない (〜you ga nai)",                      x
+"https://zen-lingo.com/grammarpoint/～よりほかない (〜yori hoka nai)",                 x
+"https://zen-lingo.com/grammarpoint/～わけがない (〜wake ga nai)",                     x
+"https://zen-lingo.com/grammarpoint/～わけだ (〜wake da)",                             x
+"https://zen-lingo.com/grammarpoint/～わけではない (〜wake dewa nai)",                 x
+"https://zen-lingo.com/grammarpoint/～わけにはいかない (〜wake ni wa ikanai)",           x
+"https://zen-lingo.com/grammarpoint/～をきっかけに (〜wo kikkake ni)",                  x
+"https://zen-lingo.com/grammarpoint/～を～として (〜wo〜toshite)",                      x
+"https://zen-lingo.com/grammarpoint/～を中心に (〜wo chuushin ni)",                     x
+"https://zen-lingo.com/grammarpoint/～を問わず (〜wo towazu)",                          x
+"https://zen-lingo.com/grammarpoint/～を込めて (〜wo komete)",                          x
+"https://zen-lingo.com/grammarpoint/～を通じて (〜wo tsuujite)",                        x
+"https://zen-lingo.com/grammarpoint/～を頼りに (〜wo tayori ni)",                       x
+"https://zen-lingo.com/grammarpoint/～一方 (〜ippou)",                                  x
+"https://zen-lingo.com/grammarpoint/～一方だ (〜ippou da)",                             x
+"https://zen-lingo.com/grammarpoint/～上で (〜ue de)",                                  x 
+"https://zen-lingo.com/grammarpoint/～上に (〜ue ni)",                                  x
+"https://zen-lingo.com/grammarpoint/～上は (～ue wa)",                                  x
+"https://zen-lingo.com/grammarpoint/～以上 (〜ijou)",                                   x
+"https://zen-lingo.com/grammarpoint/～以来 (〜irai)",                                   x
+"https://zen-lingo.com/grammarpoint/～切る (〜kiru)",                                   x
+"https://zen-lingo.com/grammarpoint/～反面 (〜hanmen)",                                x
+"https://zen-lingo.com/grammarpoint/～向け (〜muke)",                                  x
+"https://zen-lingo.com/grammarpoint/～恐れがある (〜osore ga aru)",                     x
+"https://zen-lingo.com/grammarpoint/～折には (〜ori ni wa)",                            x
+"https://zen-lingo.com/grammarpoint/～末 (～sue)",                                     x
+"https://zen-lingo.com/grammarpoint/～次第 (〜shidai)",                                x
+"https://zen-lingo.com/grammarpoint/～次第で (〜shidai de)",                           x
+"https://zen-lingo.com/grammarpoint/～次第です (〜shidai desu)",                       x
+"https://zen-lingo.com/grammarpoint/～気味 (〜gimi)",                                  x
+"https://zen-lingo.com/grammarpoint/～限り (〜kagiri)",                                x
+"https://zen-lingo.com/grammarpoint/～際に (〜sai ni)"                                 x
+
+]}coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ curl -X GET 'http://localhost:8000/api/v1/grammar-titles?p_tag=JLPT_N1&type=encoded'
+{"titles":[
+"https://hanabira.org/japanese/grammarpoint/A うが B うが (A uga B uga)",                                       x
+"https://hanabira.org/japanese/grammarpoint/A うと B うと (A uto B uto)",                                       x
+"https://hanabira.org/japanese/grammarpoint/A かたわら B (A katawara B)",                                       x
+"https://hanabira.org/japanese/grammarpoint/A かれ B かれ (A kare B kare)",                                     x
+"https://hanabira.org/japanese/grammarpoint/A だの B だの (A dano B dano)",                                     x
+"https://hanabira.org/japanese/grammarpoint/A であれ B であれ (A deare B deare)",                               x
+"https://hanabira.org/japanese/grammarpoint/A というか B というか (A to iu ka B to iu ka)",                     x
+"https://hanabira.org/japanese/grammarpoint/A とも B とも (A tomo B tomo)",                                     x
+"https://hanabira.org/japanese/grammarpoint/A にしろ B にしろ (A nishiro B nishiro)",                           x
+"https://hanabira.org/japanese/grammarpoint/A にせよ B にせよ (A ni seyo B ni seyo)",                           x
+"https://hanabira.org/japanese/grammarpoint/A につけ B につけ （A ni tsuke B ni tsuke）",                       x
+"https://hanabira.org/japanese/grammarpoint/A のやら B のやら (A noyara B noyara)",                             x
+"https://hanabira.org/japanese/grammarpoint/Noun1 が Noun1 なら、 Noun2 も Noun2 だ (A ga A nara, B mo B da)",  x
+"https://hanabira.org/japanese/grammarpoint/Noun1 も Noun1 なら、Noun2 も Noun2 だ (A mo A nara, B mo B da)",   x
+"https://hanabira.org/japanese/grammarpoint/Noun + あっての + Noun (A atteno B)",                               x
+"https://hanabira.org/japanese/grammarpoint/Noun かたがた (Noun kata gata)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Noun がてら (Noun gatera)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun からある (〜kara aru)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun からする (Noun kara suru)",                                     DONE
+"https://hanabira.org/japanese/grammarpoint/Noun からの (~kara no)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Noun から言わせれば (~kara iwasereba)",                               x
+"https://hanabira.org/japanese/grammarpoint/Noun + ぐるみ (〜gurumi)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Noun こそあれ (~kosoare)",                                           DONE
+"https://hanabira.org/japanese/grammarpoint/Noun こそ～が (~koso~ga)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Noun こそすれ (~koso sure)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun ごとき / Noun ごとく (〜gotoki/〜gotoku)",                      slash
+"https://hanabira.org/japanese/grammarpoint/Noun じゃあるまいし (~ja aru mai shi)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun ずくめ (~zukume)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Noun だけではすまない (Noun dake dewa sumanai)",                     x
+"https://hanabira.org/japanese/grammarpoint/Noun たりとも～ない (~tari tomo ~nai)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun たる Noun (~taru~)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Noun ですら (~desura)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Noun でなくてなんだろう (〜de nakute nandarou)",                     x
+"https://hanabira.org/japanese/grammarpoint/Noun ではあるまいし (~dewa aru maishi)",                             x
+"https://hanabira.org/japanese/grammarpoint/Noun と Noun を兼ねて (Noun to Noun o kanete)",                      x
+"https://hanabira.org/japanese/grammarpoint/Noun といい Noun といい (〜toii〜toii)",                             x
+"https://hanabira.org/japanese/grammarpoint/Noun という Noun (~to iu~)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun というところだ (Noun to iu tokoro da)",                          x 
+"https://hanabira.org/japanese/grammarpoint/Noun + というもの (~ to iu mono)",                                    done
+"https://hanabira.org/japanese/grammarpoint/Noun といったところだ (Noun to itta tokoro da)",                      x
+"https://hanabira.org/japanese/grammarpoint/Noun といわず Noun といわず (A to iwazu B to iwazu)",                 x
+"https://hanabira.org/japanese/grammarpoint/Noun + ときたら (〜tokitara)",                                       done
+"https://hanabira.org/japanese/grammarpoint/Noun とは比べものにならない (~to wa kurabemono ni naranai)",          x
+"https://hanabira.org/japanese/grammarpoint/Noun + ともあろう + Noun (~tomoarou~)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun ともなると (〜to mo naruto)",                                   done
+"https://hanabira.org/japanese/grammarpoint/Noun ともなれば (〜to mo nareba)",                                   x
+"https://hanabira.org/japanese/grammarpoint/Noun と相まって (~ to aimatte)",                                     x
+"https://hanabira.org/japanese/grammarpoint/Noun なくして～はない (Noun nakushite ~ wa nai)",                     x
+"https://hanabira.org/japanese/grammarpoint/Noun なしでは～ない (Noun nashi de wa ~nai)",                         x
+"https://hanabira.org/japanese/grammarpoint/Noun なしには～ない (Noun nashi ni wa ~nai)",                         x
+"https://hanabira.org/japanese/grammarpoint/Noun ならいざ知らず (~nara izashirazu)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun + ならでは (~nara de wa)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Noun なり Noun なり (A nari B nari)",                                x
+"https://hanabira.org/japanese/grammarpoint/Noun なりとも (~nari tomo)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun に Noun を重ねて (A ni B wo kasanete)",                         x
+"https://hanabira.org/japanese/grammarpoint/Noun にあっては (Noun ni atte ha)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun にあるまじき Noun (Noun ni aru majiki Noun)",                   done
+"https://hanabira.org/japanese/grammarpoint/Noun にして (Noun ni shite)",                                       done
+"https://hanabira.org/japanese/grammarpoint/Noun にして初めて (Noun nishite hajimete)",                          x
+"https://hanabira.org/japanese/grammarpoint/Noun にすら (〜ni sura)",                                            x
+"https://hanabira.org/japanese/grammarpoint/Noun にとどまらず～も (~ ni todomarazu ~ mo)",                        x
+"https://hanabira.org/japanese/grammarpoint/Noun にひきかえ Noun は (~ni hikikae ~ wa)",                          x
+"https://hanabira.org/japanese/grammarpoint/Noun にもまして (〜ni mo mashite)",                                   x
+"https://hanabira.org/japanese/grammarpoint/Noun によらず (～ni yorazu)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Noun に先駆けて (〜ni saki gakete)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun に即した Noun (A ni sokushita B)",                               x
+"https://hanabira.org/japanese/grammarpoint/Noun に即して Verb (〜ni soku shite ~)",                              x
+"https://hanabira.org/japanese/grammarpoint/Noun に言わせれば (Noun ni iwasereba)",                               x
+"https://hanabira.org/japanese/grammarpoint/Noun に限ったことではない (〜ni kagitta koto dewa nai)",               x
+"https://hanabira.org/japanese/grammarpoint/Noun に限ったことでもない (~ ni kagitta koto demo nai)",               x
+"https://hanabira.org/japanese/grammarpoint/Noun に限る (~ni kagiru)","Noun ぬいた Noun (A nuita B)",             x
+"https://hanabira.org/japanese/grammarpoint/Noun + ぬいて（~nuite)",                                              done
+"https://hanabira.org/japanese/grammarpoint/ ～ぬく (~nuku)",                                                     x
+"https://hanabira.org/japanese/grammarpoint/Noun+のいかんだ (Noun no ikan da)",                                    x
+"https://hanabira.org/japanese/grammarpoint/Noun のいかんでは (Noun no ikan de wa)",                               done
+"https://hanabira.org/japanese/grammarpoint/Noun のいかんにかかわらず (Noun no ikan ni kakawarazu)",               done
+"https://hanabira.org/japanese/grammarpoint/Noun のいかんによっては (Noun no ikan ni yotte wa)",                   x
+"https://hanabira.org/japanese/grammarpoint/Noun のいかんによらず (~ no ikan ni yorazu)",                          x
+"https://hanabira.org/japanese/grammarpoint/Noun のごとき Noun (A no gotoki B)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Noun のことだから (〜no koto dakara)",                                 done
+"https://hanabira.org/japanese/grammarpoint/Noun の 嫌いがある (Noun no kirai ga aru)",                            x
+"https://hanabira.org/japanese/grammarpoint/Noun の手前 (~no temae)",                                             done
+"https://hanabira.org/japanese/grammarpoint/Noun の極み (〜no kiwami)",                                           done
+"https://hanabira.org/japanese/grammarpoint/Noun の 至り (~no itari)",                                            done
+"https://hanabira.org/japanese/grammarpoint/Noun はいざ知らず (~ wa iza shirazu)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Noun は おろか～すら (Noun wa oroka ～sura)",                          x
+"https://hanabira.org/japanese/grammarpoint/Noun はおろか～まで (~wa oroka ~made)",                                done
+"https://hanabira.org/japanese/grammarpoint/Noun はおろか～も (Noun wa oroka ～ mo)",                              done
+"https://hanabira.org/japanese/grammarpoint/Noun はさておき (~ wa sateoki)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Noun + はどうであれ (~ wa dou de are)",                                done
+"https://hanabira.org/japanese/grammarpoint/Noun まみれ (~mamire)",                                               done
+"https://hanabira.org/japanese/grammarpoint/Noun もさることながら Noun も (A mo saru koto nagara B mo)",          x
+"https://hanabira.org/japanese/grammarpoint/Noun も兼ねて (~mo kane te)",                                         done
+"https://hanabira.org/japanese/grammarpoint/Noun も相まって (~mo aimatte)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Noun を おいて他に Verb ない (〜wo oite hoka ni〜nai)",                x
+"https://hanabira.org/japanese/grammarpoint/Noun をもって (~wo motte)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Noun をものともせずに (Noun wo mono tomo sezu ni)",                    done
+"https://hanabira.org/japanese/grammarpoint/Noun をよそに (~wo yoso ni)",                                         done
+"https://hanabira.org/japanese/grammarpoint/Noun を余儀なくされる (Noun wo yogi naku sareru)",                     x
+"https://hanabira.org/japanese/grammarpoint/Noun を前提として (Noun wo zentei toshite)",                           done
+"https://hanabira.org/japanese/grammarpoint/Noun を前提にして (Noun wo zentei ni shite)",                          done
+"https://hanabira.org/japanese/grammarpoint/Noun を境にして (Noun wo sakai ni shite)",                             done
+"https://hanabira.org/japanese/grammarpoint/Noun を機にして (~wo ki ni shite)",                                    done
+"https://hanabira.org/japanese/grammarpoint/Noun を皮切りに / を皮切りにして (Noun wo kakikiri ni / wo kawakiri ni shite)",   slash
+"https://hanabira.org/japanese/grammarpoint/Noun を皮切りにして (Noun wo kawakiri ni shite)",                      x
+"https://hanabira.org/japanese/grammarpoint/Noun を禁じ得ない (〜wo kinjienai)",                                   done
+"https://hanabira.org/japanese/grammarpoint/Noun を経て (〜wo hete)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Noun を踏まえて (〜wo fumaete)",                                       done
+"https://hanabira.org/japanese/grammarpoint/Noun を限りに (Noun wo kagiri ni)",                                    done
+"https://hanabira.org/japanese/grammarpoint/Noun 並み (~nami)",                                                  done
+"https://hanabira.org/japanese/grammarpoint/Noun + 前提で（~zentei de)",                                          done
+"https://hanabira.org/japanese/grammarpoint/Noun 限りで (~ kagiri de)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Verb がてら (~ gatera)",                                              x
+"https://hanabira.org/japanese/grammarpoint/Verb こそすれ (~koso sure)",                                          done
+"https://hanabira.org/japanese/grammarpoint/Verb させられる (~saserareru)",                                       done
+"https://hanabira.org/japanese/grammarpoint/Verb ざるを得ない (~ zaru wo enai)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Verb ずじまい (~zu jimai)",                                           x
+"https://hanabira.org/japanese/grammarpoint/Verb ずとも (〜zu tomo)",                                             x
+"https://hanabira.org/japanese/grammarpoint/Verb ずにはおかない (~zuni wa okanai)",                               done
+"https://hanabira.org/japanese/grammarpoint/Verb ずにはすまない (Verb zuni wa sumanai)",                          d
+"https://hanabira.org/japanese/grammarpoint/Verb そうにない (Verb sou ni nai)",                                   d
+"https://hanabira.org/japanese/grammarpoint/Verb そうもない (〜sou monai)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Verb そばから (〜soba kara)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb たが最後 (〜ta ga saigo)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Verb たことにしてください (~ ta koto ni shite kudasai)",               d
+"https://hanabira.org/japanese/grammarpoint/Verb たら Verb たで (~ tara ~ tade)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verb たら きりがない (Verb tara kiri ga nai)",                        x
+"https://hanabira.org/japanese/grammarpoint/Verb たら最後 (〜tara saigo)",                                        x
+"https://hanabira.org/japanese/grammarpoint/Verb つ Verb つ (Verb tsu Verb tsu)",                                d
+"https://hanabira.org/japanese/grammarpoint/Verb てからというもの (Verb te kara to iu mono)",                     x
+"https://hanabira.org/japanese/grammarpoint/Verb てこそ (Verb te koso)",                                         d
+"https://hanabira.org/japanese/grammarpoint/Verb ては (～te wa)",                                                d
+"https://hanabira.org/japanese/grammarpoint/Verb ては Verb (~ te wa ~)",                                         d
+"https://hanabira.org/japanese/grammarpoint/Verb てまでも (~ temademo)",                                         x
+"https://hanabira.org/japanese/grammarpoint/Verb てみせる (Verb te miseru)",                                     d
+"https://hanabira.org/japanese/grammarpoint/Verb てやまない (Verb te yamanai)",                                  x
+"https://hanabira.org/japanese/grammarpoint/Verb ないではおかない (~ nai de wa okanai)",                          d
+"https://hanabira.org/japanese/grammarpoint/Verb ないではすまない (Verb nai dewa sumanai)",                       d
+"https://hanabira.org/japanese/grammarpoint/Verb ないまでも (Verb nai made mo)",                                  d
+"https://hanabira.org/japanese/grammarpoint/Verb ないものだろうか (Verb nai mono darou ka)",                       x
+"https://hanabira.org/japanese/grammarpoint/Verb ないものでもない (Verb nai mono demo nai)",                       x
+"https://hanabira.org/japanese/grammarpoint/Verb の ない Noun (~ no nai ~)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Verb ば きり が ない (〜ba kiri ga nai)",                             d
+"https://hanabira.org/japanese/grammarpoint/Verb もしないで (~ mo shinai de)",                                    d
+"https://hanabira.org/japanese/grammarpoint/Verb やしない (~yashinai)",                                           d
+"https://hanabira.org/japanese/grammarpoint/Verb よう (~ you)",                                                  x
+"https://hanabira.org/japanese/grammarpoint/Verb ようか Verbる まいか (Verb you ka Verb ru mai ka)",              x
+"https://hanabira.org/japanese/grammarpoint/Verb ようが Verb るまいが (Verb you ga Verb ru mai ga)",              x
+"https://hanabira.org/japanese/grammarpoint/Verb ようがない (〜yō ga nai)",                                       x
+"https://hanabira.org/japanese/grammarpoint/Verb ようと Verbる まいと (Verb you to Verb ru mai to)",              d
+"https://hanabira.org/japanese/grammarpoint/Verb ようにも (〜you ni mo)",                                         d
+"https://hanabira.org/japanese/grammarpoint/Verb ようにも Verb れない (〜you ni mo 〜renai)",                     d
+"https://hanabira.org/japanese/grammarpoint/Verb ようもない (~you mo nai)",                                      x
+"https://hanabira.org/japanese/grammarpoint/Verbる がままに (〜ga mama ni)",                                      d
+"https://hanabira.org/japanese/grammarpoint/Verbる が早いか (verb-ru ga hayai ka)",                              d
+"https://hanabira.org/japanese/grammarpoint/Verbる くらいなら (〜ru kurai nara)",                                 x
+"https://hanabira.org/japanese/grammarpoint/Verbる こと なし に (Verb-ru koto nashi ni)",                        d
+"https://hanabira.org/japanese/grammarpoint/Verbる ことのないように (Verb-ru koto no nai you ni)",                x
+"https://hanabira.org/japanese/grammarpoint/Verbる ときりがない (verb-ru to kiri ga nai)",                        d
+"https://hanabira.org/japanese/grammarpoint/Verbる ともなく Verb (Verb-ru tomonaku Verb)",                       d
+"https://hanabira.org/japanese/grammarpoint/Verbる ともなしに Verb (Verb-ru tomonashi ni Verb)",                 d
+"https://hanabira.org/japanese/grammarpoint/Verbる なり (Verb-ru nari)",                                         d
+"https://hanabira.org/japanese/grammarpoint/Verbる にとどまらず～も (Verb-ru ni todomarazu ~ mo)",                d
+"https://hanabira.org/japanese/grammarpoint/Verbる にはあたらない (Verb-ru ni wa ataranai)",                      x
+"https://hanabira.org/japanese/grammarpoint/Verbる にも (Verb-ru ni mo)",                                        x
+"https://hanabira.org/japanese/grammarpoint/Verbる にも Verb れない (Verbる にも Verb れない)",                    d
+"https://hanabira.org/japanese/grammarpoint/Verbる べからざる Noun (Verb-ru bekara zaru Noun)",                   x
+"https://hanabira.org/japanese/grammarpoint/Verbる べからず (〜ru bekara zu)",                                    d
+"https://hanabira.org/japanese/grammarpoint/Verbる べく (Verb-ru beku)",                                          d
+"https://hanabira.org/japanese/grammarpoint/Verbる べくもない (Verb-ru beku mo nai)",                            x
+"https://hanabira.org/japanese/grammarpoint/Verbる までもない (〜ru made mo nai)",                               x
+"https://hanabira.org/japanese/grammarpoint/Verbる ものとする (〜ru mono to suru)",                              x
+"https://hanabira.org/japanese/grammarpoint/Verbる や否や (verb-ru ya ina ya)",                                  d
+"https://hanabira.org/japanese/grammarpoint/Verbる 始末だ (〜ru shimatsu da)",                                   x
+"https://hanabira.org/japanese/grammarpoint/Verbる 嫌いがある (～ru kirai ga aru)",                              d
+"https://hanabira.org/japanese/grammarpoint/いつまで～のやら。。。 (itsumade ~ no yara)",                         d
+"https://hanabira.org/japanese/grammarpoint/～が Verb られる (〜ga Verb rareru)",                                d
+"https://hanabira.org/japanese/grammarpoint/～かと思いきや (〜ka to omoikiya)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～がゆえに (～ga yue ni)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～がゆえの Noun (〜ga yue no Noun)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～から Noun に 至る まで (〜kara 〜ni itaru made)",                  d
+"https://hanabira.org/japanese/grammarpoint/～ごとく (〜gotoku)",                                               x
+"https://hanabira.org/japanese/grammarpoint/～こととて (〜koto tote)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～ずにすんだ (〜zuni sunda)",                                        d
+"https://hanabira.org/japanese/grammarpoint/～だろうとなかろうと (〜darou to nakarou to)",                       d
+"https://hanabira.org/japanese/grammarpoint/～つもりだ (〜tsumori da)",                                         d
+"https://hanabira.org/japanese/grammarpoint/～つもりで (〜tsumori de)",                                         d
+"https://hanabira.org/japanese/grammarpoint/～ではすまない (〜dewa sumanai)",                                   x
+"https://hanabira.org/japanese/grammarpoint/～とあって (〜to atte)",                                            d
+"https://hanabira.org/japanese/grammarpoint/～とあれば (〜to areba)",                                           d
+"https://hanabira.org/japanese/grammarpoint/～といえども (〜to iedomo)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～といったらありはしない (〜to ittara ari wa shinai)",               d
+"https://hanabira.org/japanese/grammarpoint/～といったらありゃしない (〜to ittara arya shinai)",                 x
+"https://hanabira.org/japanese/grammarpoint/～といったらない。 (〜to ittara nai)",                               x
+"https://hanabira.org/japanese/grammarpoint/～ときている (〜to kite iru)",                                      d
+"https://hanabira.org/japanese/grammarpoint/～ところを (〜tokoro wo)",                                          d
+"https://hanabira.org/japanese/grammarpoint/～とされる (〜to sareru)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～としたところで (〜to shita tokoro de)",                           x
+"https://hanabira.org/japanese/grammarpoint/～とすると (〜to suru to)",                                         d
+"https://hanabira.org/japanese/grammarpoint/～とすれば (～to sureba)",                                          d
+"https://hanabira.org/japanese/grammarpoint/～となったら (〜to nattara)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～となると (〜to naru to)",                                         d
+"https://hanabira.org/japanese/grammarpoint/～となれば (〜to nareba)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～とのことだ (〜to no koto da)",                                    d
+"https://hanabira.org/japanese/grammarpoint/～とはいえ (～to wa ie)",                                           d
+"https://hanabira.org/japanese/grammarpoint/～とみえて (〜to miete)",                                           d
+"https://hanabira.org/japanese/grammarpoint/～とみられる (～to mirareru)",                                      d
+"https://hanabira.org/japanese/grammarpoint/～とみると (〜to miru to)",                                         x
+"https://hanabira.org/japanese/grammarpoint/どんなに～うが (donna ni ～ u ga)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～と言わんばかりに (〜to iwan bakari ni)",                          d
+"https://hanabira.org/japanese/grammarpoint/～と言わんばかりの Noun (～to iwan bakari no Noun)",                x
+"https://hanabira.org/japanese/grammarpoint/～ながらに (～nagara ni)",                                          d
+"https://hanabira.org/japanese/grammarpoint/～ながらの Noun (〜nagara no Noun)",                               d
+"https://hanabira.org/japanese/grammarpoint/～ながらも (〜nagara mo)",                                         d
+"https://hanabira.org/japanese/grammarpoint/～なくはない (〜naku wa nai)",                                     d
+"https://hanabira.org/japanese/grammarpoint/～なくもない (〜naku mo nai)",                                     d
+"https://hanabira.org/japanese/grammarpoint/～なら～なりに",                                                   x
+"https://hanabira.org/japanese/grammarpoint/～には及ばない (〜ni wa oyobanai)",                                x
+"https://hanabira.org/japanese/grammarpoint/～に堪えない (～ni taenai)",                                       x
+"https://hanabira.org/japanese/grammarpoint/～に堪える (～ni taeru)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～に耐える (～ni taeru)",                                          x
+"https://hanabira.org/japanese/grammarpoint/～に至った (〜ni itatta)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～に越したことはない (〜ni koshita koto wa nai)",                   x
+"https://hanabira.org/japanese/grammarpoint/～に難くない (～ni muzukunai)",                                    d
+"https://hanabira.org/japanese/grammarpoint/～のは Noun ぐらいのものだ (〜no wa 〜 gurai no mono da)",          d
+"https://hanabira.org/japanese/grammarpoint/～ば～ものを (～ba～mono o)",                                      d
+"https://hanabira.org/japanese/grammarpoint/～びた Noun (～ bi ta ～)",                                       d
+"https://hanabira.org/japanese/grammarpoint/～びる (〜biru)",                                                 d
+"https://hanabira.org/japanese/grammarpoint/～ぶった",                                                        d
+"https://hanabira.org/japanese/grammarpoint/～ぶって (〜butte)",                                              d
+"https://hanabira.org/japanese/grammarpoint/～ぶり (〜buri)",                                                 d
+"https://hanabira.org/japanese/grammarpoint/～ぶる (〜buru)",                                                d
+"https://hanabira.org/japanese/grammarpoint/～までだ (～made da)",                                           x
+"https://hanabira.org/japanese/grammarpoint/～もなんでもない (〜mo nandemonai)",                              d
+"https://hanabira.org/japanese/grammarpoint/～ものとして (～mono to shite)",                                 x
+"https://hanabira.org/japanese/grammarpoint/～んがために (〜n ga tame ni)",                                  d
+"https://hanabira.org/japanese/grammarpoint/～んばかりに (〜n bakari ni ～)",                                d
+"https://hanabira.org/japanese/grammarpoint/～差し支えない (〜sashi tsukaenai)",                             d
+"https://hanabira.org/japanese/grammarpoint/～折に (〜ori ni)",                                              d
+"https://hanabira.org/japanese/grammarpoint/～極まりない (〜kiwamarinai)",                                   d
+"https://hanabira.org/japanese/grammarpoint/～極まる (〜kiwamaru)",                                         x
+"https://hanabira.org/japanese/grammarpoint/～足りない (～tarinai)",                                        d
+"https://hanabira.org/japanese/grammarpoint/～足る Noun (〜taru～)",                                        d
+"https://hanabira.org/japanese/grammarpoint/～限りだ (〜kagiri da)",                                        d
+
+]}coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+CLI param:  愛する
+--- Response text: ---
+1. 愛する | Kanji: 愛することは最高の気持ちです | Romaji: Aisuru koto wa saikou no kimochi desu | Translation: Loving is the best feeling | 
+2. 愛する | Kanji: 彼女を愛することは私の一番の幸せです | Romaji: Kanojo o aisuru koto wa watashi no ichiban no shiawase desu | Translation: Loving her is my greatest happiness | 
+3. 愛する | Kanji: 私は愛する人を守りたいと思っています | Romaji: Watashi wa aisuru hito o mamoritai to omotte imasu | Translation: I want to protect the people I love | 
+4. 愛する | Kanji: 私は愛する人に最高のサービスを提供したいと思っています | Romaji: Watashi wa aisuru hito ni saikou no saabisu o teikyō shitai to omotte imasu | Translation: I want to provide the best service to the people I love | 
+5. 愛する | Kanji: 私は愛する人を大切にしたいと思っています | Romaji: Watashi wa aisuru hito o taisetsu ni shitai to omotte imasu| Translation: I want to cherish the people I love
+-----------------------------
+CLI param:  諦める
+--- Response text: ---
+1. 諦める | Kanji: 諦めることは簡単ではありません | Romaji: Akirameru koto wa kantan dewa arimasen | Translation: Giving up is not easy | 
+2. 諦める | Kanji: 彼女は諦めることを拒んだ | Romaji: Kanojo wa akirameru koto o kobanda | Translation: She refused to give up | 
+3. 諦める | Kanji: 彼らは諦めてしまった | Romaji: Karera wa akiramete shimatta | Translation: They gave up in the end | 
+4. 諦める | Kanji: 私は諦めないでいたいと思っています | Romaji: Watashi wa akiramenai de itai to omotte imasu | Translation: I want to keep on going without giving up | 
+5. 諦める | Kanji: 彼らは最後まで諦めなかった | Romaji: Karera wa saigo made akiramenakatta| Translation: They didn't give up until the end
+-----------------------------
+CLI param:  飽きる
+--- Response text: ---
+1. 飽きる | Kanji: 日課に飽きる | Romaji: Nichika ni akiru | Translation: To get tired of daily routine |
+2. 飽きる | Kanji: 僕はあの映画を既に飽きてしまった | Romaji: Boku wa ano eiga o sudeni akite shimatta | Translation: I have already gotten tired of that movie |
+3. 飽きる | Kanji: 毎日同じことをしていると、あまりにも飽きてしまう | Romaji: Mainichi onaji koto o shiteiru to, amari ni mo akite shimau | Translation: Doing the same thing every day makes me so bored | 
+4. 飽きる | Kanji: 同じ料理を何度も食べると、結局は飽きてしまうのです | Romaji: Onaji ryouri o nando mo taberu to, kekkyoku wa akite shimau no desu | Translation: Eventually I get tired of eating the same food over and over again | 
+5. 飽きる | Kanji: 同じような話を聞くと、すぐに飽きてしまう | Romaji: Onaji you na hanashi o kiku to, sugu ni akite shimau | Translation: I get bored quickly when I hear the same kind of stories
+-----------------------------
+CLI param:  預かる
+--- Response text: ---
+1. 預かる | Kanji: 彼は彼女の財布を預かりました | Romaji: Kare wa kanojo no saifu o azukarimashita | Translation: He took her wallet in custody. 
+2. 預かる | Kanji: 彼女は赤ちゃんを保護者に預けました | Romaji: Kanojo wa akachan o hogo-sha ni azukemashita | Translation: She entrusted the baby to a guardian. 
+3. 預かる | Kanji: 私は彼の資産を友人に預かっています | Romaji: Watashi wa kare no shisan o yuujin ni azukatte imasu | Translation: I'm entrusting his assets to a friend. 
+4. 預かる | Kanji: 彼らは犯人を警察に預かりました | Romaji: Karera wa hannin o keisatsu ni azukarimashita | Translation: They handed the criminal over to the police. 
+5. 預かる | Kanji: 私は宝物を家族に預けています | Romaji: Watashi wa takaramono o kazoku ni azukete imasu | Translation: I'm entrusting my treasures to my family.
+-----------------------------
+CLI param:  預ける
+--- Response text: ---
+1. 預ける | Kanji: 家族に宝物を預ける | Romaji: Kazoku ni takaramono o azukeru | Translation: Entrusting a treasure to the family | 
+2. 預ける | Kanji: バンクに貯金を預ける | Romaji: Banku ni chokin o azukeru | Translation: Depositing savings in the bank | 
+3. 預ける | Kanji: 旅行中の荷物を宿泊先に預ける | Romaji: Ryokou chuu no nimotsu o shukuhakusaki ni azukeru | Translation: Leaving luggage at the accommodation during the trip | 
+4. 預ける | Kanji: 生徒たちに宿題を預ける | Romaji: Seito tachi ni shukudai o azukeru | Translation: Entrusting homework to students | 
+5. 預ける | Kanji: 友達に家のキーを預ける | Romaji: Tomodachi ni ie no kii o azukeru | Translation: Entrusting a key to a friend's house
+-----------------------------
+CLI param:  暖める
+--- Response text: ---
+1. 暖める | Kanji: 暖かい食べ物を暖める | Romaji: Atatakai tabemono o atatameru | Translation: Warm up the warm food | 
+2. 暖める | Kanji: 寒い夜を暖める | Romaji: Samui yoru o atatameru | Translation: Warm up the cold night | 
+3. 暖める | Kanji: 彼女の心を暖める | Romaji: Kanojo no kokoro o atatameru | Translation: Warm her heart | 
+4. 暖める | Kanji: 子供たちの体を暖める | Romaji: Kodomo-tachi no karada o atatameru | Translation: Warm the children's bodies | 
+5. 暖める | Kanji: 冷たい部屋を暖める  | Romaji: Tsumetai heya o atatameru  | Translation: Warm up the cold room  |
+-----------------------------
+CLI param:  温める
+--- Response text: ---
+1. 温める | Kanji: 冷たい飲み物を温める | Romaji: Tsumetai nomimono o atatameru | Translation: Warm up the cold drink | 
+2. 温める | Kanji: 私は毎日、心を温めるために本を読んでいます | Romaji: Watashi wa mainichi, kokoro o atatameru tame ni hon o yonde imasu | Translation: I read books every day to warm my heart | 
+3. 温める | Kanji: 彼は自分の足を温めるために靴下を履いていました | Romaji: Kare wa jibun no ashi o atatameru tame ni kutsushita o haite imashita | Translation: He wore socks to warm his feet | 
+4. 温める | Kanji: 彼女は私の体を温めるために毛布をかけてくれました | Romaji: Kanojo wa watashi no karada o atatameru tame ni moufu o kakete kuremashita | Translation: She put a blanket on me to warm my body| 
+5. 温める | Kanji: 私は彼女の手を温めるために手を握りました| Romaji: Watashi wa kanojo no te o atatameru tame ni te o nigirimashita| Translation: I held her hand to warm it up|
+-----------------------------

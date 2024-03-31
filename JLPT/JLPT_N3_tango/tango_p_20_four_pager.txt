@@ -1,0 +1,44 @@
+N3 tango p.20-23
+----------------------------------
+
+| 共通 （する） | きょうつう （する） | common, to have in common  | He and his wife do not have much in common.  |　奥さんとの共通点はあまりない。　｜
+| 協力 （する） | きょうりょく （する） | cooperation, to cooperate  | He does not cooperate well with his colleagues at work.  |　職場の同僚とうまく協調できない。　｜
+| 行列 （する） | ぎょうれつ （する） | line, queue  | People stood in line waiting for the next bus.  |　次のバスを待つ人たちが列をなしていた。　｜
+| 許可 （する） | きょか （する） | permission、to permit  | I got permission from my manager to start working on the new project.   |　上司の許可を得て、新しいプロジェクトに取り掛かった。　｜
+| 漁業  | ぎょぎょう  | fishing industry  | ?????  |　we do not really need this　｜
+| 距離  | きょり  | distance  | We need to walk a great distance to reach to the next village. |　次の村に行くには、かなりの距離を歩かなければならない。　｜
+| 記録 （する） | きろく （する） | a record, to record  | The company records do not show that we worked with the client in the past.  |　会社の記録には、過去にそのクライアントと仕事をしたことが記載されていない。　｜
+| 金  | きん  | gold  | Gold is a precious metal that does not rust.  |　金は錆びない貴金属です。　｜
+|   |   |   |   |　　｜
+| 銀  | ぎん  | silver  | Silver is not as valuable as gold.  |　銀は金ほど価値がない。　｜
+| 金庫  | きんこ  | a safe  | Thieves were not able to open the safe with money.  |　泥棒はお金を持って金庫を開けることができなかった。　｜
+| 近視  | きんし  | near-sighted, short-sighted  | I need to wear glasses or contact lenses since I'm short-sighted. |　近視なので、メガネやコンタクトレンズが必要です。　｜
+| 金属  | きんぞく  | metal  | Gold and silver are precious metals.  |　金と銀は貴金属である。　｜
+| 緊張　（する）  | きんちょう （する） | strain, stress, tension  | He becomes nervous when speaking to pretty women.  |　きれいな女性と話すと緊張する。　｜
+| 具合  | ぐあい  | condition, state  | My car is in bad condition, I need to get it repaired.  |　車の調子が悪いので、修理してもらいたい。　｜
+| 工夫 （する） | くふう　（する）  | a device, to devise  | ???  |　　｜
+| 区別 （する） | くべつ　（する）  | distinction, to distinguish  | He can distinguish different sorts of wine just by taste.  |　彼は、味覚だけでワインの種類を見分けることができるのです。　｜
+|   |   |   |   |　　｜
+| クリーニング　（する）  |   | cleaning, to clean  | je to jakoze vzit do cistirny obleceni???  |　　｜
+| クリック　（する）  |   | a click, to click  | My mouse is broken, i cannot click anymore.  |　マウスが壊れて、クリックできなくなった。　｜
+| 苦労　（する）  | くろう　（する）  | labor  | I am working hard at my new job to make a good first impression.  |　新しい職場では、第一印象が良くなるように頑張っています。　｜
+| 経営　（する） | けいえい　（する）  | management, to manage  | He was recently promoted from engineer to management position.  |　最近、エンジニアから管理職に昇格した。　｜
+| 敬語  | けいご  | honorific language  | I forgot to use honorific language when speaking to our director.  |　ディレクターに話すとき、敬語を使うのを忘れていました。　｜
+| 掲示　（する）  | けいじ　（する）  | bulletin, notice  | ?????  |　　｜
+| 景色  | けしき  | landscape, scenery, view  | Our new appartment has a nice view.  |　新しいアパートは眺めがいいんです。　｜
+| 結果  | けっか  | result  | Result of the medical tests was negative.  |　医学的検査の結果は陰性であった。　｜
+|   |   |   |   |　　｜
+| 決心　（する）  | けっしん　（する）  | determination, resolution  | I'm determined to start a new business.  |　新しいビジネスを始める決心をしました。　｜
+| 欠席 （する） | けっせき　（する）  | absence  | He was absent from the meeting due to an illness.  |　体調不良のため欠席しました。　｜
+| 決定 （する） | けってい （する） | decision (to decide)  | I have decided to take piano lessons.  |　ピアノを習うことにしました。　｜
+| 欠点  | けってん  | fault, weak point  | I was asked about my weak points during an interview.  |　面接で自分の弱点について聞かれたことがあります。　｜
+| 結論  | けつろん  | conclusion  | We have concluded that following this plan would be very risky.  |　この計画に従うのは非常に危険であるという結論に達しました。　｜
+| 券  | けん  | ticket  | I have received tickets to the theatre. |　劇場のチケットが届きました。　｜
+| 見学 （する） | けんがく （する） | study tour, observation tour  | ????? prohlidka firmy pro inzenyry  |　　｜
+| 研修（する）  | けんしゅう （する） | training  | I signed up for programming training that should help me to start my IT career.  |　ITのキャリアをスタートさせるために、プログラミングのトレーニングに申し込んだんです。　｜
+|   |   |   |   |　　｜
+|   |   |   |   |　　｜
+
+
+
+COMPLETED

@@ -1,0 +1,35 @@
+source .env/bin/activate
+--------------- grammar point generation ----------------
+
+modify source file with pipes if needed
+もし～たなら|  |
+もし～としても|  |
+もしも～なら|  |
+
+
+grammar point generation from file called
+N3_grammar_week6.md
+
+we will call GPT4 API with script called
+python3 app_grammar_jap_kword.py "Aその上 B"
+
+
+
+
+but bulk requests will be processed with wrapper shell script called
+grammar_wrapper.sh
+
+# ./grammar_wrapper.sh N3_grammar_week6.md grammar_output1.txt
+
+
+
+best to write script that will sort all the grammar from all files alphabetically
+maybe sort will suffice, should work fine
+we do not want to have the same grammar order as sou matome
+
+
+
+
+
+
+

@@ -1,0 +1,627 @@
+ครับ/ค่ะ (khrap/kha) - Polite ending particle for male/female speakers |  | CU-TFL Level 1
+ไม่ (mâi) - Not (Negation) |  | CU-TFL Level 1
+ว่า (wâa) - That (Quotation marker) |  | CU-TFL Level 1
+และ (láe) - And |  | CU-TFL Level 1
+กับ (gàp) - With |  | CU-TFL Level 1
+ใน (nai) - In, inside |  | CU-TFL Level 1
+บน (bon) - On, above |  | CU-TFL Level 1
+ใต้ (tâi) - Under, below |  | CU-TFL Level 1
+หรือ (rǔe) - Or |  | CU-TFL Level 1
+แล้ว (láew) - Already, then |  | CU-TFL Level 1
+ที่ (thîi) - Which, that (Relative pronoun) |  | CU-TFL Level 1
+จะ (jà) - Will (Future marker) |  | CU-TFL Level 1
+เป็น (pen) - To be (For nouns and adjectives) |  | CU-TFL Level 1
+มี (mii) - To have |  | CU-TFL Level 1
+อยู่ (yùu) - To be (Location/Existence) |  | CU-TFL Level 1
+ก่อน (gòn) - Before |  | CU-TFL Level 1
+หลัง (lǎng) - After |  | CU-TFL Level 1
+ถ้า (thâa) - If |  | CU-TFL Level 1
+เมื่อ (mûea) - When |  | CU-TFL Level 1
+ทำไม (tham-mai) - Why |  | CU-TFL Level 1
+ให้ (hâi) - To give, let, for |  | CU-TFL Level 1
+ไป (pai) - To go |  | CU-TFL Level 1
+มา (maa) - To come |  | CU-TFL Level 1
+ได้ (dâi) - Can, to get |  | CU-TFL Level 1
+ขอ (khǒr) - To request, to ask for |  | CU-TFL Level 1
+นี่ (nîi) - This |  | CU-TFL Level 1
+นั้น (nán) - That |  | CU-TFL Level 1
+นี้ (níi) - Here |  | CU-TFL Level 1
+ทาง (thaang) - Way, direction |  | CU-TFL Level 1
+ระหว่าง (rá-wàang) - Between |  | CU-TFL Level 1
+แต่ (dtàe) - But, however |  | CU-TFL Level 1
+หมด (mòt) - All, end |  | CU-TFL Level 1
+บาง (baang) - Some |  | CU-TFL Level 1
+หลาย (lǎai) - Many |  | CU-TFL Level 1
+ค่อย (khôi) - Gradually |  | CU-TFL Level 1
+ทุก (thúk) - Every |  | CU-TFL Level 1
+กำลัง (gam-lang) - In the process of, currently (present continuous) |  | CU-TFL Level 1
+ยัง (yang) - Still, yet |  | CU-TFL Level 1
+ด้วย (dûai) - Also, too |  | CU-TFL Level 1
+สุด (sùt) - Most, very |  | CU-TFL Level 1
+เสมอ (sà-mǒer) - Always |  | CU-TFL Level 1
+แค่ (kâe) - Just, only |  | CU-TFL Level 1
+ดี (dii) - Good (common adjective) |  | CU-TFL Level 1
+ร้าย (ráai) - Bad (common adjective) |  | CU-TFL Level 1
+มาก (mâak) - Very, much |  | CU-TFL Level 1
+เร็ว (reo) - Fast, quickly |  | CU-TFL Level 1
+ช้า (cháa) - Slow, slowly |  | CU-TFL Level 1
+ก็ (gâw) - Then, so (used for explanation) |  | CU-TFL Level 1
+เป็นไง (pen ngai) - How is it? (Casual greeting) |  | CU-TFL Level 1
+เพราะ (phráw) - Because |  | CU-TFL Level 1
+เกือบ (gèuap) - Almost, nearly |  | CU-TFL Level 1
+จน (jon) - Until |  | CU-TFL Level 1
+กว่า (kwàa) - Than (comparison) |  | CU-TFL Level 1
+ดัง (dang) - As (like, similar to) |  | CU-TFL Level 1
+คง (khong) - Probably, must be |  | CU-TFL Level 1
+รู้ (rúu) - To know |  | CU-TFL Level 1
+เชื่อ (chûea) - To believe, trust |  | CU-TFL Level 1
+ส่ง (sòng) - To send, to deliver |  | CU-TFL Level 1
+นำ (nam) - To lead, bring |  | CU-TFL Level 1
+เสีย (sǐa) - To lose, broken, unfortunately |  | CU-TFL Level 1
+
+
+
+
+อาจ (àat) - Might, perhaps (expressing possibility) |  | CU-TFL Level 2
+ต้อง (tâwng) - Must, have to (expressing obligation) |  | CU-TFL Level 2
+ควร (khuan) - Should (giving advice) |  | CU-TFL Level 2
+น่า (nâa) - Seems, looks like (making speculations) |  | CU-TFL Level 2
+ถูก (thùuk) - Passive voice marker; also means 'to be hit by' |  | CU-TFL Level 2
+แม้ (mâe) - Even if, although |  | CU-TFL Level 2
+ใช่ (châi) - Is it?, correct, right |  | CU-TFL Level 2
+ปลาย (plaai) - End (of a period), tip |  | CU-TFL Level 2
+ซึ่ง (sûeng) - Which, who (relative pronoun) |  | CU-TFL Level 2
+เมื่อไร (mûea rai) - When (asking about a specific time) |  | CU-TFL Level 2
+ประมาณ (pra-maan) - About, approximately |  | CU-TFL Level 2
+ระยะ (rá-yà) - Distance, period (of time) |  | CU-TFL Level 2
+เปลี่ยน (plìian) - To change, to alter |  | CU-TFL Level 2
+แทน (thæn) - Instead |  | CU-TFL Level 2
+จนกว่า (jon kwâa) - Until (specific condition is met) |  | CU-TFL Level 2
+ทั้ง (tháng) - Both, all, entire |  | CU-TFL Level 2
+แต่ง (dtɛ̀ɛng) - To decorate; also refers to forming words with certain prefixes/suffixes |  | CU-TFL Level 2
+ร่วม (rûam) - Together, to participate |  | CU-TFL Level 2
+แสดง (sǎ-daeng) - To show, to indicate |  | CU-TFL Level 2
+โดย (dooi) - By, via (method or means of doing something) |  | CU-TFL Level 2
+ซึ่งกันและกัน (sûeng gan láe gan) - Each other, one another |  | CU-TFL Level 2
+แค่ไหน (kâe nǎi) - How much/many (degree of an adjective) |  | CU-TFL Level 2
+ขณะ (khà-nà) - Moment, time, during |  | CU-TFL Level 2
+ว่า (wâa) - Quotation marker; used to introduce reported speech |  | CU-TFL Level 2
+จึง (jeung) - Therefore, as a result |  | CU-TFL Level 2
+แม้ว่า (mâe wâa) - Even though, although |  | CU-TFL Level 2
+เผื่อ (phèua) - In case, for the sake of |  | CU-TFL Level 2
+อีก (ìik) - Again, more, another |  | CU-TFL Level 2
+ก่อน (gòrn) - Before |  | CU-TFL Level 2
+หลังจาก (lǎng jàak) - After |  | CU-TFL Level 2
+ขณะนี้ (khà-nà níi) - Currently, at this moment |  | CU-TFL Level 2
+ในที่สุด (nai thîi sùt) - Finally, at last |  | CU-TFL Level 2
+ด้วยกัน (dûai gan) - Together |  | CU-TFL Level 2
+เพื่อ (phʉ̂ʉa) - In order to, for the purpose of |  | CU-TFL Level 2
+รวมทั้ง (ruam tháng) - Including, as well as |  | CU-TFL Level 2
+แต่เมื่อ (dtàe mûea) - But when |  | CU-TFL Level 2
+ยิ่ง (yîng) - Even more, increasingly |  | CU-TFL Level 2
+ตั้งแต่ (táng dtàe) - Since (time), from |  | CU-TFL Level 2
+ใคร่ (khrài) - To desire, want |  | CU-TFL Level 2
+ใช้ (chái) - To use |  | CU-TFL Level 2
+กลับ (glàp) - To return, to go back |  | CU-TFL Level 2
+ส่วน (sùan) - Part, portion, in terms of |  | CU-TFL Level 2
+อย่าง (yàang) - Kind, type, like (for giving examples) |  | CU-TFL Level 2
+ถ้า (thâa) - If, in case of |  | CU-TFL Level 2
+จริง (jĭng) - True, really |  | CU-TFL Level 2
+ทั้งนี้ (tháng níi) - Meanwhile, however |  | CU-TFL Level 2
+แน่นอน (nâe-non) - Certainly, of course |  | CU-TFL Level 2
+เมื่อ (mûea) - When, once |  | CU-TFL Level 2
+นับ (náp) - To count; since (time) |  | CU-TFL Level 2
+บาง (baang) - Some, certain |  | CU-TFL Level 2
+นอกจาก (nâawk jàak) - Besides, except |  | CU-TFL Level 2
+หาก (hàak) - If, in case that |  | CU-TFL Level 2
+แม้นว่า (mâen wâa) - Regardless of whether |  | CU-TFL Level 2
+ระหว่าง (rá-wàang) - Between, among |  | CU-TFL Level 2
+ภายใน (phāi nai) - Within, inside |  | CU-TFL Level 2
+ภายนอก (phāi nâawk) - Outside, externally |  | CU-TFL Level 2
+ภายหลัง (phāi lǎng) - Later, in the future |  | CU-TFL Level 2
+ตลอด (dtà-làwt) - Throughout, continuously |  | CU-TFL Level 2
+ตาม (dtaam) - According to, follow |  | CU-TFL Level 2
+จนถึง (jon thǔeng) - Until, up to |  | CU-TFL Level 2
+ทันที (than thii) - Immediately, right away |  | CU-TFL Level 2
+บ่อย (bòi) - Often, frequently |  | CU-TFL Level 2
+หา (hǎa) - To search for, to look for |  | CU-TFL Level 2
+ประจำ (pra-jam) - Regular, routine, permanent |  | CU-TFL Level 2
+วันนี้ (wan níi) - Today |  | CU-TFL Level 2
+มั้ย (mái) - Question particle, isn't it? |  | CU-TFL Level 2
+ครั้ง (khráng) - Time (occasion, instance) |  | CU-TFL Level 2
+ระหว่างที่ (rá-wàang thîi) - While, during the time that |  | CU-TFL Level 2
+แต่ละ (dtàe lá) - Each, every |  | CU-TFL Level 2
+ซึ่ง (sûeng) - Which, that (relative pronoun) |  | CU-TFL Level 2
+ซับซ้อน (sáp sɔ́ɔn) - Complicated, complex |  | CU-TFL Level 2
+เกี่ยวกับ (gìao gàp) - About, related to |  | CU-TFL Level 2
+สมัย (sà-mai) - Era, period, time |  | CU-TFL Level 2
+ฐานะ (thā-ná) - Status, position, situation |  | CU-TFL Level 2
+เช่น (chèn) - Such as, like, for instance |  | CU-TFL Level 2
+โดยเฉพาะ (dooi chê-phâw) - Especially, particularly |  | CU-TFL Level 2
+เท่านั้น (thâo nán) - Only that much, just that |  | CU-TFL Level 2
+จน (jon) - Until, till, to the extent that |  | CU-TFL Level 2
+เชื่อ (chʉ̂ʉa) - To believe, to trust |  | CU-TFL Level 2
+เป็นต้นไป (pen dton bpai) - Onwards, and so forth |  | CU-TFL Level 2
+ส่ง (sòng) - To send, to deliver |  | CU-TFL Level 2
+เพิ่ม (phôem) - To increase, to add |  | CU-TFL Level 2
+ลด (lót) - To decrease, to reduce |  | CU-TFL Level 2
+ข้างหน้า (khâang nâa) - In front of, ahead |  | CU-TFL Level 2
+ข้างหลัง (khâang lǎng) - Behind, at the back |  | CU-TFL Level 2
+เสมือน (sà-mʉan) - As if, resembling |  | CU-TFL Level 2
+พร้อมกับ (phróam gàp) - Along with, ready with |  | CU-TFL Level 2
+แทนที่ (thɛɛn thîi) - Instead of |  | CU-TFL Level 2
+ดังกับ (dang gàp) - As if, like, as though |  | CU-TFL Level 2
+แบบนี้ (bàeb níi) - Like this, this way |  | CU-TFL Level 2
+แบบนั้น (bàeb nán) - Like that, that way |  | CU-TFL Level 2
+ใกล้ (glâi) - Near, close |  | CU-TFL Level 2
+แตกต่าง (dtàek dtàang) - Different, to differ |  | CU-TFL Level 2
+หาย (hǎai) - To disappear, to be missing |  | CU-TFL Level 2
+เห็น (hěn) - To see, to perceive |  | CU-TFL Level 2
+รู้ (rúu) - To know, to be aware of |  | CU-TFL Level 2
+เรียน (riian) - To study, to learn |  | CU-TFL Level 2
+ฝึก (fùek) - To practice, to train |  | CU-TFL Level 2
+เปลี่ยน (bplìian) - To change, to alter |  | CU-TFL Level 2
+แนะนำ (náe-nam) - To recommend, to suggest |  | CU-TFL Level 2
+
+
+
+
+
+
+
+ถึงแม้ว่า (thǔeng mâew wâa) - Even though, although |  | CU-TFL Level 3
+จะ...ก็ (jà...gɔ̀) - Whether... or |  | CU-TFL Level 3
+แค่ (khâe) - Just, only, merely |  | CU-TFL Level 3
+เกินไป (gern bpai) - Too much, excessively |  | CU-TFL Level 3
+อีก (ìik) - Again, furthermore, more |  | CU-TFL Level 3
+ยัง...อยู่ (yang...yùu) - Still, yet |  | CU-TFL Level 3
+แทน (thɛɛn) - In place of, for |  | CU-TFL Level 3
+เนื่องจาก (nʉ̂ʉang jàak) - Due to, because of |  | CU-TFL Level 3
+หรือจะ (rʉ̌ʉ jà) - Whether, or possibly |  | CU-TFL Level 3
+นอกจาก...แต่ยัง (nâawk jàak... dtàe yang) - Not only... but also |  | CU-TFL Level 3
+เพื่อ (phʉ̂ʉa) - In order to, for the purpose of |  | CU-TFL Level 3
+ซึ่ง...ก็ (sûeng... gɔ̀) - Which is, that is |  | CU-TFL Level 3
+ในที่ (nai thîi) - Whereas, while |  | CU-TFL Level 3
+จนกระทั่ง (jon grà-tàng) - Until, up to the point |  | CU-TFL Level 3
+หากว่า (hàak wâa) - Supposing, in case that |  | CU-TFL Level 3
+ไม่เพียงแต่ (mâi phîang dtàe) - Not only... |  | CU-TFL Level 3
+ปรากฏว่า (praa-gòt wâa) - It appears that, it turns out that |  | CU-TFL Level 3
+ตั้งแต่...จนถึง (dtâng dtàe... jon thǔeng) - From... to (time or place) |  | CU-TFL Level 3
+ขณะที่ (khànà thîi) - While, whereas, at the time when |  | CU-TFL Level 3
+ต่อมา (dtòr maa) - Afterwards, then, next |  | CU-TFL Level 3
+ให้ (hâi) - To give, to allow, for the purpose of |  | CU-TFL Level 3
+แม้น (mâen) - Even, even if, although |  | CU-TFL Level 3
+ทั้งนี้ (tháng níi) - However, nevertheless |  | CU-TFL Level 3
+เมื่อไร (mʉ̂a rai) - When (question) |  | CU-TFL Level 3
+เป็นที่ (pen thîi) - To be known as, to be recognized as |  | CU-TFL Level 3
+โดยที่ (dooy thîi) - By which, by whom, whereby |  | CU-TFL Level 3
+แม้...ก็ (mâe...gɔ̀) - Even though... still |  | CU-TFL Level 3
+เพื่อว่า (phʉ̂ʉa wâa) - So that, in order that |  | CU-TFL Level 3
+ครั้งไหน (kráng hăi) - When (question regarding occasions) |  | CU-TFL Level 3
+ซึ่งกันและกัน (sûeng gan láe gan) - Each other, mutually |  | CU-TFL Level 3
+เท่ากับ (thâo gàp) - Equal to, the same as |  | CU-TFL Level 3
+ในเมื่อ (nai mʉ̂a) - Since, as, seeing that |  | CU-TFL Level 3
+ทุกที (thúk thii) - Always, every time |  | CU-TFL Level 3
+แต่ว่า (dtàe wâa) - But, however |  | CU-TFL Level 3
+ด้วยกัน (dûai gan) - Together, with each other |  | CU-TFL Level 3
+เช่น (chèn) - Such as, like, for example |  | CU-TFL Level 3
+สิ่งที่ (sìng thîi) - The thing that, what |  | CU-TFL Level 3
+ใช่ว่า (châi wâa) - Is it that, could it be that |  | CU-TFL Level 3
+หาก (hàak) - If, in case, suppose |  | CU-TFL Level 3
+ส่วน (sùan) - Part, portion, in terms of |  | CU-TFL Level 3
+เสมือน (sà-mʉan) - As if, like, similar to |  | CU-TFL Level 3
+โดย (dooy) - By, via, method |  | CU-TFL Level 3
+แต่เพียง (dtàe phîang) - Only, merely |  | CU-TFL Level 3
+ตลอด (dtà-lòt) - Throughout, always, constantly |  | CU-TFL Level 3
+กัน (gan) - Each other, one another |  | CU-TFL Level 3
+จนถึงเมื่อ (jon thǔeng mʉ̂a) - Until, up until |  | CU-TFL Level 3
+ด้วยว่า (dûai wâa) - Because, due to the fact that |  | CU-TFL Level 3
+ระหว่าง (rá-wàang) - Between, among, in the midst of |  | CU-TFL Level 3
+กับว่า (gàp wâa) - That, saying that |  | CU-TFL Level 3
+ขณะนี้ (khànà níi) - Now, currently, at this time |  | CU-TFL Level 3
+เช่นไร (chèn rai) - How, in what way |  | CU-TFL Level 3
+สมมุติ (sàm-mùt) - Supposing, let's say, for instance |  | CU-TFL Level 3
+ตามที่ (dtaam thîi) - According to, as per |  | CU-TFL Level 3
+สามารถ (sǎa-mâat) - Can, to be able to |  | CU-TFL Level 3
+ที่สุด (thîi sùt) - The most, utmost, extreme |  | CU-TFL Level 3
+ทั้งที่ (tháng thîi) - Although, even though |  | CU-TFL Level 3
+อันที่ (an thîi) - The reason that, due to |  | CU-TFL Level 3
+ทั้ง (tháng) - All, entire, both |  | CU-TFL Level 3
+มิฉะนั้น (mí chá-nán) - Otherwise, or else |  | CU-TFL Level 3
+ต่อให้ (dtòr hâi) - Even if, though, albeit |  | CU-TFL Level 3
+ซึ่งได้แก่ (sûeng dâi gè) - Namely, which are |  | CU-TFL Level 3
+โดยเฉพาะ (dooy châ-phâw) - Especially, in particular |  | CU-TFL Level 3
+ตามปกติ (dtaam bpòk dtì) - Normally, usually, typically |  | CU-TFL Level 3
+หาความ (hǎa khwaam) - To find, to search for (information) |  | CU-TFL Level 3
+เสียก่อน (sǐa gɔ̀n) - First, firstly, in advance |  | CU-TFL Level 3
+เกี่ยวกับ (gìao gàp) - Concerning, about, regarding |  | CU-TFL Level 3
+ใหญ่โต (hái dto) - Huge, very big, enormous |  | CU-TFL Level 3
+นอกเหนือ (nâawk nǔea) - Besides, apart from, in addition to |  | CU-TFL Level 3
+ล้วนๆ (lúan lúan) - Purely, only, just |  | CU-TFL Level 3
+หากแม้ (hàak mâe) - Even if, although |  | CU-TFL Level 3
+ต่อไป (dtòr bpai) - Next, subsequently, from now on |  | CU-TFL Level 3
+ถึงเมื่อไร (thǔeng mʉ̂a rai) - Until when, how long |  | CU-TFL Level 3
+เหตุเพราะ (hèt prâo) - Because, due to, for the reason that |  | CU-TFL Level 3
+จากนั้น (jàak nán) - After that, then, subsequently |  | CU-TFL Level 3
+แบบนี้ (bàep níi) - Like this, in this way, this kind of |  | CU-TFL Level 3
+ส่วนใหญ่ (sùan hái) - Mostly, generally, for the most part |  | CU-TFL Level 3
+เพื่อเป็น (phʉ̂ʉa pen) - In order to be, for the sake of being |  | CU-TFL Level 3
+ที่ไหน (thîi hǎi) - Where, at which place |  | CU-TFL Level 3
+อย่างไร (yàang rai) - How, in what manner, how come |  | CU-TFL Level 3
+เกินไป (gern bpai) - Overly, excessively, too much |  | CU-TFL Level 3
+เป็นไปได้ (pen bpai dâi) - Possible, can be |  | CU-TFL Level 3
+พอดี (paw dîi) - Just right, exactly, by chance |  | CU-TFL Level 3
+ซึ่งกันและกัน (sûeng gan láe gan) - Mutually, each other |  | CU-TFL Level 3
+ซึ่งก็คือ (sûeng gɔ̂ kʉ̂ʉ) - Which is to say, i.e., that is |  | CU-TFL Level 3
+เป็นอันจบ (pen an jòp) - That's it, it's over, to conclude |  | CU-TFL Level 3
+ขณะที่ (khànà thîi) - While, when, at the time that |  | CU-TFL Level 3
+แทนที่จะ (thɛ̂n thîi jà) - Instead of |  | CU-TFL Level 3
+มั้ย (mái) - Question particle (informal) |  | CU-TFL Level 3
+พร้อมกับ (prâwm gàp) - Together with, along with |  | CU-TFL Level 3
+บ่อย ๆ (bòi bòi) - Often, frequently |  | CU-TFL Level 3
+ถ้าหาก (thâa hàak) - If, in case that |  | CU-TFL Level 3
+ตามที่ได้บอก (dtaam thîi dâi bɔ̀k) - As mentioned, as said before |  | CU-TFL Level 3
+ด้วยกัน (dûai gan) - Together, with each other |  | CU-TFL Level 3
+เพื่อว่า (phʉ̂ʉa wâa) - In order to say, to indicate |  | CU-TFL Level 3
+อย่างน้อย (yàang nɔ́i) - At least, minimum |  | CU-TFL Level 3
+หรือเปล่า (rʉ̌ʉ bplào) - Or not? (question ending) |  | CU-TFL Level 3
+โดยทั่วไป (dooy thûa bpai) - Generally, in general |  | CU-TFL Level 3
+เมื่อไร (mʉ̂a rai) - When? At what time? |  | CU-TFL Level 3
+และเมื่อ (láe mʉ̂a) - And when, and then |  | CU-TFL Level 3
+ต่อมา (dtòr maa) - Afterward, then, next |  | CU-TFL Level 3
+ยิ่งขึ้น (yîng khûen) - Increasingly, more and more |  | CU-TFL Level 3
+ใคร่จะ (khraî jà) - To want to, would like to |  | CU-TFL Level 3
+เสียดาย (sǐa daai) - What a waste, what a pity |  | CU-TFL Level 3
+ไม่ว่าจะ (mâi wâa jà) - No matter what, regardless of |  | CU-TFL Level 3
+เกือบๆ (gʉ̀ʉb gʉ̀ʉb) - Almost, nearly |  | CU-TFL Level 3
+ทั้งนี้ (tháng níi) - For this reason, therefore |  | CU-TFL Level 3
+อาจจะ (âat jà) - Might, perhaps, probably |  | CU-TFL Level 3
+อันที่จริง (an thîi jing) - In fact, actually |  | CU-TFL Level 3
+แค่ (kâe) - Just, only, merely |  | CU-TFL Level 3
+ก่อนหน้านี้ (gɔ̀n nâat níi) - Before this, previously |  | CU-TFL Level 3
+เป็นการ (pen gaan) - It is a way of, it is an act of |  | CU-TFL Level 3
+หรือไม่ (rʉ̌ʉ mâi) - Or not, whether or not |  | CU-TFL Level 3
+โดยที่ไม่ต้อง (dooy thîi mâi dtâwng) - Without having to |  | CU-TFL Level 3
+จนกระทั่ง (jon grà thàng) - Until, up to the point |  | CU-TFL Level 3
+แม้กระทั่ง (mâe grà thàng) - Even, even though |  | CU-TFL Level 3
+เฉพาะ (châ-phâw) - Only, solely, specifically |  | CU-TFL Level 3
+โดยรวม (dooy ruam) - In general, overall, on the whole |  | CU-TFL Level 3
+เรียกว่า (rîak wâa) - Called, named, termed as |  | CU-TFL Level 3
+ถึงแม้ว่า (thǔeng mâe wâa) - Even if, even though |  | CU-TFL Level 3
+ในที่สุด (nai thîi sùt) - Finally, in the end, ultimately |  | CU-TFL Level 3
+ตามแต่ (dtaam tàe) - Depending on, based on |  | CU-TFL Level 3
+หลังจากนั้น (lǎng jàak nán) - After that, subsequently |  | CU-TFL Level 3
+โดยเฉพาะ (dooy châ-phâw) - Especially, particularly |  | CU-TFL Level 3
+ถ้าเป็น... (thâa pen...) - If it is... |  | CU-TFL Level 3
+แล้วแต่ (láew tàe) - Depending on, up to |  | CU-TFL Level 3
+ทีละ (thii lá) - One at a time, gradually |  | CU-TFL Level 3
+ตลอดจน (dtà-lɔ̀ɔt jon) - Throughout until, all the way to |  | CU-TFL Level 3
+ไม่ค่อย (mâi khɔ̂i) - Not very, not often |  | CU-TFL Level 3
+จนถึง (jon thǔeng) - Until, up to |  | CU-TFL Level 3
+เพราะว่า (phráw wâa) - Because, since, due to |  | CU-TFL Level 3
+ด้วยว่า (dûai wâa) - Because, since, given that |  | CU-TFL Level 3
+เกี่ยวกับ (gìao gàp) - About, regarding, concerning |  | CU-TFL Level 3
+เสมือนว่า (sǎ-mʉan wâa) - As if, as though, seemingly |  | CU-TFL Level 3
+ทั้งๆ ที่ (tháng tháng thîi) - Even though, despite the fact |  | CU-TFL Level 3
+เมื่อก่อน (mʉ̂a gɔ̀n) - In the past, formerly |  | CU-TFL Level 3
+ในขณะนี้ (nai khànà níi) - At the moment, currently |  | CU-TFL Level 3
+แต่ละ (tàe lá) - Each, every |  | CU-TFL Level 3
+ถึงแม้จะ (thǔeng mâe jà) - Even if |  | CU-TFL Level 3
+เพื่อที่จะ (phʉ̂ʉ thîi jà) - In order to, so as to |  | CU-TFL Level 3
+ก่อนที่จะ (gɔ̀n thîi jà) - Before (doing something) |  | CU-TFL Level 3
+ซึ่ง (sʉ̂ng) - Which, that (as a relative pronoun) |  | CU-TFL Level 3
+แทนที่จะ (thæn thîi jà) - Instead of |  | CU-TFL Level 3
+โดยทั่วไป (dooy thûa paai) - Generally, in general |  | CU-TFL Level 3
+อย่างเดียว (yâang diiao) - Only, just, solely |  | CU-TFL Level 3
+ด้วยกัน (dûai gun) - Together, with each other |  | CU-TFL Level 3
+ดังนั้น (dang nán) - Therefore, thus, so |  | CU-TFL Level 3
+ด้วยเหตุนี้ (dûai hèt níi) - For this reason, hence |  | CU-TFL Level 3
+เช่น (chèn) - Such as, like, for example |  | CU-TFL Level 3
+ทั้ง...และ... (tháng... láe...) - Both... and... |  | CU-TFL Level 3
+แม้...ก็... (mâe... gɔ̂...) - Even if... still... |  | CU-TFL Level 3
+เป็นอันว่า (pen an wâa) - Because, seeing that |  | CU-TFL Level 3
+ตั้งแต่ (dtâng dtàe) - Since, from (a point in time) |  | CU-TFL Level 3
+ไม่แค่...แต่ยัง... (mâi kâe... dtàe yang...) - Not only... but also... |  | CU-TFL Level 3
+โดยปกติ (dooy bpòk dtìi) - Normally, typically |  | CU-TFL Level 3
+ในระหว่าง (nai rà-wàang) - During, in the midst of |  | CU-TFL Level 3
+เพื่อว่า (phʉ̂ʉ wâa) - So that, in order that |  | CU-TFL Level 3
+นอกจาก...ยัง... (nâawk jàak... yang...) - Besides... also... |  | CU-TFL Level 3
+จนทุกที่ (jon thúk thîi) - Everywhere, all over |  | CU-TFL Level 3
+ไม่ใช่เพียงแต่ (mâi châi phiang dtàe) - Not only... |  | CU-TFL Level 3
+ขณะเดียวกัน (khànà diiao gun) - At the same time, simultaneously |  | CU-TFL Level 3
+ไม่ว่า...ก็... (mâi wâa... gɔ̂...) - Regardless of..., whether... or... |  | CU-TFL Level 3
+โดยไม่ต้อง (dooy mâi dtâwng) - Without having to |  | CU-TFL Level 3
+เปรียบเทียบ (bpriàp thîiap) - To compare, in comparison |  | CU-TFL Level 3
+เพียงแค่ (phiang kâe) - Merely, just, only |  | CU-TFL Level 3
+แบบนี้ (bàeb níi) - Like this, in this manner |  | CU-TFL Level 3
+สำหรับ (sǎm ràp) - For, regarding, pertaining to |  | CU-TFL Level 3
+ต่อเมื่อ (tòr mʉ̂a) - Provided that, in case of |  | CU-TFL Level 3
+จนกระทั่ง (jon grà thǔng) - Until, up to the point that |  | CU-TFL Level 3
+เป็นไปได้ (pen bpai dâai) - Possibly, it is possible |  | CU-TFL Level 3
+ทั้งนี้ (tháng níi) - In this regard, in this matter |  | CU-TFL Level 3
+เรียกว่า (rîak wâa) - Called, known as |  | CU-TFL Level 3
+เท่าที่ (thâo thîi) - As much as, to the extent that |  | CU-TFL Level 3
+เสียก่อน (sǐa gɔ̀n) - First, beforehand |  | CU-TFL Level 3
+เนื่องจาก (nʉ̂ang jàak) - Due to, because of |  | CU-TFL Level 3
+เท่านั้น (thâo nán) - Only that much, that's all |  | CU-TFL Level 3
+ทั้งหมด (tháng mòt) - All, totally, entirely |  | CU-TFL Level 3
+ทั้งว่า (tháng wâa) - Even though, although |  | CU-TFL Level 3
+เฉพาะ (châ-phâw) - Specifically, especially, only |  | CU-TFL Level 3
+ตั้งแต่เดิม (dtâng dtàe doem) - From the beginning, originally |  | CU-TFL Level 3
+นับจากนั้น (náp jàak nán) - From then on, since then |  | CU-TFL Level 3
+
+
+
+
+
+
+
+
+
+ขึ้นอยู่กับ (khʉ̂n yùu gàp) - Depends on |  | CU-TFL Level 4
+อนึ่ง (anʉ̀ng) - Namely, that is to say |  | CU-TFL Level 4
+ถึงแม้ว่า (thʉ̌ng mâe wâa) - Even if, although |  | CU-TFL Level 4
+จะ...ก็... (jà... gɔ̂...) - Whether... or... |  | CU-TFL Level 4
+เพื่อที่จะ (phʉ̂ʉ thîi jà) - In order to, so as to |  | CU-TFL Level 4
+เสมือนว่า (sà-mʉan wâa) - As if, as though |  | CU-TFL Level 4
+ตามที่ (dtaam thîi) - According to, as per |  | CU-TFL Level 4
+เกินไป (goen bpai) - Too much, excessively |  | CU-TFL Level 4
+ในที่สุด (nai thîi sùt) - Ultimately, in the end |  | CU-TFL Level 4
+อย่างไรก็ตาม (yâang rai gɔ̂ dtaam) - However, nonetheless |  | CU-TFL Level 4
+เพียงเพราะ (phiang phráw) - Merely because, just because |  | CU-TFL Level 4
+ทั้งๆ ที่ (tháng tháng thîi) - Even though, despite the fact that |  | CU-TFL Level 4
+ถ้าหาก (thâa hàak) - In case, if at all |  | CU-TFL Level 4
+ล้วนแล้วร้อย (lúan láew rói) - Purely, solely, completely |  | CU-TFL Level 4
+โดยเฉพาะ (dooy châ-phâw) - Particularly, especially |  | CU-TFL Level 4
+ยิ่งขึ้น (yîng khʉ̂n) - Increasingly, more and more |  | CU-TFL Level 4
+ทั้งนี้เพราะว่า (tháng níi phráw wâa) - This is because |  | CU-TFL Level 4
+จนถึงขณะนี้ (jon thʉ̌ng khànà níi) - Up until now, hitherto |  | CU-TFL Level 4
+เพราะเหตุนี้ (phráw hèt níi) - For this reason, thus |  | CU-TFL Level 4
+นอกเหนือจาก...ก็ยัง... (nâawk nǔea jàak... gɔ̂ yang...) - Apart from... also... |  | CU-TFL Level 4
+ในแง่ที่ (nai ngâe thîi) - In terms of, in the aspect of |  | CU-TFL Level 4
+เพื่อว่า (phʉ̂ʉ wâa) - So that, in order that |  | CU-TFL Level 4
+ขณะเดียวกัน (khànà dîaw gan) - At the same time, simultaneously |  | CU-TFL Level 4
+ถ้าเท่าไหร่ (thâa thâo rài) - As much as, depending on how much |  | CU-TFL Level 4
+ด้วยกัน (dûay gan) - Together, along with |  | CU-TFL Level 4
+โดยส่วนใหญ่ (dooy sùan yài) - Mostly, generally |  | CU-TFL Level 4
+แต่เพียง (dtàe phiang) - Only, merely, just |  | CU-TFL Level 4
+แม้กระทั่ง (mâe grà thǔng) - Even, to the extent that |  | CU-TFL Level 4
+ครั้งไหน (kráng rài) - Whenever, every time |  | CU-TFL Level 4
+ในทางตรงกันข้าม (nai thaang dtrong gan khâam) - On the contrary, oppositely |  | CU-TFL Level 4
+อย่างไรเสีย (yâang rai sǐa) - Anyhow, anyway |  | CU-TFL Level 4
+ดังกับ (dang gàp) - As if, like, as though |  | CU-TFL Level 4
+แต่ละ (dtàe lá) - Each, every |  | CU-TFL Level 4
+ถึงขั้น (thʉ̌ng khân) - To the extent that, so much so that |  | CU-TFL Level 4
+แต่ทว่า (dtàe thwâa) - However, but, yet |  | CU-TFL Level 4
+พอ...ก็... (phɔɔ... gɔ̂...) - As soon as... then... |  | CU-TFL Level 4
+เช่นกัน (chèn gan) - Similarly, likewise |  | CU-TFL Level 4
+เสียด้วย (sǐa dûay) - Unfortunately, sadly |  | CU-TFL Level 4
+ตามที่...ได้ (dtaam thîi... dâai) - As... can be |  | CU-TFL Level 4
+เพราะเป็น (phráw pen) - Because it is, being that |  | CU-TFL Level 4
+ยิ่ง...ยิ่ง... (yîng... yîng...) - The more... the more... |  | CU-TFL Level 4
+ทั้งหมด (tháng mòt) - In total, all |  | CU-TFL Level 4
+หากว่า (hàak wâa) - If, in case that |  | CU-TFL Level 4
+ไม่ว่า...ก็... (mâi wâa... gɔ̂...) - No matter... always... |  | CU-TFL Level 4
+อาจจะ (âat jà) - Might, possibly |  | CU-TFL Level 4
+ซึ่งกันและกัน (sʉ̂ng gan láe gan) - Each other, mutually |  | CU-TFL Level 4
+แทนที่จะ (thæn thîi jà) - Instead of |  | CU-TFL Level 4
+ซึ่ง...เป็น... (sʉ̂ng... pen...) - Which is... |  | CU-TFL Level 4
+ในขณะที่ (nai khànà thîi) - While, whereas |  | CU-TFL Level 4
+ด้วยเหตุนี้ (dûay hèt níi) - Therefore, for this reason |  | CU-TFL Level 4
+เป็นต้นไป (pen tôn bpai) - And so on, etc. |  | CU-TFL Level 4
+แต่งานจริง (dtàe ngaan jing) - In reality, actually |  | CU-TFL Level 4
+เสียจนถึง (sǐa jon thʉ̌ng) - Until, up to |  | CU-TFL Level 4
+เฉยๆ (chǒey chǒey) - Just like that, simply |  | CU-TFL Level 4
+ครั้งหลัง (kráng làng) - Next time, in the future |  | CU-TFL Level 4
+ครั้งก่อน (kráng g̀̀xn) - Before, previously |  | CU-TFL Level 4
+เสียแล้ว (sǐa láew) - Unfortunately, regretfully |  | CU-TFL Level 4
+ตั้งแต่...จน (dtâng dtàe... jon) - From... until... |  | CU-TFL Level 4
+มิฉะนั้น (mí chá nán) - Otherwise, or else |  | CU-TFL Level 4
+ในที่ (nai thîi) - In which, where |  | CU-TFL Level 4
+เมื่อไร (mʉ̂a rai) - Whenever, any time |  | CU-TFL Level 4
+เรื่องของ (rʉ̂ang khɔ̌ng) - About, regarding |  | CU-TFL Level 4
+ไม่แค่...แต่ยัง... (mâi khâe... dtàe yang...) - Not only... but also... |  | CU-TFL Level 4
+ครั้งใด (kráng dai) - Whenever, any occasion |  | CU-TFL Level 4
+เท่าที่ (thâo thîi) - As far as, as much as |  | CU-TFL Level 4
+ในระหว่าง (nai rà-wàang) - During, in the midst of |  |  CU-TFL Level 4
+เสมือน (sà-mʉan) - As if, resembling |  | CU-TFL Level 4
+เพื่อความ (phʉ̂ʉ khwaam) - For the sake of, for the purpose of |  | CU-TFL Level 4
+อย่างเช่น (yâang chèn) - Such as, for example |  | CU-TFL Level 4
+ทุกที่ (thúk thîi) - Everywhere, every place |  | CU-TFL Level 4
+เป็นอันจบ (pen an jòp) - And that's the end, that concludes |  | CU-TFL Level 4
+อย่างน้อย (yâang nɔ́ɔi) - At least, minimally |  | CU-TFL Level 4
+แค่...ก็พอ (khâe... gɔ̂ phɔ̂) - Just... is enough |  | CU-TFL Level 4
+ทั้งนี้ (tháng níi) - This being the case, thus |  | CU-TFL Level 4
+ตามที่กำหนด (dtaam thîi gam-nòt) - As scheduled, as appointed |  | CU-TFL Level 4
+ด้วยว่า (dûay wâa) - Because, since, for the reason that |  | CU-TFL Level 4
+เพราะว่า (phráw wâa) - Because, since |  | CU-TFL Level 4
+จนกระทั่ง (jon grà thǔng) - Until, up to the point |  | CU-TFL Level 4
+อย่างใด (yâang dai) - In any way, somehow |  | CU-TFL Level 4
+หลังจากนั้น (lǎng jàak nán) - After that, subsequently |  | CU-TFL Level 4
+แต่เพียง (dtàe phiang) - Only, merely |  | CU-TFL Level 4
+ทันที (than thii) - Immediately, at once |  | CU-TFL Level 4
+เรียกว่า (riiak wâa) - Called, known as |  | CU-TFL Level 4
+แล้วแต่ (láew dtàe) - Depending on, it's up to |  | CU-TFL Level 4
+แต่ว่า (dtàe wâa) - But, however |  | CU-TFL Level 4
+เกือบๆ (gʉ̀ʉb gʉ̀ʉb) - Almost, nearly |  | CU-TFL Level 4
+จึงเป็นไปได้ว่า (jeung pen bpai dâai wâa) - Therefore, it can be said that |  | CU-TFL Level 4
+เพื่อน (phʉ̂ʉan) - In order to, for the purpose of |  | CU-TFL Level 4
+ต่อมา (dtòr maa) - Then, afterwards |  | CU-TFL Level 4
+ทั้งนั้น (tháng nán) - Yet, however |  | CU-TFL Level 4
+ไม่กี่ (mâi gìi) - A few, not many |  | CU-TFL Level 4
+ด้วยกัน (dûay gan) - Together, with each other |  | CU-TFL Level 4
+ซึ่งไร (sʉ̂ng rai) - Which, whatever |  | CU-TFL Level 4
+จนถึงเวลา (jon thʉ̌ng welaa) - Until the time, when the time comes |  | CU-TFL Level 4
+อันที่จริง (an thîi jing) - In fact, actually |  | CU-TFL Level 4
+อย่างไรก็ตาม (yâang rai gɔ̂ dtaam) - However, nonetheless |  | CU-TFL Level 4
+เมื่อไหร่ก็ตาม (mʉ̂a rài gɔ̂ dtaam) - Whenever, at any time |  | CU-TFL Level 4
+ไม่เป็นไร (mâi pen rai) - It's okay, no problem |  | CU-TFL Level 4
+เสียก่อน (sǐa g̀̀xn) - First, beforehand |  | CU-TFL Level 4
+ภายใน (phǎay nai) - Within, inside |  | CU-TFL Level 4
+ถึงแม้ว่า (thʉ̌ng máew wâa) - Even if, although |  | CU-TFL Level 4
+เรียบร้อย (riab rɔ́ɔi) - Smoothly, successfully |  | CU-TFL Level 4
+พร้อมกับ (phrôom gàp) - Along with, together with |  | CU-TFL Level 4
+นอกจาก...แต่ยัง... (nâwk jàak... dtàe yang...) - Not only... but also... |  | CU-TFL Level 4
+ใครๆ (khrǎi khrǎi) - Anyone, everybody |  | CU-TFL Level 4
+เกี่ยวข้อง (gìiao khɔ̂ng) - Related to, involved with |  | CU-TFL Level 4
+บ้างครั้ง (bâang kráng) - Sometimes, occasionally |  | CU-TFL Level 4
+ตามปกติ (dtaam pkò-dtì) - Normally, usually |  | CU-TFL Level 4
+ขณะนั้น (khànà nán) - At that time, then |  | CU-TFL Level 4
+เกือบจะ (gʉ̀ʉb jà) - Almost, nearly about to |  | CU-TFL Level 4
+ให้แก่ (hâi gè) - To give to, for the benefit of |  | CU-TFL Level 4
+ซึ่งกันและกัน (sʉ̂ng gan láe gan) - Mutual, with each other |  | CU-TFL Level 4
+นับจาก (náp jàak) - Counting from, starting from |  | CU-TFL Level 4
+สู้กับ (sûu gàp) - To compete with, fight against |  | CU-TFL Level 4
+ซึ่งเมื่อ (sʉ̂ng mʉ̂a) - When, at the time that |  | CU-TFL Level 4
+อย่างที่ (yâang thîi) - As, like how |  | CU-TFL Level 4
+จนบัดนี้ (jon bàt níi) - Up to now, so far |  | CU-TFL Level 4
+ไม่ว่าจะ (mâi wâa jà) - Regardless of whether, no matter |  | CU-TFL Level 4
+ตลอดจน (dtà-lɔ̀ɔt jon) - From... to, all the way until |  | CU-TFL Level 4
+เป็นต้นไป (pen dtôn bpai) - Onward, and so on |  | CU-TFL Level 4
+
+
+
+
+
+
+
+แม้กระทั่ง (máe grà thùng) - Even, to the extent that |  | CU-TFL Level 5
+โดยเฉพาะ (dooi chêphâw) - Especially, particularly |  | CU-TFL Level 5
+จนกระทั่ง (jon grà thùng) - Until, up to the point that |  | CU-TFL Level 5
+ขณะเดียวกัน (khànà dîaw gan) - At the same time, simultaneously |  | CU-TFL Level 5
+เสมือนว่า (sà-mʉan wâa) - As if, seemingly |  | CU-TFL Level 5
+มิฉะนั้น (mí chá nán) - Otherwise, if not |  | CU-TFL Level 5
+อย่างน้อย (yâang nɔ́i) - At least, minimally |  | CU-TFL Level 5
+ทั้งๆ ที่ (tháng tháng thîi) - Although, even though |  | CU-TFL Level 5
+เพียงเพราะ (phiang phráw) - Merely because, just because |  | CU-TFL Level 5
+ไม่ใช่แค่ (mâi châi khâe) - Not just, not only |  | CU-TFL Level 5
+ต่อให้ (dtòr hâi) - Even if, suppose that |  | CU-TFL Level 5
+หากว่า (hàak wâa) - If, in case that |  | CU-TFL Level 5
+เพื่อเป็น (phʉ̂ʉa pen) - In order to be, so as to be |  | CU-TFL Level 5
+ตามที่ (dtaam thîi) - According to, as per |  | CU-TFL Level 5
+จริงๆ แล้ว (jing jing láew) - Actually, in truth |  | CU-TFL Level 5
+ก็แค่ (gɔ̂ khâe) - Just, simply |  | CU-TFL Level 5
+ตามแต่ (dtaam dtàe) - Depending on, according to |  | CU-TFL Level 5
+ร่วมกับ (rûam gàp) - In conjunction with, along with |  | CU-TFL Level 5
+ในที่สุด (nai thîi sùt) - Ultimately, in the end |  | CU-TFL Level 5
+ที่ไหนๆ (thîi nǎi nǎi) - Anywhere, wherever |  | CU-TFL Level 5
+แทนที่จะ (thǎen thîi jà) - Instead of |  | CU-TFL Level 5
+แม้นว่า (máen wâa) - Even though, albeit |  | CU-TFL Level 5
+ก็ตามแต่ (gɔ̂ dtaam dtàe) - Regardless of, no matter |  | CU-TFL Level 5
+ยิ่งขึ้น (yîng khûen) - Increasingly, more and more |  | CU-TFL Level 5
+เมื่อไรที่ (mʉ̂a rai thîi) - Whenever |  | CU-TFL Level 5
+แค่เพียง (khâe phiang) - Merely, only just |  | CU-TFL Level 5
+ให้...เสมอ (hâi...sà-mʉ̌ʉa) - Always let/make... |  | CU-TFL Level 5
+ซึ่งกันและกัน (sʉ̂ng gan láe gan) - Mutually, reciprocally |  | CU-TFL Level 5
+เกินไป (gern pai) - Excessively, too much |  | CU-TFL Level 5
+ด้วยกัน (dûai gan) - Together, with each other |  | CU-TFL Level 5
+ในระหว่าง (nai rà-wàang) - During, in the midst of |  | CU-TFL Level 5
+เพื่อว่า (phʉ̂ʉa wâa) - In order to, so that |  | CU-TFL Level 5
+ต่างหาก (dtàang hàak) - On the contrary, rather |  | CU-TFL Level 5
+อย่างไรก็ตาม (yâang rai gɔ̂ dtaam) - However, nevertheless |  | CU-TFL Level 5
+เสมือนกับ (sà-mʉan gàp) - Similar to, like |  | CU-TFL Level 5
+เป็นต้นไป (pen dtôn pai) - And so on, and the like |  | CU-TFL Level 5
+ไม่เพียงแต่...แต่ยัง (mâi phiang dtàe...dtàe yang) - Not only... but also |  | CU-TFL Level 5
+กับว่า (gàp wâa) - That, indicating reported speech |  | CU-TFL Level 5
+อาจจะ (àat jà) - Might, perhaps, possibly |  | CU-TFL Level 5
+ดังเก่า (dang gèo) - As before, as usual |  | CU-TFL Level 5
+เนื่องจาก (nʉ̂ang jàak) - Due to, because of |  | CU-TFL Level 5
+ขณะที่ (khànà thîi) - While, whereas |  | CU-TFL Level 5
+ตามที่ (dtaam thîi) - As, according to |  | CU-TFL Level 5
+โดยเฉพาะ (dooy chêephaaw) - Especially, particularly |  | CU-TFL Level 5
+ก็แค่ (gɔ̂ khâe) - Just, only |  | CU-TFL Level 5
+ทั้งนี้ (tháng níi) - In this regard, in this case |  | CU-TFL Level 5
+อย่างน้อย (yâang nói) - At least |  | CU-TFL Level 5
+ในที่สุด (nai thîi sùt) - Finally, in the end |  | CU-TFL Level 5
+ถ้าหาก (thâa hàak) - If, in case |  | CU-TFL Level 5
+เช่นเคย (chên kʉəy) - As usual, as always |  | CU-TFL Level 5
+ซึ่งได้แก่ (sʉ̂ng dâi gè) - Which are, namely |  | CU-TFL Level 5
+โดยทั่วไป (dooy thûa pai) - Generally, in general |  | CU-TFL Level 5
+เสียก่อน (sĭa gɔ̀ɔn) - First, beforehand |  | CU-TFL Level 5
+เสมือนว่า (sà-mʉan wâa) - As if, as though |  | CU-TFL Level 5
+ทั้งที่ (tháng thîi) - Even though, while |  | CU-TFL Level 5
+เพราะเป็น (phró pen) - Because it's |  | CU-TFL Level 5
+โดยไม่ต้อง (dooy mâi dtâwng) - Without having to |  | CU-TFL Level 5
+ให้ความสำคัญ (hâi khwaam săm-khan) - To prioritize, give importance to |  | CU-TFL Level 5
+สำหรับ (săm ràp) - For, regarding |  | CU-TFL Level 5
+ถึงแม้ (thʉ̌ng máe) - Even if, although |  | CU-TFL Level 5
+แม้กระทั่ง (máe grà thûng) - Even, to the extent that |  | CU-TFL Level 5
+ต่อมา (dtòr maa) - Afterwards, subsequently |  | CU-TFL Level 5
+ในแง่ (nai ngê) - In terms of, from the perspective of |  | CU-TFL Level 5
+ด้วยการที่ (dûay gaan thîi) - By, by means of |  | CU-TFL Level 5
+อย่างไรก็ตาม (yâang rai gɔ̂ dtaam) - However, nonetheless |  | CU-TFL Level 5
+โดยไม่เว้นแต่ (dooy mâi wêen dtàe) - Without exception |  | CU-TFL Level 5
+แทนที่จะ (thae thîi jà) - Instead of |  | CU-TFL Level 5
+สืบเนื่องมาจาก (sʉ̀ʉp nʉ̂ang maa jàak) - Stemming from, due to |  | CU-TFL Level 5
+อันเป็น (an pen) - Which is, namely |  | CU-TFL Level 5
+ในระยะเวลาที่ (nai rá-yàa welaa thîi) - During the time that |  | CU-TFL Level 5
+หากแม้ (hàak máe) - Even if, should |  | CU-TFL Level 5
+นอกจากนี้ (nâawk jàak níi) - Besides this, in addition to |  | CU-TFL Level 5
+ซึ่งก็คือ (sʉ̂ng gɔ̂ kʉə) - Which is to say, i.e. |  | CU-TFL Level 5
+ตลอดจน (dta-làwd jon) - Throughout, from start to finish |  | CU-TFL Level 5
+เปรียบเทียบกับ (bprìap thîap gàp) - Compared to, in comparison with |  | CU-TFL Level 5
+ในขณะเดียวกัน (nai khànà dîao gan) - At the same time, simultaneously |  | CU-TFL Level 5
+ตามความเป็นจริง (dtaam khwaam pen jing) - In reality, actually |  | CU-TFL Level 5
+ซึ่งทำให้ (sʉ̂ng tham hâi) - Which causes, resulting in |  | CU-TFL Level 5
+อย่างที่ (yâang thîi) - As, like, in the manner that |  | CU-TFL Level 5
+ต่อให้ (dtòr hâi) - Even if, though, albeit |  | CU-TFL Level 5
+โดยปกติ (dooy bpòk dtîi) - Normally, typically |  | CU-TFL Level 5
+ตามที่กำหนด (dtaam thîi gam-nòt) - As specified, according to the stipulation |  | CU-TFL Level 5
+แล้วแต่ (láew dtàe) - Depending on, however, whatever |  | CU-TFL Level 5
+ซึ่งสำคัญ (sʉ̂ng săm-khạn) - Importantly, which is important |  | CU-TFL Level 5
+พร้อมกับ (prôom gàp) - Along with, simultaneous with |  | CU-TFL Level 5
+โดยเฉพาะ (dooy châe-phâw) - Especially, particularly |  | CU-TFL Level 5
+เสมือนว่า (sà-mʉan wâa) - As if, as though |  | CU-TFL Level 5
+แต่เพียง (dtàe piang) - Only, merely |  | CU-TFL Level 5
+ด้วยเหตุนี้ (dûay hèt níi) - Therefore, for this reason |  | CU-TFL Level 5
+เพื่อที่จะ (phʉ̂a thîi jà) - In order to, for the purpose of |  | CU-TFL Level 5
+โดยทั่วไป (dooy thûa bpai) - Generally, on the whole |  | CU-TFL Level 5
+ไม่ว่าจะ (mâi wâa jà) - Regardless of whether, no matter if |  | CU-TFL Level 5
+ต่อไป (dtòr bpai) - Next, from now on |  | CU-TFL Level 5
+เช่นเคย (chên kʉi) - As usual, like always |  | CU-TFL Level 5
+ตราบใด (dtraap dâi) - As long as, while |  | CU-TFL Level 5
+ถึงแม้ว่า (thʉ̌ng máe wâa) - Although, even though |  | CU-TFL Level 5
+ในทางปฏิบัติ (nai thaang bpà-dtì-bàt) - In practice, practically |  | CU-TFL Level 5
+ร่วมกัน (rûam gun) - Together, jointly |  | CU-TFL Level 5
+ตามที่แล้ว (dtaam thîi láew) - According to the previous, as before |  | CU-TFL Level 5
+เท่าที่ (thâo thîi) - As far as, to the extent that |  | CU-TFL Level 5
+เมื่อไรก็ตาม (mʉ̂a rai gôr dtàam) - Whenever, regardless of when |  | CU-TFL Level 5
+ไม่ใช่แค่ (mâi châi khâe) - Not just, not only |  | CU-TFL Level 5
+โดยไม่ต้อง (dooy mâi dtâwng) - Without needing to |  | CU-TFL Level 5
+นอกจากนี้ (nâawk jàak níi) - In addition to this, besides this |  | CU-TFL Level 5
+ซึ่งเมื่อเทียบกับ (sʉ̂ng mʉ̂a thîiap gàp) - When compared to |  | CU-TFL Level 5
+สมมุติว่า (sà-mà-mùt wâa) - Assuming that, suppose that |  | CU-TFL Level 5
+เป็นการ (pen gaan) - As a way to, as an act of |  | CU-TFL Level 5
+พร้อมที่จะ (prôom thîi jà) - Ready to, prepared to |  | CU-TFL Level 5
+ด้วยกันเอง (dûay gun aeng) - By themselves, on their own |  | CU-TFL Level 5
+เกินไป (goen bpai) - Too much, excessively |  | CU-TFL Level 5
+เท่าเทียมกับ (thâo thîiam gàp) - Equivalent to, the same as |  | CU-TFL Level 5
+ต่อมา (dtòr maa) - Afterwards, subsequently |  | CU-TFL Level 5
+ในที่สุด (nai thîi sùt) - Finally, in the end |  | CU-TFL Level 5
+ตรงกันข้าม (dtrong gun khâam) - On the contrary, opposite |  | CU-TFL Level 5
+ถือว่า (thʉ̂e wâa) - Considered as, regarded as |  | CU-TFL Level 5
+ใหญ่โต (hâi dto) - Large, big (emphasizing size) |  | CU-TFL Level 5
+เพียงแค่ (phiang khâe) - Just, only, merely |  | CU-TFL Level 5
+ตลอดจน (dta-lòt jon) - Throughout, until |  | CU-TFL Level 5
+ใดๆ (dâi dâi) - Any, whichever, whatever |  | CU-TFL Level 5
+ซึ่งไร้ (sʉ̂ng rái) - Which lacks, devoid of |  | CU-TFL Level 5
+นั้น (nán) - That (as a demonstrative) |  | CU-TFL Level 5
+หรือ (rʉ̌ʉ) - Or (in questions) |  | CU-TFL Level 5
+แต่เพียง (dtàe phiang) - Only, just, merely |  | CU-TFL Level 5
+แต่ทว่า (dtàe thwâa) - However, but, yet |  | CU-TFL Level 5
+ไม่ว่าจะ...ก็ (mâi wâa jà...gôr) - No matter how/what/when... |  | CU-TFL Level 5
+ใครๆ ก็ (khrái khrái gôr) - Everyone, anybody |  | CU-TFL Level 5
+เป็นอันมาก (pen an mâak) - A lot, in large amounts |  | CU-TFL Level 5
+โดยเฉพาะ (dooy chêe-phâw) - Especially, particularly |  | CU-TFL Level 5
+ถึงแม้ว่า (thʉ̌ng mâe wâa) - Even if, although |  | CU-TFL Level 5
+ตามที่ (dtaam thîi) - According to, as per |  | CU-TFL Level 5
+ไม่กี่ (mâi gìi) - Not many, a few |  | CU-TFL Level 5
+จนถึง (jon thʉ̌ng) - Until, up to |  | CU-TFL Level 5
+ซึ่งก็คือ (sʉ̂ng gôr kʉ̂ʉ) - Which is, that is to say |  | CU-TFL Level 5
+เนื่องจาก (nʉ̂ang jàak) - Due to, because of |  | CU-TFL Level 5
+ก่อนหน้านี้ (gòn nâat níi) - Previously, before this |  | CU-TFL Level 5
+เรียกว่า (riâak wâa) - Called, known as |  | CU-TFL Level 5
+ทั้งนี้ (tháng níi) - In this case, for this reason |  | CU-TFL Level 5
+อย่างไรก็ตาม (yàang rai gôr dtàam) - However, nonetheless |  | CU-TFL Level 5
+ถ้าว่า (thâa wâa) - If, in case |  | CU-TFL Level 5
+เป็นเพราะ (pen prâw) - Because, due to the fact |  | CU-TFL Level 5

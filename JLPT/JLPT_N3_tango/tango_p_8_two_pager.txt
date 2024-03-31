@@ -1,0 +1,25 @@
+N3 tango p.8-9
+----------------------------------
+
+| 愛  | あい  | love   | Being in love is a complicated feeling.  | 恋をするというのは、複雑な気持ちです。 ｜
+| 愛情  | あいじょう  | affection  | I feel affection for my brother.  |　兄への愛情を感じる。　｜
+| アイデア  |   | idea  | This is a great idea for our project.  |　これは、私たちのプロジェクトにとって素晴らしいアイデアです。　｜
+| 握手  | あくしゅ  | handshake  | When I met him, he greeted me with a firm handshake.  |　会うと、固い握手で迎えてくれた。　｜
+| アクセス  |   | access  | In his job he has access to the newest technologies.  |　仕事柄、最新のテクノロジーに触れることができる。　｜
+| アクセント  |   | accent  | He is speaking english with strong german accent.  |　ドイツ語訛りの強い英語を話している。　｜
+| あちらこちら  |   | here and there  | In the forest you can see mushrooms here and there.  |　森の中では、あちこちでキノコを見ることができます。　｜
+| 集まり  | あつまり  | gathering  | There was gathering of protesters on the city square.  |　街の広場にはデモ隊が集まっていた。　｜
+| 宛名  | あてな  | address  | Please fill your name and address.  | お名前と宛名をご記入ください。｜
+| 後片付け  | あとかたずけ  | cleanup, clearing away  | The glass fell down and broke to pieces that I had to clean up afterwards.  |　ガラスが倒れて粉々に割れてしまい、後始末に苦労しました。　｜
+| アドバイス  |   | advice  | I advised him to stop drinking too much. |　飲み過ぎは禁物だとアドバイスしました。　｜
+| 穴  | あな  | hole  | Be careful not to fall to that hole.  |　その穴に落ちないように気をつけましょう。　｜
+| 余り  | あまり  | leftover, remaninder  | I was not very hungly, so I left on the table lots of leftover food.  |　私はあまりお腹が空いていなかったので、テーブルの上にたくさん食べ残しをしました。　｜
+| アンケート  |   | questionnaire, survey  | Filling this online survey takes just few minutes.  |　このオンライン調査は、数分で完了します。　｜
+| いたずら  |   | mischief  | He thinks that bullying is just a misschief, but it is actually a serious issue.  |　いじめは単なるいたずらだと思っているが、実は深刻な問題なのだ。　｜
+
+
+
+
+
+
+COMPLETED

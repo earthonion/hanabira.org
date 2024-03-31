@@ -1,0 +1,464 @@
+CLI param:  意外
+--- Response text: ---
+1. 意外 | Kanji: 彼が来るなんて意外だった | Romaji: Kare ga kuru nante igai datta | Translation: I was surprised that he came. 
+2. 意外 | Kanji: 彼女がそんな意外な答えを出したのには驚いた | Romaji: Kanojo ga sonna igai na kotae o dashita no ni wa odorokita | Translation: I was surprised that she gave such an unexpected answer. 
+3. 意外 | Kanji: こんな意外な結果になってしまった | Romaji: Konna igai na kekka ni natte shimatta | Translation: It turned out to be such an unexpected result. 
+4. 意外 | Kanji: 彼がそんな意外な反応をしたので驚いた | Romaji: Kare ga sonna igai na hannou o shita no de odoroita | Translation: I was surprised that he had such an unexpected reaction. 
+5. 意外 | Kanji: そんな意外な結果に驚きを隠せなかった | Romaji: Sonna igai na kekka ni odoroki o kakusenakatta | Translation: I couldn't hide my surprise at such an unexpected result.
+-----------------------------
+CLI param:  異常
+--- Response text: ---
+1. 異常 | Kanji: 行動が異常だ | Romaji: koudou ga ijou da | Translation: The behavior is abnormal. |
+2. 異常 | Kanji: 異常な気温の変化があった | Romaji: ijou na kion no henka ga atta | Translation: There was an abnormal change in temperature. |
+3. 異常 | Kanji: 異常な勢いで急上昇した | Romaji: ijou na ikioi de kyuujoushou shita | Translation: It suddenly rose with an abnormal force. |
+4. 異常 | Kanji: 心臓の動きが異常だった | Romaji: shinzou no ugoki ga ijou datta | Translation: The movement of the heart was abnormal. |
+5. 異常 | Kanji: 彼の行動は異常だった | Romaji: kare no koudou wa ijou datta  | Translation: His behavior was abnormal.
+-----------------------------
+CLI param:  一般的
+--- Response text: ---
+1. 一般的 | Kanji: 一般的な考え方は間違っている | Romaji: Ippanteki na kangaekata wa machigatteiru | Translation: The general way of thinking is wrong | 
+2. 一般的 | Kanji: 一般的には、毎日の仕事を続けることが重要だ | Romaji: Ippanteki ni wa, mainichi no shigoto o tsuzukeru koto ga juuyou da | Translation: Generally speaking, it is important to continue working every day | 
+3. 一般的 | Kanji: 一般的な意見として、若い世代は古い文化を理解していない | Romaji: Ippanteki na iken toshite, wakai sedai wa furui bunka o rikai shite inai | Translation: Generally speaking, young generations do not understand old cultures | 
+4. 一般的 | Kanji: 一般的には、子供たちが多くの時間をテレビを見て過ごすことがある | Romaji: Ippanteki ni wa, kodomo-tachi ga ooku no jikan o terebi o mite sugosu koto ga aru | Translation: Generally speaking, children spend a lot of time watching TV | 
+5. 一般的 | Kanji: 一般的には、他人の話に耳を傾けることが大切であると考えられている | Romaji: Ippanteki ni wa, tanin no hanashi ni mimi o katamukeru koto ga taisetsu de aru to kangaerarete iru| Translation: Generally speaking, it is thought that it is important to listen to others' stories
+-----------------------------
+CLI param:  穏やか
+--- Response text: ---
+1. 穏やか | Kanji: 彼は穏やかな性格だ | Romaji: Kare wa odayaka na seikaku da | Translation: He has a calm personality. | 
+2. 穏やか | Kanji: その穏やかな雰囲気が心地よい | Romaji: Sono odayaka na fun'iki ga kokochi yoi | Translation: The calm atmosphere is pleasant. | 
+3. 穏やか | Kanji: 穏やかな夜を過ごしたい | Romaji: Odayaka na yoru o sugoshitai | Translation: I want to spend a peaceful night. | 
+4. 穏やか | Kanji: 彼女は穏やかな態度をとっていた | Romaji: Kanojo wa odayaka na taido o totte ita | Translation: She had a calm attitude. | 
+5. 穏やか | Kanji: 日常生活を穏やかに過ごすことが重要だ | Romaji: Nichijou seikatsu o odayaka ni sugosu koto ga juuyou da| Translation: It is important to lead a peaceful daily life.
+-----------------------------
+CLI param:  確実
+--- Response text: ---
+1. 確実 | Kanji: 彼は確実にそれをする | Romaji: Kare wa kakujitsu ni sore wo suru | Translation: He will certainly do it. 
+2. 確実 | Kanji: 確実な結果を得るために、彼女は努力した | Romaji: Kakujitsu na kekka wo eru tame ni, kanojo wa doryoku shita | Translation: She worked hard to get a certain result. 
+3. 確実 | Kanji: 彼らは確実な戦略を持っている | Romaji: Karera wa kakujitsu na senryaku wo motte iru | Translation: They have a sure strategy. 
+4. 確実 | Kanji: 私たちは確実な方法でそれを行うことができます | Romaji: Watashitachi wa kakujitsu na houhou de sore wo okonau koto ga dekimasu | Translation: We can do it in a sure way. 
+5. 確実 | Kanji: 彼らが成功するのは確実だと思います | Romaji: Karera ga seikou suru no wa kakujitsu da to omoimasu | Translation: I think they will certainly succeed.
+-----------------------------
+CLI param:  勝手
+--- Response text: ---
+1. 勝手 | Kanji: 勝手な行動は許されません | Romaji: Katte na koudou wa yurusaremasen | Translation: Selfish actions are not allowed | 
+2. 勝手 | Kanji: 勝手な方法では解決しないでください | Romaji: Katte na houhou dewa kaiketsu shinnaide kudasai | Translation: Please don't solve it in a selfish way | 
+3. 勝手 | Kanji: 彼は勝手な考え方をしている | Romaji: Kare wa katte na kangaekata wo shiteiru | Translation: He has a selfish way of thinking | 
+4. 勝手 | Kanji: 私たちは勝手に決めてはいけません | Romaji: Watashitachi wa katte ni kimete wa ikemasen | Translation: We must not decide selfishly| 
+5. 勝手 | Kanji: この仕事は勝手なやり方ではできません| Romaji: Kono shigoto wa katte na yarikata dewa dekimasen| Translation: This job cannot be done in a selfish way|
+-----------------------------
+CLI param:  可能
+--- Response text: ---
+1. 可能 | Kanji: 彼は可能な限り頑張った | Romaji: Kare wa kanōna kagiri ganbatta | Translation: He tried as much as possible. 
+2. 可能 | Kanji: 彼女は可能な限り時間を有効に使った | Romaji: Kanojo wa kanōna kagiri jikan o yūkō ni tsukatta | Translation: She used her time effectively as much as possible. 
+3. 可能 | Kanji: そのプロジェクトは可能な限り早く完成したいと思っている | Romaji: Sono purojekuto wa kanōna kagiri hayaku kansei shitai to omotte iru | Translation: We are hoping to complete that project as soon as possible. 
+4. 可能 | Kanji: 可能な限り多くの人々に役立つサービスを提供したいと思っています | Romaji: Kanōna kagiri ōku no hitobito ni yakudatsu sābisu o teikyō shitai to omotte imasu | Translation: We want to provide services that will be useful to as many people as possible. 
+5. 可能 | Kanji: 私たちは可能な限り多くの人々に働きかけることで、この社会問題を解決しようとしています | Romaji: Watashitachi wa kanōna kagiri ōku no hitobito ni hataraki kakeru koto de, kono shakai mondai o kaiketsu shiyō to shite imasu | Translation: We are trying to solve this social problem by working with as many people as possible.
+-----------------------------
+CLI param:  かわいそう
+--- Response text: ---
+1. かわいそう | Kanji: 可愛そう | Romaji: Kawai-sou | Translation: Poor thing! |
+2. かわいそう | Kanji: 彼女はかわいそうな顔をしていた | Romaji: Kanojo wa kawai-sou na kao o shiteita | Translation: She had a pitiful face. |
+3. かわいそう | Kanji: 彼はかわいそうな様子で泣いていた | Romaji: Kare wa kawai-sou na yousu de naiteita | Translation: He was crying in a pitiful way. |
+4. かわいそう | Kanji: 彼女はかわいそうに話していた | Romaji: Kanojo wa kawai-sou ni hanashiteita | Translation: She was talking sadly.| 
+5. かわいそう | Kanji: 子供がかわいそうな声で泣いているのが聞こえた | Romaji: Kodomo ga kawai-sou na koe de naiteiru no ga kikoeta | Translation: I could hear the child crying in a pitiful voice.|
+-----------------------------
+CLI param:  頑固
+--- Response text: ---
+1. 頑固 | Kanji: 彼は頑固な性格である | Romaji: Kare wa ganko na seikaku de aru | Translation: He has a stubborn personality. | 
+2. 頑固 | Kanji: 彼女は頑固な態度で話している | Romaji: Kanojo wa ganko na taido de hanashite iru | Translation: She is talking in a stubborn attitude. | 
+3. 頑固 | Kanji: 彼らは頑固な態度で議論を続けた | Romaji: Karera wa ganko na taido de giron o tsuzuketa | Translation: They continued the discussion in a stubborn attitude. | 
+4. 頑固 | Kanji: 彼らは頑固な考えを持っている | Romaji: Karera wa ganko na kangae o motte iru | Translation: They have a stubborn opinion. | 
+5. 頑固 | Kanji: 彼女は頑固な立場を取っている | Romaji: Kanojo wa ganko na tachiba o totte iru | Translation: She is taking a stubborn stance.
+-----------------------------
+CLI param:  完全
+--- Response text: ---
+1. 完全 | Kanji: 完全な仕事をする | Romaji: Kanzen na shigoto o suru | Translation: Do a perfect job | 
+2. 完全 | Kanji: 完全な把握を得る | Romaji: Kanzen na haaku o eru | Translation: Gain a complete understanding | 
+3. 完全 | Kanji: 完全な結果を出す | Romaji: Kanzen na kekka o dasu | Translation: Produce a perfect result | 
+4. 完全 | Kanji: 完全な試験を受ける | Romaji: Kanzen na shiken o ukeru | Translation: Take a complete exam| 
+5. 完全 | Kanji: 完全な調和を保つ | Romaji: Kanzen na chouwa o tamotsu| Translation: Maintain perfect harmony|
+-----------------------------
+CLI param:  客観的
+--- Response text: ---
+1. 客観的 | Kanji: 客観的な見方を取ることが重要だ | Romaji: Kyakkanteki na mikata o toru koto ga juuyou da | Translation: It is important to take an objective view. 
+2. 客観的 | Kanji: 客観的な判断を下すことが大切です | Romaji: Kyakkanteki na handan o kudasu koto ga taisetsu desu | Translation: It is important to make an objective judgement. 
+3. 客観的 | Kanji: 感情に左右されず、客観的な分析を行うことが大切です | Romaji: Kanjou ni sayuu sarezu, kyakkanteki na bunseki o okonau koto ga taisetsu desu | Translation: It is important to conduct an objective analysis without being influenced by emotions. 
+4. 客観的 | Kanji: 客観的な立場から物事を考えることが必要です | Romaji: Kyakkanteki na tachiba kara monogoto o kangaeru koto ga hitsuyou desu | Translation: It is necessary to think about things from an objective standpoint. 
+5. 客観的 | Kanji: 状況を客観的に捉えることが重要です | Romaji: Joukou o kyakkanteki ni toraeru koto ga juuyou desu | Translation: It is important to perceive the situation objectively.
+-----------------------------
+CLI param:  具体的
+--- Response text: ---
+1. 具体的 | Kanji: 具体的な方法があるといいですね | Romaji: gutaiteki na houhou ga aru to ii desu ne | Translation: It would be nice if there were a specific method | 
+2. 具体的 | Kanji: 彼は具体的な計画を立てていました | Romaji: kare wa gutaiteki na keikaku o tatete imashita | Translation: He had made a specific plan | 
+3. 具体的 | Kanji: 具体的な改善策を考えています | Romaji: gutaiteki na kaizen saku o kangaete imasu | Translation: We are thinking of concrete improvement measures | 
+4. 具体的 | Kanji: その問題に対する具体的な解決策を提案しました | Romaji: sono mondai ni taisuru gutaiteki na kaiketsu saku o teian shimashita | Translation: I proposed a concrete solution to that problem | 
+5. 具体的 | Kanji: 彼女は具体的なアイデアを出してくれました | Romaji: kanojo wa gutaiteki na aidea o dashite kuremashita | Translation: She gave me a concrete idea
+-----------------------------
+CLI param:  経済的
+--- Response text: ---
+1. 経済的 | Kanji: 経済的な状況が大きく改善された | Romaji: Keizaiteki na joukyou ga ookiku kaizen sareta | Translation: The economic situation has greatly improved | 
+2. 経済的 | Kanji: 経済的な観点から考えると、この計画は成功する可能性が高い | Romaji: Keizaiteki na kanten kara kangaeru to, kono keikaku wa seikou suru kanousei ga takai | Translation: From an economic point of view, this plan has a high chance of success | 
+3. 経済的 | Kanji: 経済的な状況が厳しい中で、多くの企業が倒産している | Romaji: Keizaiteki na joukyou ga kibishii naka de, ooku no kigyou ga touzan shite iru | Translation: In the harsh economic situation, many companies are going bankrupt | 
+4. 経済的 | Kanji: この国の経済的な発展を促進するために、新しい法律が制定された | Romaji: Kono kuni no keizaiteki na hatten o sokushin suru tame ni, atarashii houritsu ga seitei sareta | Translation: New laws were enacted to promote the economic development of this country | 
+5. 経済的 | Kanji: 彼は経済的な理解をしているので、この問題について話し合うことができる | Romaji: Kare wa keizaiteki na rikai o shite iru node, kono mondai ni tsuite hanashiau koto ga dekiru | Translation: He has an economic understanding, so he can discuss this issue.
+-----------------------------
+CLI param:  幸福
+--- Response text: ---
+1. 幸福 | Kanji: 幸福は心にあるものだ | Romaji: Koufuku wa kokoro ni aru mono da | Translation: Happiness is something that lies in the heart. 
+2. 幸福 | Kanji: 私たちは幸福を求めて生きるべきだ | Romaji: Watashitachi wa koufuku o motomete ikiru beki da | Translation: We should live our lives seeking happiness. 
+3. 幸福 | Kanji: 私たちは幸福を探している | Romaji: Watashitachi wa koufuku o sagashite iru | Translation: We are searching for happiness. 
+4. 幸福 | Kanji: 幸福を感じることが重要なのだ | Romaji: Koufuku o kanjiru koto ga juuyou na no da | Translation: It is important to feel happiness. 
+5. 幸福 | Kanji: 日々の努力が幸福につながるのだ | Romaji: Hibi no doryoku ga koufuku ni tsunagaru no da | Translation: Everyday effort leads to happiness.
+-----------------------------
+CLI param:  国際的
+--- Response text: ---
+1. 国際的 | Kanji: 国際的な関係を築くことが重要です | Romaji: Kokusai-tekina kankei o kizuku koto ga juuyou desu | Translation: It is important to build international relations. 
+2. 国際的 | Kanji: 国際的な視点から考えることで、新しい可能性を見出すことができます | Romaji: Kokusai-tekina shiten kara kangaeru koto de, atarashii kanousei o midasu koto ga dekimasu | Translation: By thinking from an international perspective, we can find new possibilities. 
+3. 国際的 | Kanji: 国際的な協調を促進するためには、多様な文化を尊重する必要があります | Romaji: Kokusai-tekina kyouchou o sokushin suru tame ni wa, tayou na bunka o sonchou suru hitsuyou ga arimasu | Translation: In order to promote international cooperation, it is necessary to respect diverse cultures. 
+4. 国際的 | Kanji: 国際的な問題を解決するためには、国家間の協力が不可欠です | Romaji: Kokusai-tekina mondai o kaiketsu suru tame ni wa, kokka-kan no kyouryoku ga fukaketsu desu | Translation: In order to solve international problems, cooperation between countries is indispensable. 
+5. 国際的 | Kanji: 国際的な協力を促進し、世界平和への貢献をしたいと思っています| Romaji: Kokusai-tekina kyouryoku o sokushin shi, sekai heiwa e no kouken o shitai to omotte imasu | Translation: I want to promote international cooperation and contribute to world peace.
+-----------------------------
+CLI param:  盛ん
+--- Response text: ---
+1. 盛んな話題 | Kanji: 盛んな話題 | Romaji: mori-na wadai | Translation: Popular topic | 
+2. 盛んな活動 | Kanji: 盛んな活動 | Romaji: mori-na katsudou | Translation: Active activity | 
+3. 盛んな反応 | Kanji: 盛んな反応 | Romaji: mori-na hannou | Translation: Vigorous response | 
+4. 盛んな雰囲気 | Kanji: 盛んな雰囲気 | Romaji: mori-na fun'iki | Translation: Vibrant atmosphere | 
+5. 盛んな議論 | Kanji: 盛んな議論 | Romaji: mori-na giron | Translation: Vigorous debate|
+-----------------------------
+CLI param:  さまざま
+--- Response text: ---
+1. さまざまな種類 | Kanji: さまざまな種類 | Romaji: samazama na shurui | Translation: Various kinds | 
+2. さまざまな場所 | Kanji: さまざまな場所 | Romaji: samazama na basho | Translation: Various places | 
+3. さまざまな色 | Kanji: さまざまな色 | Romaji: samazama na iro | Translation: Various colors | 
+4. さまざまな性格 | Kanji: さまざまな性格 | Romaji: samazama na seikaku | Translation: Various personalities | 
+5. さまざまなレベル | Kanji: さまざまなレベル | Romaji: samazama na reberu | Translation: Various levels|
+-----------------------------
+CLI param:  幸せ
+--- Response text: ---
+1. 幸せ | Kanji: 幸せな毎日を過ごしたい | Romaji: shiawase na mainichi o sugoshitai | Translation: I want to spend a happy everyday | 
+2. 幸せ | Kanji: 幸せな気持ちを大切にしています | Romaji: shiawase na kimochi o taisetsu ni shiteimasu | Translation: I treasure my happy feelings | 
+3. 幸せ | Kanji: 幸せな家族と過ごしたい | Romaji: shiawase na kazoku to sugoshitai | Translation: I want to spend time with my happy family | 
+4. 幸せ | Kanji: 幸せな瞬間を大切にします | Romaji: shiawase na shunkan o taisetsu ni shimasu | Translation: I cherish the happy moments | 
+5. 幸せ | Kanji: 幸せな日々を過ごしたいです | Romaji: shiawase na hibi o sugoshitai desu| Translation: I want to spend happy days
+-----------------------------
+CLI param:  地味
+--- Response text: ---
+1. 地味 | Kanji: 地味な服装は決して醜くない | Romaji: Jimi na fukusou wa kesshite minikuku nai | Translation: Plain clothes are never ugly | 
+2. 地味 | Kanji: 彼女は地味な服装で華やかなパーティーに参加した | Romaji: Kanojo wa jimi na fukusou de hanayaka na paatii ni sanka shita | Translation: She attended the glamorous party in plain clothes | 
+3. 地味 | Kanji: 彼は地味な服装で素敵なインパクトを与えた | Romaji: Kare wa jimi na fukusou de suteki na inpakuto o ataeta | Translation: He made a nice impact with his plain clothes | 
+4. 地味 | Kanji: 彼女は地味な服装を選んだが、とても素敵だった | Romaji: Kanojo wa jimi na fukusou o eranda ga, totemo suteki datta | Translation: She chose plain clothes, but it was very nice | 
+5. 地味 | Kanji: 彼は地味な服装でもかっこよく見えた | Romaji: Kare wa jimi na fukusou demo kakko yoku mieta | Translation: He looked cool even in plain clothes
+-----------------------------
+CLI param:  重大
+--- Response text: ---
+1. 重大 | Kanji: この重大な問題は解決する必要があります | Romaji: Kono juudai na mondai wa kaiketsu suru hitsuyou ga arimasu | Translation: This serious problem needs to be solved. 
+2. 重大 | Kanji: 彼は重大なミスを犯した | Romaji: Kare wa juudai na misu o okashita | Translation: He made a serious mistake. 
+3. 重大 | Kanji: この事件は重大な犯罪です | Romaji: Kono jiken wa juudai na hanzai desu | Translation: This incident is a serious crime. 
+4. 重大 | Kanji: 彼女は重大な病気にかかっています | Romaji: Kanojo wa juudai na byouki ni kakatte imasu | Translation: She is suffering from a serious illness. 
+5. 重大 | Kanji: 私たちは重大な間違いをしてしまった | Romaji: Watashitachi wa juudai na machigai o shite shimatta | Translation: We made a serious mistake.
+-----------------------------
+CLI param:  重要
+--- Response text: ---
+1. 重要 | Kanji: これは重要な問題です | Romaji: Kore wa juuyou na mondai desu | Translation: This is an important issue. | 
+2. 重要 | Kanji: 彼は重要な話をしました | Romaji: Kare wa juuyou na hanashi o shimashita | Translation: He talked about something important. | 
+3. 重要 | Kanji: 重要な情報を把握しておく必要があります | Romaji: Juuyou na jouhou o haaku shite oku hitsuyou ga arimasu | Translation: It is necessary to grasp important information. | 
+4. 重要 | Kanji: この件は重要なことなので、注意してください | Romaji: Kono ken wa juuyou na koto nano de, chuui shite kudasai | Translation: This matter is important, so please be careful. | 
+5. 重要 | Kanji: 彼女は重要な情報を教えてくれました | Romaji: Kanojo wa juuyou na jouhou o oshiete kuremashita| Translation: She gave me important information.
+-----------------------------
+CLI param:  消極的
+--- Response text: ---
+1. 消極的 | Kanji: 彼は消極的な態度をとっている | Romaji: Kare wa shoukyokuteki na taido o totte iru | Translation: He has a passive attitude | 
+2. 消極的 | Kanji: その計画は消極的な考え方で実行された | Romaji: Sono keikaku wa shoukyokuteki na kangae kata de jikkou sareta | Translation: The plan was implemented with a passive approach | 
+3. 消極的 | Kanji: 彼女はとても消極的である | Romaji: Kanojo wa totemo shoukyokuteki de aru | Translation: She is very passive | 
+4. 消極的 | Kanji: 社会が消極的な姿勢をとることを許さない | Romaji: Shakai ga shoukyokuteki na shisei o toru koto o yurusanai | Translation: Society does not allow a passive stance to be taken | 
+5. 消極的 | Kanji: 彼らは、変化に対して消極的だった | Romaji: Karera wa, henka ni taishite shoukyokuteki datta| Translation: They were passive towards change
+-----------------------------
+CLI param:  新鮮
+--- Response text: ---
+1. 新鮮 | Kanji: 新鮮な野菜を買った | Romaji: Shinsen na yasai o katta | Translation: I bought fresh vegetables | 
+2. 新鮮 | Kanji: 新鮮な魚を今日は食べた | Romaji: Shinsen na sakana o kyou wa tabeta | Translation: I ate fresh fish today | 
+3. 新鮮 | Kanji: 新鮮な空気を息したい | Romaji: Shinsen na kuuki o ikitai | Translation: I want to breathe fresh air | 
+4. 新鮮 | Kanji: 新鮮な果物を食べたいです | Romaji: Shinsen na kudamono o tabetai desu | Translation: I want to eat fresh fruits | 
+5. 新鮮 | Kanji: この新鮮な野菜は美味しいですね！Romaji: Kono shinsen na yasai wa oishii desu ne!| Translation: This fresh vegetable is delicious, isn't it!
+-----------------------------
+CLI param:  素敵
+--- Response text: ---
+1. 素敵 | Kanji: 素敵な旅行をしたい | Romaji: Suteki na ryokou o shitai | Translation: I want to have a nice trip |
+2. 素敵 | Kanji: 素敵な夢を見ることができました | Romaji: Suteki na yume o miru koto ga dekimashita | Translation: I was able to have a nice dream |
+3. 素敵 | Kanji: 彼女はとても素敵な人です | Romaji: Kanojo wa totemo suteki na hito desu | Translation: She is a very nice person |
+4. 素敵 | Kanji: 彼女は素敵な才能を持っています  | Romaji: Kanojo wa suteki na sainou o motte imasu  | Translation: She has a great talent |
+5. 素敵 | Kanji: それはとても素敵なギフトだった | Romaji: Sore wa totemo suteki na gifuto datta  | Translation: It was a very nice gift.
+-----------------------------
+CLI param:  スペシャル
+--- Response text: ---
+1. スペシャル | 漢字：特別な日を迎えるのはスペシャルな気持ちです | ローマ字：Tokubetsuna hi o mukaeru no wa supesharu na kimochi desu | Translation: To welcome a special day is a special feeling.
+2. スペシャル | 漢字：今日はスペシャルなメニューを提供します | ローマ字：Kyou wa supesharu na menyuu o teikyou shimasu | Translation: Today we offer a special menu.
+3. スペシャル | 漢字：彼女の誕生日はとてもスペシャルな日です | ローマ字：Kanojo no tanjoubi wa totemo supesharu na hi desu | Translation: Her birthday is a very special day.
+4. スペシャル | 漢字：今日はスペシャルなイベントを行います | ローマ字：Kyou wa supesharu na ibento o okonaimasu | Translation: Today we will have a special event.
+5. スペシャル | 漢字：彼女との素敵なデートがスペシャルな思い出です | ローマ字：Kanojo to no suteki na deeto ga supesharu na omoide desu | Translation: The wonderful date with her is a special memory.
+-----------------------------
+CLI param:  正確
+--- Response text: ---
+1. 正確 | Kanji: 正確な情報を入手することが重要です | Romaji: Seikaku na jouhou o nyuushu suru koto ga juuyou desu | Translation: It is important to obtain accurate information. 
+2. 正確 | Kanji: 正確な計算を行うためには、正しい数字を使用しなければなりません | Romaji: Seikaku na keisan o okonau tame ni wa, tadashii suuji o shiyou shinakereba narimasen | Translation: To make accurate calculations, you must use the correct numbers. 
+3. 正確 | Kanji: 正確な回答を出すためには、時間をかけて考える必要があります | Romaji: Seikaku na kaitou o dasu tame ni wa, jikan o kakete kangaeru hitsuyou ga arimasu | Translation: To give an accurate answer, you need to take time to think about it. 
+4. 正確 | Kanji: 正確な情報を提供するためには、厳格なチェックが必要です | Romaji: Seikaku na jouhou o teikyousuru tame ni wa, genkaku na chekku ga hitsuyou desu | Translation: To provide accurate information, a strict check is necessary. 
+5. 正確 | Kanji: 正確な検査を行うことで、正しい診断が得られます | Romaji: Seikaku na kensa o okonau koto de, tadashii shindan ga eruerimasu | Translation: By performing an accurate examination, you can get a correct diagnosis.
+-----------------------------
+CLI param:  ぜいたく
+--- Response text: ---
+1. ぜいたく | Kanji: 税抜きでぜいたくな商品を買いたい | Romaji: zeinuki de zeitaku na shouhin o kaitai | Translation: I want to buy luxurious products tax-free |
+2. ぜいたく | Kanji: 彼はぜいたくな車を買った | Romaji: kare wa zeitaku na kuruma o katta | Translation: He bought a luxurious car |
+3. ぜいたく | Kanji: 彼女はぜいたくな服を着ている | Romaji: kanojo wa zeitaku na fuku o kite iru | Translation: She is wearing luxurious clothes | 
+4. ぜいたく | Kanji: 彼らはぜいたくな家を建てる予定だ | Romaji: karera wa zeitaku na ie o tateru yotei da | Translation: They plan to build a luxurious house | 
+5. ぜいたく | Kanji: 私はぜいたくな食事をしました | Romaji: watashi wa zeitaku na shokuji o shimashita| Translation: I had a luxurious meal
+-----------------------------
+CLI param:  積極的
+--- Response text: ---
+1. 積極的 | Kanji: 積極的な態度で物事を進める | Romaji: Sekkyokuteki na taido de monogoto o susumeru | Translation: Proceed with a positive attitude | 
+2. 積極的 | Kanji: 自分自身を積極的に肯定する | Romaji: Jibun jishin o sekkyokuteki ni koudou suru | Translation: Positively affirm yourself | 
+3. 積極的 | Kanji: 新しいチャレンジに積極的に取り組む | Romaji: Atarashii charenji ni sekkyokuteki ni torikumu | Translation: Take on new challenges positively | 
+4. 積極的 | Kanji: 課題を積極的に解決する方法を考える | Romaji: Kadai o sekkyokuteki ni kaiketsu suru houhou o kangaeru | Translation: Think of ways to actively solve problems | 
+5. 積極的 | Kanji: 向上心を積極的に保つことが大切だ | Romaji: Koujoushin o sekkyokuteki ni tamotsu koto ga taisetsu da | Translation: It is important to actively maintain a spirit of improvement.
+-----------------------------
+CLI param:  そっくり
+--- Response text: ---
+1. そっくり | Kanji: 彼女は妹とそっくりだ | Romaji: Kanojo wa imouto to sokkuri da | Translation: She looks just like her sister | 
+2. そっくり | Kanji: 彼女は母親とそっくりだ | Romaji: Kanojo wa hahaoya to sokkuri da | Translation: She looks just like her mother | 
+3. そっくり | Kanji: 息子は父親とそっくりだ | Romaji: Musuko wa chichioya to sokkuri da | Translation: The son looks just like his father | 
+4. そっくり | Kanji: 友達が兄弟とそっくりだ | Romaji: Tomodachi ga kyoudai to sokkuri da | Translation: My friend looks just like his brother | 
+5. そっくり | Kanji: 私たちは双子のようにそっくりだ | Romaji: Watashitachi wa futago no you ni sokkuri da| Translation: We look just like twins
+-----------------------------
+CLI param:  ソフト
+--- Response text: ---
+1. ソフト | Kanji: ソフトウェアを使っていると、便利な機能がたくさんある | Romaji: Sofutouea o tsukatte iru to, benri na kinou ga takusan aru | Translation: When using software, there are many useful functions. 
+2. ソフト | Kanji: ソフトな質感の服を着ると、とても居心地がいい | Romaji: Sofuto na shitsukan no fuku o kiru to, totemo igokochi ga ii | Translation: When wearing soft-feeling clothes, it is very comfortable. 
+3. ソフト | Kanji: ソフトな風合いの生地を使って毛布を作ると、暖かくて快適なものになる | Romaji: Sofuto na fuai no nedai o tsukatte moufu o tsukuru to, atatakakute kaiteki na mono ni naru | Translation: When making a blanket with soft-textured fabric, it will become warm and comfortable. 
+4. ソフト | Kanji: ソフトな接し方で人間関係を築くことが大切だ | Romaji: Sofuto na sesshikata de ningen kankei o kizuku koto ga taisetsu da | Translation: It is important to build human relationships with a soft approach. 
+5. ソフト | Kanji: ソフトなタッチでピアノを弾くことで、美しい音色を奏でることができる | Romaji: Sofuto na tacchi de piano o hiku koto de, utsukushii neiro o kanaderu koto ga dekiru | Translation: By playing the piano with a soft touch, you can produce beautiful tones.
+-----------------------------
+CLI param:  退屈
+--- Response text: ---
+1. 退屈 | Kanji: 毎日の生活が退屈で仕方がない | Romaji: Mainichi no seikatsu ga taikutsu de shikata ga nai | Translation: Everyday life is so boring, there's nothing to be done about it |
+2. 退屈 | Kanji: 彼は退屈な毎日を過ごしている | Romaji: Kare wa taikutsu na mainichi o sugoshite iru | Translation: He is spending a boring everyday life | 
+3. 退屈 | Kanji: 会話が退屈なので、早く帰りたい | Romaji: Kaiwa ga taikutsu na node, hayaku kaeritai | Translation: The conversation is so boring, I want to go home soon | 
+4. 退屈 | Kanji: 彼女は退屈な毎日を憂うようにしている | Romaji: Kanojo wa taikutsu na mainichi o ureu you ni shite iru | Translation: She is acting like she's worried about her boring everyday life | 
+5. 退屈 | Kanji: 彼は退屈な仕事をすることに耐えられなかった | Romaji: Kare wa taikutsu na shigoto o suru koto ni taerarenakatta | Translation: He couldn't bear the boring job he had to do
+-----------------------------
+CLI param:  確か
+--- Response text: ---
+1. 確か | Kanji: 確かなことはわかりません | Romaji: tashikana koto wa wakarimasen | Translation: I'm not sure | 
+2. 確か | Kanji: 彼女の確かな証拠がない | Romaji: kanojo no tashikana shouko ga nai | Translation: There is no certain evidence of her | 
+3. 確か | Kanji: 確かに彼はそう言った | Romaji: tashikani kare wa sou itta | Translation: He certainly said so | 
+4. 確か | Kanji: 彼が確かに正しいと思うわけではない | Romaji: kare ga tashikani tadashii to omou wake dewa nai | Translation: I don't think he's necessarily right | 
+5. 確か | Kanji: この結果は確かに正しいと思う | Romaji: kono kekka wa tashikani tadashii to omou | Translation: I think this result is certainly correct
+-----------------------------
+CLI param:  単純
+--- Response text: ---
+1. 単純 | Kanji: 単純な話し方は、人々を惹きつける | Romaji: Tanjun na hanashi kata wa, hitobito o hikitsukeru | Translation: A simple way of speaking attracts people. 
+2. 単純 | Kanji: 単純な質問では、困難な問題を解決できない | Romaji: Tanjun na shitsumon de wa, konnan na mondai o kaiketsu dekinai | Translation: Simple questions cannot solve difficult problems. 
+3. 単純 | Kanji: 単純な考え方は、本当の価値を見失う可能性がある | Romaji: Tanjun na kangaekata wa, hontou no kachi o miushinau kanousei ga aru | Translation: Simple thinking can lead to losing sight of true value. 
+4. 単純 | Kanji: 単純な行動だけでは、大きな変化をもたらすことはできない | Romaji: Tanjun na koudou dake dewa, ookina henka o motarasu koto wa dekinai | Translation: Simple actions alone cannot bring about great changes. 
+5. 単純 | Kanji: 単純な仮定からは、真実を導くことができない | Romaji: Tanjun na katei kara wa, shinjitsu o michibiku koto ga dekinai | Translation: From a simple assumption, it is not possible to lead to the truth.
+-----------------------------
+CLI param:  適当
+--- Response text: ---
+1. 適当 | Kanji: 適当な態度は良くありません | Romaji: Tekitou na taido wa yoku arimasen | Translation: An indifferent attitude is not good. 
+2. 適当 | Kanji: 私は適当な答えを思いつかなかった | Romaji: Watashi wa tekitou na kotae o omoitsukanakatta | Translation: I couldn't think of a suitable answer. 
+3. 適当 | Kanji: 彼女は適当な時間に家に帰ることを忘れてしまった | Romaji: Kanojo wa tekitou na jikan ni ie ni kaeru koto o wasurete shimatta | Translation: She forgot to return home at a reasonable time. 
+4. 適当 | Kanji: 彼らは適当な行動を取らなかった | Romaji: Karera wa tekitou na koudou o toranakatta | Translation: They didn't take appropriate action. 
+5. 適当 | Kanji: 彼は適当な理由もなく私を怒鳴りつけた | Romaji: Kare wa tekitou na riyuu mo naku watashi o donaritsuketa | Translation: He shouted at me for no good reason.
+-----------------------------
+CLI param:  得意
+--- Response text: ---
+1. 得意 | Kanji: 彼は英語を得意としている | Romaji: Kare wa eigo o tokui to shite iru | Translation: He is good at English | 
+2. 得意 | Kanji: 彼女は自分の専門分野で得意となっている | Romaji: Kanojo wa jibun no senmon bun'ya de tokui to natte iru | Translation: She is becoming proficient in her own specialty field | 
+3. 得意 | Kanji: 私は数学が得意です | Romaji: Watashi wa suugaku ga tokui desu | Translation: I'm good at math | 
+4. 得意 | Kanji: 私はパソコンを得意としています | Romaji: Watashi wa pasokon o tokui to shite imasu | Translation: I'm good at using computers | 
+5. 得意 | Kanji: 彼女は料理が得意です | Romaji: Kanojo wa ryouri ga tokui desu | Translation: She is good at cooking
+-----------------------------
+CLI param:  苦手
+--- Response text: ---
+1. 苦手 | Kanji: 苦手なことは何もできません | Romaji: Nigate na koto wa nanimo dekimasen | Translation: I can't do anything I'm bad at | 
+2. 苦手 | Kanji: 苦手な科目は勉強して努力します | Romaji: Nigate na kamoku wa benkyou shite doryoku shimasu | Translation: I will study and work hard on the subjects I'm not good at | 
+3. 苦手 | Kanji: 苦手なスポーツは練習して上達したいと思います | Romaji: Nigate na supootsu wa renshuu shite joutatsu shitai to omoimasu | Translation: I want to practice and improve at the sports I'm not good at | 
+4. 苦手 | Kanji: 苦手な数学を少しずつ理解していきます | Romaji: Nigate na suugaku o sukoshi zutsu rikai shite ikimasu | Translation: I will gradually understand the math I'm not good at| 
+5. 苦手 | Kanji: 苦手な言語を勉強して上達したいと思います| Romaji: Nigate na gengo o benkyou shite joutatsu shitai to omoimasu| Translation: I want to study and improve at the language I'm not good at|
+-----------------------------
+CLI param:  派手
+--- Response text: ---
+1. 派手 | Kanji: 彼は派手な服を着ていた | Romaji: Kare wa hade na fuku o kiteita | Translation: He was wearing flashy clothes | 
+2. 派手 | Kanji: 彼女は派手なヘアスタイルをしていた | Romaji: Kanojo wa hade na heasutairu o shiteita | Translation: She had a flashy hairstyle | 
+3. 派手 | Kanji: 彼らは派手な車を乗っていた | Romaji: Karera wa hade na kuruma o notteita | Translation: They were riding a flashy car | 
+4. 派手 | Kanji: 彼女は派手なネックレスをしていた | Romaji: Kanojo wa hade na nekkuresu o shiteita | Translation: She was wearing a flashy necklace | 
+5. 派手 | Kanji: 彼は派手な革ジャンを着ていた | Romaji: Kare wa hade na kawagane jyan o kiteita | Translation: He was wearing a flashy leather jacket
+-----------------------------
+CLI param:  貧乏
+--- Response text: ---
+1. 貧乏 | Kanji: 貧乏な生活をしている | Romaji: binbou na seikatsu o shite iru | Translation: I'm living a poor life. |
+2. 貧乏 | Kanji: 彼は貧乏な家庭出身だ | Romaji: kare wa binbou na katei shusshin da | Translation: He comes from a poor family. |
+3. 貧乏 | Kanji: 彼女は貧乏なので、お金を借りる必要がある | Romaji: kanojo wa binbou na node, okane o kariru hitsuyou ga aru | Translation: She is poor, so she needs to borrow money. |
+4. 貧乏 | Kanji: 私は貧乏であることを誇りに思う | Romaji: watashi wa binbou de aru koto o hokori ni omou | Translation: I take pride in being poor. | 
+5. 貧乏 | Kanji: 彼は貧乏なので、学校に行くことができなかった | Romaji: kare wa binbou na node, gakkou ni iku koto ga dekinakatta | Translation: He was too poor to go to school.
+-----------------------------
+CLI param:  不安
+--- Response text: ---
+1. 不安 | Kanji: 不安な気持ちがわたしを襲ってきた | Romaji: Fuan na kimochi ga watashi o osotte kita | Translation: I was suddenly overcome with a feeling of unease | 
+2. 不安 | Kanji: 彼女は不安な表情で話していた | Romaji: Kanojo wa fuan na hyoujou de hanashite ita | Translation: She was speaking with an anxious expression | 
+3. 不安 | Kanji: 彼は不安そうな顔をしていた | Romaji: Kare wa fuan sou na kao o shite ita | Translation: He had a worried look on his face | 
+4. 不安 | Kanji: わたしは不安な気持ちがすごく強くなってきた | Romaji: Watashi wa fuan na kimochi ga sugoku tsuyoku natte kita | Translation: I have been feeling increasingly anxious| 
+5. 不安 | Kanji: この状況の中で、わたしは不安になっている | Romaji: Kono joukyou no naka de, watashi wa fuan ni natte iru| Translation: In this situation, I am feeling uneasy|
+-----------------------------
+CLI param:  不規則
+--- Response text: ---
+1. 不規則 | Kanji: 不規則な振る舞いをしている | Romaji: Fukuregina furumai o shiteiru | Translation: He is behaving irregularly. |
+2. 不規則 | Kanji: 彼は不規則な時間で仕事をしている | Romaji: Kare wa fukuregina jikan de shigoto o shiteiru | Translation: He is working at irregular times. |
+3. 不規則 | Kanji: 彼女の行動は不規則だった | Romaji: Kanojo no koudou wa fukuregida tta | Translation: Her behavior was irregular. |
+4. 不規則 | Kanji: この文章は不規則な文法を使っている | Romaji: Kono bunshou wa fukuregina bunpou o tsukatteiru | Translation: This sentence is using irregular grammar.|
+5. 不規則 | Kanji: 彼らが持つ行動パターンは不規則である | Romaji: Karera ga motsu koudou patan wa fukuregida aru| Translation: Their behavior patterns are irregular.
+-----------------------------
+CLI param:  複雑
+--- Response text: ---
+1. 複雑 | Kanji: 複雑な問題を解決する | Romaji: Fukuzatsu na mondai o kaiketsu suru | Translation: Solve a complex problem | 
+2. 複雑 | Kanji: 複雑な状況を理解する | Romaji: Fukuzatsu na joukyou o rikai suru | Translation: Understand a complex situation | 
+3. 複雑 | Kanji: 複雑なプロセスをマスターする | Romaji: Fukuzatsu na purosesu o masutā suru | Translation: Master a complex process | 
+4. 複雑 | Kanji: 複雑な組織を管理する | Romaji: Fukuzatsu na soshiki o kanri suru | Translation: Manage a complex organization | 
+5. 複雑 | Kanji: 複雑な技術を使いこなす| Romaji: Fukuzatsu na gijutsu o tsukaikonasu| Translation: Master a complex technology|
+-----------------------------
+CLI param:  不幸
+--- Response text: ---
+1. 不幸 | Kanji: 不幸なことが起きてしまった | Romaji: Fukō na koto ga okite shimatta | Translation: Unfortunate thing happened | 
+2. 不幸 | Kanji: 彼は不幸な結果に終わった | Romaji: Kare wa fukō na kekka ni owatta | Translation: He ended up with an unfortunate result |
+3. 不幸 | Kanji: 彼女は不幸な運命を背負っていた | Romaji: Kanojo wa fukō na unmei o seotte ita | Translation: She was burdened with an unfortunate fate | 
+4. 不幸 | Kanji: 彼らの不幸な状況を受け入れることはできなかった | Romaji: Karera no fukō na jōkyō o ukeireru koto wa dekinakatta | Translation: I couldn't accept their unfortunate situation|
+5. 不幸 | Kanji: 彼女は悲しい思いで、不幸な結末を迎えた | Romaji: Kanojo wa kanashii omoi de, fukō na ketsumatsu o mukaeta| Translation: She met an unfortunate ending with sad feelings|
+-----------------------------
+CLI param:  無事
+--- Response text: ---
+1. 無事 | Kanji: 無事にこの仕事を終えることができました | Romaji: Muji ni kono shigoto o oeru koto ga dekimashita | Translation: I was able to finish this job safely. | 
+2. 無事 | Kanji: 彼女は無事に家に帰ってきました | Romaji: Kanojo wa muji ni ie ni kaette kimashita | Translation: She returned home safely. | 
+3. 無事 | Kanji: 彼らは無事に山を登り切った | Romaji: Karera wa muji ni yama o nobori kitta | Translation: They successfully climbed the mountain. | 
+4. 無事 | Kanji: 彼らは無事に大きな危機を乗り越えた | Romaji: Karera wa muji ni ooki na kiki o norikoe ta | Translation: They overcame a great crisis safely. | 
+5. 無事 | Kanji: 飛行機は無事に着陸した | Romaji: Hikouki wa muji ni chakuriku shita | Translation: The plane landed safely.
+-----------------------------
+CLI param:  不思議
+--- Response text: ---
+1. 不思議 | Kanji: 不思議なことが毎日起こっている | Romaji: Fushigi na koto ga mainichi okotte iru | Translation: Strange things are happening every day |
+2. 不思議 | Kanji: 彼の行動は不思議なものだった | Romaji: Kare no koudou wa fushigi na mono datta | Translation: His behavior was strange |
+3. 不思議 | Kanji: 彼女は不思議な力を持っていた | Romaji: Kanojo wa fushigi na chikara o motte ita | Translation: She had a mysterious power |
+4. 不思議 | Kanji: この映画は最後まで不思議な事件を描いている | Romaji: Kono eiga wa saigo made fushigi na jiken o egaite iru | Translation: This movie depicts a mysterious incident until the end|
+5. 不思議 | Kanji: 彼女はどうしてそんなに不思議なことを知っているのか？| Romaji: Kanojo wa doushite sonna ni fushigi na koto o shitte iru no ka?| Translation: How does she know such mysterious things?
+-----------------------------
+CLI param:  不満
+--- Response text: ---
+1. 不満 | Kanji: 彼女は彼の行動に不満を感じていた | Romaji: Kanojo wa kare no koudou ni fuman o kanjiteita | Translation: She felt dissatisfied with his behavior | 
+2. 不満 | Kanji: 彼は仕事の状況に不満を抱いていた | Romaji: Kare wa shigoto no joukyou ni fuman o daiteita | Translation: He was dissatisfied with the situation of his work | 
+3. 不満 | Kanji: 彼らはその結果に大きな不満を感じた | Romaji: Karera wa sono kekka ni ooki na fuman o kanjita | Translation: They felt great dissatisfaction with the result| 
+4. 不満 | Kanji: 彼女はその対応が良くなかったことに不満を感じた | Romaji: Kanojo wa sono taiou ga yokunakatta koto ni fuman o kanjita| Translation: She felt dissatisfied with the fact that the response was not good| 
+5. 不満 | Kanji: 私は彼の言うことに対して大きな不満を感じた | Romaji: Watashi wa kare no iu koto ni taishite ooki na fuman o kanjita| Translation: I felt great dissatisfaction with what he said|
+-----------------------------
+CLI param:  平和
+--- Response text: ---
+1. 平和 | Kanji: 私たちは平和な世界を作ることができる | Romaji: Watashitachi wa heiwa na sekai o tsukuru koto ga dekiru | Translation: We can create a peaceful world | 
+2. 平和 | Kanji: 平和は世界を繁栄させる | Romaji: Heiwa wa sekai o han'ei saseru | Translation: Peace brings prosperity to the world | 
+3. 平和 | Kanji: 平和な社会を築くために、全ての人々が協力している | Romaji: Heiwa na shakai o kizuku tame ni, subete no hitobito ga kyouryoku shite iru | Translation: Everyone is working together to build a peaceful society | 
+4. 平和 | Kanji: 平和は学ぶことでしか得られないものです | Romaji: Heiwa wa manabu koto de shika erarenai mono desu | Translation: Peace can only be obtained through learning| 
+5. 平和 | Kanji: 平和のために、私たちは行動する必要があります | Romaji: Heiwa no tame ni, watashitachi wa koudou suru hitsuyou ga arimasu | Translation: We must take action for peace|
+-----------------------------
+CLI param:  真っ赤
+--- Response text: ---
+1. 真っ赤な服を着た | Kanji: 真っ赤な服を着た | Romaji: Makka na fuku o kita | Translation: I wore a bright red dress | 
+2. 真っ赤な夕日 | Kanji: 真っ赤な夕日 | Romaji: Makka na yuuhi | Translation: A bright red sunset | 
+3. 真っ赤な頬をした | Kanji: 真っ赤な頬をした | Romaji: Makka na hoho o shita | Translation: He had bright red cheeks | 
+4. 真っ赤な炎が上がった | Kanji: 真っ赤な炎が上がった | Romaji: Makka na honoo ga agatta | Translation: A bright red flame rose up | 
+5. 真っ赤な空が広がる | Kanji: 真っ赤な空が広がる | Romaji: Makka na sora ga hirogaru| Translation: The sky spreads out in bright red colors
+-----------------------------
+CLI param:  真っ暗
+--- Response text: ---
+1. 真っ暗な夜 | Kanji: 真っ暗な夜 | Romaji: Makkura na yoru | Translation: Pitch dark night | 
+2. 真っ暗な部屋 | Kanji: 真っ暗な部屋 | Romaji: Makkura na heya | Translation: Pitch dark room | 
+3. 真っ暗な道を歩いた | Kanji: 真っ暗な道を歩いた | Romaji: Makkura na michi o aruita | Translation: Walked down a pitch dark road| 
+4. 真っ暗な未来を怖がる | Kanji: 真っ暗な未来を怖がる | Romaji: Makkura na mirai o kowagaru | Translation: Fear a pitch dark future| 
+5. 真っ暗の中で考える | Kanji: 真っ暗の中で考える | Romaji: Makkura no naka de kangaeru| Translation: Think in the pitch darkness|
+-----------------------------
+CLI param:  真っ青
+--- Response text: ---
+1. 真っ青な空 | Kanji: 真っ青な空 | Romaji: Massao na sora | Translation: The sky is a deep blue | 
+2. 真っ青な海 | Kanji: 真っ青な海 | Romaji: Massao na umi | Translation: The sea is a deep blue | 
+3. 真っ青な花 | Kanji: 真っ青な花 | Romaji: Massao na hana | Translation: The flower is a deep blue | 
+4. 真っ青な夕焼け | Kanji: 真っ青な夕焼け | Romaji: Massao na yuuyake | Translation: The sunset is a deep blue | 
+5. 真っ青な瞳 | Kanji: 真っ青な瞳 | Romaji: Massao na hitomi | Translation: His eyes are a deep blue|
+-----------------------------
+CLI param:  満足
+--- Response text: ---
+1. 満足 | Kanji: 満足しています | Romaji: manzoku shite imasu | Translation: I'm satisfied | 
+2. 満足 | Kanji: この料理は満足感があります | Romaji: kono ryouri wa manzokukan ga arimasu | Translation: This dish has a sense of satisfaction | 
+3. 満足 | Kanji: 彼女は満足しているようです | Romaji: kanojo wa manzoku shiteiru you desu | Translation: She seems to be satisfied | 
+4. 満足 | Kanji: 私はこの仕事に満足しています | Romaji: watashi wa kono shigoto ni manzoku shite imasu | Translation: I'm satisfied with this job | 
+5. 満足 | Kanji: 彼は満足した表情を浮かべていました | Romaji: kare wa manzoku shita hyoujou o ukabete imashita | Translation: He had a satisfied expression on his face
+-----------------------------
+CLI param:  無駄
+--- Response text: ---
+1. 無駄 | Kanji: 無駄な時間を過ごしてしまった | Romaji: muda na jikan o sugoshite shimatta | Translation: I wasted my time. | 
+2. 無駄 | Kanji: 無駄な努力はしないでください | Romaji: muda na doryoku wa shinai de kudasai | Translation: Please don't make any unnecessary efforts. | 
+3. 無駄 | Kanji: 無駄な言葉を言うな | Romaji: muda na kotoba o iu na | Translation: Don't say any useless words. | 
+4. 無駄 | Kanji: 無駄な口出しはしないでください | Romaji: muda na kuchidashi wa shinai de kudasai | Translation: Please don't make any unnecessary remarks. | 
+5. 無駄 | Kanji: これは無駄な試みです | Romaji: kore wa muda na shimitidesu | Translation: This is a futile attempt.|
+-----------------------------
+CLI param:  迷惑
+--- Response text: ---
+1. 迷惑 | Kanji: 彼は迷惑な行動をしていた | Romaji: Kare wa meiwaku na koudou o shite ita | Translation: He was acting in an annoying way. 
+2. 迷惑 | Kanji: 彼女は迷惑な態度で私を困らせた | Romaji: Kanojo wa meiwaku na taido de watashi o komaraseta | Translation: She annoyed me with her annoying attitude. 
+3. 迷惑 | Kanji: 彼は迷惑な態度で他の人を傷つけた | Romaji: Kare wa meiwaku na taido de hoka no hito o kizutsuketa | Translation: He hurt other people with his annoying attitude. 
+4. 迷惑 | Kanji: 彼の迷惑な言動がうるさくて耐えられなかった | Romaji: Kare no meiwaku na gendou ga urusakute taerarenakatta | Translation: His annoying words and deeds were too loud and unbearable. 
+5. 迷惑 | Kanji: 彼女の迷惑な行動に私は怒りを感じた | Romaji: Kanojo no meiwaku na koudou ni watashi wa ikari o kanjita | Translation: I felt angry at her annoying behavior.
+-----------------------------
+CLI param:  面倒
+--- Response text: ---
+1. 面倒 | Kanji: この仕事は面倒くさい | Romaji: Kono shigoto wa mendōkusai | Translation: This work is troublesome. 
+2. 面倒 | Kanji: 面倒なことをしないように気をつけて | Romaji: Mendō na koto o shinai yō ni ki o tsukete | Translation: Be careful not to do troublesome things. 
+3. 面倒 | Kanji: 彼は面倒なことが大嫌いだ | Romaji: Kare wa mendō na koto ga daikirai da | Translation: He hates troublesome things. 
+4. 面倒 | Kanji: この仕事は面倒でも終わらせなければならない | Romaji: Kono shigoto wa mendō demo owarasenakereba naranai | Translation: This work is troublesome but it must be finished. 
+5. 面倒 | Kanji: 私は面倒なことをしたくないから、できるだけ避けたいと思っています | Romaji: Watashi wa mendō na koto o shitakunai kara, dekiru dake saketai to omotte imasu | Translation: I don't want to do troublesome things, so I want to avoid them as much as possible.
+-----------------------------
+CLI param:  優秀
+--- Response text: ---
+1. 優秀 | Kanji: 彼は優秀な学生です | Romaji: Kare wa yuushuu na gakusei desu | Translation: He is an outstanding student | 
+2. 優秀 | Kanji: 彼女は優秀な試験を受けました | Romaji: Kanojo wa yuushuu na shiken o ukemashita | Translation: She took an excellent exam | 
+3. 優秀 | Kanji: 私たちは優秀なプレゼンテーションをしました | Romaji: Watashitachi wa yuushuu na purezenteeshon o shimashita | Translation: We gave an excellent presentation | 
+4. 優秀 | Kanji: このチームは優秀な成績を収めました | Romaji: Kono chiimu wa yuushuu na seiseki o osamemashita | Translation: This team achieved excellent results | 
+5. 優秀 | Kanji: 田中さんは優秀な仕事をしています | Romaji: Tanaka-san wa yuushuu na shigoto o shite imasu | Translation: Mr. Tanaka is doing outstanding work |
+-----------------------------
+CLI param:  豊か
+--- Response text: ---
+1. 豊かな生活 | Kanji: 豊かな生活を送る | Romaji: yutaka na seikatsu o okuru | Translation: Live a prosperous life | 
+2. 豊かさ | Kanji: 豊かさを手に入れるために努力した | Romaji: yutakasa o te ni ireru tame ni doryoku shita | Translation: I worked hard to get prosperity | 
+3. 豊かな心 | Kanji: 豊かな心を大切にしている | Romaji: yutaka na kokoro o taisetsu ni shite iru | Translation: Cherish a prosperous heart | 
+4. 豊かな家庭 | Kanji: 豊かな家庭を築くことができた | Romaji: yutaka na katei o kizuku koto ga dekita | Translation: I was able to build a prosperous family | 
+5. 豊かな世界 | Kanji: 私たちは豊かな世界を作ることができる | Romaji: watashitachi wa yutaka na sekai o tsukuru koto ga dekiru| Translation: We can create a prosperous world
+-----------------------------
+CLI param:  余分
+--- Response text: ---
+1. 余分 | Kanji: 余分な物は何も持っていきませんでした | Romaji: Yobun na mono wa nanimo motte ikimasen deshita | Translation: I didn't bring any extra things | 
+2. 余分 | Kanji: 彼は余分な努力をして成功しました | Romaji: Kare wa yobun na doryoku o shite seikou shimashita | Translation: He succeeded by making extra efforts |
+3. 余分 | Kanji: この本には余分な情報があります | Romaji: Kono hon ni wa yobun na jouhou ga arimasu | Translation: There is extra information in this book |
+4. 余分 | Kanji: 私は余分なお金を貯めています | Romaji: Watashi wa yobun na okane o tamete imasu | Translation: I am saving extra money |
+5. 余分 | Kanji: 彼女は余分な時間をかけて彼を助けた | Romaji: Kanojo wa yobun na jikan o kakete kare o tasuketa | Translation: She helped him by taking extra time
+-----------------------------
+CLI param:  楽
+--- Response text: ---
+1. 楽しい | Kanji: 楽しい | Romaji: tanoshii | Translation: enjoyable | 
+2. 楽しみにする | Kanji: 楽しみにする | Romaji: tanoshimi ni suru | Translation: look forward to | 
+3. 楽勝 | Kanji: 楽勝 | Romaji: rakushou | Translation: easy victory | 
+4. 楽しむ | Kanji: 楽しむ | Romaji: tanoshimu | Translation: enjoy | 
+5. 楽観的な | Kanji: 楽観的な | Romaji: rakkanteki na | Translation: optimistic |
+-----------------------------
+CLI param:  わがまま
+--- Response text: ---
+1. わがまま | Kanji: 私がまま | Romaji: watashi ga mama | Translation: I'm being selfish | 
+2. わがままな言動 | Kanji: 我がままな言動 | Romaji: wagamama na kotoba to dou | Translation: Selfish words and actions | 
+3. わがままな気持ち | Kanji: 我がままな気持ち | Romaji: wagamama na kimochi | Translation: Selfish feelings | 
+4. わがままな行動をとる | Kanji: 我がままな行動をとる | Romaji: wagamama na koudou wo toru | Translation: To take selfish actions | 
+5. わがままを許さないでください | Kanji: 我がままを許さないでください | Romaji: wagamama wo yurusanai de kudasai | Translation: Please don't allow me to be selfish.
+-----------------------------

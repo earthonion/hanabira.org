@@ -1,0 +1,42 @@
+N3 tango p.12-15
+----------------------------------
+
+| 祝い  | いわい  | celebration (conglaturatory) gift  | He gave his mother a birthday gift.  |　母に誕生日祝いを贈った。　｜
+| 応援する  | おうえんする  | to support, to cheer  | My family always supported me in everything I did.  |　私の家族は、私が何をするにも、いつも応援してくれました。　｜
+| 大型  | おおがた  | large size  | I gained weight recently, so I have to buy large size tshirts.  |　最近太ったので、大型のTシャツを買わなければなりません。　｜
+| オーケー　（する）  |   | okay, fine  | I'm doing quite okay recently.  |　最近、かなり調子がオーケーです。　｜
+| おじぎ （する） |   | a bow (to bow)  | In japan, bowing while greeting belongs to good manners.  |　日本では、お辞儀をしながら挨拶をするのがマナーです。　｜
+| おしゃべり　（する）  |   | chat (to chat)  | We talked briefly with my friends while drinking coffee.  |　コーヒーを飲みながら、友人と簡単に話をした。　｜
+| 落し物  | おとしもの  | lost property  | I lost my wallet in the shopping center, but someone found it and left it at info kiosk as lost property.  | ショッピングセンターで財布をなくしたが、誰かが見つけてくれて、落とし物としてインフォメーションキオスクに置いていってくれた。　｜
+| 思い出  | おもいで  | memory  | He has good memories from his childhood.  |　幼い頃の良い思い出があるようです。　｜
+| オリンピック  |   | Olympics  | Winter olympics are organized every 4 years.  |　冬季オリンピックは4年に1度開催されます。　｜
+| カード  |   | card  | Employees in this company use access card to enter the building.   |　この会社の社員は、アクセスカードを使って建物に入る。　｜
+   | I gave my mother flowers and birthday card.   | 母に花とバースデーカードを贈りました。
+| 開会  | かいかい  | opening of a meeting  |   |　　｜
+| 解決する  | かいけつする  | to solve, to settle  | We have solved the issue during a meeting with our engineers.  |　弊社エンジニアとの打ち合わせで解決しました。　｜
+| 外出 （する） | がいしゅつ　（する）  | going out  |   |　　｜
+| 改正　（する）  | かいせい　（する）  | revision, amendment | Employer wrote an ammendment to the employment contract.  | 雇用主が雇用契約書の修正書を作成した。  |　　｜
+| 解説　（する）  | かいせつ　（する）  | explanation  | I have explained my son how to do his homework. |　息子に宿題のやり方を解説しました。　｜
+| 回転　（する）  | かいてん　（する）  | to revolve, to spin  | The Earth keeps spinning around.  |　地球は回転し続けている。　｜
+| ガイドブック  |   | guidebook  | I planned my trip to Japan using information from a guidebook.  |　ガイドブックに載っている情報をもとに、日本への旅を計画しました。　｜
+| 書留  | かきとめ  | registered mail (doporuceny dopis)  | I always send all letters as registered mail in case it gets lost.  |　私は、万が一紛失した場合に備えて、すべての手紙を必ず書留で送っています。　｜
+| 拡大　（する）  | かくだい　（する）  | enlargement, expansion  | I cannot see details in the picture, please enlarge it. |　写真では細部が見えないので、拡大してみてください。　｜
+| 家事  | かじ  | housework  | My husband does all the housework in our household.  |　我が家は夫が家事全般をこなしています。　｜
+| 貸し出し  | かしだし  | lending  | This company still lends CDs and DVDs with music and movies.  |　この会社は今でも音楽や映画を収録したCDやDVDの貸し出しを行っています。　｜
+| 数  | かず  | number  | Mathematicians and physicists need to be good with numbers.  |　数学者や物理学者は、数を扱うのが得意である必要があります。　｜
+| 型  | かた  | model, design, type  | I bought newest laptop model by this manufacturer.  |　このメーカーのノートパソコンの最新機種を購入しました。｜
+| 片方  | かたほう  | one of two, one side  | I lost one of my contact lenses.  |　コンタクトレンズを片方なくしてしまった。　｜
+| カタログ  |   | catalog  | This online game company has great catalog of games.  |　このオンラインゲーム会社は、ゲームの素晴らしいカタログを持っています。　｜
+| 価値  | かち  | value  | After huge drop in the stock price, this company has barely any value.  |　株価の大幅な下落で、この会社の価値はほとんどなくなってしまった。　｜
+| カット　（する）  |   | cut  | To prepare dinner, we needed to cut carrots and onion.  |　夕食の準備のために、ニンジンやタマネギをカットする必要がありました。　｜
+| 活動　（する）  |　かつどう　（する） ｜ action, activity  | At school he is participating in many voluntary activities.  | 学校では、多くの自主的な活動に参加しています。  |　　
+| 我慢　（する）  | がまん　（する）  | patience, endurance  | To learn Japanese, you will need lots of patience.  |　日本語を学ぶには、たくさんの我慢が必要です。　｜
+| 神  | かみ  | god  | There are several gods in Greek mythology.  |　ギリシャ神話には、いくつかの神々が登場します。　｜
+| 空  | から  | empty  | Karate martial art means "empty hand".  |　空手という武道は「徒手空拳」を意味します。　｜
+| 革  | かわ  | leather  | She likes to wear expensive leather bags.  |　高価な革のバッグを好んで身に着けている。　｜
+
+
+
+
+
+COMPLETED

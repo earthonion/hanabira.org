@@ -1,0 +1,46 @@
+N3 tango p.1６-1９
+----------------------------------
+
+| 歓迎　（する）  | かんげい （する） | a welcome, to welcome  | We have welcomed our guests from abroad.  |　海外からのお客様をお迎えしました。　｜
+| 観光  | かんこう  | sightseeing  | We planned our trip to do as much sightseeing as possible.  |　できるだけ観光をしようと思って旅行を計画しました。　｜
+| 観察　（する）  | かんさつ　（する）  | observation  | His hobby is observing the stars and planets with a telescope.  |　趣味は望遠鏡で星や惑星を観察すること。　｜
+| 感じ  | かんじ  | impression, feeling  | I felt that he wanted to attack me.  |　私を攻撃したいのだと感じました。　｜
+| 感謝　（する）  | かんしゃ　（する）  | gratitude, thankfulness  | He expressed his gratitude for the advice I gave him.  |　私がアドバイスしたことに対して、感謝の気持ちを伝えてくれました。　｜
+| 感情  | かんじょう  | feeling, emotion  | He does not want to show any emotions.  |　感情を表に出したくないのでしょう。　｜
+| | | His feelings towards me are complicated. | 彼の私に対する気持ちは複雑です。 |
+| 感心　（する）  | かんしん　（する）  | admiration  | I always admired him as a person.  |　私はいつも彼を人間として尊敬しています。　｜
+| 関心  | かんしん  | interest, concern  | I always had great interest in mathematics.  |　私はもともと数学に大きな興味を持っていました。　｜
+|   |   |   |   |　　｜
+| 完成 （する） | かんせい （する） | completion、 to complete  | I have completed my project right before the deadline.  |　期限ギリギリでプロジェクトを完成させました。　｜
+| 感想  | かんそう  | impression, opinion  | Our opinions vary greatly.  |　私たちの意見は大きく異なります。　｜
+| 感動 （する） | かんどう　（する） | deep impression, to be emotionally moving  | She was moved when she saw me again after 10 years.  |　10年ぶりに再会した彼女は感動していた。　｜
+| 乾杯　（する）  | かんぱい　（する）  | toast, to toast  | Let's make a toast to celebrate.  |　祝杯をあげましょう。　｜
+| 管理 （する） | かんり　（する）  | management of something , to manage  | Proper money management is very important when running a company.  |　会社を経営する上で、適切な資金管理は非常に重要です。　｜
+| 関連　（する）  | かんれん　（する）  | connection, relation  | There is no connection between me and that company.  |　私とその会社には何の関係もありません。　｜
+| 機会　  | きかい  | chance  | There is still a chance that we can make it in time.  |　まだ間に合う可能性がある。　｜
+| 効きめ  | ききめ  | effect  | This method is very effective.  |　この方法は非常に効果的です。　｜
+|   |   | - | His speech had a great effect on the audience.  |　彼のスピーチは、聴衆に大きな影響を与えた。　｜
+|   |   |   |   |　　｜
+| 帰国　（する）  | きこく （する） | returning to one's home country  | When my work visa expires I will return to my country.  |　就労ビザが切れたら、国に帰ります。　｜
+| 記事  | きじ  | an article  | I prefer to read short and informative articles.  |　私は、短くて有益な記事を読むのが好きです。　｜
+| 技術  | ぎじゅつ  | technology  | Technology plays very important role in our daily lives.  |　技術は、私たちの日常生活において非常に重要な役割を担っています。　｜
+| 期待 （する） | きたい　（する）  | expectation  | I did not have high expectations, but this project was total disaster.  |　あまり期待はしていなかったのですが、このプロジェクトは大失敗でした。　｜
+| 帰宅 （する） | きたく　（する）  | returning home  | I return home only on weekends since I travel a lot due to my job.  |　仕事柄、出張が多いので週末だけ帰省しています。　｜
+| 貴重品  | きちょうひん  | valuables  | All my money and valuables were stolen during my trip.  |　旅行中にお金や貴重品をすべて盗まれた。　｜
+| 記入　（する）  | きにゅう （する） | entry, filling out   | Please fill out your personal data here.  |　こちらに個人情報をご記入ください。　｜
+| 記念 （する） | きねん （する） | commemoration  | ?????  |　　｜
+|   |   |   |   |　　｜
+| 希望　（する）  | きぼう （する） | wish, hope  | All hope is not lost.  |　すべての希望が失われたわけではありません。　｜
+| 基本  | きほん  | basic, basics  | Let's make sure we understand the basics well before continuing to the next step.  |　基本をしっかり理解した上で、次のステップに進みましょう。　｜
+| 義務  | ぎむ  | duty, responsibility  | I need to learn how to perform my duties well in my new job role.  |　新しい職場で、自分の職務をうまく遂行する方法を身につけたい。　｜
+| 疑問  | ぎもん  | question, doubt  | He has a lot of doubts regarding the new project.  |　彼は、新しいプロジェクトに多くの疑問を抱いている。　｜
+| 休憩　（する）  | きゅうけい　（する）  | a break  | To be an effective programmer I need to make regular breaks during the day.  |　プログラマーとして活躍するためには、1日の中で定期的に休憩をとることが必要です。　｜
+| 急用  | きゅうよう  | urgent business/matter  | My boss needed to leave the meeting due to urgent matter.  |　上司が急用で会議を抜けなければならなくなった。　｜
+| 行事  | ぎょうじ  | event  | There are many cultural events held in this town.  |　この町では、多くの文化イベントが開催されています。　｜
+| 競争 （する） | きょうそう （する） | competition, to compete | He competed and won in the international tournament.  |　国際大会に出場し、優勝した。　｜
+|   |   |   |   |　　｜
+
+
+
+
+COMPLETED

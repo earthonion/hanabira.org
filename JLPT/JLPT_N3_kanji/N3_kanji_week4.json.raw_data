@@ -1,0 +1,245 @@
+CLI param:  冊
+--- Response text: ---
+{"kanji": "冊","kanji_simplified": "サツ","kanji_romaji": "satsu","kanji_meaning": "book, volume","mnemonics": "The two strokes of the kanji look like two books stacked on top of each other.","sentence_japanese": "私は本を３冊買いました。","sentence_romaji": "Watashi wa hon o san satsu kaimashita.","sentence_translation": "I bought three books.","kanji_origin": "The kanji 冊 is derived from the Chinese character 册, which is composed of two parts: the top part (冂) means 'cover' and the bottom part (寸) means 'inch.' Together, they form the character 册, which means 'book' or 'volume.'","kanji_info": "The kanji 冊 is used to mean 'book' or 'volume.' It can also be used as a counter for books.","compound_words": [{"word": "単冊", "romaji": "tansatsu", "translation": "single volume"},{"word": "新刊", "romaji": "shinkan", "translation": "new publication"},{"word": "雑誌", "romaji": "zasshi", "translation":"magazine"}],"kanji_examples":[{"expression":"図書館", 	"romaji":"toshokan", 	"translation":"library"},{"expression":"本冊子", 	"romaji":"honsatsushi", 	"translation":"booklet"},{"expression":"書籍一覧", 	"romaji":"shosekiichiran", 	"translation":"list of books"}]}
+-----------------------------
+CLI param:  個
+--- Response text: ---
+{"kanji": "個","kanji_simplified": "コ","kanji_romaji": "ko","kanji_meaning": "individual, counter for articles","mnemonics": "Picture a Koala bear standing alone, representing one individual or one thing.","sentence_japanese": "彼は２個のケーキを食べた。","sentence_romaji": "Kare wa ni ko no keeki o tabeta.","sentence_translation": "He ate two cakes.","kanji_origin": "The kanji 個 is believed to have originated from the pictograph of a person standing alone.","kanji_meaning": "The kanji 個 means “individual” or “counter for articles.”","kanji_info": "The kanji 個 can be used to represent the number of items or people in a group. It is also used as a counter for objects, such as books and pieces of furniture.","compound_words": [{"word": "個人", "romaji": "kojin", "translation": "individual"},{"word": "個体", "romaji": "kotai", "translation": "individual"},{"word":"個性",  "romaji":"kosei",  "translation":"personality"}],
+"kanji_examples":[{"expression":"１個",  "romaji":"ichi ko",  "translation":"one (item)"},{"expression":"２個",  "romaji":"ni ko",  "translation":"two (items)"},{"expression":"３個以上",  "romaji":"san ko ijou",  "translation":"three or more (items)"}]}
+-----------------------------
+CLI param:  枚
+--- Response text: ---
+{"kanji": "枚","kanji_simplified": "マイ","kanji_romaji": "mai","kanji_meaning": "sheet, counter for flat objects","mnemonics": "Picture a sheet of paper with the kanji 枚 written on it. The kanji looks like a sheet of paper.","sentence_japanese": "彼は、10枚のチケットを買った。","sentence_romaji": "Kare wa, juu mai no chiketto o katta.","sentence_translation": "He bought 10 tickets.","kanji_origin": "The kanji 枚 is composed of two parts: 木 (“tree”) and 曳 (“pull”). Together they form the meaning of “pulling off a sheet from a tree,” which is thought to be the origin of this kanji.","kanji_meaning": "The kanji 枚 means “sheet, counter for flat objects.” It can be used to count things such as sheets of paper, tickets, and coins.","kanji_info": "The kanji 枚 is also used in the word 枚数 (maisuu), which means “number of sheets.”","compound_words": [{"word": "枚数", "romaji": "maisuu", "translation": "number of sheets"},{"word": "枚挙", "romaji": "maikyō", "translation": "listing"},{"word": "枚重ねる", "romaji": "mai kasaneru", 
+"translation":"to stack sheets"}],"kanji_examples":[{"expression":"10枚のチケット", 
+"romaji":"juumai no chiketto", 
+"translation":"10 tickets"},{"expression":"100枚のコイン", 
+"romaji":"hyakumai no koin", 
+"translation":"100 coins"},{"expression":"2枚のパンツ", 
+"romaji":"nimai no pantsu", 
+"translation":"2 pairs of pants"}]}
+-----------------------------
+CLI param:  告
+--- Response text: ---
+{"kanji": "告","kanji_simplified": "コク","kanji_romaji": "koku","kanji_meaning": "to inform, to tell, to announce","mnemonics": "Imagine a person 'KOKO' informing you about something.","sentence_japanese": "私は彼に正しい告げをした。","sentence_romaji": "Watashi wa kare ni tadashii koku o shita.","sentence_translation": "I informed him of the truth.","kanji_origin": "The kanji 告 is composed of the characters 口 (mouth) and 言 (words). This suggests that the kanji means “to tell” or “to inform” through words.","kanji_meaning": "The kanji 告 means “to inform” or “to tell” someone something. It can also mean “to announce” or “to declare” something.","kanji_info": "The kanji 告 is used in many Japanese words, such as 告白 (kokuhaku: confession), 告知 (kochi: announcement), and 告訴 (kosu: lawsuit).","compound_words": [{"word": "告白", "romaji": "kokuhaku", "translation": "confession"},{"word": "告知", "romaji": "kochi", "translation": "announcement"},{"word": "告訴", "romaji": "kosu", "translation": "lawsuit"}],"kanji_examples":[ {"expression":"告げ口", 
+"romaji":"tsugedzuke", 
+"translation":"a messenger"}, 
+{"expression":"告げる", 
+"romaji":"tsugeru", 
+"translation":"to inform"}, 
+{"expression":"告訴する", 
+"romaji":"kosusuru", 
+"translation":"to sue"}]}
+-----------------------------
+CLI param:  利
+--- Response text: ---
+{"kanji": "利","kanji_simplified": "リ","kanji_romaji": "ri","kanji_meaning": "benefit, advantage","mnemonics": "The kanji '利' looks like an arrow pointing upwards, indicating success or progress.","sentence_japanese": "彼は仕事を利用しています。","sentence_romaji": "Kare wa shigoto o riyou shite imasu.","sentence_translation": "He is using the job for his advantage.","kanji_origin": "The kanji '利' is derived from a pictograph of a sharpened stone used for cutting.","kanji_meaning": "The kanji '利' means benefit, advantage, or profit.","kanji_info": "The kanji '利' is used in many words related to making a profit or gaining an advantage. It can also be used to describe something that is sharp or precise.","compound_words": [{"word": "利用", "romaji": "riyou", "translation": "use"},{"word": "利益", "romaji": "riyaku", "translation": "profit"},{"word": "利潤", "romaji": "rijun", "translation":"profits"}],"kanji_examples":[{"expression":"利口な", 
+"romaji":"rikouna", 
+"translation":"clever"},{"expression":"利子", 
+"romaji":"rikko", 
+"translation":"interest"},{"expression":"利点", 
+"romaji":"riten", 
+"translation":"advantage"}]}
+-----------------------------
+CLI param:  割れる
+--- Response text: ---
+{"kanji": "割れる","kanji_simplified": "ワレル","kanji_romaji": "wareru","kanji_meaning": "to break, to split, to crack","mnemonics": "Imagine a WARrior breaking his sword in two pieces with his bare hands.","sentence_japanese": "その瓶が割れてしまった。","sentence_romaji": "Sono bin ga warete shimatta.","sentence_translation": "The bottle broke.","kanji_origin": "The kanji is composed of two parts: 刀 (katana, sword) and 分 (wakaru, to divide),","kanji_info": "The kanji 割れる is used to describe the action of something being broken or split into two parts.","compound_words": [{"word": "割合", "romaji": "wariai", "translation": "ratio"},{"word": "割り当て", "romaji": "waritatete", "translation": "allocation"},{"word": "割引", "romaji": "waribiki", "translation":"discount"}],
+"kanji_examples":[ {"expression":"割れ目", 	"romaji":"wareme", 	"translation":"crack"},{"expression":"割り勘", 	"romaji":"warikansu", 	"translation":"splitting the bill"}, {"expression":"割合が悪い", 	"romaji":"wariai ga warui", 	"translation":"the ratio is bad"}]}
+-----------------------------
+CLI param:  倍
+--- Response text: ---
+{"kanji": "倍","kanji_simplified": "バイ","kanji_romaji": "bai","kanji_meaning": "double, times two","mnemonics": "The kanji for 'two' (二) is inside the kanji for 'double' (倍). This can help you remember that '倍' means 'double',","sentence_japanese": "彼は働きを2倍にしました。","sentence_romaji": "Kare wa hataraki o ni bai ni shimashita.","sentence_translation": "He doubled his work.","kanji_origin": "The kanji 倍 is composed of the characters 二 (two) and 値 (value). It literally means “two times the value” or “double”.","kanji_meaning": "The kanji 倍 means “double” or “times two”.","kanji_info": "The kanji 倍 can also be used to mean “multiplied by” or “multiple of” in certain contexts.","compound_words": [{"word": "倍加", "romaji": "baika", "tranlation": "increase by a multiple"},{"word":"倍数", "romaji":"baisuu", "translation":"multiple"},{"word":"倍率", "romaji":"bairitsu", "translation":"rate of increase"}],
+"kanji_examples": [{"expression": "2倍", "romaji": "ni bai", "translation": "twice as much"},{"expression":"3倍", 
+"romaji":"san bai", 
+"translation":"three times as much"},{"expression":"4倍", 
+"romaji":"yon bai", 
+"translation":"four times as much"}]}
+-----------------------------
+CLI param:  値
+--- Response text: ---
+{"kanji": "値","kanji_simplified": "チ","kanji_romaji": "chi","kanji_meaning": "price, value","mnemonics": "Imagine a 'CHEAP' price tag on an item.","sentence_japanese": "このジーンズの値段はどのくらいですか？","sentence_romaji": "Kono jiinzu no nedan wa dono kurai desu ka?", "sentence_translation": "How much is the price of these jeans?", "kanji_origin": "The kanji 値 originated from a pictograph of a person carrying something on their back. It was used to represent the idea of 'value' or 'price',"kanji_meaning": "The kanji 値 means 'price' or 'value'. It can also be used to mean 'standard', as in the phrase 基準値 (kijun chi),"kanji_info": "The kanji 値 is used in many words related to pricing, such as 価格 (kakaku) meaning 'price', and 安値 (yasune) meaning 'low price'. It can also be used in phrases such as 格安値 (kaku yasune) meaning 'low price',"mnemonics": "To remember the kanji 値, imagine a 'CHEAP' price tag on an item.","compound_words": [{"word": "値段", "romaji": "nedan", "translation": "price"},{"word": "安値", "romaji": "yasune", "translation":"low price"},{"word": "格安値", "romaji":"kaku yasune", 
+"translation":"low price"}],"kanji_examples": [{"expression":"価値", 
+"romaji":"kachi", 
+"translation":"value"},{"expression":"料金値段", 
+"romaji":"ryoukin nedan", 
+"translation":"fee, charge"},{"expression":"期待値", 
+"romaji":"kitai chi", 
+"translation":"expectation"}]}
+-----------------------------
+CLI param:  商
+--- Response text: ---
+{"kanji": "商","kanji_simplified": "ショウ","kanji_romaji": "shou","kanji_meaning": "trade, business, commerce","mnemonics": "The two strokes on the left side of the kanji look like two people shaking hands, which is a sign of making a deal or agreement in business.","sentence_japanese": "彼は新しい商品を販売しています。","sentence_romaji": "Kare wa atarashii shouhin o hanbai shite imasu.","sentence_translation": "He is selling new products.","kanji_origin": "This kanji is composed of two parts: “口” (kuchi), which means “mouth”, and “寸” (sun), which means “measurement”. Together, they form the concept of “measuring with one’s mouth”, or in other words, bargaining and trading.","kanji_meaning": "The kanji 商 has the meaning of trade, business, or commerce. It is used to refer to activities related to buying and selling goods or services.","kanji_info": "The kanji 商 is also used in words such as 商店 (shouten) meaning ‘shop’ or 商売 (shoubai) meaning ‘business’.","compound_words": [{"word": "商人", "romaji": "shounin", "translation": "merchant"},{"word": "商業", "romaji": "shougyou", "translation":"commerce"},{"word": "商品", "romaji": "shouhin", "translation":"goods"}],"kanji_examples": [{"expression":"商談", 	"romaji":"shoudan", 	"translation":"business discussion"},{"expression":"商業地区", 	"romaji":"shougyouchiku", 	"translation":"commercial district"},{"expression":"商売人", 	"romaji":"shoubainin", 	"translation":"businessman"}]}
+-----------------------------
+CLI param:  払う
+--- Response text: ---
+{"kanji": "払う", "kanji_simplified": "フツウ", "kanji_romaji": "futsuu", "kanji_meaning": "to pay, to discharge", "mnemonics": "Picture a fan (扇) paying (払) money for something they bought.", "sentence_japanese": "私はレストランでお金を払いました。", "sentence_romaji": "Watashi wa resutoran de okane o haraimashita.", "sentence_translation": "I paid money at the restaurant.", "kanji_origin": "The kanji 払 is composed of two parts: 手 (hand) and 攵 (to control). It is believed to be derived from the gesture of handing over money.", 
+"kanji_meaning": "The kanji 払 means 'to pay, to discharge' and is used in words like 支払い (shiharai) meaning 'payment' or 免税 (mensetsu) meaning 'tax exemption'.", 
+"kanji_info": "The kanji 払 can also be read as haraeru and is used in the expression 払い戻す (haraemodosu) which means 'to refund'.", 
+"compound_words": [{"word":"支払い","romaji":"shiharai","translation":"payment"},{"word":"免税","romaji":"mensetsu","translation":"tax exemption"},{"word":"払い戻す","romaji":"haraemodosu","translation":"to refund"}], 
+"kanji_examples": [{"expression":"支払う","romaji":"shiharau","translation":"to pay"},{"expression":"免税する","romaji":"mensetsusuru","translation":"to exempt from taxation"},{"expression":"払い戻します","romaji":"haraemodoshimasu","translation":"to refund"}]}
+-----------------------------
+CLI param:  型
+--- Response text: ---
+{"kanji": "型","kanji_simplified": "カタ","kanji_romaji": "kata","kanji_meaning": "model, pattern, type","mnemonics": "Picture a mold (型) being used to make something in the same shape over and over again.","sentence_japanese": "新しい型のスマートフォンが発売されました。","sentence_romaji": "Atarashii kata no sumātofon ga hatsubai saremashita.","sentence_translation": "A new model of smartphone was released.","kanji_origin": "The kanji 型 is composed of the radical 匕 (“spoon”) and the character 月 (“moon”). The moon is associated with round shapes, and the spoon is used to scoop out a shape in clay.","kanji_meaning": "The kanji 型 means “model, pattern, type.” It can also mean “mold” or “template.”","kanji_info": "The kanji 型 is commonly used in words such as 型紙 (kata-gami, pattern paper), 型抜き (katanuki, carving out a shape), and 型破り (katayaburi, breaking the mold).","compound_words": [{"word": "型紙", "romaji": "katagami", "translation": "pattern paper"},{"word": "型抜き", "romaji": "katanuki", "translation": "carving out a shape"},{"word": "型破り", "romaji": "katayaburi", "translation":"breaking the mold"}],"kanji_examples":[{"expression":"型にはまる", 
+"romaji":"katanihamaru", 
+"translation":"to fit into a mold"},
+{"expression":"型作り", 
+"romaji":"katazukuri", 
+"translation":"making a model or pattern"},
+{"expression":"型通り", 
+"romaji":"katadoori", 
+"translation":"according to the model"}]}
+-----------------------------
+CLI param:  税
+--- Response text: ---
+{"kanji": "税","kanji_simplified": "ゼイ","kanji_romaji": "zei","kanji_meaning": "tax","mnemonics": "The kanji 税 looks like a person carrying a bag of money to the government, which is being taxed.","sentence_japanese": "私は毎月の税金を払っています。","sentence_romaji": "Watashi wa maitsuki no zeikin o haratte imasu.","sentence_translation": "I pay taxes every month.","kanji_origin": "The kanji 税 is derived from the Chinese character 財, which means “wealth” or “property.”","kanji_meaning": "The kanji 税 means “tax” and is used to refer to the money that people pay to the government.","kanji_info": "The kanji 税 can also be used to refer to other types of fees or charges, such as import duties and tolls.","compound_words": [{"word": "税金", "romaji": "zeikin", "translation": "taxes"},{"word": "税制", "romaji": "zeisei", "translation": "tax system"},{"word": "税引き", "romaji": "zeihiki", "translation": "deduction"}],
+"kanji_examples":[{"expression":"税込み価格", 
+"romaji":"zeikomi kakaku", 
+"translation":"price including tax"}, 
+{"expression":"税金を支払う", 
+"romaji":"zeikin o shiharau", 
+"translation":"pay taxes"}, 
+{"expression":"税務申告", 
+"romaji":"zeimu shinkoku", 
+"translation":"tax return"}]}
+-----------------------------
+CLI param:  込む
+--- Response text: ---
+{"kanji": "込む","kanji_simplified": "コム","kanji_romaji": "komu","kanji_meaning": "enter, include, become involved","mnemonics": "Imagine a person KOMing into a room full of people.","sentence_japanese": "彼女はその会議に込むことを拒んだ。","sentence_romaji": "Kanojo wa sono kaigi ni komu koto o kobanda.","sentence_translation": "She refused to join the meeting.","kanji_origin": "The kanji 込 is composed of the characters 辶 (walk) and 入 (enter). It is believed to represent the idea of “entering” or “going into” something.","kanji_meaning": "The kanji 込 means “enter, include, become involved”. It is often used to describe someone or something that is entering a place or situation.","kanji_info": "The kanji 込 is also used in words such as 込み入る (komiiru), which means “to be complicated” or “to be involved in something complicated”.","mnemonics": "Remember the kanji 込 by picturing a person KOMing into a room full of people.","compound_words": [{"word": "込む", "romaji": "komu", "translation": "enter"},{"word": "込み入る", "romaji": "komiiru", "translation": "be complicated"},{"word": "込み上げる", 
+"romaji":"komiageru", 
+"translation":"rise up"}],
+"kanji_examples":[{"expression":"込める", 
+"romaji":"komeru", 
+"translation":"put in, include"},{"expression":"込み入る", 
+"romaji":"komiiru", 
+"translation":"be complicated"},{"expression":"込み上がる", 
+"romaji":"komiagaru", 
+"translation":"rise up"}]}
+-----------------------------
+CLI param:  価
+--- Response text: ---
+{"kanji": "価","kanji_simplified": "カ","kanji_romaji": "ka","kanji_meaning": "value, price","mnemonics": "Imagine a K(ey) unlocking the A(mount) of money you have to pay for something.","sentence_japanese": "この商品の価格は１０００円です。","sentence_romaji": "Kono shouhin no kakaku wa sen-en desu.","sentence_translation": "The price of this product is 1000 yen.","kanji_origin": "The kanji 価 is composed of the radical 人 (person) and 力 (power). Together, they represent the idea of 'people's power' or 'value',","kanji_meaning": "The kanji 価 means 'value' or 'price'. It can also be used to refer to the worth of something or someone in terms of their social status or reputation.","kanji_info": "The kanji 価 is often used in combination with other characters to form words such as 価格 (kakaku) meaning 'price' and 格価 (kakuka) meaning 'market value'.","compound_words": [{"word": "価値", "romaji": "kachi", "translation": "value"},{"word": "安価", "romaji": "ankka", "translation": "low price"},{"word": "高価", "romaji": "kouka", "translation": "high price"}],"kanji_examples":[ {"expression":"値段が高い", 
+"romaji":"nedan ga takai", 
+"translation":"expensive"},
+{"expression":"安い値段で買う", 
+"romaji":"yasui nedan de kau", 
+"translation":"buy at a low price"},
+{"expression":"値引きする", 
+"romaji":"nebiki suru", 
+"translation":"give a discount"}]}
+-----------------------------
+CLI param:  格
+--- Response text: ---
+{"kanji": "格","kanji_simplified": "カク","kanji_romaji": "kaku","kanji_meaning": "status, rank, class","mnemonics": "The kanji 格 looks like a person standing in a row, representing a class or status.","sentence_japanese": "彼女は高い格を持っています。","sentence_romaji": "Kanojo wa takai kaku o motte imasu.","sentence_translation": "She has a high status.","kanji_origin": "This kanji is composed of two components: 爻 (kaku), which means “line”, and 力 (chikara), which means “power”. Together, they represent the idea of power or influence that comes from being in a certain class or rank.","kanji_meaning": "The kanji 格 refers to a person’s social status or rank. It can also refer to the class or category that someone belongs to.","kanji_info": "The kanji 格 is often used in combination with other characters to form words related to social status, such as 格好 (kakkou) meaning “appearance” or 格調 (kakuchou) meaning “style”.","compound_words": [{"word": "格好", "romaji": "kakkou", "translation": "appearance"},{"word": "格調", "romaji": "kakuchou", "translation": "style"},{"word": "格差", "romaji": "kakusa", "translation":"social disparity"}],"kanji_examples":[{"expression":"格上げ", 	"romaji":"kakuage", 	"translation":"promotion"},{"expression":"格差社会", 	"romaji":"kakusa shakai", 	"translation":"society of inequality"},{"expression":"格別な", 	"romaji":"kakubetsu na", 	"translation":"special, extraordinary"}]}
+-----------------------------
+CLI param:  齢
+--- Response text: ---
+{"kanji": "齢", "kanji_simplified": "レイ", "kanji_romaji": "rei", "kanji_meaning": "age", "mnemonics": "The kanji 齢 looks like a person with their arms stretched out, showing the passing of time.", "sentence_japanese": "彼女は３０歳の齢です。", "sentence_romaji": "Kanojo wa sanjuusai no rei desu.", "sentence_translation": "She is 30 years old.", "kanji_origin": "The kanji 齢 is composed of two parts. The left side is a pictograph of a person, and the right side is a pictograph of an eye, which symbolizes 'to look at'.", "kanji_info": "The kanji 齢 can also be read as 'toshi', which means 'year' or 'age' in Japanese.", 
+"compound_words": [{"word": "年齢", "romaji": "nenrei", 
+"translation": "age"},{"word": "老齢", 
+"romaji": "rourei", 
+"translation":"old age"},{"word": 
+"長寿齢", 
+"romaji":"choujurei", 
+"translation":"longevity"}], 
+"kanji_examples":[{"expression":"老い齢", 
+"romaji":"oi rei", 
+"translation":"advanced age"}, {"expression":"少年齢", 
+"romaji":"shounenrei", 
+"translation":"youthful age"}, {"expression":"中高年齢", 
+"romaji":"chuukounenrei", 
+"translation":"middle-aged"}]}
+-----------------------------
+CLI param:  歳
+--- Response text: ---
+{"kanji": "歳","kanji_simplified": "セイ","kanji_romaji": "sei","kanji_meaning": "year, age","mnemonics": "The kanji 歳 looks like a person standing with their arms outstretched, indicating the passing of time.","sentence_japanese": "私は今年３０歳になりました。","sentence_romaji": "Watashi wa kotoshi sanjuusai ni narimashita.","sentence_translation": "I am 30 years old this year.","kanji_origin": "The kanji 歳 is derived from the Chinese character 岁, meaning 'year',","kanji_meaning": "The kanji 歳 means 'year' or 'age',","kanji_info": "The kanji 歳 is used in the word 歳月 (さいげつ – saigetsu), which means 'years and months' or 'time',","compound_words": [{"word": "歳入", "romaji": "sairyuu", "translation": "annual income"},{"word":"歳出",  "romaji":"saishutsu",  "translation":"annual expenditure"},{"word":"歳月",  "romaji":"saigetsu",  "translation":"years and months"}],"kanji_examples": [{"expression": "年齢",  "romaji":"nenrei",  "translation":"age"},{"expression":"歳末",  "romaji":"saisatsu",  "translation":"end of the year"},{"expression":"歳入り",  "romaji":"sairyuu-ri",  "translation":"coming of age"}]}
+-----------------------------
+CLI param:  性
+--- Response text: ---
+{"kanji": "性", "kanji_simplified": "セイ", "kanji_romaji": "sei", "kanji_meaning": "gender, nature, quality", "mnemonics": "The kanji 性 looks like a person with a gender sign (男 or 女) on the head, which reminds us of the meaning 'gender' or 'nature'.", "sentence_japanese": "彼女は活発な性格です。", "sentence_romaji": "Kanojo wa kappatsu na seikaku desu.", "sentence_translation": "She has an active personality.", "kanji_origin": "The kanji 性 is composed of two parts: 生 (sei) meaning 'life' and 思 (shi) meaning 'think'. Together they form the meaning 'nature' or 'character'.", 
+"kanji_meaning": "The kanji 性 can mean 'gender', 'nature', or 'quality'.", 
+"kanji_info": "The kanji 性 is used in many words related to gender and personality, such as 性別 (seibetsu) meaning 'gender' and 性格 (seikaku) meaning 'personality'.", 
+"compound_words": [{"word": "性格", "romaji": "seikaku", "translation": "personality"},{"word": "性別", 
+"romaji": "seibetsu", 
+"translation": 
+"gender"},{"word": 
+"性能", 
+"romaji": 
+"seinou", 
+"translation": 
+"performance"}], 
+"kanji_examples":[{"expression":"性質","romaji":"seishitsu","translation":"nature"},{"expression":"性癖","romaji":"seihaku","translation":"habit"},{"expression":"性差","romaji":"seisa","translation":"difference in sex"}]}
+-----------------------------
+CLI param:  絡
+--- Response text: ---
+{"kanji": "絡","kanji_simplified": "ラク","kanji_romaji": "raku","kanji_meaning": "to entwine, to intertwine","mnemonics": "Picture a rope (糸) entwining (結) around something, making it difficult to move.","sentence_japanese": "彼女は絡まった話をしています。","sentence_romaji": "Kanojo wa karamatta hanashi o shite imasu.","sentence_translation": "She is talking about a complicated matter.","kanji_origin": "The kanji is composed of two parts: 糸 (ito, thread) and 結 (musu, to tie),","kanji_meaning": "The meaning of the kanji is to entwine or intertwine.","kanji_info": "This kanji is often used in words related to tangled or complicated situations.","compound_words": [{"word": "絡む", "romaji": "karamu", "translation": "to entwine, to intertwine"},{"word": "絡み合う", "romaji": "karamiau", "translation": "to be intertwined"},{"word": "絡み付く", "romaji": "karamitsuku", "translation": "to be entangled"}],"kanji_examples":[{"expression":"絡み合う", 
+"romaji":"karamiau", 
+"translation":"to be intertwined"}, 
+{"expression":"絡まる", 
+"romaji":"karamaru", 
+"translation":"to be tangled"}, 
+{"expression":"絡みつく", 
+"romaji":"karamitsuku", 
+"translation":"to cling to"}]}
+-----------------------------
+CLI param:  届ける
+--- Response text: ---
+{"kanji": "届ける","kanji_simplified": "トドケル","kanji_romaji": "todokeru","kanji_meaning": "to deliver, to reach, to arrive","mnemonics": "Picture a person delivering a package to a door (届 + ける),","sentence_japanese": "彼は私にプレゼントを届けました。","sentence_romaji": "Kare wa watashi ni purezento o todokemashita.","sentence_translation": "He delivered a present to me.","kanji_origin": "The kanji 届 is composed of two parts. The left side (屮) means “sprout” and the right side (口) means “mouth”. Together, they form the meaning of “to announce” or “to reach”.","kanji_meaning": "The kanji 届ける means “to deliver” or “to reach” and is used in many contexts such as delivering goods, messages, or news.","kanji_info": "The verb 届ける is also used in many Japanese idioms such as 「祈りを届ける」(inori o todokeru; to send one’s prayers) and 「愛を届ける」(ai o todokeru; to convey love).","compound_words": [{"word": "届け出", "romaji": "todokede", "translation": "notification"},{"word": "届け先", "romaji": "todokesaki", "translation": "recipient"},{"word": "届出", "romaji": "todoke", 	"translation":"delivery"}],
+"kanji_examples":[{"expression":"届け先", 	"romaji":"todokesaki", 	"translation":"recipient"}, {"expression":"届く", 	"romaji":"todoku", 	"translation":"to reach"}, {"expression":"届け出す", 	"romaji":"todokedesu", 	"translation":"to notify"}]}
+-----------------------------
+CLI param:  宅
+--- Response text: ---
+{"kanji": "宅","kanji_simplified": "タク","kanji_romaji": "taku","kanji_meaning": "home, residence","mnemonics": "Picture a TAKU (卓) table in your home.","sentence_japanese": "彼は宅でゆっくり休憩しています。","sentence_romaji": "Kare wa taku de yukkuri kyuukei shite imasu.","sentence_translation": "He is taking a break at home.","kanji_origin": "The kanji 宅 is composed of the radical 宀 (mi, roof) and the character 田 (ta, rice paddy),","kanji_meaning": "The kanji 宅 means “home” or “residence” and is used to refer to one’s own house or apartment.","kanji_info": "The kanji 宅 can also be used as a verb meaning “to stay at home” or “to reside.”","compound_words": [{"word": "宅配", "romaji": "takuhai", "translation": "home delivery"},{"word": "宅急便", "romaji": "takyuubin", "translation": "express delivery"},{"word": "宅地", "romaji": "takuchi", "translation":"residential land"}],"kanji_examples": [{"expression": "宅配サービス", 	"romaji":"takuhai saabisu", 	"translation":"home delivery service"},{"expression":"宅建試験", 	"romaji":"takken shiken", 	"translation":"real estate appraiser exam"},{"expression":"宅配ピザ", 	"romaji":"takuhai piza", 	"translation":"home delivery pizza"}]}
+-----------------------------
+CLI param:  希
+--- Response text: ---
+{"kanji": "希","kanji_simplified": "キ","kanji_romaji": "ki","kanji_meaning": "rare, few, wish, hope","mnemonics": "Picture a person wishing for something rare (希) and hoping for it to come true.","sentence_japanese": "私は希望を持っています。","sentence_romaji": "Watashi wa kibō o motte imasu.","sentence_translation": "I have a hope.","kanji_origin": "The kanji 希 is made up of two components: 禾 (he) meaning “grain” and 幺 (koto) meaning “small” or “rare.” Together, these components combine to form the meaning “rare.”","kanji_meaning": "The kanji 希 means “rare, few, wish, hope.” It can also mean “expectation” or “desire.”","kanji_info": "The kanji 希 is used in many compound words such as 希望 (kibō), which means “hope” or “wish,” and 希少 (kishō), which means “rare.”","compound_words": [{"word": "希望", "romaji": "kibō", "translation": "hope"},{"word": "希少", "romaji": "kishō", "translation": "rare"},{"word": "希薄", "romaji": "kibaku", "translation":"sparse"}],
+"kanji_examples":[{"expression":"希望的観測", 
+"romaji":"Kibōteki kansoku", 
+"translation":"hopeful observation"},{"expression":"希薄な結果", 
+"romaji":"Kibaku na kekka", 
+"translation":"sparse results"},{"expression":"希望を抱く", 
+"romaji":"Kibō o idaku", 
+"translation":"to have a hope"}]}
+-----------------------------
+CLI param:  額
+--- Response text: ---
+{"kanji": "額","kanji_simplified": "ガク","kanji_romaji": "gaku","kanji_meaning": "forehead, head, amount","mnemonics": "Picture a forehead with a G (Ga) and a K (Ku) on it.","sentence_japanese": "彼女は額に手を当てました。","sentence_romaji": "Kanojo wa gaku ni te o atemashita.","sentence_translation": "She put her hand on her forehead.","kanji_origin": "The kanji 額 is composed of the radicals 頁 (head) and 口 (mouth).","kanji_meaning": "The kanji 額 means forehead, head, or amount.","kanji_info": "The kanji 額 is used in words such as 手額 (temaegai; allowance) and 金額 (kingaku; amount of money).","compound_words": [{"word": "額縁", "romaji": "gakufu", "translation": "picture frame"},{"word": "頭額", "romaji": "zugaku", "translation": "head size"},{"word": "金額", "romaji": "kingaku", "translation": "amount of money"}],"kanji_examples":[{"expression":"額に手を当てる", 
+"romaji":"gaku ni te o ateru", 
+"translation":"to put one's hand on one's forehead"},{"expression":"年齢の額", 
+"romaji":"nenrei no gaku", 
+"translation":"age bracket"},{"expression":"支払い金額", 
+"romaji":"shiharai kingaku", 
+"translation":"payment amount"}]}
+-----------------------------
+CLI param:  在
+--- Response text: ---
+{"kanji": "在","kanji_simplified": "ザイ","kanji_romaji": "zai","kanji_meaning": "exist, be present","mnemonics": "Think of the phrase 'Zai-n there' to remember the kanji 在","sentence_japanese": "彼は今日も学校に在っています。","sentence_romaji": "Kare wa kyou mo gakkou ni atte imasu.","sentence_translation": "He is also present at school today.","kanji_origin": "The kanji 在 is composed of two components, 寸 (sun, inch) and 日 (day). It originally meant 'to stay in one place for a day', and later evolved to mean 'to exist' or 'to be present',"kanji_meaning": "The kanji 在 has the meaning of 'exist', 'be present' or 'stay in one place',"kanji_info": "The kanji 在 is also used as part of other words such as 存在 (sonzai, existence), 在宅 (zaitaku, staying at home), and 在庫 (zaiko, inventory),"compound_words": [{"word": "存在", "romaji": "sonzai", "translation": "existence"},{"word": "在宅", "romaji": "zaitaku", "translation": "staying at home"},{"word": "在庫", "romaji": "zaiko", "translation":"inventory"}],"kanji_examples":[{"expression":"存在感", 	"romaji":"sonzaikan", 	"translation":"sense of presence"},{"expression":"在庫品", 	"romaji":"zaikohin", 	"translation":"stock item"},{"expression":"在住者", 	"romaji":"zaijyusha", 	"translation":"resident"}]}
+-----------------------------
+CLI param:  取る
+--- Response text: ---
+{"kanji": "取る","kanji_simplified": "トル","kanji_romaji": "toru","kanji_meaning": "to take, to get, to fetch","mnemonics": "The kanji for '取' looks like a person taking something with their hands.","sentence_japanese": "彼は本を取りに行きました。","sentence_romaji": "Kare wa hon o tori ni ikimashita.","sentence_translation": "He went to get a book.","kanji_origin": "The kanji for '取' is derived from the pictograph of a hand taking something.","kanji_meaning": "The kanji for '取' means to take, to get, to fetch.","kanji_info": "The kanji for '取' is used in many words related to taking or getting something.","compound_words": [{"word": "取り消す", "romaji": "torikesu", "translation": "to cancel"},{"word": "取り替える", "romaji": "torikaeru", "translation": "to exchange"},{"word":"取り組む", "romaji":"torikumu", "translation":"to tackle, to grapple with"}],"kanji_examples":[ {"expression":"取り戻す", 	"romaji":"torimodosu", 	"translation":"to regain"}, {"expression":"取り扱い", 	"romaji":"toriatukai", 	"translation":"handling"}, {"expression":"取り混ぜる", 	"romaji":"torimazeru", 	"translation":"to mix"}]}
+-----------------------------
+CLI param:  衣
+--- Response text: ---
+{"kanji": "衣","kanji_simplified": "イ","kanji_romaji": "i","kanji_meaning": "clothing, garment","mnemonics": "The kanji 衣 looks like a person wearing clothing.","sentence_japanese": "彼女は新しい衣を着ています。","sentence_romaji": "Kanojo wa atarashii i o kite imasu.","sentence_translation": "She is wearing new clothes.","kanji_origin": "The kanji 衣 is derived from the pictograph of a person wearing clothing.","kanji_meaning": "The kanji 衣 means 'clothing' or 'garment'.","kanji_info": "The kanji 衣 can also be used to mean 'dress' or 'robe'.","compound_words": [{"word": "衣装", "romaji": "ishou", "translation": "costume"},{"word": "衣類", "romaji": "irui", "translation":"clothing"},{"word": "衣服", "romaji":"ifuku",  "translation":"clothes"}],"kanji_examples":[{"expression":"衣替え",  "romaji":"koromogae",  "translation":"changing clothes"},{"expression":"衣食住",  "romaji":"ishokujuu",  "translation":"the three basic necessities of life"},{"expression":"衣料品",  "romaji":"iryouhin",  "translation":"clothing items"}]}
+-----------------------------
+CLI param:  達
+--- Response text: ---
+{"kanji": "達","kanji_simplified": "タツ","kanji_romaji": "tatsu","kanji_meaning": "to reach, to achieve, to accomplish","mnemonics": "Picture a person TATSUming (jumping) to reach their goal.","sentence_japanese": "彼らは目標を達成しました。","sentence_romaji": "Karera wa mokuhyou o tassei shimashita.","sentence_translation": "They achieved their goal.","kanji_origin": "The kanji 達 is derived from the ancient Chinese character 知, which means “to know” or “to understand”.","kanji_meaning": "The kanji 達 has multiple meanings, including “to reach”, “to achieve”, and “to accomplish”.","kanji_info": "The kanji 達 is used to indicate a group of people or things that have reached a certain goal or level of achievement.","compound_words": [{"word": "達成", "romaji": "tassei", "tranlation": "achievement"},{"word": "達人", "romaji": "tatsujin", "translation": "expert"},{"word": "到達", "romaji": "tootatsu", "translation": "arrival"}],"kanji_examples": [{"expression": "達する", "romaji": "tassuru", 
+"translation": 
+"to reach"}, {"expression":"目的を達する", 
+"romaji":"mokutekiwo tassuru", 
+"translation":"to achieve one's goal"}, {"expression":"成功に達する", 
+"romaji":"seikounitassuru", 
+"translation":"to succeed"}]}
+-----------------------------
+CLI param:  戸
+--- Response text: ---
+{"kanji": "戸","kanji_simplified": "ト","kanji_romaji": "to","kanji_meaning": "door, house, counter for houses","mnemonics": "Picture a door (戸) with a 'T' (ト) above it to help remember the kanji.","sentence_japanese": "彼は自分の戸を開けました。","sentence_romaji": "Kare wa jibun no to o akemashita.","sentence_translation": "He opened his own door.","kanji_origin": "The kanji 戸 is believed to have originated from a pictograph of a door.","kanji_meaning": "The kanji 戸 means 'door', 'house', or 'counter for houses'.","kanji_info": "The kanji 戸 is also used in the compound word 玄関 (げんかん, entrance).","compound_words": [{"word": "戸籍", "romaji": "koseki", "translation": "family register"},{"word": "戸惑う", "romaji": "tomadou", "translation": "to be perplexed"},{"word": "戸外", "romaji": "togai", "translation": "outside the house"}],"kanji_examples":[{"expression":"戸口", 
+"romaji":"toguchi", 
+"translation":"entranceway"},{"expression":"戸建て", 
+"romaji":"tokodate", 
+"translation":"detached house"},{"expression":"戸締まり", 
+"romaji":"toshimari", 
+"translation":"lock-up"}]}
+-----------------------------
