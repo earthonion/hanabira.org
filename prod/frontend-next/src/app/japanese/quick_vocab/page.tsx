@@ -127,13 +127,18 @@ export default function Home() {
           );
           console.log(process.env.REACT_APP_HOST_IP);
 
+          const host = "localhost";
+          const port = 8000;
+
           let apiUrl;
-          //If REACT_APP_HOST_IP is defined, use it. Otherwise default to localhost:7000 for VM
+          //If REACT_APP_HOST_IP is defined, use it. Otherwise default to localhost:8000 for VM
           if (process.env.REACT_APP_HOST_IP) {
             apiUrl = `http://${process.env.REACT_APP_HOST_IP}/api/v1/tanos_words?p_tag=${p_tag}&s_tag=${s_tag}`;
           } else {
-            apiUrl = `/api/v1/tanos_words?p_tag=${p_tag}&s_tag=${s_tag}`;
+            //apiUrl = `http://${host}:${port}/api/v1/tanos_words?p_tag=${p_tag}&s_tag=${s_tag}`;
+            apiUrl = `/api/v1/tanos_words?p_tag=${p_tag}&s_tag=${s_tag}`;     // use for client component
           }
+
 
           //apiUrl = `localhost:8000/api/v1/tanos_words?p_tag=${p_tag}&s_tag=${s_tag}`;
 
@@ -151,9 +156,14 @@ export default function Home() {
           if (!response.ok) {
             throw new Error(`Error: ${response.status}`); // Throw error for bad response
           }
-          const data: KanjiItem[] = await response.json();
-          console.log(data); // Add this line to check the data format
-          setKanjiData(data.words); // Assuming the API returns the array of kanji data
+          //const data: KanjiItem[] = await response.json();
+          //console.log(data); // Add this line to check the data format
+          //setKanjiData(data.words); // Assuming the API returns the array of kanji data
+
+          const { words } = await response.json(); // Directly destructure 'words' from the response
+          console.log(words);
+          setKanjiData(words); // Assumes words is directly an array of KanjiItem
+
         } catch (error) {
           console.error("Error fetching kanji data:", error);
         } finally {

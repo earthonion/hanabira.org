@@ -3,11 +3,48 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
+interface LoginData {
+  date: string;
+  count: number;
+}
+
+interface LoginResponse {
+  message?: string;
+  error?: string;
+}
+
+
+
 export default function Sidebar() {
+
   const [active, setActive] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
+
+
+  const [loginStreakData, setLoginStreakData] = useState<LoginData[]>([]);
+  const [loginHistory, setLoginHistory] = useState<LoginData[]>([]);
+  const [longestStreak, setLongestStreak] = useState(0);
+
+
+
+
+  // useEffect(() => {
+  //   if (darkMode) {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+
+  //   // Check if user is already logged in from cookies
+  //   const loggedInUser = localStorage.getItem("loggedInUser");
+  //   if (loggedInUser) {
+  //     setLoggedIn(true);
+  //     setUsername(loggedInUser);
+  //   }
+  // }, [darkMode]); // Re-run when darkMode changes
+
 
   useEffect(() => {
     if (darkMode) {
@@ -16,26 +53,62 @@ export default function Sidebar() {
       document.documentElement.classList.remove("dark");
     }
 
+
     // Check if user is already logged in from cookies
     const loggedInUser = localStorage.getItem("loggedInUser");
     if (loggedInUser) {
       setLoggedIn(true);
       setUsername(loggedInUser);
     }
-  }, [darkMode]); // Re-run when darkMode changes
+
+
+    const fetchLoginStreakData = async () => {
+      try {
+        const response = await fetch(
+          `/f-api/v1/get-logins/${username}`,
+          { method: "GET" }
+        );
+        const data: LoginData[] = await response.json();
+        console.log(data);
+        setLoginStreakData(data);
+      } catch (error) {
+        console.error("Error fetching login streak data:", error);
+      }
+    };
+
+    fetchLoginStreakData();
+  }, [username, darkMode]); // You might want to adjust this dependency array based on your needs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   const showMenu = () => {
     setActive(!active);
   };
 
+  // Inside your component, add this to the handleLogin function
   const handleLogin = () => {
-    // Simulate login process, here you'd usually authenticate user credentials
     const user = "testUser";
-
-    // Set logged in user to cookies
     localStorage.setItem("loggedInUser", user);
     setLoggedIn(true);
     setUsername(user);
+    notifyLogin(user); // Notify backend
   };
 
   const handleLogout = () => {
@@ -43,6 +116,27 @@ export default function Sidebar() {
     localStorage.removeItem("loggedInUser");
     setLoggedIn(false);
     setUsername("");
+  };
+
+  const notifyLogin = async (username: string): Promise<void> => {
+    try {
+      const response = await fetch(`/f-api/v1/notify-login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username }),
+      });
+
+      const data: LoginResponse = await response.json();
+      if (data.message) {
+        console.log(data.message); // Success message
+      } else if (data.error) {
+        console.error("Error notifying login:", data.error); // Error handling
+      }
+    } catch (error) {
+      console.error("Error notifying login:", error);
+    }
   };
 
   return (
@@ -122,14 +216,8 @@ export default function Sidebar() {
             <Link href="/japanese/flashcards-kanji" className="dashboardOption">
               SRS Flashcards - Kanji
             </Link>
-            <Link href="/japanese/flashcards-vocab" className="dashboardOption">
+            <Link href="/japanese/flashcards-words" className="dashboardOption">
               SRS Flashcards - Vocabulary
-            </Link>
-            <Link
-              href="/japanese/flashcards-grammar"
-              className="dashboardOption"
-            >
-              SRS Flashcards - Grammar
             </Link>
 
             <Link href="/japanese/reading" className="dashboardOption">
@@ -163,7 +251,7 @@ export default function Sidebar() {
           {loggedIn ? (
             <div>
               <p className="block text-primary dark:text-white text-lg font-bold lg:hidden focus:outline-none">
-                Welcome, {username}!
+                {username}
               </p>
               <button
                 onClick={handleLogout}
@@ -290,19 +378,10 @@ export default function Sidebar() {
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
-            href="/japanese/flashcards-vocab"
+            href="/japanese/flashcards-words"
           >
             {" "}
             Vocabulary flashcards{" "}
-          </Link>
-
-          <Link
-            onClick={showMenu}
-            className="border-b py-2 text-black dark:text-white"
-            href="/japanese/flashcards-grammar"
-          >
-            {" "}
-            Grammar flashcards{" "}
           </Link>
 
           <Link
@@ -340,6 +419,16 @@ export default function Sidebar() {
             {" "}
             Quick Vocabulary{" "}
           </Link>
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/user-dashboard"
+          >
+            {" "}
+            User Dashboard{" "}
+          </Link>
+
 
           {/* Add empty div if you have an odd number of links to maintain the structure */}
           <div></div>

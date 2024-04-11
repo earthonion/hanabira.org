@@ -14,18 +14,6 @@ export default async function GrammarPoint({
   params: { slug: string };
 }) {
   const decodedTitle = params.slug ? decodeURIComponent(params.slug) : "";
-  //const url = "http://localhost:7000/api/v1/grammar-details";
-  //const url = "/api/v1/grammar-details"
-
-  //fetch will likely need full path to backend API
-  // this can be a problem when running in container, how do we get to other container??
-
-  //const url = 'http://192.168.1.15:7000/api/v1/grammar-details';
-  //const url = 'http://192.168.1.15:7000/api/v1/grammar-details';
-
-  //this looks amazing, we can inject host ip from docker compose declaration
-  //so the code will be universal and can run on any server
-  //we can even call to https where nginx listens and then ports are managed by proxy
 
   console.log('##################################  ENV VARS  #######################################');
   console.log(process.env.REACT_APP_HOST_IP);
@@ -35,7 +23,7 @@ export default async function GrammarPoint({
   if (process.env.REACT_APP_HOST_IP) {
     apiUrl = `http://${process.env.REACT_APP_HOST_IP}/api/v1/grammar-details`;
   } else {
-    apiUrl = `http://localhost:7000/api/v1/grammar-details`;
+    apiUrl = `http://localhost:8000/api/v1/grammar-details`;
   }
 
 
