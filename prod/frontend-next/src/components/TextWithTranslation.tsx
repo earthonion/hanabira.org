@@ -25,7 +25,9 @@ const TextWithTranslation: React.FC<TextWithTranslationProps> = ({
     sentences.forEach((sentence, index) => {
       const audioEl = audioRefs.current[index];
       if (audioEl) {
-        audioEl.src = isEnglishSpeaker ? sentence.audioPath : sentence.audioPathEn;
+        audioEl.src = isEnglishSpeaker
+          ? sentence.audioPath
+          : sentence.audioPathEn;
       }
     });
   }, [isEnglishSpeaker, sentences]);
@@ -48,13 +50,20 @@ const TextWithTranslation: React.FC<TextWithTranslationProps> = ({
         >
           &#128266;
         </button>
-        <audio ref={(el) => (audioRefs.current[index] = el)}>
+
+
+        <audio
+          ref={(el) => {
+            audioRefs.current[index] = el;
+          }}
+        >
           <source
             src={isEnglishSpeaker ? sentence.audioPath : sentence.audioPathEn}
             type="audio/mp3"
           />
           Your browser does not support the audio element.
         </audio>
+
         {isEnglishSpeaker ? sentence.japanese : sentence.translation}
         <button
           className="ml-2 px-2 py-1 text-xs bg-slate-400 text-white rounded hover:bg-blue-600 dark:bg-blue-400 dark:hover:bg-blue-300"

@@ -94,12 +94,47 @@ export default function Footer() {
 
           <div className="flex justify-between items-center flex-wrap">
             <div className="w-full">
-              <p className="text-sm mb-1 mt-2 text-gray-600 dark:text-gray-400">
-                Public Alpha version. This site is currently undergoing active
+              {/* <p className="text-sm mb-1 mt-2 text-gray-600 dark:text-gray-400">
+                Public Alpha version, Open Source. This site is currently undergoing active
                 development. You may encounter bugs, inconsistencies or limited
                 functionality. Lots of sentences might not sound natural. We are
                 progressively addressing these issues with native speakers. You
                 can support the development by buying us a coffee.
+              </p> */}
+
+              <p className="text-sm mb-1 mt-2 text-gray-600 dark:text-gray-400">
+                Public Alpha version Open Source{" "}
+                <Link href="https://github.com/tristcoil/hanabira.org">
+                  (GitHub)
+                </Link>
+                . This site is currently undergoing active development. You may
+                encounter bugs, inconsistencies, or limited functionality. Lots
+                of sentences might not sound natural. We are progressively
+                addressing these issues with native speakers. You can support
+                the development by buying us a coffee.
+              </p>
+            </div>
+
+            <br></br>
+
+            <div
+              className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4"
+              role="alert"
+            >
+              <p className="font-bold">Contribute to Hanabira.org</p>
+              <p className="text-sm mb-1 mt-2 text-gray-600 dark:text-gray-400">
+                Hanabira.org lead dev has set aside several hundred dollars
+                (monthly) for meaningful contributions to the project. We
+                welcome developers, designers, and content creators to join us
+                in enhancing our platform. Your innovative ideas and
+                contributions can make a significant impact to the project.
+                <br></br>
+                <Link
+                  href="/about"
+                  className="text-sm font-bold text-gray-800 dark:text-gray-200"
+                >
+                  Contact us.
+                </Link>
               </p>
             </div>
 
@@ -184,10 +219,28 @@ function PageLink({ link, title }: Props) {
   );
 }
 
+// const CurrentYear: React.FC = () => {
+//   const currentYear = new Date().getFullYear();
+//   return <>Copyright {currentYear} @ hanabira.org</>;
+// };
+
+
+
 const CurrentYear: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  return <>Copyright {currentYear} @ hanabira.org</>;
+  return (
+    <>
+      Copyright {currentYear} @ 
+      <a href="https://hanabira.org" target="_blank" rel="noopener noreferrer">
+        hanabira.org
+      </a>
+    </>
+  );
 };
+
+
+
+
 
 const BuyMeACoffeeButton: React.FC = () => {
   return (

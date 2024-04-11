@@ -47,6 +47,6 @@ EXPOSE 8000
 #CMD ["sh", "-c", "mongod --dbpath /var/lib/mongodb --bind_ip_all --fork --logpath /var/log/mongodb/mongod.log && sleep 20 && node word_relationships_GPT.js && tail -f /var/log/mongodb/mongod.log"]
 
 # when having express daemonized API around mongo
-CMD ["sh", "-c", "mongod --dbpath /var/lib/mongodb --bind_ip_all --fork --logpath /var/log/mongodb/mongod.log && sleep 10 && node word_relationships_GPT.js && sleep 5 && node wordsTanos.js && sleep 5 && node seed_grammar_to_db.js && sleep 5 && node seed_kanji_to_db.js && sleep 5 && node seed_reading_to_db.js && sleep 5 && node seed_grammar_to_db_other_langs.js && sleep 3 && node my_server.js"]
+CMD ["sh", "-c", "mongod --dbpath /var/lib/mongodb --bind_ip_all --fork --logpath /var/log/mongodb/mongod.log && sleep 10 && node word_relationships_GPT.js && sleep 5 && node seed_tanos_vocab_to_db.js && sleep 5 && node seed_grammar_to_db.js && sleep 5 && node seed_kanji_to_db.js && sleep 5 && node seed_reading_to_db.js && sleep 5 && node seed_grammar_to_db_other_langs.js && sleep 3 && node my_server.js"]
 #CMD ["sh", "-c", "mongod --dbpath /var/lib/mongodb --bind_ip_all --fork --logpath /var/log/mongodb/mongod.log && sleep 20 && node word_relationships_GPT.js"]
 # && sleep 10 && node seed_grammar_to_db.js && sleep 10 && node my_server.js"]

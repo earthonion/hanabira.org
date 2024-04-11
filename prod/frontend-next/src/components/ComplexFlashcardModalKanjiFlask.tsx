@@ -55,26 +55,56 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
   const fetcher = (...args: Parameters<typeof fetch>) =>
     fetch(...args).then((res) => res.json());
 
-  //const apiUrl = "http://localhost:8000/api/kanji?p_tag=JLPT_N3&s_tag=part_1";
-  //////// const apiUrl = `http://localhost:8000/api/v1/kanji?p_tag=${p_tag}&s_tag=${s_tag}`;
+  // --------------------------------------------------------------------------------------------------------------------------------
+
+  // let apiUrl;
+
+  // // Determine the host dynamically based on REACT_APP_HOST_IP or use default
+  // const host = process.env.REACT_APP_HOST_IP || "localhost";
+  // const isCustomHost = Boolean(process.env.REACT_APP_HOST_IP);
+
+  // const port = 5100;
+
+  // let baseUrl: string;
+  // if (process.env.REACT_APP_HOST_IP) {
+  //   baseUrl = `http://${process.env.REACT_APP_HOST_IP}`;
+  // } else {
+  //   baseUrl = `http://${host}:${port}`;
+  // }
+
+  // // Adjust URLs based on the presence of userId
+  // if (userId) {
+  //   // When using a custom host (e.g., via reverse proxy), don't specify the port.
+  //   // Assuming nginx or another reverse proxy routes to the Flask endpoint for userId-specific calls
+  //   apiUrl = isCustomHost
+  //     ? `http://${host}/f-api/v1/combine-flashcard-data-${collectionName}?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`
+  //     : `http://${host}:5100/f-api/v1/combine-flashcard-data-${collectionName}?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`;
+  // } else {
+  //   // Without userId, we call just static db
+  //   // Assuming nginx or another reverse proxy routes to the static db endpoint for non-userId-specific calls
+  //   apiUrl = isCustomHost
+  //     ? `http://${host}/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`
+  //     : `http://${host}:8000/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`;
+  // }
+
+  // --------------------------------------------------------------------------------------------------------------------------------
 
   let apiUrl;
-  if (process.env.REACT_APP_HOST_IP) {
-    ////apiUrl = `http://${process.env.REACT_APP_HOST_IP}/api/v1/kanji?p_tag=${p_tag}&s_tag=${s_tag}`;
-    apiUrl = `http://localhost:5100/f-api/v1/combine-flashcard-data-kanji?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`;
+
+  // Adjust URLs based on the presence of userId
+  if (userId) {
+    apiUrl = `/f-api/v1/combine-flashcard-data-${collectionName}?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`;
   } else {
-    /////////////////apiUrl = `/api/v1/kanji?p_tag=${p_tag}&s_tag=${s_tag}`;
-    ///apiUrl = `http://localhost:7000/api/v1/kanji?p_tag=${p_tag}&s_tag=${s_tag}`;
-    // curl -X GET "http://localhost:8001/api/combine-flashcard-data?userId=testUser&collectionName=kanji&p_tag=JLPT_N3&s_tag=part_1"
-    apiUrl = `http://localhost:5100/f-api/v1/combine-flashcard-data-kanji?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`;
+    apiUrl = `/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`;
   }
+
+  // --------------------------------------------------------------------------------------------------------------------------------
 
   //const { data: questions, error } = useSWR(apiUrl, fetcher);
   const { data: questions, error } = useSWR<Question[]>(apiUrl, fetcher);
 
   console.log(questions);
 
-  //const currentQuestion = questions[currentQuestionIndex];
   const currentQuestion = questions?.[currentQuestionIndex];
 
   console.log("------------------------------------------");
@@ -90,13 +120,20 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 
   // Function to save flashcard state to the backend
   const saveFlashcardState = async () => {
-    if (difficulty) {
+    // Ensure userId exists before proceeding
+    if (!userId) {
+      console.error("saveFlashcardState: No userId provided.");
+      return; // Exit the function early if userId is not provided
+    }
+
+    if (difficulty && currentQuestion && userId) {
       try {
-        console.log("mocking saving post call");
-        await axios.post("http://localhost:5100/f-api/v1/flashcard", {
-          userId: "testUser", // Replace with the appropriate user ID
+        console.log("mocking saving post call for userId");
+        //await axios.post(`${baseUrl}/f-api/v1/flashcard`, {
+        await axios.post(`/f-api/v1/flashcard`, {
+          userId: userId,
           difficulty,
-          collectionName: "kanji",
+          collectionName: collectionName,
           kanji: currentQuestion.kanji,
           p_tag,
           s_tag,
@@ -106,6 +143,11 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
       } finally {
         setDifficulty(null);
       }
+    } else {
+      // Log a message if the conditions for making the POST request are not met
+      console.log(
+        "saveFlashcardState: Insufficient data provided (missing difficulty or currentQuestion)."
+      );
     }
   };
 
@@ -215,7 +257,7 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
       <Transition.Root show={isOpen} as={Fragment}>
         <Dialog
           as="div"
-          className="relative z-30"
+          className="relative z-50"
           open={isOpen}
           onClose={() => {}}
         >
@@ -234,8 +276,8 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
             />
           </Transition.Child>
 
-          <div className="fixed inset-0 z-30 overflow-y-auto">
-            <div className="flex min-h-screen items-center justify-center p-4 z-20">
+          <div className="fixed inset-0 z-50 overflow-y-auto">
+            <div className="flex min-h-screen items-center justify-center p-4 z-50">
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-300"
@@ -246,11 +288,11 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
                 leaveTo="opacity-0 translate-y-4 scale-95"
               >
                 <Dialog.Panel
-                  className="bg-blue-100 relative transform w-11/12 h-5/6 overflow-hidden rounded-lg bg-white p-8 text-left shadow-xl transition-all text-gray-900 dark:bg-gray-800 dark:text-white z-20"
+                  className="bg-blue-100 relative transform w-11/12 h-5/6 overflow-hidden rounded-lg bg-white p-8 text-left shadow-xl transition-all text-gray-900 dark:bg-gray-800 dark:text-white z-50"
                   onClick={(e) => e.stopPropagation()}
                 >
-                  <div className="bg-gray-100 dark:bg-gray-900 flex flex-col items-center py-6 space-y-6 z-20">
-                    <div className="dark:bg-gray-800 bg-white rounded-lg shadow-md p-8 w-full max-w-2xl flex z-20">
+                  <div className="bg-gray-100 dark:bg-gray-900 flex flex-col items-center py-6 space-y-6 z-50">
+                    <div className="dark:bg-gray-800 bg-white rounded-lg shadow-md p-8 w-full max-w-2xl flex z-50">
                       <div className="flex-1 flex justify-center items-center">
                         <span className="text-9xl font-bold dark:text-gray-200 text-gray-600 font-noto-sans-jp">
                           {currentQuestion.kanji}

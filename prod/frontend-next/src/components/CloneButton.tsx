@@ -9,16 +9,27 @@ interface CloneButtonProps {
 const CloneButton: React.FC<CloneButtonProps> = ({collection, level, userId }) => {
   const handleButtonClick = async () => {
 
-    // TODO: replace with env variable
-    let url = 'http://localhost:5100/f-api/v1/';
-    //const collection = 'kanji';
+    // const host = "localhost";
+    // const port = 5100;
+  
+    // let baseUrl: string;
+    // if (process.env.REACT_APP_HOST_IP) {
+    //   baseUrl = `http://${process.env.REACT_APP_HOST_IP}`;
+    // } else {
+    //   baseUrl = `http://${host}:${port}`;
+    // }
+
+    // let url = `${baseUrl}/f-api/v1/`;
+
+
+    let url = `/f-api/v1/`;
 
     switch (collection) {
       case 'kanji':
         url += 'clone-static-collection-kanji';
         break;
-      case 'vocab':
-        url += 'clone-static-collection-vocab';
+      case 'words':
+        url += 'clone-static-collection-words';
         break;
       case 'grammar':
         url += 'clone-static-collection-grammar';
@@ -62,7 +73,7 @@ const CloneButton: React.FC<CloneButtonProps> = ({collection, level, userId }) =
       onClick={handleButtonClick}
       className="bg-gray-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded m-2"
     >
-      Clone Kanji {level}
+      Clone {level}
     </button>
   );
 };

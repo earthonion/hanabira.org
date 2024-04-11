@@ -35,7 +35,7 @@ export default async function GrammarPoint({
   if (process.env.REACT_APP_HOST_IP) {
     apiUrl = `http://${process.env.REACT_APP_HOST_IP}/api/v1/vietnamese/grammar-details`;
   } else {
-    apiUrl = `http://localhost:7000/api/v1/vietnamese/grammar-details`;
+    apiUrl = `http://localhost:8000/api/v1/vietnamese/grammar-details`;
   }
 
 
