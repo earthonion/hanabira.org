@@ -9,13 +9,13 @@ Currently hanabira provides content mainly for Japanese language, but eventually
 
 ## Licence
 
-Project is licenced under GNU General Public Licence v3.0.
+Project is licenced under AGPL Licence v3.0.
 It basically means, that you can use hanabira.org code and content for personal and commercial use, but any code/content built upon hanabira codebase must remain Open Sourced (even for commercial solutions).
 
 Additionally, if you will be using our code/content, we require backlink to https://hanabira.org and this repo (https://github.com/tristcoil/hanabira.org).
 If you will be running hanabira website on your servers, then we require backlink to https://hanabira.org in the footer of every page.
 
-By using our content, you agree to these requirements.
+By using our code/content, you agree to these requirements.
 
 
 
