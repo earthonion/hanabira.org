@@ -188,7 +188,7 @@ export default function Home() {
         <br></br>
         <br></br>
 
-        <h1 className="text-2xl">Learning Progress DASHBOARD</h1>
+        {/* <h1 className="text-2xl">Learning Progress DASHBOARD</h1>
         <br></br>
         <div>
           <LearningProgressFlask
@@ -225,7 +225,7 @@ export default function Home() {
             p_tag="suru_essential_600_verbs"
             s_tag="verbs-2"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

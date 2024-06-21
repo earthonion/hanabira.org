@@ -25,7 +25,6 @@ const CloneButton = dynamic(() => import("@/components/CloneButton"), {
   ssr: false,
 });
 
-//const fetcher = (...args: any) => fetch(...args).then((res) => res.json());
 const fetcher = (...args: Parameters<typeof fetch>) =>
   fetch(...args).then((res) => res.json());
 
@@ -115,7 +114,7 @@ export default function Home() {
             (part, index) => (
               <div
                 key={index}
-                className="w-full max-w-xs p-2 bg-white shadow-md rounded-lg"
+                className="w-full max-w-xs shadow-md rounded-lg"
               >
                 <ComplexFlashcardModalKanjiFlask
                   userId="testUser"
@@ -140,7 +139,7 @@ export default function Home() {
             (part, index) => (
               <div
                 key={index}
-                className="w-full max-w-xs p-2 bg-white shadow-md rounded-lg"
+                className="w-full max-w-xs shadow-md rounded-lg"
               >
                 <ComplexFlashcardModalKanjiFlask
                   userId="testUser"
@@ -165,7 +164,7 @@ export default function Home() {
             (part, index) => (
               <div
                 key={index}
-                className="w-full max-w-xs p-2 bg-white shadow-md rounded-lg"
+                className="w-full max-w-xs shadow-md rounded-lg"
               >
                 <ComplexFlashcardModalKanjiFlask
                   userId="testUser"
@@ -191,7 +190,7 @@ export default function Home() {
         <br></br>
         <br></br>
 
-        <h1 className="text-2xl">Learning Progress DASHBOARD</h1>
+        {/* <h1 className="text-2xl">Learning Progress DASHBOARD</h1>
         <br></br>
         <div>
           <LearningProgressFlask
@@ -209,7 +208,7 @@ export default function Home() {
             p_tag="JLPT_N3"
             s_tag="part_2"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

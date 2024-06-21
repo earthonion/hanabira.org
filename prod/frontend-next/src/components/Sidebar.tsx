@@ -152,7 +152,7 @@ export default function Sidebar() {
             hanabira.org
           </p>
           <p className=" lg:flex ml-3 text-blue-900/60 dark:text-blue-300/60 text-left">
-            Public Alpha v0.3
+            Public Alpha v0.3.1
           </p>
           <p className="lg:hidden mt-2 ml-3 text-sm text-blue-900/60 dark:text-blue-300/60">
             Your journey to Japanese fluency (JLPT N5-N1).

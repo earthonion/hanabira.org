@@ -1,0 +1,506 @@
+this process turned out to be very easy
+once you have files from freelancers, we just add tags, audio path and send it to gtts-cli
+super easy
+
+so I guess we just wait until we have money to send it to freelancers
+we can work on this logic once we have funds, makes little sense to work on this now
+I would forget the project structure until then.
+Best is to wait.
+
+
+// --------------------------------- //
+
+fresh start for content processing flow:
+
+features:
+clearly stated which files to be used as gold data to start content creation pipeline
+files created/corrected by human
+we these need to be marked as gold data files 
+
+then there will be dir with input files and output files 
+these will be clearly defined subdirectories
+
+
+processing scripts will be also located in specific dir (maybe even parent dir, but should not be too many)
+
+
+we should have libraries installed on base system - no venv, so it is easy to use 
+like to have gtts-cli ready and openai library also ready on main system
+
+
+it will be somewhat easier, because this time we will not need to generate files with Chat GPT 
+we just take gold files from freelance translators, so the workflow will be streamlined 
+
+
+so at the start of the process we basically just want files from freelancers
+so the files will have "freelancer" in the name and no other files will be present
+
+
+// --- NEW --- //
+// --------------------------------- GRAMMAR ------------------------------------------ //
+
+
+gold base Japanese grammar file (same format as from freelance translator):
+
+coil@coil-VM:japanese$ ll
+合計 1232
+drwxrwxr-x 2 coil coil   4096 Jun 16 18:11 ./
+drwxrwxr-x 3 coil coil   4096 Jun 16 17:57 ../
+-rw-rw-r-- 1 coil coil 379580 Jun 16 18:10 grammar_ja_N1_full_alphabetical_freelancer.json
+-rw-rw-r-- 1 coil coil 304819 Jun 16 18:10 grammar_ja_N2_full_alphabetical_freelancer.json
+-rw-rw-r-- 1 coil coil 201048 Jun 16 18:10 grammar_ja_N3_full_alphabetical_freelancer.json
+-rw-rw-r-- 1 coil coil 172405 Jun 16 18:11 grammar_ja_N4_full_alphabetical_freelancer.json
+-rw-rw-r-- 1 coil coil 181016 Jun 16 18:11 grammar_ja_N5_full_alphabetical_freelancer.json
+coil@coil-VM:japanese$ 
+
+
+files from freelancers are not valid jsons, they contain trailing comma typically on each en line and 
+trailing comma after examples: [], 
+which are resilduald of me cutting some stuff away from files when giving it to freelancers
+we solved by using json5 python library, that can parse corrupted json files, so cool
+
+
+this file is correct, but does not have p_tag, s_tag and grammar_audio metadata 
+
+so we need scripts to add it there 
+but that is pretty easy
+
+TODO: korean is still having / in some file names, causing failed .mp3 generation
+lets now add correct audio paths
+(bug with slashes propagating to path has been fixed)
+
+
+--- audio path generation ---
+our intermediate files will still be in the data_input directory
+
+
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/content_flow
+python3 add_keys_to_payload.py <jlpt_tag> <input_file> <output_file>
+python3 add_correct_audio_path_for_grammar_payload.py <input_file> <output_file> <lang>"
+
+
+
+jp, th, kr, vn, cn
+
+input_dir="data_input/japanese"
+output_dir="data_output/japanese"
+
+jp:
+---
+
+add tags
+python3 add_tags_to_payload.py JLPT_N1 ${input_dir}/grammar_ja_N1_full_alphabetical_freelancer.json ${input_dir}/grammar_ja_N1_full_alphabetical_freelancer_w_tags.json  
+
+
+create gold file (just adds audio path):
+python3 add_correct_audio_path_for_grammar_payload.py ${input_dir}/grammar_ja_N1_full_alphabetical_freelancer_w_tags.json ${output_dir}/grammar_ja_JLPT_N1_0001.json jp
+
+
+generate actual audio from gold files (goes to artefact directory)
+python3 app_grammar_generate_mp3_files.py ${output_dir}/grammar_ja_JLPT_N1_0001.json 'jp'     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --- OLD --- //
+---------------------------------------------------------------------------------------------------------------------
+------------------------------------- grammar section ---------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+first we need to generate grammar points via GPT 4 API 
+list of grammar points is in a file 
+ 
+
+
+then script called --- calls API and saves output to a file called grammar_0001.json
+
+
+we have grammarpoint generation scripts on Desktop in openai_API directory, we should copy scripts to backend, so they are together
+make sure to add config.py to gitignore, so we do not commit API key
+
+
+
+test grammar json file is in json_data/test_grammar_0001.json
+
+now i want to put the test grammar data to mongodb
+
+below script will seed all data in json_data directory that is in files called grammar_*.json
+seed all grammar to database like:
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ node seed_grammar_to_db.js 
+Mongo Connection Open.
+finally block - closing db conn
+finally block - executed
+
+once grammar data provisioned in the database 
+start local express server that can retrieve grammar data from the DB 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db$ node my_server.js 
+
+and retrieve collection as
+curl -X GET 'http://localhost:8000/api/v1/grammars?p_tag=JLPT_N3&s_tag=10'
+
+that is all pretty good, we just need to get nice naming of the 
+audio files and then of course to generate them
+
+audio paths:
+so first we need to take json file with all the grammar points (list of dictionaries)
+and we need to add key 'grammar_audio' to each jp sentence
+this is done by script called 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/bulk_vocab_sentences$ python3 add_correct_audio_path_for_grammar_payload.py <input_file> <output_file>
+
+expected file names are 
+input_file = "grammars.json"
+output_file = "grammars_updated.json"
+
+"grammars_updated.json"   - this is our final file, with this one we will also seed database
+can be used for audio generation via TTS engine
+
+so how do we create the audio files now?
+we need a script for that 
+
+python3 app_grammar.py grammars_updated.json
+
+python3 app_grammar.py grammar_N3_full_alphabetical_0001.json
+
+that is easy 
+
+
+so what languages we have 
+Japanese - grammar generated
+Vietnamese - grammar generated
+Mandarin - HSK grammar generated
+Korean - TOPIK
+Thai - CU-TFL raw file
+
+
+lang_paths = {
+    'jp': '/audio/japanese/grammar/',
+    'th': '/audio/thai/grammar/',
+    'kr': '/audio/korean/grammar/',
+    'vn': '/audio/vietnamese/grammar/',
+    'cn': '/audio/mandarin/grammar/'
+}
+
+
+ok, so now we have many files for different languages with
+
+Vietnamese example - in coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/openai_API$
+this file is corrected raw data in format produced by GPT
+production-all_vietnamese_grammar_corrected.txt
+
+our sed pipe will clean it up to a json file and then we can just make final touches manually (including trailing comma fix)
+cat production-all_vietnamese_grammar_corrected.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > production-all_vietnamese_grammar_corrected.json
+also sometimes last en key has trailing comma, remove it so json is valid
+sed -i '/"en":/s/,[[:space:]]*$//' production-all_vietnamese_grammar_corrected.json
+
+now we have valid json
+lets add tags and audio path
+python3 add_tags_to_payload.py VIET production-all_vietnamese_grammar_corrected.json production-all_vietnamese_grammar_corrected_w_tags.json
+python3 add_correct_audio_path_for_grammar_payload.py production-all_vietnamese_grammar_corrected_w_tags.json production-all_vietnamese_grammar_corrected_w_tags_w_audio.json 'vn'
+
+this generates basically our json file that we can seed to db and use to generate audio
+so we can rename it to something like
+grammar_vn_full_0001.json
+
+in our same dir we have now mp3 gtts generator
+the generated audio can be then copied directly to frontend public dir
+python3 app_grammar_generate_mp3_files.py grammar_vn_full_0001.json 'vn'
+
+----------------------------------------------------------------------------------------
+
+it is very easy, now we can make the same for other languages
+
+--- MANDARIN ---
+
+
+
+GPT4_output_generated_HSK_1_grammar_list.txt
+GPT4_output_generated_HSK_2_grammar_list.txt
+GPT4_output_generated_HSK_3_grammar_list.txt
+GPT4_output_generated_HSK_4_grammar_list.txt
+GPT4_output_generated_HSK_5_grammar_list.txt
+GPT4_output_generated_HSK_6_grammar_list.txt
+
+cat GPT4_output_generated_HSK_1_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_1.json       x
+cat GPT4_output_generated_HSK_2_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_2.json       x
+cat GPT4_output_generated_HSK_3_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_3.json       x
+cat GPT4_output_generated_HSK_4_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_4.json       x
+cat GPT4_output_generated_HSK_5_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_5.json       x
+cat GPT4_output_generated_HSK_6_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_generated_HSK_6.json       x
+
+
+python3 add_tags_to_payload.py HSK_1 GPT4_output_generated_HSK_1.json GPT4_output_generated_HSK_1_w_tags.json      x
+python3 add_tags_to_payload.py HSK_2 GPT4_output_generated_HSK_2.json GPT4_output_generated_HSK_2_w_tags.json      x
+python3 add_tags_to_payload.py HSK_3 GPT4_output_generated_HSK_3.json GPT4_output_generated_HSK_3_w_tags.json      x
+python3 add_tags_to_payload.py HSK_4 GPT4_output_generated_HSK_4.json GPT4_output_generated_HSK_4_w_tags.json      x
+python3 add_tags_to_payload.py HSK_5 GPT4_output_generated_HSK_5.json GPT4_output_generated_HSK_5_w_tags.json      x
+python3 add_tags_to_payload.py HSK_6 GPT4_output_generated_HSK_6.json GPT4_output_generated_HSK_6_w_tags.json      x
+
+
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_1_w_tags.json grammar_cn_HSK_1_0001.json 'cn'    x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_2_w_tags.json grammar_cn_HSK_2_0001.json 'cn'    x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_3_w_tags.json grammar_cn_HSK_3_0001.json 'cn'    x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_4_w_tags.json grammar_cn_HSK_4_0001.json 'cn'    x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_5_w_tags.json grammar_cn_HSK_5_0001.json 'cn'    x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_generated_HSK_6_w_tags.json grammar_cn_HSK_6_0001.json 'cn'    x
+
+final audio generation:
+
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_1_0001.json 'cn'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_2_0001.json 'cn'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_3_0001.json 'cn'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_4_0001.json 'cn'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_5_0001.json 'cn'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_cn_HSK_6_0001.json 'cn'      # DONE
+
+
+
+
+--- KOREAN ---
+
+GPT4_output_TOPIK_1_grammar_list.txt
+GPT4_output_TOPIK_2_grammar_list.txt
+GPT4_output_TOPIK_3_grammar_list.txt
+GPT4_output_TOPIK_4_grammar_list.txt
+GPT4_output_TOPIK_5_grammar_list.txt
+GPT4_output_TOPIK_6_grammar_list.txt
+
+
+cat GPT4_output_TOPIK_1_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_1.json       x
+cat GPT4_output_TOPIK_2_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_2.json       x
+cat GPT4_output_TOPIK_3_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_3.json       x
+cat GPT4_output_TOPIK_4_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_4.json       x
+cat GPT4_output_TOPIK_5_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_5.json       x
+cat GPT4_output_TOPIK_6_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_TOPIK_6.json       x
+
+
+
+
+python3 add_tags_to_payload.py TOPIK_1 GPT4_output_TOPIK_1.json GPT4_output_TOPIK_1_w_tags.json     x
+python3 add_tags_to_payload.py TOPIK_2 GPT4_output_TOPIK_2.json GPT4_output_TOPIK_2_w_tags.json     x
+python3 add_tags_to_payload.py TOPIK_3 GPT4_output_TOPIK_3.json GPT4_output_TOPIK_3_w_tags.json     x
+python3 add_tags_to_payload.py TOPIK_4 GPT4_output_TOPIK_4.json GPT4_output_TOPIK_4_w_tags.json     x
+python3 add_tags_to_payload.py TOPIK_5 GPT4_output_TOPIK_5.json GPT4_output_TOPIK_5_w_tags.json     x
+python3 add_tags_to_payload.py TOPIK_6 GPT4_output_TOPIK_6.json GPT4_output_TOPIK_6_w_tags.json     x
+
+
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_1_w_tags.json grammar_kr_TOPIK_1_0001.json 'kr'      x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_2_w_tags.json grammar_kr_TOPIK_2_0001.json 'kr'      x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_3_w_tags.json grammar_kr_TOPIK_3_0001.json 'kr'      x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_4_w_tags.json grammar_kr_TOPIK_4_0001.json 'kr'      x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_5_w_tags.json grammar_kr_TOPIK_5_0001.json 'kr'      x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_TOPIK_6_w_tags.json grammar_kr_TOPIK_6_0001.json 'kr'      x
+
+final audio generation:
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_1_0001.json 'kr'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_2_0001.json 'kr'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_3_0001.json 'kr'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_4_0001.json 'kr'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_5_0001.json 'kr'      # DONE
+python3 app_grammar_generate_mp3_files.py grammar_kr_TOPIK_6_0001.json 'kr'      # DONE
+
+
+
+
+--- THAI ---
+
+GPT4_output_CU-TFL_1_grammar_list.txt
+GPT4_output_CU-TFL_2_grammar_list.txt
+GPT4_output_CU-TFL_3_grammar_list.txt
+GPT4_output_CU-TFL_4_grammar_list.txt
+GPT4_output_CU-TFL_5_grammar_list.txt
+
+
+cat GPT4_output_CU-TFL_1_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_CU-TFL_1.json       x
+cat GPT4_output_CU-TFL_2_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_CU-TFL_2.json       x
+cat GPT4_output_CU-TFL_3_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_CU-TFL_3.json       x
+cat GPT4_output_CU-TFL_4_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_CU-TFL_4.json       x
+cat GPT4_output_CU-TFL_5_grammar_list.txt | sed 's/-----------------------------/,/g' | sed -e '/^keyword:/d; /^PROMPT:/d; s/RESPONSE://g' | sed '/"en":/s/,[[:space:]]*$//' > GPT4_output_CU-TFL_5.json       x
+
+
+
+
+
+
+
+
+
+python3 add_tags_to_payload.py CU-TFL_1 GPT4_output_CU-TFL_1.json GPT4_output_CU-TFL_1_w_tags.json     x
+python3 add_tags_to_payload.py CU-TFL_2 GPT4_output_CU-TFL_2.json GPT4_output_CU-TFL_2_w_tags.json     x
+python3 add_tags_to_payload.py CU-TFL_3 GPT4_output_CU-TFL_3.json GPT4_output_CU-TFL_3_w_tags.json     x
+python3 add_tags_to_payload.py CU-TFL_4 GPT4_output_CU-TFL_4.json GPT4_output_CU-TFL_4_w_tags.json     x
+python3 add_tags_to_payload.py CU-TFL_5 GPT4_output_CU-TFL_5.json GPT4_output_CU-TFL_5_w_tags.json     x
+
+
+
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_CU-TFL_1_w_tags.json grammar_th_CU-TFL_1_0001.json 'th'     x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_CU-TFL_2_w_tags.json grammar_th_CU-TFL_2_0001.json 'th'     x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_CU-TFL_3_w_tags.json grammar_th_CU-TFL_3_0001.json 'th'     x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_CU-TFL_4_w_tags.json grammar_th_CU-TFL_4_0001.json 'th'     x
+python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_CU-TFL_5_w_tags.json grammar_th_CU-TFL_5_0001.json 'th'     x
+
+
+
+final audio generation:
+
+python3 app_grammar_generate_mp3_files.py grammar_th_CU-TFL_1_0001.json 'th'     #  d
+python3 app_grammar_generate_mp3_files.py grammar_th_CU-TFL_2_0001.json 'th'     #  d
+python3 app_grammar_generate_mp3_files.py grammar_th_CU-TFL_3_0001.json 'th'     #  d
+python3 app_grammar_generate_mp3_files.py grammar_th_CU-TFL_4_0001.json 'th'     #  d
+python3 app_grammar_generate_mp3_files.py grammar_th_CU-TFL_5_0001.json 'th'     #  d
+
+
+
+
+
+TODO:
+WE HAVE BUG IN AUDIO PATH CREATION SCRIPT, it preseves slashes, so the audio files have slashes in names, which is wrong 
+        
+        "th": "คุณ รู้จัก เขา ไหม ค่ะ ?",
+        "romaji": "Khun roojak khao mai kha?",
+        "en": "Do you know him, sir/madam?",
+        "grammar_audio": "/audio/thai/grammar/s_ครับ/ค่ะ_khrap/kha_-_Polite_ending_particle_for_male/female_speakers_20231230_คุณ_รู้จัก_เขา_ไหม_ค่ะ_.mp3"
+
+we need to redo all audio naming and audio creation stages, but later, now we do not have time for this
+wooow, we missed this, that sucks
+
+also getting these file too long errors:
+Converted ฉัน ชอบ การ เรียน ภาษา อังกฤษ โดยเฉพาะ การ เขียน วรรณกรรม to mp3 and saved to grammar_2023-12-31-12-17-38/s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_ฉัน_ชอบ_การ_เรียน_ภาษา_อังกฤษ_โดยเฉพาะ_การ_เขียน_วรรณกรรม.mp3
+Error: Could not open file 'grammar_2023-12-31-12-17-38/s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_เขา_ชื่นชอบ_เที่ยว_เมือง_ต่าง_ๆ_โดยเฉพาะ_ที่_เป็น_อนุสาวรีย์_ประวัติศาสตร์.mp3': File name too long
+Converted เขา ชื่นชอบ เที่ยว เมือง ต่าง ๆ โดยเฉพาะ ที่ เป็น อนุสาวรีย์ ประวัติศาสตร์ to mp3 and saved to grammar_2023-12-31-12-17-38/s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_เขา_ชื่นชอบ_เที่ยว_เมือง_ต่าง_ๆ_โดยเฉพาะ_ที่_เป็น_อนุสาวรีย์_ประวัติศาสตร์.mp3
+
+I do not see it saved as mp3, so it failed
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/openai_API/grammar_2023-12-31-12-17-38$ ls | grep s_โดยเฉพาะ_dooy_chêephaaw_-
+s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_ฉัน_ชอบ_การ_เรียน_ภาษา_อังกฤษ_โดยเฉพาะ_การ_เขียน_วรรณกรรม.mp3
+s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_ฉัน_รัก_ผัก_ใน_ทุก_รูป_แบบ_โดยเฉพาะ_ที่_เป็น_หน่อไม้_ผัด_พริก.mp3
+s_โดยเฉพาะ_dooy_chêephaaw_-_Especially_particularly_20231230_วันนี้_มี_อากาศ_ที่_ดี_โดยเฉพาะ_การ_มี_แดด_อย่าง_ไม่_เกินไป.mp3
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/openai_API/grammar_2023-12-31-12-17-38$ 
+
+TODO, we need to have some kind of name length limiter in naming script
+
+if we limit it to take just strings before the bracket and not using data, we should be fine 
+"title": "โดยเฉพาะ (dooi chêphâw) - Especially, particularly",
+maybe we can even keep the date
+
+just needs minor improvements
+
+
+
+
+--------------------------------------------
+how do we generate all the grammar points with gpt in the first place?
+
+(.env) coil@coil-VM:~/Desktop/openai_API$ ./grammar_wrapper.sh N3_grammar_week_1-6_alphabetical.txt GPT4_output_N3_grammar_week_1-6_alphabetical.txt
+we have moved and streamlined the code to main repo 
+
+modify the app_grammar_jap_kword.py a bit: change JLPT Nx level, so GPT understands complexity of explanations
+
+(.env) coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/openai_API$ 
+./grammar_wrapper.sh N3_grammar_week_1-6_alphabetical.txt GPT4_output_N3_grammar_week_1-6_alphabetical.txt   #DONE
+./grammar_wrapper.sh N4_grammar_week_1-4_alphabetical.txt GPT4_output_N4_grammar_week_1-4_alphabetical.txt   #DONE
+./grammar_wrapper.sh N2_grammar_week_1-8_alphabetical.txt GPT4_output_N2_grammar_week_1-8_alphabetical.txt   #DONE
+./grammar_wrapper.sh N5_grammar_week_3-5_alphabetical.txt GPT4_output_N5_grammar_week_3-5_alphabetical.txt   #DONE
+./grammar_wrapper.sh N1_grammar_week_1-8_alphabetical.txt GPT4_output_N1_grammar_week_1-8_alphabetical.txt   #DONE
+
+
+
+so now we have the text files with raw GPT output (.txt)
+now manually clean it up to make it regular .json file 
+
+now call (create) script that will add parent and child tags to json 
+#python3 add_tags_to_payload.py JLPT_N3 missing_tags.json missing_tags_updated.json
+
+
+this will add the p_tag and s_tag
+
+#python3 add_tags_to_payload.py JLPT_N4 GPT4_output_N4_grammar_week_1-4_alphabetical.json GPT4_output_N4_grammar_week_1-4_alphabetical_w_tags.json    #DONE
+#python3 add_tags_to_payload.py JLPT_N2 GPT4_output_N2_grammar_week_1-8_alphabetical.json GPT4_output_N2_grammar_week_1-8_alphabetical_w_tags.json    #DONE
+#python3 add_tags_to_payload.py JLPT_N5 GPT4_output_N5_grammar_week_3-5_alphabetical.json GPT4_output_N5_grammar_week_3-5_alphabetical_w_tags.json    #DONE
+#python3 add_tags_to_payload.py JLPT_N1 GPT4_output_N1_grammar_week_1-8_alphabetical.json GPT4_output_N1_grammar_week_1-8_alphabetical_w_tags.json    #DONE
+
+
+now correct audio path 
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/bulk_vocab_sentences$ 
+#python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_N4_grammar_week_1-4_alphabetical_w_tags.json GPT4_output_N4_grammar_week_1-4_alphabetical_w_tags_w_audio.json
+#python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_N2_grammar_week_1-8_alphabetical_w_tags.json GPT4_output_N2_grammar_week_1-8_alphabetical_w_tags_w_audio.json
+#python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_N5_grammar_week_3-5_alphabetical_w_tags.json GPT4_output_N5_grammar_week_3-5_alphabetical_w_tags_w_audio.json
+#python3 add_correct_audio_path_for_grammar_payload.py GPT4_output_N1_grammar_week_1-8_alphabetical_w_tags.json GPT4_output_N1_grammar_week_1-8_alphabetical_w_tags_w_audio.json
+
+
+so now we have gold JSON 
+we can use it for generating the actual audio
+coil@coil-VM:~/Desktop/zen-lingo-website/prod/backend/express/express-db/python_audio_creation$ python3 app_grammar.py grammar_N1_full_alphabetical_0001.json 
+
+rename our gold file to something more readable like and generate audio
+#python3 app_grammar.py grammar_N4_full_alphabetical_0001.json
+#python3 app_grammar.py grammar_N2_full_alphabetical_0001.json
+#python3 app_grammar.py grammar_N5_full_alphabetical_0001.json
+#python3 app_grammar.py grammar_N1_full_alphabetical_0001.json
+
+easy
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+------------------------------------- Vietnamese grammar section ----------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+lets just generate audio files 
+
+python3 app_grammar_generate_mp3_files.py grammar_vn_all_corrected_0001.json 'vn'     #  p
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------- seed various lang grammar to db --------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+so now we have the main json file generated
+we have new grammar seeding script
+seed_grammar_to_db_other_langs.js    this one will seed grammar for all langs besides jap
+
+
+and it will take data from 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
