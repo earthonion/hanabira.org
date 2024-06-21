@@ -48,19 +48,13 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 }) => {
   const [count, setCount] = useState<number>(0);
   let [isOpen, setIsOpen] = useState(false);
+  const [shouldFetchData, setShouldFetchData] = useState(false);
+  const [isFetching, setIsFetching] = useState(false); // To track fetching status
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [difficulty, setDifficulty] = useState<string | null>(null);
 
   const audioRef = useRef<HTMLAudioElement>(null);
-
-  //const fetcher = (...args: Parameters<typeof fetch>) =>
-  //  fetch(...args).then((res) => res.json());
-
-  const fetcher = (url: string) =>
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => data.words); // Extract the words array from the response
 
   let apiUrl;
 
@@ -71,21 +65,33 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
     apiUrl = `/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`;
   }
 
-  //const { data: questions, error } = useSWR(apiUrl, fetcher);
+
+  const fetcher = (url: string) =>
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => data.words); // Extract the words array from the response
+
   //const { data: questions, error } = useSWR<Question[]>(apiUrl, fetcher);
-  const { data: questions, error } = useSWR<Question[]>(apiUrl, fetcher);
+  const { data: questions, error } = useSWR<Question[]>(
+    shouldFetchData ? apiUrl : null,
+    fetcher,
+    {
+      revalidateOnFocus: false, // Disable revalidation on window focus
+      revalidateOnReconnect: false, // Disable revalidation on network reconnect
+      refreshInterval: 0, // Disable automatic revalidation with an interval
+      onSuccess: () => setIsFetching(false), // Set fetching to false when data is successfully fetched
+      onError: () => setIsFetching(false),
+    }
+  );
 
   console.log(questions);
 
-  //const currentQuestion = questions[currentQuestionIndex];
   const currentQuestion = questions?.[currentQuestionIndex];
 
   console.log("------------------------------------------");
   console.log(currentQuestion);
 
   const [isFlipped, setIsFlipped] = useState(false); // State to track card flip
-
-  // ... existing function declarations
 
   const flipCard = () => {
     setIsFlipped(!isFlipped);
@@ -177,23 +183,6 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
     }
   };
 
-  // const playSentenceAudio = () => {
-  //   if (currentQuestion && currentQuestion.vocabulary_audio) {
-  //     // Ensure currentQuestion and its vocabulary_audio property are defined
-  //     const audio = new Audio(currentQuestion.vocabulary_audio);
-  //     audio.play();
-  //   } else {
-  //     // Handle the case where currentQuestion or vocabulary_audio is not available
-  //     console.log("Audio URL is missing or the current question is undefined.");
-  //     // Optionally, you might want to alert the user or handle this case more gracefully
-  //   }
-  // };
-
-  // const playSentenceAudio = (audioUrl) => {
-  //   const audio = new Audio(audioUrl);
-  //   audio.play();
-  // };
-
   const playSentenceAudio = (audioUrl: string): void => {
     const audio = new Audio(audioUrl);
     audio.play();
@@ -214,39 +203,24 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 
   function closeModal() {
     setIsOpen(false);
+    // Optionally reset `shouldFetchData` here if you want to refetch data every time the modal opens
+    setShouldFetchData(false);
   }
 
   function openModal() {
     setIsOpen(true);
+    setShouldFetchData(true);
+    setIsFetching(true); // Start fetching data
   }
-
-  // Inside your component
-  // const [openStates, setOpenStates] = useState({});
-
-  // const toggleOpenState = (index) => {
-  //   setOpenStates((prev) => ({ ...prev, [index]: !prev[index] }));
-  // };
 
   // ------------------------------------------------------------------------
 
   if (error) return <div>Failed to load</div>;
 
-  //if (!questions) return <div>Loading...</div>;
-  if (!questions || questions.length === 0) return <div>Loading...</div>; // Ensure questions is loaded and has data
-
-  if (!currentQuestion) {
-    // Render a loading state or nothing until the data is available
-    return <div>Loading...</div>;
-  }
-
-  return (
-    <>
+  if (!isOpen)
+    return (
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden m-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-2xl flex flex-row justify-between items-center text-center sm:text-left">
         <div className="p-4 flex-grow">
-          {/* <div className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-widest">
-            Level: {p_tag}
-          </div> */}
-
           <div className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-widest">
             {p_tag}
           </div>
@@ -277,13 +251,23 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
           </span>
         </div>
       </div>
+    );
 
+  if (!questions || questions.length === 0) return <div>Loading...</div>; // Ensure questions is loaded and has data
+
+  if (!currentQuestion) {
+    // Render a loading state or nothing until the data is available
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <div>
       <Transition.Root show={isOpen} as={Fragment}>
         <Dialog
           as="div"
           className="relative z-50"
           open={isOpen}
-          onClose={() => {}}
+          onClose={() => { }}
         >
           <Transition.Child
             as={Fragment}
@@ -354,50 +338,6 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
                         </div>
                       </div>
 
-                      {/* Sentences Section */}
-
-                      {/* <div className="text-center space-y-6">
-  <div className="py-6 space-y-4">
-    <div className="text-base font-semibold dark:text-gray-200 text-gray-700">
-      Example Sentence(s):
-    </div>
-    {currentQuestion.sentences.map((sentence, index) => (
-      <div key={index} className="space-y-2">
-        <div className="flex items-center space-x-2">
-          <button
-            onClick={() => playSentenceAudio(sentence.sentence_audio)}
-            className="flex-shrink-0"
-            aria-label="Play Sentence Audio"
-          >
-            <FontAwesomeIcon icon={faPlayCircle} className="w-5 h-5 text-gray-800 dark:text-white" />
-          </button>
-          <div className="flex-grow flex justify-between items-center">
-            <div className="text-lg dark:text-white text-gray-800">
-              {sentence.sentence_japanese}
-            </div>
-            <button
-              onClick={() => toggleOpenState(index)}
-              className="flex-shrink-0"
-            >
-              {openStates[index] ? <ChevronUpIcon className="w-5 h-5" /> : <ChevronDownIcon className="w-5 h-5" />}
-            </button>
-          </div>
-        </div>
-        {openStates[index] && (
-          <div className="space-y-1 text-left">
-            <div className="text-sm dark:text-gray-200 text-gray-700">
-              {sentence.sentence_romaji}
-            </div>
-            <div className="text-md italic dark:text-gray-400 text-gray-600">
-              {sentence.sentence_english}
-            </div>
-          </div>
-        )}
-      </div>
-    ))}
-  </div>
-</div> */}
-
                       {/* Adaptive Sentences Section */}
                       <SentenceSection sentences={currentQuestion.sentences} />
                       {/* End of Adaptive Sentences Section */}
@@ -428,15 +368,14 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
                             <button
                               key={idx}
                               className={`py-1 px-2 sm:py-3 sm:px-6 rounded-md font-semibold text-xs sm:text-sm transition duration-200 ease-in-out shadow-md
-          ${
-            difficulty === level
-              ? level === "easy"
-                ? "bg-green-500 hover:bg-green-600 text-white"
-                : level === "medium"
-                ? "bg-yellow-500 hover:bg-yellow-600 text-white"
-                : "bg-red-500 hover:bg-red-600 text-white"
-              : "bg-gray-300 hover:bg-gray-400 text-gray-800"
-          }`}
+          ${difficulty === level
+                                  ? level === "easy"
+                                    ? "bg-green-500 hover:bg-green-600 text-white"
+                                    : level === "medium"
+                                      ? "bg-yellow-500 hover:bg-yellow-600 text-white"
+                                      : "bg-red-500 hover:bg-red-600 text-white"
+                                  : "bg-gray-300 hover:bg-gray-400 text-gray-800"
+                                }`}
                               onClick={() => handleDifficultySelection(level)}
                             >
                               {level.charAt(0).toUpperCase() + level.slice(1)}
@@ -471,7 +410,7 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
           </div>
         </Dialog>
       </Transition.Root>
-    </>
+    </div>
   );
 };
 
@@ -576,118 +515,3 @@ const SentenceSection: React.FC<SentenceSectionProps> = ({ sentences }) => {
     </div>
   );
 };
-
-// ------------------------ OLD CODE ------------------------------
-
-//<ExampleSentences sentences={currentQuestion.sentences} />
-// import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
-//
-// const ExampleSentences = ({ sentences }) => {
-//   const [showAll, setShowAll] = useState(false);
-//
-//   return (
-//     <div className="space-y-4">
-//       {/* Always display the first sentence */}
-//       {sentences.slice(0, 1).map((sentence, index) => (
-//         <div key={index} className="space-y-2">
-//           <div className="text-lg font-semibold">
-//             {sentence.sentence_japanese}
-//           </div>
-//           <div className="text-sm">{sentence.sentence_romaji}</div>
-//           <div className="text-md italic">{sentence.sentence_english}</div>
-//         </div>
-//       ))}
-//
-//       {sentences.length > 1 && (
-//         <div>
-//           <button
-//             className="flex items-center space-x-2 text-blue-600 hover:text-blue-800 focus:outline-none"
-//             onClick={() => setShowAll(!showAll)}
-//           >
-//             <span>{showAll ? "Show Less" : "Show More"}</span>
-//             {showAll ? (
-//               <ChevronUpIcon className="w-5 h-5" />
-//             ) : (
-//               <ChevronDownIcon className="w-5 h-5" />
-//             )}
-//           </button>
-//
-//           {showAll && (
-//             <div className="mt-2 space-y-4">
-//               {sentences.slice(1).map((sentence, index) => (
-//                 <div key={index} className="space-y-2">
-//                   <div className="text-lg font-semibold">
-//                     {sentence.sentence_japanese}
-//                   </div>
-//                   <div className="text-sm">{sentence.sentence_romaji}</div>
-//                   <div className="text-md italic">
-//                     {sentence.sentence_english}
-//                   </div>
-//                 </div>
-//               ))}
-//             </div>
-//           )}
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// -------------------- card content -------------------
-//                     <div className="dark:bg-gray-800 bg-white rounded-lg shadow-md p-8 w-full max-w-2xl flex z-50">
-//                       <div className="flex-1 flex justify-center items-center">
-//                         <span className="text-9xl font-bold dark:text-gray-200 text-gray-600 font-noto-sans-jp">
-//                           {currentQuestion.kanji}
-//                         </span>
-//                       </div>
-//
-//                       {/* Card Content Section (1/2 of the width) */}
-//                       <div className="flex-1 text-center space-y-6">
-//                         <div className="space-y-4">
-//                           <div className="text-4xl font-bold flex items-center justify-center space-x-2">
-//                             <span className="dark:text-white text-gray-800">
-//                               {currentQuestion.kanji}
-//                             </span>{" "}
-//                             {/* Small Kanji */}
-//                             <button
-//                               onClick={playVocabularyAudio}
-//                               className="focus:outline-none dark:text-gray-300 text-gray-500 hover:dark:text-gray-200 hover:text-gray-600"
-//                             >
-//                               <FontAwesomeIcon icon={faPlayCircle} size="xs" />
-//                             </button>
-//                           </div>
-//                           <div className="text-xl dark:text-gray-300 text-gray-600">
-//                             {currentQuestion.reading}
-//                           </div>
-//                         </div>
-//
-//                         <div className="border-t border-b border-gray-300 py-6 space-y-4">
-//                           <div className="text-base font-semibold dark:text-gray-200 text-gray-700">
-//                             Example:
-//                           </div>
-//                           <div className="text-xl flex items-center justify-center space-x-2">
-//                             <span className="text-2xl dark:text-white text-gray-800">
-//                               {currentQuestion.exampleWord}
-//                             </span>
-//                             <button
-//                               onClick={handlePlayAudio}
-//                               className="focus:outline-none dark:text-gray-300 text-gray-500 hover:dark:text-gray-200 hover:text-gray-600"
-//                             >
-//                               <FontAwesomeIcon icon={faPlayCircle} size="lg" />
-//                             </button>
-//                           </div>
-//                           <audio
-//                             ref={audioRef}
-//                             src={currentQuestion.audio}
-//                             preload="auto"
-//                           ></audio>
-//                           <div className="text-base dark:text-gray-200 text-gray-700">
-//                             {currentQuestion.exampleReading}
-//                           </div>
-//                           <div className="text-lg italic dark:text-gray-400 text-gray-600">
-//                             {currentQuestion.translation}
-//                           </div>
-//                         </div>
-//                       </div>
-//                     </div>
-// -------------------- end of card content -------------------

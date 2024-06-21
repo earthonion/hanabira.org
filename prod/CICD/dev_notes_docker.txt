@@ -86,11 +86,13 @@ and will link to containers on ports 3000 and 8000
 
 
 on hanabira server:
+-------------------
 docker run -d   -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:express-db
 docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:frontend-next
-docker run -d   -p 5100:5100   -v /home/coil/user_db:/var/lib/mongodb --add-host=host.docker.internal:host-gateway --restart=unless-stopped coil/zen-lingo:flask-dynamic-db
+docker run -d   -p 5100:5100   -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway --restart=unless-stopped coil/zen-lingo:flask-dynamic-db
 
-
+note: in Firefox on your dev ubuntu, you can right click on the page and make nice screenshots of divs, it can recognize them, lol 
+great feature for creating about page
 
 FRONTEND-NEXT
 -------------
@@ -106,23 +108,21 @@ STATIC BACKEND EXPRESS+DB
 -------------------------
 (seeds db, creates relationships and starts actual API server that responds to GET requests)
 
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/express
+
 docker build . -t coil/zen-lingo:express-db
 docker push coil/zen-lingo:express-db
 (port 8000 exposed internally)
 docker run -it -p 8000:8000 coil/zen-lingo:express-db
+docker run -it -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/zen-lingo:express-db
 
+our mongo content will be reachable via api - port 8000
 curl -X GET http://localhost:8000/api/v1/words
-curl -X GET 'http://localhost:8000/api/v1/words?p_tag=JLPT_N3&s_tag=100'     //must use quotes
+curl -X GET 'http://localhost:8000/api/v1/words?p_tag=JLPT_N3&s_tag=i-adjective'     //must use quotes
 
-our mongo content will be api reachable via port 8000
-curl -X GET http://localhost:8000/api/v1/words
-curl -X GET 'http://localhost:8000/api/v1/words?p_tag=JLPT_N3&s_tag=100'     //must use quotes
-
-our mongo content will be api reachable via port 8000
 curl -X GET http://localhost:8000/api/v1/words
 curl -X GET 'http://localhost:8000/api/v1/words?p_tag=essential_600_verbs&s_tag=verbs-1'     //must use quotes
 
-our mongo content will be api reachable via port 8000
 curl -X GET http://localhost:8000/api/v1/words
 curl -X GET 'http://localhost:8000/api/v1/words?p_tag=suru_essential_600_verbs&s_tag=verbs-1'     //must use quotes
 
@@ -137,23 +137,26 @@ DYNAMIC BACKEND FLASK+DB
 
 docker build . -t coil/zen-lingo:flask-dynamic-db
 docker push coil/zen-lingo:flask-dynamic-db
-(port 8000 exposed internally)
 
 mkdir -p /home/coil/user_db  # docker should create this by itself if needed
 
-docker run -it -p 5100:5100 -v /home/coil/user_db:/var/lib/mongodb --add-host=host.docker.internal:host-gateway coil/zen-lingo:flask-dynamic-db # interactive
-docker run -d -p 5100:5100 -v /home/coil/user_db:/var/lib/mongodb --add-host=host.docker.internal:host-gateway coil/zen-lingo:flask-dynamic-db # daemonised
+docker run -it -p 5100:5100 -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway coil/zen-lingo:flask-dynamic-db # interactive
+docker run -d -p 5100:5100 -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway coil/zen-lingo:flask-dynamic-db # daemonised
+
 
 example queries to the APIs  using mounted persistent volume
-curl -X POST http://localhost:5100/api/clone-static-collection -H "Content-Type: application/json" -d '{"userId": "testUser", "collection": "kanji", "p_tag": "JLPT_N3"}'
+curl -X POST http://localhost:5100/f-api/v1/clone-static-collection-kanji -H "Content-Type: application/json" -d '{"userId": "testUser", "collection": "kanji", "p_tag": "JLPT_N3"}'
+
+
+if you want falshcards to work (vocab, kanji), you need to clone the collection first, otherwise API will just return words: []
+and card will not show anything
+
+static generation of grammar is tricky, we kinda have to build it while our backends are running??? I guess, so it gets baked in?
+I dont know how static generation works under the hood really 
 
 
 
-
-
-
-
-
+# ---------------------------- OTHER NOTES ----------------------------- #
 
 
 To keep a Docker container running even after disconnecting from the server, you can use the detach option (-d or --detach) when running the container. This option allows the container to run in the background as a daemon.

@@ -46,6 +46,8 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 }) => {
   const [count, setCount] = useState<number>(0);
   let [isOpen, setIsOpen] = useState(false);
+  const [shouldFetchData, setShouldFetchData] = useState(false);
+  const [isFetching, setIsFetching] = useState(false); // To track fetching status
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [difficulty, setDifficulty] = useState<string | null>(null);
@@ -54,38 +56,6 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 
   const fetcher = (...args: Parameters<typeof fetch>) =>
     fetch(...args).then((res) => res.json());
-
-  // --------------------------------------------------------------------------------------------------------------------------------
-
-  // let apiUrl;
-
-  // // Determine the host dynamically based on REACT_APP_HOST_IP or use default
-  // const host = process.env.REACT_APP_HOST_IP || "localhost";
-  // const isCustomHost = Boolean(process.env.REACT_APP_HOST_IP);
-
-  // const port = 5100;
-
-  // let baseUrl: string;
-  // if (process.env.REACT_APP_HOST_IP) {
-  //   baseUrl = `http://${process.env.REACT_APP_HOST_IP}`;
-  // } else {
-  //   baseUrl = `http://${host}:${port}`;
-  // }
-
-  // // Adjust URLs based on the presence of userId
-  // if (userId) {
-  //   // When using a custom host (e.g., via reverse proxy), don't specify the port.
-  //   // Assuming nginx or another reverse proxy routes to the Flask endpoint for userId-specific calls
-  //   apiUrl = isCustomHost
-  //     ? `http://${host}/f-api/v1/combine-flashcard-data-${collectionName}?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`
-  //     : `http://${host}:5100/f-api/v1/combine-flashcard-data-${collectionName}?userId=${userId}&collectionName=${collectionName}&p_tag=${p_tag}&s_tag=${s_tag}`;
-  // } else {
-  //   // Without userId, we call just static db
-  //   // Assuming nginx or another reverse proxy routes to the static db endpoint for non-userId-specific calls
-  //   apiUrl = isCustomHost
-  //     ? `http://${host}/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`
-  //     : `http://${host}:8000/api/v1/${collectionName}?p_tag=${p_tag}&s_tag=${s_tag}`;
-  // }
 
   // --------------------------------------------------------------------------------------------------------------------------------
 
@@ -100,8 +70,22 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 
   // --------------------------------------------------------------------------------------------------------------------------------
 
-  //const { data: questions, error } = useSWR(apiUrl, fetcher);
-  const { data: questions, error } = useSWR<Question[]>(apiUrl, fetcher);
+  //const { data: questions, error } = useSWR<Question[]>(apiUrl, fetcher);
+
+  // `enabled: shouldFetchData` controls when the SWR hook fetches data
+  //const { data: questions, error } = useSWR<Question[]>(shouldFetchData ? apiUrl : null, fetcher);
+
+  const { data: questions, error } = useSWR<Question[]>(
+    shouldFetchData ? apiUrl : null,
+    fetcher,
+    {
+      revalidateOnFocus: false, // Disable revalidation on window focus
+      revalidateOnReconnect: false, // Disable revalidation on network reconnect
+      refreshInterval: 0, // Disable automatic revalidation with an interval
+      onSuccess: () => setIsFetching(false), // Set fetching to false when data is successfully fetched
+      onError: () => setIsFetching(false),
+    }
+  );
 
   console.log(questions);
 
@@ -206,17 +190,40 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
 
   function closeModal() {
     setIsOpen(false);
+    // Optionally reset `shouldFetchData` here if you want to refetch data every time the modal opens
+    setShouldFetchData(false);
   }
 
   function openModal() {
     setIsOpen(true);
+    setShouldFetchData(true);
+    setIsFetching(true); // Start fetching data
   }
 
   // ------------------------------------------------------------------------
 
   if (error) return <div>Failed to load</div>;
 
-  //if (!questions) return <div>Loading...</div>;
+  if (!isOpen)
+    return (
+      <div className=" p-2 bg-white dark:bg-gray-800 rounded-lg shadow transition-shadow duration-300 ease-in-out hover:shadow-xl">
+        <div className="text-sm md:text-md lg:text-lg font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-widest">
+          Level: {p_tag}
+        </div>
+        <p>Kanji with one reading {s_tag}</p>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+          Explore the kanji readings interactively.
+        </p>
+        <button
+          type="button"
+          onClick={openModal}
+          className="mt-2 inline-flex items-center justify-center rounded-md bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 dark:focus:ring-gray-600 text-gray-800 dark:text-gray-300 text-sm px-3 py-1.5 transition-colors duration-150"
+        >
+          Open flashcard
+        </button>
+      </div>
+    );
+
   if (!questions || questions.length === 0) return <div>Loading...</div>; // Ensure questions is loaded and has data
 
   if (!currentQuestion) {
@@ -225,35 +232,7 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
   }
 
   return (
-    <>
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden m-2 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-2xl flex flex-row justify-between items-center text-center sm:text-left">
-        <div className="p-4 flex-grow">
-          <div className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-widest">
-            Level: {p_tag}
-          </div>
-          <a
-            href="/japanese/flashcards-kanji/#"
-            className="block mt-1 text-xs sm:text-sm md:text-md leading-tight font-semibold text-gray-800 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
-            aria-label={`Kanji with one reading ${s_tag}`}
-          >
-            Kanji with one reading {s_tag}
-          </a>
-          <p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-            Explore the kanji readings and levels interactively.
-          </p>
-          <div className="mt-2">
-            <button
-              type="button"
-              onClick={openModal}
-              className="inline-flex justify-center items-center rounded-md bg-gray-200 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 dark:focus:ring-gray-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 text-gray-800 dark:text-gray-300 text-xs sm:text-sm px-3 py-1.5 transition-colors duration-150"
-            >
-              Open flashcard
-            </button>
-          </div>
-        </div>
-        <div className="flex justify-center items-center pr-2 sm:pr-4 md:pr-8 lg:pr-12"></div>
-      </div>
-
+    <div>
       <Transition.Root show={isOpen} as={Fragment}>
         <Dialog
           as="div"
@@ -418,7 +397,7 @@ const ComplexFlashcardModal: FC<ComplexFlashcardModalProps> = ({
           </div>
         </Dialog>
       </Transition.Root>
-    </>
+    </div>
   );
 };
 

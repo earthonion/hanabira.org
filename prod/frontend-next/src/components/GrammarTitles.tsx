@@ -23,7 +23,7 @@ const GrammarTitles: React.FC<GrammarTitlesProps> = async ({ lang, pTag, slug}) 
   if (process.env.REACT_APP_HOST_IP) {
     apiUrl = `http://${process.env.REACT_APP_HOST_IP}/api/v1/grammar-titles?p_tag=${pTag}`;
   } else {
-    apiUrl = `http://localhost:7000/api/v1/grammar-titles?p_tag=${pTag}`;
+    apiUrl = `http://localhost:8000/api/v1/grammar-titles?p_tag=${pTag}`;
   }
 
 
