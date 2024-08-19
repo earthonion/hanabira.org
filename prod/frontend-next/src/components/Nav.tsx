@@ -33,6 +33,23 @@ export default function Nav() {
               Home{" "}
             </Link>
             {/* ... other links ... */}
+
+            <Link
+              href="/content"
+              className="mr-10 hover:text-gray-800 dark:hover:text-gray-600 font-medium"
+            >
+              {" "}
+              Content{" "}
+            </Link>
+
+            <Link
+              href="/features"
+              className="mr-10 hover:text-gray-800 dark:hover:text-gray-600 font-medium"
+            >
+              {" "}
+              Features{" "}
+            </Link>
+
             <Link
               href="/blog"
               className="mr-10 hover:text-gray-800 dark:hover:text-gray-600 font-medium"
@@ -40,6 +57,7 @@ export default function Nav() {
               {" "}
               Blog{" "}
             </Link>
+
 
             <Link
               href="/japanese/kana"
@@ -188,10 +206,11 @@ export default function Nav() {
 const BuyMeACoffeeButton: React.FC = () => {
   return (
     <div>
-      <link
+      {/* causes huge delay */}
+      {/* <link
         href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
         rel="stylesheet"
-      />
+      /> */}
       <a
         className="inline-flex items-center px-4 py-2 bg-orange-500 hover:bg-orange-600 rounded text-white font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
         target="_blank"

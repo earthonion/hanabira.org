@@ -6,8 +6,10 @@ from flask_pymongo import PyMongo, ObjectId
 from pymongo.collection import ReturnDocument
 
 # from bson import ObjectId
-from flask import Flask, request, jsonify
 import requests
+
+from pymongo import MongoClient
+import json
 
 import logging
 
@@ -834,7 +836,463 @@ def store_flashcard_state():
         )
 
 
-# ----------------------------------------------
+# -------------------------------------------------------------------------------------------- #
+# ------------------------------- TEXT PARSER / YOUTUBE / MECAB ------------------------------ #
+# -------------------------------------------------------------------------------------------- #
+
+
+# MongoDB connection
+client = MongoClient('mongodb://localhost:27017/')
+db = client['mecabWords']  # Replace 'yourDatabaseName' with your actual database name
+
+
+
+# Setup for the new database
+def configure_language_db():
+    return client['sentenceMining']     # this one is for sentence mining 
+
+language_db = configure_language_db()
+
+logging.basicConfig(level=logging.DEBUG)  # Set logging level to DEBUG
+
+
+
+# -----
+
+
+# API endpoint to receive POST calls w vocab knowledge status
+# curl -X POST \
+#   /f-api/v1/user-vocabulary \
+#   -H 'Content-Type: application/json' \
+#   -d '{
+#     "username": "example_user",
+#     "original": "行き",
+#     "dictionary": "行く",
+#     "furigana": "いき",
+#     "status": "seen"
+# }'
+@app.route('/f-api/v1/user-vocabulary', methods=['POST'])
+def add_user_vocabulary():
+    data = request.json
+    app.logger.info(f'Incoming payload: {data}') 
+
+    if 'username' not in data:
+        app.logger.error('Username is missing in the payload')  # Example error logging
+        return jsonify({'error': 'Username is missing'}), 400
+    
+    username = data['username']
+    word_data = {
+        'original': data['original'],
+        'dictionary': data['dictionary'],
+        'furigana': data['furigana'],
+        'status': data['status']
+    }
+    
+    # Update or insert data into MongoDB
+    collection = db[username]  # Creating a collection for each user
+    collection.update_one(
+        {'original': data['original']},
+        {'$set': word_data},
+        upsert=True
+    )
+    
+    return jsonify({'message': 'User vocabulary data added/updated successfully'}), 201
+
+
+
+# API endpoint to receive POST calls with the payload
+# curl -X POST \
+#   /f-api/v1/enhance-vocabulary \
+#   -H 'Content-Type: application/json' \
+#   -d '{
+#         "username": "example_user",
+#         "data": [
+#             [
+#                 {"original":"彼女","dictionary":"彼女","furigana":"かのじょ"},
+#                 {"original":"は","dictionary":"は","furigana":""},
+#                 {"original":"まったく","dictionary":"まったく","furigana":""},
+#                 {"original":"遅れて","dictionary":"遅れる","furigana":"おくれて"},
+#                 {"original":"い","dictionary":"いる","furigana":""},
+#                 {"original":"ない","dictionary":"ない","furigana":""},
+#                 {"original":"。","dictionary":"。","furigana":""}
+#             ],
+#             [
+#                 {"original":"今日","dictionary":"今日","furigana":"きょう"},
+#                 {"original":"は","dictionary":"は","furigana":""},
+#                 {"original":"学校","dictionary":"学校","furigana":"がっこう"},
+#                 {"original":"に","dictionary":"に","furigana":""},
+#                 {"original":"行き","dictionary":"行く","furigana":"いき"},
+#                 {"original":"ます","dictionary":"ます","furigana":""},
+#                 {"original":"。","dictionary":"。","furigana":""}
+#             ]
+#         ]
+#     }'
+@app.route('/f-api/v1/enhance-vocabulary', methods=['POST'])
+def enhance_vocabulary():
+    data = request.json
+    app.logger.info(f'Incoming payload: {data}') 
+
+    username = data.get('username')
+    if not username:
+        return jsonify({'error': 'Username is missing in the payload'}), 400
+    
+    enhanced_data = []
+    
+    # Iterate through the input data
+    for sentence in data['data']:
+        enhanced_sentence = []
+        for word in sentence:
+            # Lookup word in the user's collection in the database
+            db_word = db[username].find_one({'original': word['original']})
+            if db_word:
+                word['status'] = db_word['status']
+            else:
+                word['status'] = 'unknown'
+            enhanced_sentence.append(word)
+        enhanced_data.append(enhanced_sentence)
+    
+    return jsonify(enhanced_data)
+
+
+# ----------------- sentence mining -------------------------- #
+
+@app.route('/f-api/v1/store-vocabulary-data', methods=['POST'])
+def store_vocabulary_data():
+    data = request.json
+    app.logger.info(f'Incoming vocabulary data: {data}')
+    
+    if 'userId' not in data:
+        app.logger.error('userId is missing in the payload')
+        return jsonify({'error': 'userId is missing'}), 400
+    
+    userId = data['userId']
+    vocabulary_collection = language_db['vocabulary']
+
+    # Create a document for the vocabulary data, modified to fit new structure
+    vocabulary_document = {
+        "difficulty": data['difficulty'],
+        "p_tag": data['p_tag'],
+        "s_tag": data['s_tag'],
+        "sentences": data['sentences'],
+        "userId": userId,
+        "vocabulary_audio": data['vocabulary_audio'],
+        "vocabulary_english": data['vocabulary_english'],
+        "vocabulary_japanese": data['vocabulary_japanese'],
+        "vocabulary_simplified": data['vocabulary_simplified'],
+        "word_type": data['word_type']
+    }
+
+    # Insert the document into the database
+    insert_result = vocabulary_collection.update_one(
+        {'userId': userId, 'vocabulary_japanese': data['vocabulary_japanese']},
+        {'$set': vocabulary_document},
+        upsert=True
+    )
+    
+    if insert_result.upserted_id or insert_result.matched_count:
+        return jsonify({'message': 'Vocabulary data stored successfully'}), 201 if insert_result.upserted_id else 200
+    else:
+        app.logger.error('Failed to store vocabulary data')
+        return jsonify({'error': 'Failed to store data'}), 500
+
+
+
+# ------------------------------------- serving custom vocab cards -------------------------------------- #
+
+
+
+# here we are getting sentence mined words from user dynamic DB, I think we have separate db just for that 
+# so best to have also separate API endpoint, the difficulty frequency function is common for various endpoints though
+# curl -X GET -H "Content-Type: application/json" "http://localhost:5100/f-api/v1/text-parser-words?userId=testUser&collectionName=vocabulary&p_tag=sentence_mining&s_tag=verbs-1"
+# curl -X POST -H "Content-Type: application/json" -d '{
+#   "userId": "testUser",
+#   "difficulty": "easy",
+#   "collectionName": "vocabulary",
+#   "vocabulary_japanese": "紹介",
+#   "p_tag": "sentence_mining",
+#   "s_tag": "verbs-1"
+# }' "http://localhost:5100/f-api/v1/text-parser-words"
+
+# MongoDB client setup
+#client = MongoClient('mongodb://localhost:27017/')  # Adjust connection string as needed
+sentence_mining_db = client['sentenceMining']
+vocabulary_collection = sentence_mining_db['vocabulary']
+
+# # Function to adjust frequency and shuffle data
+# def f_adjust_frequency_and_shuffle(data):
+#     # Placeholder function, implement as needed
+#     return data
+
+# # Endpoint to get and update vocabulary data
+# @app.route("/f-api/v1/text-parser-words", methods=["GET", "POST"])
+# def text_parser_words():
+#     logging.info("Received request to /f-api/v1/text-parser-words")
+#     try:
+#         if request.method == "POST":
+#             logging.info("Processing POST request")
+#             data = request.json
+#             logging.info(f"Request data: {data}")
+
+#             user_id = data.get("userId")
+#             difficulty = data.get("difficulty")
+#             collection_name = data.get("collectionName")
+#             vocabulary_japanese = data.get("vocabulary_japanese")
+#             p_tag = data.get("p_tag")
+#             s_tag = data.get("s_tag")
+
+#             if not all([user_id, collection_name, p_tag, s_tag, vocabulary_japanese, difficulty]):
+#                 logging.error("Missing required parameters in POST request")
+#                 return jsonify({"error": "Missing required parameters"}), 400
+
+#             logging.info("Updating difficulty in the vocabulary collection")
+#             result = vocabulary_collection.update_one(
+#                 {
+#                     "userId": user_id,
+#                     "vocabulary_japanese": vocabulary_japanese,
+#                     "p_tag": p_tag,
+#                     "s_tag": s_tag
+#                 },
+#                 {
+#                     "$set": {"difficulty": difficulty}
+#                 }
+#             )
+
+#             if result.matched_count == 0:
+#                 logging.error("No matching document found for update")
+#                 return jsonify({"error": "No matching document found"}), 404
+
+#             logging.info("Difficulty updated successfully")
+#             return jsonify({"message": "Difficulty updated successfully"}), 200
+
+#         elif request.method == "GET":
+#             logging.info("Processing GET request")
+#             data = request.args.to_dict()  # Convert ImmutableMultiDict to dict
+#             logging.info(f"Query string data: {data}")
+
+#             user_id = data.get("userId")
+#             collection_name = data.get("collectionName")
+#             p_tag = data.get("p_tag")
+#             s_tag = data.get("s_tag")
+
+#             if not all([user_id, collection_name, p_tag, s_tag]):
+#                 logging.error("Missing required parameters in GET request")
+#                 return jsonify({"error": "Missing required parameters"}), 400
+
+#             logging.info("Fetching user-specific vocabulary data")
+#             user_vocabulary = list(
+#                 vocabulary_collection.find(
+#                     {"userId": user_id, "p_tag": p_tag, "s_tag": s_tag}
+#                 )
+#             )
+
+#             logging.info("Transforming data into the expected format")
+#             data = []
+#             for vocab in user_vocabulary:
+#                 question = {
+#                     "vocabulary_japanese": vocab.get("vocabulary_japanese", ""),
+#                     "vocabulary_simplified": vocab.get("vocabulary_simplified", ""),
+#                     "vocabulary_english": vocab.get("vocabulary_english", ""),
+#                     "vocabulary_audio": vocab.get("vocabulary_audio", ""),
+#                     "word_type": vocab.get("word_type", ""),
+#                     "sentences": [
+#                         {
+#                             "sentence_japanese": sentence.get("sentence_japanese", ""),
+#                             "sentence_simplified": sentence.get("sentence_simplified", ""),
+#                             "sentence_romaji": sentence.get("sentence_romaji", ""),
+#                             "sentence_english": sentence.get("sentence_english", ""),
+#                             "sentence_audio": sentence.get("sentence_audio", ""),
+#                             "sentence_picture": sentence.get("sentence_picture", "")
+#                         }
+#                         for sentence in vocab.get("sentences", [])
+#                     ]
+#                 }
+#                 data.append(question)
+
+#             new_combined_data = f_adjust_frequency_and_shuffle(data)
+
+#             logging.info("Returning transformed data")
+#             return jsonify({"words": new_combined_data}), 200
+
+#     except Exception as e:
+#         logging.exception("An error occurred while processing the request")
+#         return jsonify({"error": str(e)}), 500
+
+
+# Endpoint to get, update, and delete vocabulary data
+@app.route("/f-api/v1/text-parser-words", methods=["GET", "POST", "DELETE"])
+def text_parser_words():
+    logging.info("Received request to /f-api/v1/text-parser-words")
+    try:
+        if request.method == "POST":
+            logging.info("Processing POST request")
+            data = request.json
+            logging.info(f"Request data: {data}")
+
+            user_id = data.get("userId")
+            difficulty = data.get("difficulty")
+            collection_name = data.get("collectionName")
+            vocabulary_japanese = data.get("vocabulary_japanese")
+            p_tag = data.get("p_tag")
+            s_tag = data.get("s_tag")
+
+            if not all([user_id, collection_name, p_tag, s_tag, vocabulary_japanese, difficulty]):
+                logging.error("Missing required parameters in POST request")
+                return jsonify({"error": "Missing required parameters"}), 400
+
+            logging.info("Updating difficulty in the vocabulary collection")
+            result = vocabulary_collection.update_one(
+                {
+                    "userId": user_id,
+                    "vocabulary_japanese": vocabulary_japanese,
+                    "p_tag": p_tag,
+                    "s_tag": s_tag
+                },
+                {
+                    "$set": {"difficulty": difficulty}
+                }
+            )
+
+            if result.matched_count == 0:
+                logging.error("No matching document found for update")
+                return jsonify({"error": "No matching document found"}), 404
+
+            logging.info("Difficulty updated successfully")
+            return jsonify({"message": "Difficulty updated successfully"}), 200
+
+        elif request.method == "GET":
+            logging.info("Processing GET request")
+            data = request.args.to_dict()  # Convert ImmutableMultiDict to dict
+            logging.info(f"Query string data: {data}")
+
+            user_id = data.get("userId")
+            collection_name = data.get("collectionName")
+            p_tag = data.get("p_tag")
+            s_tag = data.get("s_tag")
+
+            if not all([user_id, collection_name, p_tag, s_tag]):
+                logging.error("Missing required parameters in GET request")
+                return jsonify({"error": "Missing required parameters"}), 400
+
+            logging.info("Fetching user-specific vocabulary data")
+            user_vocabulary = list(
+                vocabulary_collection.find(
+                    {"userId": user_id, "p_tag": p_tag, "s_tag": s_tag}
+                )
+            )
+
+            logging.info("Transforming data into the expected format")
+            data = []
+            for vocab in user_vocabulary:
+                question = {
+                    "vocabulary_japanese": vocab.get("vocabulary_japanese", ""),
+                    "vocabulary_simplified": vocab.get("vocabulary_simplified", ""),
+                    "vocabulary_english": vocab.get("vocabulary_english", ""),
+                    "vocabulary_audio": vocab.get("vocabulary_audio", ""),
+                    "word_type": vocab.get("word_type", ""),
+                    "sentences": [
+                        {
+                            "sentence_japanese": sentence.get("sentence_japanese", ""),
+                            "sentence_simplified": sentence.get("sentence_simplified", ""),
+                            "sentence_romaji": sentence.get("sentence_romaji", ""),
+                            "sentence_english": sentence.get("sentence_english", ""),
+                            "sentence_audio": sentence.get("sentence_audio", ""),
+                            "sentence_picture": sentence.get("sentence_picture", "")
+                        }
+                        for sentence in vocab.get("sentences", [])
+                    ]
+                }
+                data.append(question)
+
+            # for cards, limited data
+            #new_combined_data = f_adjust_frequency_and_shuffle(data)
+            
+            # for my_words page, all data without restrictions
+            new_combined_data = data
+
+            logging.info("Returning transformed data")
+            return jsonify({"words": new_combined_data}), 200
+
+        elif request.method == "DELETE":
+            logging.info("Processing DELETE request")
+            data = request.json
+            logging.info(f"Request data: {data}")
+
+            user_id = data.get("userId")
+            collection_name = data.get("collectionName")
+            p_tag = data.get("p_tag")
+            s_tag = data.get("s_tag")
+            vocabulary_japanese = data.get("vocabulary_japanese")
+
+            if not all([user_id, collection_name, p_tag, s_tag, vocabulary_japanese]):
+                logging.error("Missing required parameters in DELETE request")
+                return jsonify({"error": "Missing required parameters"}), 400
+
+            logging.info("Deleting vocabulary from the collection")
+            result = vocabulary_collection.delete_one(
+                {
+                    "userId": user_id,
+                    "vocabulary_japanese": vocabulary_japanese,
+                    "p_tag": p_tag,
+                    "s_tag": s_tag
+                }
+            )
+
+            if result.deleted_count == 0:
+                logging.error("No matching document found for deletion")
+                return jsonify({"error": "No matching document found"}), 404
+
+            logging.info("Vocabulary deleted successfully")
+            return jsonify({"message": "Vocabulary deleted successfully"}), 200
+
+    except Exception as e:
+        logging.exception("An error occurred while processing the request")
+        return jsonify({"error": str(e)}), 500
+
+
+
+
+
+# --------------------------- end of custom sentence mining ----------------------------- #
+
+
+# ------------------------------------- email waitlist from hero section -------------------------------------- #
+
+#from flask import Flask, request, jsonify
+#from pymongo import MongoClient
+from bson.objectid import ObjectId
+
+#app = Flask(__name__)
+
+
+
+client_e = MongoClient('mongodb://localhost:27017/')
+db_e = client_e['email_db']
+emails_collection = db_e['emails']
+
+@app.route('/f-api/v1/submit_email', methods=['POST'])
+def submit_email():
+    data = request.get_json()
+    email = data.get('email')
+
+    if not email:
+        return jsonify({'error': 'Email is required'}), 400
+
+    # Save the email to MongoDB
+    email_data = {
+        'email': email
+    }
+    result = emails_collection.insert_one(email_data)
+    
+    return jsonify({'message': 'Email submitted successfully', 'id': str(result.inserted_id)}), 200
+
+
+
+
+
+
+
+# --- #
+
 if __name__ == "__main__":
-    # app.run(debug=True, port=5100) # has to listen everywhere, otherwise it will not work in docker
+    # has to listen everywhere 0.0.0.0, otherwise it will not work in docker
     app.run(debug=True, host="0.0.0.0", port=flask_port)

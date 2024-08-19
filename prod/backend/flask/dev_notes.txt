@@ -107,3 +107,12 @@ docker push coil/zen-lingo:flask-dynamic-db
 docker run -it -p 5100:5100 coil/zen-lingo:flask-dynamic-db
 
 
+
+
+
+
+
+
+
+
+

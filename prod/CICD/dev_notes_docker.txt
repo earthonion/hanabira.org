@@ -87,9 +87,19 @@ and will link to containers on ports 3000 and 8000
 
 on hanabira server:
 -------------------
+docker pull coil/zen-lingo:express-db
+docker pull coil/zen-lingo:frontend-next
+docker pull coil/zen-lingo:flask-dynamic-db
+docker pull coil/zen-lingo:dictionary-db 
+
+# we might need to get rid of old db structure occasionally
+rm -rf /home/coil/user_db
+
 docker run -d   -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:express-db
-docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:frontend-next
 docker run -d   -p 5100:5100   -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway --restart=unless-stopped coil/zen-lingo:flask-dynamic-db
+docker run -d   -p 5200:5200   --add-host=host.docker.internal:host-gateway --restart=unless-stopped coil/zen-lingo:dictionary-db 
+docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/zen-lingo:frontend-next
+
 
 note: in Firefox on your dev ubuntu, you can right click on the page and make nice screenshots of divs, it can recognize them, lol 
 great feature for creating about page
@@ -153,6 +163,34 @@ and card will not show anything
 
 static generation of grammar is tricky, we kinda have to build it while our backends are running??? I guess, so it gets baked in?
 I dont know how static generation works under the hood really 
+
+
+
+
+DICTIONARY/TEXT PARSER/YOUTUBE backend image /d-api/v1 --------------
+--------------------------------------------
+
+cd prod/backend/dictionary
+
+handles text parser/youtube/mecab/chat gpt/mecab logic, database has only static data (automatic seeding)
+
+docker build . -t coil/zen-lingo:dictionary-db
+docker push coil/zen-lingo:dictionary-db
+
+docker run -it -p 5200:5200 --add-host=host.docker.internal:host-gateway coil/zen-lingo:dictionary-db # interactive
+docker run -d -p 5200:5200  --add-host=host.docker.internal:host-gateway coil/zen-lingo:dictionary-db # daemonised
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

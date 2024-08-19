@@ -245,10 +245,11 @@ const CurrentYear: React.FC = () => {
 const BuyMeACoffeeButton: React.FC = () => {
   return (
     <div>
-      <link
+      {/* causes huge delay */}
+      {/* <link
         href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
         rel="stylesheet"
-      />
+      /> */}
       <a
         className="inline-flex items-center px-2 py-1 sm:px-4 sm:py-2 bg-orange-500 hover:bg-orange-600 rounded text-white font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
         target="_blank"
