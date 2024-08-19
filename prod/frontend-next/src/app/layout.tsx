@@ -6,6 +6,7 @@ import Nav from "@/components/Nav";
 import DashboardNav from "@/components/DashboardNav";
 import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 
 import Script from "next/script";
 const GA_MEASUREMENT_ID = "G-P4SLLVSNCX"; //my hanabira.org code
@@ -44,7 +45,7 @@ export default function RootLayout({
 
 
       <body className={inter.className}>
-            <div className="grid lg:grid-cols-body overflow-auto">
+            <div className="h-full grid lg:grid-cols-body overflow-auto">
               <Sidebar />
               <div className="flex flex-col h-full">
                 <Nav />
@@ -53,6 +54,7 @@ export default function RootLayout({
               </div>
             </div>
           <Footer />
+          <CookieConsent />
       </body>
     </html>
   );

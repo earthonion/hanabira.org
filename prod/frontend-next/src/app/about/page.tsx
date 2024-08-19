@@ -9,8 +9,8 @@ import { Timeline } from "antd";
 export default function About() {
   return (
     <div className="grid lg:grid-cols-body p-5">
-            <br></br>
-            <br></br>
+      <br></br>
+      <br></br>
       <div className="lg:col-span-10">
 
         <h1 className="text-blue-900 text-3xl font-bold">About Hanabira</h1>
@@ -46,20 +46,20 @@ export default function About() {
         <br></br>
 
         <div
-            className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4"
-            role="alert"
-          >
-            <p className="font-bold">Contribute to Hanabira.org</p>
-            <p>
-              Hanabira.org lead dev has set aside several hundred dollars
-              (monthly) for meaningful contributions to the project. We welcome
-              developers, designers, and content creators to join us in
-              enhancing our platform. Your innovative ideas and contributions
-              can make a significant impact to the project.
-            </p>
-          </div>
+          className="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4"
+          role="alert"
+        >
+          <p className="font-bold">Contribute to Hanabira.org</p>
+          <p>
+            Hanabira.org lead dev has set aside several hundred dollars
+            (monthly) for meaningful contributions to the project. We welcome
+            developers, designers, and content creators to join us in
+            enhancing our platform. Your innovative ideas and contributions
+            can make a significant impact to the project.
+          </p>
+        </div>
 
-          <br></br>
+        <br></br>
 
         <h2 className="font-serif text-2xl antialiased text-gray-600">
           Project timeline:
@@ -160,8 +160,8 @@ export default function About() {
           </h2>
           <p className="mt-2 text-gray-700 dark:text-gray-300">
             Currently all content is free. And all content will be free for a long
-            time. Vast majority of content will be free forever. 
-            Project is open sourced, so anyone can spin up their own Hanabira server. 
+            time. Vast majority of content will be free forever.
+            Project is open sourced, so anyone can spin up their own Hanabira server.
           </p>
           <p className="mt-2 text-gray-700 dark:text-gray-300">
             It is possible that in the future certain features will be paid on main production hanabira.org platform to
@@ -263,7 +263,395 @@ export default function About() {
             </p>
           </div>
 
-<Example />
+          {/* <Example /> */}
+
+
+
+
+
+{/* # Kanjidic 
+we are using kanji dictionary from
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+
+we took this file:
+the KANJIDIC2 file, which is in XML format and Unicode/UTF-8 coding, and contains information about all 13,108 kanji. (download)
+http://www.edrdg.org/kanjidic/kanjidic2.xml.gz
+
+then we extract it to xml file
+
+then we use our own python script to convert it to json file so it is easier to process
+json will have 50 MB */}
+
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">Kanjidic Project</h1>
+      <p className="text-gray-700 mb-2">
+        We are using the kanji dictionary from the 
+        <a 
+          href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          KANJIDIC Project
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        We took the KANJIDIC2 file, which is in XML format, encoded in Unicode/UTF-8, and contains information about all 13,108 kanji. You can download the file 
+        <a 
+          href="http://www.edrdg.org/kanjidic/kanjidic2.xml.gz" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        After downloading, we extract the file to XML format. Then, we use our custom Python script to convert it to a JSON file for easier processing. The resulting JSON file is approximately 50 MB in size.
+      </p>
+    </div>
+
+
+
+
+
+
+{/* # Radicals radkfile 
+https://www.edrdg.org/krad/kradinf.html
+
+
+Copyright
+The RADKFILE and KRADFILE files are copright and available under the EDRDG Licence. 
+The copyright of the RADKFILE2 and KRADFILE2 files is held by Jim Rose.
+Jim Breen
+
+well, I need to read more about the licence, it might not allow commercial use
+https://www.edrdg.org/edrdg/licence.html
+
+
+The dictionary files are made available under a Creative Commons Attribution-ShareAlike Licence (V4.0). 
+
+
+RADKFILE/KRADFILE - files relating to the decomposition of the 6,355 kanji in JIS X 0208 into their visible components.
+radkfile2/kradkfile2 is copyright by Jim Breen - but we are not using these specific files */}
+
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">Radicals - RADKFILE</h1>
+      <p className="text-gray-700 mb-2">
+        For more information on RADKFILE, visit 
+        <a 
+          href="https://www.edrdg.org/krad/kradinf.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          this page
+        </a>.
+      </p>
+      <h2 className="text-xl font-semibold text-gray-800 mt-4 mb-2">Copyright</h2>
+      <p className="text-gray-700 mb-2">
+        The RADKFILE and KRADFILE files are copyrighted and available under the EDRDG Licence. The copyright for RADKFILE2 and KRADFILE2 is held by Jim Rose and Jim Breen.
+      </p>
+      <p className="text-gray-700 mb-2">
+        Please note that the licence might not allow commercial use. You can read more about the licence 
+        <a 
+          href="https://www.edrdg.org/edrdg/licence.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <h2 className="text-xl font-semibold text-gray-800 mt-4 mb-2">License Information</h2>
+      <p className="text-gray-700 mb-2">
+        The dictionary files are made available under a Creative Commons Attribution-ShareAlike Licence (V4.0).
+      </p>
+      <p className="text-gray-700 mb-2">
+        The RADKFILE/KRADFILE files relate to the decomposition of the 6,355 kanji in JIS X 0208 into their visible components. However, please note that the RADKFILE2/KRADFILE2 files, which are copyrighted by Jim Breen, are not being used in our project.
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+{/* # Mecab
+mecab apt package
+
+mecab-async - https://www.npmjs.com/package/mecab-async - MIT Licence */}
+
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">Mecab</h1>
+      <p className="text-gray-700 mb-2">
+        We are using the Mecab package available through the apt package manager.
+      </p>
+      <p className="text-gray-700 mb-2">
+        Additionally, we are utilizing 
+        <a 
+          href="https://www.npmjs.com/package/mecab-async" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          mecab-async
+        </a>, 
+        an NPM package licensed under the MIT License.
+      </p>
+    </div>
+
+
+
+
+
+{/* # KUROSHIRO Parser 
+
+https://kuroshiro.org/
+https://github.com/hexenq/kuroshiro
+
+MIT licence
+it is node package */}
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">KUROSHIRO Parser</h1>
+      <p className="text-gray-700 mb-2">
+        The KUROSHIRO Parser is a powerful tool for converting Japanese text into various forms. For more details, visit the official website at 
+        <a 
+          href="https://kuroshiro.org/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          kuroshiro.org
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        The source code is available on GitHub at 
+        <a 
+          href="https://github.com/hexenq/kuroshiro" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          github.com/hexenq/kuroshiro
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        KUROSHIRO is a Node.js package and is licensed under the MIT License.
+      </p>
+    </div>
+
+
+
+
+
+
+{/* # JMDIC 
+
+https://www.edrdg.org/jmdict/j_jmdict.html
+https://www.edrdg.org/edrdg/licence.html
+
+Licence:
+The dictionary files are made available under a Creative Commons Attribution-ShareAlike Licence (V4.0). The Licence Deed can be viewed here, and the full Licence Code is here.
+For the EDICT, JMdict and KANJIDIC files, the following URLs may be used or quoted:
+https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+
+unable to download files from theese old sites, full of errors
+
+but found this repo under MIT licence (just the code) (jmdic for yomitan), frequently updated
+https://github.com/themoeway/jmdict-yomitan?tab=readme-ov-file
+so downloaded jmdict file from there (without example tatoeba sentences)
+next time we can download the bigger file as well
+
+Licence (jmdict for yomitan):
+The code in this repository is licensed under the MIT license. 
+The released dictionaries are licensed under the Creative Commons Attribution-ShareAlike Licence (V4.0) that JMdict is. */}
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">JMDICT</h1>
+      <p className="text-gray-700 mb-2">
+        The JMDict files are available under a Creative Commons Attribution-ShareAlike Licence (V4.0). You can view the Licence Deed 
+        <a 
+          href="https://www.edrdg.org/edrdg/licence.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>, and the full Licence Code 
+        <a 
+          href="https://www.edrdg.org/edrdg/licence.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        For the EDICT, JMdict, and KANJIDIC files, you may use or quote the following URLs:
+        </p>
+        <ul className="list-disc list-inside ml-4">
+          <li>
+            <a 
+              href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-blue-600 hover:underline"
+            >
+              JMdict-EDICT Dictionary Project
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-blue-600 hover:underline"
+            >
+              KANJIDIC Project
+            </a>
+          </li>
+        </ul>
+
+      <p className="text-gray-700 mb-2">
+        Unfortunately, we encountered issues downloading files from these older sites due to errors. However, we found a repository under the MIT License for JMDict (used for Yomitan) that is frequently updated. You can check it out 
+        <a 
+          href="https://github.com/themoeway/jmdict-yomitan?tab=readme-ov-file" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        We downloaded the JMDict file from that repository, which does not include example sentences from Tatoeba. In the future, we may download the larger file as well.
+      </p>
+      <h2 className="text-xl font-semibold text-gray-800 mt-4 mb-2">Licence (JMDict for Yomitan)</h2>
+      <p className="text-gray-700 mb-2">
+        The code in the JMDict for Yomitan repository is licensed under the MIT License. The released dictionaries are licensed under the Creative Commons Attribution-ShareAlike Licence (V4.0), the same as JMdict.
+      </p>
+    </div>
+
+
+{/* # Radicals + KRADFILE
+
+radical meanings taken from wikipedia:
+
+# source:
+# https://en.wikipedia.org/wiki/List_of_kanji_radicals_by_stroke_count
+
+KRADFILE 
+https://www.edrdg.org/krad/kradinf.html
+The RADKFILE and KRADFILE files are copright and available under the EDRDG Licence. The copyright of the RADKFILE2 and KRADFILE2 files is held by Jim Rose.
+
+the EDRDG licence:
+https://www.edrdg.org/edrdg/licence.html
+
+here are sample attribution texts:
+https://www.edrdg.org/edrdg/sample.html
+
+we are using just KRADFILE (NOT KRADFILE2, so we are good with licence) */}
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">Radicals + KRADFILE</h1>
+      <p className="text-gray-700 mb-2">
+        The meanings of the radicals used in our project are sourced from Wikipedia. You can view the full list of kanji radicals by stroke count 
+        <a 
+          href="https://en.wikipedia.org/wiki/List_of_kanji_radicals_by_stroke_count" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <h2 className="text-xl font-semibold text-gray-800 mt-4 mb-2">KRADFILE</h2>
+      <p className="text-gray-700 mb-2">
+        We are using the KRADFILE for our project. More information about KRADFILE can be found 
+        <a 
+          href="https://www.edrdg.org/krad/kradinf.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        The RADKFILE and KRADFILE files are copyrighted and available under the EDRDG Licence. The copyright for RADKFILE2 and KRADFILE2 is held by Jim Rose. However, we are only using KRADFILE (not KRADFILE2), so we are in compliance with the licence.
+      </p>
+      <p className="text-gray-700 mb-2">
+        For more information on the EDRDG licence, you can visit 
+        <a 
+          href="https://www.edrdg.org/edrdg/licence.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          this link
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        Sample attribution texts for using these files under the licence can be found 
+        <a 
+          href="https://www.edrdg.org/edrdg/sample.html" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+    </div>
+
+
+{/* # JAMDICT 
+
+MIT licence 
+
+https://pypi.org/project/jamdict/
+https://github.com/tristcoil/jamdict?tab=readme-ov-file */}
+
+
+<div className="max-w-6xl mx-auto p-6 bg-white shadow-md rounded-lg">
+      <h1 className="text-2xl font-bold text-gray-800 mb-4">JAMDICT</h1>
+      <p className="text-gray-700 mb-2">
+        JAMDICT is a Python package for working with Japanese dictionary files. It is licensed under the MIT License.
+      </p>
+      <p className="text-gray-700 mb-2">
+        For more information, you can visit the package page on PyPI 
+        <a 
+          href="https://pypi.org/project/jamdict/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+      <p className="text-gray-700 mb-2">
+        The source code and additional details can be found on GitHub 
+        <a 
+          href="https://github.com/tristcoil/jamdict?tab=readme-ov-file" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline ml-1"
+        >
+          here
+        </a>.
+      </p>
+    </div>
+
+
 
 
         </div>
@@ -372,6 +760,35 @@ function Example() {
                 Learn more about our company <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
+
+            Japanology related resources:
+
+            Doporučená literatura
+            Literatura doporučená pro přípravu ke studiu:
+
+            https://www.muni.cz/bakalarske-a-magisterske-obory/24559-japanistika
+
+            Bařinka, J. (ed.): Kulturní tradice Dálného východu. Praha, Odeon, 1980.
+            Boháčková L., Winkelhöferová: Vějíř a meč. Praha, Albatros, 1984.
+            Collcutt, M. a kol.: Svět Japonska. Přel. Duroňová, R. Praha, Knižní klub, 1997.
+            Earhart, H. B.: Náboženství Japonska – Mnoho tradic na jedné svaté cestě. Přel. Heřman, R. Praha, Prostor, 1998.
+            Henshall, K. G.: A Guide to Learning Hiragana & Katakana. Tuttle Publishing, 1990.
+            Janoš, J.: 99 zajímavostí z Japonska. Praha, Albatros, 1984.
+            Kodžiki – Kronika dávného Japonska. Přel. Fiala, K. Praha, ExOriente, 2012.
+            Kraemerová, A.: Jak komunikovat s Japonci aneb Nebuďme xenofobní. Praha, Scriptorium, 2013.
+            Labus, D.: Japonsko. Stručná historie států. Praha, Libri, 2009.
+            Líman, A.: Kouzlo šerosvitu. Praha, DharmaGaia, 2008.
+            Líman, A.: Krajiny japonské duše. Praha, Mladá fronta, 2000.
+            Líman, A.: Mezi nebem a zemí. Praha, Academia, 2001.
+            Mason, R., Caiger, J.: Dějiny Japonska. Přel. Müllerová, P. Praha, Fighters Publications, 2007.
+            Nymburská, D., Vostrá, D., Sawatari, M.: Japonština. Praha, Leda, 2007.
+            Reischauer, E., Craig, A.: Dějiny Japonska. Přel. Labus, D., Sýkora, J. Praha, Lidové noviny, 2000.
+            Sýkora, J.: Ekonomické myšlení v Japonsku. Praha, FF UK, 2010.
+            Švarcová, Z.: Japonská literatura 712–1868. Praha, Karolinum, 2005.
+            Vasiljevová, Z.: Dějiny Japonska. Praha, Nakladatelství Svoboda, 1986.
+            Winkelhöferová, V.: Slovník japonské literatury. Praha, Libri, 2008.
+
+
           </div>
         </div>
       </div>

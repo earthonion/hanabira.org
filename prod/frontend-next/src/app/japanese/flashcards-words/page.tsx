@@ -27,6 +27,13 @@ const ComplexFlashcardModalVocabFlask = dynamic(
   { ssr: false }
 );
 
+
+const ComplexFlashcardModalVocabFlaskSentenceMining = dynamic(
+  () => import("@/components/ComplexFlashcardModalVocabFlaskSentenceMining"),
+  { ssr: false }
+);
+
+
 const CloneButton = dynamic(() => import("@/components/CloneButton"), {
   ssr: false,
 });
@@ -187,6 +194,24 @@ export default function Home() {
         <br></br>
         <br></br>
         <br></br>
+
+
+
+
+        <h1 className="text-xl font-bold mb-2">SENTENCE MINING</h1>
+
+        <ComplexFlashcardModalVocabFlaskSentenceMining
+                userId="testUser"
+                collectionName="vocabulary"
+                p_tag="sentence_mining"
+                s_tag="verbs-1"
+              />
+
+
+
+
+
+
 
         {/* <h1 className="text-2xl">Learning Progress DASHBOARD</h1>
         <br></br>

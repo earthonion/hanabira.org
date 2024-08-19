@@ -148,15 +148,15 @@ export default function Sidebar() {
               Hanabira 花びら
             </h1>
           </Link>
-          <p className="hidden lg:flex ml-3 text-blue-900/60 dark:text-blue-300/60">
+          <p className="hidden lg:flex ml-3 text-blue-900/90 dark:text-blue-300/60">
             hanabira.org
           </p>
-          <p className=" lg:flex ml-3 text-blue-900/60 dark:text-blue-300/60 text-left">
-            Public Alpha v0.3.1
+          <p className=" lg:flex ml-3 text-blue-900/90 dark:text-blue-300/60 text-left">
+            Public Alpha v0.3.2
           </p>
-          <p className="lg:hidden mt-2 ml-3 text-sm text-blue-900/60 dark:text-blue-300/60">
+          {/* <p className="lg:hidden mt-2 ml-3 text-sm text-blue-900/60 dark:text-blue-300/60">
             Your journey to Japanese fluency (JLPT N5-N1).
-          </p>
+          </p> */}
         </div>
 
         <div className="hidden lg:flex flex-col w-full">
@@ -213,12 +213,39 @@ export default function Sidebar() {
               Essential Japanese verbs
             </Link>
 
+
+
+            <Link href="/text-parser" className="dashboardOption">
+              Text Parser
+            </Link>
+            <Link href="/text-parser" className="dashboardOption">
+              YouTube assistant
+            </Link>
+            <Link href="/grammar-graph" className="dashboardOption">
+              Grammar graph
+            </Link>
+
+
+            <Link href="/podcasts" className="dashboardOption">
+              YouTube library
+            </Link>
+
+            <Link href="/custom-text" className="dashboardOption">
+              My articles library
+            </Link>
+
+            <Link href="/my-vocabulary" className="dashboardOption">
+              My vocabulary
+            </Link>
+
+
             <Link href="/japanese/flashcards-kanji" className="dashboardOption">
               SRS Flashcards - Kanji
             </Link>
             <Link href="/japanese/flashcards-words" className="dashboardOption">
               SRS Flashcards - Vocabulary
             </Link>
+
 
             <Link href="/japanese/reading" className="dashboardOption">
               Japanese Reading
@@ -232,12 +259,16 @@ export default function Sidebar() {
             >
               Vietnamese Grammar
             </Link>
-            <Link
+
+
+            {/* <Link
               href="/langs/mandarin/grammarlist"
               className="dashboardOption"
             >
               Chinese Grammar
-            </Link>
+            </Link> */}
+
+
             <Link href="/langs/korean/grammarlist" className="dashboardOption">
               Korean Grammar
             </Link>
@@ -317,6 +348,25 @@ export default function Sidebar() {
             {" "}
             Home{" "}
           </Link>
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/features"
+          >
+            {" "}
+            Features{" "}
+          </Link>
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/content"
+          >
+            {" "}
+            Content{" "}
+          </Link>
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -325,6 +375,17 @@ export default function Sidebar() {
             {" "}
             About{" "}
           </Link>
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/text-parser"
+          >
+            {" "}
+            Text Parser{" "}
+          </Link>
+
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -333,6 +394,7 @@ export default function Sidebar() {
             {" "}
             Blog{" "}
           </Link>
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -341,6 +403,7 @@ export default function Sidebar() {
             {" "}
             Kanji{" "}
           </Link>
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -349,6 +412,7 @@ export default function Sidebar() {
             {" "}
             Vocabulary JLPT N3{" "}
           </Link>
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -420,6 +484,17 @@ export default function Sidebar() {
             Quick Vocabulary{" "}
           </Link>
 
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/my-vocabulary"
+          >
+            {" "}
+            My vocabulary{" "}
+          </Link>
+
+
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
@@ -433,7 +508,9 @@ export default function Sidebar() {
           {/* Add empty div if you have an odd number of links to maintain the structure */}
           <div></div>
         </div>
-        <div className="flex justify-center mt-16">
+
+
+        {/* <div className="flex justify-center mt-16">
           <Link
             href="/"
             className="py-3 px-8 border text-primary font-medium border-primary dark:border-white dark:text-white rounded-md"
@@ -441,7 +518,9 @@ export default function Sidebar() {
             {" "}
             Logout{" "}
           </Link>
-        </div>
+        </div> */}
+
+
       </div>
     </div>
   );

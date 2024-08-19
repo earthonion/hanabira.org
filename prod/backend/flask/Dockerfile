@@ -15,6 +15,7 @@ RUN apt-get install -y curl wget gnupg
 
 RUN apt-get install -y python3-pip
 RUN pip3 install flask flask-cors flask-pymongo requests
+RUN pip3 install pymongo
 
 # Set working directory
 WORKDIR /app
