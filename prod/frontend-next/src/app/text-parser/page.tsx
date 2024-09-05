@@ -161,6 +161,25 @@ function HomeComponent() {
   const storeVocabUrl = "/f-api/v1/store-vocabulary-data"; // url3
 
 
+
+//   <CreateReadingFlashcard
+//   word={clickedWord}
+//   wordDictForm={clickedWordDictForm}
+//   sentence={clickedWordSentence}
+//   url0={deeplUrl}
+//   url1={simpleVocabUrl}
+//   url2={convertHiraganaUrl}
+//   url3={storeVocabUrl}
+// />
+
+
+
+
+
+
+
+
+
   // --- functions --- //
 
   const handleModeChange = (event: any) => {
@@ -676,10 +695,10 @@ function HomeComponent() {
           }}
           className="flex-1 flex-shrink-0 bg-zinc-100 flex flex-col justify-start items-center text-gray-600 overflow-y-auto p-2"
         >
-          <p className="fixed top-50">
+          {/* <p className="fixed top-50">
             This is the right div, taking full width on mobile and 1/3 of the
             space on wider screens.
-          </p>
+          </p> */}
 
 
           <div className="lg:fixed lg:top-50 lg:overflow-y-auto">
@@ -692,11 +711,7 @@ function HomeComponent() {
                   url1={simpleVocabUrl}
                 />
               </Tab>
-              <Tab label="Hovered Data">
-                <DisplayHoveredWord hoveredWord={hoveredWord} />
-                <DisplaySentence sentence={hoveredSentence} />
-                <DisplaySentenceV2 sentence={hoveredSentence} url={furiganaUrl} />
-              </Tab>
+
               <Tab label="Create Flashcard">
                 <CreateReadingFlashcard
                   word={clickedWord}
@@ -706,8 +721,16 @@ function HomeComponent() {
                   url1={simpleVocabUrl}
                   url2={convertHiraganaUrl}
                   url3={storeVocabUrl}
+                  url4={gptTranslateUrl}
                 />
               </Tab>
+
+              <Tab label="Hovered Data">
+                <DisplayHoveredWord hoveredWord={hoveredWord} />
+                <DisplaySentence sentence={hoveredSentence} />
+                <DisplaySentenceV2 sentence={hoveredSentence} url={furiganaUrl} />
+              </Tab>
+
               <Tab label="Translate sentence">
                 <DisplayWord
                   word={clickedWord}

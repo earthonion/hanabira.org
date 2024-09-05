@@ -352,15 +352,6 @@ export default function Sidebar() {
           <Link
             onClick={showMenu}
             className="border-b py-2 text-black dark:text-white"
-            href="/features"
-          >
-            {" "}
-            Features{" "}
-          </Link>
-
-          <Link
-            onClick={showMenu}
-            className="border-b py-2 text-black dark:text-white"
             href="/content"
           >
             {" "}
@@ -385,6 +376,14 @@ export default function Sidebar() {
             Text Parser{" "}
           </Link>
 
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/grammar-graph"
+          >
+            {" "}
+            Grammar graph{" "}
+          </Link>
 
           <Link
             onClick={showMenu}
@@ -492,6 +491,26 @@ export default function Sidebar() {
           >
             {" "}
             My vocabulary{" "}
+          </Link>
+
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/custom-text"
+          >
+            {" "}
+            My text library{" "}
+          </Link>
+
+
+          <Link
+            onClick={showMenu}
+            className="border-b py-2 text-black dark:text-white"
+            href="/podcasts"
+          >
+            {" "}
+            YouTube library{" "}
           </Link>
 
 

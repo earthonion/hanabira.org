@@ -979,7 +979,8 @@ def store_vocabulary_data():
         "vocabulary_english": data['vocabulary_english'],
         "vocabulary_japanese": data['vocabulary_japanese'],
         "vocabulary_simplified": data['vocabulary_simplified'],
-        "word_type": data['word_type']
+        "word_type": data['word_type'],
+        "notes": data['notes']
     }
 
     # Insert the document into the database
@@ -1189,6 +1190,7 @@ def text_parser_words():
                     "vocabulary_english": vocab.get("vocabulary_english", ""),
                     "vocabulary_audio": vocab.get("vocabulary_audio", ""),
                     "word_type": vocab.get("word_type", ""),
+                    "notes": vocab.get("notes", ""),
                     "sentences": [
                         {
                             "sentence_japanese": sentence.get("sentence_japanese", ""),

@@ -758,10 +758,15 @@ const translationSbSPrompt = 'You are a translator. Translate the provided Japan
 const summaryPrompt = 'You are a summarizer. Summarize the provided text in a concise manner. But be also rather detailed in your text summary. Return the summary in Markdown format with Markdown formatting so the output is readable.';
 const sentimentPrompt = 'You are a sentiment analyzer. Analyze the sentiment of the provided text in very detailed way. Use example sentences from original text. Return the result in Markdown format with Markdown formatting so the output is readable.';
 
+const parseTreePrompt = 'You are a parse tree linguistic analyzer, analyze phrases and parts of speech. Analyze provided sentence and return its parse tree in JSON format. If the input sentece is in English, add descriptions in Japanese. Keys will be: type, value, translation, children. Return parse tree in JSON format, return only JSON structure, nothing else.';
+
+
+
 //const GPT_MODEL = 'gpt-3.5-turbo';
 const GPT_MODEL = 'gpt-4o-mini';  //several times cheaper than 3.5
 const MAX_PROMPT_LENGTH = 200;
 const MAX_TRANSLATION_PROMPT_LENGTH = 4000;
+const MAX_SENTENCE_PROMPT_LENGTH = 100;
 const MAX_CALLS = 1000;
 const FILE_PATH = path.join(__dirname, 'callCount.json');
 
@@ -850,6 +855,10 @@ const handleOpenAIRequest = async (userPrompt, promptType) => {
       prompt = sentimentPrompt;
       maxLength = MAX_TRANSLATION_PROMPT_LENGTH; // assuming sentiment analysis can be long text
       break;
+    case 'parse-tree':
+      prompt = parseTreePrompt;
+      maxLength = MAX_SENTENCE_PROMPT_LENGTH; // sentences are much shorter
+      break;
     default:
       throw new Error('Invalid prompt type.');
   }
@@ -933,7 +942,7 @@ app.post('/d-api/v1/grammar', async (req, res) => {
 
 
 
-// curl -X POST http://localhost:5900/d-api/v1/translate \
+// curl -X POST http://localhost:5200/d-api/v1/translate \
 //      -H "Content-Type: application/json" \
 //      -d '{
 //         "userPrompt": "君はそれを掴もうとして、馬鹿みたいに空を切った手で"
@@ -1024,6 +1033,66 @@ app.get('/d-api/v1/metrics', (req, res) => {
 
 
 
+// ----------------- parse tree ------------------ //
+
+// New endpoint to generate a parse tree from a provided sentence
+
+// curl -X POST http://localhost:5200/d-api/v1/parse-tree \
+//      -H "Content-Type: application/json" \
+//      -d '{
+//          "sentence": "君 は それ を 掴もう と して 、 馬鹿 みたいに 空 を 切った 手 で",
+//          "language": "Japanese",
+//          "userId": "user123"
+//      }'
+
+// coil@coil-VM:~$ curl -X POST http://localhost:5200/d-api/v1/parse-tree       -H "Content-Type: application/json"       -d '{
+//           "sentence": "君 は それ を 掴もう と して 、 馬鹿 みたいに 空 を 切った 手 で",
+//           "language": "Japanese",
+//           "userId": "user123"
+//       }'
+// {"parseTree":"{\n  \"type\": \"sentence\",\n  \"value\": \"君はそれを掴もうとして、馬鹿みたいに空を切った手で\",\n  \"translation\": \"You tried to grab it, with hands that cut through the air like an idiot.\",\n  \"children\": [\n    {\n      \"type\": \"subject\",\n      \"value\": \"君\",\n      \"translation\": \"You\",\n      \"children\": []\n    },\n    {\n      \"type\": \"particle\",\n      \"value\": \"は\",\n      \"translation\": \"topic marker\",\n      \"children\": []\n    },\n    {\n      \"type\": \"object\",\n      \"value\": \"それ\",\n      \"translation\": \"it\",\n      \"children\": []\n    },\n    {\n      \"type\": \"particle\",\n      \"value\": \"を\",\n      \"translation\": \"object marker\",\n      \"children\": []\n    },\n    {\n      \"type\": \"verb phrase\",\n      \"value\": \"掴もうとする\",\n      \"translation\": \"to try to grab\",\n      \"children\": [\n        {\n          \"type\": \"verb\",\n          \"value\": \"掴もう\",\n          \"translation\": \"to try to grab\",\n          \"children\": []\n        },\n        {\n          \"type\": \"particle\",\n          \"value\": \"と\",\n          \"translation\": \"quotative marker\",\n          \"children\": []\n        },\n        {\n          \"type\": \"verb\",\n          \"value\": \"する\",\n          \"translation\": \"to do\",\n          \"children\": []\n        }\n      ]\n    },\n    {\n      \"type\": \"particle\",\n      \"value\": \"して\",\n      \"translation\": \"and\",\n      \"children\": []\n    },\n    {\n      \"type\": \"adjective phrase\",\n      \"value\": \"馬鹿みたいに\",\n      \"translation\": \"like an idiot\",\n      \"children\": [\n        {\n          \"type\": \"noun\",\n          \"value\": \"馬鹿\",\n          \"translation\": \"idiot\",\n          \"children\": []\n        },\n        {\n          \"type\": \"particle\",\n          \"value\": \"みたい\",\n          \"translation\": \"like\",\n          \"children\": []\n        },\n        {\n          \"type\": \"particle\",\n          \"value\": \"に\",\n          \"translation\": \"to\",\n          \"children\": []\n        }\n      ]\n    },\n    {\n      \"type\": \"adverbial phrase\",\n      \"value\": \"空を切った手で\",\n      \"translation\": \"with hands that cut through the air\",\n      \"children\": [\n        {\n          \"type\": \"noun phrase\",\n          \"value\": \"手\",\n          \"translation\": \"hands\",\n          \"children\": [\n            {\n              \"type\": \"particle\",\n              \"value\": \"で\",\n              \"translation\": \"with\",\n              \"children\": []\n            }\n          ]\n        },\n        {\n          \"type\": \"verb phrase\",\n          \"value\": \"空を切った\",\n          \"translation\": \"that cut through the air\",\n          \"children\": [\n            {\n              \"type\": \"noun\",\n              \"value\": \"空\",\n              \"translation\": \"air\",\n              \"children\": []\n            },\n            {\n              \"type\": \"particle\",\n              \"value\": \"を\",\n              \"translation\": \"object marker\",\n              \"children\": []\n            },\n            {\n              \"type\": \"verb\",\n              \"value\": \"切った\",\n              \"translation\": \"cut\",\n              \"children\": []\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}","model":"gpt-4o-mini","tokensUsed":813,"callTimestamp":"2024-08-22T18:37:39.940Z"}coil@coil-VM:~$ 
+
+app.post('/d-api/v1/parse-tree', async (req, res) => {
+  try {
+    const { sentence, language, userId } = req.body;
+    
+    console.log(req.body)
+
+
+    // Ensure the sentence is provided
+    if (!sentence) {
+      return res.status(400).send({ error: 'Sentence is required.' });
+    }
+
+    // Optionally handle or log language and userId if needed
+    // Example: Log the request details for monitoring purposes
+    console.log(`Processing request for user: ${userId}, language: ${language}`);
+
+    // Call the handleOpenAIRequest function to get the parse tree
+    const response = await handleOpenAIRequest(sentence, 'parse-tree');
+
+    // Construct the JSON response with additional metadata
+    const jsonResponse = {
+      parseTree: response.choices[0].message.content, // The content containing the parse tree structure
+      model: GPT_MODEL, // Metadata about the model used
+      tokensUsed: response.usage.total_tokens, // Number of tokens used in the request
+      callTimestamp: new Date().toISOString() // Timestamp of the API call
+    };
+
+    // Send the response back to the frontend
+    res.send(jsonResponse);
+  } catch (error) {
+    res.status(400).send({ error: error.message });
+  }
+});
+
+
+
+
+
+
+
+
 // ---------------------------------------------------------------------------------------- //
 // ---------------------------------- YouTube Subtitles ----------------------------------- //
 // ---------------------------------------------------------------------------------------- //
@@ -1090,7 +1159,7 @@ app.get("/d-api/v1/get-transcript", async (req, res) => {
 // ---------------------------------------------------------------------------------------- //
 // ----------------- Jitendex mp3 streaming (IO overload prevention) ---------------------- //
 // ---------------------------------------------------------------------------------------- //
-// --- this /apifeature will crash nodemon --- //
+// --- TODO: this /apifeature will crash nodemon --- //
 
 // Serve MP3 files via an API route from the jitendex_audio directory
 app.get('/d-api/v1/audio/:filename', (req, res) => {
@@ -1111,9 +1180,187 @@ app.get('/d-api/v1/audio/:filename', (req, res) => {
 
 
 
+// ---------------------------------------------------------------------------------------- //
+// ----------------- Youtube related custom texts and video banks ---------------------- //
+// ---------------------------------------------------------------------------------------- //
 
 
 
+// const express = require('express');
+// const cors = require('cors');
+// const mongoose = require('mongoose');
+const morgan = require('morgan');
+
+// const app = express();
+// const PORT = 5300;
+
+// Middleware
+// app.use(cors());
+// app.use(express.json());
+app.use(morgan('combined')); // Logging HTTP requests
+
+// MongoDB Connections
+const videoDB = mongoose.createConnection('mongodb://localhost:27017/youtube-videos');
+
+const textDB = mongoose.createConnection('mongodb://localhost:27017/japaneseTextsDB');
+
+// Mongoose Schemas
+const videoSchema = new mongoose.Schema({
+    url: { type: String, required: true },
+    customTitle: { type: String, required: true },
+    customDescription: { type: String, required: true },
+    userid: { type: String, required: true },       
+    p_tag: { type: String, required: true },        
+    s_tag: { type: String, required: true },        
+    lang: { type: String, required: true, default: 'jp' },
+});
+
+const textSchema = new mongoose.Schema({
+  topic: { type: String, required: true },
+  sourceLink: { type: String, required: true },
+  actualText: { type: String, required: true },
+  p_tag: { type: String, required: true },
+  s_tag: { type: String, required: true },
+  userid: { type: String, required: true },
+  lang: { type: String, required: true, default: 'jp' },
+});
+
+// Mongoose Models using their respective connections
+const Video = videoDB.model('Video', videoSchema);
+const Text = textDB.model('Text', textSchema);
+
+// ----------------------------- Routes for Custom Videos ------------------------------ //
+
+// Get all custom videos
+app.get('/d-api/v1/custom-videos', async (req, res) => {
+    console.log('Received GET request for /d-api/v1/custom-videos');
+    try {
+      const { userid, p_tag, s_tag, lang } = req.query;
+      const filter = {};
+  
+      if (userid) filter.userid = userid;
+      if (p_tag) filter.p_tag = p_tag;
+      if (s_tag) filter.s_tag = s_tag;
+      if (lang) filter.lang = lang;
+  
+      const videos = await Video.find(filter);
+      console.log(`Sending ${videos.length} videos`);
+      res.json(videos);
+    } catch (err) {
+      console.error('Error fetching videos:', err.message);
+      res.status(500).json({ message: err.message });
+    }
+});
+  
+// Add a new custom video
+app.post('/d-api/v1/custom-videos', async (req, res) => {
+    console.log('Received POST request for /d-api/v1/custom-videos');
+    const { url, customTitle, customDescription, userid, p_tag, s_tag, lang } = req.body;
+  
+    if (!url || !customTitle || !customDescription || !userid || !p_tag || !s_tag || !lang) {
+      console.log('Missing required fields in POST request');
+      return res.status(400).json({ message: 'All fields are required' });
+    }
+  
+    const video = new Video({
+      url,
+      customTitle,
+      customDescription,
+      userid,
+      p_tag,
+      s_tag,
+      lang,
+    });
+  
+    try {
+      const savedVideo = await video.save();
+      console.log(`Saved new video: ${savedVideo._id}`);
+      res.status(201).json(savedVideo);
+    } catch (err) {
+      console.error('Error saving video:', err.message);
+      res.status(500).json({ message: err.message });
+    }
+});
+  
+// Delete a custom video by ID
+app.delete('/d-api/v1/custom-videos/:id', async (req, res) => {
+    console.log(`Received DELETE request for /api/custom-videos/${req.params.id}`);
+    try {
+      const deletedVideo = await Video.findByIdAndDelete(req.params.id);
+      if (!deletedVideo) {
+        console.log('Video not found');
+        return res.status(404).json({ message: 'Video not found' });
+      }
+      console.log(`Deleted video: ${deletedVideo._id}`);
+      res.status(200).json({ message: 'Video deleted successfully' });
+    } catch (err) {
+      console.error('Error deleting video:', err.message);
+      res.status(500).json({ message: err.message });
+    }
+});
+
+// ----------------------------- Routes for Custom Texts ------------------------------ //
+
+// GET: Retrieve all texts
+app.get('/d-api/v1/japanese-texts', async (req, res) => {
+  try {
+    const texts = await Text.find();
+    res.json(texts);
+  } catch (err) {
+    console.error('Error fetching texts:', err.message);
+    res.status(500).json({ message: 'Error fetching texts' });
+  }
+});
+
+// POST: Create a new text entry
+app.post('/d-api/v1/japanese-texts', async (req, res) => {
+  const { topic, sourceLink, actualText, p_tag, s_tag, userid, lang } = req.body;
+
+  if (!topic || !sourceLink || !actualText || !p_tag || !s_tag || !userid || !lang) {
+    return res.status(400).json({ message: 'All fields are required' });
+  }
+
+  const newText = new Text({
+    topic,
+    sourceLink,
+    actualText,
+    p_tag,
+    s_tag,
+    userid,
+    lang,
+  });
+
+  try {
+    const savedText = await newText.save();
+    res.status(201).json(savedText);
+  } catch (err) {
+    console.error('Error saving text:', err.message);
+    res.status(500).json({ message: 'Error saving text' });
+  }
+});
+
+// DELETE: Delete a text entry by ID
+app.delete('/d-api/v1/japanese-texts/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const deletedText = await Text.findByIdAndDelete(id);
+    if (!deletedText) {
+      return res.status(404).json({ message: 'Text not found' });
+    }
+    res.status(200).json({ message: 'Text deleted successfully' });
+  } catch (err) {
+    console.error('Error deleting text:', err.message);
+    res.status(500).json({ message: 'Error deleting text' }); // Fixed typo here
+  }
+});
+
+// --- //
+
+// // Start the server
+// app.listen(PORT, () => {
+//   console.log(`Server running on port ${PORT}`);
+// });
 
 
 

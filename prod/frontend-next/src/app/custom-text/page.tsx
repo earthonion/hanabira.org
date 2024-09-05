@@ -23,7 +23,7 @@ const JapaneseTexts = () => {
 
     const fetchTexts = async () => {
         try {
-            const response = await axios.get('http://localhost:5300/d-api/v1/japanese-texts');
+            const response = await axios.get('/d-api/v1/japanese-texts');
             setTexts(response.data);
         } catch (error) {
             console.error('Error fetching texts:', error);
@@ -38,7 +38,7 @@ const JapaneseTexts = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5300/d-api/v1/japanese-texts', newText);
+            const response = await axios.post('/d-api/v1/japanese-texts', newText);
             setTexts([...texts, response.data]);
             setNewText({
                 topic: '',
@@ -56,7 +56,7 @@ const JapaneseTexts = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:5300/d-api/v1/japanese-texts/${id}`);
+            await axios.delete(`/d-api/v1/japanese-texts/${id}`);
             setTexts(texts.filter(text => text._id !== id));
             if (selectedText && selectedText._id === id) {
                 setSelectedText(null); // Close the modal if the deleted text is currently selected

@@ -30,7 +30,7 @@ const Home = () => {
 
   const fetchCustomVideos = async () => {
     try {
-      const response = await axios.get('http://localhost:5300/d-api/v1/custom-videos');
+      const response = await axios.get('/d-api/v1/custom-videos');
       setCustomVideos(response.data.map(getVideoData));
     } catch (error) {
       console.error('Error fetching custom videos:', error);
@@ -45,7 +45,7 @@ const Home = () => {
     e.preventDefault();
   
     try {
-      const response = await axios.post('http://localhost:5300/d-api/v1/custom-videos', newVideo);
+      const response = await axios.post('/d-api/v1/custom-videos', newVideo);
       setCustomVideos([...customVideos, getVideoData(response.data)]);
   
       // Only reset specific fields if necessary, or leave some fields as they are
@@ -63,7 +63,7 @@ const Home = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5300/d-api/v1/custom-videos/${id}`);
+      await axios.delete(`/d-api/v1/custom-videos/${id}`);
       setCustomVideos(customVideos.filter(video => video.id !== id));
     } catch (error) {
       console.error('Error deleting video:', error);

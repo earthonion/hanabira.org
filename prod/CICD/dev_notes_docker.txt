@@ -1,3 +1,32 @@
+how to make public Docker containers and make it easy to self host:
+
+
+--- dictionary container: ---
+sensitive files: .env, config.json
+these files must be provided at container runtime from host machine
+
+--- flask container: ---
+no sensitive files yet
+
+--- express container: ---
+no sensitive files yet
+
+--- frontend container: ---
+no sensitive files yet
+
+--- nginx ---
+nginx config needs to be copied to local instance
+and we should commit our self signed certs to repo, it is OK
+
+--- ansible ---
+we need to create ansible playbook to install stuff maybe - well just docker and nginx, so thats fine I guess
+
+
+
+
+// --------------------------------------------------------------- //
+
+
 ACCESS TOKEN DESCRIPTION
 token for zenbook laptop VM
 ACCESS PERMISSIONS
@@ -104,8 +133,112 @@ docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print 
 note: in Firefox on your dev ubuntu, you can right click on the page and make nice screenshots of divs, it can recognize them, lol 
 great feature for creating about page
 
+
+
+
+
+// ---------------------------------------------------------------------------- //
+// ------------------------- PUBLIC CONTAINER BUILDS -------------------------- //
+// ---------------------------------------------------------------------------- //
+
+
+Tested on Ubuntu based system
+
+Setup reverse NGINX proxy:
+sudo apt-get install nginx 
+sudo systemctl enable nginx 
+sudo systemctl start nginx 
+# put hanabira.org file into /etc/nginx/sites-enabled directory, also delete file called "default" so it is not conflicting our new config and restart nginx
+sudo systemctl restart nginx 
+sudo systemctl status nginx
+
+Install Docker:
+sudo apt-get install docker-compose
+sudo usermod -aG docker $USER
+(then reboot VM for the changes to take effect, there are options without reboot, this one is just easy)
+
+
 FRONTEND-NEXT
 -------------
+cd /home/coil/Desktop/zen-lingo-website/prod/frontend-next
+
+docker buildx build . -t coil/hanabira.org:frontend-next
+docker push coil/hanabira.org:frontend-next
+docker run -p 3000:3000 coil/hanabira.org:frontend-next
+docker run -it -p 3000:3000 -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/hanabira.org:frontend-next   
+docker run -d   -p 3000:3000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/hanabira.org:frontend-next
+
+
+STATIC BACKEND EXPRESS+DB
+-------------------------
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/express
+
+docker buildx build . -t coil/hanabira.org:express-db
+docker push coil/hanabira.org:express-db
+docker run -it -p 8000:8000 coil/hanabira.org:express-db
+docker run -it -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}') coil/hanabira.org:express-db
+docker run -d   -p 8000:8000   -e REACT_APP_HOST_IP=$(hostname -I | awk '{print $1}')   --restart=unless-stopped   coil/hanabira.org:express-db
+
+
+DYNAMIC BACKEND FLASK+DB
+------------------------
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/flask
+
+docker buildx build . -t coil/hanabira.org:flask-dynamic-db
+docker push coil/hanabira.org:flask-dynamic-db
+mkdir -p /home/$USER/user_db
+docker run -it -p 5100:5100 -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway coil/hanabira.org:flask-dynamic-db # interactive
+docker run -d -p 5100:5100 -v /home/coil/user_db:/data/db --add-host=host.docker.internal:host-gateway coil/hanabira.org:flask-dynamic-db # daemonised
+
+
+DICTIONARY/TEXT PARSER/YOUTUBE backend image /d-api/v1              
+------------------------------------------------------
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/dictionary
+
+docker buildx build . -t coil/hanabira.org:dictionary-db
+docker push coil/hanabira.org:dictionary-db
+# run these from directory where you have the config files .env and config.json with API keys
+docker run -it -p 5200:5200 --add-host=host.docker.internal:host-gateway -v $(pwd)/.env:/app/.env -v $(pwd)/config.json:/app/config.json coil/hanabira.org:dictionary-db # interactive
+docker run -d -p 5200:5200  --add-host=host.docker.internal:host-gateway -v $(pwd)/.env:/app/.env -v $(pwd)/config.json:/app/config.json coil/hanabira.org:dictionary-db # daemonised
+
+
+
+// ----------------------------------------------------------------------------------- //
+// ------------------------- END of PUBLIC CONTAINER BUILDS -------------------------- //
+// ----------------------------------------------------------------------------------- //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------- LOCAL CONTAINER BUILDS -------------------------- //
+
+FRONTEND-NEXT
+-------------
+cd /home/coil/Desktop/zen-lingo-website/prod/frontend-next
+
 docker build . -t coil/zen-lingo:frontend-next
 docker push coil/zen-lingo:frontend-next
 (port 3000 exposed internally)
@@ -145,6 +278,8 @@ DYNAMIC BACKEND FLASK+DB
 ------------------------
 (handles user specific data, has fast lifecycle)
 
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/flask
+
 docker build . -t coil/zen-lingo:flask-dynamic-db
 docker push coil/zen-lingo:flask-dynamic-db
 
@@ -170,7 +305,7 @@ I dont know how static generation works under the hood really
 DICTIONARY/TEXT PARSER/YOUTUBE backend image /d-api/v1 --------------
 --------------------------------------------
 
-cd prod/backend/dictionary
+cd /home/coil/Desktop/zen-lingo-website/prod/backend/dictionary
 
 handles text parser/youtube/mecab/chat gpt/mecab logic, database has only static data (automatic seeding)
 
