@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from 'next/link';
 import Head from "next/head";
 import axios from "axios";
 
@@ -12,6 +13,7 @@ interface CreateReadingFlashcardProps {
   url1: string;
   url2: string;
   url3: string;
+  url4: string;
 }
 
 // TODO: I think we should use audio for dictionary version of the
@@ -25,11 +27,16 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
   url1,
   url2,
   url3,
+  url4,
 }) => {
   // sends text mining flashcards data to backend
   // we do not worry now about dict form, translation and romaji
   // and romaji for sentences now, this will be handled by custom functions
   // calling appropriate endpoints, we just want main bare functionality now
+
+
+  // Add new state for notes at the top where states are defined
+  const [notes, setNotes] = useState<string>("");
 
   const [translatedText, setTranslatedText] = useState<string | null>(null);
   const [manualTranslation, setManualTranslation] = useState<string>("");
@@ -48,6 +55,7 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
   // url1 simpleVocabUrl
   // url2 convertHiraganaUrl
   // url3 storeVocabUrl
+  // url3 gptTranslateUrl
 
   const fetchVocabularyData = async () => {
 
@@ -118,20 +126,25 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
   };
 
   const handleTranslateGPT = async () => {
-    // TODO:
-    // translations with GPT not implemented yet
+    // Extract Japanese text from the sentence
     const japaneseText = getTextFromSentence(sentence);
     try {
-      const response = await fetch('GPT URL', {
+      // Make a POST request to your translation API
+      const response = await fetch(url4, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ japaneseText }),
+        body: JSON.stringify({ userPrompt: japaneseText }), // Adjusted body format
       });
+
       const data = await response.json();
+
+      // Check if the response is successful
       if (response.ok) {
-        setTranslatedText(data.translatedText);
+        // Extract the translated text from the API response
+        const translatedText = data.choices[0].message.content;
+        setTranslatedText(translatedText);
       } else {
         console.error("Failed to translate:", data.error);
       }
@@ -175,21 +188,24 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
   const handleSubmitToBackend = async () => {
     const japaneseText = getTextFromSentence(sentence);
 
+    // Use manualTranslation if it's not empty or just whitespaces, otherwise use translatedText
+    const sentenceEnglish = manualTranslation.trim() !== "" ? manualTranslation : translatedText;
+
     // Construct the sentences structure
     const sentencesArray = sentence
       ? [
         {
           key: word + "_",
           sentence_audio: "",
-          sentence_english: translatedText,
+          sentence_english: sentenceEnglish, // Use the determined value here
           sentence_japanese: japaneseText,
           sentence_picture: "",
-          sentence_romaji: romaji, // Assign the fetched romaji here
-          //sentence_romaji: "xxx", // Assign the fetched romaji here
+          sentence_romaji: romaji,
           sentence_simplified: manualTranslation,
         },
       ]
       : [];
+
 
     const payload = {
       difficulty,
@@ -197,15 +213,31 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
       s_tag: sTag,
       sentences: sentencesArray,
       userId,
-      //vocabulary_audio: `/audio/vocab/v_${encodeURIComponent(word)}.mp3`,
-      //vocabulary_audio: `/audio/vocab/v_${word}.mp3`,
       vocabulary_audio: `/audio/jitendex_audio/v_${word}.mp3`,
-      vocabulary_english: vocabularyData.englishTranslations.join(", "), // Join translations as a string
-      //vocabulary_english: vocabularyData.englishTranslations,
+      vocabulary_english: vocabularyData.englishTranslations.join(", "),
       vocabulary_japanese: vocabularyData.original,
       vocabulary_simplified: vocabularyData.hiragana,
       word_type: "",
+      notes,
     };
+
+
+
+    // const payload = {
+    //   difficulty,
+    //   p_tag: "sentence_mining",
+    //   s_tag: sTag,
+    //   sentences: sentencesArray,
+    //   userId,
+    //   //vocabulary_audio: `/audio/vocab/v_${encodeURIComponent(word)}.mp3`,
+    //   //vocabulary_audio: `/audio/vocab/v_${word}.mp3`,
+    //   vocabulary_audio: `/audio/jitendex_audio/v_${word}.mp3`,
+    //   vocabulary_english: vocabularyData.englishTranslations.join(", "), // Join translations as a string
+    //   //vocabulary_english: vocabularyData.englishTranslations,
+    //   vocabulary_japanese: vocabularyData.original,
+    //   vocabulary_simplified: vocabularyData.hiragana,
+    //   word_type: "",
+    // };
 
     try {
       const response = await fetch(
@@ -283,6 +315,28 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
             />
           </div>
 
+          {/* // Add the Notes input field in the return JSX, under the "Manual Translation" input */}
+          <div className="col-span-2">
+            <label
+              htmlFor="notes"
+              className="block text-xs font-medium text-gray-700"
+            >
+              Notes (optional):
+            </label>
+            <input
+              type="text"
+              id="notes"
+              name="notes"
+              value={notes}
+              onChange={(e) => setNotes(e.target.value)}
+              className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+            />
+          </div>
+
+
+
+
+
           {romaji && (
             <>
               <div className="text-xs text-gray-900 font-medium">Sentence Romaji/Hiragana:</div>
@@ -326,6 +380,21 @@ const CreateReadingFlashcard: React.FC<CreateReadingFlashcardProps> = ({
             Send to Flashcard
           </button>
         </div>
+
+
+
+        <div className="flex space-x-2 mt-2">
+          <Link href="https://localhost/my-vocabulary" className="text-blue-500 text-xs underline hover:text-blue-600">
+            My Vocabulary
+          </Link>
+
+          <Link href="https://localhost/japanese/flashcards-words" className="text-blue-500 text-xs underline hover:text-blue-600">
+            Japanese Flashcards Words
+          </Link>
+        </div>
+
+
+
       </div>
     </div>
   );

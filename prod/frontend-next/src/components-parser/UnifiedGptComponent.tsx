@@ -100,7 +100,7 @@ interface UnifiedGptComponentProps {
             onClick={handleTask}
             className="mt-4 bg-blue-600 text-white text-sm px-5 py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition duration-150 ease-in-out"
           >
-            {loading ? `${getTaskName()}...` : `${getTaskName()} ($$$ costs GPT tokens $$$)`}
+            {loading ? `${getTaskName()}...` : `${getTaskName()} (Chat GPT`}
           </button>
         )}
       </div>

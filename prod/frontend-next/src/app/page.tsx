@@ -225,6 +225,11 @@ const features = [
     description: 'hanabira.org is mostly Open Source - AGPL v3 License. We are considering going fully Open Source, but have not decided yet. We might leave some functionality as a Pro feature. We welcome your feedback on this structure.',
     icon: HeartIcon,
   },
+  {
+    name: 'Self-Hosting',
+    description: 'You can run hanabira.org locally, as it is open sourced, you just need to spin up few Docker containers.',
+    icon: InboxIcon,
+  },
 ]
 const metrics = [
   { id: 1, stat: '8K+', emphasis: 'Companies', rest: 'use laoreet amet lacus nibh integer quis.' },
@@ -379,7 +384,7 @@ export default function Example() {
         {/* Hero section */}
         {/* <div className="overflow-hidden pt-8 sm:pt-12 lg:relative lg:py-48"> */}
         <div className="overflow-hidden pt-8 sm:pt-12 lg:relative lg:py-18">
-          
+
           <div className="mx-auto max-w-md px-6 sm:max-w-3xl lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-24 lg:px-8">
             <div>
               {/* <div className="text-4xl font-semibold text-slate-600 text-opacity-60">
@@ -389,8 +394,49 @@ export default function Example() {
                   alt="Your Company"
                 />
               </div> */}
+
+              {/* <div className="mt-4 flex items-center">
+                <a
+                  href="https://discord.com/invite/afefVyfAkH"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity duration-200 mr-4"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#5865F2" viewBox="0 0 16 16">
+                    <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.reddit.com/r/hanabira/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity duration-200 mr-4"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FF4500" viewBox="0 0 16 16">
+                    <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165" />
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/tristcoil/hanabira.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity duration-200 mr-4"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                  </svg>
+                </a>
+              </div> */}
+
+
+
+
+
+
+
               {/* <div className="mt-20"> */}
-              <div className="mt-20">
+              <div className="mt-10">
                 <div>
                   <a href="#" className="inline-flex space-x-4">
                     <span className="rounded bg-rose-50 px-2.5 py-1 text-sm font-semibold text-rose-500">
@@ -402,24 +448,33 @@ export default function Example() {
                     </span>
                   </a>
                 </div>
+
+
+
                 <div className="mt-6 sm:max-w-xl">
+
+
+
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                    Your path to Japanese comprehension
+                    Your path to Japanese, Korean comprehension
                   </h1>
 
                   {/* <h1 className="text-xl mt-5 font-bold tracking-tight text-gray-400 sm:text-xl">
                     日本語流暢への道
                   </h1> */}
-                  <h2 className="text-xl mt-5 font-bold tracking-tight text-gray-500 sm:text-xl">
+                  <h2 className="hidden md:block text-xl mt-5 font-bold tracking-tight text-gray-500 sm:text-xl">
                     日本語理解への道
+                  </h2>
+                  <h2 className="hidden md:block text-xl mt-5 font-bold tracking-tight text-gray-500 sm:text-xl">
+                    한국어 이해를 위한 당신의 길입니다
                   </h2>
 
                   <p className="mt-6 text-xl text-gray-500">
-                    Prepare for JLPT N5-N1 with hanabira.org
+                    Prepare for JLPT and TOPIK with hanabira.org
                   </p>
 
                   <p className="mt-6 text-xl text-gray-500">
-                    Free and (mostly) Open Source Japanese learning platform <a href="https://github.com/tristcoil/hanabira.org" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-700">(GitHub)</a>
+                    Free and (mostly) Open Source Japanese learning platform <a href="https://github.com/tristcoil/hanabira.org" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-700">(GitHub)</a>. Available for self-hosting.
                   </p>
                 </div>
 
@@ -436,8 +491,16 @@ export default function Example() {
                         <li><span className="font-semibold text-gray-800">Grammar Explanation</span> - Quick and clear grammar points with examples.</li>
                         <li><span className="font-semibold text-gray-800">Vocabulary SRS Cards</span> - Effective spaced repetition flashcards with audio.</li>
                         <li><span className="font-medium text-gray-700">Vocabulary and Sentence Mining</span> - Discover new words and sentences seamlessly.</li>
-                        <li><span className="font-medium text-gray-700">Kanji Mnemonics</span> <em>(in development)</em> - Simplified kanji learning techniques.</li>
-                        <li><span className="font-medium text-gray-700">Kanji Animation and Drawing Canvas</span> <em>(in development)</em> - Interactive kanji practice tools.</li>
+                        {/* <li><span className="font-medium text-gray-700">Kanji Mnemonics</span> <em>(in development)</em> - Simplified kanji learning techniques.</li>
+                        <li><span className="font-medium text-gray-700">Kanji Animation and Drawing Canvas</span> <em>(in development)</em> - Interactive kanji practice tools.</li> */}
+                        <li className="hidden md:list-item">
+                          <span className="font-medium text-gray-700">Kanji Mnemonics</span>
+                          <em>(in development)</em> - Simplified kanji learning techniques.
+                        </li>
+                        <li className="hidden md:list-item">
+                          <span className="font-medium text-gray-700">Kanji Animation and Drawing Canvas</span>
+                          <em>(in development)</em> - Interactive kanji practice tools.
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -454,14 +517,112 @@ export default function Example() {
 
                 <div className="mt-12">
 
-                  <div className="mt-6 sm:max-w-xl">
+                  {/* <div className="mt-6 sm:max-w-xl">
                     <p className="mt-6 text-xl text-gray-500">
                       Get notified when we launch.
                     </p>
                     <p className="mt-1 text-xs text-gray-500">
                       Currently in early Public Alpha stage.
                     </p>
+                  </div> */}
+
+
+
+
+
+
+                  <div className="mt-6 sm:flex sm:items-center sm:justify-between sm:max-w-xl">
+
+
+
+                    {/* <div>
+      <p className="mt-6 text-xl text-gray-500">
+        Get notified when we launch.
+      </p>
+      <p className="mt-1 text-xs text-gray-500">
+        Currently in early Public Alpha stage.
+      </p>
+    </div> */}
+
+
+                    {/* <div className="mt-4 sm:mt-0 flex items-center justify-end space-x-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" className="bi bi-discord" viewBox="0 0 16 16">
+  <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" className="bi bi-reddit" viewBox="0 0 16 16">
+  <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z"/>
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165"/>
+</svg>
+    </div> */}
+
+
+
+                    <div className="flex justify-between space-x-16">
+                      <div>
+                        <p className="mt-6 text-xl text-gray-500">
+                          Get notified when we launch.
+                        </p>
+                        <p className="mt-1 text-xs text-gray-500">
+                          Currently in early Public Alpha stage.
+                        </p>
+                      </div>
+
+                      <div className="mt-4 sm:mt-0 flex items-right justify-right space-x-3">
+                        <a
+                          href="https://discord.com/invite/afefVyfAkH"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:opacity-80 transition-opacity duration-200"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#5865F2" viewBox="0 0 16 16">
+                            <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+                          </svg>
+                        </a>
+                        <a
+                          href="https://www.reddit.com/r/hanabira/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:opacity-80 transition-opacity duration-200"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#FF4500" viewBox="0 0 16 16">
+                            <path d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165" />
+                          </svg>
+                        </a>
+                        <a
+                          href="https://github.com/tristcoil/hanabira.org"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:opacity-80 transition-opacity duration-200"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                          </svg>
+                        </a>
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
                   </div>
+
+
+
+
+
+
+
+
+
+
+
 
                   {/* <form action="#" className="mt-12 sm:flex sm:w-full sm:max-w-lg">
                     <div className="min-w-0 flex-1">
@@ -488,7 +649,7 @@ export default function Example() {
 
 
                   <EmailForm />
-{/* 
+                  {/* 
                   <form onSubmit={handleSubmit} className="mt-12 sm:flex sm:w-full sm:max-w-lg">
                     <div className="min-w-0 flex-1">
                       <label htmlFor="hero-email" className="sr-only">
@@ -614,12 +775,12 @@ export default function Example() {
                 </svg>
               </div>
               <div className="relative -mr-40 pl-6 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
-      <Image
-        alt="hanabira_text_parser_tokenization"
-        className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-        src={hanabira_text_parser_tokenization}
-        loading="lazy"
-      />
+                <Image
+                  alt="hanabira_text_parser_tokenization"
+                  className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
+                  src={hanabira_text_parser_tokenization}
+                  loading="lazy"
+                />
 
 
 
@@ -1362,14 +1523,20 @@ export default function Example() {
                     </span>
                   </div>
                   <div className="mt-6">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">Open Source (mostly)</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900">Open Source, Self-Hosting</h2>
                     <p className="mt-4 text-lg text-gray-500">
                       Majority of the hanabira.org project is open sourced on GitHub. Under AGPL v3 Licence.
-                      You can run your own Hanabira server locally on laptop, alternatively you can spin up 
-                      Hanabira instance on your servers. Licence allows even commercial use. 
-                      Vocabulary and Grammar content is offered under Creative Commons Sharealike License, 
+                      You can run your own Hanabira server locally on laptop, alternatively you can spin up
+                      Hanabira instance on your servers. Licence allows even commercial use.
+                      Vocabulary and Grammar content is offered under Creative Commons Sharealike License,
                       meaning that you basically just link hanabira.org as source and then content can be pretty much freely used.
                     </p>
+
+                    <p className="mt-4 text-lg text-gray-500">
+                      You can easily run local instance of the whole Hanabira web server. You will just need to spin up few Docker containers and NGINX reverse proxy.
+                      Our documentation contains step by step process how to run Hanabira on your Linux server/Virtual Box VM.
+                    </p>
+
                     <div className="mt-6">
                       <a
                         href="https://github.com/tristcoil/hanabira.org"
@@ -1384,7 +1551,7 @@ export default function Example() {
                   <blockquote>
                     <div>
                       <p className="text-base text-gray-500">
-                      There are some Pro features that are not open sourced (yet) though.
+                        There are/might be some Pro features that are not open sourced (yet) though.
                       </p>
                     </div>
                     <footer className="mt-3">
@@ -1426,7 +1593,7 @@ export default function Example() {
 
                       Audio is downloadable too.
 
-                      Materials are currently being corrected by native speakers. 
+                      Materials are currently being corrected by native speakers.
                       So at the moment there still will be erors in content, but this issue will be fixed soon.
                     </p>
 
@@ -1435,7 +1602,7 @@ export default function Example() {
                     </p>
 
                     <p className="mt-4 text-lg text-gray-500">
-                      Materials are currently being corrected by native speakers. 
+                      Materials are currently being corrected by native speakers.
                       So at the moment there still will be erors in content, but this issue will be fixed soon.
                     </p>
 
@@ -1557,13 +1724,13 @@ export default function Example() {
                     Get notified when we&rsquo;re launching.
                   </h2>
                   <p className="mx-auto mt-6 max-w-2xl text-lg text-rose-100">
-                    Plenty of development ahead. Get notified when we launch hanabira.org platform. 
+                    Plenty of development ahead. Get notified when we launch hanabira.org platform.
                   </p>
                 </div>
 
 
 
-<EmailForm />
+                <EmailForm />
 
                 {/* <form onSubmit={handleSubmit} className="mt-12 sm:mx-auto sm:flex sm:max-w-lg">
                   <div className="min-w-0 flex-1">

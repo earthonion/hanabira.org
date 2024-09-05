@@ -1,23 +1,15 @@
 'use client';
 
-
-
-//import React, { useState } from 'react';
-//import ParseTree from './ParseTree'; // Ensure this is correctly imported from where the component is located
-import axios from 'axios'; // You'll need to install axios if not already installed: npm install axios
+//import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const HomePage = () => {
-  // Predefined JSON data
+  // Initial hardcoded JSON data
   // const initialData = {
-  //   value: "Example sentence",
-  //   translation: "Example translation",
-  //   children: [
-  //     // Your predefined data structure
-  //   ],
+  //   // your initial data here...
   // };
 
 
-  // Korean
   const initialData = {
     "type": "sentence",
     "value": "저는 비 오는 일요일 오후에 둠 메탈을 듣는 것을 좋아해요.",
@@ -144,14 +136,7 @@ const HomePage = () => {
       }
     ]
   }
-
-
-
-
-
-
-
-
+  
 
 
 
@@ -164,74 +149,197 @@ const HomePage = () => {
   const [language, setLanguage] = useState('Japanese'); // Default language
   const [userId, setUserId] = useState('');
 
+  // Loading state
+  const [loading, setLoading] = useState(false);
+
+  // Metadata state
+  const [metadata, setMetadata] = useState(null);
+
+  // Effect to load the initial hardcoded JSON and pre-populate user ID
+  useEffect(() => {
+    // Set the initial data on component mount
+    setData(initialData);
+
+    // Pre-populate the user ID, e.g., from local storage or generate a new one
+    const savedUserId = localStorage.getItem('userId');
+    if (savedUserId) {
+      setUserId(savedUserId);
+    } else {
+      const newUserId = `user-${Math.random().toString(36).substring(2, 15)}`;
+      setUserId(newUserId);
+      localStorage.setItem('userId', newUserId);
+    }
+  }, []);
+
   // Function to handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
+    if (sentence.length > 100) {
+      alert('Sentence cannot exceed 100 characters.');
+      return;
+    }
+
+    setLoading(true);
     try {
-      const response = await axios.post('/api/parse-tree', {
+      const response = await axios.post('/d-api/v1/parse-tree', {
         sentence,
         language,
         userId,
       });
 
-      // Update the parse tree with the new data
-      setData(response.data);
+      // Parse the JSON string returned from the backend
+      const parsedTree = JSON.parse(response.data.parseTree);
+
+      // Update the parse tree with the new data from the backend
+      setData(parsedTree);
+
+      // Update metadata
+      setMetadata({
+        model: response.data.model,
+        tokensUsed: response.data.tokensUsed,
+        callTimestamp: response.data.callTimestamp,
+      });
     } catch (error) {
       console.error('Error fetching new parse tree data:', error);
       // Handle error (e.g., show a notification)
+    } finally {
+      setLoading(false);
     }
   };
 
+  const exampleSentences = [
+    { language: 'Japanese', sentence: '彼は毎朝6時に起きてランニングをします。' },
+    { language: 'Japanese', sentence: '今日は雨が降るかもしれません。' },
+    { language: 'Korean', sentence: '저는 매일 아침 6시에 일어나서 운동을 합니다.' },
+    { language: 'Korean', sentence: '오늘은 비가 올 수도 있어요.' },
+    { language: 'English', sentence: 'He wakes up at 6 AM every morning and goes for a run.' },
+    { language: 'English', sentence: 'It might rain today.' },
+  ];
+
   return (
-    <div className="p-8 bg-gray-50 min-h-screen">
-      <h1 className="text-2xl font-bold text-center mb-8">Japanese Parse Tree Visualization (like mirinae.io)</h1>
-      
-      {/* Form for submitting custom sentences */}
-      <form onSubmit={handleSubmit} className="mb-8">
-        <div className="mb-4">
-          <label className="block text-lg font-semibold mb-2" htmlFor="sentence">Sentence:</label>
-          <input
-            type="text"
-            id="sentence"
-            className="w-full p-2 border border-gray-300 rounded"
-            value={sentence}
-            onChange={(e) => setSentence(e.target.value)}
-            required
-          />
+    <div className="p-8 bg-gray-100 min-h-screen">
+      <h1 className="text-3xl font-bold text-center mb-6">Japanese/Korean/English Parse Tree Visualization</h1>
+      <p className="text-center text-gray-700 mb-4">
+        Currently, we are using the <strong>GPT4o mini</strong> model, which is cost-effective but provides basic sentence analytics. 
+        It tends to split content by individual words rather than logical phrases. We plan to retrain and fine-tune this model for better performance.
+      </p>
+      <p className="text-center text-gray-700 mb-4">
+        We achieved much better results with the <strong>GPT 4o</strong> model, but it is expensive and not feasible to provide for free.
+      </p>
+      <p className="text-center text-red-600 mb-8">
+        <strong>DISCLAIMER:</strong> This tool uses AI for sentence analysis and may make mistakes.
+      </p>
+
+      <div className="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md mb-8">
+        {/* Form for submitting custom sentences */}
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block text-lg font-semibold mb-2" htmlFor="sentence">Sentence:</label>
+            <input
+              type="text"
+              id="sentence"
+              className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              value={sentence}
+              onChange={(e) => setSentence(e.target.value)}
+              maxLength={100} // Limit input to 100 characters
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-lg font-semibold mb-2">Language:</label>
+            
+            <div className="space-y-2">
+  <div className="flex items-center space-x-4">
+    <div>
+      <input
+        type="radio"
+        id="japanese"
+        name="language"
+        value="Japanese"
+        checked={language === 'Japanese'}
+        onChange={(e) => setLanguage(e.target.value)}
+      />
+      <label className="ml-2" htmlFor="japanese">Japanese</label>
+    </div>
+    <div>
+      <input
+        type="radio"
+        id="korean"
+        name="language"
+        value="Korean"
+        checked={language === 'Korean'}
+        onChange={(e) => setLanguage(e.target.value)}
+      />
+      <label className="ml-2" htmlFor="korean">Korean</label>
+    </div>
+    <div>
+      <input
+        type="radio"
+        id="english"
+        name="language"
+        value="English"
+        checked={language === 'English'}
+        onChange={(e) => setLanguage(e.target.value)}
+      />
+      <label className="ml-2" htmlFor="english">English</label>
+    </div>
+  </div>
+</div>
+
+
+          </div>
+          <div>
+            <label className="block text-lg font-semibold mb-2" htmlFor="userId">User ID:</label>
+            <input
+              type="text"
+              id="userId"
+              className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+              value={userId}
+              readOnly // Make the User ID field read-only
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            disabled={loading} // Disable the button while loading
+          >
+            {loading ? 'Loading...' : 'Submit'}
+          </button>
+        </form>
+      </div>
+
+      {/* Loading Indicator */}
+      {loading && <p className="text-center text-lg">Processing your request...</p>}
+
+      {/* Parse Tree Display */}
+      {!loading && (
+        <div className="flex justify-center">
+          <ParseTree data={data} />
         </div>
-        <div className="mb-4">
-          <label className="block text-lg font-semibold mb-2" htmlFor="language">Language:</label>
-          <input
-            type="text"
-            id="language"
-            className="w-full p-2 border border-gray-300 rounded"
-            value={language}
-            onChange={(e) => setLanguage(e.target.value)}
-            required
-          />
+      )}
+
+      {/* Metadata Display */}
+      {!loading && metadata && (
+        <div className="max-w-2xl mx-auto mt-8 p-6 bg-white shadow rounded-lg">
+          <h2 className="text-lg font-semibold mb-2">Response Metadata</h2>
+          <p><strong>Model:</strong> {metadata.model}</p>
+          <p><strong>Tokens Used:</strong> {metadata.tokensUsed}</p>
+          <p><strong>Call Timestamp:</strong> {metadata.callTimestamp}</p>
         </div>
-        <div className="mb-4">
-          <label className="block text-lg font-semibold mb-2" htmlFor="userId">User ID:</label>
-          <input
-            type="text"
-            id="userId"
-            className="w-full p-2 border border-gray-300 rounded"
-            value={userId}
-            onChange={(e) => setUserId(e.target.value)}
-            required
-          />
+      )}
+
+      {/* Example Sentences Section */}
+      <div className="max-w-4xl mx-auto mt-16">
+        <h2 className="text-2xl font-semibold text-center mb-6">Example Sentences</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {exampleSentences.map((example, index) => (
+            <div key={index} className="bg-white p-4 rounded-lg shadow">
+              <h3 className="text-lg font-semibold">{example.language}</h3>
+              <p className="text-gray-700 mt-2">{example.sentence}</p>
+            </div>
+          ))}
         </div>
-        <button
-          type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
-          Submit
-        </button>
-      </form>
-      
-      <div className="flex justify-center">
-        <ParseTree data={data} />
       </div>
     </div>
   );
@@ -242,233 +350,141 @@ export default HomePage;
 
 
 
+// ----------------------- vars ----------------------- //
+
+
+const initialData = {
+  "type": "sentence",
+  "value": "저는 비 오는 일요일 오후에 둠 메탈을 듣는 것을 좋아해요.",
+  "translation": "I like listening to doom metal on rainy Sunday afternoons.",
+  "children": [
+    {
+      "type": "noun_phrase",
+      "value": "저는",
+      "translation": "I",
+      "children": [
+        {
+          "type": "pronoun",
+          "value": "저",
+          "translation": "I"
+        },
+        {
+          "type": "particle",
+          "value": "는",
+          "translation": "topic marker"
+        }
+      ]
+    },
+    {
+      "type": "noun_phrase",
+      "value": "비 오는 일요일 오후에",
+      "translation": "on rainy Sunday afternoons",
+      "children": [
+        {
+          "type": "noun_phrase",
+          "value": "비 오는 일요일",
+          "translation": "rainy Sunday",
+          "children": [
+            {
+              "type": "noun_phrase",
+              "value": "비 오는",
+              "translation": "rainy",
+              "children": [
+                {
+                  "type": "noun",
+                  "value": "비",
+                  "translation": "rain"
+                },
+                {
+                  "type": "verb",
+                  "value": "오는",
+                  "translation": "coming"
+                }
+              ]
+            },
+            {
+              "type": "noun",
+              "value": "일요일",
+              "translation": "Sunday"
+            }
+          ]
+        },
+        {
+          "type": "noun",
+          "value": "오후",
+          "translation": "afternoon"
+        },
+        {
+          "type": "particle",
+          "value": "에",
+          "translation": "time/location particle"
+        }
+      ]
+    },
+    {
+      "type": "verb_phrase",
+      "value": "둠 메탈을 듣는",
+      "translation": "listening to doom metal",
+      "children": [
+        {
+          "type": "noun",
+          "value": "둠 메탈",
+          "translation": "doom metal"
+        },
+        {
+          "type": "particle",
+          "value": "을",
+          "translation": "object marker"
+        },
+        {
+          "type": "verb",
+          "value": "듣는",
+          "translation": "listening"
+        }
+      ]
+    },
+    {
+      "type": "noun_phrase",
+      "value": "것을",
+      "translation": "the act of",
+      "children": [
+        {
+          "type": "noun",
+          "value": "것",
+          "translation": "thing, act"
+        },
+        {
+          "type": "particle",
+          "value": "을",
+          "translation": "object marker"
+        }
+      ]
+    },
+    {
+      "type": "verb_phrase",
+      "value": "좋아해요",
+      "translation": "like",
+      "children": [
+        {
+          "type": "verb",
+          "value": "좋아하다",
+          "translation": "like"
+        },
+        {
+          "type": "politeness_marker",
+          "value": "해요",
+          "translation": "politeness marker"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+// ---------------------- graph component ------------------------- //
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import ParseTree from '../components/ParseTree';
-
-// const HomePage = () => {
-
-//   return (
-//     <div className="p-8 bg-gray-50 min-h-screen">
-//       <h1 className="text-2xl font-bold text-center mb-8">Japanese Parse Tree Visualization (like mirinae.io)</h1>
-//       <div className="flex justify-center">
-//         <ParseTree data={data} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HomePage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ---------------------- component -------------------------
-
-// import React, { useEffect, useRef, useState } from 'react';
-// import * as d3 from 'd3';
-
-// const ParseTree = ({ data }) => {
-//   const svgRef = useRef();
-//   const [hoveredNodeData, setHoveredNodeData] = useState(null); // State to hold hovered node data
-
-//   useEffect(() => {
-//     const margin = { top: 20, right: 120, bottom: 20, left: 200 };
-//     const width = 1200 - margin.right - margin.left;  // Adjusted width for more horizontal space
-//     const height = 800 - margin.top - margin.bottom;  // Adjusted height for a better aspect ratio
-
-//     // Clear any existing SVG elements before rendering
-//     d3.select(svgRef.current).selectAll('*').remove();
-
-//     const svg = d3.select(svgRef.current)
-//       .attr('viewBox', `0 0 ${width + margin.right + margin.left} ${height + margin.top + margin.bottom}`)
-//       .attr('preserveAspectRatio', 'xMidYMid meet')  // Ensure the SVG scales while maintaining aspect ratio
-//       .attr('width', '100%')
-//       .attr('height', '100%')
-//       .style('font', '12px sans-serif')
-//       .append('g')
-//       .attr('transform', `translate(${margin.left},${margin.top})`);
-
-//     // Tree layout with decreased horizontal spacing
-//     const treeLayout = d3.tree().size([height, width / 1.5]);
-
-//     const root = d3.hierarchy(data);
-//     treeLayout(root);
-
-//     // Links (branches)
-//     svg.selectAll('.link')
-//       .data(root.links())
-//       .enter()
-//       .append('path')
-//       .attr('class', 'link')
-//       .attr('d', d3.linkHorizontal().x(d => d.y * 0.8).y(d => d.x + 40))
-//       .attr('stroke', d => d.target.depth === 0 ? '#1f77b4' : '#94a3b8')
-//       .attr('stroke-width', 2)
-//       .attr('fill', 'none')
-//       .attr('stroke-opacity', 0.6);
-
-//     // Nodes (circles + text)
-//     const node = svg.selectAll('.node')
-//       .data(root.descendants())
-//       .enter()
-//       .append('g')
-//       .attr('class', 'node')
-//       .attr('transform', d => `translate(${d.y * 0.8},${d.x + 40})`)  // Decreased horizontal spacing
-//       .on('mouseover', function (event, d) {
-//         d3.select(this).select('circle').transition().duration(200)
-//           .attr('r', 10)
-//           .attr('fill', '#ff7f0e');
-//         d3.select(this).selectAll('text').transition().duration(200)
-//           .style('font-weight', 'bold')
-//           .style('fill', '#ff7f0e');  // Change text color on hover
-
-//         // Extract only direct data (no children)
-//         const { children, ...nodeData } = d.data;
-//         setHoveredNodeData(nodeData);  // Update the state with hovered node data
-//       })
-//       .on('mouseout', function () {
-//         d3.select(this).select('circle').transition().duration(200)
-//           .attr('r', 6)
-//           .attr('fill', d => d.depth === 0 ? '#1f77b4' : '#4daf4a');
-//         d3.select(this).selectAll('text').transition().duration(200)
-//           .style('font-weight', 'normal')
-//           .style('fill', '#333');  // Revert text color on mouseout
-//         setHoveredNodeData(null);  // Clear the state when the mouse leaves the node
-//       });
-
-//     node.append('circle')
-//       .attr('r', 6)
-//       .attr('fill', d => d.depth === 0 ? '#1f77b4' : '#4daf4a')
-//       .attr('stroke', '#555')
-//       .attr('stroke-width', 2);
-
-//     // Skip displaying the value for the root node
-//     node.append('text')
-//       .attr('dy', d => d.children ? '-1.5em' : '.35em')  // Position text above parent nodes
-//       .attr('x', d => (d.children ? -10 : 10))  // Position text to the left of parent nodes and to the right of leaf nodes
-//       .attr('text-anchor', d => d.children ? 'end' : 'start')  // Adjust text alignment
-//       .attr('class', d => d.children ? 'text-right text-gray-700' : 'text-left text-gray-700')
-//       .text(d => d.depth === 0 ? '' : `${d.data.value}`)  // Exclude value for the root node
-//       .attr('font-size', '12px')
-//       .attr('font-family', 'sans-serif')
-//       .style('fill', '#333');  // Ensure consistent text color
-
-//     // Adding the translation below the original text
-//     node.append('text')
-//       .attr('dy', d => d.children ? '-.5em' : '1.5em')  // Position translation below the original text
-//       .attr('x', d => (d.children ? -10 : 10))  // Align translation text similarly
-//       .attr('text-anchor', d => d.children ? 'end' : 'start')  // Adjust text alignment
-//       .attr('class', d => d.children ? 'text-right text-gray-500 italic' : 'text-left text-gray-500 italic')
-//       .text(d => d.depth === 0 ? '' : d.data.translation ? `(${d.data.translation})` : '')  // Exclude translation for the root node
-//       .attr('font-size', '10px')
-//       .attr('font-family', 'sans-serif')
-//       .style('fill', '#555');  // Lighter color for translations
-
-//     // Adding Zoom and Pan functionality
-//     const zoom = d3.zoom()
-//       .scaleExtent([0.5, 2])
-//       .on('zoom', (event) => {
-//         svg.attr('transform', event.transform);
-//       });
-
-//     d3.select(svgRef.current).call(zoom);
-
-//   }, [data]);
-
-//   return (
-//     <div className="flex flex-col items-center w-full h-screen bg-slate-100">
-
-//       <div className="p-4 bg-gray-100 border-b mb-4 w-full max-w-4xl">
-//         <h2 className="font-bold text-xl mb-2">Original Sentence:</h2>
-//         <p className="mb-1">{data.value}</p>
-//         <h2 className="font-bold text-xl mb-2">Translation:</h2>
-//         <p>{data.translation}</p>
-//       </div>     
-
-//       <div className="p-4 bg-gray-100 border-b mb-4 w-full max-w-4xl h-48 overflow-y-auto">
-//         {hoveredNodeData ? (
-//           <div>
-//             <h3 className="font-bold text-lg mb-2">Node Data:</h3>
-//             {Object.entries(hoveredNodeData).map(([key, value]) => (
-//               <div key={key} className="mb-1">
-//                 <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value) : value}
-//               </div>
-//             ))}
-//           </div>
-//         ) : (
-//           <div className="text-gray-500 italic h-full flex">Hover over a node to see details</div>
-//         )}
-//       </div>
-      
-
-//       <div className="flex-grow w-full max-w-5xl">
-//         <svg ref={svgRef} className="w-full h-full"></svg>
-//       </div>
-//     </div>
-//   );
-// };
-
-//export default ParseTree;
 
 // --- //
 
@@ -611,6 +627,7 @@ node.append('circle')
 
   return (
     <div className="flex flex-col items-center w-full h-screen bg-white-200">
+      
       <div className="p-4 bg-gray-100 border-b mb-4 w-full max-w-4xl">
         <h2 className="font-bold text-xl mb-2">Original Sentence:</h2>
         <p className="mb-1">{data.value}</p>
@@ -646,14 +663,26 @@ node.append('circle')
 
 
 
+// --- //
 
 
 
+// import React from 'react';
+// import ParseTree from '../components/ParseTree';
 
+// const HomePage = () => {
 
+//   return (
+//     <div className="p-8 bg-gray-50 min-h-screen">
+//       <h1 className="text-2xl font-bold text-center mb-8">Japanese Parse Tree Visualization (like mirinae.io)</h1>
+//       <div className="flex justify-center">
+//         <ParseTree data={data} />
+//       </div>
+//     </div>
+//   );
+// };
 
-
-
+// export default HomePage;
 
 
 
@@ -889,196 +918,10 @@ node.append('circle')
 
 
 
-//   const data = {
-//     "type": "root",
-//     "value": "昨日、私は学校で友達と一緒に宿題をしました",
-//     "children": [
-//       {
-//         "type": "adverbial",
-//         "value": "昨日"
-//       },
-//       {
-//         "type": "subject",
-//         "value": "私は",
-//         "children": [
-//           {
-//             "type": "pronoun",
-//             "value": "私"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "は"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "locative",
-//         "value": "学校で",
-//         "children": [
-//           {
-//             "type": "noun",
-//             "value": "学校"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "で"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "conjunction_phrase",
-//         "value": "友達と一緒に",
-//         "children": [
-//           {
-//             "type": "noun",
-//             "value": "友達"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "と"
-//           },
-//           {
-//             "type": "adverb",
-//             "value": "一緒に"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "object",
-//         "value": "宿題を",
-//         "children": [
-//           {
-//             "type": "noun",
-//             "value": "宿題"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "を"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "predicate",
-//         "value": "しました",
-//         "children": [
-//           {
-//             "type": "verb_stem",
-//             "value": "し"
-//           },
-//           {
-//             "type": "suffix",
-//             "value": "ました"
-//           }
-//         ]
-//       }
-//     ]
-//   }
+
   
 
-// const data = {
-//     "type": "root",
-//     "value": "先週、彼は東京のカフェで新しい本を読んで、友達と会う予定です。",
-//     "children": [
-//       {
-//         "type": "adverbial",
-//         "value": "先週"
-//       },
-//       {
-//         "type": "subject",
-//         "value": "彼は",
-//         "children": [
-//           {
-//             "type": "pronoun",
-//             "value": "彼"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "は"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "locative",
-//         "value": "東京のカフェで",
-//         "children": [
-//           {
-//             "type": "noun",
-//             "value": "東京"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "の"
-//           },
-//           {
-//             "type": "noun",
-//             "value": "カフェ"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "で"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "object",
-//         "value": "新しい本を",
-//         "children": [
-//           {
-//             "type": "adjective",
-//             "value": "新しい"
-//           },
-//           {
-//             "type": "noun",
-//             "value": "本"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "を"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "predicate",
-//         "value": "読んで",
-//         "children": [
-//           {
-//             "type": "verb_stem",
-//             "value": "読ん"
-//           },
-//           {
-//             "type": "suffix",
-//             "value": "で"
-//           }
-//         ]
-//       },
-//       {
-//         "type": "conjunction_phrase",
-//         "value": "友達と会う予定です",
-//         "children": [
-//           {
-//             "type": "noun",
-//             "value": "友達"
-//           },
-//           {
-//             "type": "particle",
-//             "value": "と"
-//           },
-//           {
-//             "type": "verb_stem",
-//             "value": "会う"
-//           },
-//           {
-//             "type": "noun",
-//             "value": "予定"
-//           },
-//           {
-//             "type": "suffix",
-//             "value": "です"
-//           }
-//         ]
-//       }
-//     ]
-//   }
+
   
 
 
@@ -1599,7 +1442,150 @@ node.append('circle')
 
 
 
+// import React, { useEffect, useRef, useState } from 'react';
+// import * as d3 from 'd3';
 
+// const ParseTree = ({ data }) => {
+//   const svgRef = useRef();
+//   const [hoveredNodeData, setHoveredNodeData] = useState(null); // State to hold hovered node data
+
+//   useEffect(() => {
+//     const margin = { top: 20, right: 120, bottom: 20, left: 200 };
+//     const width = 1200 - margin.right - margin.left;  // Adjusted width for more horizontal space
+//     const height = 800 - margin.top - margin.bottom;  // Adjusted height for a better aspect ratio
+
+//     // Clear any existing SVG elements before rendering
+//     d3.select(svgRef.current).selectAll('*').remove();
+
+//     const svg = d3.select(svgRef.current)
+//       .attr('viewBox', `0 0 ${width + margin.right + margin.left} ${height + margin.top + margin.bottom}`)
+//       .attr('preserveAspectRatio', 'xMidYMid meet')  // Ensure the SVG scales while maintaining aspect ratio
+//       .attr('width', '100%')
+//       .attr('height', '100%')
+//       .style('font', '12px sans-serif')
+//       .append('g')
+//       .attr('transform', `translate(${margin.left},${margin.top})`);
+
+//     // Tree layout with decreased horizontal spacing
+//     const treeLayout = d3.tree().size([height, width / 1.5]);
+
+//     const root = d3.hierarchy(data);
+//     treeLayout(root);
+
+//     // Links (branches)
+//     svg.selectAll('.link')
+//       .data(root.links())
+//       .enter()
+//       .append('path')
+//       .attr('class', 'link')
+//       .attr('d', d3.linkHorizontal().x(d => d.y * 0.8).y(d => d.x + 40))
+//       .attr('stroke', d => d.target.depth === 0 ? '#1f77b4' : '#94a3b8')
+//       .attr('stroke-width', 2)
+//       .attr('fill', 'none')
+//       .attr('stroke-opacity', 0.6);
+
+//     // Nodes (circles + text)
+//     const node = svg.selectAll('.node')
+//       .data(root.descendants())
+//       .enter()
+//       .append('g')
+//       .attr('class', 'node')
+//       .attr('transform', d => `translate(${d.y * 0.8},${d.x + 40})`)  // Decreased horizontal spacing
+//       .on('mouseover', function (event, d) {
+//         d3.select(this).select('circle').transition().duration(200)
+//           .attr('r', 10)
+//           .attr('fill', '#ff7f0e');
+//         d3.select(this).selectAll('text').transition().duration(200)
+//           .style('font-weight', 'bold')
+//           .style('fill', '#ff7f0e');  // Change text color on hover
+
+//         // Extract only direct data (no children)
+//         const { children, ...nodeData } = d.data;
+//         setHoveredNodeData(nodeData);  // Update the state with hovered node data
+//       })
+//       .on('mouseout', function () {
+//         d3.select(this).select('circle').transition().duration(200)
+//           .attr('r', 6)
+//           .attr('fill', d => d.depth === 0 ? '#1f77b4' : '#4daf4a');
+//         d3.select(this).selectAll('text').transition().duration(200)
+//           .style('font-weight', 'normal')
+//           .style('fill', '#333');  // Revert text color on mouseout
+//         setHoveredNodeData(null);  // Clear the state when the mouse leaves the node
+//       });
+
+//     node.append('circle')
+//       .attr('r', 6)
+//       .attr('fill', d => d.depth === 0 ? '#1f77b4' : '#4daf4a')
+//       .attr('stroke', '#555')
+//       .attr('stroke-width', 2);
+
+//     // Skip displaying the value for the root node
+//     node.append('text')
+//       .attr('dy', d => d.children ? '-1.5em' : '.35em')  // Position text above parent nodes
+//       .attr('x', d => (d.children ? -10 : 10))  // Position text to the left of parent nodes and to the right of leaf nodes
+//       .attr('text-anchor', d => d.children ? 'end' : 'start')  // Adjust text alignment
+//       .attr('class', d => d.children ? 'text-right text-gray-700' : 'text-left text-gray-700')
+//       .text(d => d.depth === 0 ? '' : `${d.data.value}`)  // Exclude value for the root node
+//       .attr('font-size', '12px')
+//       .attr('font-family', 'sans-serif')
+//       .style('fill', '#333');  // Ensure consistent text color
+
+//     // Adding the translation below the original text
+//     node.append('text')
+//       .attr('dy', d => d.children ? '-.5em' : '1.5em')  // Position translation below the original text
+//       .attr('x', d => (d.children ? -10 : 10))  // Align translation text similarly
+//       .attr('text-anchor', d => d.children ? 'end' : 'start')  // Adjust text alignment
+//       .attr('class', d => d.children ? 'text-right text-gray-500 italic' : 'text-left text-gray-500 italic')
+//       .text(d => d.depth === 0 ? '' : d.data.translation ? `(${d.data.translation})` : '')  // Exclude translation for the root node
+//       .attr('font-size', '10px')
+//       .attr('font-family', 'sans-serif')
+//       .style('fill', '#555');  // Lighter color for translations
+
+//     // Adding Zoom and Pan functionality
+//     const zoom = d3.zoom()
+//       .scaleExtent([0.5, 2])
+//       .on('zoom', (event) => {
+//         svg.attr('transform', event.transform);
+//       });
+
+//     d3.select(svgRef.current).call(zoom);
+
+//   }, [data]);
+
+//   return (
+//     <div className="flex flex-col items-center w-full h-screen bg-slate-100">
+
+//       <div className="p-4 bg-gray-100 border-b mb-4 w-full max-w-4xl">
+//         <h2 className="font-bold text-xl mb-2">Original Sentence:</h2>
+//         <p className="mb-1">{data.value}</p>
+//         <h2 className="font-bold text-xl mb-2">Translation:</h2>
+//         <p>{data.translation}</p>
+//       </div>     
+
+//       <div className="p-4 bg-gray-100 border-b mb-4 w-full max-w-4xl h-48 overflow-y-auto">
+//         {hoveredNodeData ? (
+//           <div>
+//             <h3 className="font-bold text-lg mb-2">Node Data:</h3>
+//             {Object.entries(hoveredNodeData).map(([key, value]) => (
+//               <div key={key} className="mb-1">
+//                 <strong>{key}:</strong> {typeof value === 'object' ? JSON.stringify(value) : value}
+//               </div>
+//             ))}
+//           </div>
+//         ) : (
+//           <div className="text-gray-500 italic h-full flex">Hover over a node to see details</div>
+//         )}
+//       </div>
+      
+
+//       <div className="flex-grow w-full max-w-5xl">
+//         <svg ref={svgRef} className="w-full h-full"></svg>
+//       </div>
+//     </div>
+//   );
+// };
+
+//export default ParseTree;
 
 
 

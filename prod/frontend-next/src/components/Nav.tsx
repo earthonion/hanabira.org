@@ -21,7 +21,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="hidden lg:block py-4 lg:p-7 flex flex-col items-center w-full bg-white dark:bg-zinc-400 sticky top-0 z-50 mr-0 bg-opacity-95">
+    <div className="hidden lg:block py-4 lg:p-1 flex flex-col items-center w-full bg-white dark:bg-zinc-400 sticky top-0 z-50 mr-0 bg-opacity-95">
       <div className="w-12/12 flex items-center justify-between">
         <div className="flex items-center">
           <div className="hidden lg:flex ml-20">
@@ -43,7 +43,7 @@ export default function Nav() {
             </Link>
 
             <Link
-              href="/features"
+              href="/"
               className="mr-10 hover:text-gray-800 dark:hover:text-gray-600 font-medium"
             >
               {" "}
@@ -142,65 +142,6 @@ export default function Nav() {
     </div>
   );
 }
-
-// export default function Nav() {
-//   const [active, setActive] = useState(false);
-//   const showMenu = () => {
-//     setActive(!active);
-//   };
-//   return (
-//     <div className="hidden lg:block py-4 lg:p-7 flex flex-col items-center w-full bg-white sticky top-0">
-//       <div className="w-12/12 flex items-center justify-between">
-//         <div className="flex items-center">
-//           <div className="hidden lg:flex ml-20">
-//             <Link href="/" className="mr-10 hover:text-primary font-medium"> Home </Link>
-//             {/* <Link href="/" className="mr-10 hover:text-primary font-medium"> Pricing </Link> */}
-//             {/* <Link href="/" className="mr-10 hover:text-primary font-medium"> Features </Link> */}
-//             {/* <Link href="/" className="mr-10 hover:text-primary font-medium"> Community </Link> */}
-//             <Link href="/blog" className="mr-10 hover:text-primary font-medium"> Blog </Link>
-//             {/* <Link href="/articles" className="mr-10 hover:text-primary font-medium"> Articles </Link> */}
-//           </div>
-//         </div>
-//         <div className="hidden lg:flex">
-//           {/* <Link href="/" className="py-3 px-8 mr-6 border text-primary font-medium border-primary rounded-md"> Login </Link> */}
-//           {/* <Link href="/" className="py-3 px-8 border text-white bg-primary font-medium border-primary rounded-md"> Free Trial </Link> */}
-//           <BuyMeACoffeeButton />
-//         <div>
-
-//         </div>
-
-//         </div>
-//         <button onClick={showMenu} className="block text-primary text-lg font-bold lg:hidden focus:outline-none">
-//           {active ? "CLOSE" : "MENU"}
-//         </button>
-//       </div>
-
-//       <div
-//         id="menu"
-//         className={
-//           active
-//             ? "fixed lg:hidden bg-white p-1 mt-8 text-xl w-10/12  text-black rounded-lg flex-auto h-screen"
-//             : "hidden"
-//         }
-//       >
-//         <div className="flex flex-col justify-center text-start mt-6">
-//           <div className="flex flex-col justify-center text-start mt-6">
-//             <Link onClick={showMenu} className="border-b py-4" href="/"> Home </Link>
-//             {/* <Link onClick={showMenu} className="border-b py-4" to="/"> Pricing </Link> */}
-//             <Link onClick={showMenu} className="border-b py-4" href="/"> Features </Link>
-//             <Link onClick={showMenu} className="border-b py-4" href="/"> Community </Link>
-//             <Link onClick={showMenu} className="border-b py-4" href="/blog"> Blog </Link>
-//             <div className="flex flex-col text-center mt-16">
-//               <Link href="/" className="py-3 px-8 border text-primary font-medium border-primary rounded-md"> Login </Link>
-//               <Link href="/" className="py-3 px-8 mt-5 border text-white bg-primary font-medium border-primary rounded-md"> Free Trial </Link>
-//               <BuyMeACoffeeButton />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 // good version
 const BuyMeACoffeeButton: React.FC = () => {

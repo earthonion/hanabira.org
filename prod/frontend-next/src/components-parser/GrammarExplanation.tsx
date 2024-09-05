@@ -116,7 +116,7 @@ interface DisplayWordProps {
           >
             {loading
               ? "Generating..."
-              : "Generate Explanation with GPT ($$$ costs real money $$$)"}
+              : "Generate Explanation with GPT"}
           </button>
         )}
       </div>
